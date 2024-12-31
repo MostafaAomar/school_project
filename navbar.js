@@ -28,6 +28,7 @@ async function search() {
         { name: 'quiz6 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz6.html' }
     ];
 
+
     let hasResults = false;
 
     for (const page of pages) {
