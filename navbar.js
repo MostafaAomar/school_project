@@ -18,14 +18,14 @@ async function search() {
     };
 
     const pages = [
-        { name: 'high_school Page', url: '/high_school/high_school.html' },
-        { name: 'index Page', url: '/index.html' },
-        { name: 'quiz1 Page', url: '/high_school/quizes/quiz1.html' },
-        { name: 'quiz2 Page', url: '/high_school/quizes/quiz2.html' },
-        { name: 'quiz3 Page', url: '/high_school/quizes/quiz3.html' },
-        { name: 'quiz4 Page', url: '/high_school/quizes/quiz4.html' },
-        { name: 'quiz5 Page', url: '/high_school/quizes/quiz5.html' },
-        { name: 'quiz6 Page', url: '/high_school/quizes/quiz6.html' }
+        { name: 'high_school Page', url: 'https://mostafaaomar.github.io/school_project/high_school/high_school.html' },
+        { name: 'index Page', url: 'https://mostafaaomar.github.io/school_project/index.html' },
+        { name: 'quiz1 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz1.html' },
+        { name: 'quiz2 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz2.html' },
+        { name: 'quiz3 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz3.html' },
+        { name: 'quiz4 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz4.html' },
+        { name: 'quiz5 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz5.html' },
+        { name: 'quiz6 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz6.html' }
     ];
 
     let hasResults = false;
