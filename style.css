@@ -57,3 +57,18 @@ span > a > img {
 h1{
   text-align: center;
 }
+.test{
+  font-size: 20px;
+  color: red;
+  animation: blink 3s infinite;
+  background: white;
+}
+
+@keyframes blink {
+  0%, 49% {
+    visibility: visible;
+  }
+  50%, 100% {
+    visibility: hidden;
+  }
+}
