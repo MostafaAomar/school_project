@@ -1,208 +1,115 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>English Learning</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-  <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Unna&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <style>
-    body {
-      font: 20px "Montserrat", sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-      font-weight: 500;
-
-    }
-
-    p {
-      font-size: 16px;
-
-    }
-
-    .margin {
-      margin-bottom: 45px;
-    }
-
-    .bg-1 {
-      background-color: #1abc9c;
-      color: #ffffff;
-    }
-
-    .bg-2 {
-      background-color: #474e5d;
-      color: #ffffff;
-    }
-
-
-
-    .bg-4 {
-      background-color: #2f2f2f;
-      color: #ffffff;
-    }
-
-    .container-fluid {
-      padding-top:  20px;
-      padding-bottom: 70px;
-    }
-
-    .navbar {
-      padding-top:  15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 20px;
-    }
-
-    .navbar-nav li a:hover {
-      background-color: red;
-    }
-
-  </style>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
-  <!-- Navbar Section-->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand glyphicon glyphicon-home"  href="index.html"> Home </a>
-      </div>
-      <div class=" collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right text-right">
-            <li><a href="abitur.html"> بكالوريا</a></li>
-            <li><a href="https://www.youtube.com/watch?v=fNbBkVe5eNY&list=PLOojC9cDjLdXvXDHHpl6QxCS-0Ql1bX0Q"> تاسع</a></li>
-            <li><a href="https://www.youtube.com/watch?v=J4_qBP-yP5o&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT">قواعد انكليزي </a></li>
-            <li><a href="https://www.youtube.com/watch?v=Zr8KZj3o09I&list=PLOojC9cDjLdWxIJKLBwd2hYk12EdmVLg2"> تعلم المحادثة معي</a></li>
-            <li><a href="https://www.youtube.com/watch?v=ncKRByTBwu0&list=PLOojC9cDjLdXvZJ5wy_k4LDmXmdnUKu9i"> اعمالي </a></li>
-            <li><a href="https://www.youtube.com/watch?v=VNZiEqb6wDA&list=PLOojC9cDjLdVnlt-NBQbZokaxwb5TGD_Q">فيديوهات مفيدة </a></li>
-          </ul>
-      </div>
+      <!-- Navbar Brand -->
+      <div class="searchbar">
+        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off">
+        <div id="results"></div>
     </div>
-</nav>
+      <!-- Navbar Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <!-- Body Section-->
-
-  <div class="container-fluid bg-1 text-left">
-    <div class="row">
-      <div class="col-sm-6">
-        <h1>كتب الكترونية</h1>
-        <ul>
-          <li><a href="https://drive.google.com/file/d/1xdA2fNbJb7kqC0Svo97b0CyjzWzeT6ii/view?usp=sharing">ملخض القواعد</a></li>
-          <li><a href="https://drive.google.com/file/d/1VtRofDQeK8u-5Et80VaOxPYm6GPxkFwb/view?usp=sharing">روابط الفيديوهات على قناتي</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUE4x4RgFN14MAZ9HhRoeZMELG_2tkIKR0KkIOOtU4rcpiNg/viewform">اختبر معلوماتك </a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScucONHjtB4c7tpAYrxtVKDE_DVOEnp0dCpJkkpkwvNcwkvxw/viewform">فحص ماضي بسيط</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxW6bJACkvDkEIEBgt4eLZmitjjawZOhJpCDX3OE33hn8jMw/viewform">فحص الحاضر البسيط والمستمر</a></li>
-          <li><a href=" https://docs.google.com/forms/d/e/1FAIpQLSewoGTfAXM_hfml7LMvATHdfbV6ldd1u5pDgh4KU5_dfTyu8w/viewform">فحص الحاضر المستمر</a></li>
-          <li><a href="https://drive.google.com/file/d/1sIFjyjKd4xewMzTyhPgyk0qR9RCQ1jYT/view?usp=sharing">الافعال الشاذة</a></li>
-          <li><a href="https://drive.google.com/file/d/1wDmHgW5b5Zk2iXOhYiMhJHuA5mRHKTcX/view?usp=sharing">أشباه الجمل الفعلية<a></li>
-          
-
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScAn3bbwlh-hnCRorzn3b5c_JtOwUgMUvplxb4JNYKFL7eaFg/viewform">TOEFL TEST 1</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfESbGLgwq4Ty4rNl3ARRM4hUbfSST46RurrTB3GMgLPXkJRg/viewform">TOEFL TEST 2 </a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSciVvy6P00tghIEUIGrwq_1mmUKVUob9nVdWUsaVbtLrd3tbA/viewform">TOEFL TEST 3 </a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScvihQXVfkryBAY9GeteUxBIn43TYHQVllG7uapjNmhuPLs-A/viewform">TOEFL TEST 4</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSevMqfJ9vH3vtPF4Vo8cXMaGVHjG8XsmuZJLpGfjpR4LMkMhA/viewform">TOEFL TEST 5 </a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScJUsdUnEdsr1PC90GQU2Q4iiY02-fxnuONm6HifeYZiNxMsg/viewform">TOEFL TEST 6 </a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScIhMHLV8vOaj_mbutDQklvOWtxXYjZbNmVseDzVTzKO6BoXw/viewform">TOEFL TEST 7 </a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd0FzXu0FspIhLstbFXZ0cCQNyQN6rOTYe8zCqu6DP988eHGg/viewform">TOEFL TEST 8 </a></li>
-
-          <!-- <li><a href="https://drive.google.com/file/d/1zfIzTRJOJZu3mLzii4npBe2U4JJNvlrB/view?usp=sharing">Free English Grammer</a></li>
-          <li><a href="https://drive.google.com/file/d/1u3dqOGVc_JKwD6UXO_ylV67eQ7HTj9Wz/view?usp=sharing">English garmmer in use 4th</a></li>
-          <li><a href="https://drive.google.com/file/d/1N59rI0kXTrluOh3fZKQK9IrxY4mgRG-m/view?usp=sharing">Advanced grammer in use</a></li>
-          <li><a href="https://drive.google.com/file/d/1ffIT7k-zOr-UdFArX8CA0N4zssmN5E8t/view?usp=sharing">Longman Advanced grammer</a></li>
-          <li><a href="https://drive.google.com/file/d/1OcPy18FBM64kNBa8YYJ0uJOzy2x8GWet/view?usp=sharing">Essential grammer in use 2nd</a></li>
-          <li><a href="https://drive.google.com/file/d/1y72yuyhEe87vyPsjy46nBhMXWMw7ijmv/view?usp=sharing">Essential grammer in use 4th</a></li>
-          <li><a href="https://drive.google.com/file/d/15DxhfGkx8PTcPiwz0DM8PpmF8tId7FUY/view?usp=sharing">Essential grammer in use 3rd</a></li>
-          <li><a href="https://drive.google.com/file/d/1v7HiWUuRG-qJVghn0KNswpBR860WDDSL/view?usp=sharing">English Phrases for Everyday Speaking</a></li>
-          <li><a href="https://drive.google.com/file/d/1PGARsWzAXdVFkZ_AG_Yy2zeargNpROL1/view?usp=sharing">Business Vocabulary in Use</a></li>
-          <li><a href="https://drive.google.com/file/d/103ITUoxQQFvYSWDn9gB-nwT3YSY7UlOt/view?usp=sharing">English Vocabulary in use</a></li>
-          <li><a href="https://drive.google.com/file/d/1Cu0lbOeVT1gxAG1HLxBqtrrZ03VbOh5F/view?usp=sharing">English in use upper-intermediate</a></li>
-          <li><a href="https://drive.google.com/file/d/1cr_ZHTXyZZIlZYzPMyv--9VwotGaas1Z/view?usp=sharing">Advanced Grammar in Use Advanced</a></li>
-          <li><a href="https://drive.google.com/file/d/19wmzaiITosFIQ88Sld__rrZqCOKSeAoo/view?usp=sharing">Advanced Grammar</a></li>
-          <li><a href="https://drive.google.com/file/d/1cgRHndZFtg7avnLqvWqHi6AsVoOs1pkP/view?usp=sharing">Practical English grammer 2</a></li>
-          <li><a href="https://drive.google.com/file/d/1nq5nwFVdjjmI7xglNBwP3eMjHoLwLW9H/view?usp=sharing">Practical English grammer 1</a></li>
-          <li><a href="https://drive.google.com/file/d/1uQLCeQUDU6XzSLnD8yy0gj8pUh18UCqL/view?usp=sharing">Practical English grammer 4th</a></li>
-          <li><a href="https://drive.google.com/file/d/1o_Dgy69EiCNQ7QunBLuHvPVq5IYIyEXi/view?usp=sharing">Check your Vocabulary</a></li> -->
-
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./high_school/high_school.html">بكالوريا</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=fNbBkVe5eNY&list=PLOojC9cDjLdXvXDHHpl6QxCS-0Ql1bX0Q">تاسع</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=J4_qBP-yP5o&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT">قواعد انكليزي</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=Zr8KZj3o09I&list=PLOojC9cDjLdWxIJKLBwd2hYk12EdmVLg2">تعلم المحادثة معي</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=VNZiEqb6wDA&list=PLOojC9cDjLdVnlt-NBQbZokaxwb5TGD_Q">فيديوهات مفيدة</a></li>
         </ul>
-
       </div>
+    </div>
+  </nav>
 
-      <div class=" col-sm-6">
-        <div class="rightside" style="padding:20px;">
+<!-- Body Section-->
 
+    <div class="container-fluid  bg-1">
+      <div class="row">
+          <div class="col-sm-6">
+            <h1>كتب الكترونية</h1>
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1xdA2fNbJb7kqC0Svo97b0CyjzWzeT6ii/view?usp=sharing">ملخض القواعد</a></li>
+              <li><a href="https://drive.google.com/file/d/1VtRofDQeK8u-5Et80VaOxPYm6GPxkFwb/view?usp=sharing">روابط الفيديوهات على قناتي</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUE4x4RgFN14MAZ9HhRoeZMELG_2tkIKR0KkIOOtU4rcpiNg/viewform">اختبر معلوماتك </a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScucONHjtB4c7tpAYrxtVKDE_DVOEnp0dCpJkkpkwvNcwkvxw/viewform">فحص ماضي بسيط</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxW6bJACkvDkEIEBgt4eLZmitjjawZOhJpCDX3OE33hn8jMw/viewform">فحص الحاضر البسيط والمستمر</a></li>
+              <li><a href=" https://docs.google.com/forms/d/e/1FAIpQLSewoGTfAXM_hfml7LMvATHdfbV6ldd1u5pDgh4KU5_dfTyu8w/viewform">فحص الحاضر المستمر</a></li>
+              <li><a href="https://drive.google.com/file/d/1sIFjyjKd4xewMzTyhPgyk0qR9RCQ1jYT/view?usp=sharing">الافعال الشاذة</a></li>
+              <li><a href="https://drive.google.com/file/d/1wDmHgW5b5Zk2iXOhYiMhJHuA5mRHKTcX/view?usp=sharing">أشباه الجمل الفعلية</a></li>
+            </ul>
+          </div>
 
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="1.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="2.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="3.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="4.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="5.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="6.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="7.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="8.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="9.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="10.jpg" alt="" />
-        <img class="pic img-responsive width:100% img-circle" style="display:inline" src="11.jpg" alt="" />
-        <script>
-          var rightside = 0;
-          carousel();
+          <div class="col-sm-6 rightside">
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/1.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/2.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/3.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/4.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/5.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/6.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/7.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/8.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/9.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/10.jpg" alt="" />
+            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/11.jpg" alt="" />
+            <script>
+              var rightside = 0;
+              carousel();
 
-          function carousel() {
-            var i;
-            var x = document.getElementsByClassName("pic");
-            for (i = 0; i < 11; i++) {
-              x[i].style.display = "none";
-            }
-            rightside++;
-            if (rightside > 11) {
-              rightside = 1
-            }
-            x[rightside - 1].style.display = "inline-block";
-            setTimeout(carousel, 2000);
-          }
-        </script>
-        </div>
-
-      </div>
-      </div>
-  </div>
-  <div class="container-fluid bg-2 text-center">
-    <h1>للتواصل معي عن طريق</h1>
-    <div class="row">
-      <div class="col-sm-4">
-        <span><a href="https://www.facebook.com/English-Learning-101213778080941">Facebook</a></span>
-      </div>
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-envelope logo-small"><a href="#">  E-Mail</a></span>
-      </div>
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-send logo-small"><a href="https://web.telegram.org/#/im?p=@MostafaAlomar">  Telegram</a></span>
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("pic");
+                for (i = 0; i < 11; i++) {
+                  x[i].style.display = "none";
+                }
+                rightside++;
+                if (rightside > 11) {
+                  rightside = 1
+                }
+                x[rightside - 1].style.display = "inline-block";
+                setTimeout(carousel, 2000);
+              }
+            </script>
+          </div>
       </div>
     </div>
 
-
-
-
-  </div>
-  <footer class="container-fluid bg-4 text-center padding-top= " 20px"">
-    <p>
-      This Page made by<a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og"> Mostafa Alomar </a>
-    </p>
-  </footer>
+    <div class="container-fluid bg-2">
+      <h1>للتواصل معي عن طريق</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <span><a href="https://www.facebook.com/English-Learning-101213778080941">
+            <img src="./images/facebook.png" alt="Facebook">
+          </a></span>
+        </div>
+        <div class="col-sm-6">
+          <span class="glyphicon glyphicon-send logo-small"><a href="https://web.telegram.org/#/im?p=@MostafaAlomar">
+            <img src="./images/telegram.png" alt="telegram">
+          </a></span>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="container-fluid bg-3">
+      <p>This Page made by</p>
+      <span><a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og"> Mostafa Alomar </a></span>      
+    </footer>  
+    <script src="./navbar.js"></script>
 </body>
-
 </html>
