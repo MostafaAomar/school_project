@@ -64,13 +64,23 @@
     </div>
     <!-- (B) QUIZ CONTAINER -->
     <div id="quizWrap"></div>
-
-    <footer class="container-fluid bg-4">
+    <div class="container-fluid bg-2">
+      <h3>قاموس انكليزي - انكليزي</h3>
+      <div class="row">        
+        <div class=" dictionary">
+          <input type="text" id="wordInput" placeholder="Enter a word" autocomplete="off" oninput="fetchDefinition()">
+          <div id="output">            
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid bg-footer">
       <span><a href="https://www.youtube.com/watch?v=GfgpC3LUPaM&list=PLOojC9cDjLdU972d5o4r4dANWH6ZUzpck&index=4">طريقة حل القسم الثاني من الاسئلة</a></span>
       <p>This Page made by</p>
       <span><a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og"> Mostafa Alomar </a></span>      
     </footer>  
     <script src="../../navbar.js"></script>
     <script src="./quiz-1.js"></script>
+    <script src="../../translator.js"></script>
   </body>
 </html>

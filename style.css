@@ -9,7 +9,10 @@ img {
   background-color: #1abc9c;
   color: #ffffff;
 }
-.bg-2 {
+.bg-2 > h3{
+  text-align: center;
+}
+.bg-contact {
   background-color: #474e5d;
   color: #ffffff;
   text-align: center;
@@ -18,10 +21,10 @@ img {
 span > a{
   text-decoration: none;
 }
-.bg-3 {
+.bg-footer {
   background-color: #2f2f2f;
   color: #ffffff;
-  height: 10vh;
+  height: 15vh;
   text-align: center;
 }
 ul {
@@ -71,4 +74,18 @@ h1{
   50%, 100% {
     visibility: hidden;
   }
+}
+
+
+
+.dictionary input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.definition {
+  margin-bottom: 20px;
+}
+.audio {
+  margin-top: 10px;
 }

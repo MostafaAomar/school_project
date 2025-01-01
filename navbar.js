@@ -18,16 +18,15 @@ async function search() {
     };
 
     const pages = [
-        { name: 'high_school Page', url: 'https://mostafaaomar.github.io/school_project/high_school/high_school.html' },
-        { name: 'index Page', url: 'https://mostafaaomar.github.io/school_project/index.html' },
-        { name: 'quiz1 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz1.html' },
-        { name: 'quiz2 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz2.html' },
-        { name: 'quiz3 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz3.html' },
-        { name: 'quiz4 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz4.html' },
-        { name: 'quiz5 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz5.html' },
-        { name: 'quiz6 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz6.html' }
+        { name: 'index Page', url: './index.html' },
+        { name: 'high_school Page', url: './high_school/high_school.html' },        
+        { name: 'quiz1 Page', url: './high_school/quizes/quiz1.html' },
+        { name: 'quiz2 Page', url: './high_school/quizes/quiz2.html' },
+        { name: 'quiz3 Page', url: './high_school/quizes/quiz3.html' },
+        { name: 'quiz4 Page', url: './high_school/quizes/quiz4.html' },
+        { name: 'quiz5 Page', url: './high_school/quizes/quiz5.html' },
+        { name: 'quiz6 Page', url: './high_school/quizes/quiz6.html' }
     ];
-
 
     let hasResults = false;
 
@@ -58,7 +57,7 @@ async function search() {
                     resultItem.className = "result-item";
                     resultItem.textContent = sentence.trim();
                     resultItem.addEventListener("click", () => {
-                        window.location.href = `${page.url}#highlight=${encodeURIComponent(searchTerm)}`;
+                        window.location.href = page.url;
                     });
                     resultsDiv.appendChild(resultItem);
                     hasResults = true;
@@ -94,16 +93,7 @@ document.getElementById('searchInput').addEventListener('focus', () => {
     }
 });
 
-    
 
-
-
-
-
-
-
-
-//##############################################################################################
 // async function search() {
 //     const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
 //     const resultsDiv = document.getElementById('results');
@@ -114,16 +104,26 @@ document.getElementById('searchInput').addEventListener('focus', () => {
 //         return;
 //     }
 
+//     // Arabic Normalization Function
+//     const normalizeArabic = (text) => {
+//         return text
+//             .replace(/[\u064B-\u065F]/g, '') // Remove Arabic diacritics
+//             .replace(/أ|إ|آ/g, 'ا') // Normalize Alif variants
+//             .replace(/ة/g, 'ه') // Normalize Ta Marbuta
+//             .replace(/ى/g, 'ي'); // Normalize Alef Maqsura
+//     };
+
 //     const pages = [
-//         { name: 'high_school Page', url: './high_school/high_school.html' },
-//         { name: 'index Page', url: './index.html' },
-//         { name: 'unit-1 Page', url: './high_school/quizes/quiz1.html' },
-//         { name: 'unit-2 Page', url: './high_school/quizes/quiz2.html' },
-//         { name: 'unit-3 Page', url: './high_school/quizes/quiz3.html' },
-//         { name: 'unit-4 Page', url: './high_school/quizes/quiz4.html' },
-//         { name: 'unit-4 Page', url: './high_school/quizes/quiz5.html' },
-//         { name: 'unit-4 Page', url: './high_school/quizes/quiz6.html' }
+//         { name: 'high_school Page', url: 'https://mostafaaomar.github.io/school_project/high_school/high_school.html' },
+//         { name: 'index Page', url: 'https://mostafaaomar.github.io/school_project/index.html' },
+//         { name: 'quiz1 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz1.html' },
+//         { name: 'quiz2 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz2.html' },
+//         { name: 'quiz3 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz3.html' },
+//         { name: 'quiz4 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz4.html' },
+//         { name: 'quiz5 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz5.html' },
+//         { name: 'quiz6 Page', url: 'https://mostafaaomar.github.io/school_project/high_school/quizes/quiz6.html' }
 //     ];
+
 
 //     let hasResults = false;
 
@@ -131,8 +131,11 @@ document.getElementById('searchInput').addEventListener('focus', () => {
 //         try {
 //             const response = await fetch(page.url);
 //             if (!response.ok) throw new Error(`Failed to fetch ${page.url}`);
+            
+//             console.log(`Fetched: ${page.url}`);
+            
 //             let text = await response.text();
-//             text = text.replace(/<script[\s\S]*?<\/script>/gi, "");
+//             text = text.replace(/<script[\s\S]*?<\/script>/gi, ""); // Remove scripts
 
 //             const parser = new DOMParser();
 //             const doc = parser.parseFromString(text, 'text/html');
@@ -140,10 +143,13 @@ document.getElementById('searchInput').addEventListener('focus', () => {
 //             if (navbar) navbar.remove();
 
 //             const content = doc.body.textContent || "";
-//             const sentences = content.split(/[.!?]/);
+//             const normalizedContent = normalizeArabic(content.toLowerCase());
+//             const normalizedSearchTerm = normalizeArabic(searchTerm);
+
+//             const sentences = normalizedContent.split(/[.!?]/);
 
 //             sentences.forEach(sentence => {
-//                 if (sentence.toLowerCase().includes(searchTerm)) {
+//                 if (sentence.includes(normalizedSearchTerm)) {
 //                     const resultItem = document.createElement("div");
 //                     resultItem.className = "result-item";
 //                     resultItem.textContent = sentence.trim();
@@ -166,7 +172,9 @@ document.getElementById('searchInput').addEventListener('focus', () => {
 //     resultsDiv.style.display = hasResults ? "block" : "none";
 // }
 
+// // Event listeners
 // document.getElementById('searchInput').addEventListener('input', search);
+
 // document.addEventListener('click', (event) => {
 //     const searchInput = document.getElementById('searchInput');
 //     const resultsDiv = document.getElementById('results');
@@ -174,6 +182,7 @@ document.getElementById('searchInput').addEventListener('focus', () => {
 //         resultsDiv.style.display = "none";
 //     }
 // });
+
 // document.getElementById('searchInput').addEventListener('focus', () => {
 //     const resultsDiv = document.getElementById('results');
 //     if (resultsDiv.innerHTML) {

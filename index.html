@@ -22,6 +22,7 @@
         <input type="search" id="searchInput" placeholder="Search..." autocomplete="off">
         <div id="results"></div>
     </div>
+    
       <!-- Navbar Toggler -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -91,9 +92,19 @@
           </div>
       </div>
     </div>
-
     <div class="container-fluid bg-2">
-      <h1>للتواصل معي عن طريق</h1>
+      <h3>قاموس انكليزي - انكليزي</h3>
+      <div class="row">        
+          <div class="dictionary">
+              <input type="text" id="wordInput" placeholder="Enter a word" autocomplete="off" oninput="fetchDefinition()">
+              <div id="output"></div>
+          </div>
+      </div>
+  </div>
+  
+
+    <div class="container-fluid bg-contact">
+      <h3>للتواصل معي عن طريق</h3>
       <div class="row">
         <div class="col-sm-6">
           <span><a href="https://www.facebook.com/English-Learning-101213778080941">
@@ -108,10 +119,11 @@
       </div>
     </div>
   
-    <footer class="container-fluid bg-3">
+    <footer class="container-fluid bg-footer">
       <p>This Page made by</p>
       <span><a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og"> Mostafa Alomar </a></span>      
     </footer>  
     <script src="./navbar.js"></script>
+    <script src="./translator.js"></script>
 </body>
 </html>

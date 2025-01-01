@@ -62,8 +62,17 @@
       </div>
     </div>
   </div>
-
   <div class="container-fluid bg-2">
+    <h3>قاموس انكليزي - انكليزي</h3>
+    <div class="row">        
+      <div class=" dictionary">
+        <input type="text" id="wordInput" placeholder="Enter a word" autocomplete="off" oninput="fetchDefinition()">
+        <div id="output">            
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-contact">
       <h1>للتواصل معي عن طريق</h1>
       <div class="row">
         <div class="col-sm-6">
@@ -78,10 +87,11 @@
         </div>
       </div>
   </div>
-  <footer class="container-fluid bg-3">
+  <footer class="container-fluid bg-footer">
     <p>This Page made by</p>
     <span><a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og"> Mostafa Alomar </a></span>      
   </footer>  
   <script src="../navbar.js"></script>
+  <script src="../translator.js"></script>
 </body>
 </html>
