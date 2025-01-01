@@ -9,7 +9,7 @@ async function fetchDefinition() {
 
     try {
         // Fetch from custom JSON file
-        const customResponse = await fetch('/myOwnDic.json');
+        const customResponse = await fetch('https://github.com/MostafaAomar/school_project/blob/main/myOwnDic.json');
         const customData = await customResponse.json();
         const customWord = customData.find(entry => entry.word.toLowerCase() === word.toLowerCase());
 
