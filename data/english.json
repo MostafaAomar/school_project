@@ -1,0 +1,83 @@
+{
+  "subjects": [
+    {
+            "id": "english",
+            "name": "انجليزي",
+            "icon": "https://fastly.picsum.photos/id/84/1280/848.jpg?hmac=YFRYDI4UsfbeTzI8ZakNOR98wVU7a-9a2tGF542539s",
+            "grades": [
+                {
+                    "id": "grade1",
+                    "name": "الصف الأول",
+                    "icon": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=100&h=100&fit=crop",
+                    "topics": [
+                        {
+                            "id": "plants",
+                            "name": "النباتات",
+                            "icon": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=100&h=100&fit=crop",
+                            "content": {
+                                "text": "في هذا الدرس سنتعلم عن أجزاء النبات باللغة الإنجليزية",
+                                "video": "https://www.youtube.com/embed/abc123",
+                                "audio": "audio/english-lesson1.mp3"
+                            },
+                            "questions": [
+                                {
+                                    "id": "q1",
+                                    "type": "choice",
+                                    "question": "ما هي أجزاء النبات الرئيسية؟",
+                                    "options": [
+                                        "الجذور والساق والأوراق",
+                                        "الأوراق فقط",
+                                        "الساق فقط",
+                                        "الجذور فقط"
+                                    ],
+                                    "correctAnswer": "الجذور والساق والأوراق"
+                                },
+                                {
+                                    "id": "q2",
+                                    "type": "missing-word",
+                                    "question": "أكمل الكلمة الناقصة: تمتص النباتات الماء من خلال _____",
+                                    "correctAnswer": "الجذور",
+                                    "hint": "الجزء الموجود تحت التربة"
+                                },
+                                {
+                                    "id": "q3",
+                                    "type": "dragdrop",
+                                    "question": "رتب مراحل نمو النبات",
+                                    "options": ["النبتة", "البذرة", "الزهرة", "البرعم"],
+                                    "correctAnswer": ["البذرة", "البرعم", "النبتة", "الزهرة"],
+                                    "hint": "فكر في دورة حياة النبات"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "grade2",
+                    "name": "الصف الثاني",
+                    "icon": "https://fastly.picsum.photos/id/82/1500/997.jpg?hmac=VcdCqu9YiLpbCtr8YowUCSUD3-245TGekiXmtiMXotw",
+                    "topics": [
+                        {
+                            "id": "animals",
+                            "name": "الحيوانات",
+                            "icon": "https://fastly.picsum.photos/id/102/1500/997.jpg?hmac=3D3F4F4F4F4F4F4F4F4F4F4F4F4F4F4F",
+                            "content": {
+                                "text": "في هذا الدرس سنتعلم عن أنواع الحيوانات",
+                                "video": "https://www.youtube.com/embed/def456",
+                                "audio": "audio/english-lesson2.mp3"
+                            },
+                            "questions": [
+                                {
+                                    "id": "q1",
+                                    "type": "choice",
+                                    "question": "أي من هذه حيوانات برية؟",
+                                    "options": ["الأسد", "الحوت", "النحلة", "البطريق"],
+                                    "correctAnswer": "الأسد"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+        ]
+      }
