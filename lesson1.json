@@ -1,0 +1,28 @@
+{
+  "id": "animals",
+  "name": "الحيوانات",
+  "content": {
+    "text": "في هذا الدرس سنتعلم عن أنواع الحيوانات باللغة الإنجليزية. هناك حيوانات برية (Wild animals) وحيوانات أليفة (Domestic animals) وحيوانات بحرية (Sea animals).",
+    "vocabulary": [
+      {"word": "Animal", "translation": "حيوان", "definition": "A living organism that feeds on organic matter"},
+      {"word": "Lion", "translation": "أسد", "definition": "A large wild cat with a mane"},
+      {"word": "Dog", "translation": "كلب", "definition": "A domestic mammal related to the wolf"},
+      {"word": "Cat", "translation": "قطة", "definition": "A small domesticated carnivorous mammal"},
+      {"word": "Fish", "translation": "سمكة", "definition": "A cold-blooded animal that lives in water"}
+    ],
+    "qa": [
+      {
+        "question": "ما هي أنواع الحيوانات باللغة الإنجليزية؟",
+        "answer": "أنواع الحيوانات باللغة الإنجليزية هي: Wild animals (حيوانات برية)، Domestic animals (حيوانات أليفة)، Sea animals (حيوانات بحرية)."
+      },
+      {
+        "question": "ما هو الأسد بالإنجليزية؟",
+        "answer": "الأسد باللغة الإنجليزية هو Lion، وهو من الحيوانات البرية (Wild animals)."
+      },
+      {
+        "question": "ما هي الحيوانات الأليفة بالإنجليزية؟",
+        "answer": "الحيوانات الأليفة باللغة الإنجليزية هي Domestic animals، ومن أمثلتها: Dog (كلب)، Cat (قطة)، Rabbit (أرنب)."
+      }
+    ]
+  }
+}
