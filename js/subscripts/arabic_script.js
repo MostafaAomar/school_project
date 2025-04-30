@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const response = await fetch('../../data/subdata/arabic_data.json');
+    const response = await fetch('https://mostafaaomar.github.io/school_project/data/subdata/arabic_data.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     const data = await response.json();
     new ArabicLearningApp(data);
