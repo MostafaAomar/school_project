@@ -1,0 +1,80 @@
+
+    /* --- MODERN CONTACT SECTION STYLES (Standalone) --- */
+.modern-contact-section {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 40px 20px;      /* Padding around the content */
+    border-radius: 8px;      /* Optional rounded corners for the section block */
+    margin: 2rem auto;       /* Center the block and add space */
+    max-width: 700px;        /* Set a max-width for the content */
+    text-align: center;
+    border: 1px solid #e9ecef; /* Subtle border */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Subtle shadow */
+}
+
+
+.modern-contact-section .contact-heading {
+    color: #343a40; /* Darker heading color */
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.modern-contact-section .contact-subheading {
+    color: #6c757d; /* Muted subheading color */
+    font-size: 1rem;
+    margin-bottom: 30px; /* More space before icons */
+}
+
+.modern-contact-section .contact-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
+    gap: 20px; /* Space between icons */
+}
+
+.modern-contact-section .contact-links-list li {
+    display: inline-block; /* Keep items inline */
+}
+
+/* --- Icon Link Styling --- */
+.modern-contact-section .contact-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* Slightly larger circle */
+    height: 50px;
+    background-color: #e9ecef; /* Lighter background for contrast */
+    color: #495057; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* Add subtle shadow to icons */
+}
+
+/* --- Icon Hover Effects --- */
+.modern-contact-section .contact-link:hover {
+    color: #ffffff; /* White icon on hover */
+    transform: translateY(-4px) scale(1.05); /* Lift and slightly enlarge */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12); /* Increase shadow on hover */
+}
+
+/* --- Specific Hover Colors --- */
+.modern-contact-section .contact-link.facebook:hover { background-color: #3b5998; }
+.modern-contact-section .contact-link.telegram:hover { background-color: #0088cc; }
+.modern-contact-section .contact-link.whatsapp:hover { background-color: #25d366; }
+.modern-contact-section .contact-link.email:hover { background-color: #dd4b39; } /* Google Red for email */
+
+/* Add classes for other potential links (e.g., .twitter, .linkedin) and their hover colors */
+
+.modern-contact-section .contact-link.twitter:hover { background-color: #1da1f2; }
+.modern-contact-section .contact-link.linkedin:hover { background-color: #0077b5; }
+
+a{
+    text-decoration: none;
+    font-weight: bold; 
+  font-style: italic;
+}

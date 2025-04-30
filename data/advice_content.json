@@ -1,0 +1,151 @@
+
+
+{
+  "general_study": {
+    "title": {
+      "ar": "أولاً: التخطيط والإعداد (قبل البدء)",
+      "en": "First: Planning and Preparation (Before Starting)"
+    },
+    "tips": [
+      {
+        "title": { "ar": "حدد أهدافك", "en": "Define Your Goals" },
+        "text": {
+          "ar": "ماذا تريد أن تحقق؟ هل هو فهم درس معين؟ الاستعداد لامتحان؟ تحسين مادة معينة؟ معرفة هدفك يوجه دراستك.",
+          "en": "What do you want to achieve? Is it understanding a specific lesson? Preparing for an exam? Improving in a particular subject? Knowing your goal directs your study."
+        }
+      },
+      {
+        "title": { "ar": "اعرف مستواك", "en": "Know Your Level" },
+        "text": {
+          "ar": "ابدأ ببعض الأسئلة السهلة أو المتوسطة في الدرس الذي تريد مراجعته لتقييم فهمك الأولي.",
+          "en": "Start with some easy or medium questions in the lesson you want to review to assess your initial understanding."
+        }
+      },
+      {
+        "title": { "ar": "ضع جدولاً زمنياً", "en": "Set a Schedule" },
+        "text": {
+          "ar": "لا تدرس لساعات طويلة متواصلة. خصص فترات دراسية منتظمة (مثلاً 30-45 دقيقة) يتخللها فترات راحة قصيرة (5-10 دقائق). الالتزام بالجدول أهم من طول فترة المذاكرة الواحدة.",
+          "en": "Don't study for long continuous hours. Allocate regular study periods (e.g., 30-45 minutes) interspersed with short breaks (5-10 minutes). Adhering to the schedule is more important than the length of a single study session."
+        }
+      },
+      {
+        "title": { "ar": "جهز مكان الدراسة", "en": "Prepare Your Study Space" },
+        "text": {
+          "ar": "اختر مكاناً هادئاً ومريحاً بعيداً عن المشتتات (مثل التلفاز أو الإشعارات الكثيرة على الهاتف). تأكد من وجود إضاءة جيدة.",
+          "en": "Choose a quiet and comfortable place away from distractions (like TV or numerous phone notifications). Ensure good lighting."
+        }
+      }
+    ]
+  },
+  "during_study": {
+    "title": {
+      "ar": "ثانياً: أثناء الدراسة باستخدام المنصة",
+      "en": "Second: During Study Using the Platform"
+    },
+    "tips": [
+      {
+        "title": { "ar": "ابدأ بالمحتوى الداعم", "en": "Start with Supporting Content" },
+        "text": {
+          "ar": "قبل حل الأسئلة في درس جديد، قد يكون من المفيد قراءة 'المحتوى الداعم' أو 'التلميحات' التي توفرها المنصة لفهم النقاط الأساسية.",
+          "en": "Before solving questions in a new lesson, it might be helpful to read the 'Supporting Content' or 'Hints' provided by the platform to understand the key points."
+        }
+      },
+      {
+        "title": { "ar": "ركز على الفهم", "en": "Focus on Understanding" },
+        "text": {
+          "ar": "حاول فهم *لماذا* الإجابة صحيحة أو خاطئة. المنصة توفر أنواع أسئلة مختلفة (تحليل، تطبيق حياتي) تساعد على ذلك.",
+          "en": "Try to understand *why* the answer is correct or incorrect. The platform provides different question types (analysis, real-life application) that help with this."
+        }
+      },
+       {
+        "title": { "ar": "استفد من التغذية الراجعة", "en": "Utilize Feedback" },
+        "text": {
+          "ar": "هذه أهم ميزة! إذا أجبت بشكل صحيح، اقرأ الشرح للتأكد من فهمك للسبب. إذا أخطأت، اقرأ الشرح بعناية فائقة لمعرفة أين كان الخطأ.",
+          "en": "This is the most important feature! If you answer correctly, read the explanation to ensure you understood the reason. If you answer incorrectly, read the explanation very carefully to understand where the mistake was."
+        }
+      },
+       {
+        "title": { "ar": "لا تخف من الخطأ", "en": "Don't Fear Mistakes" },
+        "text": {
+          "ar": "الأخطاء جزء طبيعي من عملية التعلم. كل خطأ هو فرصة لفهم أفضل.",
+          "en": "Mistakes are a natural part of the learning process. Every mistake is an opportunity for better understanding."
+        }
+      },
+      {
+        "title": { "ar": "أعد حل الأسئلة الصعبة", "en": "Re-solve Difficult Questions" },
+        "text": {
+          "ar": "إذا وجدت سؤالاً صعباً أو أخطأت فيه، ضعه في قائمة للمراجعة وحاول حله مرة أخرى لاحقاً بعد فهم الشرح.",
+          "en": "If you find a question difficult or get it wrong, add it to a review list and try solving it again later after understanding the explanation."
+        }
+      },
+      {
+        "title": { "ar": "جرب أنواع الأسئلة المختلفة", "en": "Try Different Question Types" },
+        "text": {
+          "ar": "لا تقتصر على نوع واحد. جرب ملء الفراغات والسحب والإفلات والأسئلة التحليلية، فهي تقيس مهارات مختلفة.",
+          "en": "Don't stick to just one type. Try fill-in-the-blanks, drag-and-drop, and analysis questions, as they measure different skills."
+        }
+      },
+       {
+        "title": { "ar": "اربط التعلم بالحياة", "en": "Connect Learning to Life" },
+        "text": {
+          "ar": "انتبه لأسئلة 'التطبيق الحياتي' وحاول التفكير كيف يمكن استخدام هذه المعلومات في مواقف يومية. هذا يثبت المعلومة.",
+          "en": "Pay attention to 'Real-Life Application' questions and try to think about how this information can be used in everyday situations. This reinforces the knowledge."
+        }
+      }
+    ]
+  },
+   "review": {
+    "title": {
+      "ar": "ثالثاً: المراجعة والاستعداد للامتحانات",
+      "en": "Third: Review and Exam Preparation"
+    },
+     "tips": [
+       {
+          "title": { "ar": "المراجعة الدورية", "en": "Regular Review" },
+          "text": {
+            "ar": "لا تترك المراجعة حتى ليلة الامتحان. راجع الدروس التي تعلمتها على المنصة بشكل دوري (مثلاً نهاية كل أسبوع).",
+            "en": "Don't leave revision until the night before the exam. Review the lessons you've learned on the platform periodically (e.g., at the end of each week)."
+          }
+        },
+        {
+          "title": { "ar": "استخدم المنصة للمراجعة المركزة", "en": "Use the Platform for Focused Review" },
+          "text": {
+            "ar": "قبل الامتحان، ركز على حل أسئلة متنوعة في المواضيع المطلوبة على المنصة.",
+            "en": "Before the exam, focus on solving a variety of questions on the required topics on the platform."
+          }
+        },
+         {
+          "title": { "ar": "ركز على نقاط ضعفك", "en": "Focus on Weaknesses" },
+          "text": {
+            "ar": "بناءً على نتائجك في المنصة، حدد الدروس أو أنواع الأسئلة التي تجد فيها صعوبة وخصص وقتاً إضافياً لمراجعتها.",
+            "en": "Based on your results on the platform, identify the lessons or question types you find difficult and allocate extra time to review them."
+          }
+        }
+      
+     ]
+   },
+   "general": {
+       "title": {
+        "ar": "رابعاً: نصائح عامة للنجاح",
+        "en": "Fourth: General Tips for Success"
+       },
+       "tips": [
+          {
+            "title": { "ar": "النوم الكافي", "en": "Sufficient Sleep" },
+            "text": { "ar": "العقل السليم في الجسم السليم. النوم الجيد يساعد على التركيز وتثبيت المعلومات.", "en": "A healthy mind in a healthy body. Good sleep helps concentration and information retention." }
+          },
+           {
+            "title": { "ar": "التغذية الجيدة", "en": "Good Nutrition" },
+            "text": { "ar": "الغذاء الصحي يساعد على نشاط الذهن وشرب كمية كافية من الماء مهم.", "en": "Healthy food helps mental activity, and drinking enough water is important." }
+          },
+           {
+            "title": { "ar": "اطلب المساعدة", "en": "Ask for Help" },
+            "text": { "ar": "إذا واجهت صعوبة مستمرة في فهم مفهوم معين، اسأل معلمك أو زملاءك.", "en": "If you face persistent difficulty understanding a concept, ask your teacher or classmates." }
+          },
+           {
+            "title": { "ar": "كن إيجابياً ومستمراً", "en": "Be Positive and Persistent" },
+            "text": { "ar": "التعلم رحلة تتطلب صبراً ومثابرة. احتفل بإنجازاتك الصغيرة واستمر في المحاولة.", "en": "Learning is a journey requiring patience and perseverance. Celebrate your small achievements and keep trying." }
+          }
+       ]
+   }
+}

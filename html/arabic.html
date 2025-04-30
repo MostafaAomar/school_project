@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+      content="برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم، مع دروس، ملخصات، تمارين، وحلول لدعم الطلاب والمعلمين
+" />
+
+    <meta name="keywords"
+      content="تعليم, كتابة يدوية, لوحة تفاعليّة,منصة التعليم السورية, نماذج امتحانات , بكالوريا, ملخصات امتحان , تاسع, مديريه التربيه سوريا , وزارة التربيه سوريا ,الأطفال, لغة عربية, لغة إنجليزية" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "  برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم، مع دروس، ملخصات، تمارين، وحلول لدعم الطلاب والمعلمين
+",
+    "url": "https://mostafaaomar.github.io/school_project/",
+    "description": "لوحة تفاعلية لاختبار مهارات الكتابة اليدوية للأطفال مع تعرف تلقائي للأحرف.",
+    "applicationCategory": "Education",
+    "operatingSystem": "All",
+    "image": "https://mostafaaomar.github.io/school_project/"
+  }
+  </script>
+    <title>Learn Arabic - Fun for Kids!</title>
+    <link rel="stylesheet" href="../css/arabic_style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Inside the header section -->
+<header>
+    <h2>تعلم العربية Learn Arabic! </h2>
+    <div class="score-container">
+        <span>نجمة </span>
+        <span id="score">0</span>
+        <span id="star-btn" class="star-button">⭐</span>
+    </div>
+    <!-- Add Home Button in Header -->
+    <!-- <button id="home-btn" class="home-button">🏠 الرئيسية</button> -->
+</header>
+
+        <div class="mode-buttons">
+            <button class="mode-btn active" data-mode="cards">بطاقة تعليمية</button>
+            <button class="mode-btn" data-mode="memory">لعبة الذاكرة</button>
+            <button class="mode-btn" data-mode="exercise">تمارين</button>
+        </div>
+
+        <div class="category-buttons">
+            <button class="category-btn active" data-category="letters">الاحرف</button>
+            <button class="category-btn" data-category="numbers">الارقام</button>
+            <button class="category-btn" data-category="words">الكلمات</button>
+        </div>
+
+        <div class="game-container"></div>
+
+   
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="arabic-text"></div>
+                </div>
+                <div class="card-back">
+                    <div class="english-text"></div>
+                    <div class="pronunciation"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn" class="nav-button">←</button>
+            <button id="flip-btn" class="flip-button">قلب البطاقه</button>
+            <button id="next-btn" class="nav-button">→</button>
+        </div>
+
+        <!-- <button id="sound-btn" class="sound-button">🔊 استمع</button> -->
+        
+    </div>
+    <script type="module" src="../js/subscripts/arabic_script.js"></script>
+</body>
+</html>

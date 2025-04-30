@@ -1,0 +1,29 @@
+{
+  "letters": [
+    { "arabic": "أ", "english": "Alif", "pronunciation": "ah" },
+    { "arabic": "ب", "english": "Baa", "pronunciation": "bah" },
+    { "arabic": "ت", "english": "Taa", "pronunciation": "tah" },
+    { "arabic": "ث", "english": "Thaa", "pronunciation": "thah" },
+    { "arabic": "ج", "english": "Jeem", "pronunciation": "jeem" },
+    { "arabic": "ح", "english": "Haa", "pronunciation": "hah" }
+  ],
+  "numbers": [
+    { "arabic": "١", "english": "One", "pronunciation": "waahid" },
+    { "arabic": "٢", "english": "Two", "pronunciation": "ithnayn" },
+    { "arabic": "٣", "english": "Three", "pronunciation": "thalaatha" },
+    { "arabic": "٤", "english": "Four", "pronunciation": "arba'a" },
+    { "arabic": "٥", "english": "Five", "pronunciation": "khamsa" }
+  ],
+  "words": [
+    { "arabic": "مرحبا", "english": "Hello", "pronunciation": "marhaba" },
+    { "arabic": "شكرا", "english": "Thank you", "pronunciation": "shukran" },
+    { "arabic": "نعم", "english": "Yes", "pronunciation": "na'am" },
+    { "arabic": "لا", "english": "No", "pronunciation": "laa" },
+    { "arabic": "سلام", "english": "Peace", "pronunciation": "salaam" }
+  ],
+  "exercises": [
+    { "question": "مرح__", "answer": "با", "hint": "Complete: Hello (marhaba)" },
+    { "question": "__كرا", "answer": "ش", "hint": "Complete: Thank you (shukran)" },
+    { "question": "س__م", "answer": "لا", "hint": "Complete: Peace (salaam)" }
+  ]
+}

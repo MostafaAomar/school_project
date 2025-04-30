@@ -1,0 +1,12 @@
+[
+  {
+    "url": "../../data/subjects/english/baccalaureate/life_choices/questions.json",
+    "subject": "engli",
+    "grade": "grade10"
+  },
+  {
+    "url": "../../data/subjects/english/baccalaureate/life_choices/lesson_content.json",
+    "subject": "english",
+    "grade": "grade12"
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+       <meta charset="UTF-8">
+    <meta name="description"
+      content="برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم، مع دروس، ملخصات، تمارين، وحلول لدعم الطلاب والمعلمين
+" />
+
+    <meta name="keywords"
+      content="تعليم, كتابة يدوية, لوحة تفاعليّة,منصة التعليم السورية, نماذج امتحانات , بكالوريا, ملخصات امتحان , تاسع, مديريه التربيه سوريا , وزارة التربيه سوريا ,الأطفال, لغة عربية, لغة إنجليزية" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "  برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم، مع دروس، ملخصات، تمارين، وحلول لدعم الطلاب والمعلمين
+",
+    "url": "https://mostafaaomar.github.io/school_project/",
+    "description": "لوحة تفاعلية لاختبار مهارات الكتابة اليدوية للأطفال مع تعرف تلقائي للأحرف.",
+    "applicationCategory": "Education",
+    "operatingSystem": "All",
+    "image": "https://mostafaaomar.github.io/school_project/"
+  }
+  </script>
+    <title>اختبار الكتابة اليدوية</title>
+    <link rel="stylesheet" href="../css/handwrite_style.css">
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+</head>
+<body>
+
+   <div class="handwriting-container">
+        <h3 id="question-text">تحميل السؤال...</h3>
+        <canvas id="handwriting-canvas"></canvas>
+        <div class="controls">
+ 
+  <button id="clear-canvas">🗑️ مسح اللوحة</button>
+  <button id="next-question"> سؤال جديد</button>
+</div>
+
+        <div id="handwriting-result"></div>
+    </div>
+    <script src="../js/subscripts/handwrite.js"></script>
+</body>
+</html>

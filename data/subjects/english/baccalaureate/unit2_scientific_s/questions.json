@@ -1,0 +1,65 @@
+{
+  "unit2_scientific_s_1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "past-simple", "past-continuous", "conversation", "unit2"],
+    "supportContent": {
+      "en": "Complete the conversation using the **Past Simple or the Past Continuous** of the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Policeman: What time did you wake up (you / wake up)?\nSuzan: At about ten o’clock.\nPoliceman: And what <input type='text' class='fill-blank-input' data-blank-id='q1_do' placeholder='verb...' style='width: 150px;'> (you / do) after you woke up?\nSuzan: I watched news on TV.\nPoliceman: Did anything happen while <input type='text' class='fill-blank-input' data-blank-id='q1_watch' placeholder='verb...' style='width: 160px;'> (you / watch) TV?\nSuzan: Yes, the phone <input type='text' class='fill-blank-input' data-blank-id='q1_ring' placeholder='verb...' style='width: 80px;'> (ring).\nPoliceman: What <input type='text' class='fill-blank-input' data-blank-id='q1_do2' placeholder='verb...' style='width: 150px;'> (you / do) when your husband came home?\nSuzan: I <input type='text' class='fill-blank-input' data-blank-id='q1_prepare' placeholder='verb...' style='width: 140px;'> (prepare) lunch when he came.\nPoliceman: Did you and your husband stay at home on that day?\nSuzan: No, We <input type='text' class='fill-blank-input' data-blank-id='q1_drink' placeholder='verb...' style='width: 80px;'> (drink) coffee. Then, I <input type='text' class='fill-blank-input' data-blank-id='q1_put_on' placeholder='verb...' style='width: 90px;'> (put on) my raincoat, and we <input type='text' class='fill-blank-input' data-blank-id='q1_go_out' placeholder='verb...' style='width: 90px;'> (go out) at six o’clock.\nPoliceman: Why <input type='text' class='fill-blank-input' data-blank-id='q1_put_on2' placeholder='verb...' style='width: 150px;'> (you / put) your raincoat on?\nSuzan: Because it <input type='text' class='fill-blank-input' data-blank-id='q1_rain' placeholder='verb...' style='width: 120px;'> (rain), of course.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q1_do":      { "en": "did you do", "ar": "" },  
+      "q1_watch":   { "en": "you were watching", "ar": "" },  
+      "q1_ring":    { "en": "rang", "ar": "" },  
+      "q1_do2":     { "en": "were you doing", "ar": "" },  
+      "q1_prepare": { "en": "was preparing", "ar": "" },  
+      "q1_drink":   { "en": "drank", "ar": "" },  
+      "q1_put_on":  { "en": "put on", "ar": "" },  
+      "q1_go_out":  { "en": "went out", "ar": "" },  
+      "q1_put_on2": { "en": "did you put", "ar": "" },  
+      "q1_rain":    { "en": "was raining", "ar": "" }   
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You accurately used the Past Simple and Past Continuous tenses.",
+      "ar": "صحيح! لقد استخدمت زمن الماضي البسيط والماضي المستمر بدقة."
+    },
+    "feedbackIncorrect": {
+      "en": "Check your tenses. Remember to use Past Continuous for actions in progress that were interrupted or happening at a specific past time, and Past Simple for completed actions or sequences.",
+      "ar": "تحقق من الأزمنة. تذكر استخدام الماضي المستمر للأحداث التي كانت قيد التقدم وتمت مقاطعتها أو كانت تحدث في وقت محدد في الماضي، والماضي البسيط للأحداث المكتملة أو المتسلسلة."
+    }
+  },
+  "unit2_scientific_s_2": {
+     "type": "fill-blank",
+     "difficulty": 3,
+     "tags": ["grammar", "past-simple", "past-perfect", "past-perfect-continuous", "unit2"],
+     "supportContent": {
+       "en": "Fill in the gaps with a verb from the box in the **Past Simple, Past Perfect Simple or Past Perfect Continuous**.\nVerb Box: ***buy, discuss, develop, not take, feel, work***",
+       "ar": ""
+     },
+     "questionText": {
+       "en": "1 She <input type='text' class='fill-blank-input' data-blank-id='q2_1' placeholder='verb...' style='width: 180px;'> as a waitress for three years when he met her.\n\n2 He <input type='text' class='fill-blank-input' data-blank-id='q2_2' placeholder='verb...' style='width: 140px;'> all the ingredients he needed from the supermarket and then went home to make her birthday cake.\n\n3 Henry did very well in his exams, which was a shock because he <input type='text' class='fill-blank-input' data-blank-id='q2_3' placeholder='verb...' style='width: 140px;'> an exam before.\n\n4 Scientists announced the launch of the new drug last week. They <input type='text' class='fill-blank-input' data-blank-id='q2_4' placeholder='verb...' style='width: 190px;'> it for five years.\n\n5 By the time I got to the meeting they <input type='text' class='fill-blank-input' data-blank-id='q2_5_1' placeholder='verb...' style='width: 140px;'> the important issues and they <input type='text' class='fill-blank-input' data-blank-id='q2_5_2' placeholder='verb...' style='width: 140px;'> the big decisions without me. I <input type='text' class='fill-blank-input' data-blank-id='q2_5_3' placeholder='verb...' style='width: 80px;'> annoyed that they hadn’t waited for me.",
+       "ar": ""
+     },
+     "correctAnswers": {
+       "q2_1":   { "en": "had been working", "ar": "" }, 
+       "q2_2":   { "en": "had bought", "ar": "" }, 
+       "q2_3":   { "en": "had not taken", "ar": "" },  
+       "q2_4":   { "en": "had been developing", "ar": "" },  
+       "q2_5_1": { "en": "had discussed", "ar": "" },  
+       "q2_5_2": { "en": "had discussed", "ar": "" },  
+       "q2_5_3": { "en": "felt", "ar": "" }  
+     },
+     "feedbackCorrect": {
+       "en": "Excellent! You correctly identified the usage of Past Simple, Past Perfect Simple, and Past Perfect Continuous.",
+       "ar": "ممتاز! لقد حددت بشكل صحيح استخدام الماضي البسيط والماضي التام البسيط والماضي التام المستمر."
+     },
+     "feedbackIncorrect": {
+       "en": "Review the rules for Past Perfect Simple (action completed before another past action) and Past Perfect Continuous (duration leading up to a past action). Use Past Simple for events that simply happened in the past.",
+       "ar": "راجع قواعد الماضي التام البسيط (حدث اكتمل قبل حدث آخر في الماضي) والماضي التام المستمر (مدة زمنية أدت إلى حدث في الماضي). استخدم الماضي البسيط للأحداث التي وقعت ببساطة في الماضي."
+     }
+   }
+}

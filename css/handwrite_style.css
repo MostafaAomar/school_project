@@ -1,0 +1,107 @@
+        body {
+            background: #e0f7fa;
+            font-family: 'Comic Sans MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: center;
+            color: #333;
+        }
+
+        .handwriting-container {
+            background: #ffffff;
+            border: 4px dashed #6EC1E4;
+            border-radius: 20px;
+            padding: 1rem;
+            width: 90vw;
+            max-width: 90vw;
+            margin: 1rem auto;
+            box-shadow: 0 0 20px rgba(110, 193, 228, 0.4);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: #0077b6;
+            margin-bottom: 1rem;
+        }
+
+        #handwriting-canvas {
+            border: 3px solid #6EC1E4;
+            border-radius: 12px;
+            background: #fff;
+            cursor: crosshair;
+            margin-bottom: 1rem;
+            width: 90vw;
+            height: 60vh;
+            max-height: 80vh;
+            touch-action: none;
+            display: block;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background: #6EC1E4;
+            color: #fff;
+            padding: 0.8rem 1.2rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.2s;
+            box-shadow: 0 4px 10px rgba(0, 119, 182, 0.2);
+        }
+
+        button:hover {
+            background: #0077b6;
+            transform: scale(1.05);
+        }
+
+        #clear-canvas {
+            background: #ff6b6b;
+        }
+
+        #clear-canvas:hover {
+            background: #d62828;
+        }
+
+        #next-question {
+            background: #ffd54f;
+            color: #333;
+        }
+
+        #next-question:hover {
+            background: #ffca28;
+        }
+
+        #handwriting-result {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        #handwriting-result.error {
+            color: #e63946;
+        }
+
+        @media (max-width: 600px) {
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 0.7rem 1rem;
+            }
+
+            #handwriting-canvas {
+                height: 50vh;
+            }
+        }

@@ -1,131 +1,290 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"> 
-  <link rel="icon" href="./images/logo_a.png" type="image/png">
-  <meta name="description" content="ثانوية عامة سورية بكالوريا سوريا سورية منهاج سوريا سورية انكليزي بكالوريا انكليزي تاسع انجليزي حل اسئله بكالوريا Syrian secondary school Syria Syrian curriculum Syria English English Baccalaureate Ninth English Baccalaureate questions solution">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ثانوية عامة سورية</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم، مع دروس، ملخصات، تمارين، وحلول لدعم الطلاب والمعلمين" />
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <meta name="keywords" content="تعليم, كتابة يدوية, لوحة تفاعليّة,منصة التعليم السورية, نماذج امتحانات , بكالوريا, ملخصات امتحان , تاسع, مديريه التربيه سوريا , وزارة التربيه سوريا ,الأطفال, لغة عربية, لغة إنجليزية" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+      { "@context": "https://schema.org", "@type": "WebApplication", "name": "منصة التعليم السورية", "url": "https://mostafaaomar.github.io/school_project/", "description": "برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم...", "applicationCategory": "Education", "operatingSystem": "All", "image": "https://mostafaaomar.github.io/school_project/logo.png" }
+    </script>
+    <title>منصة التعليم السورية</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./css/main_styles.css">
+    <link rel="stylesheet" href="./css/iframe_styles.css">
+
+    <!-- Note: Any styles specific ONLY to iframe content should be linked within those iframe HTML files -->
+
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <!-- Navbar Brand -->
-      <div class="searchbar">
-        <input type="search" id="searchInput" placeholder="Search..." autocomplete="off">
-        <div id="results"></div>
-    </div>
-    
-      <!-- Navbar Toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <!-- Navbar Links -->
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="./high_school/high_school.html">بكالوريا</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=fNbBkVe5eNY&list=PLOojC9cDjLdXvXDHHpl6QxCS-0Ql1bX0Q">تاسع</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=J4_qBP-yP5o&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT">قواعد انكليزي</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=Zr8KZj3o09I&list=PLOojC9cDjLdWxIJKLBwd2hYk12EdmVLg2">تعلم المحادثة معي</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=VNZiEqb6wDA&list=PLOojC9cDjLdVnlt-NBQbZokaxwb5TGD_Q">فيديوهات مفيدة</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://mostafaaomar.github.io/schoolplatform/"> المنصة الحديثة</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <header>
+        <h1>
+            <span class="rainbow-text">منصة التعليم السورية</span>
+            <!-- Use a class for easier selection/styling if needed, keep title -->
+            <a href="#" class="home-button-link" title="الصفحة الرئيسية"><img src="./images/pagelogo.png" alt="Logo" class="mascot"></a>
+        </h1>
+    </header>
 
-<!-- Body Section-->
-
-    <div class="container-fluid  bg-1">
-      <div class="row">
-          <div class="col-sm-6">
-            <span class="test">سيتم اضافة المنهاج كاملا في حال تم الاتفاق عليه من قبل النظام الجديد</span>
-            <ul>
-              <li><a href="https://drive.google.com/file/d/1xdA2fNbJb7kqC0Svo97b0CyjzWzeT6ii/view?usp=sharing">ملخض القواعد</a></li>
-              <li><a href="https://drive.google.com/file/d/1VtRofDQeK8u-5Et80VaOxPYm6GPxkFwb/view?usp=sharing">روابط الفيديوهات على قناتي</a></li>
-              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUE4x4RgFN14MAZ9HhRoeZMELG_2tkIKR0KkIOOtU4rcpiNg/viewform">اختبر معلوماتك </a></li>
-              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScucONHjtB4c7tpAYrxtVKDE_DVOEnp0dCpJkkpkwvNcwkvxw/viewform">فحص ماضي بسيط</a></li>
-              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxW6bJACkvDkEIEBgt4eLZmitjjawZOhJpCDX3OE33hn8jMw/viewform">فحص الحاضر البسيط والمستمر</a></li>
-              <li><a href=" https://docs.google.com/forms/d/e/1FAIpQLSewoGTfAXM_hfml7LMvATHdfbV6ldd1u5pDgh4KU5_dfTyu8w/viewform">فحص الحاضر المستمر</a></li>
-              <li><a href="https://drive.google.com/file/d/1sIFjyjKd4xewMzTyhPgyk0qR9RCQ1jYT/view?usp=sharing">الافعال الشاذة</a></li>
-              <li><a href="https://drive.google.com/file/d/1wDmHgW5b5Zk2iXOhYiMhJHuA5mRHKTcX/view?usp=sharing">أشباه الجمل الفعلية</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-6 rightside">
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/1.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/2.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/3.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/4.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/5.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/6.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/7.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/8.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/9.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/10.jpg" alt="" />
-            <img class="pic img-responsive width:100% img-circle" style="display:inline" src="./images/11.jpg" alt="" />
-            <script>
-              var rightside = 0;
-              carousel();
-
-              function carousel() {
-                var i;
-                var x = document.getElementsByClassName("pic");
-                for (i = 0; i < 11; i++) {
-                  x[i].style.display = "none";
-                }
-                rightside++;
-                if (rightside > 11) {
-                  rightside = 1
-                }
-                x[rightside - 1].style.display = "inline-block";
-                setTimeout(carousel, 2000);
-              }
-            </script>
-          </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-2">
-      <h3>قاموس انكليزي - انكليزي</h3>
-      <div class="row">        
-          <div class="dictionary">
-              <input type="text" id="wordInput" placeholder="Enter a word" autocomplete="off" oninput="fetchDefinition()">
-              <div id="output"></div>
-          </div>
-      </div>
-  </div>
-  
-
-    <div class="container-fluid bg-contact">
-      <h3>للتواصل معي عن طريق</h3>
-      <div class="row">
-        <div class="col-sm-6">
-          <span><a href="https://www.facebook.com/English-Learning-101213778080941">
-            <img src="./images/facebook.png" alt="Facebook">
-          </a></span>
+    <!-- Main Navigation Tabs Container -->
+    <nav class="main-nav-container">
+        <button class="main-nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav-links-list">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+        <div class="main-nav-links" id="main-nav-links-list">
+            <!-- Buttons now use data-main-target matching IDs of main content sections -->
+            <button class="main-nav-button active" data-main-target="#subject-grade-lesson-flow" id="main-nav-subjects-btn">
+                 <i class="fas fa-shapes"></i> المواد الدراسية
+            </button>
+            <button class="main-nav-button" data-main-target="#advice-section" id="main-nav-advice-btn">
+                <i class="fas fa-book-open"></i> خطة الدراسة
+            </button>
+            <button class="main-nav-button" data-main-target="#handwriting-section" id="main-nav-handwrite-btn">
+                <i class="fa-solid fa-pen-to-square"></i> كتابة
+            </button>
+            <button class="main-nav-button" data-main-target="#chatbot-section" id="main-nav-chatbot-btn">
+                <i class="fa-solid fa-comments"></i> دردشة
+            </button>
+            <button class="main-nav-button" data-main-target="#nonspeaker-arabic-section" id="main-nav-nonspeaker-btn">
+                <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
+            </button>
+            <button class="main-nav-button" data-main-target="#external-sources-section" id="main-nav-sources-btn">
+                <i class="fa-solid fa-paperclip"></i> بعض المصادر
+            </button>
+            <button class="main-nav-button" data-main-target="#contact-section" id="main-nav-contact-btn">
+                <i class="fa-solid fa-address-book"></i> اتصال
+            </button>
         </div>
-        <div class="col-sm-6">
-          <span class="glyphicon glyphicon-send logo-small"><a href="https://web.telegram.org/#/im?p=@MostafaAlomar">
-            <img src="./images/telegram.png" alt="telegram">
-          </a></span>
+    </nav>
+
+    <!-- Wrapper for ALL main content sections -->
+    <div id="page-content-wrapper">
+
+        <!-- 1. Subject/Grade/Lesson Card Flow Section -->
+        <main id="subject-grade-lesson-flow" class="main-content-section">
+            <!-- Subjects View Container -->
+            <div id="subjects-view-container" class="container view-container">
+                <h2 class="section-title">اختر المادة</h2>
+                <div id="subjects-grid" class="grid">
+                    <!-- Subject cards will be dynamically inserted here -->
+                     <p class="info-message">جاري تحميل المواد...</p>
+                </div>
+            </div>
+            <!-- Grades View Container (Initially Hidden) -->
+            <div id="grades-view-container" class="container view-container hidden">
+                <div class="navigation-buttons">
+                    <button class="back-button" data-target-view="subjects"><i class="fas fa-arrow-right"></i> للمواد</button>
+                    <button class="home-button"><i class="fas fa-home"></i> الرئيسية</button>
+                </div>
+                <h2 id="grades-section-title" class="section-title">اختر الصف</h2>
+                <div id="grades-grid" class="grid">
+                    <!-- Grade cards dynamically inserted -->
+                     <p class="info-message">اختر مادة أولاً...</p>
+                </div>
+            </div>
+            <!-- Lessons/Topics View Container (Initially Hidden) -->
+            <div id="lessons-view-container" class="container view-container hidden">
+                <div class="navigation-buttons">
+                    <button class="back-button" data-target-view="grades"><i class="fas fa-arrow-right"></i> للصفوف</button>
+                    <button class="home-button"><i class="fas fa-home"></i> الرئيسية</button>
+                </div>
+                <h2 id="lessons-section-title" class="section-title">اختر الدرس</h2>
+                <div id="lessons-grid" class="grid">
+                    <!-- Lesson cards dynamically inserted -->
+                     <p class="info-message">اختر صفاً أولاً...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- 2. Lesson/Quiz Tabs Component Section (Initially Hidden) -->
+        <div id="lesson-quiz-tabs-section" class="tabs-container hidden main-content-section">
+             <!-- Tab Buttons -->
+            <div class="tab-buttons" role="tablist" aria-label="محتوى الدرس والاختبار">
+                <button class="tab-button" role="tab" aria-selected="true" aria-controls="lesson-content-panel" id="lesson-tab-btn" data-tab-target="#lesson-content-panel" tabindex="0">
+                    <i class="fas fa-book-reader"></i> الدرس
+                </button>
+                <button class="tab-button" role="tab" aria-selected="false" aria-controls="quiz-test-panel" id="quiz-tab-btn" data-tab-target="#quiz-test-panel" tabindex="-1" disabled aria-disabled="true">
+                    <i class="fas fa-pencil-alt"></i> الاختبار
+                </button>
+            </div>
+             <!-- Tab Panels -->
+            <div class="tab-panels">
+                <!-- Lesson Panel -->
+                <div class="tab-panel" role="tabpanel" id="lesson-content-panel" aria-labelledby="lesson-tab-btn">
+                     <div class="navigation-buttons" style="margin-bottom: 1.5rem;">
+                         <!-- Back button target is determined dynamically by JS based on current grade -->
+                         <button class="back-button" data-target-view="lessons"><i class="fas fa-arrow-right"></i> للدروس</button>
+                         <button class="home-button"><i class="fas fa-home"></i> الرئيسية</button>
+                     </div>
+                    <h2 id="lesson-title-display" class="section-title auto-direction" style="text-align: center; margin-bottom: 20px;">عنوان الدرس</h2>
+                    <!-- Lesson Content Sections -->
+                    <div class="lesson-section lesson-text">
+                        <h3><i class="fas fa-file-alt"></i> المحتوى النصي</h3>
+                        <div id="lesson-text-content-area" class="lesson-section-content auto-direction">
+                             <p class="info-message">جاري تحميل النص...</p>
+                        </div>
+                    </div>
+                    <div class="lesson-section lesson-video">
+                        <h3><i class="fas fa-video"></i> فيديو الشرح</h3>
+                        <div id="lesson-video-content-area" class="lesson-section-content">
+                             <p class="info-message">جاري تحميل الفيديو...</p>
+                        </div>
+                    </div>
+                    <div class="lesson-section lesson-audio">
+                        <h3><i class="fas fa-headphones"></i> المحتوى الصوتي</h3>
+                        <div id="lesson-audio-content-area" class="lesson-section-content">
+                             <p class="info-message">جاري تحميل الصوت...</p>
+                        </div>
+                    </div>
+                    <!-- External Links Section -->
+                     <div class="lesson-section external-links-section">
+                          <h3><i class="fas fa-link"></i> روابط خارجية</h3>
+                          <div id="lesson-external-links-area" class="lesson-section-content external-links-container">
+                               <p class="info-message">لا توجد روابط حالياً.</p> <!-- Placeholder -->
+                          </div>
+                     </div>
+
+                     <!-- Start Quiz Button -->
+                     <button id="start-quiz-button" class="action-button" style="background-color: #28a745;">
+                        <i class="fas fa-play"></i> ابدأ الاختبار
+                    </button>
+                </div>
+
+                <!-- Quiz/Test Panel -->
+                <div class="tab-panel" role="tabpanel" id="quiz-test-panel" aria-labelledby="quiz-tab-btn" hidden>
+                    <!-- Quiz Timer Display -->
+                    <div id="quiz-timer-display">30:00</div>
+                    <!-- Quiz Container -->
+                     <div id="quiz-interface-container">
+                        <!-- Placeholder message when quiz not started -->
+                        <div id="quiz-placeholder-message" class="info-message" style="text-align: center; padding: 30px 15px; margin: 20px 0; border: 1px dashed #adb5bd; border-radius: 5px; background-color: #f8f9fa;">
+                             <p style='font-weight: bold; font-size: 1.1em;'><i class='fas fa-info-circle'></i> يرجى الضغط على زر 'ابدأ الاختبار' في تبويب الدرس أولاً لبدء الاختبار.</p>
+                        </div>
+
+                        <!-- Active Quiz Area (Initially Hidden) -->
+                        <div id="active-quiz-area" class="hidden">
+                             <!-- Quiz Progress & Meta Info -->
+                             <div class="quiz-meta">
+                                <span id="question-counter-display">السؤال 0 / 0</span>
+                                <span id="difficulty-level-display">المستوى: -</span>
+                                <span id="current-score-display">النقاط: 0</span>
+                             </div>
+                             <div class="progress-container">
+                                <div id="quiz-progress-bar"></div>
+                             </div>
+
+                            <!-- Question Display Area -->
+                            <div id="question-display-area">
+                                <!-- Question text, options, inputs etc. loaded here by quiz_engine.js -->
+                            </div>
+                            <!-- Feedback Display Area -->
+                            <div id="feedback-display-area" class="feedback-area">
+                                <!-- Feedback shown here -->
+                            </div>
+                             <!-- Quiz Action Buttons -->
+                            <div class="action-buttons">
+                                <button id="check-answer-button" class="action-button" disabled> <i class="fas fa-check"></i> تحقق</button>
+                                <button id="next-question-button" class="action-button hidden"> <i class="fas fa-arrow-left"></i> التالي</button>
+                            </div>
+                        </div>
+
+                         <!-- Quiz Results Area (Initially Hidden) -->
+                        <div id="quiz-results-area" class="results-area hidden">
+                            <h2 class="section-title">نتائج الاختبار</h2>
+                            <div id="final-score-display"></div>
+                            <div id="final-percentage-display"></div>
+                            <div id="final-message-display" style="font-weight: bold; margin: 15px 0;"></div>
+                            <div id="badges-display-area" style="margin-top: 10px;"></div>
+                            <div class="action-buttons">
+                                <button id="restart-quiz-button" class="action-button"><i class="fas fa-redo"></i> أعد الاختبار</button>
+                                <button id="back-to-lesson-button" class="action-button">
+                                    <i class="fas fa-book-reader"></i> العودة للدرس
+                                </button>
+                                <button class="action-button back-to-lessons-list"> <!-- Added specific class -->
+                                    <i class="fas fa-list"></i> العودة لقائمة الدروس
+                                </button>
+                             </div>
+                         </div>
+                    </div> <!-- End Quiz Interface Container -->
+                </div> <!-- End Quiz Panel -->
+            </div> <!-- End Tab Panels -->
+        </div> <!-- End Lesson/Quiz Tabs Section -->
+
+        <!-- 3. Study Advice Section (Initially Hidden) -->
+        <div id="advice-section" class="main-content-section hidden">
+             <div class="container">
+                <h2 class="section-title"><i class="fas fa-lightbulb"></i> نصائح الدراسة</h2>
+                <div id="advice-content-display-area">
+                     <p class="info-message">جاري تحميل النصائح...</p>
+                </div>
+             </div>
         </div>
-      </div>
-    </div>
-  
-    <footer class="container-fluid bg-footer">
-      <p>This Page made by</p>
-      <span><a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og"> Mostafa Alomar </a></span>
-      <span><a href="privacy.html">سياسه الخصوصيه </a></span>
-    </footer>  
-    <script src="./navbar.js"></script>
-    <script src="./translator.js"></script>
+
+        <!-- 4. Handwriting Section (Initially Hidden) -->
+        <section id="handwriting-section" class="main-content-section hidden">
+            <iframe src="./html/handwrite.html" title="كتابة" loading="lazy"></iframe>
+        </section>
+
+        <!-- 5. Chatbot Section (Initially Hidden) -->
+        <section id="chatbot-section" class="main-content-section hidden">
+            <iframe src="./html/chatbot.html" title="دردشة" loading="lazy"></iframe>
+        </section>
+
+        <!-- 6. Arabic for Non-speakers Section (Initially Hidden) -->
+        <section id="nonspeaker-arabic-section" class="main-content-section hidden">
+            <iframe src="./html/arabic.html" title="العربية لغير المتحدثين" loading="lazy"></iframe>
+        </section>
+
+        <!-- 7. External Sources Section (Initially Hidden) -->
+        <section id="external-sources-section" class="main-content-section hidden">
+            <iframe src="./html/links.html" title="بعض المصادر" loading="lazy"></iframe>
+        </section>
+
+        <!-- 8. Contact Section (Initially Hidden) -->
+        <section id="contact-section" class="main-content-section hidden">
+            <iframe src="./html/contact.html" title="اتصال" loading="lazy"></iframe>
+        </section>
+
+    </div> <!-- End page-content-wrapper -->
+
+   <!-- JavaScript Imports - Order Matters! Use type=module -->
+   <!-- Config & State First -->
+   <script  src="../js/config/constants.js" type="module"></script>
+   <script src="../js/core/state_manager.js" type="module"></script>
+
+   <!-- Utilities -->
+   <script src="../js/utils/array_utils.js" type="module"></script>
+   <script src="../js/utils/dom_helpers.js" type="module"></script>
+   <script src="../js/utils/language_direction.js" type="module"></script>
+   <script src="../js/utils/external_link_handler.js" type="module"></script>
+   <script src="../js/utils/sound_manager.js" type="module"></script>
+
+   <!-- Core Logic -->
+   <script src="../js/core/view_manager.js" type="module"></script>
+   <script src="../js/core/data_loader.js" type="module"></script>
+
+   <!-- Components -->
+   <script src="../js/components/card_factory.js" type="module"></script>
+   <script src="../js/components/advice_display.js" type="module"></script>
+   <script src="../js/components/tabs_controller.js" type="module"></script>
+   <script src="../js/components/quiz_engine.js" type="module"></script>
+
+   <!-- Navigation Handlers -->
+   <script src="../js/navigation/main_nav_handler.js" type="module"></script>
+   <script src="../js/navigation/responsive_nav_handler.js" type="module"></script>
+   <script src="../js/navigation/home_handler.js" type="module"></script>
+   <script src="../js/navigation/content_navigator.js" type="module"></script>
+
+   <!-- Application Initializer - Loads Last -->
+   <script src="../js/app_initializer.js" type="module"></script>
+    <script src="./js/utils/markdown_processor.js" type="module"></script>
+
 </body>
 </html>

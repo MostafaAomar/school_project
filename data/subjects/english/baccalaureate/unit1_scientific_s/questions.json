@@ -1,0 +1,930 @@
+{
+  "unit1_scientific_1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "reading-comprehension", "career", "fill-blank", "unit1"],
+    "supportContent": {
+       "en": "Complete the following sentences with words from the article.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Parents play a vital <input type='text' class='fill-blank-input' data-blank-id='role_blank' placeholder='...'> in the career development of their children. ",
+      "ar": ""
+    },
+    "correctAnswers": {  
+         "role_blank": {
+            "en": "role",
+            "ar": "دور" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You understand the key concepts related to career guidance.",
+      "ar": "صحيح! أنت تفهم المفاهيم الأساسية المتعلقة بالإرشاد المهني."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. Think about the important words from the unit related to parents' influence ('role'), natural abilities ('aptitude'), and elements to consider ('factors'). Review the Unit 1 vocabulary and reading text.",
+      "ar": "ليس صحيحاً تماماً. فكر في الكلمات الهامة من الوحدة المتعلقة بتأثير الوالدين ('دوراً')، والقدرات الطبيعية ('موهبة' أو 'كفاءة')، والعناصر التي يجب مراعاتها ('عوامل'). راجع مفردات الوحدة الأولى والنص القرائي."
+    }
+  },
+  "unit1_scientific_2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "reading-comprehension", "career", "fill-blank", "unit1"],
+    "supportContent": {
+       "en": "Complete the following sentence with a word from the article.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Parents should study very well the <input type='text' class='fill-blank-input' data-blank-id='aptitude_blank' placeholder='...'> of their children to decide their future career.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "aptitude_blank": {
+            "en": "aptitude",
+            "ar": "موهبة" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Aptitude' refers to the child's natural abilities, which parents should understand.",
+      "ar": "ممتاز! 'الموهبة' أو 'الكفاءة' تشير إلى القدرات الطبيعية للطفل، والتي يجب على الآباء فهمها."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. Think about the word from the text that describes a child's natural ability or skill, which acts as a mirror of their personality. Review the vocabulary.",
+      "ar": "ليس تماماً. فكر في الكلمة من النص التي تصف القدرة أو المهارة الطبيعية للطفل، والتي تعمل كمرآة لشخصيته. راجع المفردات."
+    }
+  },
+  "unit1_scientific_3": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["vocabulary", "reading-comprehension", "career", "fill-blank", "unit1"],
+     "supportContent": {
+       "en": "Complete the following sentence with a word from the article.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "There should be leading <input type='text' class='fill-blank-input' data-blank-id='courses_blank' placeholder='...'> to help children choose the best job for them in the future.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "courses_blank": {
+            "en": "test",  
+            "ar": "اختبار"
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The text likely mentions 'test' leading towards a desired career.", 
+      "ar": "صحيح! على الأرجح يذكر النص 'الاختبار' الذي يؤدي إلى المهنة المرغوبة." 
+    },
+    "feedbackIncorrect": {
+      "en": "Think about what the text says 'leads towards a desired career'. Review the reading text carefully for words associated with 'leading'. Was it 'courses' or 'test'?", 
+      "ar": "فكر فيما يقول النص أنه 'يؤدي إلى المهنة المرغوبة'. راجع النص القرائي بعناية بحثًا عن الكلمات المرتبطة بـ 'leading' (المؤدية إلى). هل كانت 'دورات' أم 'اختبار'؟" 
+    }
+  },
+  "unit1_scientific_4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "reading-comprehension", "career", "fill-blank", "unit1"],
+     "supportContent": {
+       "en": "Complete the following sentence with a word from the article.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Nowadays, most people encourage their children to choose their future profession based on the <input type='text' class='fill-blank-input' data-blank-id='remuneration_blank' placeholder='...'> that profession brings to them.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "remuneration_blank": {
+            "en": "remuneration",
+            "ar": "الأجر" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Great! 'Remuneration' refers to the payment or earnings from a job.",
+      "ar": "رائع! 'الأجر' أو 'المكافأة' تشير إلى الدفعة أو الأرباح من الوظيفة."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. What word from the text refers to the money or earnings a job provides? It's mentioned as something valuable, although not the most important factor. Check the vocabulary list.",
+      "ar": "ليس صحيحاً تماماً. ما هي الكلمة من النص التي تشير إلى المال أو الأرباح التي توفرها الوظيفة؟ لقد ذُكرت كشيء ذي قيمة، على الرغم من أنها ليست العامل الأكثر أهمية. تحقق من قائمة المفردات."
+    }
+  },
+  "unit1_scientific_5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with the correct form of the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Individuals have <input type='text' class='fill-blank-input' data-blank-id='various_blank' placeholder='(vary)'> dreams in their day-to-day existence.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "various_blank": {
+            "en": "various",
+            "ar": "متنوعة" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Various' is the adjective form needed to describe 'dreams'.",
+      "ar": "صحيح! 'various' هي صيغة الصفة المطلوبة لوصف 'dreams'."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. The word needed here describes 'dreams'. What is the adjective form of 'vary'?",
+      "ar": "ليس تماماً. الكلمة المطلوبة هنا تصف 'dreams'. ما هي صيغة الصفة من الفعل 'vary'؟"
+    }
+  },
+  "unit1_scientific_6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct form of the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Everyone endeavours a great deal to make dreams a <input type='text' class='fill-blank-input' data-blank-id='reality_blank' placeholder='(real)'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "reality_blank": {
+            "en": "reality",
+            "ar": "حقيقة" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Reality' is the noun form needed here.",
+      "ar": "ممتاز! 'reality' هي صيغة الاسم المطلوبة هنا."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the word form needed after 'make dreams a...'. You need the noun form of 'real'.",
+      "ar": "فكر في صيغة الكلمة المطلوبة بعد 'make dreams a...'. أنت بحاجة إلى صيغة الاسم من 'real'."
+    }
+  },
+  "unit1_scientific_7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct form of the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Future plans and <input type='text' class='fill-blank-input' data-blank-id='decisions_blank' placeholder='(decide)'> have a great importance in a person’s life.", 
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "decisions_blank": {
+            "en": "decisions",
+            "ar": "قرارات" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! 'Decisions' is the plural noun form that parallels 'plans'.",
+      "ar": "مثالي! 'decisions' هي صيغة اسم الجمع التي توازي 'plans'."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the word 'plans'. What is the corresponding noun form of the verb 'decide' that fits here, and should it be plural?",
+      "ar": "خذ في الاعتبار كلمة 'plans'. ما هي صيغة الاسم المقابلة للفعل 'decide' التي تناسب هنا، وهل يجب أن تكون جمعاً؟"
+    }
+  },
+   "unit1_scientific_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct form of the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Gaining your boss confidence is really a great <input type='text' class='fill-blank-input' data-blank-id='accomplishment_blank' placeholder='(accomplish)'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "accomplishment_blank": {
+            "en": "accomplishment",
+            "ar": "إنجاز" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Well done! 'Accomplishment' is the noun form needed after 'a great'.",
+      "ar": "أحسنت! 'accomplishment' هي صيغة الاسم المطلوبة بعد 'a great'."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. What do you call the result of accomplishing something? You need the noun form of 'accomplish'.",
+      "ar": "ليس صحيحاً تماماً. ماذا تسمي نتيجة إنجاز شيء ما؟ أنت بحاجة إلى صيغة الاسم من 'accomplish'."
+    }
+  },
+  "unit1_scientific_9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct form of the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "I went to a counselor for <input type='text' class='fill-blank-input' data-blank-id='guidance_blank' placeholder='(guide)'> on my career.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "guidance_blank": {
+            "en": "guidance",
+            "ar": "إرشاد" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Guidance' is the noun form meaning advice or help.",
+      "ar": "صحيح! 'guidance' هي صيغة الاسم التي تعني النصيحة أو المساعدة."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about what a counselor provides. You need the noun form of the verb 'guide'.",
+      "ar": "فكر فيما يقدمه المستشار. أنت بحاجة إلى صيغة الاسم من الفعل 'guide'."
+    }
+  },
+  "unit1_scientific_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+    "supportContent": {
+       "en": "Homophones are words that sound the same but have different meanings and spellings. Choose the correct words to complete the sentence.",
+       "ar": "الكلمات المتجانسة هي كلمات متشابهة في النطق، لكن لها معانٍ وتهجئات مختلفة. اختر الكلمات الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Which ____ should we use to ____ the goods?",
+      "ar": ""
+    },
+    "options": [ 
+        { "en": "way / way", "ar": "" },   
+        { "en": "weigh / weigh", "ar": "" }, 
+        { "en": "way / weigh", "ar": "" }, 
+        { "en": "weigh / way", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "way / weigh",
+        "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Way' means method or path, and 'weigh' means to measure heaviness.",
+      "ar": "صحيح! 'Way' تعني طريقة أو مسار، و 'weigh' تعني قياس الثقل."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. 'Way' is a path or method. 'Weigh' is to measure how heavy something is. Which word fits in each blank?",
+      "ar": "ليس صحيحاً تماماً. 'Way' هي طريق أو طريقة. 'Weigh' هي قياس مدى ثقل الشيء. أي كلمة تناسب كل فراغ؟"
+    }
+  },
+  "unit1_scientific_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "No one knows ____ the ____ will be fine tomorrow.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "weather / weather", "ar": "" }, 
+        { "en": "whether / whether", "ar": "" }, 
+        { "en": "weather / whether", "ar": "" }, 
+        { "en": "whether / weather", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "whether / weather",
+        "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Whether' introduces a choice or uncertainty, and 'weather' refers to atmospheric conditions.",
+      "ar": "ممتاز! 'Whether' تقدم خياراً أو عدم يقين، و 'weather' تشير إلى الظروف الجوية."
+    },
+    "feedbackIncorrect": {
+      "en": "Check the meanings. 'Whether' expresses doubt or choice between alternatives. 'Weather' is the state of the atmosphere (rain, sun, etc.).",
+      "ar": "تحقق من المعاني. 'Whether' تعبر عن شك أو خيار بين بدائل. 'Weather' هي حالة الغلاف الجوي (مطر، شمس، إلخ)."
+    }
+  },
+  "unit1_scientific_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "The cyclist ____ his bike and set off quickly on the ____.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "road / rode", "ar": "" }, 
+        { "en": "rode / road", "ar": "" }, 
+        { "en": "road / road", "ar": "" }, 
+        { "en": "rode / rode", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "rode / road",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! 'Rode' is the past tense of ride, and 'road' is the path for vehicles.",
+      "ar": "مثالي! 'Rode' هي صيغة الماضي من يركب، و 'road' هو الطريق للمركبات."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the action (past tense of ride) and the place. 'Rode' means traveled on a bike/horse. 'Road' is the surface you travel on.",
+      "ar": "فكر في الحدث (صيغة الماضي من يركب) والمكان. 'Rode' تعني سافر على دراجة / حصان. 'Road' هو السطح الذي تسافر عليه."
+    }
+  },
+   "unit1_scientific_13": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "The man is enjoying his time with his ____ on the beach under the ____.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "son / sun", "ar": "" }, 
+        { "en": "sun / son", "ar": "" }, 
+        { "en": "son / son", "ar": "" }, 
+        { "en": "sun / sun", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "son / sun",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Well done! 'Son' is a male child, and 'sun' is the star that gives us light.",
+      "ar": "أحسنت! 'Son' هو طفل ذكر، و 'sun' هي النجم الذي يعطينا الضوء."
+    },
+    "feedbackIncorrect": {
+      "en": "Remember: 'Son' is a male offspring. 'Sun' is the star in the sky. Which one is he with? What is shining on the beach?",
+      "ar": "تذكر: 'Son' هو الابن الذكر. 'Sun' هي النجم في السماء. مع من هو؟ ما الذي يسطع على الشاطئ؟"
+    }
+  },
+  "unit1_scientific_14": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "I only ____ a sandwich at ____ before I went to bed.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "eight / ate", "ar": "" }, 
+        { "en": "ate / eight", "ar": "" }, 
+        { "en": "eight / eight", "ar": "" }, 
+        { "en": "ate / ate", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "ate / eight",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Ate' is the past tense of eat, and 'eight' is the number 8.",
+      "ar": "صحيح! 'Ate' هي صيغة الماضي من يأكل، و 'eight' هو الرقم 8."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the action (past tense of eat) and the time (the number). 'Ate' means consumed food. 'Eight' is the number after seven.",
+      "ar": "فكر في الحدث (صيغة الماضي من يأكل) والوقت (الرقم). 'Ate' تعني استهلك طعامًا. 'Eight' هو الرقم بعد سبعة."
+    }
+  },
+  "unit1_scientific_15": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "The teacher asked the students to ____ down the ____ answer.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "right / write", "ar": "" }, 
+        { "en": "write / right", "ar": "" }, 
+        { "en": "right / right", "ar": "" }, 
+        { "en": "write / write", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "write / right",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Great! 'Write' means to form letters or words, and 'right' means correct.",
+      "ar": "رائع! 'Write' تعني تكوين حروف أو كلمات، و 'right' تعني صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Think: What action did the teacher ask for? What kind of answer was it? 'Write' is the action of putting words on paper. 'Right' means correct or the opposite of left.",
+      "ar": "فكر: ما هو الإجراء الذي طلبه المعلم؟ أي نوع من الإجابات كانت؟ 'Write' هو فعل وضع الكلمات على الورق. 'Right' تعني صحيح أو عكس اليسار."
+    }
+  },
+  "unit1_scientific_16": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "We usually ____ our food from a shop ____ the corner.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "by / buy", "ar": "" }, 
+        { "en": "buy / by", "ar": "" }, 
+        { "en": "by / by", "ar": "" }, 
+        { "en": "buy / buy", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "buy / by",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Buy' means to purchase, and 'by' is a preposition indicating location or means.",
+      "ar": "ممتاز! 'Buy' تعني شراء، و 'by' هي حرف جر يشير إلى الموقع أو الوسيلة."
+    },
+    "feedbackIncorrect": {
+      "en": "What do you do with food from a shop? Where is the shop located? 'Buy' means to purchase. 'By' is a preposition often meaning near or beside.",
+      "ar": "ماذا تفعل بالطعام من المتجر؟ أين يقع المتجر؟ 'Buy' تعني شراء. 'By' هو حرف جر يعني غالبًا بالقرب من أو بجانب."
+    }
+  },
+   "unit1_scientific_17": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "pronunciation", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct words to complete the sentence.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "I wanted to sit ____ to be able to ____ the speech well.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "here / hear", "ar": "" }, 
+        { "en": "hear / here", "ar": "" }, 
+        { "en": "here / here", "ar": "" }, 
+        { "en": "hear / hear", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "here / hear",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Here' indicates a place, and 'hear' means to perceive sound with the ear.",
+      "ar": "صحيح! 'Here' تشير إلى مكان، و 'hear' تعني إدراك الصوت بالأذن."
+    },
+    "feedbackIncorrect": {
+      "en": "Where did you want to sit (location)? What did you want to do with the speech (using your ears)? 'Here' refers to this place. 'Hear' is the verb for listening.",
+      "ar": "أين أردت أن تجلس (الموقع)؟ ماذا أردت أن تفعل بالخطاب (باستخدام أذنيك)؟ 'Here' تشير إلى هذا المكان. 'Hear' هو الفعل الخاص بالاستماع."
+    }
+  },
+  "unit1_scientific_18": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-continuous", "unit1", "mcq", "dialogue"],
+    "supportContent": {
+       "en": "Use the information from the activity box (Rachel did the washing-up, resulting in soft hands) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Rachel, why are your hands so soft?\nBecause I ______.",
+      "ar": ""
+    },
+    "options": [ 
+        { "en": "have done the washing-up", "ar": "" }, 
+        { "en": "has done the washing-up", "ar": "" }, 
+        { "en": "have been doing the washing-up", "ar": "" }, 
+        { "en": "did the washing-up", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "have been doing the washing-up",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect Continuous ('have been doing') is used because the softness of her hands is a present result of the recent, continuous activity of washing up.",
+      "ar": "صحيح! يتم استخدام المضارع التام المستمر ('have been doing') لأن نعومة يديها هي نتيجة حالية للنشاط المستمر والحديث لغسل الأطباق."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. The question asks *why* her hands are soft now. This focuses on the activity that caused this present result. The Present Perfect Continuous is often used to link a present result to a recent, continuous action. Also, check the subject-verb agreement ('I').",
+      "ar": "ليس تماماً. السؤال يسأل *لماذا* يداها ناعمتان الآن. هذا يركز على النشاط الذي سبب هذه النتيجة الحالية. غالبًا ما يُستخدم المضارع التام المستمر لربط نتيجة حالية بفعل مستمر حديث. تحقق أيضًا من توافق الفاعل مع الفعل ('I')."
+    }
+  },
+  "unit1_scientific_19": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-simple", "unit1", "mcq", "dialogue"],
+    "supportContent": {
+       "en": "Use the information from the activity box (Mike peeled the onions) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Are the onions ready for the pan?\nYes, Mike ______ them.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "has peeled", "ar": "" }, 
+        { "en": "have peeled", "ar": "" }, 
+        { "en": "has been peeling", "ar": "" }, 
+        { "en": "peeled", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "has peeled",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! The Present Perfect Simple ('has peeled') is used because the focus is on the completed result of the action – the onions are now ready.",
+      "ar": "ممتاز! يتم استخدام المضارع التام البسيط ('has peeled') لأن التركيز ينصب على النتيجة المكتملة للفعل - البصل جاهز الآن."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the focus. The question is about whether the onions are *ready*, implying the action is finished. The Present Perfect Simple often emphasizes the completed result of an action. Also, the subject is 'Mike' (he).",
+      "ar": "فكر في التركيز. السؤال يدور حول ما إذا كان البصل *جاهزًا*، مما يعني أن الفعل قد انتهى. غالبًا ما يؤكد المضارع التام البسيط على النتيجة المكتملة للفعل. أيضًا، الفاعل هو 'Mike' (he)."
+    }
+  },
+  "unit1_scientific_20": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-continuous", "unit1", "mcq", "dialogue"],
+     "supportContent": {
+       "en": "Use the information from the activity box (George cut the grass, resulting in him being tired) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "George, you look tired.\nYes, I ______.",
+      "ar": ""
+    },
+     "options": [
+        {"en": "has cut the grass", "ar": ""},  
+        {"en": "have been cutting the grass", "ar": ""}, 
+        {"en": "have cut the grass", "ar": ""}, 
+        {"en": "was cutting the grass", "ar": ""} 
+     ],
+    "correctAnswer": { 
+        "en": "have been cutting the grass",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! The Present Perfect Continuous ('have been cutting') is used because the tiredness is a present result of the recent, continuous activity of cutting the grass.",
+      "ar": "مثالي! يتم استخدام المضارع التام المستمر ('have been cutting') لأن التعب هو نتيجة حالية للنشاط المستمر والحديث لقص العشب."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about why George is tired *now*. His tiredness is the result of the action. The Present Perfect Continuous connects a present result to the recent activity that caused it. The subject is 'I'.",
+      "ar": "فكر في سبب تعب جورج *الآن*. تعبه هو نتيجة الفعل. يربط المضارع التام المستمر نتيجة حالية بالنشاط الحديث الذي سببها. الفاعل هو 'I'."
+    }
+  },
+   "unit1_scientific_21": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-continuous", "unit1", "mcq", "dialogue"],
+    "supportContent": {
+       "en": "Use the information from the activity box (Tom defrosted the fridge, resulting in cold hands) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Tom, your hands are very cold.\nYes, I ______.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "have defrosted the fridge", "ar": "" }, 
+        { "en": "has defrosted the fridge", "ar": "" }, 
+        { "en": "have been defrosting the fridge", "ar": "" }, 
+        { "en": "defrosted the fridge", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "have been defrosting the fridge",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Well done! The Present Perfect Continuous ('have been defrosting') is used because the cold hands are a present result of the recent activity of defrosting the fridge.",
+      "ar": "أحسنت! يتم استخدام المضارع التام المستمر ('have been defrosting') لأن برودة اليدين هي نتيجة حالية للنشاط الحديث لإذابة الجليد من الثلاجة."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider why Tom's hands are cold *now*. This result is linked to the activity he was just doing. The Present Perfect Continuous often explains a present result based on a recent activity. The subject is 'I'.",
+      "ar": "فكر في سبب برودة يدي توم *الآن*. هذه النتيجة مرتبطة بالنشاط الذي كان يقوم به للتو. غالبًا ما يفسر المضارع التام المستمر نتيجة حالية بناءً على نشاط حديث. الفاعل هو 'I'."
+    }
+  },
+  "unit1_scientific_22": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-simple", "unit1", "mcq", "dialogue"],
+     "supportContent": {
+       "en": "Use the information from the activity box (Jane swept the floors) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Are the floors clean?\nYes, Jane ______ them.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "has been sweeping", "ar": "" }, 
+        { "en": "have swept", "ar": "" }, 
+        { "en": "swept", "ar": "" }, 
+        { "en": "has swept", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "has swept",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect Simple ('has swept') is used because the question focuses on the present result (Are they clean now?) of a completed action.",
+      "ar": "صحيح! يتم استخدام المضارع التام البسيط ('has swept') لأن السؤال يركز على النتيجة الحالية (هل هي نظيفة الآن؟) لفعل مكتمل."
+    },
+    "feedbackIncorrect": {
+      "en": "The question asks about the current state (cleanliness) resulting from a finished action. The Present Perfect Simple emphasizes the completed result. The subject is 'Jane' (she).",
+      "ar": "السؤال يسأل عن الحالة الحالية (النظافة) الناتجة عن فعل منتهٍ. يؤكد المضارع التام البسيط على النتيجة المكتملة. الفاعل هو 'Jane' (she)."
+    }
+  },
+  "unit1_scientific_23": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-continuous", "unit1", "mcq", "dialogue"],
+     "supportContent": {
+       "en": "Use the information from the activity box (Mike peeled the onions, resulting in red eyes) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Why are your eyes red, Mike?\nBecause I ______.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "have peeled the onions", "ar": "" }, 
+        { "en": "has peeled the onions", "ar": "" }, 
+        { "en": "was peeling the onions", "ar": "" }, 
+        { "en": "have been peeling the onions", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "have been peeling the onions",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Great! The Present Perfect Continuous ('have been peeling') is used because the red eyes are a present result of the recent activity of peeling onions.",
+      "ar": "رائع! يتم استخدام المضارع التام المستمر ('have been peeling') لأن احمرار العينين هو نتيجة حالية للنشاط الحديث لتقشير البصل."
+    },
+    "feedbackIncorrect": {
+      "en": "The question asks for the reason for the red eyes *now*. This present result is connected to the activity Mike was doing. Use the Present Perfect Continuous to link the result to the recent action. The subject is 'I'.",
+      "ar": "السؤال يطلب سبب احمرار العينين *الآن*. هذه النتيجة الحالية مرتبطة بالنشاط الذي كان يقوم به مايك. استخدم المضارع التام المستمر لربط النتيجة بالفعل الحديث. الفاعل هو 'I'."
+    }
+  },
+  "unit1_scientific_24": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-simple", "unit1", "mcq", "dialogue"],
+     "supportContent": {
+       "en": "Use the information from the activity box (Rachel did the washing-up) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Are the plates clean?\nYes, Rachel ______.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "has done the washing-up", "ar": "" }, 
+        { "en": "did the washing-up", "ar": "" }, 
+        { "en": "have done the washing-up", "ar": "" }, 
+        { "en": "has been doing the washing-up", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "has done the washing-up",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! The Present Perfect Simple ('has done') is used because the question asks about the present result (clean plates) of the completed action.",
+      "ar": "ممتاز! يتم استخدام المضارع التام البسيط ('has done') لأن السؤال يسأل عن النتيجة الحالية (الأطباق النظيفة) للفعل المكتمل."
+    },
+    "feedbackIncorrect": {
+      "en": "The focus is on the current state of the plates, which is a result of the finished action. The Present Perfect Simple is best here. The subject is 'Rachel' (she).",
+      "ar": "التركيز ينصب على الحالة الحالية للأطباق، وهي نتيجة الفعل المنتهي. المضارع التام البسيط هو الأفضل هنا. الفاعل هو 'Rachel' (she)."
+    }
+  },
+   "unit1_scientific_25": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect", "present-perfect-simple", "unit1", "mcq", "dialogue"],
+     "supportContent": {
+       "en": "Use the information from the activity box (Tom defrosted the fridge) to complete the dialogue with the Present Perfect Simple or Continuous.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Is the fridge all right now?\nYes, Tom ______ it.",
+      "ar": ""
+    },
+     "options": [ 
+        { "en": "has been defrosting", "ar": "" }, 
+        { "en": "have defrosted", "ar": "" }, 
+        { "en": "has defrosted", "ar": "" }, 
+        { "en": "defrosted", "ar": "" }  
+    ],
+    "correctAnswer": { 
+        "en": "has defrosted",
+         "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect Simple ('has defrosted') is used because the question asks about the current state of the fridge (Is it all right?), implying the action is complete.",
+      "ar": "صحيح! يتم استخدام المضارع التام البسيط ('has defrosted') لأن السؤال يسأل عن الحالة الحالية للثلاجة (هل هي على ما يرام؟)، مما يعني أن الفعل قد اكتمل."
+    },
+    "feedbackIncorrect": {
+      "en": "The question 'Is it all right now?' focuses on the present state resulting from a completed action. The Present Perfect Simple is used to emphasize this completed result. The subject is 'Tom' (he).",
+      "ar": "السؤال 'هل هي على ما يرام الآن؟' يركز على الحالة الحالية الناتجة عن فعل مكتمل. يُستخدم المضارع التام البسيط للتأكيد على هذه النتيجة المكتملة. الفاعل هو 'Tom' (he)."
+    }
+  },
+  "unit1_scientific_26": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A: I saw Jack last night.\nB: Oh really. I <input type='text' class='fill-blank-input' data-blank-id='not_see_blank' placeholder='(not / see)'> him for months. How is he?",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "not_see_blank": {
+            "en": "haven't seen",
+            "ar": "" 
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect ('haven't seen') is used with 'for months' to describe a period of time continuing up to the present.",
+      "ar": "صحيح! يُستخدم المضارع التام ('haven't seen') مع 'for months' لوصف فترة زمنية مستمرة حتى الوقت الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. The phrase 'for months' indicates a duration that extends up to the present moment. Which tense connects the past to the present in this way? You need the Present Perfect Simple.",
+      "ar": "ليس تماماً. عبارة 'for months' تشير إلى مدة تمتد حتى اللحظة الحالية. أي زمن يربط الماضي بالحاضر بهذه الطريقة؟ أنت بحاجة إلى المضارع التام البسيط."
+    }
+  },
+  "unit1_scientific_27": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A: <input type='text' class='fill-blank-input' data-blank-id='ever_win_blank' placeholder='(you / ever / win)'> a competition?",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "ever_win_blank": {
+            "en": "Have you ever won",
+            "ar": ""
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! The Present Perfect ('Have you ever won') is used with 'ever' to ask about experiences at any time up to now.",
+      "ar": "ممتاز! يُستخدم المضارع التام ('Have you ever won') مع 'ever' للسؤال عن التجارب في أي وقت حتى الآن."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the time frame. 'Ever' asks about any time in your life up until now. Which tense is used for life experiences? You need the Present Perfect Simple.",
+      "ar": "فكر في الإطار الزمني. 'Ever' تسأل عن أي وقت في حياتك حتى الآن. أي زمن يُستخدم للتجارب الحياتية؟ أنت بحاجة إلى المضارع التام البسيط."
+    }
+  },
+  "unit1_scientific_28": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "B: Yes, I <input type='text' class='fill-blank-input' data-blank-id='win_2006_blank' placeholder='(win)'> a writing competition in 2006.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "win_2006_blank": {
+            "en": "won",
+            "ar": ""
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! The Past Simple ('won') is used because 'in 2006' specifies a finished time in the past.",
+      "ar": "مثالي! يُستخدم الماضي البسيط ('won') لأن 'in 2006' تحدد وقتًا منتهيًا في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "Look at the time expression 'in 2006'. Does this refer to a finished time in the past or a time connected to the present? For finished past times, use the Past Simple.",
+      "ar": "انظر إلى التعبير الزمني 'in 2006'. هل يشير هذا إلى وقت منتهٍ في الماضي أم وقت متصل بالحاضر؟ للأوقات الماضية المنتهية، استخدم الماضي البسيط."
+    }
+  },
+   "unit1_scientific_29": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A: Is that a new tab?\nB: Yes, I <input type='text' class='fill-blank-input' data-blank-id='just_buy_blank' placeholder='(just / buy)'> it.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "just_buy_blank": {
+            "en": "have just bought",
+            "ar": ""
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Well done! The Present Perfect ('have just bought') is used with 'just' to talk about a very recent past action with a present result (having the new tab).",
+      "ar": "أحسنت! يُستخدم المضارع التام ('have just bought') مع 'just' للتحدث عن فعل ماضٍ حديث جدًا له نتيجة حاضرة (امتلاك الجهاز اللوحي الجديد)."
+    },
+    "feedbackIncorrect": {
+      "en": "The word 'just' indicates a very recent action, often with relevance to the present. Which tense is typically used with 'just' for recent events? You need the Present Perfect Simple.",
+      "ar": "كلمة 'just' تشير إلى فعل حديث جدًا، غالبًا ما يكون له صلة بالحاضر. أي زمن يُستخدم عادةً مع 'just' للأحداث الأخيرة؟ أنت بحاجة إلى المضارع التام البسيط."
+    }
+  },
+  "unit1_scientific_30": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+     "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets. (Based on Q4 in the book, p.16).",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A: How long <input type='text' class='fill-blank-input' data-blank-id='have_it_blank' placeholder='(you / have)'> it?\nB: I've had it for at least three years. Maybe longer.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "have_it_blank": {
+            "en": "have you had",
+            "ar": ""
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect ('have you had') is used with 'How long' to ask about a duration that started in the past and continues to the present.",
+      "ar": "صحيح! يُستخدم المضارع التام ('have you had') مع 'How long' للسؤال عن مدة بدأت في الماضي وتستمر حتى الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "The question asks 'How long', and the answer mentions a duration ('for at least three years') continuing up to now. Which tense is used to ask about the duration of something that started in the past and continues? You need the Present Perfect Simple.",
+      "ar": "السؤال يسأل 'How long'، والإجابة تذكر مدة ('for at least three years') تستمر حتى الآن. أي زمن يُستخدم للسؤال عن مدة شيء بدأ في الماضي وما زال مستمراً؟ أنت بحاجة إلى المضارع التام البسيط."
+    }
+  },
+  "unit1_scientific_31": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+     "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+       "en": "A: So, Jack is your best friend. <input type='text' class='fill-blank-input' data-blank-id='meet_when_blank' placeholder='(you / meet)'> him when you were at university?",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "meet_when_blank": {
+            "en": "Did you meet",
+            "ar": ""
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Great! The Past Simple ('Did you meet') is used because 'when you were at university' refers to a specific, finished time period in the past.",
+      "ar": "رائع! يُستخدم الماضي البسيط ('Did you meet') لأن 'when you were at university' تشير إلى فترة زمنية محددة ومنتهية في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "Look at the time clause 'when you were at university'. This indicates a finished period in the past. Which tense is used to ask about actions at a specific finished time in the past? You need the Past Simple.",
+      "ar": "انظر إلى العبارة الزمنية 'when you were at university'. تشير هذه إلى فترة منتهية في الماضي. أي زمن يُستخدم للسؤال عن الأفعال في وقت محدد ومنتهٍ في الماضي؟ أنت بحاجة إلى الماضي البسيط."
+    }
+  },
+  "unit1_scientific_32": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "past-simple", "unit1", "fill-blank", "dialogue"],
+     "supportContent": {
+       "en": "Complete the dialogue using the Present Perfect Simple or Past Simple form of the verb in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "B: Yes, we <input type='text' class='fill-blank-input' data-blank-id='be_for_years_blank' placeholder='(be)'> friends for more than ten years.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+         "be_for_years_blank": {
+            "en": "have been",
+            "ar": ""
+         }
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! The Present Perfect ('have been') is used with 'for more than ten years' to describe a state (being friends) that started in the past and continues up to the present.",
+      "ar": "ممتاز! يُستخدم المضارع التام ('have been') مع 'for more than ten years' لوصف حالة (كونهم أصدقاء) بدأت في الماضي وتستمر حتى الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "The phrase 'for more than ten years' indicates a duration continuing up to the present time. Which tense expresses this connection between the past and present, especially for states like 'be'? You need the Present Perfect Simple.",
+      "ar": "عبارة 'for more than ten years' تشير إلى مدة تستمر حتى الوقت الحاضر. أي زمن يعبر عن هذا الارتباط بين الماضي والحاضر، خاصة بالنسبة للحالات مثل 'be'؟ أنت بحاجة إلى المضارع التام البسيط."
+    }
+  }
+}
