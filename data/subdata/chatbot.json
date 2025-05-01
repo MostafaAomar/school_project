@@ -1,12 +1,45 @@
 [
   {
-    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/life_choices/questions.json",
-    "subject": "engli",
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit1_scientific_s/questions.json",
+    "subject": "unit1_scientific_s",
     "grade": "grade10"
   },
   {
-    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/life_choices/lesson_content.json",
-    "subject": "english",
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit1_scientific_s/lesson_content.json",
+    "subject": "unit1_scientific_s",
+    "grade": "grade12"
+  },
+    {
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit1_scientific_w/questions.json",
+    "subject": "unit1_scientific_w",
+    "grade": "grade10"
+  },
+  {
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit1_scientific_w/lesson_content.json",
+    "subject": "unit1_scientific_w",
+    "grade": "grade12"
+  },
+  
+
+
+  {
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit2_scientific_s/questions.json",
+    "subject": "unit2_scientific_s",
+    "grade": "grade10"
+  },
+  {
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit2_scientific_s/lesson_content.json",
+    "subject": "unit2_scientific_s",
+    "grade": "grade12"
+  },
+    {
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit2_scientific_w/questions.json",
+    "subject": "unit2_scientific_w",
+    "grade": "grade10"
+  },
+  {
+    "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/baccalaureate/unit2_scientific_w/lesson_content.json",
+    "subject": "unit2_scientific_w",
     "grade": "grade12"
   }
 ]
