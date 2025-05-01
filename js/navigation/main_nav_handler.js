@@ -1,13 +1,12 @@
 
 // /js/navigation/main_nav_handler.js
 
-/**
- * @fileoverview Handles clicks on the main navigation tabs (top bar)
- * to switch between major application sections (Subjects, Advice, etc.).
- */
 
-import { showMainContentSection } from '../core/view_manager.js';
-
+import { showMainContentSection, updateCardFlowView } from '../core/view_manager.js';
+// --- Adjust Imports ---
+import { resetNavigationState, getCachedData } from '../core/state_manager.js'; // Add getCachedData
+import { MAIN_SECTION_IDS } from '../config/constants.js';
+import { displaySubjectCards } from '../navigation/content_navigator.js'; // Add displaySubjectCards
 let mainNavContainer = null;
 
 /**
@@ -32,20 +31,37 @@ function handleMainNavClick(event) {
         return;
     }
 
-    // Update active class on buttons
+  // Update active class on buttons
     if (mainNavContainer) {
         mainNavContainer.querySelectorAll('.main-nav-button').forEach(btn => btn.classList.remove('active'));
     } else {
-         // Try finding it again if initialization failed initially
-         mainNavContainer = document.querySelector('.main-nav-container');
-         if(mainNavContainer) {
-             mainNavContainer.querySelectorAll('.main-nav-button').forEach(btn => btn.classList.remove('active'));
-         }
+        mainNavContainer = document.querySelector('.main-nav-container .main-nav-links');
+        if(mainNavContainer) {
+            mainNavContainer.querySelectorAll('.main-nav-button').forEach(btn => btn.classList.remove('active'));
+        }
     }
     clickedButton.classList.add('active');
+  // Show the target main content section
+    showMainContentSection(targetSectionId);
+    // --- Modified: Special handling for the Subjects/Flow button ---
+    if (targetSectionId === MAIN_SECTION_IDS.FLOW) {
+        console.log("[Main Nav] Subjects flow button clicked. Resetting navigation state and view.");
+        resetNavigationState();         // Clear selected subject/grade/lesson IDs
+        updateCardFlowView('subjects'); // Explicitly show the subjects grid view
 
-    // Show the target main content section
-    showMainContentSection(targetSectionId); // From view_manager.js
+        // --- ADDED: Re-display subject cards from cache ---
+        console.log("[Main Nav] Attempting to re-display subject cards from cache.");
+        const subjectsList = getCachedData('subjectsList');
+        if (subjectsList) {
+            displaySubjectCards(subjectsList);
+            console.log("[Main Nav] Subject cards re-displayed from cache.");
+        } else {
+            // This shouldn't normally happen if the app initialized correctly
+            console.error("[Main Nav] CRITICAL: Could not retrieve subjectsList from cache to re-display subjects. Initial load might have failed.");
+            // Optionally display an error message in the grid
+             const subjectsGrid = document.getElementById('subjects-grid');
+             if(subjectsGrid) subjectsGrid.innerHTML = '<p class="error-message">خطأ: لم يتم العثور على قائمة المواد لعرضها.</p>';
+        }}
 }
 
 /**

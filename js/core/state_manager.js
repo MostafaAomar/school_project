@@ -1,17 +1,17 @@
 // /js/core/state_manager.js
 import { DEFAULT_LANGUAGE, MAIN_SECTION_IDS } from '../config/constants.js';
 
+const SESSION_STORAGE_KEY = 'appNavigationState'; // Key for sessionStorage
+
 const applicationState = {
     currentLanguage: DEFAULT_LANGUAGE,
-    // Store IDs instead of full objects for simplicity with dynamic loading
     selectedSubjectId: null,
     selectedGradeId: null,
     selectedLessonId: null,
-    // We might need the titles temporarily for display, store them briefly
     selectedSubjectTitle: null,
     selectedGradeTitle: null,
     selectedLessonTitle: null,
-    isQuizActive: false,
+    isQuizActive: false, // Let's NOT persist quiz state for simplicity
     currentCardView: 'subjects',
     activeMainSectionId: MAIN_SECTION_IDS.FLOW,
     cachedData: {
@@ -24,6 +24,62 @@ const applicationState = {
         lessonQuestions: {}  // e.g., lessonQuestions['english_baccalaureate_life_choices'] = {...}
     }
 };
+function saveNavigationStateToSession() {
+    try {
+        const stateToSave = {
+            selectedSubjectId: applicationState.selectedSubjectId,
+            selectedGradeId: applicationState.selectedGradeId,
+            selectedLessonId: applicationState.selectedLessonId,
+            selectedSubjectTitle: applicationState.selectedSubjectTitle,
+            selectedGradeTitle: applicationState.selectedGradeTitle,
+            selectedLessonTitle: applicationState.selectedLessonTitle,
+            currentCardView: applicationState.currentCardView,
+            activeMainSectionId: applicationState.activeMainSectionId,
+            // Don't save isQuizActive - quiz should restart if page reloads
+        };
+        sessionStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(stateToSave));
+        // console.log('[State Manager] Saved navigation state to sessionStorage:', stateToSave);
+    } catch (error) {
+        console.error('[State Manager] Failed to save state to sessionStorage:', error);
+    }
+}
+
+// --- Helper to load state from sessionStorage ---
+export function restoreStateFromSession() {
+    try {
+        const savedStateString = sessionStorage.getItem(SESSION_STORAGE_KEY);
+        if (savedStateString) {
+            const restoredState = JSON.parse(savedStateString);
+            // Basic validation: Check if essential keys exist
+            if (restoredState && restoredState.activeMainSectionId && restoredState.currentCardView) {
+                console.log('[State Manager] Restoring state from sessionStorage:', restoredState);
+                // Update the in-memory state, but only with the persisted fields
+                // Don't overwrite cachedData or language potentially set elsewhere initially
+                 updateState({ // Use updateState to ensure consistency (even though it saves again)
+                     selectedSubjectId: restoredState.selectedSubjectId || null,
+                     selectedGradeId: restoredState.selectedGradeId || null,
+                     selectedLessonId: restoredState.selectedLessonId || null,
+                     selectedSubjectTitle: restoredState.selectedSubjectTitle || null,
+                     selectedGradeTitle: restoredState.selectedGradeTitle || null,
+                     selectedLessonTitle: restoredState.selectedLessonTitle || null,
+                     currentCardView: restoredState.currentCardView || 'subjects',
+                     activeMainSectionId: restoredState.activeMainSectionId || MAIN_SECTION_IDS.FLOW,
+                     isQuizActive: false // Always reset quiz status on restore
+                 });
+                return true; // Indicate success
+            } else {
+                console.warn('[State Manager] Invalid state found in sessionStorage. Clearing.');
+                sessionStorage.removeItem(SESSION_STORAGE_KEY);
+            }
+        }
+    } catch (error) {
+        console.error('[State Manager] Failed to restore state from sessionStorage:', error);
+        sessionStorage.removeItem(SESSION_STORAGE_KEY); // Clear invalid data
+    }
+    return false; // Indicate failure or no state found
+}
+
+
 
 export function getCurrentState() {
     return { ...applicationState };
@@ -32,12 +88,15 @@ export function getCurrentState() {
 export function updateState(newState) {
     console.log('[State Manager] Updating state:', newState);
     Object.assign(applicationState, newState);
-    console.log('[State Manager] New state:', { ...applicationState });
+    // --- SAVE TO SESSION STORAGE AFTER UPDATE ---
+    saveNavigationStateToSession();
+    // -----------------------------------------
+    console.log('[State Manager] New state:', { ...applicationState }); // Log after saving
 }
 
 export function resetNavigationState() {
     console.log('[State Manager] Resetting navigation state.');
-    updateState({
+    updateState({ // This will also trigger saveNavigationStateToSession with nulls
         selectedSubjectId: null,
         selectedGradeId: null,
         selectedLessonId: null,
@@ -47,6 +106,13 @@ export function resetNavigationState() {
         isQuizActive: false,
         currentCardView: 'subjects'
     });
+       // --- CLEAR SESSION STORAGE ON EXPLICIT RESET ---
+    try {
+        sessionStorage.removeItem(SESSION_STORAGE_KEY);
+        console.log('[State Manager] Cleared navigation state from sessionStorage.');
+    } catch (error) {
+        console.error('[State Manager] Failed to clear sessionStorage:', error);
+    }
 }
 
 /**

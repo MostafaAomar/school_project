@@ -10,6 +10,7 @@ import { loadAndDisplayLesson } from '../components/tabs_controller.js';
 // Corrected import:
 import { loadGradesList, loadLessonsList, loadSubjectsList } from '../core/data_loader.js';
 import { GRID_IDS, VIEW_IDS, DEFAULT_ICON_PATH, MAIN_SECTION_IDS } from '../config/constants.js';
+
 import { navigateHome } from './home_handler.js';
 
 // clearGridAndShowMessage function remains the same...
@@ -121,31 +122,27 @@ async function handleSubjectSelection(subjectId, subjectTitle) {
 }
 
 
-/**
- * Displays grade cards.
- * @param {Array} gradesList - Array of grade objects.
- * @param {string} subjectDisplayName - The name of the subject for the title.
- */
-function displayGradeCards(gradesList, subjectDisplayName) {
-     console.log('[Content Navigator] displayGradeCards received:', JSON.stringify(gradesList)); // See exactly what data is being looped over
-   
+// Around line 118
+export function displayGradeCards(gradesList, subjectDisplayName) { // <--- ADD export HERE
+    console.log('[Content Navigator] displayGradeCards received:', JSON.stringify(gradesList)); // See exactly what data is being looped over
+
     const gridId = GRID_IDS.GRADES;
     const gradesGrid = document.getElementById(gridId);
     const titleElement = document.getElementById('grades-section-title');
     const currentLang = getCurrentState().currentLanguage;
 
     if (titleElement) {
-         titleElement.textContent = `اختر الصف لمادة ${subjectDisplayName}`;
+        titleElement.textContent = `اختر الصف لمادة ${subjectDisplayName}`;
     }
 
     clearGridAndShowMessage(gridId); // Clear loading/previous error
 
     if (!Array.isArray(gradesList) || gradesList.length === 0) { // Should be caught by handler, but double check
-         clearGridAndShowMessage(gridId, 'لا توجد صفوف متاحة لهذه المادة.');
-         return;
+        clearGridAndShowMessage(gridId, 'لا توجد صفوف متاحة لهذه المادة.');
+        return;
     }
- clearGridAndShowMessage(gridId);
-   gradesList.forEach(grade => {
+    // clearGridAndShowMessage(gridId); // Removed redundant clear
+    gradesList.forEach(grade => {
         console.log('[Content Navigator] Processing grade in loop:', grade.gradeId);
         if (!grade || !grade.gradeId || !grade.title?.[currentLang]) {
             console.warn("[Content Navigator] Skipping invalid grade item:", grade);
@@ -154,34 +151,77 @@ function displayGradeCards(gradesList, subjectDisplayName) {
 
         // Handle potential external link directly on grade card click
         if (grade.externalLink) {
-             const card = createCardElement(
-                 grade.title[currentLang],
-                 grade.icon || DEFAULT_ICON_PATH,
-                 'data-grade-id',
-                 grade.gradeId
-             );
-             card.addEventListener('click', () => handleExternalLink(grade.externalLink));
-              card.addEventListener('keydown', (e) => {
-                  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleExternalLink(grade.externalLink);}
-              });
-             gradesGrid.appendChild(card);
+            const card = createCardElement(
+                grade.title[currentLang],
+                grade.icon || DEFAULT_ICON_PATH,
+                'data-grade-id',
+                grade.gradeId
+            );
+            card.addEventListener('click', () => handleExternalLink(grade.externalLink));
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleExternalLink(grade.externalLink); }
+            });
+            gradesGrid.appendChild(card);
         } else {
-             // Normal grade selection
-             const card = createCardElement(
-                 grade.title[currentLang],
-                 grade.icon || DEFAULT_ICON_PATH,
-                 'data-grade-id',
-                 grade.gradeId
-             );
-             // Pass grade ID and title object
-             card.addEventListener('click', () => handleGradeSelection(grade.gradeId, grade.title));
-             card.addEventListener('keydown', (e) => {
-                 if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleGradeSelection(grade.gradeId, grade.title);}
-             });
-             gradesGrid.appendChild(card);
+            // Normal grade selection
+            const card = createCardElement(
+                grade.title[currentLang],
+                grade.icon || DEFAULT_ICON_PATH,
+                'data-grade-id',
+                grade.gradeId
+            );
+            // Pass grade ID and title object
+            card.addEventListener('click', () => handleGradeSelection(grade.gradeId, grade.title));
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleGradeSelection(grade.gradeId, grade.title); }
+            });
+            gradesGrid.appendChild(card);
         }
     });
     console.log("[Content Navigator] Grade cards rendered.");
+}
+
+
+// Around line 201
+export function displayLessonCards(lessonsList, gradeDisplayName) { // <--- ADD export HERE
+    console.log("[Content Navigator] Displaying Lesson cards...");
+    const gridId = GRID_IDS.LESSONS;
+    const lessonsGrid = document.getElementById(gridId);
+    const titleElement = document.getElementById('lessons-section-title');
+    const currentLang = getCurrentState().currentLanguage;
+
+    if (titleElement) {
+        titleElement.textContent = `اختر الدرس للصف ${gradeDisplayName}`;
+    }
+
+    clearGridAndShowMessage(gridId); // Clear loading/previous error
+
+    if (!Array.isArray(lessonsList) || lessonsList.length === 0) {
+        clearGridAndShowMessage(gridId, 'لا توجد دروس متاحة لهذا الصف.');
+        return;
+    }
+
+    lessonsList.forEach(lesson => {
+        if (!lesson || !lesson.lessonId || !lesson.title?.[currentLang]) {
+            console.warn("[Content Navigator] Skipping invalid lesson item:", lesson);
+            return;
+        }
+
+        const card = createCardElement(
+            lesson.title[currentLang],
+            lesson.icon || DEFAULT_ICON_PATH,
+            'data-lesson-id',
+            lesson.lessonId
+        );
+
+        // Pass lesson ID and Title object
+        card.addEventListener('click', () => handleLessonSelection(lesson.lessonId, lesson.title));
+        card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleLessonSelection(lesson.lessonId, lesson.title); }
+        });
+        lessonsGrid.appendChild(card);
+    });
+    console.log("[Content Navigator] Lesson cards rendered.");
 }
 
 /**
@@ -230,51 +270,7 @@ async function handleGradeSelection(gradeId, gradeTitle) {
      }
 }
 
-/**
- * Displays lesson cards.
- * @param {Array} lessonsList - Array of lesson objects.
- * @param {string} gradeDisplayName - Name of the grade for the title.
- */
-function displayLessonCards(lessonsList, gradeDisplayName) {
-     console.log("[Content Navigator] Displaying Lesson cards...");
-     const gridId = GRID_IDS.LESSONS;
-     const lessonsGrid = document.getElementById(gridId);
-     const titleElement = document.getElementById('lessons-section-title');
-     const currentLang = getCurrentState().currentLanguage;
 
-      if (titleElement) {
-          titleElement.textContent = `اختر الدرس للصف ${gradeDisplayName}`;
-      }
-
-      clearGridAndShowMessage(gridId); // Clear loading/previous error
-
-      if (!Array.isArray(lessonsList) || lessonsList.length === 0) {
-           clearGridAndShowMessage(GRID_IDS.LESSONS, 'لا توجد دروس متاحة لهذا الصف.');
-           return;
-      }
-
-      lessonsList.forEach(lesson => {
-          if (!lesson || !lesson.lessonId || !lesson.title?.[currentLang]) {
-               console.warn("[Content Navigator] Skipping invalid lesson item:", lesson);
-               return;
-          }
-
-          const card = createCardElement(
-               lesson.title[currentLang],
-               lesson.icon || DEFAULT_ICON_PATH,
-               'data-lesson-id',
-               lesson.lessonId
-          );
-
-           // Pass lesson ID and Title object
-          card.addEventListener('click', () => handleLessonSelection(lesson.lessonId, lesson.title));
-          card.addEventListener('keydown', (e) => {
-               if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleLessonSelection(lesson.lessonId, lesson.title);}
-           });
-          lessonsGrid.appendChild(card);
-     });
-      console.log("[Content Navigator] Lesson cards rendered.");
-}
 
 /**
  * Handles lesson selection. Transitions to tabs view and loads lesson content.
@@ -282,34 +278,32 @@ function displayLessonCards(lessonsList, gradeDisplayName) {
  * @param {object} lessonTitle - The title object {en, ar}.
  */
 async function handleLessonSelection(lessonId, lessonTitle) {
-     console.log(`[Content Navigator] Lesson selected: ${lessonId}`);
-     const state = getCurrentState();
-     const { selectedSubjectId, selectedGradeId, currentLanguage } = state;
+    console.log(`[Content Navigator] Lesson selected: ${lessonId}`);
+    const state = getCurrentState();
+    const { selectedSubjectId, selectedGradeId, currentLanguage } = state;
 
-     if (!selectedSubjectId || !selectedGradeId) {
+    if (!selectedSubjectId || !selectedGradeId) {
           console.error("[Content Navigator] Cannot select lesson: Subject or Grade ID missing from state.");
           alert("خطأ: الرجاء اختيار المادة والصف أولاً.");
           navigateHome();
           return;
      }
 
-     // Update state with selected lesson ID and Title
-     updateState({
-          selectedLessonId: lessonId,
-          selectedLessonTitle: lessonTitle,
-          isQuizActive: false
-      });
+  // Update state with selected lesson ID, Title, AND the active main section
+    updateState({
+        selectedLessonId: lessonId,
+        selectedLessonTitle: lessonTitle,
+        isQuizActive: false,
+        activeMainSectionId: MAIN_SECTION_IDS.TABS // <<< --- ADD THIS LINE
+    });
 
        // --- Transition to Tabs View ---
-       // 1. Hide card flow, show tabs
-       hideAllSectionsExcept(MAIN_SECTION_IDS.TABS);
+    hideAllSectionsExcept(MAIN_SECTION_IDS.TABS);
 
-        // 2. Prepare basic info for the tabs controller (title lookup)
-        const lessonBasicInfo = {
-             lessonId: lessonId,
-             title: lessonTitle // Pass the title object directly
-             // We no longer need questionIds here
-        };
+    const lessonBasicInfo = {
+        lessonId: lessonId,
+        title: lessonTitle
+    };
 
        // 3. Load the full lesson content into the tabs component
        // Pass necessary IDs for loading content

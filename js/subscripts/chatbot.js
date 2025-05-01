@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- State and Configuration ---
     let mergedData = {};
     // *** Path to the file containing the list of JSON sources ***
-    const dataSourceIndexFile = '../../data/subdata/chatbot.json';
+    const dataSourceIndexFile = 'https://mostafaaomar.github.io/school_project/data/subdata/chatbot.json';
     let currentLanguage = 'ar'; // Default to Arabic based on HTML
 
     // ========================================================================

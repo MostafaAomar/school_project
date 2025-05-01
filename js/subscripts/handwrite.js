@@ -36,7 +36,7 @@
 
         // Load questions
         function loadQuestions() {
-            fetch('../../data/subdata/handwrite.json')
+            fetch('../data/subdata/handwrite.json')
                 .then(res => res.json())
                 .then(data => {
                     questions = data;
