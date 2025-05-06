@@ -1,0 +1,301 @@
+{
+  "unit6_w_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "definitions", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "Match the definition with one of the words: [Fund, corporations, adopted, advocate, prevailing]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. to defend or support <input type='text' class='fill-blank-input' data-blank-id='def1' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "def1": { "en": "advocate", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني الدفاع عن شيء أو دعمه هي 'advocate'."
+    }
+  },
+  "unit6_w_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "definitions", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "Match the definition with one of the words: [Fund, corporations, adopted, advocate, prevailing]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. the activity of collecting money for a specific purpose, especially in order to help people <input type='text' class='fill-blank-input' data-blank-id='def2' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "def2": { "en": "Fund", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! (Referring to the activity)",
+      "ar": "صحيح! (إشارة إلى النشاط)"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تشير إلى نشاط جمع الأموال لغرض معين هي 'Fund' (بمعنى نشاط جمع التبرعات)."
+    }
+  },
+  "unit6_w_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "definitions", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "Match the definition with one of the words: [Fund, corporations, adopted, advocate, prevailing]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. existing or accepted in a particular place or at a particular time <input type='text' class='fill-blank-input' data-blank-id='def3' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "def3": { "en": "prevailing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني موجودًا أو مقبولًا في مكان أو وقت معين هي 'prevailing'."
+    }
+  },
+  "unit6_w_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "definitions", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "Match the definition with one of the words: [Fund, corporations, adopted, advocate, prevailing]",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. to select and take or approve <input type='text' class='fill-blank-input' data-blank-id='def4' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "def4": { "en": "adopted", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني الاختيار والأخذ أو الموافقة هي 'adopted'."
+    }
+  },
+  "unit6_w_5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "definitions", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "Match the definition with one of the words: [Fund, corporations, adopted, advocate, prevailing]",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. an organisation or group of organisations that work together for a particular purpose <input type='text' class='fill-blank-input' data-blank-id='def5' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "def5": { "en": "corporations", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف منظمة أو مجموعة منظمات تعمل معًا لغرض معين هي غالبًا 'corporations' في هذا السياق."
+    }
+  },
+  "unit6_w_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "prefix", "un", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "Use the word in brackets, adding the prefix 'un-' or 'dis-', in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Children love <input type='text' class='fill-blank-input' data-blank-id='pref1' placeholder='(wrap)'> parcels at Christmas time.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pref1": { "en": "unwrapping", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. البادئة المناسبة لعكس فعل 'wrap' (يغلف) هي 'un-'. وبما أنها تأتي بعد الفعل 'love'، فإنها تحتاج إلى صيغة الـ gerund (-ing)."
+    }
+  },
+  "unit6_w_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "prefix", "dis", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "Use the word in brackets, adding the prefix 'un-' or 'dis-', in the correct form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. I almost find that he has unusual opinions. I often <input type='text' class='fill-blank-input' data-blank-id='pref2' placeholder='(agree)'> with him.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pref2": { "en": "disagree", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. البادئة التي تعني عكس 'agree' (يوافق) هي 'dis-'. الفعل يأتي بعد الظرف 'often' ويحتاج إلى صيغة المضارع البسيط."
+    }
+  },
+  "unit6_w_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "prefix", "dis", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "Use the word in brackets, adding the prefix 'un-' or 'dis-', in the correct form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. I’m sure he’s lying but it’s going to be hard to <input type='text' class='fill-blank-input' data-blank-id='pref3' placeholder='(prove)'> his story.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pref3": { "en": "disprove", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. البادئة التي تعني إثبات خطأ أو عدم صحة شيء (عكس 'prove') هي 'dis-'. الفعل يأتي بعد 'to' ويحتاج إلى صيغة المصدر."
+    }
+  },
+  "unit6_w_9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "prefix", "un", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "Use the word in brackets, adding the prefix 'un-' or 'dis-', in the correct form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. After a brief speech the minister <input type='text' class='fill-blank-input' data-blank-id='pref4' placeholder='(veil)'> the new statue.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pref4": { "en": "unveiled", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. البادئة التي تعني إزالة الغطاء (عكس 'veil') هي 'un-'. الفعل حدث في الماضي ويحتاج إلى صيغة الماضي البسيط."
+    }
+  },
+  "unit6_w_10": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "prefix", "un", "unit6", "fill-blank"],
+     "supportContent": {
+       "en": "Use the word in brackets, adding the prefix 'un-' or 'dis-', in the correct form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. It took the removal men an hour to <input type='text' class='fill-blank-input' data-blank-id='pref5' placeholder='(load)'> our things from the van.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pref5": { "en": "unload", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. البادئة التي تعني إزالة الحمولة (عكس 'load') هي 'un-'. الفعل يأتي بعد 'to' ويحتاج إلى صيغة المصدر."
+    }
+  },
+  "unit6_w_11": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "prefix", "dis", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "Use the word in brackets, adding the prefix 'un-' or 'dis-', in the correct form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "6. His phone was <input type='text' class='fill-blank-input' data-blank-id='pref6' placeholder='(connect)'> because he didn’t pay his last bill.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pref6": { "en": "disconnected", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. البادئة التي تعني قطع الاتصال (عكس 'connect') هي 'dis-'. الكلمة تأتي بعد فعل الكينونة 'was' وتصف حالة الهاتف، لذا تحتاج إلى صيغة التصريف الثالث (past participle) لتكوين المبني للمجهول."
+    }
+  },
+  "unit6_w_12_future": { 
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "future-perfect", "future-continuous", "future-simple", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the text with will be, will have, or will have been + the correct form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. It’s hard to make predictions too far into the future, but I think I can say quite a lot about my life in about ten years. I think I (still live) will still be living in the same city. By that time, I 1 (finish) <input type='text' class='fill-blank-input' data-blank-id='fut1' placeholder='...'> my studies, and, who knows, perhaps I 2 (find) <input type='text' class='fill-blank-input' data-blank-id='fut2' placeholder='...'> a good job. And I 3 (probably go out) <input type='text' class='fill-blank-input' data-blank-id='fut3' placeholder='...'> with the same friends too!\n\n2. By the time I’m sixty, I expect that nearly everything 4 (change) <input type='text' class='fill-blank-input' data-blank-id='fut4' placeholder='...'> and everyone 5 (try) <input type='text' class='fill-blank-input' data-blank-id='fut5' placeholder='...'> their best to adapt to new circumstances. For example, I can’t imagine that we 6 (use) <input type='text' class='fill-blank-input' data-blank-id='fut6' placeholder='...'> cars, because by then most of the oil in the world 7 (run out) <input type='text' class='fill-blank-input' data-blank-id='fut7' placeholder='...'>. People 8 (travel) <input type='text' class='fill-blank-input' data-blank-id='fut8' placeholder='...'> in electric cars, or perhaps we 9 (walk) <input type='text' class='fill-blank-input' data-blank-id='fut9' placeholder='...'> everywhere. I hope that scientists 10 (solve) <input type='text' class='fill-blank-input' data-blank-id='fut10' placeholder='...'> pollution problem, but who knows! Perhaps some other worse problems 11 (come) <input type='text' class='fill-blank-input' data-blank-id='fut11' placeholder='...'> along by then!",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut1":  { "en": "will have finished", "ar": "" },
+      "fut2":  { "en": "will have found", "ar": "" },
+      "fut3":  { "en": "will probably be going out", "ar": "" }, 
+      "fut4":  { "en": "will have changed", "ar": "" },
+      "fut5":  { "en": "will be trying", "ar": "" }, 
+      "fut6":  { "en": "will be using", "ar": "" }, 
+      "fut7":  { "en": "will have run out", "ar": "" }, 
+      "fut8":  { "en": "will be travelling", "ar": "" }, 
+      "fut9":  { "en": "will be walking", "ar": "" }, 
+      "fut10": { "en": "will have solved", "ar": "" }, 
+      "fut11": { "en": "will have come", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You've applied the future tenses appropriately.",
+      "ar": "صحيح! لقد طبقت أزمنة المستقبل بشكل مناسب."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. راجع استخدام أزمنة المستقبل: المستقبل المستمر (will be + V-ing) لوصف فعل مستمر في وقت محدد في المستقبل، والمستقبل التام (will have + P.P.) لوصف فعل سيكتمل قبل وقت محدد في المستقبل. انتبه للكلمات الدالة مثل 'By that time' أو للسياق الذي يشير إلى الاستمرارية أو الاكتمال."
+    }
+  }
+}
+

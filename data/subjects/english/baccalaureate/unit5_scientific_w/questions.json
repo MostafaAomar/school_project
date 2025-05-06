@@ -1,0 +1,472 @@
+{
+  "unit5_w_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "grammar", "noun", "adjective", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": "اختر الصيغة الصحيحة للكلمة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Education must be ______ to the development of human personality.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "directed", "ar": "" },
+      { "en": "direction", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "directed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The past participle 'directed' is used here as part of the passive voice ('must be directed').",
+      "ar": "صحيح! يُستخدم التصريف الثالث 'directed' هنا كجزء من المبني للمجهول ('must be directed')."
+    },
+    "feedbackIncorrect": {
+      "en": "'Direction' is a noun. The sentence requires the passive form of the verb 'to direct' after 'must be'.",
+      "ar": "'Direction' هو اسم. الجملة تتطلب صيغة المبني للمجهول للفعل 'to direct' بعد 'must be'."
+    }
+  },
+  "unit5_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "grammar", "noun", "adjective", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": "اختر الصيغة الصحيحة للكلمة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Civil rights are secured by a positive government ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "active", "ar": "" },
+      { "en": "action", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "action",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Action' is the noun needed here, referring to the deeds or process of the government.",
+      "ar": "صحيح! 'Action' هو الاسم المطلوب هنا، ويشير إلى أفعال أو عملية الحكومة."
+    },
+    "feedbackIncorrect": {
+      "en": "'Active' is an adjective. The sentence needs a noun after 'government' to indicate what secures the rights.",
+      "ar": "'Active' هي صفة. الجملة تحتاج إلى اسم بعد 'government' للإشارة إلى ما يؤمن الحقوق."
+    }
+  },
+  "unit5_w_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "grammar", "verb", "noun", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": "اختر الصيغة الصحيحة للكلمة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Political rights are a class of rights that ______ individual’s freedom.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "protect", "ar": "" },
+      { "en": "protection", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "protect",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb 'protect' is needed in the relative clause to agree with 'rights' (plural).",
+      "ar": "صحيح! الفعل 'protect' مطلوب في الجملة الوصلية ليتوافق مع 'rights' (جمع)."
+    },
+    "feedbackIncorrect": {
+      "en": "'Protection' is a noun. The relative clause starting with 'that' needs a verb to describe what the rights do.",
+      "ar": "'Protection' هو اسم. الجملة الوصلية التي تبدأ بـ 'that' تحتاج إلى فعل لوصف ما تفعله الحقوق."
+    }
+  },
+  "unit5_w_4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "grammar", "noun", "adjective", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": "اختر الصيغة الصحيحة للكلمة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Civil rights guarantee equal ______ opportunities.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "society", "ar": "" },
+      { "en": "social", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "social",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The adjective 'social' is needed to describe the type of 'opportunities'.",
+      "ar": "صحيح! الصفة 'social' مطلوبة لوصف نوع 'opportunities'."
+    },
+    "feedbackIncorrect": {
+      "en": "'Society' is a noun. You need an adjective to modify the noun 'opportunities'.",
+      "ar": "'Society' هو اسم. أنت بحاجة إلى صفة لتعديل الاسم 'opportunities'."
+    }
+  },
+  "unit5_w_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "grammar", "verb", "adjective", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": "اختر الصيغة الصحيحة للكلمة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Education ______ the respect for human rights.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "strong", "ar": "" },
+      { "en": "strengthens", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "strengthens",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb 'strengthens' (Present Simple, third person singular) is needed to agree with the subject 'Education'.",
+      "ar": "صحيح! الفعل 'strengthens' (مضارع بسيط، صيغة الغائب المفرد) مطلوب ليتوافق مع الفاعل 'Education'."
+    },
+    "feedbackIncorrect": {
+      "en": "'Strong' is an adjective. The sentence needs a verb to describe what 'Education' does.",
+      "ar": "'Strong' هي صفة. الجملة تحتاج إلى فعل لوصف ما يفعله 'Education'."
+    }
+  },
+  "unit5_w_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "people", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct relative pronoun.",
+      "ar": "اختر الضمير الموصول الصحيح."
+    },
+    "questionText": {
+      "en": "We have a package for the man ______ stopped by today.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "who", "ar": "" },
+      { "en": "which", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "who",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Who' is used to refer to people.",
+      "ar": "صحيح! 'Who' تُستخدم للإشارة إلى الأشخاص."
+    },
+    "feedbackIncorrect": {
+      "en": "'Which' is used for things or animals. Use 'who' when referring to a person.",
+      "ar": "'Which' تُستخدم للأشياء أو الحيوانات. استخدم 'who' عند الإشارة إلى شخص."
+    }
+  },
+  "unit5_w_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "possession", "people", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct relative pronoun.",
+       "ar": "اختر الضمير الموصول الصحيح."
+    },
+    "questionText": {
+      "en": "I met the author ______ book is on the best-seller list.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "who", "ar": "" },
+      { "en": "whose", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "whose",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Whose' is used to show possession (the author's book).",
+      "ar": "صحيح! 'Whose' تُستخدم لإظهار الملكية (كتاب المؤلف)."
+    },
+    "feedbackIncorrect": {
+      "en": "'Who' refers to the person. Use 'whose' to indicate that the book belongs to the author.",
+      "ar": "'Who' تشير إلى الشخص. استخدم 'whose' للإشارة إلى أن الكتاب يخص المؤلف."
+    }
+  },
+  "unit5_w_8": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-pronoun", "non-defining-clause", "things", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct relative pronoun.",
+       "ar": "اختر الضمير الموصول الصحيح."
+    },
+    "questionText": {
+      "en": "The income tax, ______ he paid last year, is accurate.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "that", "ar": "" },
+      { "en": "which", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "which",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Which' is used for non-defining relative clauses (clauses set off by commas that add extra information) referring to things. 'That' is typically not used in non-defining clauses.",
+      "ar": "صحيح! 'Which' تُستخدم للجمل الوصلية غير المُعرِّفة (الجمل التي توضع بين فواصل وتضيف معلومات إضافية) التي تشير إلى أشياء. عادةً لا تُستخدم 'that' في الجمل غير المُعرِّفة."
+    },
+    "feedbackIncorrect": {
+      "en": "The clause ', ... he paid last year,' is non-defining (extra information). For non-defining clauses referring to things, use 'which', not 'that'.",
+      "ar": "الجملة ', ... he paid last year,' هي جملة غير مُعرِّفة (معلومات إضافية). بالنسبة للجمل غير المُعرِّفة التي تشير إلى أشياء، استخدم 'which' وليس 'that'."
+    }
+  },
+  "unit5_w_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "things", "defining-clause", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct relative pronoun.",
+       "ar": "اختر الضمير الموصول الصحيح."
+    },
+    "questionText": {
+      "en": "Will you be presenting the slides ______ you took in Canada last summer?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "whose", "ar": "" },
+      { "en": "which", "ar": "" } 
+    ],
+    "correctAnswer": {
+      "en": "which",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Which' (or 'that') is used to refer to things (the slides) in a defining relative clause.",
+      "ar": "صحيح! 'Which' (أو 'that') تُستخدم للإشارة إلى الأشياء (the slides) في جملة وصلية مُعرِّفة."
+    },
+    "feedbackIncorrect": {
+      "en": "'Whose' shows possession. Use 'which' or 'that' to refer to the slides (things).",
+      "ar": "'Whose' تظهر الملكية. استخدم 'which' أو 'that' للإشارة إلى الشرائح (أشياء)."
+    }
+  },
+  "unit5_w_10": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-pronoun", "places", "preposition", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct relative pronoun.",
+       "ar": "اختر الضمير الموصول الصحيح."
+    },
+    "questionText": {
+      "en": "This is the city in ______ Shakespeare was born.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "which", "ar": "" },
+      { "en": "where", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "which",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! When the preposition ('in') comes before the relative pronoun referring to a place, 'which' is used.",
+      "ar": "صحيح! عندما يأتي حرف الجر ('in') قبل الضمير الموصول الذي يشير إلى مكان، يتم استخدام 'which'."
+    },
+    "feedbackIncorrect": {
+      "en": "Although 'where' refers to places, when a preposition like 'in' is used directly before the relative pronoun, 'which' is required. (Compare: 'This is the city where Shakespeare was born.')",
+      "ar": "على الرغم من أن 'where' تشير إلى الأماكن، إلا أنه عندما يُستخدم حرف جر مثل 'in' مباشرة قبل الضمير الموصول، فإن 'which' مطلوبة. (قارن: 'This is the city where Shakespeare was born.')"
+    }
+  },
+  "unit5_w_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "time", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct relative pronoun.",
+       "ar": "اختر الضمير الموصول الصحيح."
+    },
+    "questionText": {
+      "en": "The evening is a time ______ we can all relax.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "when", "ar": "" },
+      { "en": "where", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "when",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'When' is used to refer to a time.",
+      "ar": "صحيح! 'When' تُستخدم للإشارة إلى وقت."
+    },
+    "feedbackIncorrect": {
+      "en": "'Where' refers to places. Use 'when' to refer to 'a time'.",
+      "ar": "'Where' تشير إلى الأماكن. استخدم 'when' للإشارة إلى 'a time'."
+    }
+  },
+  "unit5_w_12_paragraph": { 
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "human-rights", "children", "declaration", "unit5", "paragraph-completion", "fill-blank"],
+    "supportContent": {
+      "en": "Complete this paragraph with words from the list below.\n[including, states, childhood, beings, assistance]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The rights of all children from early 1<input type='text' class='fill-blank-input' data-blank-id='child1' placeholder='...'> stem from the 1948 Universal Declaration of Human Rights. ‘All human 2<input type='text' class='fill-blank-input' data-blank-id='beings2' placeholder='...'> are born free and equal in dignity and rights’. The declaration 3<input type='text' class='fill-blank-input' data-blank-id='states3' placeholder='...'> that human rights begin at birth and that childhood is a period demanding special care and 4<input type='text' class='fill-blank-input' data-blank-id='assist4' placeholder='...'>. The 1959 Declaration of the Rights of the Child affirmed that: ‘mankind owes to the child the best it has to give’, 5<input type='text' class='fill-blank-input' data-blank-id='includ5' placeholder='...'> education. This was amplified by the International Covenant on Economic, Social and Cultural Rights.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "child1": { "en": "childhood", "ar": "" },
+      "beings2": { "en": "beings", "ar": "" },
+      "states3": { "en": "states", "ar": "" },
+      "assist4": { "en": "assistance", "ar": "" },
+      "includ5": { "en": "including", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You've successfully placed the words related to human rights and childhood.",
+      "ar": "صحيح! لقد وضعت الكلمات المتعلقة بحقوق الإنسان والطفولة بنجاح."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. راجع معنى كل كلمة في القائمة: 'including' (بما في ذلك)، 'states' (تَنُصّ أو تُقَرِّر)، 'childhood' (الطفولة)، 'beings' (كائنات)، 'assistance' (مساعدة). اختر الكلمة المناسبة لكل فراغ في سياق الإعلان العالمي لحقوق الإنسان وحقوق الطفل."
+    }
+  },
+  "unit5_w_13_combine1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "which", "that", "sentence-combining", "unit5", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "1. Lubna bought a dress. The dress cost $45. She had to return it.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent1' placeholder='Type combined sentence here...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent1": {
+        "en": [
+          "Lubna bought a dress which cost $45 that she had to return.", 
+          "Lubna bought a dress that cost $45, which she had to return.", 
+          "Lubna had to return the dress which/that cost $45.", 
+          "Lubna bought a dress which/that cost $45."
+        ],
+        "ar": "" 
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You've combined the sentences using 'which' or 'that' appropriately.",
+      "ar": "صحيح! لقد جمعت الجمل باستخدام 'which' أو 'that' بشكل مناسب."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. استخدم 'which' أو 'that' للإشارة إلى 'the dress'. يجب حذف كلمة 'The dress' المكررة في الجملة الثانية عند الربط. فكر كيف يمكن دمج معلومة التكلفة أو سبب الإرجاع في الجملة الأولى."
+    }
+  },
+  "unit5_w_14_combine2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "whose", "sentence-combining", "unit5", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "2. Mrs. Duncan is talking to her students. The students’ projects are due on Friday.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent2' placeholder='Type combined sentence here...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent2": {
+        "en": "Mrs. Duncan is talking to her students whose projects are due on Friday.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Whose' is used to show possession (the students' projects).",
+      "ar": "صحيح! تُستخدم 'Whose' لإظهار الملكية (مشاريع الطلاب)."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. لإظهار ملكية المشاريع للطلاب ('The students’ projects')، استخدم ضمير الوصل 'whose' بعد 'students'. احذف الكلمة المكررة ('The students’')."
+    }
+  },
+  "unit5_w_15_combine3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-clause", "who", "sentence-combining", "unit5", "fill-blank"],
+     "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "3. Sally introduced me to her sister. Her sister is a civil engineer.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent3' placeholder='Type combined sentence here...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent3": {
+        "en": "Sally introduced me to her sister who is a civil engineer.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Who' is used to refer to the sister (a person).",
+      "ar": "صحيح! تُستخدم 'Who' للإشارة إلى الأخت (شخص)."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. استخدم ضمير الوصل 'who' للإشارة إلى الأخت ('her sister'). احذف الكلمة المكررة ('Her sister') في بداية الجملة الثانية."
+    }
+  },
+  "unit5_w_16_matching": { 
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "sustainability", "work", "law", "unit5", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Before you read the article, match these words with their meanings.",
+      "ar": "قبل قراءة المقال، طابق هذه الكلمات بمعانيها."
+    },
+    "questionText": {
+      "en": "Match the words with their meanings:",
+      "ar": "طابق الكلمات بمعانيها:"
+    },
+    "draggableItems": [ 
+      { "id": "word_sustain", "text": { "en": "1. sustainable", "ar": "" } },
+      { "id": "word_mandat", "text": { "en": "2. mandatory", "ar": "" } },
+      { "id": "word_vocat", "text": { "en": "3. vocational", "ar": "" } },
+      { "id": "word_adhere", "text": { "en": "4. adhere", "ar": "" } },
+      { "id": "word_segment", "text": { "en": "5. segment", "ar": "" } },
+      { "id": "word_aspect", "text": { "en": "6. aspect", "ar": "" } }
+    ],
+    "dropZones": [ 
+      { "id": "def_c", "label": { "en": "a. can continue for a long time", "ar": "" }, "accepts": "word_sustain" },
+      { "id": "def_d", "label": { "en": "b. compulsory", "ar": "" }, "accepts": "word_mandat" },
+      { "id": "def_a", "label": { "en": "c. professional", "ar": "" }, "accepts": "word_vocat" }, 
+      { "id": "def_f", "label": { "en": "d. behave according to law", "ar": "" }, "accepts": "word_adhere" },
+      { "id": "def_b", "label": { "en": "e. a part of something", "ar": "" }, "accepts": "word_segment" },
+      { "id": "def_e", "label": { "en": "f. any specific feature or element of something", "ar": "" }, "accepts": "word_aspect" }
+    ],
+    "feedbackCorrect": {
+      "en": "Well done! You've matched the vocabulary correctly.",
+      "ar": "أحسنت! لقد طابقت المفردات بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. Check the meanings again. For example, 'sustainable' relates to continuing, 'mandatory' means required, and 'adhere' means to follow rules.",
+      "ar": "ليس صحيحاً تماماً. تحقق من المعاني مرة أخرى. على سبيل المثال، 'sustainable' تتعلق بالاستمرارية، 'mandatory' تعني إلزامي، و 'adhere' تعني الالتزام بالقواعد."
+    }
+  }
+}

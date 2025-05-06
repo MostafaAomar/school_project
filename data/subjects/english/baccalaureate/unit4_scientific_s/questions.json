@@ -1,0 +1,377 @@
+{
+  "unit4_scientific_1": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verbs", "construction", "unit4", "drag-drop"],
+    "supportContent": {
+      "en": "Match the phrasal verbs in italics (left) with their meanings (right).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the phrasal verbs from the sentences on the left with their definitions on the right.",
+      "ar": ""
+    },
+    "draggableItems": [
+      { "id": "verb_1", "text": { "en": "1 *check over*", "ar": ""} },
+      { "id": "verb_2", "text": { "en": "2 *drive into*", "ar": ""} },
+      { "id": "verb_3", "text": { "en": "3 *eat away at*", "ar": ""} },
+      { "id": "verb_4", "text": { "en": "4 *fence off*", "ar": ""} },
+      { "id": "verb_5", "text": { "en": "5 *jack up*", "ar": ""} },
+      { "id": "verb_6", "text": { "en": "6 *pull down*", "ar": ""} },
+      { "id": "verb_7", "text": { "en": "7 *shore up*", "ar": ""} }
+    ],
+    "dropZones": [
+      { "id": "meaning_d", "label": { "en": "to inspect for any faults, errors or defects", "ar": "" }, "accepts": "verb_1" },
+      { "id": "meaning_c", "label": { "en": "to force something into something else by hitting it", "ar": "" }, "accepts": "verb_2" },
+      { "id": "meaning_b", "label": { "en": "to erode or corrode", "ar": "" }, "accepts": "verb_3" },
+      { "id": "meaning_f", "label": { "en": "to restrict access using some kind of barrier", "ar": "" }, "accepts": "verb_4" },
+      { "id": "meaning_e", "label": { "en": "to raise using some kind of mechanic or hydraulic device", "ar": "" }, "accepts": "verb_5" },
+      { "id": "meaning_a", "label": { "en": "to destroy something quite big", "ar": "" }, "accepts": "verb_6" },
+      { "id": "meaning_g", "label": { "en": "to support something or keep it from falling by placing something under or against it", "ar": "" }, "accepts": "verb_7" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All phrasal verbs are matched correctly.",
+      "ar": "ممتاز! تم مطابقة جميع الأفعال المركبة بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. Check the pairings again. For example, 'pull down' means destroy, 'jack up' means raise.",
+      "ar": "ليس صحيحاً تماماً. تحقق من الأزواج مرة أخرى. على سبيل المثال، 'pull down' يعني يدمر، و 'jack up' يعني يرفع."
+    }
+  },
+  "unit4_scientific_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap using the correct preposition: to, from, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1 My brother drove <input type='text' class='fill-blank-input' data-blank-id='prep1' placeholder='...'> Homs in one hour.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep1": { "en": "to", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'to' indicates the destination.",
+      "ar": "صحيح! 'to' تشير إلى الوجهة."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'to' to indicate the destination (Homs). Solution: to",
+      "ar": "خطأ. استخدم 'to' للإشارة إلى الوجهة (حمص). الحل: to"
+    }
+  },
+  "unit4_scientific_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap using the correct preposition: to, from, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2 The vase fell <input type='text' class='fill-blank-input' data-blank-id='prep2' placeholder='...'> the table and shattered on the floor.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep2": { "en": "off", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'off' indicates movement away from a surface.",
+      "ar": "صحيح! 'off' تشير إلى الحركة بعيداً عن سطح."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'off' to show movement away from a surface (the table). Solution: off",
+      "ar": "خطأ. استخدم 'off' لإظهار الحركة بعيداً عن سطح (الطاولة). الحل: off"
+    }
+  },
+  "unit4_scientific_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap using the correct preposition: to, from, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3 She suddenly turned and crashed <input type='text' class='fill-blank-input' data-blank-id='prep3' placeholder='...'> the fence.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep3": { "en": "into", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'into' indicates collision or movement entering.",
+      "ar": "صحيح! 'into' تشير إلى الاصطدام أو الحركة نحو الداخل."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'into' to show collision with something (the fence). Solution: into",
+      "ar": "خطأ. استخدم 'into' لإظهار الاصطدام بشيء (السياج). الحل: into"
+    }
+  },
+  "unit4_scientific_5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap using the correct preposition: to, from, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4 What time does the flight <input type='text' class='fill-blank-input' data-blank-id='prep4' placeholder='...'> Cairo arrive?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep4": { "en": "from", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'from' indicates the origin.",
+      "ar": "صحيح! 'from' تشير إلى المصدر أو الأصل."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'from' to indicate the origin of the flight (Cairo). Solution: from",
+      "ar": "خطأ. استخدم 'from' للإشارة إلى مصدر الرحلة (القاهرة). الحل: from"
+    }
+  },
+  "unit4_scientific_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap using the correct preposition: to, from, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5 I slipped as I stepped <input type='text' class='fill-blank-input' data-blank-id='prep5' placeholder='...'> the platform.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep5": { "en": "onto", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'onto' indicates movement onto a surface.",
+      "ar": "صحيح! 'onto' تشير إلى الحركة على سطح."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'onto' to show movement onto a surface (the platform). Solution: onto",
+      "ar": "خطأ. استخدم 'onto' لإظهار الحركة على سطح (الرصيف). الحل: onto"
+    }
+  },
+  "unit4_scientific_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap using the correct preposition: to, from, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6 Take your hands <input type='text' class='fill-blank-input' data-blank-id='prep6' placeholder='...'> your pockets and help me!",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep6": { "en": "out of", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'out of' indicates movement leaving an enclosed space.",
+      "ar": "صحيح! 'out of' تشير إلى الحركة خارجاً من مكان مغلق."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'out of' to show movement from inside (your pockets). Solution: out of",
+      "ar": "خطأ. استخدم 'out of' لإظهار الحركة من الداخل (جيوبك). الحل: out of"
+    }
+  },
+  "unit4_scientific_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "present-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Write what people think using 'have something done' and the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sign: LET US CLEAN YOUR CARPETS AND CURTAINS\nThought: (My mother goes to that shop. She/ the carpets/ clean/ there)\nSentence: My mother goes to that shop. She <input type='text' class='fill-blank-input' data-blank-id='causative8' placeholder='Causative phrase...'> there.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative8": { "en": "has the carpets cleaned", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The context is present simple ('goes'), so use 'has the carpets cleaned'.",
+      "ar": "صحيح! السياق مضارع بسيط ('goes')، لذا استخدم 'has the carpets cleaned'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use present simple causative: Subject (She) + has + object (the carpets) + past participle (cleaned). Solution: has the carpets cleaned",
+      "ar": "خطأ. استخدم صيغة السببية في المضارع البسيط: فاعل (She) + has + مفعول به (the carpets) + اسم مفعول (cleaned). الحل: has the carpets cleaned"
+    }
+  },
+  "unit4_scientific_9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "modal", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Write what people think using 'have something done' and the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sign: WE MAKE KEYS OF ALL TYPES\nThought: (I’d almost forgotten. I/ ought to/ a new key/ make/ for the house)\nSentence: I’d almost forgotten. I <input type='text' class='fill-blank-input' data-blank-id='causative9' placeholder='Causative phrase...'> for the house.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative9": { "en": "ought to have a new key made", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The structure uses the modal 'ought to' with the causative: 'ought to have a new key made'.",
+      "ar": "صحيح! البنية تستخدم الفعل المساعد 'ought to' مع صيغة السببية: 'ought to have a new key made'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use modal causative: Subject (I) + ought to + have + object (a new key) + past participle (made). Solution: ought to have a new key made",
+      "ar": "خطأ. استخدم صيغة السببية مع الفعل المساعد: فاعل (I) + ought to + have + مفعول به (a new key) + اسم مفعول (made). الحل: ought to have a new key made"
+    }
+  },
+  "unit4_scientific_10": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Write what people think using 'have something done' and the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sign: WE MEND WATCHES AND CLOCKS\nThought: (That shop isn’t expensive. I/ my watch/ mend/ there last week)\nSentence: That shop isn’t expensive. I <input type='text' class='fill-blank-input' data-blank-id='causative10' placeholder='Causative phrase...'> there last week.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative10": { "en": "had my watch mended", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The action happened 'last week', so use past simple causative 'had my watch mended'.",
+      "ar": "صحيح! الحدث وقع 'last week'، لذا استخدم صيغة السببية في الماضي البسيط 'had my watch mended'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use past simple causative ('last week'): Subject (I) + had + object (my watch) + past participle (mended). Solution: had my watch mended",
+      "ar": "خطأ. استخدم صيغة السببية في الماضي البسيط ('last week'): فاعل (I) + had + مفعول به (my watch) + اسم مفعول (mended). الحل: had my watch mended"
+    }
+  },
+  "unit4_scientific_11": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "infinitive", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Write what people think using 'have something done' and the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sign: OUR SPECIALITY: PAINTING HOUSES AND FLATS\nThought: (I don’t think I can afford to/ our flat/ paint)\nSentence: I don’t think I can afford to <input type='text' class='fill-blank-input' data-blank-id='causative11' placeholder='Causative phrase...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative11": { "en": "have our flat painted", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! After 'afford to', we use the base form 'have', followed by the object and past participle: 'have our flat painted'.",
+      "ar": "صحيح! بعد 'afford to'، نستخدم الصيغة الأساسية 'have'، متبوعة بالمفعول به واسم المفعول: 'have our flat painted'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. After 'afford to', use the base form of the causative structure: have + object (our flat) + past participle (painted). Solution: have our flat painted",
+      "ar": "خطأ. بعد 'afford to'، استخدم الصيغة الأساسية لبنية السببية: have + مفعول به (our flat) + اسم مفعول (painted). الحل: have our flat painted"
+    }
+  },
+  "unit4_scientific_12": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Use 'had something done' to describe the unpleasant event.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Event: (Ali’s driving licence was taken away by the police.)\nSentence: Ali <input type='text' class='fill-blank-input' data-blank-id='causative12' placeholder='Causative phrase...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative12": { "en": "had his driving licence taken away", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The past event 'was taken' becomes 'had his driving licence taken away'.",
+      "ar": "صحيح! الحدث الماضي 'was taken' يصبح 'had his driving licence taken away'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use past simple causative for the past event: Subject (Ali) + had + object (his driving licence) + past participle phrase (taken away). Solution: had his driving licence taken away",
+      "ar": "خطأ. استخدم صيغة السببية في الماضي البسيط للحدث الماضي: فاعل (Ali) + had + مفعول به (his driving licence) + عبارة اسم المفعول (taken away). الحل: had his driving licence taken away"
+    }
+  },
+  "unit4_scientific_13": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Use 'had something done' to describe the unpleasant event.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Event: (Mona’s glasses were broken.)\nSentence: Mona <input type='text' class='fill-blank-input' data-blank-id='causative13' placeholder='Causative phrase...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative13": { "en": "had her glasses broken", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The past event 'were broken' becomes 'had her glasses broken'.",
+      "ar": "صحيح! الحدث الماضي 'were broken' يصبح 'had her glasses broken'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use past simple causative: Subject (Mona) + had + object (her glasses) + past participle (broken). Solution: had her glasses broken",
+      "ar": "خطأ. استخدم صيغة السببية في الماضي البسيط: فاعل (Mona) + had + مفعول به (her glasses) + اسم مفعول (broken). الحل: had her glasses broken"
+    }
+  },
+  "unit4_scientific_14": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Use 'had something done' to describe the unpleasant event.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Event: (Our electricity was cut off because we had forgotten to pay the bill)\nSentence: We <input type='text' class='fill-blank-input' data-blank-id='causative14' placeholder='Causative phrase...'> because we had forgotten to pay the bill.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative14": { "en": "had our electricity cut off", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The past event 'was cut off' becomes 'had our electricity cut off'.",
+      "ar": "صحيح! الحدث الماضي 'was cut off' يصبح 'had our electricity cut off'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use past simple causative: Subject (We) + had + object (our electricity) + past participle phrase (cut off). Solution: had our electricity cut off",
+      "ar": "خطأ. استخدم صيغة السببية في الماضي البسيط: فاعل (We) + had + مفعول به (our electricity) + عبارة اسم المفعول (cut off). الحل: had our electricity cut off"
+    }
+  },
+  "unit4_scientific_15": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Use 'had something done' to describe the unpleasant event.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Event: (John’s clothes were torn in a fight.)\nSentence: John <input type='text' class='fill-blank-input' data-blank-id='causative15' placeholder='Causative phrase...'> in a fight.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative15": { "en": "had his clothes torn", "ar": ""}
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The past event 'were torn' becomes 'had his clothes torn'.",
+      "ar": "صحيح! الحدث الماضي 'were torn' يصبح 'had his clothes torn'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use past simple causative: Subject (John) + had + object (his clothes) + past participle (torn). Solution: had his clothes torn",
+      "ar": "خطأ. استخدم صيغة السببية في الماضي البسيط: فاعل (John) + had + مفعول به (his clothes) + اسم مفعول (torn). الحل: had his clothes torn"
+    }
+  }
+}

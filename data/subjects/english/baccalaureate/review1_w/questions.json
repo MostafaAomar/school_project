@@ -1,0 +1,486 @@
+{
+  "review_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-perfect", "result", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I can’t phone for an ambulance – I ………. my mobile.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "loses", "ar": "" },
+      { "en": "have lost", "ar": "" },
+      { "en": "am losing", "ar": "" },
+      { "en": "will lose", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "have lost",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect ('have lost') is used to describe a past action (losing the mobile) that has a direct result in the present (can't phone).",
+      "ar": "صحيح! يتم استخدام المضارع التام ('have lost') لوصف فعل ماضٍ (فقدان الهاتف المحمول) له نتيجة مباشرة في الحاضر (لا أستطيع الاتصال)."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the present result ('I can't phone'). This is because of a past action. The Present Perfect connects a past action to its present result.",
+      "ar": "فكر في النتيجة الحالية ('I can't phone'). هذا بسبب فعل ماضٍ. المضارع التام يربط الفعل الماضي بنتيجته الحالية."
+    }
+  },
+  "review_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "past-continuous", "interrupted-action", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "She hurt her back while she ………. in the garden.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "is working", "ar": "" },
+      { "en": "was working", "ar": "" },
+      { "en": "has worked", "ar": "" },
+      { "en": "had worked", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "was working",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Continuous ('was working') is used to describe an action that was in progress at a specific time in the past ('while...' she hurt her back).",
+      "ar": "صحيح! يُستخدم الماضي المستمر ('was working') لوصف فعل كان قيد التقدم في وقت محدد في الماضي ('while...' أصابت ظهرها)."
+    },
+    "feedbackIncorrect": {
+      "en": "The word 'while' often introduces an action that was happening when another (shorter) action occurred ('hurt her back'). Use the Past Continuous for the longer background action.",
+      "ar": "كلمة 'while' غالبًا ما تقدم فعلاً كان يحدث عندما وقع فعل آخر (أقصر) ('hurt her back'). استخدم الماضي المستمر للفعل الأطول الذي كان في الخلفية."
+    }
+  },
+  "review_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "general-truth", "frequency", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Tropical storms often ………. in the Caribbean.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "occur", "ar": "" },
+      { "en": "don’t occur", "ar": "" },
+      { "en": "aren’t occurring", "ar": "" },
+      { "en": "haven’t occurred", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "occur",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Simple ('occur') is used with frequency adverbs like 'often' to talk about general truths or things that happen regularly.",
+      "ar": "صحيح! يُستخدم المضارع البسيط ('occur') مع ظروف التكرار مثل 'often' للتحدث عن الحقائق العامة أو الأشياء التي تحدث بانتظام."
+    },
+    "feedbackIncorrect": {
+      "en": "The word 'often' indicates something that happens regularly or is a general truth. Which tense is used for general truths and regular occurrences?",
+      "ar": "كلمة 'often' تشير إلى شيء يحدث بانتظام أو أنه حقيقة عامة. أي زمن يُستخدم للحقائق العامة والأحداث المنتظمة؟"
+    }
+  },
+  "review_4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "request", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Please don’t make so much noise. I ………. to work.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "‘m trying", "ar": "" },
+      { "en": "try", "ar": "" },
+      { "en": "tried", "ar": "" },
+      { "en": "has tried", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "‘m trying",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Continuous ('‘m trying') is used to describe an action happening right now, which is the reason for the request ('Please don’t make so much noise').",
+      "ar": "صحيح! يُستخدم المضارع المستمر ('‘m trying') لوصف فعل يحدث الآن، وهو سبب الطلب ('Please don’t make so much noise')."
+    },
+    "feedbackIncorrect": {
+      "en": "The request 'Please don't make noise' relates to an activity happening *now*. Which tense describes actions in progress at the moment of speaking?",
+      "ar": "الطلب 'Please don't make noise' يتعلق بنشاط يحدث *الآن*. أي زمن يصف الأفعال قيد التقدم في لحظة التحدث؟"
+    }
+  },
+  "review_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "past-simple", "habitual-past", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I always ………. the TV news when I lived abroad.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "watched", "ar": "" },
+      { "en": "am watching", "ar": "" },
+      { "en": "have watched", "ar": "" },
+      { "en": "will watch", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "watched",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Simple ('watched') is used to describe a repeated action or habit ('always') that occurred during a finished period in the past ('when I lived abroad').",
+      "ar": "صحيح! يُستخدم الماضي البسيط ('watched') لوصف فعل متكرر أو عادة ('always') حدثت خلال فترة منتهية في الماضي ('when I lived abroad')."
+    },
+    "feedbackIncorrect": {
+      "en": "The phrase 'when I lived abroad' indicates a finished time period in the past. Which tense is used for completed actions or past habits in a finished past time?",
+      "ar": "عبارة 'when I lived abroad' تشير إلى فترة زمنية منتهية في الماضي. أي زمن يُستخدم للأفعال المكتملة أو العادات الماضية في وقت ماضٍ منتهٍ؟"
+    }
+  },
+  "review_6": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-before-past", "already", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I didn’t watch the programme about hurricanes on TV last night, because I ………. a similar programme.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "had already seen", "ar": "" },
+      { "en": "was already seen", "ar": "" },
+      { "en": "has already seen", "ar": "" },
+      { "en": "is already seeing", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had already seen",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Perfect ('had already seen') is used to describe an action (seeing the similar programme) that happened *before* another action in the past (didn't watch last night). 'Already' emphasizes this.",
+      "ar": "صحيح! يُستخدم الماضي التام ('had already seen') لوصف فعل (مشاهدة البرنامج المماثل) حدث *قبل* فعل آخر في الماضي (لم أشاهد الليلة الماضية). 'Already' تؤكد هذا."
+    },
+    "feedbackIncorrect": {
+      "en": "The reason for not watching ('didn't watch last night') is because something happened *before* that past time. Which tense describes an action completed before another past action? Also check for active vs passive voice.",
+      "ar": "سبب عدم المشاهدة ('didn't watch last night') هو أن شيئًا ما حدث *قبل* ذلك الوقت الماضي. أي زمن يصف فعلاً اكتمل قبل فعل ماضٍ آخر؟ تحقق أيضًا من المبني للمعلوم مقابل المبني للمجهول."
+    }
+  },
+  "review_7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "past-simple", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Rewrite the following sentence using a causative verb (have/get something done).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I didn’t cut my hair myself. I <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite using causative...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "had my hair cut",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Simple causative 'had my hair cut' is used.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. تذكر استخدام الصيغة السببية (have/get + المفعول به + التصريف الثالث للفعل). بما أن الجملة الأصلية في الماضي البسيط المنفي، فإن الجملة السببية يجب أن تكون في الماضي البسيط أيضاً (had + object + past participle)."
+    }
+  },
+  "review_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "present-continuous", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Rewrite the following sentence using a causative verb (have/get something done).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The mechanic is changing the oil in my car. I <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite using causative...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "am having the oil in my car changed", 
+        "ar": ""
+       
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Continuous causative 'am having... changed' matches the original tense.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. استخدم الصيغة السببية (have/get + المفعول به + التصريف الثالث للفعل). الجملة الأصلية في المضارع المستمر، لذا يجب أن تكون الجملة السببية في المضارع المستمر أيضاً (am/is/are + having/getting + object + past participle)."
+    }
+  },
+  "review_9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "future-going-to", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Rewrite the following sentence using a causative verb (have/get something done).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Ben isn't going to build that wall himself. He <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite using causative...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "is going to have that wall built",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The 'going to' future causative structure is used.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. استخدم الصيغة السببية (have/get + المفعول به + التصريف الثالث للفعل). الجملة الأصلية تستخدم صيغة المستقبل 'going to'، لذا يجب أن تتبع الجملة السببية نفس الصيغة (is/are + going to + have/get + object + past participle)."
+    }
+  },
+  "review_10": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "present-perfect", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Rewrite the following sentence using a causative verb (have/get something done).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "My father hasn’t planted the trees himself. He <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite using causative...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "hasn't had the trees planted",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The negative Present Perfect causative 'hasn't had... planted' is used.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. استخدم الصيغة السببية (have/get + المفعول به + التصريف الثالث للفعل). الجملة الأصلية في صيغة النفي للمضارع التام، لذا يجب أن تكون الجملة السببية كذلك (hasn't/haven't + had/gotten + object + past participle)."
+    }
+  },
+  "review_11": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "present-simple", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Rewrite the following sentence using a causative verb (have/get something done).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sarah doesn't tidy the room herself. She <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite using causative...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "has the room tidied", 
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Simple causative 'has... tidied' indicates someone else regularly tidies it for her.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. استخدم الصيغة السببية (have/get + المفعول به + التصريف الثالث للفعل). الجملة الأصلية في المضارع البسيط المنفي وتعني أنها لا تقوم بالفعل بنفسها، مما يعني أن شخصًا آخر يقوم به لها عادةً. لذا نستخدم المضارع البسيط للصيغة السببية (has/have + object + past participle)."
+    }
+  },
+  "review_12": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive-voice", "present-simple", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Change this sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "They send you an email confirming your purchase. <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite in passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": ["An email confirming your purchase is sent to you.", "You are sent an email confirming your purchase."],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The sentence is now in the Present Simple passive.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. لتحويل الجملة للمبني للمجهول، اجعل المفعول به (you أو an email) هو الفاعل الجديد. استخدم صيغة المبني للمجهول (فعل الكينونة 'be' في نفس زمن الجملة الأصلية + التصريف الثالث للفعل الرئيسي 'send'). زمن الجملة الأصلية هو المضارع البسيط."
+    }
+  },
+  "review_13": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "passive-voice", "reporting-verb", "past-simple", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Change this sentence into the passive voice using a standard reporting structure.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "People believed that money was a source of happiness. <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite in passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": ["It was believed that money was a source of happiness.", "Money was believed to be a source of happiness."],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a common passive reporting structure.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. مع أفعال الاعتقاد مثل 'believe' في الماضي، نستخدم صيغ المبني للمجهول الخاصة بها. إما البدء بـ 'It' متبوعة بالفعل المساعد في الماضي المبني للمجهول (It was believed that...) أو البدء بالفاعل في الجملة التابعة وتحويلها (Money was believed to be...)."
+    }
+  },
+  "review_14": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive-voice", "modal-verb", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Change this sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "People must always follow safety procedures. <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite in passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "Safety procedures must always be followed.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The modal passive 'must be followed' is used.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. عند تحويل جملة تحتوي على فعل مساعد ناقص (modal verb) مثل 'must' للمبني للمجهول، نضع المفعول به (safety procedures) في البداية ثم نستخدم (modal + be + past participle). لا تنسَ الظرف 'always'."
+    }
+  },
+  "review_15": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive-voice", "present-continuous", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Change this sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The public is losing confidence in cheques. <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite in passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "Confidence in cheques is being lost (by the public).",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Continuous passive 'is being lost' matches the original tense.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الجملة الأصلية في المضارع المستمر. لتحويلها للمبني للمجهول، اجعل المفعول به (Confidence in cheques) هو الفاعل الجديد واستخدم صيغة المبني للمجهول للمضارع المستمر (is/are + being + past participle)."
+    }
+  },
+  "review_16": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "passive-voice", "past-perfect", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Change this sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "They had caught Ms. Lee taking things from the shop. <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite in passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "Ms. Lee had been caught taking things from the shop.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Perfect passive 'had been caught' is used.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الجملة الأصلية في الماضي التام. لتحويلها للمبني للمجهول، اجعل المفعول به (Ms. Lee) هو الفاعل الجديد واستخدم صيغة المبني للمجهول للماضي التام (had + been + past participle). احتفظ ببقية الجملة (taking things...). "
+    }
+  },
+  "review_17": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "passive-voice", "reporting-verb", "present-perfect", "sentence-transformation", "review"],
+    "supportContent": {
+      "en": "Change this sentence into the passive voice using a standard reporting structure.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Accountants have reported that the firm made a loss. <input type='text' class='fill-blank-input' data-blank-id='blank_1' placeholder='Rewrite in passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": ["It has been reported that the firm made a loss.", "The firm has been reported to have made a loss."],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a standard passive reporting structure for the Present Perfect.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. مع أفعال التبليغ مثل 'report' في المضارع التام، نستخدم صيغ المبني للمجهول الخاصة بها. إما البدء بـ 'It' متبوعة بالفعل المساعد في المضارع التام المبني للمجهول (It has been reported that...) أو البدء بالفاعل في الجملة التابعة وتحويلها (The firm has been reported to have made...)."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "textContent": {
+    "en": "",
+    "ar": ""
+  }
+
+,
+
+  "videoUrl": "https://www.youtube.com/watch?v=eNfara1uNJM&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=8&ab_channel=Mostafa",
+  "audioUrl": "https://drive.google.com/file/d/1CARjOkvo-mEyHwJdJAi11kqA15s8TwNj/view",
+  "audioType": "audio/mp3",
+  "externalLinks": [
+    {
+      "type": "text",
+      "url": "https://dictionary.cambridge.org/dictionary/english/aspire",
+      "text": { "ar": "تعريف كلمة Aspire (قاموس كامبريدج)", "en": "Definition of Aspire (Cambridge)" },
+      "title": { "ar": "زيارة قاموس كامبريدج", "en": "Visit Cambridge Dictionary" }
+    }
+  ]
+}

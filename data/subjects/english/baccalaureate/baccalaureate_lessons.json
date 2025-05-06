@@ -22,5 +22,77 @@
     "title": { "ar": "Unit 2 (work) \n ادبي + علمي ", "en": "" },
     "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
 
+  },
+  {
+    "lessonId": "unit3_scientific_s",
+    "title": { "ar": "Unit 3 (student)\n ادبي + علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit3_scientific_w",
+    "title": { "ar": "Unit 3 (work)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit4_scientific_w",
+    "title": { "ar": "Unit 4 (work)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit4_scientific_s",
+    "title": { "ar": "Unit 4 (student)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "review1_s",
+    "title": { "ar": "Review 1 (student)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "review1_w",
+    "title": { "ar": "Review 1 (work)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit5_scientific_s",
+    "title": { "ar": "Unit 5 (student)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit5_scientific_w",
+    "title": { "ar": "Unit 5 (work)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit6_scientific_w",
+    "title": { "ar": "Unit 6 (work)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit6_scientific_s",
+    "title": { "ar": "Unit 6 (student)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit7_scientific_s",
+    "title": { "ar": "Unit 7 (student)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
+  },
+  {
+    "lessonId": "unit7_scientific_w",
+    "title": { "ar": "Unit 7 (work)\nادبي +   علمي ", "en": "" },
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
+
   }
 ]

@@ -60,19 +60,45 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Simple check: assume if it doesn't have keys with underscores, it might be lesson content
                     const hasIdLikeKeys = keys.some(key => key.includes('_') && key.length > 3); // Basic check for ID format
 
-                    if (hasTextContent && !hasIdLikeKeys) {
-                        // --- Structure Looks Like lesson_content.json ---
-                        console.log(`Detected lesson-like structure in ${sourceUrl}. Wrapping with generated ID.`);
-                        // Generate a unique ID (e.g., based on filename or index)
-                        const generatedId = `lesson_${sourceUrl.split('/').pop().replace(/\.json$/i, '') || index}`;
-                        if (mergedData[generatedId]) {
-                             console.warn(`Generated ID collision for ${generatedId} from ${sourceUrl}. Overwriting previous.`);
-                        }
-                        // Wrap the entire 'data' object under the generated ID
-                        mergedData[generatedId] = data;
-                         console.log(`  Wrapped content under ID: ${generatedId}`);
+                // Inside loadAndMergeData, within the datasets.forEach loop...
 
-                    } else {
+ if (hasTextContent && !hasIdLikeKeys) {
+     // --- Structure Looks Like lesson_content.json ---
+     console.log(`Detected lesson-like structure in ${sourceUrl}. Wrapping with generated ID.`);
+
+     // --- MODIFIED ID GENERATION ---
+     const parts = sourceUrl.split('/');
+     // Get the parent folder name (which should be the unique lesson ID like 'unit1_scientific_s')
+     // parts.length - 2 accesses the second-to-last element
+     const lessonIdFolder = parts.length >= 2 ? parts[parts.length - 2] : null;
+
+     let generatedId;
+     if (lessonIdFolder) {
+         // Create ID like: lesson_unit1_scientific_s
+         generatedId = `lesson_${lessonIdFolder}`;
+     } else {
+         // Fallback if the URL structure is unexpected (shouldn't happen with your URLs)
+         console.warn(`Could not reliably determine lesson ID folder from URL: ${sourceUrl}. Using index-based fallback ID.`);
+         generatedId = `lesson_fallback_${index}`;
+     }
+     // --- END MODIFIED ID GENERATION ---
+
+
+     if (mergedData[generatedId]) {
+          // This warning might still appear if you list the SAME lesson URL twice in chatbot.json,
+          // or if two different lesson folders somehow have the exact same name.
+          console.warn(`Generated ID collision for ${generatedId} from ${sourceUrl}. This might indicate duplicate entries in chatbot.json or non-unique lesson folder names. Overwriting previous.`);
+     }
+     // Wrap the entire 'data' object under the generated ID
+     mergedData[generatedId] = data;
+     console.log(`  Wrapped content under ID: ${generatedId}`);
+
+ } else {
+     // --- Structure Looks Like questions.json (or other ID-based) ---
+     // (This part remains the same)
+     console.log(`Detected standard ID-based structure in ${sourceUrl}. Merging directly.`);
+     Object.assign(mergedData, data);
+
                         // --- Structure Looks Like questions.json (or other ID-based) ---
                         // Assume it's the standard { id: content, id2: content2 } structure
                         console.log(`Detected standard ID-based structure in ${sourceUrl}. Merging directly.`);

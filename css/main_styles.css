@@ -220,7 +220,7 @@ header h1 {
 .card { background: white; border-radius: var(--border-radius); padding: 1.5rem; text-align: center; cursor: pointer; transition: all 0.3s ease; border: 2px solid transparent; box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08); }
 .card:hover { transform: translateY(-5px) scale(1.03); border-color: var(--secondary-color); box-shadow: var(--box-shadow-hover); }
 .card img { width: 70px; height: 70px; margin-bottom: 1rem; object-fit: contain; }
-.card h3 { color: var(--primary-color); font-size: 1.3rem; margin-bottom: 0; word-wrap: break-word; }
+.card h3 { color: var(--primary-color);  margin-bottom: 0; word-wrap: break-word; }
 
 /* --- Tabs Component --- */
 /* Using #lesson-quiz-tabs-section as the main container */
@@ -372,7 +372,7 @@ header h1 {
     .grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
     .card { padding: 1rem; }
     .card img { width: 50px; height: 50px; }
-    .card h3 { font-size: 1.1rem; }
+    /* .card h3 { font-size: 1.1rem; } */
     .navigation-buttons { margin-bottom: 1rem; flex-wrap: wrap; justify-content: center; gap: 10px;}
     .back-button, .home-button { font-size: 0.9rem; padding: 6px 1 G2px; }
     .quiz-meta { flex-direction: column; gap: 8px; padding: 8px; align-items: flex-start; } /* Stack meta items */
@@ -396,7 +396,7 @@ header h1 {
      .mascot { width: 35px; height: 35px; }
      .grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.8rem; }
      .card img { width: 40px; height: 40px; }
-     .card h3 { font-size: 1rem; }
+     /* .card h3 { font-size: 1rem; } */
      .action-button { font-size: 1em; padding: 10px 15px;}
      #quiz-results-area h2 { font-size: 1.4em; }
      #quiz-results-area div { font-size: 0.95em; }
@@ -423,7 +423,7 @@ header h1 {
 
     /* Add other existing h3 styles here */
     color: var(--primary-color);
-    font-size: 1.3rem;
+ 
     margin-bottom: 0;
     word-wrap: break-word;
 }

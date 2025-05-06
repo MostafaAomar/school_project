@@ -16,7 +16,7 @@ export const QUESTIONS_FILENAME = 'questions.json';
 
 // --- Other constants (likely unchanged) --- VVV
 export const DEFAULT_LANGUAGE = 'ar';
-export const DEFAULT_QUIZ_DURATION_SECONDS = 30 * 60;
+export const DEFAULT_QUIZ_DURATION_SECONDS = 45 * 60; //change timer too 45 min
 
 export const VIEW_IDS = {
     SUBJECTS: 'subjects-view-container',
