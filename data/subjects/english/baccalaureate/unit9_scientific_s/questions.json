@@ -1,0 +1,498 @@
+{
+  "unit9_s_1_matching": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "citizenship", "law", "concepts", "unit9", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words on the left with their definitions on the right.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match these words to their definitions:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "word_citiz", "text": { "en": "1 citizenship", "ar": "" } },
+      { "id": "word_vest", "text": { "en": "2 vested", "ar": "" } },
+      { "id": "word_concep", "text": { "en": "3 concept", "ar": "" } },
+      { "id": "word_volunt", "text": { "en": "4 voluntary", "ar": "" } },
+      { "id": "word_abandon", "text": { "en": "5 abandon", "ar": "" } },
+      { "id": "word_unilat", "text": { "en": "6 unilaterally", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "def_f", "label": { "en": "the legal right of belonging to a particular country", "ar": "" }, "accepts": "word_citiz" },
+      { "id": "def_a", "label": { "en": "given the official right to do or own something", "ar": "" }, "accepts": "word_vest" },
+      { "id": "def_e", "label": { "en": "an idea that is connected with something", "ar": "" }, "accepts": "word_concep" },
+      { "id": "def_b", "label": { "en": "done willingly, not because you are forced", "ar": "" }, "accepts": "word_volunt" },
+      { "id": "def_c", "label": { "en": "leave something forever", "ar": "" }, "accepts": "word_abandon" },
+      { "id": "def_d", "label": { "en": "done by only one member without the agreement of others", "ar": "" }, "accepts": "word_unilat" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All words matched correctly.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات: 'citizenship' (المواطنة) هي الحق القانوني للانتماء لبلد، 'vested' (مُخوَّل) تعني ممنوح الحق الرسمي، 'concept' (مفهوم) هي فكرة، 'voluntary' (طوعي) تعني القيام بشيء عن طيب خاطر، 'abandon' (يتخلى عن) تعني ترك شيء للأبد، 'unilaterally' (من جانب واحد) تعني القيام بشيء دون موافقة الآخرين."  
+    }
+  },
+  "unit9_s_2_wordform1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word derived from the word in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Citizenship is .............. in a political community. (member )",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { "en": "membership", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي الاسم الذي يعني 'حالة كونك عضوًا' والمشتقة من 'member'."
+    }
+  },
+  "unit9_s_3_wordform2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with a word derived from the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. Some citizens take an .............. role in the community. (act )",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { "en": "active", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي الصفة المشتقة من 'act' لوصف 'role'."
+    }
+  },
+  "unit9_s_4_wordform3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with a word derived from the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. Civic.............. is what citizens are expected to demonstrate in their daily lives. (behave)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { "en": "behaviour", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي الاسم المشتق من 'behave' والذي يعني 'سلوك'."
+    }
+  },
+  "unit9_s_5_wordform4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with a word derived from the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. She was too young to vote in the national.............. . (elect)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { "en": "election", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي الاسم المشتق من 'elect' والذي يعني 'عملية التصويت لاختيار شخص ما'."
+    }
+  },
+  "unit9_s_6_wordform5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with a word derived from the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. Patriotism is love of and .............. to one's country. (devote)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { "en": "devotion", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي الاسم الذي يعني 'الولاء والإخلاص' والمشتقة من 'devote'."
+    }
+  },
+  "unit9_s_7_wordform6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with a word derived from the word in brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "6. In economics, voluntary.............. is unpaid. (employ)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { "en": "employment", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي الاسم الذي يعني 'التوظيف' أو 'العمل' والمشتقة من 'employ'."
+    }
+  },
+  "unit9_s_8_dialogue1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-simple", "adjective-preposition", "good-at", "brilliant-at", "dialogue", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Write the short dialogue in the Present Simple using the words in brackets and suitable prepositions.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. A: (be/ their son/ good/ school work?)\n   B: (Yes, in fact he/ be/ brilliant/ everything)\nA: <input type='text' class='fill-blank-input' data-blank-id='q1' placeholder='Question...'>?<br>\nB: <input type='text' class='fill-blank-input' data-blank-id='a1' placeholder='Answer...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q1": { "en": "Is their son good at school work", "ar": "" },
+      "a1": { "en": "Yes, in fact he is brilliant at everything", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. تأكد من استخدام صيغة السؤال الصحيحة في المضارع البسيط (Is + فاعل + صفة + حرف جر؟) وصيغة الجملة الخبرية (فاعل + is + صفة + حرف جر). حروف الجر المناسبة هنا هي 'good at' و 'brilliant at'."
+    }
+  },
+  "unit9_s_9_dialogue2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-simple", "adjective-preposition", "pleased-with", "proud-of", "dialogue", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Write the short dialogue in the Present Simple using the words in brackets and suitable prepositions.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. A: (be/ you pleased/ Anna’s exam result?)\n   B: (Yes, we/ be/ very proud/ him) <-- Assuming 'her' was intended based on Anna\nA: <input type='text' class='fill-blank-input' data-blank-id='q2' placeholder='Question...'>?<br>\nB: <input type='text' class='fill-blank-input' data-blank-id='a2' placeholder='Answer...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q2": { "en": "Are you pleased with Anna's exam result", "ar": "" },
+      "a2": { "en": "Yes, we are very proud of her", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. تأكد من استخدام صيغة السؤال (Are you + صفة + حرف جر؟) وصيغة الجملة الخبرية (We are + صفة + حرف جر). حروف الجر المناسبة هي 'pleased with' و 'proud of'. انتبه إلى استخدام الضمير الصحيح ('her' بدلاً من 'him' للإشارة إلى Anna)."
+    }
+  },
+  "unit9_s_10_dialogue3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-simple", "adjective-preposition", "afraid-of", "cruel-to", "dialogue", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Write the short dialogue in the Present Simple using the words in brackets and suitable prepositions.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. A: (Why/ be/ Mr Jack’s dog/ afraid/ him?)\n   B: (Because he/ be/ often/ cruel/ it)\nA: <input type='text' class='fill-blank-input' data-blank-id='q3' placeholder='Question...'>?<br>\nB: <input type='text' class='fill-blank-input' data-blank-id='a3' placeholder='Answer...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q3": { "en": "Why is Mr Jack's dog afraid of him", "ar": "" },
+      "a3": { "en": "Because he is often cruel to it", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. تأكد من استخدام صيغة السؤال (Why is + فاعل + صفة + حرف جر؟) وصيغة الجملة الخبرية (He is + صفة + حرف جر). حروف الجر المناسبة هي 'afraid of' و 'cruel to'."
+    }
+  },
+  "unit9_s_11_conj1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "both-and", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentences using 'both...and'. Make necessary changes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Fred likes helping his friends. So does Linda.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj1' placeholder='Rewrite using both...and...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj1": { "en": "Both Fred and Linda like helping their friends.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فاعلين يقومان بنفس الفعل، استخدم 'Both [فاعل1] and [فاعل2]' متبوعًا بالفعل في صيغة الجمع."
+    }
+  },
+  "unit9_s_12_conj2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "either-or", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Rewrite the sentences using 'either...or'. Make necessary changes.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. Harry used to help Ann. Or was it Helen?\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj2' placeholder='Rewrite using either...or...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj2": { "en": "Harry used to help either Ann or Helen.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط مفعولين بهما كخيارين، استخدم 'either [خيار1] or [خيار2]' بعد الفعل."
+    }
+  },
+  "unit9_s_13_conj3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "not-only-but-also", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Rewrite the sentences using 'not only...but also'. Make necessary changes.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. We should learn to accept our weaknesses and our strengths.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj3' placeholder='Rewrite using not only...but also...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj3": { "en": "We should learn to accept not only our weaknesses but also our strengths.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط اسمين أو عبارتين اسميتين يأتيان بعد نفس الفعل، استخدم '[فعل] not only [اسم1] but also [اسم2]'."
+    }
+  },
+  "unit9_s_14_conj4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "neither-nor", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Rewrite the sentences using 'neither...nor'. Make necessary changes.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. He never listens to or advises his friends when they have a problem.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj4' placeholder='Rewrite using neither...nor...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj4": { "en": "He neither listens to nor advises his friends when they have a problem.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لنفي فعلين مرتبطين بنفس الفاعل، استخدم 'neither [فعل1] nor [فعل2]' بعد الفاعل. لاحظ أن 'neither...nor' تحمل معنى النفي، لذا لا نستخدم 'never' أو نفي آخر معها."
+    }
+  },
+   "unit9_s_15_conj5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "not-only-but-also", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+        "en": "Rewrite the sentences using 'not only...but also'. Make necessary changes.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "5. I’ve betrayed your trust. I’ve betrayed your love for me.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj5' placeholder='Rewrite using not only...but also...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj5": { "en": "I’ve betrayed not only your trust but also your love for me.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط مفعولين بهما يأتيان بعد نفس الفعل، استخدم '[فعل] not only [مفعول به 1] but also [مفعول به 2]'."
+    }
+  },
+   "unit9_s_16_conj6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "both-and", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+        "en": "Rewrite the sentences using 'both...and'. Make necessary changes.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "6. He felt disappointed. He felt misunderstood.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj6' placeholder='Rewrite using both...and...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj6": { "en": "He felt both disappointed and misunderstood.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط صفتين تصفان نفس الفاعل بعد فعل ربط مثل 'felt'، استخدم '[فعل] both [صفة1] and [صفة2]'."
+    }
+  },
+   "unit9_s_17_conj7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "neither-nor", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+        "en": "Rewrite the sentences using 'neither...nor'. Make necessary changes.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "7. Brian isn’t very considerate. Neither is Tom.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj7' placeholder='Rewrite using neither...nor...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj7": { "en": "Neither Brian nor Tom is very considerate.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فاعلين يتشاركان في نفس الصفة المنفية، استخدم 'Neither [فاعل1] nor [فاعل2]' متبوعًا بالفعل في صيغة المفرد (لأن nor تربط بين مفردين هنا)."
+    }
+  },
+   "unit9_s_18_conj8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "both-and", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+        "en": "Rewrite the sentences using 'both...and'. Make necessary changes.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "8. A true friend is someone who is caring and loving.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj8' placeholder='Rewrite using both...and...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj8": { "en": "A true friend is someone who is both caring and loving.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط صفتين متصلتين بـ 'and' للتأكيد، استخدم '[فعل الكينونة] both [صفة1] and [صفة2]'."
+    }
+  },
+  "unit9_s_19_conj9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "either-or", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+        "en": "Rewrite the sentences using 'either...or'. Make necessary changes.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "9. Rachel should apologise or leave.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj9' placeholder='Rewrite using either...or...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj9": { "en": "Rachel should either apologise or leave.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فعلين كخيارين بعد فعل مساعد مثل 'should'، استخدم '[فعل مساعد] either [فعل1] or [فعل2]'."
+    }
+  },
+   "unit9_s_20_conj10": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "neither-nor", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+        "en": "Rewrite the sentences using 'neither...nor'. Make necessary changes.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "10. Richard and John didn’t keep her secret.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='cj10' placeholder='Rewrite using neither...nor...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cj10": { "en": "Neither Richard nor John kept her secret.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فاعلين لم يقوما بنفس الفعل (الفعل منفي في الأصل)، استخدم 'Neither [فاعل1] nor [فاعل2]' متبوعًا بالفعل في صيغة الإثبات (لأن neither...nor تحمل النفي). الفعل يجب أن يكون في الزمن الأصلي (الماضي البسيط هنا)."
+    }
+  }
+}

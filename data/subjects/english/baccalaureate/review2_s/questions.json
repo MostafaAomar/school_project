@@ -1,0 +1,994 @@
+{
+  "review2_s_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-continuous", "question-form", "review2", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word(s) to complete the question.",
+      "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال السؤال."
+    },
+    "questionText": {
+      "en": "What ………………. be doing this time tomorrow?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "were you", "ar": "" },
+      { "en": "have you", "ar": "" },
+      { "en": "will you", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "will you",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Will you be doing' forms the Future Continuous tense, used to ask about an action in progress at a specific future time.",
+      "ar": "صحيح! 'Will you be doing' تُشكل صيغة المستقبل المستمر، وتُستخدم للسؤال عن فعل سيكون قيد التقدم في وقت محدد في المستقبل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للسؤال عن فعل سيكون مستمراً في وقت محدد في المستقبل (this time tomorrow)، نستخدم صيغة السؤال للمستقبل المستمر: (Wh-word + will + subject + be + V-ing?)."
+    }
+  },
+  "review2_s_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "offer", "review2", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word(s) to complete the sentence.",
+      "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "…………. go if you like because I have to do some shopping.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "I'm", "ar": "" },
+      { "en": "I'll", "ar": "" },
+      { "en": "I'd", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "I'll",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I'll go' (I will go) is used here to make a spontaneous decision or offer.",
+      "ar": "صحيح! تُستخدم 'I'll go' (I will go) هنا لاتخاذ قرار عفوي أو تقديم عرض."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند اتخاذ قرار أو عرض عفوي في لحظة التحدث، نستخدم عادةً 'will' (مختصرة إلى 'll)."
+    }
+  },
+  "review2_s_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "intention", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the sentence.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I ………………… simply wait until she comes back.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "am", "ar": "" },
+      { "en": "have", "ar": "" },
+      { "en": "will", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "will",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will simply wait' expresses a future intention or decision.",
+      "ar": "صحيح! 'will simply wait' تعبر عن نية أو قرار مستقبلي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن قرار مستقبلي بالانتظار، نستخدم 'will + المصدر'."
+    }
+  },
+  "review2_s_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "reported-speech", "future-in-past", "would", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the sentence.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "He was quite definite about it and assured me he …………… come.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "would", "ar": "" },
+      { "en": "shall", "ar": "" },
+      { "en": "will", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "would",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'would come' is used as the future in the past when reporting a past assurance about a future action (from the perspective of that past moment).",
+      "ar": "صحيح! تُستخدم 'would come' كصيغة مستقبل في الماضي عند نقل تأكيد سابق عن فعل مستقبلي (من منظور تلك اللحظة الماضية)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. بما أن الفعل الرئيسي 'assured' في الماضي، فإننا نستخدم 'would' للتعبير عن المستقبل من وجهة نظر الماضي (future in the past)."
+    }
+  },
+  "review2_s_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "conditional", "type1", "present-simple", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the sentence.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "If they …………… arrive late, they will have to get their own meal.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "do", "ar": "" },
+      { "en": "had", "ar": "" },
+      { "en": "will", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "do",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In a Type 1 conditional sentence (real possibility), the 'if' clause uses the Present Simple. 'do' is used for emphasis or in questions/negatives, but here it can imply 'if they indeed arrive late'.",
+      "ar": "صحيح! في الجملة الشرطية من النوع الأول (احتمال حقيقي)، تستخدم جملة 'if' المضارع البسيط. تُستخدم 'do' للتأكيد أو في الأسئلة/النفي، ولكنها هنا يمكن أن تعني 'إذا وصلوا متأخرين بالفعل'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الأول (احتمال حقيقي في المستقبل). جملة الشرط (بعد 'if') تستخدم المضارع البسيط. كلمة 'do' هنا يمكن أن تُستخدم للتأكيد، أو أن الجملة الأصلية قد تكون If they arrive late.... "
+    }
+  },
+  "review2_s_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "hope", "future-will", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the sentence.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I really hope I …………. see you again.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "did", "ar": "" },
+      { "en": "would", "ar": "" },
+      { "en": "will", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "will",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'hope' is often followed by 'will' to express a desire for a future event.",
+      "ar": "صحيح! غالبًا ما يتبع الفعل 'hope' كلمة 'will' للتعبير عن رغبة في حدث مستقبلي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الأمل في شيء سيحدث في المستقبل، نستخدم غالبًا 'will + المصدر' بعد الفعل 'hope'."
+    }
+  },
+  "review2_s_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "conditional", "type1", "question-form", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the question.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال السؤال."
+    },
+    "questionText": {
+      "en": "What …………. happen to the family if he loses all his money?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "does", "ar": "" },
+      { "en": "will", "ar": "" },
+      { "en": "did", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "will",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a Type 1 conditional question, where the main clause (result clause) uses 'will'.",
+      "ar": "صحيح! هذا سؤال شرطي من النوع الأول، حيث تستخدم الجملة الرئيسية (جملة النتيجة) كلمة 'will'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا سؤال شرطي من النوع الأول يسأل عن نتيجة محتملة في المستقبل. جملة النتيجة في هذا النوع من الأسئلة تستخدم 'will'."
+    }
+  },
+  "review2_s_8": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "future-continuous", "question-form", "decision", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the question.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال السؤال."
+    },
+    "questionText": {
+      "en": "……………. be buying the house or haven't you decided yet?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "Did you", "ar": "" },
+      { "en": "Were you", "ar": "" },
+      { "en": "Will you", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "Will you",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Will you be buying' (Future Continuous) is used to ask about future plans or intentions, especially when a decision is pending.",
+      "ar": "صحيح! 'Will you be buying' (المستقبل المستمر) تُستخدم للسؤال عن خطط أو نوايا مستقبلية، خاصة عندما يكون القرار معلقًا."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للسؤال عن خطط أو نوايا مستقبلية، خاصةً عندما يُشار إلى أن القرار لم يُتخذ بعد ('haven't you decided yet?'), يمكن استخدام صيغة المستقبل المستمر للسؤال: (Will + subject + be + V-ing?)."
+    }
+  },
+  "review2_s_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "prediction", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the sentence.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I'm sure they ………… get married and live happily ever afterwards.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "shall", "ar": "" },
+      { "en": "will", "ar": "" },
+      { "en": "would", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "will",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' is used to make predictions, especially when expressing certainty ('I'm sure').",
+      "ar": "صحيح! تُستخدم 'will' لعمل تنبؤات، خاصة عند التعبير عن التأكيد ('I'm sure')."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن تنبؤ أو تأكيد بشأن المستقبل ('I'm sure')، نستخدم 'will'."
+    }
+  },
+  "review2_s_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "intention", "present-simple", "question-form", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word(s) to complete the question.",
+       "ar": "اختر الكلمة (الكلمات) الصحيحة لإكمال السؤال."
+    },
+    "questionText": {
+      "en": "What ………………. to do when you leave school?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "do you intend", "ar": "" },
+      { "en": "will you intend", "ar": "" },
+      { "en": "could you intend", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "do you intend",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'What do you intend to do' is the standard Present Simple question form to ask about someone's intentions or plans.",
+      "ar": "صحيح! 'What do you intend to do' هي صيغة السؤال القياسية في المضارع البسيط للسؤال عن نوايا أو خطط شخص ما."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للسؤال عن النوايا ('intend') الحالية بشأن المستقبل، نستخدم صيغة السؤال في المضارع البسيط."
+    }
+  },
+  "review2_s_11": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "if-only", "past-regret", "past-perfect", "review2", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb form.",
+      "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "If only they …………….. you for help before they started.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "would ask", "ar": "" },
+      { "en": "had asked", "ar": "" },
+      { "en": "asked", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had asked",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'If only + Past Perfect' is used to express regret about a past situation.",
+      "ar": "صحيح! تُستخدم 'If only + الماضي التام' للتعبير عن الندم على موقف ماضٍ."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء لم يحدث في الماضي باستخدام 'If only'، نستخدم صيغة الماضي التام (had + التصريف الثالث للفعل)."
+    }
+  },
+  "review2_s_12": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "present-wish", "past-ability", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "He wishes he ………….. back and see the Norias in Hama.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "would travel", "ar": "" },  
+      { "en": "could have travelled", "ar": "" },  
+      { "en": "could travel", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "could travel",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'wishes he could travel' expresses a present wish about ability (or possibility) to travel.",
+      "ar": "صحيح! 'wishes he could travel' تعبر عن تمنٍ حالي بشأن القدرة (أو الإمكانية) على السفر."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن تمنٍ في الحاضر بشأن القدرة على القيام بشيء، نستخدم 'wish + could + المصدر'. 'would travel' قد تشير إلى رغبة في أن يقوم شخص آخر بالسفر أو رغبة لتغيير سلوك. 'could have travelled' تشير إلى ندم على عدم القدرة في الماضي."
+    }
+  },
+  "review2_s_13": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "if-only", "annoyance", "present-habit", "would", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "If only the children ………… their books on the floor. I am always falling over them.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "wouldn't leave", "ar": "" },
+      { "en": "left", "ar": "" },
+      { "en": "wouldn't have left", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "wouldn't leave",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'If only + subject + would/wouldn't + verb' is used to express annoyance or a wish for a change in a present habit or repeated action.",
+      "ar": "صحيح! تُستخدم 'If only + فاعل + would/wouldn't + فعل' للتعبير عن الانزعاج أو التمني لتغيير عادة حالية أو فعل متكرر."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الانزعاج من عادة حالية أو فعل متكرر يقوم به شخص آخر، ونرغب في تغييره، نستخدم 'If only + الفاعل + would/wouldn't + المصدر'."
+    }
+  },
+  "review2_s_14": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "past-regret", "past-perfect", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "It took us a long time to arrive. I wish we ……………….. the train instead.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "would catch", "ar": "" },
+      { "en": "caught", "ar": "" },
+      { "en": "had caught", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had caught",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish we had caught' expresses regret about a past action (not taking the train).",
+      "ar": "صحيح! 'I wish we had caught' تعبر عن ندم على فعل ماضٍ (عدم ركوب القطار)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء لم نفعله في الماضي، نستخدم 'wish + الماضي التام (had + التصريف الثالث للفعل)'."
+    }
+  },
+  "review2_s_15": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "past-regret", "past-perfect", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "I am so tired. I wish I …………. home earlier.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "had gone", "ar": "" },
+      { "en": "went", "ar": "" },
+      { "en": "would have gone", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "had gone",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish I had gone' expresses regret about not going home earlier (a past inaction).",
+      "ar": "صحيح! 'I wish I had gone' تعبر عن ندم على عدم العودة إلى المنزل مبكرًا (عدم فعل ماضٍ)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء لم تفعله في الماضي (الذهاب للمنزل مبكراً)، والذي أدى إلى شعورك بالتعب الآن، نستخدم 'wish + الماضي التام (had + التصريف الثالث للفعل)'."
+    }
+  },
+  "review2_s_16": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "if-only", "present-situation", "past-simple", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "We are having such a lovely time in Homs. If only it …………. all the time.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "hadn't rained", "ar": "" },  
+      { "en": "didn't rain", "ar": "" },    
+      { "en": "rained", "ar": "" }        
+    ],
+    "correctAnswer": {  
+      "en": "didn't rain",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'If only it didn't rain' expresses a wish for the present situation (presumably, it IS raining) to be different.",
+      "ar": "صحيح! 'If only it didn't rain' تعبر عن تمنٍ لتغيير الوضع الحالي (يفترض أنها تمطر حاليًا)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن تمنٍ بشأن موقف حالي غير مرغوب فيه (هطول المطر المستمر) باستخدام 'If only'، نستخدم صيغة الماضي البسيط."
+    }
+  },
+  "review2_s_17": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "annoyance", "present-habit", "would", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "I wish our neighbours ……………… arguing. They annoy us.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "stopped", "ar": "" },
+      { "en": "had stopped", "ar": "" },
+      { "en": "would stop", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "would stop",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish + subject + would stop' is used to express annoyance about a present habit and a desire for it to change.",
+      "ar": "صحيح! تُستخدم 'I wish + فاعل + would stop' للتعبير عن الانزعاج من عادة حالية والرغبة في تغييرها."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الانزعاج من عادة يقوم بها شخص آخر ونرغب في أن يتوقف عنها، نستخدم 'wish + الفاعل + would + المصدر'."
+    }
+  },
+  "review2_s_18": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "wish", "present-situation", "past-simple", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct verb form.",
+       "ar": "اختر صيغة الفعل الصحيحة."
+    },
+    "questionText": {
+      "en": "It's a fantastic novel! I have almost finished it. I wish it …………….. longer.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "had been", "ar": "" },
+      { "en": "were", "ar": "" },  
+      { "en": "would be", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "were",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish it were' (or 'was') expresses a wish about a present characteristic of the novel.",
+      "ar": "صحيح! 'I wish it were' (أو 'was') تعبر عن تمنٍ بشأن صفة حالية للرواية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن تمنٍ بشأن موقف أو صفة حالية غير مرغوبة (كون الرواية ليست أطول)، نستخدم 'wish + الماضي البسيط'. مع الضمير 'it'، يُفضل استخدام 'were' في السياقات الرسمية، ولكن 'was' مقبولة أيضًا."
+    }
+  },
+  "review2_s_19": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "communication", "review2", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrase.",
+      "ar": "اختر العبارة الصحيحة."
+    },
+    "questionText": {
+      "en": "The police officer told the suspect to stop ______ and to tell him exactly where he was the night before.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "assembling the case", "ar": "" },
+      { "en": "beating around the bush", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "beating around the bush",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Beating around the bush' means avoiding the main point.",
+      "ar": "صحيح! 'beating around the bush' تعني تجنب النقطة الرئيسية أو اللف والدوران."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني التهرب من قول الحقيقة مباشرة أو اللف والدوران هو 'beating around the bush'."
+    }
+  },
+  "review2_s_20": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "law", "crime", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct phrase.",
+       "ar": "اختر العبارة الصحيحة."
+    },
+    "questionText": {
+      "en": "Having ______ the law, that 32-year-old man was sentenced for two months.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "broken", "ar": "" },
+      { "en": "beaten", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "broken",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The idiom is 'to break the law'. 'Broken' is the past participle.",
+      "ar": "صحيح! المصطلح هو 'to break the law'. 'Broken' هو التصريف الثالث للفعل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني خرق القانون هو 'break the law'. بعد 'Having'، نحتاج إلى التصريف الثالث للفعل وهو 'broken'."
+    }
+  },
+  "review2_s_21": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "emotion", "anger", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct phrase.",
+       "ar": "اختر العبارة الصحيحة."
+    },
+    "questionText": {
+      "en": "Being late for the final exam, Kamel was very angry and ______ his temper.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "lost", "ar": "" },
+      { "en": "raised", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "lost",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To lose one's temper' means to become very angry.",
+      "ar": "صحيح! 'To lose one's temper' تعني أن يصبح الشخص غاضبًا جدًا."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني أن يفقد الشخص أعصابه أو يغضب بشدة هو 'lose one's temper'."
+    }
+  },
+  "review2_s_22": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "finance", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct phrase.",
+       "ar": "اختر العبارة الصحيحة."
+    },
+    "questionText": {
+      "en": "One of the most important income for local councils is ______ taxes.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "raising", "ar": "" },  
+      { "en": "levying", "ar": "" }  
+    ],
+    "correctAnswer": {  
+      "en": "raising",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct. 'Raising taxes' can refer to the act of increasing tax rates or amounts, or more broadly, collecting them.",
+      "ar": "صحيح. 'Raising taxes' يمكن أن تشير إلى فعل زيادة معدلات أو مبالغ الضرائب، أو بشكل أعم، تحصيلها."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. في سياق الدخل من الضرائب، يمكن استخدام 'raising taxes' بمعنى زيادة الضرائب، أو 'levying taxes' بمعنى فرض الضرائب، أو 'collecting taxes' بمعنى تحصيل الضرائب. الخيار 'raising' قد يكون مقبولاً هنا."
+    }
+  },
+  "review2_s_23": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "transport", "help", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct phrase.",
+       "ar": "اختر العبارة الصحيحة."
+    },
+    "questionText": {
+      "en": "My car is broken; could you ______ me a lift to the nearest bus stop?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "give", "ar": "" },
+      { "en": "meet", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "give",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To give someone a lift' means to provide them with transportation.",
+      "ar": "صحيح! 'To give someone a lift' تعني أن توصل شخصًا ما."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. التعبير الشائع لطلب توصيلة هو 'give someone a lift'."
+    }
+  },
+  "review2_s_24": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "emotion", "fear", "surprise", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct meaning.",
+       "ar": "اختر المعنى الصحيح."
+    },
+    "questionText": {
+      "en": "To jump out of your skin means that you are ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "relaxed", "ar": "" },
+      { "en": "shocked", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "shocked",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To jump out of your skin' means to be extremely surprised or shocked.",
+      "ar": "صحيح! 'To jump out of your skin' تعني أن تكون متفاجئًا أو مصدومًا للغاية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مصطلح 'jump out of your skin' يعني أن تكون خائفًا جدًا أو متفاجئًا لدرجة أنك تقفز من مكانك، أي مصدوم."
+    }
+  },
+  "review2_s_25": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "annoyance", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct meaning.",
+       "ar": "اختر المعنى الصحيح."
+    },
+    "questionText": {
+      "en": "When doing something ______, this means that it is a pain in the neck.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "easy", "ar": "" },
+      { "en": "annoying", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "annoying",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'A pain in the neck' refers to something or someone that is very annoying.",
+      "ar": "صحيح! 'A pain in the neck' تشير إلى شيء أو شخص مزعج للغاية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مصطلح 'a pain in the neck' يُستخدم لوصف شيء أو شخص مزعج للغاية. لذا، عندما تقوم بشيء مزعج، يمكن أن يكون 'a pain in the neck'."
+    }
+  },
+  "review2_s_26": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "decision-making", "intuition", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct idiom.",
+       "ar": "اختر المصطلح الصحيح."
+    },
+    "questionText": {
+      "en": "It was very difficult to tell you whether you have to travel or not. Think carefully and then ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "jump out of your skin", "ar": "" },
+      { "en": "follow your heart", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "follow your heart",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Follow your heart' means to act according to your deepest feelings or desires.",
+      "ar": "صحيح! 'Follow your heart' تعني أن تتصرف وفقًا لمشاعرك أو رغباتك العميقة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما يكون القرار صعبًا ويتطلب تفكيرًا ثم الاعتماد على المشاعر الداخلية، نستخدم مصطلح 'follow your heart'."
+    }
+  },
+  "review2_s_27": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "logic", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word.",
+       "ar": "اختر الكلمة الصحيحة."
+    },
+    "questionText": {
+      "en": "Asking people to leave their mobile phones at home when they leave is something ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "logical", "ar": "" },
+      { "en": "illogical", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "illogical",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In modern society, expecting people to leave essential communication devices at home is generally considered illogical.",
+      "ar": "صحيح! في المجتمع الحديث، توقع أن يترك الناس أجهزة الاتصال الأساسية في المنزل يعتبر بشكل عام غير منطقي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. في معظم الحالات، يُعتبر طلب ترك الهواتف المحمولة في المنزل عند الخروج أمرًا غير منطقي ('illogical') نظرًا لأهميتها في الاتصال والطوارئ."
+    }
+  },
+  "review2_s_28": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "prefix", "review2", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word.",
+       "ar": "اختر الكلمة الصحيحة."
+    },
+    "questionText": {
+      "en": "Uncooked meat is an ______ type of food for so many people in my society.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "infamiliar", "ar": "" },  
+      { "en": "unfamiliar", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "unfamiliar",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Unfamiliar' means not known or experienced before.",
+      "ar": "صحيح! 'Unfamiliar' تعني غير معروف أو لم تتم تجربته من قبل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة الصحيحة التي تعني 'غير مألوف' هي 'unfamiliar'. البادئة 'in-' لا تُستخدم مع 'familiar' بهذا الشكل."
+    }
+  },
+  "review2_s_29_cond_sit1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type3", "past-unreal", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "What might you say in this situation? Use a conditional sentence. (e.g., If Hind doesn't book a seat on the train, she'll have to stand.)",
+      "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
+    },
+    "questionText": {
+      "en": "1. You didn't know how much the laptop was when you asked about the price.\n(Expressing regret/unreal past): <input type='text' class='fill-blank-input' data-blank-id='cond_s1' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_s1": {  
+        "en": "If I had known how much the laptop was, I might not have asked about the price.",  
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type 3 conditional to talk about an unreal past situation.",
+      "ar": "صحيح! هذه الجملة تستخدم الشرط من النوع الثالث للتحدث عن موقف ماضٍ غير حقيقي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بشيء لم تكن تعرفه في الماضي ونتيجته المحتملة لو كنت تعرف. استخدم الشرط من النوع الثالث (If + past perfect, would/could/might + have + past participle)."
+    }
+  },
+  "review2_s_30_cond_sit2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conditional", "type1", "warning", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "What might you say in this situation? Use a conditional sentence.",
+       "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
+    },
+    "questionText": {
+      "en": "2. Warn your brother not to put too many things in his drawer or it'll break.\n(Warning with conditional): <input type='text' class='fill-blank-input' data-blank-id='cond_s2' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_s2": {  
+        "en": "If you put too many things in your drawer, it'll break.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type 1 conditional to give a warning.",
+      "ar": "صحيح! هذه الجملة تستخدم الشرط من النوع الأول لتقديم تحذير."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لتقديم تحذير حول نتيجة محتملة لفعل ما في الحاضر أو المستقبل، استخدم الشرط من النوع الأول (If + present simple, will + base verb)."
+    }
+  },
+  "review2_s_31_cond_sit3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type2", "present-unreal", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "What might you say in this situation? Use a conditional sentence.",
+       "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
+    },
+    "questionText": {
+      "en": "3. You haven't got enough time, so you can't visit your aunt in the next town.\n(Expressing unreal present): <input type='text' class='fill-blank-input' data-blank-id='cond_s3' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_s3": {  
+        "en": "If I had enough time, I could visit my aunt in the next town.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type 2 conditional for an unreal present situation.",
+      "ar": "صحيح! هذه الجملة تستخدم الشرط من النوع الثاني لموقف حاضر غير حقيقي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بالوقت الحالي ونتيجة غير حقيقية. استخدم الشرط من النوع الثاني (If + past simple, would/could/might + base verb)."
+    }
+  },
+  "review2_s_32_cond_sit4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type3", "past-regret", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "What might you say in this situation? Use a conditional sentence.",
+       "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
+    },
+    "questionText": {
+      "en": "4. You should have studied earlier for the test. That's why you didn't pass.\n(Expressing past regret): <input type='text' class='fill-blank-input' data-blank-id='cond_s4' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_s4": {  
+        "en": "If I had studied earlier for the test, I would have passed.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type 3 conditional to express regret about the past.",
+      "ar": "صحيح! هذه الجملة تستخدم الشرط من النوع الثالث للتعبير عن ندم على الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن ندم على شيء لم تفعله في الماضي ونتيجته، استخدم الشرط من النوع الثالث (If + past perfect, would/could/might + have + past participle)."
+    }
+  },
+  "review2_s_33_cond_sit5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conditional", "type1", "offer", "possibility", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "What might you say in this situation? Use a conditional sentence.",
+       "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
+    },
+    "questionText": {
+      "en": "5. Your friend might need some help. If so, tell her to give you a ring.\n(Conditional offer/instruction): <input type='text' class='fill-blank-input' data-blank-id='cond_s5' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_s5": {  
+        "en": "If your friend needs some help, tell her to give you a ring.",  
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type 1 conditional for a real possibility and instruction.",
+      "ar": "صحيح! هذه الجملة تستخدم الشرط من النوع الأول لاحتمال حقيقي وتعليمات."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن موقف محتمل في المستقبل وتقديم تعليمات بناءً عليه، استخدم الشرط من النوع الأول (If + present simple, imperative/will + base verb)."
+    }
+  },
+  "review2_s_34_cond_sit6": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "conditional", "type3", "past-unreal", "missed-opportunity", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "What might you say in this situation? Use a conditional sentence.",
+       "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
+    },
+    "questionText": {
+      "en": "6. You didn't see the product advertised, otherwise you could buy it.\n(Expressing missed past opportunity): <input type='text' class='fill-blank-input' data-blank-id='cond_s6' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_s6": {  
+        "en": "If I had seen the product advertised, I could have bought it.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type 3 conditional for an unreal past situation (missed opportunity).",
+      "ar": "صحيح! هذه الجملة تستخدم الشرط من النوع الثالث لموقف ماضٍ غير حقيقي (فرصة ضائعة)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. كلمة 'otherwise' هنا تشير إلى موقف غير حقيقي في الماضي. للتعبير عن هذا، استخدم الشرط من النوع الثالث (If + past perfect, would/could/might + have + past participle)."
+    }
+  }
+}

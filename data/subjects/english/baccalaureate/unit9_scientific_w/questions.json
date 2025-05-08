@@ -1,0 +1,521 @@
+{
+  "unit9_w_1_matching": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "law", "government", "concepts", "unit9", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Before you read the text, match these words to their definitions.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match these words to their definitions:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "word_acquis", "text": { "en": "1. acquisition", "ar": "" } },
+      { "id": "word_enact", "text": { "en": "2. enacted", "ar": "" } },
+      { "id": "word_claim", "text": { "en": "3. claim", "ar": "" } },
+      { "id": "word_ramif", "text": { "en": "4. ramifications", "ar": "" } },
+      { "id": "word_restrict", "text": { "en": "5. restrictive", "ar": "" } },
+      { "id": "word_revoke", "text": { "en": "6. revoke", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "def_c", "label": { "en": "a. the process by which you gain something", "ar": "" }, "accepts": "word_acquis" },
+      { "id": "def_f", "label": { "en": "b. to make a proposal into a law", "ar": "" }, "accepts": "word_enact" },  
+      { "id": "def_d", "label": { "en": "c. to state that something is legally yours", "ar": "" }, "accepts": "word_claim" },
+      { "id": "def_a", "label": { "en": "d. additional results of something you do", "ar": "" }, "accepts": "word_ramif" },
+      { "id": "def_b", "label": { "en": "e. something that stops people doing what they want to do, limiting", "ar": "" }, "accepts": "word_restrict" },
+      { "id": "def_e", "label": { "en": "f. to officially state that a law, decision or agreement is no longer effective", "ar": "" }, "accepts": "word_revoke" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All words matched correctly.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات: 'acquisition' (اكتساب) هي عملية الحصول على شيء، 'enacted' (سُنَّ) تعني تحويل اقتراح إلى قانون، 'claim' (يدعي أو يطالب) هو القول بأن شيئًا ما ملكك قانونًا، 'ramifications' (تداعيات) هي نتائج إضافية، 'restrictive' (مقيد) يحد مما يمكن للناس فعله، و 'revoke' (يلغي) يعني إلغاء قانون أو قرار رسميًا."  
+    }
+  },
+  "unit9_w_2_vocab1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "citizenship", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Use words from the list to complete the sentence: [community, patriotism, rights, positive, moral, elections]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Good citizens would participate in <input type='text' class='fill-blank-input' data-blank-id='vb1' placeholder='...'> by choosing the candidate they feel the best.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vb1": { "en": "elections", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. العملية التي يختار فيها المواطنون مرشحيهم هي 'elections'."
+    }
+  },
+  "unit9_w_3_vocab2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "citizenship", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Use words from the list to complete the sentence: [community, patriotism, rights, positive, moral, elections]",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. Citizens have <input type='text' class='fill-blank-input' data-blank-id='vb2' placeholder='...'> but they must also be aware of their responsibilities towards their community.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vb2": { "en": "rights", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تشير إلى الاستحقاقات التي يتمتع بها المواطنون هي 'rights'."
+    }
+  },
+  "unit9_w_4_vocab3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "citizenship", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Use words from the list to complete the sentence: [community, patriotism, rights, positive, moral, elections]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Good citizens must work for the prosperity of the <input type='text' class='fill-blank-input' data-blank-id='vb3' placeholder='...'> they live in.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vb3": { "en": "community", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تشير إلى المجموعة التي يعيش فيها المواطنون هي 'community'."
+    }
+  },
+  "unit9_w_5_vocab4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "citizenship", "ethics", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Use words from the list to complete the sentence: [community, patriotism, rights, positive, moral, elections]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. They should also respect the <input type='text' class='fill-blank-input' data-blank-id='vb4' placeholder='...'> norms of the society.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vb4": { "en": "moral", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف المعايير المتعلقة بالصواب والخطأ في السلوك هي 'moral'."
+    }
+  },
+  "unit9_w_6_vocab5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "citizenship", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Use words from the list to complete the sentence: [community, patriotism, rights, positive, moral, elections]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Civic engagement is the <input type='text' class='fill-blank-input' data-blank-id='vb5' placeholder='...'> involvement in the affairs of the community.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vb5": { "en": "positive", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف المشاركة بأنها بناءة ومفيدة هي 'positive'."
+    }
+  },
+  "unit9_w_7_vocab6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "citizenship", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Use words from the list to complete the sentence: [community, patriotism, rights, positive, moral, elections]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. <input type='text' class='fill-blank-input' data-blank-id='vb6' placeholder='...'> is when someone has the passion to serve their country.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vb6": { "en": "Patriotism", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني حب الوطن والشغف بخدمته هي 'Patriotism'."
+    }
+  },
+  "unit9_w_8_verb1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "both-and", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with is / are / have / has.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Both the teacher and the student <input type='text' class='fill-blank-input' data-blank-id='agr1' placeholder='...'> here.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr1": { "en": "are", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Both...and...' connects two subjects, making the compound subject plural, requiring 'are'.",
+      "ar": "صحيح! 'Both...and...' تربط فاعلين، مما يجعل الفاعل المركب جمعًا، ويتطلب الفعل 'are'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما نستخدم 'Both...and...' لربط فاعلين، يصبح الفاعل المركب جمعًا، ويجب استخدام فعل بصيغة الجمع مثل 'are'."
+    }
+  },
+  "unit9_w_9_verb2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "neither-nor", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with is / are / have / has.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. Neither the teacher nor the student <input type='text' class='fill-blank-input' data-blank-id='agr2' placeholder='...'> here.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr2": { "en": "is", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! With 'neither...nor...', the verb agrees with the subject closest to it (student - singular).",
+      "ar": "صحيح! مع 'neither...nor...'، يتوافق الفعل مع الفاعل الأقرب إليه ('student' - مفرد)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند استخدام 'neither...nor...'، يتفق الفعل مع الفاعل الأقرب إليه. في هذه الحالة، الفاعل الأقرب هو 'student' وهو مفرد، لذا نستخدم 'is'."
+    }
+  },
+  "unit9_w_10_verb3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "not-only-but-also", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with is / are / have / has.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. Not only the teacher but also the student <input type='text' class='fill-blank-input' data-blank-id='agr3' placeholder='...'> here.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr3": { "en": "is", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! With 'not only...but also...', the verb agrees with the subject closest to it (student - singular).",
+      "ar": "صحيح! مع 'not only...but also...'، يتوافق الفعل مع الفاعل الأقرب إليه ('student' - مفرد)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند استخدام 'not only...but also...'، يتفق الفعل مع الفاعل الأقرب إليه. الفاعل الأقرب هنا هو 'student' وهو مفرد، لذا نستخدم 'is'."
+    }
+  },
+  "unit9_w_11_verb4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "not-only-but-also", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with is / are / have / has.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Not only my brother but also my sister <input type='text' class='fill-blank-input' data-blank-id='agr4' placeholder='...'> a doctorate in science.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr4": { "en": "has", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb agrees with the closest subject 'my sister' (singular), requiring 'has'.",
+      "ar": "صحيح! يتوافق الفعل مع الفاعل الأقرب 'my sister' (مفرد)، مما يتطلب 'has'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'not only...but also...'، يتفق الفعل مع الفاعل الأقرب إليه ('my sister' - مفرد). فعل الامتلاك المناسب للمفرد الغائب هو 'has'."
+    }
+  },
+  "unit9_w_12_verb5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "either-or", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with is / are / have / has.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. Either the students or the teacher <input type='text' class='fill-blank-input' data-blank-id='agr5' placeholder='...'> planning to come.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr5": { "en": "is", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! With 'either...or...', the verb agrees with the subject closest to it (teacher - singular).",
+      "ar": "صحيح! مع 'either...or...'، يتوافق الفعل مع الفاعل الأقرب إليه ('teacher' - مفرد)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند استخدام 'either...or...'، يتفق الفعل مع الفاعل الأقرب إليه. الفاعل الأقرب هنا هو 'teacher' (مفرد)، لذا نستخدم 'is'."
+    }
+  },
+  "unit9_w_13_verb6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "either-or", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with is / are / have / has.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "6. Either the teacher or the students <input type='text' class='fill-blank-input' data-blank-id='agr6' placeholder='...'> planned to come.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr6": { "en": "have", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb agrees with the closest subject 'students' (plural). 'Planned' suggests the Present Perfect tense is needed.",
+      "ar": "صحيح! يتوافق الفعل مع الفاعل الأقرب 'students' (جمع). كلمة 'planned' تشير إلى الحاجة لزمن المضارع التام."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'either...or...'، يتفق الفعل مع الفاعل الأقرب إليه ('students' - جمع). لوصف خطة مكتملة لها صلة بالحاضر، نستخدم المضارع التام. الفعل المساعد للجمع في المضارع التام هو 'have'."
+    }
+  },
+  "unit9_w_14_verb7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "either-or", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with is / are / have / has.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "7. Either my brother or my sister <input type='text' class='fill-blank-input' data-blank-id='agr7' placeholder='...'> going to tutor me in science.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr7": { "en": "is", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb agrees with the closest subject 'my sister' (singular).",
+      "ar": "صحيح! يتوافق الفعل مع الفاعل الأقرب 'my sister' (مفرد)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'either...or...'، يتفق الفعل مع الفاعل الأقرب إليه ('my sister' - مفرد)، لذا نستخدم 'is'."
+    }
+  },
+  "unit9_w_15_verb8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "verb-agreement", "neither-nor", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with is / are / have / has.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "8. Neither my brother nor my sisters <input type='text' class='fill-blank-input' data-blank-id='agr8' placeholder='...'> teachers.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "agr8": { "en": "are", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb agrees with the closest subject 'my sisters' (plural).",
+      "ar": "صحيح! يتوافق الفعل مع الفاعل الأقرب 'my sisters' (جمع)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'neither...nor...'، يتفق الفعل مع الفاعل الأقرب إليه ('my sisters' - جمع)، لذا نستخدم 'are'."
+    }
+  },
+  "unit9_w_16_rewrite1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "neither-nor", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence(s) using an appropriate paired conjunction.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. I didn’t need to visit the Cathedral. You didn’t need to either.\nRewritten: <input type='text' class='fill-blank-input' data-blank-id='rw1' placeholder='Rewrite using paired conjunction...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rw1": { "en": "Neither I nor you needed to visit the Cathedral.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فاعلين يتشاركان نفس النفي، استخدم 'Neither [فاعل1] nor [فاعل2]' متبوعًا بالفعل بصيغة الإثبات في الزمن الأصلي (الماضي البسيط)."
+    }
+  },
+  "unit9_w_17_rewrite2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "either-or", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence(s) using an appropriate paired conjunction.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. A hammer might help us with this kind of work. In fact, a piece of stone might also work.\nRewritten: <input type='text' class='fill-blank-input' data-blank-id='rw2' placeholder='Rewrite using paired conjunction...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rw2": { "en": "Either a hammer or a piece of stone might help us with this kind of work.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لتقديم خيارين كفاعل للجملة، استخدم 'Either [خيار1] or [خيار2]' متبوعًا بالفعل."
+    }
+  },
+  "unit9_w_18_rewrite3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "neither-nor", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence(s) using an appropriate paired conjunction.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. You shouldn’t have called the police. Actually, it was silly of you to call the neighbours as well.\nRewritten: <input type='text' class='fill-blank-input' data-blank-id='rw3' placeholder='Rewrite using paired conjunction...'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "rw3": { "en": "You should have called neither the police nor the neighbours.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أن كلا الفعلين كانا غير ضروريين أو خاطئين، استخدم 'neither [المفعول به الأول] nor [المفعول به الثاني]' بعد الفعل المساعد ('should have called')."
+    }
+  },
+  "unit9_w_19_rewrite4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "not-only-but-also", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence(s) using an appropriate paired conjunction.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Breaking the silence was not the only good thing she did. She also said something very useful.\nRewritten: <input type='text' class='fill-blank-input' data-blank-id='rw4' placeholder='Rewrite using paired conjunction...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rw4": { "en": "She not only broke the silence but also said something very useful.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فعلين أو عبارتين فعليتين قام بهما نفس الفاعل، استخدم '[فاعل] not only [فعل/عبارة 1] but also [فعل/عبارة 2]'."
+    }
+  },
+  "unit9_w_20_rewrite5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "neither-nor", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+       "en": "Rewrite the sentence(s) using an appropriate paired conjunction.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. Peter didn’t like the idea of going for a walk. His wife seemed quite unwilling too.\nRewritten: <input type='text' class='fill-blank-input' data-blank-id='rw5' placeholder='Rewrite using paired conjunction...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+    
+      "rw5": { "en": "Neither Peter nor his wife liked the idea of going for a walk.", "ar": "" }
+       
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لربط فاعلين يشتركان في نفس الشعور أو الموقف السلبي، استخدم 'Neither [فاعل1] nor [فاعل2]' متبوعًا بالفعل بصيغة الإثبات (لأن neither...nor تحمل النفي) في الزمن الأصلي (الماضي البسيط)."
+    }
+  },
+  "unit9_w_21_rewrite6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conjunctions", "paired-conjunctions", "either-or", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence(s) using an appropriate paired conjunction.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. You can take Sally or any other person with you. I really don’t care that much.\nRewritten: <input type='text' class='fill-blank-input' data-blank-id='rw6' placeholder='Rewrite using paired conjunction...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rw6": { "en": "You can take either Sally or any other person with you.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لتقديم خيارين كمفعول به بعد الفعل، استخدم '[فعل] either [خيار1] or [خيار2]'."
+    }
+  }
+}

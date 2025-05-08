@@ -1,0 +1,57 @@
+{
+  "unit10_w_1_idioms": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "social-interaction", "reputation", "unit10", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the idioms (draggable items) to the sentences where they best replace the underlined phrases.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Replace the underlined phrases by dragging the correct idiom to the sentence:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "idiom_wideface", "text": { "en": "to have a wide face", "ar": "" } },
+      { "id": "idiom_pumpkins", "text": { "en": "to give someone pumpkins", "ar": "" } },
+      { "id": "idiom_loseface", "text": { "en": "to lose face", "ar": "" } },
+      { "id": "idiom_breakbread", "text": { "en": "to break bread with", "ar": "" } },
+      { "id": "idiom_saveface", "text": { "en": "to save face", "ar": "" } }
+    ],
+    "dropZones": [ 
+      {
+        "id": "sent1",
+        "label": { "en": "1. I don’t want to ruin my friendship with him for ______.", "ar": "" },
+        "accepts": "idiom_breakbread"
+      }, 
+      {
+        "id": "sent2",
+        "label": { "en": "2. He thinks ______ if he admitted the mistake.", "ar": "" },
+        "accepts": "idiom_loseface"
+      }, 
+      {
+        "id": "sent3",
+        "label": { "en": "3. She has many friends; ______.", "ar": "" },
+        "accepts": "idiom_wideface"
+      }, 
+      {
+        "id": "sent4",
+        "label": { "en": "4. I wanted to ______ with my colleagues by explaining why I’ve been late.", "ar": "" },
+        "accepts": "idiom_saveface"
+      }, 
+      {
+        "id": "sent5",
+        "label": { "en": "5. He invited her to the party, but ______.", "ar": "" },
+        "accepts": "idiom_pumpkins"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! You matched all the idioms correctly.",
+      "ar": "ممتاز! تم مطابقة جميع المصطلحات بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع معاني المصطلحات: 'to break bread with' (يبني صداقة/ثقة)، 'to lose face' (يفقد الاحترام/السمعة)، 'to have a wide face' (محبوب/ذو شعبية)، 'to save face' (يتجنب الإحراج/الحفاظ على ماء الوجه)، 'to give someone pumpkins' (يرفض شخصًا)."  
+    }
+  }
+}
