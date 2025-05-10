@@ -1,0 +1,1484 @@
+{
+  "review3_s_1_modal1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "obligation",
+      "prohibition",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb phrase from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. You (mustn't / don't have to) <input type='text' class='fill-blank-input' data-blank-id='mod1' placeholder='type one option...'> smoke here. Smoking is forbidden in this restaurant.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod1": {
+        "en": "mustn't",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Mustn't' indicates prohibition.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'mustn't' تعني المنع (لا يجب أن تفعل). 'don't have to' تعني عدم الضرورة (ليس عليك أن تفعل). بما أن التدخين ممنوع، فإن 'mustn't' هي الصحيحة."
+    }
+  },
+  "review3_s_2_modal2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "lack-of-obligation",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb phrase from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. There is plenty of time. We (mustn't / don't have to) <input type='text' class='fill-blank-input' data-blank-id='mod2' placeholder='type one option...'> be at the meeting until 9.00.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod2": {
+        "en": "don't have to",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Don't have to' indicates lack of necessity.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'mustn't' تعني المنع. 'don't have to' تعني عدم الضرورة. بما أن هناك الكثير من الوقت، فليس من الضروري أن نكون في الاجتماع حتى الساعة 9، لذا 'don't have to' هي الصحيحة."
+    }
+  },
+  "review3_s_3_modal3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "advice",
+      "had-better",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb phrase from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. (We don’t have to / We’d better not) <input type='text' class='fill-blank-input' data-blank-id='mod3' placeholder='type one option...'> talk for too long. These calls are expensive.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod3": {
+        "en": "We’d better not",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'We'd better not' gives strong advice against doing something.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'We don’t have to' تعني عدم الضرورة. 'We’d better not' تعطي نصيحة قوية بعدم فعل شيء (من الأفضل ألا نفعل). بما أن المكالمات باهظة الثمن، فإن النصيحة بعدم التحدث طويلاً هي الأنسب."
+    }
+  },
+  "review3_s_4_modal4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "advice",
+      "should",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. You (should, may) <input type='text' class='fill-blank-input' data-blank-id='mod4' placeholder='type one option...'> see a doctor for that serious cut on your arm.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod4": {
+        "en": "should",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Should' gives advice.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'should' تُستخدم لتقديم النصيحة. 'may' تُستخدم للتعبير عن الاحتمالية أو لطلب الإذن. هنا، السياق هو تقديم نصيحة بزيارة الطبيب."
+    }
+  },
+  "review3_s_5_modal5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "past-regret",
+      "should-have",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb phrase from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. You (didn’t have to tell me / shouldn’t have told me) <input type='text' class='fill-blank-input' data-blank-id='mod5' placeholder='type one option...'> about the party. Now it’s not a surprise.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod5": {
+        "en": "shouldn’t have told me",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Shouldn't have told' expresses regret or criticism about a past action.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'didn’t have to tell me' تعني أنه لم يكن من الضروري أن تخبرني (لكنك فعلت، وهذا ليس خطأ بالضرورة). 'shouldn’t have told me' تعني أنه كان من الخطأ أن تخبرني (تعبير عن ندم أو انتقاد لفعل ماضٍ). بما أن المفاجأة قد أُفسدت، فإن 'shouldn’t have told me' هي الأنسب."
+    }
+  },
+  "review3_s_6_modal6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "obligation",
+      "must",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Each driver (should, must) <input type='text' class='fill-blank-input' data-blank-id='mod6' placeholder='type one option...'> have health insurance. It is obligatory.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod6": {
+        "en": "must",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Must' indicates strong obligation, often from rules or laws.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'should' تُستخدم للنصيحة. 'must' تُستخدم للتعبير عن إلزام قوي، غالبًا ما يكون نابعًا من القوانين أو القواعد. بما أنه إلزامي ('obligatory')، فإن 'must' هي الصحيحة."
+    }
+  },
+  "review3_s_7_modal7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "past-regret",
+      "should-have",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb phrase from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. You (should study, should have studied) <input type='text' class='fill-blank-input' data-blank-id='mod7' placeholder='type one option...'> harder for the exam last term. Your results are too bad.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod7": {
+        "en": "should have studied",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Should have studied' expresses regret or criticism about a past inaction.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'should study' هي نصيحة للحاضر أو المستقبل. 'should have studied' تُستخدم للتعبير عن ندم أو انتقاد لعدم فعل شيء في الماضي. بما أن الامتحان كان في الفصل الماضي والنتائج سيئة، فإن 'should have studied' هي الأنسب."
+    }
+  },
+  "review3_s_8_modal8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "prohibition",
+      "incorrectness",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct modal verb from the brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. These books are on the wrong shelf. They (shouldn’t / mustn’t) <input type='text' class='fill-blank-input' data-blank-id='mod8' placeholder='type one option...'> be here.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod8": {
+        "en": "shouldn’t",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Shouldn't' indicates that something is not right or expected.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'mustn’t' تعني المنع (ممنوع أن تكون هنا). 'shouldn’t' تعني أنه ليس من المفترض أو الصحيح أن تكون هنا. بما أن الكتب في الرف الخاطئ، فإن 'shouldn’t' هي الأنسب للتعبير عن أن هذا الوضع غير صحيح أو غير متوقع."
+    }
+  },
+  "review3_s_9_pair_conj1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "both-and",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Hind enjoys swimming in the early morning. Hasan enjoys swimming in the early morning. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair1' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair1": {
+        "en": "Both Hind and Hasan enjoy swimming in the early morning.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند ربط فاعلين مختلفين يقومان بنفس الفعل، نستخدم 'Both [فاعل1] and [فاعل2]' ثم الفعل بصيغة الجمع (إذا لزم الأمر، لكن 'enjoy' هنا لا تتغير)."
+    }
+  },
+  "review3_s_10_pair_conj2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "neither-nor",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Sua'ad is not in class today. Waleed is not in class today. (neither…nor…)\n<input type='text' class='fill-blank-input' data-blank-id='pair2' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair2": {
+        "en": "Neither Sua'ad nor Waleed is in class today.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb agrees with the noun closer to it (Waleed -> is).",
+      "ar": "صحيح! الفعل يتوافق مع الاسم الأقرب إليه (Waleed -> is)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند الربط بـ 'neither ... nor' للفاعلين المختلفين، نضع 'neither' قبل الفاعل الأول و 'nor' قبل الفاعل الثاني. الفعل يتوافق مع الفاعل الأقرب إليه (Waleed مفرد، لذا 'is'). النفي مدمج في 'neither' و 'nor'."
+    }
+  },
+  "review3_s_11_pair_conj3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "either-or",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. We can fix dinner for our guests here, or we can take them to a restaurant. (either…or…)\n<input type='text' class='fill-blank-input' data-blank-id='pair3' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair3": {
+        "en": "We can either fix dinner for our guests here or take them to a restaurant.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند ربط فعلين أو عبارتين فعليتين مختلفتين لنفس الفاعل، نضع 'either' قبل الخيار الأول و 'or' قبل الخيار الثاني. الفاعل والفعل المساعد المشترك يأتيان في البداية."
+    }
+  },
+  "review3_s_12_pair_conj4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "both-and",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The panda faces extinction. The koala faces extinction too. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair4' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair4": {
+        "en": "Both the panda and the koala face extinction.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند ربط فاعلين مختلفين يقومان بنفس الفعل، نستخدم 'Both [فاعل1] and [فاعل2]' ثم الفعل (هنا 'face' يبقى كما هو لأنه يتفق مع الفاعل الجمع الناتج)."
+    }
+  },
+  "review3_s_13_pair_conj5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "neither-nor",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. This website doesn't have the topic I need. That website doesn't have the topic I need either. (neither…nor…)\n<input type='text' class='fill-blank-input' data-blank-id='pair5' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair5": {
+        "en": "Neither this website nor that website has the topic I need.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Verb 'has' agrees with 'that website'.",
+      "ar": "صحيح! الفعل 'has' يتوافق مع 'that website'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم 'Neither [فاعل1] nor [فاعل2]'. الفعل يتوافق مع الفاعل الأقرب إليه ('that website' مفرد، لذا 'has'). النفي مدمج في 'neither' و 'nor'."
+    }
+  },
+  "review3_s_14_pair_conj6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "both-and",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Wind power is renewable. Solar power is also renewable. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair6' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair6": {
+        "en": "Both wind power and solar power are renewable.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم 'Both [فاعل1] and [فاعل2]' ثم الفعل بصيغة الجمع 'are'."
+    }
+  },
+  "review3_s_15_pair_conj7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "neither-nor",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. Rayan doesn't know where Hani is. Nadeem doesn't know either. (neither…nor…)\n<input type='text' class='fill-blank-input' data-blank-id='pair7' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair7": {
+        "en": "Neither Rayan nor Nadeem knows where Hani is.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Verb 'knows' agrees with 'Nadeem'.",
+      "ar": "صحيح! الفعل 'knows' يتوافق مع 'Nadeem'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم 'Neither [فاعل1] nor [فاعل2]'. الفعل يتوافق مع الفاعل الأقرب إليه ('Nadeem' مفرد، لذا 'knows'). النفي مدمج في 'neither' و 'nor'."
+    }
+  },
+  "review3_s_16_pair_conj8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "both-and",
+      "sentence-combining",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine the sentences using the paired conjunction in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. Sham wants to ask her teacher a question. Hala wants to ask the teacher a question. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair8' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pair8": {
+        "en": "Both Sham and Hala want to ask their teacher a question.",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم 'Both [فاعل1] and [فاعل2]' ثم الفعل 'want' (بدون 's' لأنه لفاعل جمع). قد تحتاج لتغيير 'her teacher' إلى 'their teacher' أو 'the teacher' حسب السياق."
+    }
+  },
+  "review3_s_17_report_verb1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "reporting-verb",
+      "admit",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report the sentence using the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. The little boy to his mother: I ate all the cake yesterday. (ADMIT)\nThe little boy <input type='text' class='fill-blank-input' data-blank-id='rep_verb1' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "rep_verb1": {
+        "en": [
+          "admitted to his mother that he had eaten all the cake the day before",
+          "admitted eating all the cake the day before"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم الفعل 'admit' متبوعًا بـ (to + شخص) ثم (that + جملة) أو (V-ing). يجب تغيير زمن الفعل في الجملة المنقولة ('ate' إلى 'had eaten') والظرف الزمني ('yesterday' إلى 'the day before')."
+    }
+  },
+  "review3_s_18_report_verb2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "reporting-verb",
+      "tell",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report the sentence using the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Karen to Nancy: I ‘m so proud of you. (TELL)\nKaren <input type='text' class='fill-blank-input' data-blank-id='rep_verb2' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rep_verb2": {
+        "en": "told Nancy that she was so proud of her.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم الفعل 'tell' متبوعًا بالشخص المخاطَب ثم (that + جملة). يجب تغيير الضمائر ('I' إلى 'she'، 'you' إلى 'her') وزمن الفعل ('am' إلى 'was')."
+    }
+  },
+  "review3_s_19_report_verb3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "reporting-verb",
+      "want-to-know",
+      "indirect-question",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report the sentence using the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Janet to Hala: Did someone ring you an hour ago? (WANT TO KNOW)\nJanet <input type='text' class='fill-blank-input' data-blank-id='rep_verb3' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rep_verb3": {
+        "en": "wanted to know if someone had rung Hala an hour before.",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم 'wanted to know' متبوعًا بـ 'if' أو 'whether' للسؤال بنعم/لا. يجب تغيير زمن الفعل ('Did ring' إلى 'had rung') والضمير ('you' إلى Hala أو 'her') والظرف الزمني ('an hour ago' إلى 'an hour before')."
+    }
+  },
+  "review3_s_20_report_verb4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "reporting-verb",
+      "invite",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report the sentence using the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Judy to Martin: Would you like to join me for lunch tomorrow? (INVITE)\nJudy <input type='text' class='fill-blank-input' data-blank-id='rep_verb4' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rep_verb4": {
+        "en": "invited Martin to join her for lunch the next day.",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم الفعل 'invite' متبوعًا بالشخص المدعو ثم (to + المصدر). يجب تغيير الضمائر ('me' إلى 'her') والظرف الزمني ('tomorrow' إلى 'the next day' أو 'the following day')."
+    }
+  },
+  "review3_s_21_report_verb5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "reporting-verb",
+      "say",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report the sentence using the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Fuad to his friend: The teachers are working on the exam results. (SAY)\nFuad <input type='text' class='fill-blank-input' data-blank-id='rep_verb5' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "rep_verb5": {
+        "en": [
+          "said to his friend that the teachers were working on the exam results",
+          "said that the teachers were working on the exam results"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نستخدم الفعل 'say' متبوعًا بـ (to + شخص، إذا ذُكر) ثم (that + جملة). يجب تغيير زمن الفعل ('are working' إلى 'were working')."
+    }
+  },
+  "review3_s_22_choice1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "word-order",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct phrase between the slashes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Not only / Rarely <input type='text' class='fill-blank-input' data-blank-id='choice1' placeholder='type one option...'> do you see top-rate cameras which are also easy to use.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "choice1": {
+        "en": "Rarely",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Rarely do you see...' is a common inversion structure.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'Not only' تتطلب عادةً '...but also...' في الجملة. 'Rarely' في بداية الجملة تستدعي القلب مع الفعل المساعد 'do'."
+    }
+  },
+  "review3_s_23_choice2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "inversion",
+      "word-order",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct phrase between the slashes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Never I have seen / Never have I seen <input type='text' class='fill-blank-input' data-blank-id='choice2' placeholder='type one option...'> such a dramatic end to a football match.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "choice2": {
+        "en": "Never have I seen",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Inversion is needed with 'Never'.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Never'، يجب استخدام القلب: Never + فعل مساعد ('have') + فاعل ('I') + فعل رئيسي."
+    }
+  },
+  "review3_s_24_choice3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "indirect-question",
+      "word-order",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct phrase between the slashes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. What he is talking about / What is he talking about <input type='text' class='fill-blank-input' data-blank-id='choice3' placeholder='type one option...'>, I have no idea.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "choice3": {
+        "en": "What he is talking about",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is an embedded/indirect question acting as the subject or topic.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الجملة الاسمية التي تبدأ بـ 'What' وتعمل كموضوع للعبارة 'I have no idea' تتبع ترتيب الجملة الخبرية (فاعل + فعل)، وليس ترتيب السؤال المباشر."
+    }
+  },
+  "review3_s_25_choice4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "word-order",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct phrase between the slashes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Only the two members of our school team managed / did they manage <input type='text' class='fill-blank-input' data-blank-id='choice4' placeholder='type one option...'> to finish the race.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "choice4": {
+        "en": "managed",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Only the two members...' acts as the subject, so no inversion is needed here.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. في هذه الحالة، عبارة 'Only the two members of our school team' تعمل كفاعل للجملة، لذا لا يلزم القلب. الفعل الرئيسي هو 'managed'."
+    }
+  },
+  "review3_s_26_choice5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "conditional",
+      "word-order",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Choose the correct phrase between the slashes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Should / Were <input type='text' class='fill-blank-input' data-blank-id='choice5' placeholder='type one option...'> the alarm to ring, leave the building immediately.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "choice5": {
+        "en": "Should",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Should' can be used to start an inverted conditional clause meaning 'If the alarm should ring'.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. يمكن استخدام 'Should' في بداية الجملة الشرطية بمعنى 'If...should...' (إذا حدث وأن...). 'Were' تستخدم في حالات أخرى من القلب الشرطي (مثلاً، 'Were I you...')."
+    }
+  },
+  "review3_s_27_wordform1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. The ………………… of the sun's radiation can cause skin cancer. (AFFECT)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form1": {
+        "en": "effect",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Effect' is the noun meaning result or influence.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المطلوبة هي اسم بمعنى 'تأثير'. الفعل هو 'affect'. الاسم هو 'effect'."
+    }
+  },
+  "review3_s_28_wordform2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. At the end of the match, all the players were out of ………………… . (BREATHE)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form2": {
+        "en": "breath",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Breath' is the noun.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل هو 'breathe' (يتنفس). الاسم الذي يعني 'نَفَس' هو 'breath'."
+    }
+  },
+  "review3_s_29_wordform3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "adjective",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Both Ali and Mary are ………………….. today. (ABCENE)",  
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form3": {
+        "en": "absent",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Absent' is the adjective.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة الأصلية 'ABSENCE' (غياب) هي اسم. الصفة التي تصف حالة الغياب هي 'absent'."
+    }
+  },
+  "review3_s_30_wordform4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The government announced the island an invalid place to live on because of the volcanic …… (ACT)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form4": {
+        "en": "activity",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Activity' is the noun.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل هو 'act' (يفعل/يمثل). الاسم الذي يشير إلى 'نشاط' بركاني هو 'activity'."
+    }
+  },
+  "review3_s_31_wordform5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. My sister's children are remarkably polite. They always ……….. politely. (BEHAVIOR)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form5": {
+        "en": "behave",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Behave' is the verb.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة 'BEHAVIOR' (سلوك) هي اسم. الفعل الذي يعني 'يتصرف' هو 'behave'."
+    }
+  },
+  "review3_s_32_wordform6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Who did you vote for in the last ……………….…. ? (ELECT)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form6": {
+        "en": "election",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Election' is the noun.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل هو 'elect' (ينتخب). الاسم الذي يعني 'انتخابات' هو 'election'."
+    }
+  },
+  "review3_s_33_wordform7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun-plural",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. …………………… mustn't waste work time chatting. (EMPLOY)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form7": {
+        "en": "Employees",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Employees' is the plural noun for people who are employed.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل هو 'employ' (يوظف). الشخص الذي يتم توظيفه هو 'employee'. وبما أن السياق يشير إلى جمع، فالكلمة هي 'employees' (الموظفون)."
+    }
+  },
+  "review3_s_34_wordform8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun-plural",
+      "review3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in capitals.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. What are your classmates' ……………………………? (NATION)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "form8": {
+        "en": "nationalities",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Nationalities' is the plural noun.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة 'NATION' (أمة/دولة) هي اسم. الكلمة التي تعني 'جنسية' هي 'nationality'. وبما أن السؤال عن زملاء الفصل (جمع)، فالكلمة المطلوبة هي 'nationalities' (جنسيات)."
+    }
+  },
+  "review3_s_35_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "adjective",
+      "appearance",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. I was surprised to know that my little brother has more many friends than I really do. In fact, he has got a (round, wide) face.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "round",
+        "ar": ""
+      },
+      {
+        "en": "wide",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "round",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Round face' is a common description.",
+      "ar": "صحيح! 'وجه مستدير' هو وصف شائع."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لوصف شكل الوجه، نستخدم عادةً 'round' (مستدير) أو 'oval' (بيضاوي) أو 'square' (مربع). 'Wide' (عريض) أقل شيوعًا لوصف الوجه ككل."
+    }
+  },
+  "review3_s_36_mcq2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "idiom",
+      "friendship",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Let me introduce you to Mr. Karam, my father's best friend. We (broke bread with each other, gave each other a pumpkin) many years ago.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "broke bread with each other",
+        "ar": ""
+      },
+      {
+        "en": "gave each other a pumpkin",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "broke bread with each other",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To break bread' with someone means to share a meal, often implying friendship or peace.",
+      "ar": "صحيح! 'تقاسم الخبز' مع شخص ما يعني مشاركة وجبة، وغالبًا ما يعني الصداقة أو السلام."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح 'broke bread with each other' يعني تشاركوا الطعام معًا، وهو تعبير يدل على الصداقة أو العلاقة الطيبة. الخيار الثاني لا معنى له في هذا السياق."
+    }
+  },
+  "review3_s_37_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "transport",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. I don't have any difficulty going to school. A bus (picks, looks) me up every day.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "picks",
+        "ar": ""
+      },
+      {
+        "en": "looks",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "picks",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Picks me up' means collects me.",
+      "ar": "صحيح! 'Picks me up' تعني يأخذني (بالسيارة أو الحافلة)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل المركب 'pick someone up' يعني أن يمر شخص لاصطحابك، عادةً بالسيارة أو الحافلة."
+    }
+  },
+  "review3_s_38_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "clothing",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Moscow is too cold especially in winter. You will need to (put on, put off) a heavy coat there.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "put on",
+        "ar": ""
+      },
+      {
+        "en": "put off",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "put on",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Put on' means to dress in clothing.",
+      "ar": "صحيح! 'Put on' تعني ارتداء ملابس."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'Put on' تعني ارتداء (ملابس). 'Put off' تعني تأجيل."
+    }
+  },
+  "review3_s_39_mcq5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "publishing",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. My neighbour is a great writer. His new book is about to (got in, get out) next month.", 
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "got in",
+        "ar": ""
+      },
+      {
+        "en": "get out",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "get out",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Get out' (or 'come out') can mean to be published or released.",
+      "ar": "صحيح! 'Get out' (أو 'come out') يمكن أن تعني أن يُنشر أو يُصدر."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن نشر كتاب أو صدوره، نستخدم الفعل المركب 'get out' أو 'come out'. 'Got in' تعني دخل."
+    }
+  },
+  "review3_s_40_mcq6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "clothing",
+      "grammar",
+      "object-pronoun",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Your jacket is wet. (Take it off, Take off it) and get a dry one.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Take it off",
+        "ar": ""
+      },
+      {
+        "en": "Take off it",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Take it off",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! With separable phrasal verbs, if the object is a pronoun, it must come between the verb and the particle.",
+      "ar": "صحيح! مع الأفعال المركبة القابلة للفصل، إذا كان المفعول به ضميرًا، فيجب أن يأتي بين الفعل والحرف الجر/الظرف."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل المركب 'take off' (يخلع) هو فعل قابل للفصل. عندما يكون المفعول به ضميرًا (مثل 'it')، يجب أن يوضع الضمير بين جزأي الفعل المركب: 'Take it off'."
+    }
+  },
+  "review3_s_41_mcq7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "preposition",
+      "skill",
+      "good-at",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. Suzan must be good (with, at) French. She got a full mark in the exam.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "with",
+        "ar": ""
+      },
+      {
+        "en": "at",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "at",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The expression is 'good at' something.",
+      "ar": "صحيح! التعبير هو 'good at' شيء ما."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن المهارة أو الجودة في شيء ما، نستخدم حرف الجر 'at' مع الصفة 'good': 'good at'."
+    }
+  },
+  "review3_s_42_mcq8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "preposition",
+      "fear",
+      "afraid-of",
+      "review3",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. Fadi has never learnt to swim because he's afraid (about, of) water.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "about",
+        "ar": ""
+      },
+      {
+        "en": "of",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "of",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The expression is 'afraid of' something.",
+      "ar": "صحيح! التعبير هو 'afraid of' شيء ما."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الخوف من شيء ما، نستخدم حرف الجر 'of' مع الصفة 'afraid': 'afraid of'."
+    }
+  }
+}

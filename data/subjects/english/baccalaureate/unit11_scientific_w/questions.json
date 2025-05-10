@@ -1,0 +1,1126 @@
+{
+  "unit11_w_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "synonym",
+      "technical",
+      "science",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the bold word with a suitable one from: [insert, utilise, combine, analyse, conclude, install the software, rotate]",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "1. The wheel began to **turn** <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder='...'> very quickly.",
+      "ar": "علمي"
+    },
+    "correctAnswers": {
+      "verb1": {
+        "en": "rotate",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة من الصندوق التي تعني 'turn' (يدور) هي 'rotate'."
+    }
+  },
+  "unit11_w_2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "synonym",
+      "technical",
+      "computer",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the bold words with suitable ones from: [insert, utilise, combine, analyse, conclude, install the software, rotate]",
+      "ar": "علمي"
+    },
+    "questionText": { 
+      "en": "2. **Put in** <input type='text' class='fill-blank-input' data-blank-id='verb2a' placeholder='...'> the disk to **get the software ready** <input type='text' class='fill-blank-input' data-blank-id='verb2b' placeholder='...'> to work.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb2a": {
+        "en": "insert",
+        "ar": ""
+      },
+      "verb2b": {
+        "en": "install the software",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'Put in' (يُدخل) يمكن استبدالها بـ 'insert'. و 'get the software ready' (تجهيز البرنامج) يمكن استبدالها بـ 'install the software'."
+    }
+  },
+  "unit11_w_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "synonym",
+      "technical",
+      "chemistry",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the bold word with a suitable one from: [insert, utilise, combine, analyse, conclude, install the software, rotate]",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "3. We can put these chemicals **together** <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb3": {
+        "en": "combine",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة من الصندوق التي تعني 'put together' (يجمع أو يدمج) هي 'combine'."
+    }
+  },
+  "unit11_w_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "synonym",
+      "technical",
+      "materials",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the bold word with a suitable one from: [insert, utilise, combine, analyse, conclude, install the software, rotate]",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "4. You should **use** <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder='...'> the strongest material.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb4": {
+        "en": "utilise",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة من الصندوق التي تعني 'use' (يستخدم أو يستغل) هي 'utilise'."
+    }
+  },
+  "unit11_w_5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "synonym",
+      "technical",
+      "problem-solving",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the bold words with suitable ones from: [insert, utilise, combine, analyse, conclude, install the software, rotate]",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "5. We **looked into** <input type='text' class='fill-blank-input' data-blank-id='verb5a' placeholder='...'> the problem and **decided** <input type='text' class='fill-blank-input' data-blank-id='verb5b' placeholder='...'> that it was a computer virus.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb5a": {
+        "en": "analyse",
+        "ar": ""
+      }, 
+      "verb5b": {
+        "en": "conclude",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'Looked into' (تفحص أو درس) يمكن استبدالها بـ 'analyse'. و 'decided' (استنتج أو قرر بناءً على تحليل) يمكن استبدالها بـ 'conclude'."
+    }
+  },
+  "unit11_w_6_form1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb",
+      "science",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Make other parts of speech from the word in brackets.",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "1. The amount of stress people suffer can <input type='text' class='fill-blank-input' data-blank-id='form1' placeholder='(effect)'> their life.",
+      "ar": "علمي"
+    },
+    "correctAnswers": {
+      "form1": {
+        "en": "affect",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Affect' is the verb form.",
+      "ar": "صحيح! 'Affect' هي صيغة الفعل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'effect' عادة ما تكون اسمًا (تأثير). الفعل الذي يعني 'يؤثر على' هو 'affect'."
+    }
+  },
+  "unit11_w_7_form2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "adjective",
+      "science",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Make other parts of speech from the word in brackets.",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "2. He felt too <input type='text' class='fill-blank-input' data-blank-id='form2' placeholder='(anxiety)'> when he heard that his father had been involved in a car accident.",
+      "ar": "علمي"
+    },
+    "correctAnswers": {
+      "form2": {
+        "en": "anxious",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Anxious' is the adjective form.",
+      "ar": "صحيح! 'Anxious' هي صيغة الصفة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'anxiety' هو الاسم (قلق). الصفة التي تصف الشعور بالقلق هي 'anxious'."
+    }
+  },
+  "unit11_w_8_form3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "noun",
+      "science",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Make other parts of speech from the word in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Tom was nearly out of <input type='text' class='fill-blank-input' data-blank-id='form3' placeholder='(breathe)'> when he reached that high point.",
+      "ar": "علمي"
+    },
+    "correctAnswers": {
+      "form3": {
+        "en": "breath",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Breath' is the noun.",
+      "ar": "صحيح! 'Breath' هو الاسم."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'breathe' هو الفعل (يتنفس). الاسم الذي يعني 'نَفَس' هو 'breath'."
+    }
+  },
+  "unit11_w_9_form4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb",
+      "science",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Make other parts of speech from the word in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Hama, being an ancient city, <input type='text' class='fill-blank-input' data-blank-id='form4' placeholder='(combination)'> the past and the present everywhere you walk there.",
+      "ar": "علمي"
+    },
+    "correctAnswers": {
+      "form4": {
+        "en": "combines",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Combines' is the verb form, third person singular.",
+      "ar": "صحيح! 'Combines' هي صيغة الفعل، في صيغة الغائب المفرد."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'combination' هو الاسم (مزيج). الفعل الذي يعني 'يجمع بين' هو 'combine'. وبما أن الفاعل 'Hama' مفرد، يجب إضافة 's' للفعل."
+    }
+  },
+  "unit11_w_10_form5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "adjective",
+      "science",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Make other parts of speech from the word in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. I was <input type='text' class='fill-blank-input' data-blank-id='form5' placeholder='(absence)'> from school last month due to the fact that I had a broken leg.",
+      "ar": "علمي"
+    },
+    "correctAnswers": {
+      "form5": {
+        "en": "absent",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Absent' is the adjective form.",
+      "ar": "صحيح! 'Absent' هي صيغة الصفة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. 'absence' هو الاسم (غياب). الصفة التي تصف حالة الغياب هي 'absent'."
+    }
+  },
+  "unit11_w_11_indirect1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "present-simple",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Maria: “The train arrives on time.”\nShe said <input type='text' class='fill-blank-input' data-blank-id='indirect1' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "indirect1": {
+        "en": "that the train arrived on time",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The tense shifts from Present Simple to Past Simple.",
+      "ar": "صحيح! يتم تحويل الزمن من المضارع البسيط إلى الماضي البسيط."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند تحويل الكلام المباشر إلى غير مباشر، عادة ما يتغير زمن الفعل خطوة إلى الوراء. المضارع البسيط 'arrives' يصبح ماضيًا بسيطًا 'arrived'. كلمة 'that' اختيارية."
+    }
+  },
+  "unit11_w_12_indirect2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "modal",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Tarek: “I have to finish this report by three o’clock.”\nHe said <input type='text' class='fill-blank-input' data-blank-id='indirect2' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "indirect2": {
+        "en": "that he had to finish that report by three o’clock",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'have to' changes to 'had to', and 'this' changes to 'that'.",
+      "ar": "صحيح! 'have to' تتغير إلى 'had to'، و 'this' تتغير إلى 'that'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل 'have to' يتغير إلى 'had to'. الضمير 'I' يتغير إلى 'he'. كلمة الإشارة 'this' تتغير إلى 'that'. كلمة 'that' الرابطة اختيارية."
+    }
+  },
+  "unit11_w_13_indirect3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "future-will",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The doctor: “The boy will improve quickly.”\nThe doctor said <input type='text' class='fill-blank-input' data-blank-id='indirect3' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "indirect3": {
+        "en": "that the boy would improve quickly",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' changes to 'would'.",
+      "ar": "صحيح! 'will' تتغير إلى 'would'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل المساعد 'will' يتغير إلى 'would' في الكلام غير المباشر. كلمة 'that' الرابطة اختيارية."
+    }
+  },
+  "unit11_w_14_indirect4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "present-continuous",
+      "time-expression",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. William: “I am leaving later today.”\nWilliam said <input type='text' class='fill-blank-input' data-blank-id='indirect4' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "indirect4": {
+        "en": "that he was leaving later that day",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'am leaving' changes to 'was leaving', and 'today' changes to 'that day'.",
+      "ar": "صحيح! 'am leaving' تتغير إلى 'was leaving'، و 'today' تتغير إلى 'that day'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المضارع المستمر 'am leaving' يصبح ماضيًا مستمرًا 'was leaving'. الضمير 'I' يتغير إلى 'he'. الظرف الزمني 'today' يتغير إلى 'that day'. كلمة 'that' الرابطة اختيارية."
+    }
+  },
+  "unit11_w_15_indirect5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "past-simple",
+      "time-expression",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Joly: “I saw that movie last night.”\nJoly said <input type='text' class='fill-blank-input' data-blank-id='indirect5' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "indirect5": {
+        "en": [
+          "that she saw that movie the night before",
+          "that she had seen that movie the night before"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Past Simple 'saw' can remain Past Simple or change to Past Perfect 'had seen'. 'last night' changes to 'the night before'.",
+      "ar": "صحيح! الماضي البسيط 'saw' يمكن أن يبقى ماضيًا بسيطًا أو يتغير إلى ماضي تام 'had seen'. و 'last night' تتغير إلى 'the night before'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الماضي البسيط 'saw' يمكن أن يبقى كما هو أو يتغير إلى الماضي التام 'had seen'. الضمير 'I' يتغير إلى 'she'. الظرف الزمني 'last night' يتغير إلى 'the night before' أو 'the previous night'. كلمة 'that' الرابطة اختيارية."
+    }
+  },
+  "unit11_w_16_indirect6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "present-perfect",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Helen: “I have read that book.”\nHelen said <input type='text' class='fill-blank-input' data-blank-id='indirect6' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "indirect6": {
+        "en": "that she had read that book",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Perfect 'have read' changes to Past Perfect 'had read'.",
+      "ar": "صحيح! المضارع التام 'have read' يتغير إلى الماضي التام 'had read'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المضارع التام 'have read' يتغير إلى الماضي التام 'had read'. الضمير 'I' يتغير إلى 'she'. كلمة 'that' الرابطة اختيارية."
+    }
+  },
+  "unit11_w_17_indirect7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-speech",
+      "statement",
+      "modal-can",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the sentence from DIRECT to INDIRECT SPEECH.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. Mary: “I cannot go to the movie with you.”\nMary said <input type='text' class='fill-blank-input' data-blank-id='indirect7' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "indirect7": {
+        "en": "that she could not go to the movie with me",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'cannot' changes to 'could not', and 'you' changes to 'me' (assuming context).",
+      "ar": "صحيح! 'cannot' تتغير إلى 'could not'، و 'you' تتغير إلى 'me' (بافتراض السياق)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفعل المساعد 'cannot' يتغير إلى 'could not'. الضمير 'I' يتغير إلى 'she'. الضمير 'you' سيتغير حسب من يتم إخباره (غالبًا 'me' أو 'him'/'her'). كلمة 'that' الرابطة اختيارية."
+    }
+  },
+  "unit11_w_18_interview1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "wh-question",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. “Why do you want the job?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview1' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview1": {
+        "en": "why he wanted the job",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. في الأسئلة غير المباشرة التي تبدأ بكلمة استفهام (مثل 'Why')، نحافظ على كلمة الاستفهام ونحول الجملة إلى ترتيب جملة خبرية (فاعل ثم فعل). زمن الفعل يتغير خطوة للوراء (المضارع البسيط 'do want' يصبح ماضيًا بسيطًا 'wanted')."
+    }
+  },
+  "unit11_w_19_interview2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "wh-question",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. “How did you hear about it?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview2' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview2": {
+        "en": "how he had heard about it",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نحافظ على كلمة الاستفهام 'How'. زمن الفعل يتغير من الماضي البسيط ('did hear') إلى الماضي التام ('had heard'). ترتيب الجملة يصبح خبريًا."
+    }
+  },
+  "unit11_w_20_interview3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "yes-no-question",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. “ Have you got any experience before?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview3' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview3": {
+        "en": "if he had got any experience before",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا سؤال بنعم/لا، لذا نستخدم 'if' أو 'whether'. زمن الفعل يتغير من المضارع التام ('have got') إلى الماضي التام ('had got'). ترتيب الجملة يصبح خبريًا."
+    }
+  },
+  "unit11_w_21_interview4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "yes-no-question",
+      "modal-can",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. “Can you work seven days a week?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview4' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview4": {
+        "en": "if he could work seven days a week",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا سؤال بنعم/لا، نستخدم 'if' أو 'whether'. الفعل المساعد 'Can' يتغير إلى 'could'. ترتيب الجملة يصبح خبريًا."
+    }
+  },
+  "unit11_w_22_interview5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "wh-question",
+      "future-will",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. “How will you travel to work?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview5' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview5": {
+        "en": "how he would travel to work",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نحافظ على كلمة الاستفهام 'How'. الفعل المساعد 'will' يتغير إلى 'would'. ترتيب الجملة يصبح خبريًا."
+    }
+  },
+  "unit11_w_23_interview6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "yes-no-question",
+      "or-question",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. “ Do you have a car or do you prefer walking?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview6' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+     
+      "interview6": {
+        "en": "if he had a car or preferred walking",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا سؤال اختيار، وغالبًا ما نستخدم 'if' أو 'whether'. زمن الأفعال يتغير للماضي ('had', 'preferred'). يمكن تكرار 'if' أو 'whether' قبل الخيار الثاني أو حذفه."
+    }
+  },
+  "unit11_w_24_interview7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "wh-question",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. “How much do you expect to earn?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview7' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview7": {
+        "en": "how much he expected to earn",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نحافظ على عبارة الاستفهام 'How much'. زمن الفعل يتغير من المضارع البسيط ('do expect') إلى الماضي البسيط ('expected'). ترتيب الجملة يصبح خبريًا."
+    }
+  },
+  "unit11_w_25_interview8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "wh-question",
+      "modal-can",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the job interview question into indirect speech.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. “When can you start?”\nShe asked him <input type='text' class='fill-blank-input' data-blank-id='interview8' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "interview8": {
+        "en": "when he could start",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. نحافظ على كلمة الاستفهام 'When'. الفعل المساعد 'can' يتغير إلى 'could'. ترتيب الجملة يصبح خبريًا."
+    }
+  },
+  "unit11_a_1_matching": {  
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "literature",
+      "literary-terms",
+      "unit11",
+      "adabi",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the following words with their definitions.",
+      "ar": "ادبي"
+    },
+    "questionText": {
+      "en": "Match the words to their definitions:",
+      "ar": "ادبي"
+    },
+    "draggableItems": [
+      {
+        "id": "lit_prose",
+        "text": {
+          "en": "1. prose",
+          "ar": ""
+        }
+      },
+      {
+        "id": "lit_satire",
+        "text": {
+          "en": "2. satire",
+          "ar": ""
+        }
+      },
+      {
+        "id": "lit_metaph",
+        "text": {
+          "en": "3. metaphor",
+          "ar": ""
+        }
+      },
+      {
+        "id": "lit_plot",
+        "text": {
+          "en": "4. plot",
+          "ar": ""
+        }
+      },
+      {
+        "id": "lit_climax",
+        "text": {
+          "en": "5. climax",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "def_lit_e",
+        "label": {
+          "en": "a. writing that is not poetry",
+          "ar": ""
+        },
+        "accepts": "lit_prose"
+      },
+      {
+        "id": "def_lit_a",
+        "label": {
+          "en": "b. a way of criticizing a person or an idea",
+          "ar": ""
+        },
+        "accepts": "lit_satire"
+      },
+      {
+        "id": "def_lit_d",
+        "label": {
+          "en": "c. using of a word or phrase not as used normally",
+          "ar": ""
+        },
+        "accepts": "lit_metaph"
+      },
+      {
+        "id": "def_lit_b",
+        "label": {
+          "en": "d. the series of events that form a story",
+          "ar": ""
+        },
+        "accepts": "lit_plot"
+      },
+      {
+        "id": "def_lit_c",
+        "label": {
+          "en": "e. the most exciting or important event or point in time",
+          "ar": ""
+        },
+        "accepts": "lit_climax"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! You know your literary terms.",
+      "ar": "ممتاز! أنت تعرف مصطلحاتك الأدبية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع تعريفات المصطلحات الأدبية: 'prose' هو النثر، 'satire' هو الهجاء، 'metaphor' هو الاستعارة، 'plot' هي الحبكة، و 'climax' هي الذروة."  
+    }
+  },
+  "unit11_a_2_dialogue": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "dialogue",
+      "conversation",
+      "social-language",
+      "unit11",
+      "adabi",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Fill in the gaps (1-8) with sentences (a-h).",
+      "ar": ""
+    },
+    "questionText": {
+     
+      "en": "1. A: Do my legs look fat in these?\nB: I think a looser pair would suit you better. (Example Given)\n\n2. Honestly, what did you think of my speech?\nVery funny! <dropzone for='item_c' id='gap2'></dropzone>\n\n3. What did you think of that article I sent you?\n<dropzone for='item_e' id='gap3'></dropzone>\n\n4. What do you think of my new mobile?\n<dropzone for='item_a' id='gap4'></dropzone>\n\n5. Do you think the music is too loud?\n<dropzone for='item_b' id='gap5'></dropzone>\n\n6. Do you fancy going out for a dinner later?\nSorry. <dropzone for='item_g' id='gap6'></dropzone>\n\n7. What did you think of their new kitchen?\n<dropzone for='item_d' id='gap7'></dropzone>\n\n8. Did you manage to read my report? Sorry it was quite short.\nYes, <dropzone for='item_f' id='gap8'></dropzone>",
+      "ar": ""
+    },
+    "draggableItems": [
+      
+      {
+        "id": "item_a",
+        "text": {
+          "en": "a. I’ve seen better designs.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_b",
+        "text": {
+          "en": "b. It could do with being a bit louder.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_c",
+        "text": {
+          "en": "c. It was sort of interesting at times.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_d",
+        "text": {
+          "en": "d. I’d turn it down if I were you.",
+          "ar": ""
+        }
+      },  
+      {
+        "id": "item_e",
+        "text": {
+          "en": "e. Frankly, it could have been a bit more detailed.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_f",
+        "text": {
+          "en": "f. It wasn’t on the short side.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_g",
+        "text": {
+          "en": "g. I was planning to get an early night.",
+          "ar": ""
+        }
+      }
+       
+    ],
+    "dropZones": [
+       
+      {
+        "id": "gap2_zone",
+        "label": {
+          "en": "Gap 2",
+          "ar": ""
+        },
+        "accepts": "item_c"
+      }, 
+      {
+        "id": "gap3_zone",
+        "label": {
+          "en": "Gap 3",
+          "ar": ""
+        },
+        "accepts": "item_e"
+      },  
+      {
+        "id": "gap4_zone",
+        "label": {
+          "en": "Gap 4",
+          "ar": ""
+        },
+        "accepts": "item_a"
+      }, 
+      {
+        "id": "gap5_zone",
+        "label": {
+          "en": "Gap 5",
+          "ar": ""
+        },
+        "accepts": "item_b"
+      }, 
+      {
+        "id": "gap6_zone",
+        "label": {
+          "en": "Gap 6",
+          "ar": ""
+        },
+        "accepts": "item_g"
+      },  
+      {
+        "id": "gap7_zone",
+        "label": {
+          "en": "Gap 7",
+          "ar": ""
+        },
+        "accepts": "item_d"
+      },  
+      {
+        "id": "gap8_zone",
+        "label": {
+          "en": "Gap 8",
+          "ar": ""
+        },
+        "accepts": "item_f"
+      }  
+    ],
+    "feedbackCorrect": {
+      "en": "Great job completing the dialogues!",
+      "ar": "عمل رائع في إكمال الحوارات!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. فكر في سياق كل حوار صغير وما هي الجملة الأنسب من القائمة (a-h) لإكمال الرد. على سبيل المثال، عندما يسأل شخص عن رأيك في خطاب، قد ترد بأنه كان 'مثيراً للاهتمام نوعًا ما في بعض الأحيان'." 
+    }
+  }
+}

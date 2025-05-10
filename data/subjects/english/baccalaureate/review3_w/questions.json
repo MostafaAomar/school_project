@@ -1,0 +1,755 @@
+{
+  "review_w_1_permission1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "permission",
+      "can",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets and a phrase from the box [use your photocopier, use your dictionary, close the window, borrow your pen, turn on the TV] to ask for permission.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Situation: You want to write down a telephone number. (can I)\n<input type='text' class='fill-blank-input' data-blank-id='perm1' placeholder='Ask for permission...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "perm1": {
+        "en": "Can I borrow your pen",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لطلب الإذن باستخدام قلم لكتابة رقم هاتف، يمكنك القول: 'Can I borrow your pen?'."
+    }
+  },
+  "review_w_2_permission2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "permission",
+      "may",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets and a phrase from the box [use your photocopier, use your dictionary, close the window, borrow your pen, turn on the TV] to ask for permission.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Situation: You’re feeling cold. (may I)\n<input type='text' class='fill-blank-input' data-blank-id='perm2' placeholder='Ask for permission...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "perm2": {
+        "en": "May I close the window",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لطلب الإذن بإغلاق النافذة لأنك تشعر بالبرد، يمكنك القول: 'May I close the window?'."
+    }
+  },
+  "review_w_3_permission3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "permission",
+      "may-please",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets and a phrase from the box [use your photocopier, use your dictionary, close the window, borrow your pen, turn on the TV] to ask for permission.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Situation: You need a photocopy of a letter. (may I … please)\n<input type='text' class='fill-blank-input' data-blank-id='perm3' placeholder='Ask for permission...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "perm3": {
+        "en": "May I use your photocopier, please",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لطلب الإذن باستخدام آلة التصوير بشكل مهذب، يمكنك القول: 'May I use your photocopier, please?'."
+    }
+  },
+  "review_w_4_permission4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "permission",
+      "may",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets and a phrase from the box [use your photocopier, use your dictionary, close the window, borrow your pen, turn on the TV] to ask for permission.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Situation: You want to watch a documentary. (may I)\n<input type='text' class='fill-blank-input' data-blank-id='perm4' placeholder='Ask for permission...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "perm4": {
+        "en": "May I turn on the TV",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لطلب الإذن بتشغيل التلفزيون لمشاهدة برنامج وثائقي، يمكنك القول: 'May I turn on the TV?'."
+    }
+  },
+  "review_w_5_permission5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "modal-verb",
+      "permission",
+      "may",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets and a phrase from the box [use your photocopier, use your dictionary, close the window, borrow your pen, turn on the TV] to ask for permission.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Situation: You want to find the meaning of a word. (may I)\n<input type='text' class='fill-blank-input' data-blank-id='perm5' placeholder='Ask for permission...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "perm5": {
+        "en": "May I use your dictionary",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لطلب الإذن باستخدام القاموس لمعرفة معنى كلمة، يمكنك القول: 'May I use your dictionary?'."
+    }
+  },
+  "review_w_6_combine1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "either-or",
+      "sentence-combining",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine these sentences with the word in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. She is at the office. She is at the airport. (either … or)\n<input type='text' class='fill-blank-input' data-blank-id='comb1' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comb1": {
+        "en": "She is either at the office or at the airport.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند الربط بـ 'either ... or'، نضع 'either' قبل الخيار الأول و 'or' قبل الخيار الثاني. الفاعل والفعل المشترك يأتيان في البداية."
+    }
+  },
+  "review_w_7_combine2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "not-only-but-also",
+      "sentence-combining",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine these sentences with the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. The film was funny. It was exciting. (not only … but also)\n<input type='text' class='fill-blank-input' data-blank-id='comb2' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comb2": {
+        "en": "The film was not only funny but also exciting.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند الربط بـ 'not only ... but also'، نضع 'not only' بعد الفعل المساعد أو فعل الكينونة وقبل الصفة/الفعل الأول، ثم 'but also' قبل الصفة/الفعل الثاني."
+    }
+  },
+  "review_w_8_combine3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "neither-nor",
+      "sentence-combining",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine these sentences with the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The English team didn’t play well. The Scottish team didn’t play well. (neither … nor)\n<input type='text' class='fill-blank-input' data-blank-id='comb3' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comb3": {
+        "en": "Neither the English team nor the Scottish team played well.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند الربط بـ 'neither ... nor' للفاعلين المختلفين، نضع 'neither' قبل الفاعل الأول و 'nor' قبل الفاعل الثاني، ويتبع الفعل الفاعل الثاني (في هذه الحالة، الفعل 'played' يبقى كما هو لأن النفي مدمج في 'neither' و 'nor')."
+    }
+  },
+  "review_w_9_combine4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "both-and",
+      "sentence-combining",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Combine these sentences with the words in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. July bought a dress. She bought a jumper. (both … and)\n<input type='text' class='fill-blank-input' data-blank-id='comb4' placeholder='Combined sentence...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comb4": {
+        "en": "July bought both a dress and a jumper.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عند الربط بـ 'both ... and'، نضع 'both' قبل المفعول به الأول و 'and' قبل المفعول به الثاني. الفاعل والفعل المشترك يأتيان في البداية."
+    }
+  },
+  "review_w_10_report1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "statement",
+      "past-simple",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report this conversation. Start with 'He asked...' or 'I said...'",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Ahmad: I arrived yesterday.\nI said <input type='text' class='fill-blank-input' data-blank-id='rep1' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "rep1": {
+        "en": [
+          "that I arrived the day before",
+          "that I had arrived the day before"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. زمن الفعل 'arrived' (ماضي بسيط) يمكن أن يبقى كما هو أو يتغير إلى الماضي التام 'had arrived'. الظرف الزمني 'yesterday' يتغير إلى 'the day before' أو 'the previous day'."
+    }
+  },
+  "review_w_11_report2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "wh-question",
+      "future-going-to",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report this conversation. Start with 'He asked...' or 'I said...'",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. John: How long are you going to stay?\nHe asked me <input type='text' class='fill-blank-input' data-blank-id='rep2' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rep2": {
+        "en": "how long I was going to stay",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. كلمة الاستفهام 'How long' تبقى. زمن الفعل 'are going to stay' (مستقبل بـ going to) يتغير إلى 'was/were going to stay'. الضمير 'you' يتغير إلى 'I'."
+    }
+  },
+  "review_w_12_report3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "statement",
+      "future-going-to",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report this conversation. Start with 'He asked...' or 'I said...'",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Ahmad: I’m going to stay for 3 weeks.\nI said <input type='text' class='fill-blank-input' data-blank-id='rep3' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rep3": {
+        "en": "that I was going to stay for 3 weeks",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. زمن الفعل 'am going to stay' يتغير إلى 'was going to stay'."
+    }
+  },
+  "review_w_13_report4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "yes-no-question",
+      "present-perfect",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Report this conversation. Start with 'He asked...' or 'I said...'",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. John: Have you been to London before?\nHe asked me <input type='text' class='fill-blank-input' data-blank-id='rep4' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rep4": {
+        "en": "if I had been to London before",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا سؤال بنعم/لا، لذا نستخدم 'if' أو 'whether'. زمن الفعل 'Have been' (مضارع تام) يتغير إلى 'had been' (ماضي تام). الضمير 'you' يتغير إلى 'I'."
+    }
+  },
+  "review_w_14_rewrite1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "only-when",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Rewrite the sentence by putting the words in italics at the beginning and making necessary changes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. It was *only when* we arrived in India that we saw elephants and tigers.\n<input type='text' class='fill-blank-input' data-blank-id='rew1' placeholder='Rewrite with inversion...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rew1": {
+        "en": "Only when we arrived in India did we see elephants and tigers.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Only when...'، يجب استخدام القلب في الجملة الرئيسية. الفعل 'saw' (ماضي بسيط) يتطلب الفعل المساعد 'did' قبل الفاعل."
+    }
+  },
+  "review_w_15_rewrite2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "hardly-when",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Rewrite the sentence by putting the words in italics at the beginning and making necessary changes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. I’d *hardly* unpacked in my hotel room when my phone rang.\n<input type='text' class='fill-blank-input' data-blank-id='rew2' placeholder='Rewrite with inversion...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rew2": {
+        "en": "Hardly had I unpacked in my hotel room when my phone rang.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Hardly'، يجب استخدام القلب مع الماضي التام: Hardly + had + subject + past participle ... when..."
+    }
+  },
+  "review_w_16_rewrite3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "inversion",
+      "seldom",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Rewrite the sentence by putting the words in italics at the beginning and making necessary changes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The reserve guards *seldom* catch illegal hunters.\n<input type='text' class='fill-blank-input' data-blank-id='rew3' placeholder='Rewrite with inversion...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rew3": {
+        "en": "Seldom do the reserve guards catch illegal hunters.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Seldom'، يجب استخدام القلب. بما أن الفعل 'catch' في المضارع البسيط، نستخدم الفعل المساعد 'do' (أو 'does' إذا كان الفاعل مفردًا)."
+    }
+  },
+  "review_w_17_rewrite4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "inversion",
+      "never",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Rewrite the sentence by putting the words in italics at the beginning and making necessary changes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. I have *never* seen such a wonderful waterfall before.\n<input type='text' class='fill-blank-input' data-blank-id='rew4' placeholder='Rewrite with inversion...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rew4": {
+        "en": "Never have I seen such a wonderful waterfall before.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Never'، يجب استخدام القلب: Never + فعل مساعد ('have') + فاعل ('I') + تصريف ثالث ('seen')."
+    }
+  },
+  "review_w_18_rewrite5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "no-longer",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Rewrite the sentence by putting the words in italics at the beginning and making necessary changes.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. There are *no longer* any tigers in the northern region.\n<input type='text' class='fill-blank-input' data-blank-id='rew5' placeholder='Rewrite with inversion...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rew5": {
+        "en": "No longer are there any tigers in the northern region.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'No longer'، يجب استخدام القلب: No longer + فعل مساعد ('are' في هذه الحالة) + الفاعل ('there' يعمل كفاعل شكلي هنا) + بقية الجملة."
+    }
+  },
+  "review_w_19_response1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "functional-language",
+      "accepting-offer",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write a response to express the situation.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Your friend’s family is going on holiday next week. Your friend has invited you to join them. (Accept the offer)\n<input type='text' class='fill-blank-input' data-blank-id='resp1' placeholder='Your response...'>",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "resp1": {
+        "en": [
+          "That sounds fantastic! I'd love to join.",
+          "Yes, please! Thank you so much for inviting me."
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Good response for accepting!",
+      "ar": "رد جيد للقبول!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "عند قبول دعوة، يمكنك استخدام عبارات مثل '!That sounds great' أو '!I'd love to' أو 'Yes, thank you'."
+    }
+  },
+  "review_w_20_response2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "functional-language",
+      "expressing-surprise",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write a response to express the situation.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Your father tells you that you have passed the driving test. (Express your surprise)\n<input type='text' class='fill-blank-input' data-blank-id='resp2' placeholder='Your response...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "resp2": {
+        "en": [
+          "Really? I can't believe it!",
+          "Wow! That's amazing news!",
+          "Are you serious? I passed?"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Good expression of surprise!",
+      "ar": "تعبير جيد عن الدهشة!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "للتعبير عن الدهشة، يمكنك استخدام عبارات مثل '!Really' أو '!Wow' أو '!I can't believe it' أو 'Are you serious?'."
+    }
+  },
+  "review_w_21_response3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "functional-language",
+      "apologising-tactfully",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write a response to express the situation.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. You are invited to attend a feast at your uncle’s house, but you are too busy. (Apologise tactfully)\n<input type='text' class='fill-blank-input' data-blank-id='resp3' placeholder='Your response...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "resp3": {
+        "en": [
+          "That's so kind of you, but I'm afraid I won't be able to make it as I'm really busy.",
+          "I'd love to, but unfortunately I have a prior commitment. Thank you for the invitation!"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "That's a polite way to decline!",
+      "ar": "هذه طريقة مهذبة للرفض!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "للاعتذار بلباقة، اشكر على الدعوة أولاً، ثم اذكر أنك مشغول أو لديك التزام آخر. يمكنك استخدام عبارات مثل 'I'm afraid I can't make it' أو 'Unfortunately, I'm busy'."
+    }
+  },
+  "review_w_22_response4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "functional-language",
+      "asking-permission",
+      "review",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write a response to express the situation.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. You want to leave work early because you are sick. (Ask for permission)\n<input type='text' class='fill-blank-input' data-blank-id='resp4' placeholder='Your response...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "resp4": {
+        "en": [
+          "May I leave work early today? I'm not feeling well.",
+          "Would it be possible for me to go home early? I'm feeling a bit sick."
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Good way to ask for permission!",
+      "ar": "طريقة جيدة لطلب الإذن!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "لطلب الإذن بالمغادرة مبكرًا بسبب المرض، يمكنك استخدام عبارات مثل '?May I leave early' أو '?Would it be alright if I went home' مع ذكر السبب."
+    }
+  }
+}

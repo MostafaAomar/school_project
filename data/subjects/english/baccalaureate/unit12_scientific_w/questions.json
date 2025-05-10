@@ -1,0 +1,1035 @@
+{
+  "unit12_w_1_phrasal_lit_idio1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "literal",
+      "idiomatic",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Decide which sentence uses the phrasal verb idiomatically (not its direct, physical meaning).",
+      "ar": "حدد أي جملة تستخدم الفعل المركب بشكل اصطلاحي (ليس بمعناه المادي المباشر)."
+    },
+    "questionText": {
+      "en": "Which sentence uses 'taken off' idiomatically?\n  a. The plane to Russia has just taken off.\n  b. Take that dish off the table. It’s going to fall.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Sentence a",
+        "ar": ""
+      },
+      {
+        "en": "Sentence b",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sentence a",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Taken off' for a plane means to begin flight (idiomatic). In 'b', it's literal (remove from).",
+      "ar": "صحيح! 'taken off' للطائرة تعني بدأت الطيران (اصطلاحي). في 'b'، المعنى حرفي (أزل من)."
+    },
+    "feedbackIncorrect": {
+      "en": "The idiomatic meaning is when the phrasal verb has a special meaning different from the individual words. 'Take off' for a plane is idiomatic. 'Take [something] off [a surface]' is literal.",
+      "ar": "المعنى الاصطلاحي هو عندما يكون للفعل المركب معنى خاص يختلف عن الكلمات الفردية. 'Take off' للطائرة هو اصطلاحي. 'Take [something] off [a surface]' هو حرفي."
+    }
+  },
+  "unit12_w_2_phrasal_lit_idio2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "literal",
+      "idiomatic",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Decide which sentence uses the phrasal verb idiomatically.",
+      "ar": "حدد أي جملة تستخدم الفعل المركب بشكل اصطلاحي."
+    },
+    "questionText": {
+      "en": "Which sentence uses 'picked up' idiomatically?\n  a. Can you pick up my wallet? It’s near under your chair.\n  b. My brother picked me up home while he was returning from work.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Sentence a",
+        "ar": ""
+      },
+      {
+        "en": "Sentence b",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sentence b",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Picked me up' (collect someone in a vehicle) is idiomatic. In 'a', it's literal (lift).",
+      "ar": "صحيح! 'picked me up' (أخذ شخصًا بالسيارة) هو اصطلاحي. في 'a'، المعنى حرفي (التقط)."
+    },
+    "feedbackIncorrect": {
+      "en": "'Pick up' meaning to lift something physically is literal. 'Pick someone up' meaning to collect them in a vehicle is idiomatic.",
+      "ar": "'Pick up' بمعنى رفع شيء ماديًا هو حرفي. 'Pick someone up' بمعنى أخذ شخص بالسيارة هو اصطلاحي."
+    }
+  },
+  "unit12_w_3_phrasal_lit_idio3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "literal",
+      "idiomatic",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Decide which sentence uses the phrasal verb idiomatically.",
+      "ar": "حدد أي جملة تستخدم الفعل المركب بشكل اصطلاحي."
+    },
+    "questionText": {
+      "en": "Which sentence uses 'looked up' idiomatically?\n  a. I looked up the term “Digital Literacy” in Oxford Dictionary.\n  b. We looked up the tree and there was a humming bird on the top branch.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Sentence a",
+        "ar": ""
+      },
+      {
+        "en": "Sentence b",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sentence a",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Looked up' (search for information) is idiomatic. In 'b', it's literal (gaze upwards).",
+      "ar": "صحيح! 'looked up' (بحث عن معلومة) هو اصطلاحي. في 'b'، المعنى حرفي (نظر إلى الأعلى)."
+    },
+    "feedbackIncorrect": {
+      "en": "'Look up' meaning to raise your eyes is literal. 'Look something up' meaning to search for information is idiomatic.",
+      "ar": "'Look up' بمعنى رفع عينيك هو حرفي. 'Look something up' بمعنى البحث عن معلومة هو اصطلاحي."
+    }
+  },
+  "unit12_w_4_phrasal_lit_idio4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "literal",
+      "idiomatic",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Decide which sentence uses the phrasal verb idiomatically.",
+      "ar": "حدد أي جملة تستخدم الفعل المركب بشكل اصطلاحي."
+    },
+    "questionText": {
+      "en": "Which sentence uses 'put on' idiomatically?\n  a. You should put on your waterproof coat as it is raining.\n  b. Eating too much chocolate leads to putting on a lot of weight.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Sentence a",
+        "ar": ""
+      },
+      {
+        "en": "Sentence b",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sentence b",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Putting on weight' (gain weight) is idiomatic. In 'a', it's literal (dress in).",
+      "ar": "صحيح! 'putting on weight' (زيادة الوزن) هو اصطلاحي. في 'a'، المعنى حرفي (ارتدى)."
+    },
+    "feedbackIncorrect": {
+      "en": "'Put on' clothing is literal. 'Put on weight' meaning to gain weight is idiomatic.",
+      "ar": "'Put on' ملابس هو حرفي. 'Put on weight' بمعنى زيادة الوزن هو اصطلاحي."
+    }
+  },
+  "unit12_w_5_phrasal_lit_idio5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "literal",
+      "idiomatic",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Decide which sentence uses the phrasal verb idiomatically.",
+      "ar": "حدد أي جملة تستخدم الفعل المركب بشكل اصطلاحي."
+    },
+    "questionText": {
+      "en": "Which sentence uses 'got out' idiomatically?\n  a. Would you mind getting my car out of the garage?\n  b. The author got his new novel out last month.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Sentence a",
+        "ar": ""
+      },
+      {
+        "en": "Sentence b",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sentence b",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Got his novel out' (published) is idiomatic. In 'a', it's literal (remove from).",
+      "ar": "صحيح! 'got his novel out' (نشر روايته) هو اصطلاحي. في 'a'، المعنى حرفي (أخرج من)."
+    },
+    "feedbackIncorrect": {
+      "en": "'Get something out' of a place is literal. 'Get something out' meaning to publish or produce it is idiomatic.",
+      "ar": "'Get something out' من مكان هو حرفي. 'Get something out' بمعنى نشره أو إنتاجه هو اصطلاحي."
+    }
+  },
+  "unit12_w_6_phrasal_replace1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "synonym",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Replace the verb in italics with a suitable phrasal verb.",
+      "ar": "استبدل الفعل المكتوب بخط مائل بفعل مركب مناسب."
+    },
+    "questionText": {
+      "en": "The new edition of the book will be *published* next month.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "gotten out",
+        "ar": ""
+      }, 
+      {
+        "en": "brought out",
+        "ar": ""
+      },
+      {
+        "en": "taken off",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "brought out",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Brought out' means to publish or produce something for sale.",
+      "ar": "صحيح! 'Brought out' تعني نشر أو إنتاج شيء للبيع."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider phrasal verbs that mean 'publish'. 'Brought out' or 'got out' are common.",
+      "ar": "فكر في الأفعال المركبة التي تعني 'ينشر'. 'Brought out' أو 'got out' شائعان."
+    }
+  },
+  "unit12_w_7_phrasal_replace2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "synonym",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Replace the verb in italics with a suitable phrasal verb.",
+      "ar": "استبدل الفعل المكتوب بخط مائل بفعل مركب مناسب."
+    },
+    "questionText": {
+      "en": "My father *deprived* me from going out because I *replied him angrily*.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "cut me off / came back at him",
+        "ar": ""
+      },
+      {
+        "en": "took me out / told him off",
+        "ar": ""
+      },
+      {
+        "en": "stopped me / shouted at him",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "cut me off / came back at him",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Cut me off' can mean to prevent someone from doing something, and 'came back at him' means replied angrily.",
+      "ar": "صحيح! 'Cut me off' يمكن أن تعني منع شخص من فعل شيء، و 'came back at him' تعني رد بغضب."
+    },
+    "feedbackIncorrect": {
+      "en": "For 'deprived', think of phrasal verbs meaning to prevent or stop. For 'replied angrily', 'came back at' is a good fit.",
+      "ar": "بالنسبة لـ 'deprived'، فكر في الأفعال المركبة التي تعني منع أو إيقاف. بالنسبة لـ 'replied angrily'، فإن 'came back at' مناسبة."
+    }
+  },
+  "unit12_w_8_phrasal_replace3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "synonym",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Replace the verb in italics with a suitable phrasal verb.",
+      "ar": "استبدل الفعل المكتوب بخط مائل بفعل مركب مناسب."
+    },
+    "questionText": {
+      "en": "My car broke down yesterday, so my friend *collected* me in his car to work.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "picked me up",
+        "ar": ""
+      },
+      {
+        "en": "got me out",
+        "ar": ""
+      },
+      {
+        "en": "took me off",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "picked me up",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Picked me up' means collected someone in a vehicle.",
+      "ar": "صحيح! 'Picked me up' تعني أخذ شخص ما بالسيارة."
+    },
+    "feedbackIncorrect": {
+      "en": "Which phrasal verb means to collect someone, usually in a car?",
+      "ar": "أي فعل مركب يعني أخذ شخص ما، عادة بالسيارة؟"
+    }
+  },
+  "unit12_w_9_phrasal_replace4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "synonym",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Replace the verb in italics with a suitable phrasal verb.",
+      "ar": "استبدل الفعل المكتوب بخط مائل بفعل مركب مناسب."
+    },
+    "questionText": {
+      "en": "My mother asked me to *tidy* my room and *lift* my clothes *up* from the floor.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "clear up / take up",
+        "ar": ""
+      },
+      {
+        "en": "sort out / get up",
+        "ar": ""
+      },
+      {
+        "en": "tidy up / pick up",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "tidy up / pick up",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Tidy up' means to make a place neat, and 'pick up' means to lift something.",
+      "ar": "صحيح! 'Tidy up' تعني ترتيب مكان ما، و 'pick up' تعني رفع شيء ما."
+    },
+    "feedbackIncorrect": {
+      "en": "For 'tidy', 'tidy up' is a common phrasal verb. For 'lift up', 'pick up' is suitable.",
+      "ar": "بالنسبة لـ 'tidy'، فإن 'tidy up' فعل مركب شائع. بالنسبة لـ 'lift up'، فإن 'pick up' مناسبة."
+    }
+  },
+  "unit12_w_10_phrasal_replace5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "synonym",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Replace the verb in italics with a suitable phrasal verb.",
+      "ar": "استبدل الفعل المكتوب بخط مائل بفعل مركب مناسب."
+    },
+    "questionText": {
+      "en": "The teacher asked us to *look for* the meaning of new words in the dictionary.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "find out",
+        "ar": ""
+      },
+      {
+        "en": "look up",
+        "ar": ""
+      },
+      {
+        "en": "search out",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "look up",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Look up' means to search for information in a reference book.",
+      "ar": "صحيح! 'Look up' تعني البحث عن معلومات في كتاب مرجعي."
+    },
+    "feedbackIncorrect": {
+      "en": "Which phrasal verb specifically means to search for information in a dictionary or similar resource?",
+      "ar": "أي فعل مركب يعني تحديدًا البحث عن معلومات في قاموس أو مصدر مشابه؟"
+    }
+  },
+  "unit12_w_11_grammar1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "negative-adverbial",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer to complete the sentence with correct inversion.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة بالقلب الصحيح."
+    },
+    "questionText": {
+      "en": "Rarely …………….. anyone using carriages nowadays.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "you see",
+        "ar": ""
+      },
+      {
+        "en": "will you see",
+        "ar": ""
+      },
+      {
+        "en": "you will see",
+        "ar": ""
+      },
+      {
+        "en": "you have seen",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "will you see",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Rarely' at the beginning of a sentence requires inversion of the auxiliary verb and subject.",
+      "ar": "صحيح! 'Rarely' في بداية الجملة تتطلب قلب الفعل المساعد والفاعل."
+    },
+    "feedbackIncorrect": {
+      "en": "When a sentence starts with 'Rarely', the auxiliary verb (like 'do', 'will', 'have') comes before the subject.",
+      "ar": "عندما تبدأ الجملة بـ 'Rarely'، يأتي الفعل المساعد (مثل 'do', 'will', 'have') قبل الفاعل."
+    }
+  },
+  "unit12_w_12_grammar2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "only-after",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer to complete the sentence with correct inversion.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة بالقلب الصحيح."
+    },
+    "questionText": {
+      "en": "Only after ………………, he travelled to London to study.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "he graduated",
+        "ar": ""
+      },
+      {
+        "en": "he had graduated",
+        "ar": ""
+      },  
+      {
+        "en": "did he graduate",
+        "ar": ""
+      }, 
+      {
+        "en": "he has graduated",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": { 
+      "en": "he had graduated",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Only after' introduces a clause, and the main clause that follows would typically be inverted if 'Only after...' starts the whole sentence. Here, we complete the subordinate clause.",
+      "ar": "صحيح! 'Only after' تقدم جملة ثانوية، والجملة الرئيسية التي تليها عادة ما تكون مقلوبة إذا بدأت الجملة بأكملها بـ 'Only after...'. هنا، نحن نكمل الجملة الثانوية."
+    },
+    "feedbackIncorrect": {
+      "en": "When 'Only after' begins a sentence, the inversion (auxiliary verb before subject) occurs in the *main clause*, not usually within the 'Only after' clause itself. The 'Only after' clause often uses Past Perfect if it refers to an action completed before the main clause action.",
+      "ar": "عندما تبدأ الجملة بـ 'Only after'، يحدث القلب (الفعل المساعد قبل الفاعل) في *الجملة الرئيسية*، وليس عادة داخل جملة 'Only after' نفسها. غالبًا ما تستخدم جملة 'Only after' الماضي التام إذا كانت تشير إلى فعل اكتمل قبل فعل الجملة الرئيسية."
+    }
+  },
+  "unit12_w_13_grammar3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer to complete the indirect question.",
+      "ar": "اختر الإجابة الصحيحة لإكمال السؤال غير المباشر."
+    },
+    "questionText": {
+      "en": "Have you any idea where ………………. Sami?",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "can I meet",
+        "ar": ""
+      },
+      {
+        "en": "I can meet",
+        "ar": ""
+      },
+      {
+        "en": "do I meet",
+        "ar": ""
+      },
+      {
+        "en": "have I met",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "I can meet",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In an indirect question, the word order is subject + verb, not inverted.",
+      "ar": "صحيح! في السؤال غير المباشر، يكون ترتيب الكلمات فاعل + فعل، وليس مقلوبًا."
+    },
+    "feedbackIncorrect": {
+      "en": "Indirect questions (embedded questions) use statement word order (subject before verb), not question word order.",
+      "ar": "الأسئلة غير المباشرة (الأسئلة المضمنة) تستخدم ترتيب كلمات الجملة الخبرية (الفاعل قبل الفعل)، وليس ترتيب كلمات السؤال."
+    }
+  },
+  "unit12_w_14_grammar4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "if-clause",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer to complete the indirect question.",
+      "ar": "اختر الإجابة الصحيحة لإكمال السؤال غير المباشر."
+    },
+    "questionText": {
+      "en": "My mother asked me if …………… my aunt.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "had I visited",
+        "ar": ""
+      },
+      {
+        "en": "I had visited",
+        "ar": ""
+      },
+      {
+        "en": "I will visit",
+        "ar": ""
+      },
+      {
+        "en": "will I visit",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "I had visited",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In an indirect yes/no question, 'if' (or 'whether') is used, followed by statement word order, and the tense often shifts back (e.g., Did you visit? -> if I had visited).",
+      "ar": "صحيح! في سؤال نعم/لا غير المباشر، تُستخدم 'if' (أو 'whether')، متبوعة بترتيب كلمات الجملة الخبرية، وغالبًا ما يتغير الزمن خطوة للوراء."
+    },
+    "feedbackIncorrect": {
+      "en": "For indirect yes/no questions, use 'if' or 'whether', then subject + verb. The tense usually backshifts.",
+      "ar": "للأسئلة غير المباشرة بنعم/لا، استخدم 'if' أو 'whether'، ثم فاعل + فعل. عادة ما يتغير الزمن خطوة للوراء."
+    }
+  },
+  "unit12_w_15_grammar5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "here-there",
+      "unit12",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct answer to complete the sentence with correct inversion.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة بالقلب الصحيح."
+    },
+    "questionText": {
+      "en": "There …………… to hold a meeting.",  
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "goes he",
+        "ar": ""
+      },
+      {
+        "en": "he goes",
+        "ar": ""
+      },
+      {
+        "en": "went he",
+        "ar": ""
+      },
+      {
+        "en": "he went",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "goes he",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! When sentences start with 'Here' or 'There' followed by a verb of movement or position, and the subject is a noun, the verb often comes before the subject. If the subject is a pronoun, it usually comes before the verb (e.g., There he goes). The question implies inversion focus.",
+      "ar": "صحيح! عندما تبدأ الجمل بـ 'Here' أو 'There' متبوعة بفعل حركة أو موضع، ويكون الفاعل اسمًا، غالبًا ما يأتي الفعل قبل الفاعل. إذا كان الفاعل ضميرًا، فإنه عادة ما يأتي قبل الفعل (مثلاً، 'There he goes'). السؤال يركز على القلب."
+    },
+    "feedbackIncorrect": {
+      "en": "With 'Here' or 'There' at the beginning of a sentence for emphasis with verbs of movement/position, if the subject is a noun, inversion (verb + subject) is common. If the subject is a pronoun, it's usually subject + verb (e.g., 'There he goes'). This question is a bit ambiguous but leans towards inversion.",
+      "ar": "مع 'Here' أو 'There' في بداية الجملة للتأكيد مع أفعال الحركة/الموضع، إذا كان الفاعل اسمًا، فإن القلب (فعل + فاعل) شائع. إذا كان الفاعل ضميرًا، فعادة ما يكون فاعل + فعل (مثلاً، 'There he goes'). هذا السؤال غامض بعض الشيء ولكنه يميل نحو القلب."
+    }
+  },
+  "unit12_w_16_inversion_fill1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "negative-adverbial",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets to complete the sentence with correct inversion. Put verbs in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. (Never/ I/ meet) <input type='text' class='fill-blank-input' data-blank-id='inv_fill1' placeholder='...'> such well-behaved children before. They are as good as gold.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv_fill1": {
+        "en": "Never have I met",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Never' + auxiliary 'have' + subject 'I' + past participle 'met'.",
+      "ar": "صحيح! 'Never' + الفعل المساعد 'have' + الفاعل 'I' + التصريف الثالث 'met'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'Never' في البداية، يجب استخدام القلب: Never + فعل مساعد + فاعل + فعل رئيسي. بما أن الجملة تشير إلى تجربة سابقة ('before')، استخدم المضارع التام."
+    }
+  },
+  "unit12_w_17_inversion_fill2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "no-sooner",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets to complete the sentence with correct inversion. Put verbs in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. (No sooner/ my brother/ sit down) <input type='text' class='fill-blank-input' data-blank-id='inv_fill2' placeholder='...'> to dinner than there was a knock on the door.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv_fill2": {
+        "en": "No sooner had my brother sat down",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'No sooner' + auxiliary 'had' + subject + past participle.",
+      "ar": "صحيح! 'No sooner' + الفعل المساعد 'had' + الفاعل + التصريف الثالث."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'No sooner' في البداية، يجب استخدام القلب مع الماضي التام: No sooner + had + subject + past participle ... than..."
+    }
+  },
+  "unit12_w_18_inversion_fill3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "inversion",
+      "seldom",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets to complete the sentence with correct inversion. Put verbs in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. (Seldom/ we/read) <input type='text' class='fill-blank-input' data-blank-id='inv_fill3' placeholder='...'> newspapers nowadays.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv_fill3": {
+        "en": "Seldom do we read",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Seldom' + auxiliary 'do' + subject + base verb.",
+      "ar": "صحيح! 'Seldom' + الفعل المساعد 'do' + الفاعل + الفعل الأساسي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. مع 'Seldom' في البداية، يجب استخدام القلب. بما أن الفعل في المضارع البسيط، نستخدم الفعل المساعد 'do': Seldom + do/does + subject + base form of verb."
+    }
+  },
+  "unit12_w_19_inversion_fill4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "not-only-but-also",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets to complete the sentence with correct inversion. Put verbs in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. (Not only/ he/ make) <input type='text' class='fill-blank-input' data-blank-id='inv_fill4' placeholder='...'> new products, but he also did experiments.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv_fill4": {
+        "en": "Not only did he make",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Not only' + auxiliary 'did' + subject + base verb.",
+      "ar": "صحيح! 'Not only' + الفعل المساعد 'did' + الفاعل + الفعل الأساسي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Not only'، يجب استخدام القلب في الجزء الأول. بما أن الفعل 'make' (في سياق الماضي، لأن الجزء الثاني 'did experiments' ماضٍ) كان ليكون ماضيًا بسيطًا، نستخدم الفعل المساعد 'did': Not only + did + subject + base form of verb."
+    }
+  },
+  "unit12_w_20_inversion_fill5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "here-there",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets to complete the sentence with correct inversion. Put verbs in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. (Here/ arrive/the boss) <input type='text' class='fill-blank-input' data-blank-id='inv_fill5' placeholder='...'> on time.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv_fill5": {
+        "en": "Here arrives the boss",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Here' + verb + noun subject.",
+      "ar": "صحيح! 'Here' + فعل + فاعل (اسم)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Here' (أو 'There') ويتبعها فعل حركة أو موضع، والفاعل اسم (وليس ضميرًا)، غالبًا ما يأتي الفعل قبل الفاعل: Here + verb + noun subject."
+    }
+  },
+  "unit12_w_21_inversion_fill6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "reported-speech",
+      "indirect-question",
+      "word-order",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Use the words in brackets to complete the sentence. Put verbs in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. I wonder (what/ my sister/ do/ can/ solve/ to/ the problem) <input type='text' class='fill-blank-input' data-blank-id='inv_fill6' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv_fill6": {
+        "en": "what my sister can do to solve the problem",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is an indirect question, so statement word order (subject + verb) is used after 'what'.",
+      "ar": "صحيح! هذا سؤال غير مباشر، لذا يُستخدم ترتيب الجملة الخبرية (فاعل + فعل) بعد 'what'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. بعد 'I wonder'، نستخدم ترتيب كلمات السؤال غير المباشر، وهو مثل ترتيب الجملة الخبرية العادية (فاعل ثم فعل مساعد ثم فعل رئيسي) بعد كلمة الاستفهام. رتب الكلمات لتكوين: ماذا + فاعل + يمكن أن تفعل + لت + حل + المشكلة."
+    }
+  },
+  "unit12_w_22_matching": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "technology",
+      "education",
+      "process",
+      "unit12",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the words with their meanings.",
+      "ar": "علمي"
+    },
+    "questionText": {
+      "en": "Match the words to their definitions:",
+      "ar": "علمي"
+    },
+    "draggableItems": [
+      {
+        "id": "voc_interact",
+        "text": {
+          "en": "1. interactive",
+          "ar": ""
+        }
+      },
+      {
+        "id": "voc_simul",
+        "text": {
+          "en": "2. simulation",
+          "ar": ""
+        }
+      },
+      {
+        "id": "voc_acquire",
+        "text": {
+          "en": "3. acquire",
+          "ar": ""
+        }
+      },
+      {
+        "id": "voc_harmon",
+        "text": {
+          "en": "4. harmonisation",
+          "ar": ""
+        }
+      }, 
+      {
+        "id": "voc_accom",
+        "text": {
+          "en": "5. accommodation",
+          "ar": ""
+        }
+      },
+      {
+        "id": "voc_discip",
+        "text": {
+          "en": "6. discipline",
+          "ar": ""
+        }
+      },
+      {
+        "id": "voc_promote",
+        "text": {
+          "en": "7. promote",
+          "ar": ""
+        }
+      },
+      {
+        "id": "voc_launch",
+        "text": {
+          "en": "8. launch",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "def_voc_c",
+        "label": {
+          "en": "a. that allows information to be passed continuously in both directions between the computer and user",
+          "ar": ""
+        },
+        "accepts": "voc_interact"
+      },
+      {
+        "id": "def_voc_e",
+        "label": {
+          "en": "b. the technique of representing the real world by a computer",
+          "ar": ""
+        },
+        "accepts": "voc_simul"
+      },
+      {
+        "id": "def_voc_g",
+        "label": {
+          "en": "c. to get or buy something",
+          "ar": ""
+        },
+        "accepts": "voc_acquire"
+      },
+      {
+        "id": "def_voc_h",
+        "label": {
+          "en": "d. the act of making different people, plans, situations, etc. suitable for each other",
+          "ar": ""
+        },
+        "accepts": "voc_harmon"
+      },
+      {
+        "id": "def_voc_b",
+        "label": {
+          "en": "e. a place to stay when you are travelling",
+          "ar": ""
+        },
+        "accepts": "voc_accom"
+      },
+      {
+        "id": "def_voc_d",
+        "label": {
+          "en": "f. the ability to control yourself or other people, even in difficult situations",
+          "ar": ""
+        },
+        "accepts": "voc_discip"
+      },
+      {
+        "id": "def_voc_f",
+        "label": {
+          "en": "g. to encourage people to like, buy, use, do, or support something",
+          "ar": ""
+        },
+        "accepts": "voc_promote"
+      },
+      {
+        "id": "def_voc_a",
+        "label": {
+          "en": "h. an event to celebrate something new",
+          "ar": ""
+        },
+        "accepts": "voc_launch"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All words matched correctly.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات: 'interactive' (تفاعلي)، 'simulation' (محاكاة)، 'acquire' (يكتسب)، 'harmonisation' (مواءمة)، 'accommodation' (إقامة)، 'discipline' (انضباط)، 'promote' (يروج)، 'launch' (إطلاق)."
+    }
+  }
+}
