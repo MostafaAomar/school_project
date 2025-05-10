@@ -1,0 +1,779 @@
+{
+  "unit3_scientific_1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idioms", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Replace the words in italics in 1-6 with the correct form of the medical idioms in the box.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "After a long tax season, getting an extra week off with pay is *what is needed*.",
+      "ar": ""
+    },
+    "options": [
+      {"en": "just what the doctor ordered", "ar": ""},
+      {"en": "on the mend", "ar": ""},
+      {"en": "at death's door", "ar": ""},
+      {"en": "go under the knife", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "just what the doctor ordered",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Just what the doctor ordered' means exactly what is needed or wanted.",
+      "ar": "صحيح! المصطلح يعني تماماً ما هو مطلوب أو مرغوب."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'Just what the doctor ordered' means exactly what is needed or wanted in a situation.",
+      "ar": "خطأ. المصطلح 'just what the doctor ordered' يعني تماماً ما هو مطلوب أو مرغوب في الموقف."
+    }
+  },
+  "unit3_scientific_2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idioms", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Replace the words in italics in 1-6 with the correct form of the medical idioms in the box.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "My uncle *got sicker suddenly* last night, so we are heading to the hospital to see him.",
+      "ar": ""
+    },
+    "options": [
+      {"en": "take a turn for the worse", "ar": ""},
+      {"en": "on the mend", "ar": ""},
+      {"en": "a taste of one's own medicine", "ar": ""},
+      {"en": "at death's door", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "take a turn for the worse",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Take a turn for the worse' means to suddenly become more ill.",
+      "ar": "صحيح! المصطلح يعني أن يصبح الشخص مريضاً بشكل مفاجئ وأكثر سوءاً."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'Take a turn for the worse' is used when someone's health condition suddenly deteriorates.",
+      "ar": "خطأ. المصطلح 'take a turn for the worse' يُستخدم عندما تتدهور حالة شخص صحية فجأة."
+    }
+  },
+  "unit3_scientific_3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idioms", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Replace the words in italics in 1-6 with the correct form of the medical idioms in the box.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "It was miraculous that the little girl fully recovered because she was *very close to death* with sepsis and pneumonia.",
+      "ar": ""
+    },
+    "options": [
+      {"en": "at death's door", "ar": ""},
+      {"en": "on the mend", "ar": ""},
+      {"en": "go under the knife", "ar": ""},
+      {"en": "just what the doctor ordered", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "at death's door",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'At death's door' means very close to dying.",
+      "ar": "صحيح! المصطلح يعني قريب جداً من الموت."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'At death's door' describes someone who is extremely ill and likely to die.",
+      "ar": "خطأ. المصطلح 'at death's door' يصف شخصاً مريضاً جداً ومن المحتمل أن يموت."
+    }
+  },
+  "unit3_scientific_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idioms", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Replace the words in italics in 1-6 with the correct form of the medical idioms in the box.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I don't understand how people *have a surgery* for really risky cosmetic procedures.",
+      "ar": ""
+    },
+    "options": [
+      {"en": "go under the knife", "ar": ""},
+      {"en": "take a turn for the worse", "ar": ""},
+      {"en": "a taste of one's own medicine", "ar": ""},
+      {"en": "on the mend", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "go under the knife",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Go under the knife' is an informal way to say have a surgery.",
+      "ar": "صحيح! المصطلح هو طريقة غير رسمية لقول إجراء عملية جراحية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'Go under the knife' is a common idiom meaning to undergo a surgical operation.",
+      "ar": "خطأ. المصطلح 'go under the knife' هو مصطلح شائع يعني الخضوع لعملية جراحية."
+    }
+  },
+  "unit3_scientific_5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idioms", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Replace the words in italics in 1-6 with the correct form of the medical idioms in the box.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "We were so happy to hear that your father is back home now and *becoming well again*.",
+      "ar": ""
+    },
+    "options": [
+      {"en": "on the mend", "ar": ""},
+      {"en": "at death's door", "ar": ""},
+      {"en": "just what the doctor ordered", "ar": ""},
+      {"en": "take a turn for the worse", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "on the mend",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'On the mend' means recovering from an illness or injury.",
+      "ar": "صحيح! المصطلح يعني التعافي من مرض أو إصابة."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'On the mend' is used to describe someone who is getting better after being ill or injured.",
+      "ar": "خطأ. المصطلح 'on the mend' يُستخدم لوصف شخص يتحسن بعد أن كان مريضاً أو مصاباً."
+    }
+  },
+  "unit3_scientific_6": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idioms", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Replace the words in italics in 1-6 with the correct form of the medical idioms in the box.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I used to write rude comments on Instagram, but I *got treated badly* when I created my own account.",
+      "ar": ""
+    },
+    "options": [
+      {"en": "a taste of one's own medicine", "ar": ""},
+      {"en": "go under the knife", "ar": ""},
+      {"en": "on the mend", "ar": ""},
+      {"en": "at death's door", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "a taste of one's own medicine",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'A taste of one's own medicine' means receiving the same unpleasant treatment that one has given to others.",
+      "ar": "صحيح! المصطلح يعني تلقي نفس المعاملة السيئة التي قدمها الشخص للآخرين."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. When someone experiences the same negative treatment they have inflicted on others, it's called getting 'a taste of their own medicine'.",
+      "ar": "خطأ. عندما يختبر شخص نفس المعاملة السلبية التي ألحقها بالآخرين، يُطلق على ذلك 'a taste of their own medicine'."
+    }
+  },
+  "unit3_scientific_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "specialists", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Write the appropriate medical specialist word that suits each description.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Choose the specialist who: 'specialises in determining food and environmental allergies.'",
+      "ar": ""
+    },
+    "options": [
+      {"en": "allergist", "ar": ""},
+      {"en": "cardiologist", "ar": ""},
+      {"en": "dermatologist", "ar": ""},
+      {"en": "pediatrician", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "allergist",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! An allergist diagnoses and treats allergies.",
+      "ar": "صحيح! طبيب الحساسية يشخص ويعالج الحساسية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The specialist for allergies is an allergist.",
+      "ar": "خطأ. الطبيب المختص بالحساسية هو طبيب الحساسية (allergist)."
+    }
+  },
+  "unit3_scientific_8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "specialists", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Write the appropriate medical specialist word that suits each description.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Choose the specialist who: 'is a heart specialist.'",
+      "ar": ""
+    },
+    "options": [
+      {"en": "cardiologist", "ar": ""},
+      {"en": "ophthalmologist", "ar": ""},
+      {"en": "naturopath", "ar": ""},
+      {"en": "allergist", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "cardiologist",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A cardiologist specialises in the heart.",
+      "ar": "صحيح! طبيب القلب متخصص في القلب."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. A heart specialist is called a cardiologist.",
+      "ar": "خطأ. الطبيب المختص بالقلب يسمى طبيب القلب (cardiologist)."
+    }
+  },
+  "unit3_scientific_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "specialists", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Write the appropriate medical specialist word that suits each description.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Choose the specialist who: 'treats skin diseases.'",
+      "ar": ""
+    },
+    "options": [
+      {"en": "dermatologist", "ar": ""},
+      {"en": "pediatrician", "ar": ""},
+      {"en": "cardiologist", "ar": ""},
+      {"en": "ophthalmologist", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "dermatologist",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A dermatologist specialises in skin conditions.",
+      "ar": "صحيح! طبيب الجلدية متخصص في الأمراض الجلدية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The specialist for skin diseases is a dermatologist.",
+      "ar": "خطأ. الطبيب المختص بأمراض الجلد هو طبيب الجلدية (dermatologist)."
+    }
+  },
+  "unit3_scientific_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "specialists", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Write the appropriate medical specialist word that suits each description.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Choose the specialist who: 'specialises in natural cures and remedies.'",
+      "ar": ""
+    },
+    "options": [
+      {"en": "naturopath", "ar": ""},
+      {"en": "allergist", "ar": ""},
+      {"en": "dermatologist", "ar": ""},
+      {"en": "cardiologist", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "naturopath",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A naturopath focuses on natural healing methods.",
+      "ar": "صحيح! المعالج بالطبيعة يركز على طرق الشفاء الطبيعية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Someone who specialises in natural cures is a naturopath.",
+      "ar": "خطأ. الشخص المتخصص في العلاجات الطبيعية هو المعالج بالطبيعة (naturopath)."
+    }
+  },
+  "unit3_scientific_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "specialists", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Write the appropriate medical specialist word that suits each description.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Choose the specialist who: 'is a specialist for babies and children.'",
+      "ar": ""
+    },
+    "options": [
+      {"en": "pediatrician", "ar": ""},
+      {"en": "ophthalmologist", "ar": ""},
+      {"en": "allergist", "ar": ""},
+      {"en": "naturopath", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "pediatrician",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A pediatrician is a doctor for children.",
+      "ar": "صحيح! طبيب الأطفال هو طبيب متخصص بالأطفال."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. A specialist doctor for babies and children is a pediatrician.",
+      "ar": "خطأ. الطبيب المتخصص بالرضع والأطفال هو طبيب الأطفال (pediatrician)."
+    }
+  },
+  "unit3_scientific_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "specialists", "medical", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Write the appropriate medical specialist word that suits each description.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Choose the specialist who: 'specialises in eye diseases.'",
+      "ar": ""
+    },
+    "options": [
+      {"en": "ophthalmologist", "ar": ""},
+      {"en": "dermatologist", "ar": ""},
+      {"en": "pediatrician", "ar": ""},
+      {"en": "cardiologist", "ar": ""}
+    ],
+    "correctAnswer": {
+      "en": "ophthalmologist",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! An ophthalmologist is an eye specialist.",
+      "ar": "صحيح! طبيب العيون متخصص في العيون."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The specialist for eye diseases is an ophthalmologist.",
+      "ar": "خطأ. الطبيب المختص بأمراض العيون هو طبيب العيون (ophthalmologist)."
+    }
+  },
+  "unit3_scientific_13": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "modal", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I'm sorry this office is so dirty, but it <input type='text' class='fill-blank-input' data-blank-id='gap1' placeholder='(can’t / clean)'> until tomorrow morning.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap1": {
+        "en": "can't be cleaned",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The passive modal form is 'modal + be + past participle'.",
+      "ar": "صحيح! صيغة المبني للمجهول الفعل المساعد هي 'modal + be + اسم المفعول'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use the passive modal structure: can't be + past participle of 'clean'.",
+      "ar": "خطأ. استخدم بنية المبني للمجهول للفعل المساعد: can't be + اسم المفعول من 'clean'."
+    }
+  },
+  "unit3_scientific_14": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "present-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "These clothes <input type='text' class='fill-blank-input' data-blank-id='gap2' placeholder='(design)'> for daily use, so you can wear them wherever you want.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap2": {
+        "en": "are designed",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The present simple passive is 'am/is/are + past participle'.",
+      "ar": "صحيح! صيغة المبني للمجهول في المضارع البسيط هي 'am/is/are + اسم المفعول'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Since 'clothes' is plural and the context is general present, use the present simple passive: are + past participle of 'design'.",
+      "ar": "خطأ. بما أن 'clothes' جمع والسياق مضارع عام، استخدم المبني للمجهول في المضارع البسيط: are + اسم المفعول من 'design'."
+    }
+  },
+  "unit3_scientific_15": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "present-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct  **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Many offices of large companies <input type='text' class='fill-blank-input' data-blank-id='gap3' placeholder='(build)'> in the town centre recently.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap3": {
+        "en": "have been built",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Recently' often indicates the present perfect. The passive form is 'have/has been + past participle'.",
+      "ar": "صحيح! كلمة 'Recently' تشير غالباً إلى المضارع التام. صيغة المبني للمجهول هي 'have/has been + اسم المفعول'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The word 'recently' suggests a connection to the present. Use the present perfect passive: have been + past participle of 'build'. ('offices' is plural).",
+      "ar": "خطأ. كلمة 'recently' تقترح وجود صلة بالحاضر. استخدم المبني للمجهول في المضارع التام: have been + اسم المفعول من 'build'. (كلمة 'offices' جمع)."
+    }
+  },
+  "unit3_scientific_16": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "present-continuous", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct  **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "All the goods that were purchased yesterday have defects, so they <input type='text' class='fill-blank-input' data-blank-id='gap4' placeholder='(send)'> back to the manufacturer right now.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap4": {
+        "en": "are being sent",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Right now' indicates the present continuous. The passive form is 'am/is/are being + past participle'.",
+      "ar": "صحيح! عبارة 'Right now' تشير إلى المضارع المستمر. صيغة المبني للمجهول هي 'am/is/are being + اسم المفعول'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The phrase 'right now' signals an action happening at this moment. Use the present continuous passive: are being + past participle of 'send'. ('they' refers to plural 'goods').",
+      "ar": "خطأ. عبارة 'right now' تشير إلى حدث يقع في هذه اللحظة. استخدم المبني للمجهول في المضارع المستمر: are being + اسم المفعول من 'send'. (الضمير 'they' يعود على 'goods' وهي جمع)."
+    }
+  },
+  "unit3_scientific_17": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "past-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct  **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Camera footage shows that illegal goods <input type='text' class='fill-blank-input' data-blank-id='gap5' placeholder='(smuggle)'> into the warehouse last week.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap5": {
+        "en": "were smuggled",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Last week' indicates the past simple. The passive form is 'was/were + past participle'.",
+      "ar": "صحيح! عبارة 'Last week' تشير إلى الماضي البسيط. صيغة المبني للمجهول هي 'was/were + اسم المفعول'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The time expression 'last week' points to a completed action in the past. Use the past simple passive: were + past participle of 'smuggle'. ('goods' is plural).",
+      "ar": "خطأ. التعبير الزمني 'last week' يشير إلى حدث مكتمل في الماضي. استخدم المبني للمجهول في الماضي البسيط: were + اسم المفعول من 'smuggle'. (كلمة 'goods' جمع)."
+    }
+  },
+  "unit3_scientific_18": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "past-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct  **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The poor bird <input type='text' class='fill-blank-input' data-blank-id='gap6' placeholder='(capture)'> and all its efforts to escape from the trap were in vain.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap6": {
+        "en": "was captured",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The context implies a past action. The passive form is 'was/were + past participle'.",
+      "ar": "صحيح! السياق يشير إلى حدث في الماضي. صيغة المبني للمجهول هي 'was/were + اسم المفعول'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The surrounding sentence uses past tense ('were in vain'). Use the past simple passive: was + past participle of 'capture'. ('bird' is singular).",
+      "ar": "خطأ. الجملة المحيطة تستخدم صيغة الماضي ('were in vain'). استخدم المبني للمجهول في الماضي البسيط: was + اسم المفعول من 'capture'. (كلمة 'bird' مفرد)."
+    }
+  },
+  "unit3_scientific_19": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "present-continuous", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct  **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The hotel near our office was closed because it <input type='text' class='fill-blank-input' data-blank-id='gap7' placeholder='(renovate)'> by the owner.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap7": {
+        "en": "is being renovated",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The present continuous passive 'is being renovated' explains the ongoing reason for the hotel being closed now.",
+      "ar": "صحيح! المبني للمجهول في المضارع المستمر 'is being renovated' يفسر السبب المستمر لإغلاق الفندق الآن."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The sentence implies the renovation is happening now, causing the closure. Use the present continuous passive: is being + past participle of 'renovate'. ('it' refers to singular 'hotel'). 'Was being renovated' is also possible if the reason for closure was in the past.",
+      "ar": "خطأ. الجملة تشير إلى أن التجديد يحدث الآن، مما يسبب الإغلاق. استخدم المبني للمجهول في المضارع المستمر: is being + اسم المفعول من 'renovate'. (الضمير 'it' يعود على 'hotel' وهو مفرد). 'Was being renovated' ممكن أيضاً إذا كان سبب الإغلاق في الماضي."
+    }
+  },
+  "unit3_scientific_20": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "passive", "modal-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct  **passive form** of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Your car is a death trap. It <input type='text' class='fill-blank-input' data-blank-id='gap8' placeholder='(should / send)'> to the scrap years ago.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap8": {
+        "en": "should have been sent",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses the modal perfect passive ('should have been + past participle') to talk about something that ought to have happened in the past.",
+      "ar": "صحيح! هذا يستخدم المبني للمجهول التام للفعل المساعد ('should have been + اسم المفعول') للحديث عن شيء كان يجب أن يحدث في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. We are talking about a missed obligation in the past ('years ago'). Use the modal perfect passive: should have been + past participle of 'send'.",
+      "ar": "خطأ. نحن نتحدث عن التزام لم يتم في الماضي ('years ago'). استخدم المبني للمجهول التام للفعل المساعد: should have been + اسم المفعول من 'send'."
+    }
+  },
+  "unit3_scientific_21": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "present-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: My neighbour disappeared six months ago. I haven't seen him since then.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "He <input type='text' class='fill-blank-input' data-blank-id='passive1' placeholder='...'> since then.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive1": {
+        "en": "hasn't been seen",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The passive of present perfect 'haven't seen' is 'hasn't been seen'.",
+      "ar": "صحيح! المبني للمجهول من المضارع التام 'haven't seen' هو 'hasn't been seen'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Change 'I haven't seen him' to passive. The object 'him' becomes the subject 'He'. The verb becomes present perfect passive.",
+      "ar": "خطأ. حوّل 'I haven't seen him' إلى المبني للمجهول. المفعول به 'him' يصبح الفاعل 'He'. الفعل يصبح مضارع تام مبني للمجهول."
+    }
+  },
+  "unit3_scientific_22": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "future-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: The organizers will exhibit the paintings till the end of the month.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The paintings <input type='text' class='fill-blank-input' data-blank-id='passive2' placeholder='...'> till the end of the month.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive2": {
+        "en": "will be exhibited",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The passive of future simple 'will exhibit' is 'will be exhibited'.",
+      "ar": "صحيح! المبني للمجهول من المستقبل البسيط 'will exhibit' هو 'will be exhibited'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Change 'will exhibit' to passive. The object 'the paintings' is the new subject. Use the future simple passive form.",
+      "ar": "خطأ. حوّل 'will exhibit' إلى المبني للمجهول. المفعول به 'the paintings' هو الفاعل الجديد. استخدم صيغة المبني للمجهول في المستقبل البسيط."
+    }
+  },
+  "unit3_scientific_23": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "reporting-verbs", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: Scientists expect that people will live on Mars in 2050.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "<input type='text' class='fill-blank-input' data-blank-id='passive3' placeholder='...'> that people will live on Mars in 2050.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive3": {
+        "en": "It is expected",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! One way to make reporting verbs passive is 'It is + past participle + that-clause'.",
+      "ar": "صحيح! إحدى طرق تحويل أفعال النقل إلى المبني للمجهول هي 'It is + اسم المفعول + that-clause'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use the impersonal passive structure: 'It is + past participle of expect'.",
+      "ar": "خطأ. استخدم بنية المبني للمجهول غير الشخصية: 'It is + اسم المفعول من expect'."
+    }
+  },
+  "unit3_scientific_24": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "past-continuous", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: Police officers were examining the evidence when the lights went off.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The evidence <input type='text' class='fill-blank-input' data-blank-id='passive4' placeholder='...'> when the lights went off.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive4": {
+        "en": "was being examined",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The passive of past continuous 'were examining' is 'was/were being examined'.",
+      "ar": "صحيح! المبني للمجهول من الماضي المستمر 'were examining' هو 'was/were being examined'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Change 'were examining' to passive. The object 'the evidence' (singular) is the new subject. Use the past continuous passive form.",
+      "ar": "خطأ. حوّل 'were examining' إلى المبني للمجهول. المفعول به 'the evidence' (مفرد) هو الفاعل الجديد. استخدم صيغة المبني للمجهول في الماضي المستمر."
+    }
+  },
+   "unit3_scientific_25": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "past-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: The committee asked me some difficult questions in the interview yesterday.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "<input type='text' class='fill-blank-input' data-blank-id='passive5' placeholder='...'> some difficult questions in the interview yesterday.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive5": {
+        "en": "I was asked",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! When the indirect object ('me') becomes the subject, the passive is 'I was asked'.",
+      "ar": "صحيح! عندما يصبح المفعول به غير المباشر ('me') هو الفاعل، يكون المبني للمجهول 'I was asked'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Make the indirect object 'me' the subject 'I'. Use the past simple passive form of 'ask'. 'Some difficult questions were asked...' is also possible but 'I was asked...' directly reflects the active sentence object.",
+      "ar": "خطأ. اجعل المفعول به غير المباشر 'me' الفاعل 'I'. استخدم صيغة المبني للمجهول في الماضي البسيط للفعل 'ask'. 'Some difficult questions were asked...' ممكن أيضاً ولكن 'I was asked...' تعكس بشكل مباشر مفعول الجملة المبنية للمعلوم."
+    }
+  },
+   "unit3_scientific_26": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "passive", "modal-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: Sami's parents must have brought him up to be more polite.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sami <input type='text' class='fill-blank-input' data-blank-id='passive6' placeholder='...'> to be more polite.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive6": {
+        "en": "must have been brought up",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The passive of the modal perfect 'must have brought up' is 'must have been brought up'.",
+      "ar": "صحيح! المبني للمجهول من الفعل المساعد التام 'must have brought up' هو 'must have been brought up'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Change 'must have brought him up' to passive. The object 'him' becomes the subject 'Sami'. Use the modal perfect passive form.",
+      "ar": "خطأ. حوّل 'must have brought him up' إلى المبني للمجهول. المفعول به 'him' يصبح الفاعل 'Sami'. استخدم صيغة المبني للمجهول التام للفعل المساعد."
+    }
+  },
+   "unit3_scientific_27": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "past-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change into passive: After the interview, the owner had already offered me the job at his bank.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "After the interview, <input type='text' class='fill-blank-input' data-blank-id='passive7' placeholder='...'> the job at his bank.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive7": {
+        "en": "I had already been offered",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The passive of past perfect 'had offered' is 'had been offered'. 'Already' stays in a similar position.",
+      "ar": "صحيح! المبني للمجهول من الماضي التام 'had offered' هو 'had been offered'. تبقى كلمة 'Already' في موقع مشابه."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Change 'had already offered me' to passive. Make 'me' the subject 'I'. Use the past perfect passive form.",
+      "ar": "خطأ. حوّل 'had already offered me' إلى المبني للمجهول. اجعل 'me' الفاعل 'I'. استخدم صيغة المبني للمجهول في الماضي التام."
+    }
+  }
+}

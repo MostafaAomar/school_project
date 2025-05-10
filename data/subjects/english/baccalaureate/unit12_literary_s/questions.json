@@ -1,0 +1,588 @@
+{
+  "unit12_s_1_def1": {  
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "art",
+      "literature",
+      "unit12",
+      "adabi",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Match the meaning with one of the words: [mourning, brushstroke, scrutiny, infrared, merchant, portray]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. close examination <input type='text' class='fill-blank-input' data-blank-id='vocab1' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vocab1": {
+        "en": "scrutiny",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني فحصًا دقيقًا أو تمحيصًا هي 'scrutiny'."
+    }
+  },
+  "unit12_s_2_def2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "emotion",
+      "literature",
+      "unit12",
+      "adabi",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Match the meaning with one of the words: [mourning, brushstroke, scrutiny, infrared, merchant, portray]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. feels sorrow for someone’s death <input type='text' class='fill-blank-input' data-blank-id='vocab2' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vocab2": {
+        "en": "mourning",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني الشعور بالحزن على وفاة شخص ما (الحداد أو الحزن) هي 'mourning'."
+    }
+  },
+  "unit12_s_3_def3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "science",
+      "art-analysis",
+      "unit12",
+      "adabi",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Match the meaning with one of the words: [mourning, brushstroke, scrutiny, infrared, merchant, portray]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. having or using electromagnetic waves that cannot be seen <input type='text' class='fill-blank-input' data-blank-id='vocab3' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vocab3": {
+        "en": "infrared",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تشير إلى الموجات الكهرومغناطيسية غير المرئية (تحت الحمراء) هي 'infrared'."
+    }
+  },
+  "unit12_s_4_def4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "trade",
+      "literature",
+      "unit12",
+      "adabi",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Match the meaning with one of the words: [mourning, brushstroke, scrutiny, infrared, merchant, portray]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. seller/ trader <input type='text' class='fill-blank-input' data-blank-id='vocab4' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vocab4": {
+        "en": "merchant",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني بائعًا أو تاجرًا هي 'merchant'."
+    }
+  },
+  "unit12_s_5_def5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "art",
+      "painting",
+      "unit12",
+      "adabi",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Match the meaning with one of the words: [mourning, brushstroke, scrutiny, infrared, merchant, portray]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. the marks made on a surface by a painter's brush <input type='text' class='fill-blank-input' data-blank-id='vocab5' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vocab5": {
+        "en": "brushstroke",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف العلامات التي تتركها فرشاة الرسام هي 'brushstroke'."
+    }
+  },
+  "unit12_s_6_def6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "art",
+      "representation",
+      "unit12",
+      "adabi",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Match the meaning with one of the words: [mourning, brushstroke, scrutiny, infrared, merchant, portray]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. to show somebody/something in a picture <input type='text' class='fill-blank-input' data-blank-id='vocab6' placeholder='word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "vocab6": {
+        "en": "portray",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني إظهار شخص أو شيء في صورة (يصور أو يمثل) هي 'portray'."
+    }
+  },
+  "unit12_s_7_inversion1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "negative-adverbial",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Find the mistake in the sentence and rewrite the sentence correctly. (Hint: Inversion)",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Never John had been to such a fantastic restaurant.\nCorrected: <input type='text' class='fill-blank-input' data-blank-id='inv1' placeholder='Rewrite correctly...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv1": {
+        "en": "Never had John been to such a fantastic restaurant.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! With 'Never' at the beginning, inversion of the auxiliary 'had' and subject 'John' is needed.",
+      "ar": "صحيح! مع 'Never' في بداية الجملة، يجب قلب الفعل المساعد 'had' والفاعل 'John'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بظرف نفي مثل 'Never'، يجب أن يتبعها الفعل المساعد ثم الفاعل ثم الفعل الرئيسي (Never + auxiliary + subject + main verb)."
+    }
+  },
+  "unit12_s_8_inversion2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "negative-adverbial",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Find the mistake in the sentence and rewrite the sentence correctly. (Hint: Inversion)",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Rarely I want to be associated with this project.\nCorrected: <input type='text' class='fill-blank-input' data-blank-id='inv2' placeholder='Rewrite correctly...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv2": {
+        "en": "Rarely do I want to be associated with this project.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Rarely' requires inversion with 'do'.",
+      "ar": "صحيح! 'Rarely' تتطلب قلب الفعل مع 'do'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بظرف مثل 'Rarely'، يجب استخدام القلب. بما أن الفعل 'want' في المضارع البسيط، نستخدم الفعل المساعد 'do' (Rarely + do/does + subject + main verb)."
+    }
+  },
+  "unit12_s_9_inversion3": {
+    "type": "fill-blank",
+    "difficulty": 1,  
+    "tags": [
+      "grammar",
+      "inversion",
+      "no-sooner",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Is there a mistake in this sentence regarding inversion? If so, rewrite it correctly. If not, rewrite it as is.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. No sooner had they eaten dinner than the ceiling crashed onto the dining table.\nCorrected: <input type='text' class='fill-blank-input' data-blank-id='inv3' placeholder='Rewrite or confirm...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv3": {
+        "en": "No sooner had they eaten dinner than the ceiling crashed onto the dining table.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This sentence already uses inversion correctly with 'No sooner...than'.",
+      "ar": "صحيح! هذه الجملة تستخدم القلب بشكل صحيح مع 'No sooner...than'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "هذه الجملة صحيحة بالفعل. 'No sooner' في بداية الجملة يتبعها الفعل المساعد ('had') ثم الفاعل ('they') ثم الفعل الرئيسي ('eaten')."
+    }
+  },
+  "unit12_s_10_inversion4": {
+    "type": "fill-blank",
+    "difficulty": 1,  
+    "tags": [
+      "grammar",
+      "inversion",
+      "seldom",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Is there a mistake in this sentence regarding inversion? If so, rewrite it correctly. If not, rewrite it as is.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Seldom do I leave my house so early.\nCorrected: <input type='text' class='fill-blank-input' data-blank-id='inv4' placeholder='Rewrite or confirm...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv4": {
+        "en": "Seldom do I leave my house so early.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This sentence already uses inversion correctly with 'Seldom'.",
+      "ar": "صحيح! هذه الجملة تستخدم القلب بشكل صحيح مع 'Seldom'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "هذه الجملة صحيحة بالفعل. 'Seldom' في بداية الجملة يتبعها الفعل المساعد ('do') ثم الفاعل ('I') ثم الفعل الرئيسي ('leave')."
+    }
+  },
+  "unit12_s_11_inversion5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "hardly",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Find the mistake in the sentence and rewrite the sentence correctly. (Hint: Inversion)",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Hardly he understood about the situation.\nCorrected: <input type='text' class='fill-blank-input' data-blank-id='inv5' placeholder='Rewrite correctly...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv5": {
+        "en": "Hardly did he understand about the situation.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Hardly' requires inversion with 'did'.",
+      "ar": "صحيح! 'Hardly' تتطلب قلب الفعل مع 'did'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عندما تبدأ الجملة بـ 'Hardly'، يجب استخدام القلب. بما أن الفعل 'understood' في الماضي البسيط، نستخدم الفعل المساعد 'did' (Hardly + did + subject + base form of verb)."
+    }
+  },
+  "unit12_s_12_inversion6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "inversion",
+      "conditional-if",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Find the mistake in the sentence and rewrite the sentence correctly. (Hint: Inversion for conditionals)",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. I were there, I would give them a hand.\nCorrected: <input type='text' class='fill-blank-input' data-blank-id='inv6' placeholder='Rewrite correctly...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "inv6": {
+        "en": "Were I there, I would give them a hand.",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is an inverted conditional form, omitting 'If'.",
+      "ar": "صحيح! هذه صيغة شرطية مقلوبة، مع حذف 'If'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثاني. يمكن تكوينها إما بـ 'If I were there...' أو باستخدام القلب بحذف 'If' وتقديم 'Were' على الفاعل 'I' (Were I there...)."
+    }
+  },
+  "unit12_s_13_phrasal1_match": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "common-actions",
+      "unit12",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the phrasal verbs in the sentences with their meanings.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the phrasal verbs (in bold) to their meanings:",
+      "ar": ""
+    },
+    "draggableItems": [ 
+      {
+        "id": "pv1_getout",
+        "text": {
+          "en": "1 There’s some chocolate in the fridge. Can you **get it out**?",
+          "ar": ""
+        }
+      },
+      {
+        "id": "pv1_pickup",
+        "text": {
+          "en": "2 Why is the towel on the floor? Please **pick it up**.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "pv1_puton",
+        "text": {
+          "en": "3 **Put on** something warm. It’s cold today.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "pv1_comeback",
+        "text": {
+          "en": "4 When are you **coming back** to Syria?",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [ 
+      {
+        "id": "mean_a_return",
+        "label": {
+          "en": "a to return",
+          "ar": ""
+        },
+        "accepts": "pv1_comeback"
+      },
+      {
+        "id": "mean_b_lift",
+        "label": {
+          "en": "b to take hold of something and lift it up",
+          "ar": ""
+        },
+        "accepts": "pv1_pickup"
+      },
+      {
+        "id": "mean_c_dress",
+        "label": {
+          "en": "c to dress something",
+          "ar": ""
+        },
+        "accepts": "pv1_puton"
+      },
+      {
+        "id": "mean_d_collect",
+        "label": {
+          "en": "d to collect from a place",
+          "ar": ""
+        },
+        "accepts": "pv1_getout"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! You've matched the phrasal verbs well.",
+      "ar": "صحيح! لقد طابقت الأفعال المركبة بشكل جيد."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. فكر في معنى كل فعل مركب في سياق الجملة. 'get it out' يعني إخراج شيء، 'pick it up' يعني التقاط شيء، 'put on' يعني ارتداء ملابس، و 'coming back' يعني العودة."
+    }
+  },
+  "unit12_s_14_phrasal2_match": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "phrasal-verb",
+      "various-meanings",
+      "unit12",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the phrasal verbs in the sentences with their meanings.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the phrasal verbs (in bold) to their meanings:",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "pv2_getout_publish",
+        "text": {
+          "en": "1 Will we **get** the book **out** by the end of the year?",
+          "ar": ""
+        }
+      },
+      {
+        "id": "pv2_pickup_collect",
+        "text": {
+          "en": "2 I’ll **pick you up** at 5:00.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "pv2_puton_gain",
+        "text": {
+          "en": "3 She looks like she’s **put on** several kilos.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "pv2_comeback_reply",
+        "text": {
+          "en": "4 She **came back** at the speaker with some sharp questions.",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "mean_e_collect_person",
+        "label": {
+          "en": "e to go somewhere in your car and collect someone who is waiting for you",
+          "ar": ""
+        },
+        "accepts": "pv2_pickup_collect"
+      },
+      {
+        "id": "mean_f_reply_angrily",
+        "label": {
+          "en": "f to reply to somebody angrily or with force",
+          "ar": ""
+        },
+        "accepts": "pv2_comeback_reply"
+      },
+      {
+        "id": "mean_g_gain_weight",
+        "label": {
+          "en": "g to gain weight",
+          "ar": ""
+        },
+        "accepts": "pv2_puton_gain"
+      },
+      {
+        "id": "mean_h_produce_publish",
+        "label": {
+          "en": "h to produce or publish something",
+          "ar": ""
+        },
+        "accepts": "pv2_getout_publish"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! These phrasal verbs can have multiple meanings.",
+      "ar": "صحيح! يمكن أن يكون لهذه الأفعال المركبة معانٍ متعددة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. انتبه إلى أن الأفعال المركبة يمكن أن يكون لها معانٍ مختلفة في سياقات مختلفة. 'get...out' هنا تعني نشر، 'pick you up' تعني أخذ شخص بالسيارة، 'put on' هنا تعني زيادة الوزن، و 'came back at' تعني الرد بقوة."
+    }
+  }
+}

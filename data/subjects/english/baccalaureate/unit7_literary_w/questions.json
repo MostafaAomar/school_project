@@ -1,0 +1,799 @@
+{
+  "unit7_w_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "phrasal-verb", "reading", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrasal verb.",
+      "ar": "اختر الفعل المركب الصحيح."
+    },
+    "questionText": {
+      "en": "1. The little boy was reading ______ the ingredients of the biscuits when his mother videoed him.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "off", "ar": "" },
+      { "en": "up", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "off",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Reading off' means reading from a list or displayed information.",
+      "ar": "صحيح! 'Reading off' تعني القراءة من قائمة أو معلومات معروضة."
+    },
+    "feedbackIncorrect": {
+      "en": "'Reading up' means studying or researching. 'Reading off' means to read from a list or something written.",
+      "ar": "'Reading up' تعني الدراسة أو البحث. 'Reading off' تعني القراءة من قائمة أو شيء مكتوب."
+    }
+  },
+  "unit7_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "phrasal-verb", "reading", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrasal verb.",
+      "ar": "اختر الفعل المركب الصحيح."
+    },
+    "questionText": {
+      "en": "2. As soon as the patient arrived at the hospital, a doctor immediately read his temperature ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "off", "ar": "" },
+      { "en": "over", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "off",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Read off' is used for reading information from a display like a thermometer.",
+      "ar": "صحيح! 'Read off' تُستخدم لقراءة المعلومات من شاشة عرض مثل مقياس الحرارة."
+    },
+    "feedbackIncorrect": {
+      "en": "'Read over' means to read carefully. 'Read off' means to read from a display or instrument.",
+      "ar": "'Read over' تعني القراءة بعناية. 'Read off' تعني القراءة من شاشة عرض أو أداة."
+    }
+  },
+  "unit7_w_3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verb", "research", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrasal verb.",
+      "ar": "اختر الفعل المركب الصحيح."
+    },
+    "questionText": {
+      "en": "3. My elder brother is engaged in reading ______ the economic success of Singapore.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "for", "ar": "" },
+      { "en": "on", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "on",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Reading (up) on' means researching or studying a topic.",
+      "ar": "صحيح! 'Reading (up) on' تعني البحث أو دراسة موضوع ما."
+    },
+    "feedbackIncorrect": {
+      "en": "The common phrasal verb is 'reading up on' something, meaning to research it. 'Reading for' usually means reading for a purpose (e.g., for pleasure, for an exam).",
+      "ar": "الفعل المركب الشائع هو 'reading up on' شيء ما، ويعني البحث فيه. 'Reading for' عادة ما تعني القراءة لغرض ما (مثل للمتعة، للامتحان)."
+    }
+  },
+  "unit7_w_4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "phrasal-verb", "reading", "contract", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrasal verb.",
+      "ar": "اختر الفعل المركب الصحيح."
+    },
+    "questionText": {
+      "en": "4. The company representative read the contract ______ before she signed it.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "for", "ar": "" },
+      { "en": "over", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "over",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Read over' means to read something carefully from beginning to end, usually to check for mistakes.",
+      "ar": "صحيح! 'Read over' تعني قراءة شيء ما بعناية من البداية إلى النهاية، عادةً للتحقق من الأخطاء."
+    },
+    "feedbackIncorrect": {
+      "en": "'Reading for' implies a purpose. 'Read over' means to review or check something carefully.",
+      "ar": "'Reading for' تشير إلى غرض. 'Read over' تعني مراجعة أو فحص شيء ما بعناية."
+    }
+  },
+  "unit7_w_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "phrasal-verb", "study", "exam", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrasal verb.",
+      "ar": "اختر الفعل المركب الصحيح."
+    },
+    "questionText": {
+      "en": "5. I can't go out with you. I have a test tomorrow and I'm reading ______ it.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "up", "ar": "" },  
+      { "en": "for", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "for",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Reading for' an exam means studying or preparing for it.",
+      "ar": "صحيح! 'Reading for' امتحان تعني الدراسة أو التحضير له."
+    },
+    "feedbackIncorrect": {
+      "en": "'Reading up' or 'reading up on' means researching a topic. 'Reading for' is used when preparing for something like a test.",
+      "ar": "'Reading up' أو 'reading up on' تعني البحث في موضوع ما. 'Reading for' تُستخدم عند التحضير لشيء مثل الاختبار."
+    }
+  },
+  "unit7_w_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "phrasal-verb", "reading", "repetition", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct phrasal verb.",
+      "ar": "اختر الفعل المركب الصحيح."
+    },
+    "questionText": {
+      "en": "6. The babysitter had read the story ______ three times before the kid fell asleep.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "on", "ar": "" },
+      { "en": "back", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "back",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Read back' can mean to read something again, often to someone else or for checking.",
+      "ar": "صحيح! 'Read back' يمكن أن تعني قراءة شيء مرة أخرى، غالبًا لشخص آخر أو للتحقق."
+    },
+    "feedbackIncorrect": {
+      "en": "'Reading on' means to continue reading. 'Read back' means to read something again, or to read it aloud after it has been written.",
+      "ar": "'Reading on' تعني مواصلة القراءة. 'Read back' تعني قراءة شيء مرة أخرى، أو قراءته بصوت عالٍ بعد كتابته."
+    }
+  },
+  "unit7_w_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "expectations", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb for the collocation.",
+      "ar": "اختر الفعل الصحيح للتلازم اللفظي."
+    },
+    "questionText": {
+      "en": "1. The Council strives to ______ the expectations and aspirations of the community in delivering top-quality services.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "raise", "ar": "" },
+      { "en": "meet", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "meet",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The collocation is 'to meet expectations'.",
+      "ar": "صحيح! التلازم اللفظي هو 'to meet expectations'."
+    },
+    "feedbackIncorrect": {
+      "en": "We 'meet expectations' (fulfill them). We 'raise expectations' (increase them).",
+      "ar": "نحن 'meet expectations' (نحققها). نحن 'raise expectations' (نرفعها)."
+    }
+  },
+  "unit7_w_8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "taxes", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb for the collocation.",
+      "ar": "اختر الفعل الصحيح للتلازم اللفظي."
+    },
+    "questionText": {
+      "en": "2. If taxes were ______ by just one percent, hundreds of new schools and hospitals could be built.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "given", "ar": "" },
+      { "en": "raised", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "raised",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The collocation is 'taxes were raised'.",
+      "ar": "صحيح! التلازم اللفظي هو 'taxes were raised'."
+    },
+    "feedbackIncorrect": {
+      "en": "Taxes are 'raised' (increased) by the government. 'Given' doesn't fit here.",
+      "ar": "الضرائب 'raised' (تُرفع) من قبل الحكومة. 'Given' لا تناسب هنا."
+    }
+  },
+  "unit7_w_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "effort", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb for the collocation.",
+      "ar": "اختر الفعل الصحيح للتلازم اللفظي."
+    },
+    "questionText": {
+      "en": "3. It will be difficult to attain your goal of fluency if you don’t ______ an effort to speak more in class.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "lose", "ar": "" },
+      { "en": "make", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "make",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The collocation is 'to make an effort'.",
+      "ar": "صحيح! التلازم اللفظي هو 'to make an effort'."
+    },
+    "feedbackIncorrect": {
+      "en": "We 'make an effort' (try hard). We 'lose' things like keys or a game.",
+      "ar": "نحن 'make an effort' (نحاول بجد). نحن 'lose' أشياء مثل المفاتيح أو مباراة."
+    }
+  },
+  "unit7_w_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "temper", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb for the collocation.",
+      "ar": "اختر الفعل الصحيح للتلازم اللفظي."
+    },
+    "questionText": {
+      "en": "4. When I feel like I’m about to ______ my temper, I just leave the room.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "lose", "ar": "" },
+      { "en": "raise", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "lose",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The collocation is 'to lose one's temper'.",
+      "ar": "صحيح! التلازم اللفظي هو 'to lose one's temper'."
+    },
+    "feedbackIncorrect": {
+      "en": "We 'lose our temper' (get angry). We 'raise' things like hands or voices.",
+      "ar": "نحن 'lose our temper' (نغضب). نحن 'raise' أشياء مثل الأيدي أو الأصوات."
+    }
+  },
+  "unit7_w_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "lift", "transport", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb for the collocation.",
+      "ar": "اختر الفعل الصحيح للتلازم اللفظي."
+    },
+    "questionText": {
+      "en": "5. Can you ______ me a lift to work tomorrow. My car is being repaired.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "meet", "ar": "" },
+      { "en": "give", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "give",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The collocation is 'to give someone a lift'.",
+      "ar": "صحيح! التلازم اللفظي هو 'to give someone a lift'."
+    },
+    "feedbackIncorrect": {
+      "en": "We 'give someone a lift' (take them somewhere in a car). We 'meet' people or expectations.",
+      "ar": "نحن 'give someone a lift' (نأخذهم إلى مكان ما في السيارة). نحن 'meet' الأشخاص أو التوقعات."
+    }
+  },
+  "unit7_w_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "collocation", "risk", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb for the collocation.",
+      "ar": "اختر الفعل الصحيح للتلازم اللفظي."
+    },
+    "questionText": {
+      "en": "6. Invest if you like, but you're ______ the risk of losing everything if the business fails.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "running", "ar": "" },
+      { "en": "giving", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "running",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The collocation is 'running the risk'.",
+      "ar": "صحيح! التلازم اللفظي هو 'running the risk'."
+    },
+    "feedbackIncorrect": {
+      "en": "We 'run the risk' or 'take a risk'. 'Giving the risk' is not standard.",
+      "ar": "نحن 'run the risk' أو 'take a risk'. 'Giving the risk' ليست عبارة قياسية."
+    }
+  },
+  "unit7_w_13": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "prepositional-phrase", "idiom", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Complete the sentence with a prepositional phrase from the box: [in the long run, between the lines, in advance, at risk, in theory, on and off]",
+      "ar": "أكمل الجملة بعبارة جر من الصندوق: [in the long run, between the lines, in advance, at risk, in theory, on and off]"
+    },
+    "questionText": {
+      "en": "1. If you read ______, you will clearly see what he means.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "in the long run", "ar": "" },
+      { "en": "between the lines", "ar": "" },
+      { "en": "in advance", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "between the lines",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To read between the lines' means to understand the hidden meaning.",
+      "ar": "صحيح! 'To read between the lines' تعني فهم المعنى الخفي."
+    },
+    "feedbackIncorrect": {
+      "en": "'In the long run' refers to a future outcome. 'In advance' means beforehand. 'Between the lines' means to understand an implicit meaning.",
+      "ar": "'In the long run' يشير إلى نتيجة مستقبلية. 'In advance' تعني مسبقًا. 'Between the lines' تعني فهم المعنى الضمني."
+    }
+  },
+  "unit7_w_14": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "prepositional-phrase", "idiom", "future", "unit7", "mcq"],
+     "supportContent": {
+      "en": "Complete the sentence with a prepositional phrase from the box: [in the long run, between the lines, in advance, at risk, in theory, on and off]",
+      "ar": "أكمل الجملة بعبارة جر من الصندوق: [in the long run, between the lines, in advance, at risk, in theory, on and off]"
+    },
+    "questionText": {
+      "en": "2. It will take some time, but ______, all schools will be equipped with modern technology.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "at risk", "ar": "" },
+      { "en": "in theory", "ar": "" },
+      { "en": "in the long run", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "in the long run",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'In the long run' means eventually or over a long period of time.",
+      "ar": "صحيح! 'In the long run' تعني في نهاية المطاف أو على مدى فترة طويلة من الزمن."
+    },
+    "feedbackIncorrect": {
+      "en": "'At risk' means in danger. 'In theory' refers to a hypothetical situation. 'In the long run' means eventually.",
+      "ar": "'At risk' تعني في خطر. 'In theory' تشير إلى موقف افتراضي. 'In the long run' تعني في نهاية المطاف."
+    }
+  },
+  "unit7_w_15": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "prepositional-phrase", "planning", "booking", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Complete the sentence with a prepositional phrase from the box: [in the long run, between the lines, in advance, at risk, in theory, on and off]",
+      "ar": "أكمل الجملة بعبارة جر من الصندوق: [in the long run, between the lines, in advance, at risk, in theory, on and off]"
+    },
+    "questionText": {
+      "en": "3. We were told by the travel agent to book ______ because the hotel is very popular by many tourists.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "on and off", "ar": "" },
+      { "en": "in advance", "ar": "" },
+      { "en": "between the lines", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "in advance",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'In advance' means to do something before it is needed or before a particular time.",
+      "ar": "صحيح! 'In advance' تعني القيام بشيء ما قبل الحاجة إليه أو قبل وقت معين."
+    },
+    "feedbackIncorrect": {
+      "en": "'On and off' means intermittently. 'Between the lines' means to understand hidden meaning. 'In advance' means beforehand.",
+      "ar": "'On and off' تعني بشكل متقطع. 'Between the lines' تعني فهم المعنى الخفي. 'In advance' تعني مسبقًا."
+    }
+  },
+  "unit7_w_16": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "prepositional-phrase", "idiom", "planning", "reality", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Complete the sentence with a prepositional phrase from the box: [in the long run, between the lines, in advance, at risk, in theory, on and off]",
+      "ar": "أكمل الجملة بعبارة جر من الصندوق: [in the long run, between the lines, in advance, at risk, in theory, on and off]"
+    },
+    "questionText": {
+      "en": "4. His plan seemed very good ______, but it didn’t work out the way we wanted it to.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "in theory", "ar": "" },
+      { "en": "at risk", "ar": "" },
+      { "en": "in the long run", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "in theory",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'In theory' means that something is supposed to be true or work, but might not in reality.",
+      "ar": "صحيح! 'In theory' تعني أن شيئًا ما من المفترض أن يكون صحيحًا أو يعمل، ولكنه قد لا يكون كذلك في الواقع."
+    },
+    "feedbackIncorrect": {
+      "en": "'At risk' means in danger. 'In the long run' means eventually. 'In theory' contrasts a supposed idea with reality.",
+      "ar": "'At risk' تعني في خطر. 'In the long run' تعني في نهاية المطاف. 'In theory' تقارن فكرة مفترضة بالواقع."
+    }
+  },
+  "unit7_w_17": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "prepositional-phrase", "frequency", "relationships", "unit7", "mcq"],
+     "supportContent": {
+      "en": "Complete the sentence with a prepositional phrase from the box: [in the long run, between the lines, in advance, at risk, in theory, on and off]",
+      "ar": "أكمل الجملة بعبارة جر من الصندوق: [in the long run, between the lines, in advance, at risk, in theory, on and off]"
+    },
+    "questionText": {
+      "en": "5. They used to have ______ relationships, but at the moment they’re seeing each other quite often.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "in advance", "ar": "" },
+      { "en": "on and off", "ar": "" },
+      { "en": "in theory", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "on and off",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'On and off' means intermittently or not regularly.",
+      "ar": "صحيح! 'On and off' تعني بشكل متقطع أو ليس بانتظام."
+    },
+    "feedbackIncorrect": {
+      "en": "'In advance' means beforehand. 'In theory' means hypothetically. 'On and off' means intermittently.",
+      "ar": "'In advance' تعني مسبقًا. 'In theory' تعني افتراضيًا. 'On and off' تعني بشكل متقطع."
+    }
+  },
+  "unit7_w_18": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "prepositional-phrase", "danger", "environment", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Complete the sentence with a prepositional phrase from the box: [in the long run, between the lines, in advance, at risk, in theory, on and off]",
+      "ar": "أكمل الجملة بعبارة جر من الصندوق: [in the long run, between the lines, in advance, at risk, in theory, on and off]"
+    },
+    "questionText": {
+      "en": "6. Many tropical plants and animals are ______ of becoming extinct over the next few decades.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "between the lines", "ar": "" },
+      { "en": "in the long run", "ar": "" },
+      { "en": "at risk", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "at risk",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'At risk' means in a situation where something bad is likely to happen.",
+      "ar": "صحيح! 'At risk' تعني في موقف من المحتمل أن يحدث فيه شيء سيء."
+    },
+    "feedbackIncorrect": {
+      "en": "'Between the lines' is about hidden meaning. 'In the long run' is about future outcomes. 'At risk' means in danger.",
+      "ar": "'Between the lines' تتعلق بالمعنى الخفي. 'In the long run' تتعلق بالنتائج المستقبلية. 'At risk' تعني في خطر."
+    }
+  },
+  "unit7_w_19": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conditionals", "type2", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets into the correct tense for the conditional sentence.",
+      "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
+    },
+    "questionText": {
+      "en": "1. If I (start) <input type='text' class='fill-blank-input' data-blank-id='cond_vb1' placeholder='verb form...'> writing poetry, my English teacher would be surprised.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_vb1": { "en": "started", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Second conditional: if + Past Simple, would + base verb.",
+      "ar": "صحيح! الشرط من النوع الثاني: if + ماضي بسيط, would + مصدر الفعل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثاني. جملة الشرط (if clause) تتطلب الماضي البسيط للفعل."
+    }
+  },
+  "unit7_w_20": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conditionals", "type2", "subjunctive", "unit7", "fill-blank"],
+     "supportContent": {
+      "en": "Put the verb in brackets into the correct tense for the conditional sentence.",
+      "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
+    },
+    "questionText": {
+      "en": "2. People would see my photo everywhere if I (be) <input type='text' class='fill-blank-input' data-blank-id='cond_vb2' placeholder='verb form...'> a famous model.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_vb2": { "en": "were", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In second conditionals, 'were' is used for 'to be' with all subjects.",
+      "ar": "صحيح! في الشرط من النوع الثاني، تُستخدم 'were' للفعل 'to be' مع جميع الضمائر."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. في الجمل الشرطية من النوع الثاني، عند استخدام الفعل 'to be' في جملة الشرط (if clause)، نستخدم عادةً 'were' مع جميع الضمائر للتعبير عن موقف غير حقيقي."
+    }
+  },
+  "unit7_w_21": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type3", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets into the correct tense for the conditional sentence.",
+      "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
+    },
+    "questionText": {
+      "en": "3. If the family had saved enough money, they (buy) <input type='text' class='fill-blank-input' data-blank-id='cond_vb3' placeholder='verb form...'> a new flat.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_vb3": { "en": "would have bought", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Third conditional: if + Past Perfect, would have + past participle.",
+      "ar": "صحيح! الشرط من النوع الثالث: if + ماضي تام, would have + تصريف ثالث."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثالث. جملة الشرط (if clause) تستخدم الماضي التام (had saved)، لذا الجملة الرئيسية (main clause) تتطلب 'would have + التصريف الثالث للفعل'."
+    }
+  },
+  "unit7_w_22": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type3", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets into the correct tense for the conditional sentence.",
+      "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
+    },
+    "questionText": {
+      "en": "4. The buildings wouldn’t have burned to ashes if the firemen (come) <input type='text' class='fill-blank-input' data-blank-id='cond_vb4' placeholder='verb form...'> in time.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_vb4": { "en": "had come", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Third conditional: if + Past Perfect, would have + past participle.",
+      "ar": "صحيح! الشرط من النوع الثالث: if + ماضي تام, would have + تصريف ثالث."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثالث. الجملة الرئيسية (main clause) هي 'wouldn’t have burned'، لذا جملة الشرط (if clause) تتطلب الماضي التام للفعل."
+    }
+  },
+  "unit7_w_23": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "conditionals", "type2", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets into the correct tense for the conditional sentence.",
+      "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
+    },
+    "questionText": {
+      "en": "5. If my little sister did something wrong, I’m sure she (tell) <input type='text' class='fill-blank-input' data-blank-id='cond_vb5' placeholder='verb form...'> me.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_vb5": { "en": "would tell", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Second conditional.",
+      "ar": "صحيح! الشرط من النوع الثاني."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثاني. جملة الشرط (if clause) تستخدم الماضي البسيط (did)، والجملة الرئيسية (main clause) تتطلب 'would + مصدر الفعل'."
+    }
+  },
+  "unit7_w_24": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type3", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets into the correct tense for the conditional sentence.",
+      "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
+    },
+    "questionText": {
+      "en": "6. If the policeman had seen the thief, he (arrest) <input type='text' class='fill-blank-input' data-blank-id='cond_vb6' placeholder='verb form...'> him.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond_vb6": { "en": "would have arrested", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Third conditional.",
+      "ar": "صحيح! الشرط من النوع الثالث."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثالث. جملة الشرط (if clause) تستخدم الماضي التام (had seen)، لذا الجملة الرئيسية (main clause) تتطلب 'would have + التصريف الثالث للفعل'."
+    }
+  },
+  "unit7_w_25": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type2", "sentence-transformation", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using a conditional type II or III.",
+      "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
+    },
+    "questionText": {
+      "en": "1. I want to ring a friend now, but I don’t know her phone number.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite1' placeholder='Rewrite as conditional...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rewrite1": { "en": "If I knew her phone number, I would ring her now.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type II conditional for a present unreal situation.",
+      "ar": "صحيح! هذا يستخدم الشرط من النوع الثاني لموقف حالي غير حقيقي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الجملة الأصلية تصف موقفًا حاليًا غير ممكن. استخدم الشرط من النوع الثاني: If + ماضي بسيط (لعكس الواقع الحالي), would + مصدر الفعل. عكس 'don’t know' هو 'knew'."
+    }
+  },
+  "unit7_w_26": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "conditionals", "type3", "sentence-transformation", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using a conditional type II or III.",
+      "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
+    },
+    "questionText": {
+      "en": "2. The poor man couldn’t build his house because the officials stopped him.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite2' placeholder='Rewrite as conditional...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rewrite2": { "en": "If the officials hadn't stopped him, the poor man could have built his house.", "ar": "" }
+
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses a Type III conditional for a past unreal situation.",
+      "ar": "صحيح! هذا يستخدم الشرط من النوع الثالث لموقف ماضٍ غير حقيقي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الجملة الأصلية تصف موقفًا ماضيًا لم يحدث بشكل مختلف. استخدم الشرط من النوع الثالث: If + ماضي تام (لعكس الواقع الماضي), would/could have + التصريف الثالث. عكس 'stopped him' هو 'hadn't stopped him'."
+    }
+  },
+  "unit7_w_27": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "conditionals", "type3", "sentence-transformation", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using a conditional type II or III.",
+      "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
+    },
+    "questionText": {
+      "en": "3. Our team didn’t win the match, so they didn’t move up.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite3' placeholder='Rewrite as conditional...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rewrite3": { "en": "If our team had won the match, they would have moved up.", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Type III conditional.",
+      "ar": "صحيح! الشرط من النوع الثالث."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف ماضٍ غير حقيقي. استخدم الشرط من النوع الثالث. عكس 'didn’t win' هو 'had won'. النتيجة الافتراضية هي 'would have moved up'."
+    }
+  },
+  "unit7_w_28": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type2", "sentence-transformation", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using a conditional type II or III.",
+      "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
+    },
+    "questionText": {
+      "en": "4. Christine isn’t on holiday in Italy because she is in hospital now.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite4' placeholder='Rewrite as conditional...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rewrite4": { "en": "If Christine weren't in hospital now, she would be on holiday in Italy.", "ar": "" }
+
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Type II conditional.",
+      "ar": "صحيح! الشرط من النوع الثاني."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف حاضر غير حقيقي. استخدم الشرط من النوع الثاني. عكس 'is in hospital' هو 'weren't in hospital'. النتيجة الافتراضية هي 'would be on holiday'."
+    }
+  },
+  "unit7_w_29": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type2", "sentence-transformation", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using a conditional type II or III.",
+      "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
+    },
+    "questionText": {
+      "en": "5. The streets in our town are very crowded, so I can’t drive my car.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite5' placeholder='Rewrite as conditional...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "rewrite5": { "en": "If the streets in our town weren't very crowded, I could drive my car.", "ar": "" }
+   
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Type II conditional.",
+      "ar": "صحيح! الشرط من النوع الثاني."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف حاضر غير حقيقي. استخدم الشرط من النوع الثاني. عكس 'are very crowded' هو 'weren't very crowded'. النتيجة الافتراضية هي 'could drive'."
+    }
+  }
+}
+
+

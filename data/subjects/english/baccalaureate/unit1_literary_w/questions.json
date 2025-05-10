@@ -1,0 +1,889 @@
+{
+  "unit1_scientific_w_1": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "matching", "definitions", "unit1", "drag_drop"],
+    "supportContent": {
+      "en": "Drag each definition to match the corresponding vocabulary word.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the vocabulary words with their meanings:",
+      "ar": ""
+    },
+    "draggableItems": [
+      { "id": "item_a", "text": { "en": "a. a mark that something has been in a place", "ar": "أ. علامة على وجود شيء ما في مكان ما" } },
+      { "id": "item_b", "text": { "en": "b. not serious, important or valuable", "ar": "ب. ليس جاداً أو مهماً أو ذا قيمة" } },
+      { "id": "item_c", "text": { "en": "c. too much pride in one's self", "ar": "ج. الكبرياء المفرط بالنفس" } },
+      { "id": "item_d", "text": { "en": "d. to receive a characteristic in someone’s behaviour", "ar": "د. اكتساب صفة في سلوك شخص ما" } },
+      { "id": "item_e", "text": { "en": "e. modesty", "ar": "هـ. التواضع"} },
+      { "id": "item_f", "text": { "en": "f. jealousy or desire for something which belongs to another person", "ar": "و. الغيرة أو الرغبة في شيء يخص شخصًا آخر" } },
+      { "id": "item_g", "text": { "en": "g. allowing people to do, say, or believe what they want", "ar": "ز. السماح للناس بفعل أو قول أو اعتقاد ما يريدون" } }
+    ],
+    "dropZones": [
+      { "id": "zone_1", "label": { "en": "1. trivial:", "ar": "1. تافه:" }, "accepts": "item_b" },
+      { "id": "zone_2", "label": { "en": "2. inherit:", "ar": "2. يرث:" }, "accepts": "item_d" },
+      { "id": "zone_3", "label": { "en": "3. vanity:", "ar": "3. غرور:" }, "accepts": "item_c" },
+      { "id": "zone_4", "label": { "en": "4. tolerant:", "ar": "4. متسامح:" }, "accepts": "item_g" },
+      { "id": "zone_5", "label": { "en": "5. envy:", "ar": "5. حسد:" }, "accepts": "item_f" },
+      { "id": "zone_6", "label": { "en": "6. humility:", "ar": "6. تواضع:" }, "accepts": "item_e" },
+      { "id": "zone_7", "label": { "en": "7. trace:", "ar": "7. أثر:" }, "accepts": "item_a" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! You've matched all the words to their correct definitions.",
+      "ar": "ممتاز! لقد طابقت جميع الكلمات مع تعريفاتها الصحيحة."
+    },
+    "feedbackIncorrect": {
+      "en": "Some words are mismatched. Check the definitions again carefully. Remember: trivial (unimportant), inherit (receive from others), vanity (excessive pride), tolerant (accepting), envy (jealousy), humility (modesty), trace (a mark).",
+      "ar": "بعض الكلمات غير متطابقة. تحقق من التعريفات مرة أخرى بعناية. تذكر: trivial (غير مهم)، inherit (يتلقى من الآخرين)، vanity (كبرياء مفرط)، tolerant (متسامح/متقبل)، envy (حسد/غيرة)، humility (تواضع)، trace (أثر/علامة)."
+    }
+  },
+  "unit1_scientific_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "We need to ______ people so that they understand the importance of a good and a healthy diet.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "education", "ar": "" }, 
+      { "en": "educate", "ar": "" }   
+    ],
+    "correctAnswer": { 
+      "en": "educate",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Educate' is the verb needed after 'to'. 'Education' is a noun.",
+      "ar": "صحيح! 'educate' هو الفعل المطلوب بعد 'to'. 'education' هو اسم."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. The structure 'need to...' requires a verb infinitive. 'Educate' is the verb meaning 'to teach', while 'education' is the noun referring to the process of teaching or learning.",
+      "ar": "ليس تماماً. التركيب 'need to...' يتطلب صيغة المصدر للفعل. 'Educate' هو الفعل الذي يعني 'يعلم'، بينما 'education' هو الاسم الذي يشير إلى عملية التعليم أو التعلم."
+    }
+  },
+  "unit1_scientific_w_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "She hated to say the words for fear of causing ______ to him.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "pain", "ar": "" },    
+      { "en": "painful", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "pain",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Pain' is the noun needed as the object of 'causing'. 'Painful' is an adjective.",
+      "ar": "ممتاز! 'Pain' هو الاسم المطلوب كمفعول به لـ 'causing'. 'Painful' هي صفة."
+    },
+    "feedbackIncorrect": {
+      "en": "Check the part of speech needed. 'Causing' is a gerund here acting like a verb, and it needs a noun object to describe what is being caused. 'Pain' is the noun, while 'painful' is the adjective.",
+      "ar": "تحقق من نوع الكلمة المطلوبة. 'Causing' هو اسم فعل هنا يعمل كفعل، ويحتاج إلى اسم كمفعول به لوصف ما يتم التسبب به. 'Pain' هو الاسم، بينما 'painful' هي الصفة."
+    }
+  },
+  "unit1_scientific_w_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The situation is so uncertain that it is hard to make a confident ______.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "predictable", "ar": "" }, 
+      { "en": "prediction", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "prediction",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! 'Prediction' is the noun required after the adjective 'confident' and the article 'a'. 'Predictable' is an adjective.",
+      "ar": "مثالي! 'Prediction' هو الاسم المطلوب بعد الصفة 'confident' وأداة التعريف 'a'. 'Predictable' هي صفة."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the sentence structure 'make a confident...'. You need a noun after the article 'a' and the adjective 'confident'. 'Prediction' is the noun (a statement about the future), while 'predictable' is the adjective (able to be predicted).",
+      "ar": "فكر في بنية الجملة 'make a confident...'. أنت بحاجة إلى اسم بعد أداة التعريف 'a' والصفة 'confident'. 'Prediction' هو الاسم (تنبؤ بالمستقبل)، بينما 'predictable' هي الصفة (يمكن التنبؤ به)."
+    }
+  },
+  "unit1_scientific_w_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The airline company ______ to passengers for the delay.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "apologised", "ar": "" },  
+      { "en": "apology", "ar": "" }    
+    ],
+    "correctAnswer": { 
+      "en": "apologised",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Well done! 'Apologised' is the past tense verb needed as the main action of the sentence. 'Apology' is a noun.",
+      "ar": "أحسنت! 'Apologised' هو فعل الماضي المطلوب كفعل رئيسي للجملة. 'Apology' هو اسم."
+    },
+    "feedbackIncorrect": {
+      "en": "The sentence needs a main verb to say what the 'airline company' did. 'Apologised' is the past tense verb. 'Apology' is the noun meaning a statement of regret.",
+      "ar": "الجملة تحتاج إلى فعل رئيسي لتوضح ماذا فعلت 'شركة الطيران'. 'Apologised' هو فعل الماضي. 'Apology' هو الاسم الذي يعني بيان أسف."
+    }
+  },
+  "unit1_scientific_w_6": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "In recent years, Syria has undergone a lot of economic ______.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "prosperity", "ar": "" }, 
+      { "en": "prosperous", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "prosperity",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Prosperity' is the noun needed after the adjective 'economic'. 'Prosperous' is an adjective.",
+      "ar": "صحيح! 'Prosperity' هو الاسم المطلوب بعد الصفة 'economic'. 'Prosperous' هي صفة."
+    },
+    "feedbackIncorrect": {
+      "en": "The adjective 'economic' needs to describe a noun. 'Prosperity' is the noun meaning wealth or success. 'Prosperous' is the adjective meaning wealthy or successful.",
+      "ar": "الصفة 'economic' تحتاج إلى وصف اسم. 'Prosperity' هو الاسم الذي يعني الثروة أو النجاح. 'Prosperous' هي الصفة التي تعني ثري أو ناجح."
+    }
+  },
+  "unit1_scientific_w_7": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Many old people have more ______ than others when dealing with the young generation.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "tolerant", "ar": "" }, 
+      { "en": "tolerance", "ar": "" } 
+    ],
+    "correctAnswer": { 
+      "en": "tolerance",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Great! 'Tolerance' is the noun required after 'more'. 'Tolerant' is an adjective.",
+      "ar": "رائع! 'Tolerance' هو الاسم المطلوب بعد 'more'. 'Tolerant' هي صفة."
+    },
+    "feedbackIncorrect": {
+      "en": "The structure 'have more...' needs a noun to indicate what they possess more of. 'Tolerance' is the noun (the quality of being tolerant). 'Tolerant' is the adjective describing someone who has tolerance.",
+      "ar": "التركيب 'have more...' يحتاج إلى اسم للإشارة إلى ما يمتلكونه أكثر. 'Tolerance' هو الاسم (صفة التسامح). 'Tolerant' هي الصفة التي تصف شخصًا لديه تسامح."
+    }
+  },
+  "unit1_scientific_w_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verbs", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Choose the suitable phrasal verb from the list (get into, run into, keep up with, follow through, fit in, reach out to) and use it in the correct form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. You can always <input type='text' class='fill-blank-input' data-blank-id='reach_out_blank' placeholder='...'> me if you are feeling tired with your school work.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "reach_out_blank": { 
+        "en": "reach out to", 
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Reach out to' means to try to communicate with someone to offer or ask for help.",
+      "ar": "صحيح! 'Reach out to' تعني محاولة التواصل مع شخص ما لتقديم أو طلب المساعدة."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. Which phrasal verb means to contact someone, especially to ask for help? The correct answer is 'reach out to'.",
+      "ar": "ليس تماماً. أي فعل اصطلاحي يعني الاتصال بشخص ما، خاصة لطلب المساعدة؟ الإجابة الصحيحة هي 'reach out to'."
+    }
+  },
+  "unit1_scientific_w_9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verbs", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Choose the suitable phrasal verb from the list (get into, run into, keep up with, follow through, fit in, reach out to) and use it in the correct form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. When I travelled to Spain, I tried hard to <input type='text' class='fill-blank-input' data-blank-id='fit_in_blank' placeholder='...'> with the locals.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "fit_in_blank": { 
+        "en": "fit in",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Fit in' means to be accepted by a group of people because you are similar to them or they approve of you.",
+      "ar": "ممتاز! 'Fit in' تعني أن تكون مقبولاً من قبل مجموعة من الناس لأنك تشبههم أو لأنهم يوافقون عليك."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about trying to be accepted or feel comfortable within a group. Which phrasal verb means to be accepted or belong? The correct answer is 'fit in'.",
+      "ar": "فكر في محاولة أن تكون مقبولاً أو تشعر بالراحة داخل مجموعة. أي فعل اصطلاحي يعني أن تكون مقبولاً أو تنتمي؟ الإجابة الصحيحة هي 'fit in'."
+    }
+  },
+  "unit1_scientific_w_10": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["vocabulary", "phrasal-verbs", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Choose the suitable phrasal verb from the list (get into, run into, keep up with, follow through, fit in, reach out to) and use it in the correct form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The group had one successful song but failed to <input type='text' class='fill-blank-input' data-blank-id='follow_through_blank' placeholder='...'> with another hit record.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "follow_through_blank": { 
+        "en": "follow through",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! 'Follow through' means to continue doing something until it has been completed, especially something you have already started.",
+      "ar": "مثالي! 'Follow through' تعني الاستمرار في فعل شيء ما حتى يكتمل، خاصة شيء بدأته بالفعل."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider what it means to continue something you started until the end. Which phrasal verb describes completing a process or plan? The correct answer is 'follow through'.",
+      "ar": "فكر فيما يعنيه الاستمرار في شيء بدأته حتى النهاية. أي فعل اصطلاحي يصف إكمال عملية أو خطة؟ الإجابة الصحيحة هي 'follow through'."
+    }
+  },
+  "unit1_scientific_w_11": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verbs", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Choose the suitable phrasal verb from the list (get into, run into, keep up with, follow through, fit in, reach out to) and use it in the correct form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Nowadays, students can <input type='text' class='fill-blank-input' data-blank-id='keep_up_blank' placeholder='...'> the latest news by using the Internet.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "keep_up_blank": { 
+        "en": "keep up with",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Well done! 'Keep up with' means to stay informed about something or to move at the same speed as something.",
+      "ar": "أحسنت! 'Keep up with' تعني البقاء على اطلاع بشيء ما أو التحرك بنفس سرعة شيء ما."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about staying informed or updated about current events. Which phrasal verb means to maintain the same level or speed? The correct answer is 'keep up with'.",
+      "ar": "فكر في البقاء على اطلاع أو معرفة آخر المستجدات حول الأحداث الجارية. أي فعل اصطلاحي يعني الحفاظ على نفس المستوى أو السرعة؟ الإجابة الصحيحة هي 'keep up with'."
+    }
+  },
+  "unit1_scientific_w_12": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verbs", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Choose the suitable phrasal verb from the list (get into, run into, keep up with, follow through, fit in, reach out to) and use it in the correct form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. She has been <input type='text' class='fill-blank-input' data-blank-id='get_into_blank' placeholder='...'> yoga recently.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "get_into_blank": { 
+        "en": "getting into",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Get into' (used here as 'getting into' for the present perfect continuous) means to become interested in or involved with an activity.",
+      "ar": "صحيح! 'Get into' (مستخدمة هنا بصيغة 'getting into' للمضارع التام المستمر) تعني أن تصبح مهتمًا بنشاط ما أو منخرطًا فيه."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the meaning of starting a new hobby or interest. Which phrasal verb means to become interested or involved in something? Remember to use the correct form for the present perfect continuous ('has been...'). The correct answer is 'getting into'.",
+      "ar": "فكر في معنى البدء في هواية أو اهتمام جديد. أي فعل اصطلاحي يعني أن تصبح مهتمًا أو منخرطًا في شيء ما؟ تذكر استخدام الصيغة الصحيحة للمضارع التام المستمر ('has been...'). الإجابة الصحيحة هي 'getting into'."
+    }
+  },
+  "unit1_scientific_w_13": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verbs", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Choose the suitable phrasal verb from the list (get into, run into, keep up with, follow through, fit in, reach out to) and use it in the correct form to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Our company has <input type='text' class='fill-blank-input' data-blank-id='run_into_blank' placeholder='...'> financial difficulties this month.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "run_into_blank": { 
+        "en": "run into",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Great! 'Run into' (used here in its past participle form 'run' for the present perfect) means to experience difficulties or problems unexpectedly.",
+      "ar": "رائع! 'Run into' (مستخدمة هنا بصيغة اسم المفعول 'run' للمضارع التام) تعني مواجهة صعوبات أو مشاكل بشكل غير متوقع."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about experiencing unexpected problems or difficulties. Which phrasal verb means to encounter something unexpectedly? Remember to use the correct form for the present perfect ('has...'). The correct answer is 'run into' (the past participle of run is run).",
+      "ar": "فكر في مواجهة مشاكل أو صعوبات غير متوقعة. أي فعل اصطلاحي يعني مواجهة شيء ما بشكل غير متوقع؟ تذكر استخدام الصيغة الصحيحة للمضارع التام ('has...'). الإجابة الصحيحة هي 'run into' (اسم المفعول للفعل run هو run)."
+    }
+  },
+  "unit1_scientific_w_14": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "When teaching my daughter how to drive, I told her if she didn’t hit the ______ in time she would ______ the car’s side mirror.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "break / brake", "ar": "" }, 
+      { "en": "brake / break", "ar": "" }, 
+      { "en": "break / break", "ar": "" }, 
+      { "en": "brake / brake", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "brake / break",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Brake' is the device used to stop a vehicle. 'Break' means to damage or shatter.",
+      "ar": "صحيح! 'Brake' هي الجهاز المستخدم لإيقاف مركبة. 'Break' تعني إتلاف أو تحطيم."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. You 'hit the brake' to stop the car. If you don't stop in time, you might 'break' something (damage it).",
+      "ar": "ليس صحيحاً تماماً. أنت 'تضغط على المكابح (brake)' لإيقاف السيارة. إذا لم تتوقف في الوقت المناسب، قد 'تحطم (break)' شيئًا ما (تتلفه)."
+    }
+  },
+  "unit1_scientific_w_15": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "If you ______ rotten food, you will get arrested and end up in a prison ______.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "cell / sell", "ar": "" }, 
+      { "en": "sell / cell", "ar": "" }, 
+      { "en": "cell / cell", "ar": "" }, 
+      { "en": "sell / sell", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "sell / cell",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Sell' means to exchange something for money. A 'cell' is a small room, like in a prison.",
+      "ar": "ممتاز! 'Sell' تعني تبادل شيء مقابل المال. 'Cell' هي غرفة صغيرة، مثل تلك الموجودة في السجن."
+    },
+    "feedbackIncorrect": {
+      "en": "Remember the meanings: 'Sell' is the action of exchanging goods for money. A 'cell' is a small room, often in a prison. Which word fits the action and which fits the location?",
+      "ar": "تذكر المعاني: 'Sell' هو فعل تبادل البضائع بالمال. 'Cell' هي غرفة صغيرة، غالبًا في السجن. أي كلمة تناسب الفعل وأي كلمة تناسب الموقع؟"
+    }
+  },
+  "unit1_scientific_w_16": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "To bake a ______-shaped cake, you’ll need some ______.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "flour / flower", "ar": "" }, 
+      { "en": "flower / flour", "ar": "" }, 
+      { "en": "flour / flour", "ar": "" }, 
+      { "en": "flower / flower", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "flower / flour",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! A 'flower' is the coloured part of a plant. 'Flour' is the powder used for baking.",
+      "ar": "مثالي! 'Flower' هي الجزء الملون من النبات. 'Flour' هو المسحوق المستخدم للخبز."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the shape (like part of a plant) and the ingredient for baking. A 'flower' is the pretty part of a plant. 'Flour' is the powder made from grain.",
+      "ar": "فكر في الشكل (مثل جزء من نبات) والمكون للخبز. 'Flower' هي الجزء الجميل من النبات. 'Flour' هو المسحوق المصنوع من الحبوب."
+    }
+  },
+  "unit1_scientific_w_17": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I wanted to sit ______, so I could ______ the singer performing without any distractions.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "here / hear", "ar": "" }, 
+      { "en": "hear / here", "ar": "" }, 
+      { "en": "here / here", "ar": "" }, 
+      { "en": "hear / hear", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "here / hear",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Well done! 'Here' refers to a place or location. 'Hear' means to perceive sound with your ears.",
+      "ar": "أحسنت! 'Here' تشير إلى مكان أو موقع. 'Hear' تعني إدراك الصوت بأذنيك."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the location (where you sit) and the action (what you do with your ears). 'Here' indicates this place. 'Hear' is the verb for listening.",
+      "ar": "فكر في الموقع (حيث تجلس) والفعل (ما تفعله بأذنيك). 'Here' تشير إلى هذا المكان. 'Hear' هو الفعل الخاص بالاستماع."
+    }
+  },
+  "unit1_scientific_w_18": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "We have one ______ before ______ appointment with the real estate agent.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "our / hour", "ar": "" }, 
+      { "en": "hour / our", "ar": "" }, 
+      { "en": "our / our", "ar": "" }, 
+      { "en": "hour / hour", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "hour / our",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! An 'hour' is a unit of time (60 minutes). 'Our' is a possessive adjective showing ownership.",
+      "ar": "صحيح! 'Hour' هي وحدة زمنية (60 دقيقة). 'Our' هي صفة ملكية تظهر الملكية."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the unit of time and the word showing possession. An 'hour' is 60 minutes. 'Our' means belonging to us.",
+      "ar": "فكر في وحدة الزمن والكلمة التي تظهر الملكية. 'Hour' هي 60 دقيقة. 'Our' تعني ينتمي إلينا."
+    }
+  },
+  "unit1_scientific_w_19": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The ______ is on his way to the castle, but traveling at ______ is very dangerous.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "night / knight", "ar": "" }, 
+      { "en": "knight / night", "ar": "" }, 
+      { "en": "night / night", "ar": "" }, 
+      { "en": "knight / knight", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "knight / night",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Great! A 'knight' was a soldier in armor in the past. 'Night' is the time when it is dark.",
+      "ar": "رائع! 'Knight' كان جنديًا يرتدي درعًا في الماضي. 'Night' هو الوقت الذي يكون فيه الظلام."
+    },
+    "feedbackIncorrect": {
+      "en": "Who goes to castles in stories? What time of day is dark and dangerous for travel? A 'knight' is a medieval soldier. 'Night' is the period of darkness.",
+      "ar": "من يذهب إلى القلاع في القصص؟ أي وقت من اليوم يكون مظلمًا وخطيرًا للسفر؟ 'Knight' هو جندي من العصور الوسطى. 'Night' هي فترة الظلام."
+    }
+  },
+  "unit1_scientific_w_20": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "My little brother feels excited every time he ______ a ______ turtle.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "seas / see", "ar": "" }, 
+      { "en": "sees / sea", "ar": "" }, 
+      { "en": "seas / sea", "ar": "" }, 
+      { "en": "sees / see", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "sees / sea",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Sees' is the third person present tense of the verb 'to see'. The 'sea' is the large body of salt water.",
+      "ar": "ممتاز! 'Sees' هي صيغة المضارع للشخص الثالث من الفعل 'to see'. 'Sea' هي المسطح الكبير من الماء المالح."
+    },
+    "feedbackIncorrect": {
+      "en": "What action does the brother do (verb)? Where does the turtle live (noun)? 'Sees' is the verb form for 'he'. The 'sea' is the ocean.",
+      "ar": "ما هو الفعل الذي يقوم به الأخ (فعل)؟ أين تعيش السلحفاة (اسم)؟ 'Sees' هي صيغة الفعل لـ 'he'. 'Sea' هو المحيط."
+    }
+  },
+  "unit1_scientific_w_21": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "My ______ is 13 years old. He likes to spend time outside in the ______.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "sun / son", "ar": "" }, 
+      { "en": "son / sun", "ar": "" }, 
+      { "en": "sun / sun", "ar": "" }, 
+      { "en": "son / son", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "son / sun",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A 'son' is a male child. The 'sun' is the star that provides light and heat.",
+      "ar": "صحيح! 'Son' هو طفل ذكر. 'Sun' هي النجم الذي يوفر الضوء والحرارة."
+    },
+    "feedbackIncorrect": {
+      "en": "Who is 13 years old (a male child)? What shines outside? 'Son' is a male offspring. 'Sun' is the star in the sky.",
+      "ar": "من يبلغ من العمر 13 عامًا (طفل ذكر)؟ ما الذي يضيء في الخارج؟ 'Son' هو الابن الذكر. 'Sun' هي النجم في السماء."
+    }
+  },
+  "unit1_scientific_w_22": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "homophones", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct pair of homophones to complete the sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I don’t know ______ to bring a jacket or not. The ______ looks unpredictable today.",
+      "ar": ""
+    },
+    "options": [ 
+      { "en": "whether / weather", "ar": "" }, 
+      { "en": "weather / whether", "ar": "" }, 
+      { "en": "whether / whether", "ar": "" }, 
+      { "en": "weather / weather", "ar": "" }  
+    ],
+    "correctAnswer": { 
+      "en": "whether / weather",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Whether' introduces a choice or possibility (bring a jacket or not). 'Weather' refers to the atmospheric conditions.",
+      "ar": "صحيح! 'Whether' تقدم خيارًا أو إمكانية (إحضار سترة أم لا). 'Weather' تشير إلى الظروف الجوية."
+    },
+    "feedbackIncorrect": {
+      "en": "The first blank expresses uncertainty or a choice between two options. The second blank refers to the conditions outside (rain, sun, etc.). 'Whether' is used for choices/doubt. 'Weather' is about climate conditions.",
+      "ar": "الفراغ الأول يعبر عن عدم اليقين أو خيار بين بديلين. الفراغ الثاني يشير إلى الظروف في الخارج (مطر، شمس، إلخ). 'Whether' تُستخدم للخيارات/الشك. 'Weather' تتعلق بظروف المناخ."
+    }
+  },
+  "unit1_scientific_w_23": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "present-perfect-continuous", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+      "en": "Complete the dialogue using the Present Perfect Simple or Continuous form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "A: Excuse me. <input type='text' class='fill-blank-input' data-blank-id='leave_blank' placeholder='(someone leave)'> this mobile here?",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "leave_blank": { 
+        "en": "Has someone left",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Perfect Simple ('Has someone left') is used because the focus is on the present result (the mobile is here) of a possibly recent, unspecified past action.",
+      "ar": "صحيح! يُستخدم المضارع التام البسيط ('Has someone left') لأن التركيز ينصب على النتيجة الحالية (الجوال هنا) لفعل ماضٍ محتمل حديث وغير محدد."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. The question focuses on the present result (the phone being here). Which tense connects an unspecified past action to a present result? Use the Present Perfect Simple.",
+      "ar": "ليس تماماً. السؤال يركز على النتيجة الحالية (وجود الهاتف هنا). أي زمن يربط فعلًا ماضيًا غير محدد بنتيجة حاضرة؟ استخدم المضارع التام البسيط."
+    }
+  },
+  "unit1_scientific_w_24": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "present-perfect-continuous", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+      "en": "Complete the dialogue using the Present Perfect Simple or Continuous form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "B: I don’t know. I <input type='text' class='fill-blank-input' data-blank-id='sit_blank' placeholder='(sit)'> here all afternoon, but I <input type='text' class='fill-blank-input' data-blank-id='notice_blank' placeholder='(not notice)'> it until now.",
+      "ar": ""
+    },
+    "correctAnswers": {  
+      "sit_blank": { "en": "have been sitting", "ar": "" },  
+      "notice_blank": { "en": "haven't noticed", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'have been sitting' (Present Perfect Continuous) is used for the duration ('all afternoon'). 'haven't noticed' (Present Perfect Simple) is used because 'noticing' is a short action (or lack of action) viewed up to the present moment.",
+      "ar": "ممتاز! 'have been sitting' (المضارع التام المستمر) يُستخدم للمدة ('all afternoon'). 'haven't noticed' (المضارع التام البسيط) يُستخدم لأن 'noticing' هو فعل قصير (أو عدم وجود فعل) يُنظر إليه حتى اللحظة الحالية."
+    },
+    "feedbackIncorrect": {
+      "en": "Check both verbs. For the action over a duration ('all afternoon'), use the Present Perfect Continuous. For the short action of 'noticing' (or not) up to the present, use the Present Perfect Simple.",
+      "ar": "تحقق من كلا الفعلين. للفعل الذي استمر لمدة ('all afternoon')، استخدم المضارع التام المستمر. للفعل القصير 'noticing' (أو عدمه) حتى الوقت الحاضر، استخدم المضارع التام البسيط."
+    }
+  },
+  "unit1_scientific_w_25": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "present-perfect-continuous", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+      "en": "Complete the dialogue using the Present Perfect Simple or Continuous form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "A: Excuse me. <input type='text' class='fill-blank-input' data-blank-id='stand_blank' placeholder='(you stand)'> in this queue for a long time?",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "stand_blank": { "en": "Have you been standing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! Present Perfect Continuous ('Have you been standing') is used to ask about the duration ('for a long time') of an action that leads up to the present.",
+      "ar": "مثالي! يُستخدم المضارع التام المستمر ('Have you been standing') للسؤال عن مدة ('for a long time') فعل يستمر حتى الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "The phrase 'for a long time' indicates duration continuing up to now. Which tense is used to ask about the duration of an activity leading to the present? Use the Present Perfect Continuous.",
+      "ar": "عبارة 'for a long time' تشير إلى مدة تستمر حتى الآن. أي زمن يُستخدم للسؤال عن مدة نشاط يؤدي إلى الحاضر؟ استخدم المضارع التام المستمر."
+    }
+  },
+  "unit1_scientific_w_26": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "present-perfect-continuous", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+      "en": "Complete the dialogue using the Present Perfect Simple or Continuous form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "B: Yes, I <input type='text' class='fill-blank-input' data-blank-id='queue_blank' placeholder='(queue)'> for almost an hour.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "queue_blank": { "en": "have been queuing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Well done! Present Perfect Continuous ('have been queuing') is used to emphasize the duration ('for almost an hour') of the activity leading up to the present.",
+      "ar": "أحسنت! يُستخدم المضارع التام المستمر ('have been queuing') للتأكيد على مدة ('for almost an hour') النشاط الذي يؤدي إلى الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "The phrase 'for almost an hour' emphasizes the duration of the waiting. Which tense highlights the duration of an action continuing up to the present? Use the Present Perfect Continuous.",
+      "ar": "عبارة 'for almost an hour' تؤكد على مدة الانتظار. أي زمن يبرز مدة فعل مستمر حتى الحاضر؟ استخدم المضارع التام المستمر."
+    }
+  },
+  "unit1_scientific_w_27": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "present-perfect-simple", "present-perfect-continuous", "unit1", "fill-blank", "dialogue"],
+    "supportContent": {
+      "en": "Complete the dialogue using the Present Perfect Simple or Continuous form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "A: Why are you crying?\nB: Because my brother <input type='text' class='fill-blank-input' data-blank-id='have_accident_blank' placeholder='(have)'> an accident. He <input type='text' class='fill-blank-input' data-blank-id='break_legs_blank' placeholder='(break)'> both of his legs.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "have_accident_blank": { "en": "has had", "ar": "" },
+      "break_legs_blank": { "en": "has broken", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Perfect Simple ('has had', 'has broken') is used for both verbs because the focus is on the completed past actions that have a clear result in the present (crying, broken legs).",
+      "ar": "صحيح! يُستخدم المضارع التام البسيط ('has had', 'has broken') لكلا الفعلين لأن التركيز ينصب على الأفعال الماضية المكتملة التي لها نتيجة واضحة في الحاضر (البكاء، كسر الساقين)."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the connection to the present result (crying). Both the accident and the breaking of the legs are completed events that explain the present situation. Use the Present Perfect Simple for completed actions with present results.",
+      "ar": "فكر في الارتباط بالنتيجة الحالية (البكاء). كل من الحادث وكسر الساقين هما حدثان مكتملان يفسران الموقف الحالي. استخدم المضارع التام البسيط للأفعال المكتملة ذات النتائج الحالية."
+    }
+  },
+  "unit1_scientific_w_28": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "giving-advice", "modals", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the advice using the words and phrases in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. <input type='text' class='fill-blank-input' data-blank-id='advice1_blank' placeholder='(not / think / good / idea)'> leave the university. If you’ve studied hard, you probably have nothing to worry about.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "advice1_blank": { 
+          "en": ["i don't think it's a good idea to", "i do not think it is a good idea to"], 
+          "ar": ""
+       }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This phrase politely expresses a negative opinion or advice.",
+      "ar": "صحيح! هذه العبارة تعبر بأدب عن رأي سلبي أو نصيحة."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about how to express a negative opinion or suggestion politely. Combine 'not', 'think', 'good', and 'idea' into a common advice-giving phrase. Common phrases start with 'I don't think...'.",
+      "ar": "فكر في كيفية التعبير عن رأي سلبي أو اقتراح بأدب. اجمع بين 'not' و 'think' و 'good' و 'idea' في عبارة شائعة لتقديم النصيحة. تبدأ العبارات الشائعة بـ 'I don't think...'."
+    }
+  },
+  "unit1_scientific_w_29": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "giving-advice", "questions", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the advice using the words and phrases in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. <input type='text' class='fill-blank-input' data-blank-id='advice2_blank' placeholder='(why / you / try)'> talking to your university professor. He can probably help?",
+      "ar": ""
+    },
+    "correctAnswers": {  
+      "advice2_blank": {
+           "en": ["why don't you try", "why do not you try"],
+           "ar": ""
+       }
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! 'Why don't you try...?' is a common and polite way to make a suggestion.",
+      "ar": "ممتاز! 'Why don't you try...?' هي طريقة شائعة ومهذبة لتقديم اقتراح."
+    },
+    "feedbackIncorrect": {
+      "en": "How can you make a suggestion using 'why'? Form a question that suggests an action, often starting with 'Why don't...'.",
+      "ar": "كيف يمكنك تقديم اقتراح باستخدام 'why'؟ كوّن سؤالاً يقترح فعلاً، غالبًا ما يبدأ بـ 'Why don't...'."
+    }
+  },
+  "unit1_scientific_w_30": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "giving-advice", "modals", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the advice using the words and phrases in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='advice3_blank' placeholder='(think / should)'> try some relaxation techniques to help you with the exam stress.",
+      "ar": ""
+    },
+    "correctAnswers": {  
+      "advice3_blank": {  
+         "en": ["you should", "i think you should"],
+         "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Perfect! 'You should...' or 'I think you should...' are standard ways to give direct advice.",
+      "ar": "مثالي! 'I think you should...' أو ببساطة 'You should...' هما طريقتان قياسيتان لتقديم نصيحة مباشرة."
+    },
+    "feedbackIncorrect": {
+      "en": "Use the modal verb 'should' to give advice. You can soften it by adding 'I think...'.",
+      "ar": "استخدم الفعل المساعد 'should' لتقديم النصيحة. يمكنك تلطيفها بإضافة 'I think...'."
+    }
+  },
+  "unit1_scientific_w_31": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "giving-advice", "unit1", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the advice using the words and phrases in the correct form.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. <input type='text' class='fill-blank-input' data-blank-id='advice4_blank' placeholder='(good / idea)'> go to the exams even if you feel like you won’t pass them. You should at least try. Good luck!",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "advice4_blank": {
+           "en": ["it's a good idea to", "it is a good idea to"],
+           "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Well done! 'It's a good idea to...' is a common phrase for making a positive suggestion or giving advice.",
+      "ar": "أحسنت! 'It's a good idea to...' هي عبارة شائعة لتقديم اقتراح إيجابي أو نصيحة."
+    },
+    "feedbackIncorrect": {
+      "en": "How can you state that something is a positive suggestion? Combine 'good' and 'idea' into a standard advice phrase starting with 'It's...'.",
+      "ar": "كيف يمكنك أن تذكر أن شيئًا ما هو اقتراح إيجابي؟ اجمع بين 'good' و 'idea' في عبارة نصيحة قياسية تبدأ بـ 'It's...'."
+    }
+  }
+}

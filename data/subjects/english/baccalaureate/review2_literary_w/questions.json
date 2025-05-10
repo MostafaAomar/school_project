@@ -1,0 +1,418 @@
+
+  {
+  "review2_w_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-going-to", "intention", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form.",
+      "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
+    },
+    "questionText": {
+      "en": "1. Joe has inherited a lot of money. He <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder='(buy)'> a new villa next month.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb1": { "en": "is going to buy", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'is going to buy' expresses a future plan or intention based on a present situation.",
+      "ar": "صحيح! تُستخدم 'is going to buy' للتعبير عن خطة أو نية مستقبلية بناءً على موقف حالي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن خطة أو نية مستقبلية بناءً على وضع حالي (وراثة المال)، نستخدم عادةً 'be going to + المصدر'."
+    }
+  },
+  "review2_w_2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "past-regret", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form.",
+      "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
+    },
+    "questionText": {
+      "en": "2. It was a stupid thing to say. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder='(not / say)'> it.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb2": { "en": "hadn't said", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish I hadn't said' expresses regret about a past action.",
+      "ar": "صحيح! 'I wish I hadn't said' تعبر عن ندم على فعل ماضٍ."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء حدث في الماضي باستخدام 'wish'، نستخدم الماضي التام (had + التصريف الثالث للفعل). في حالة النفي، نستخدم 'hadn't + التصريف الثالث'."
+    }
+  },
+  "review2_w_3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish", "past-regret", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "Put the verb in brackets in the correct form.",
+       "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
+    },
+    "questionText": {
+      "en": "3. I should have listened to you. I wish <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder='(I / take)'> your advice.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb3": { "en": "I had taken", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish I had taken' expresses regret about not doing something in the past.",
+      "ar": "صحيح! 'I wish I had taken' تعبر عن ندم على عدم القيام بشيء في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على عدم القيام بشيء في الماضي باستخدام 'wish'، نستخدم الماضي التام (had + التصريف الثالث للفعل)."
+    }
+  },
+  "review2_w_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "future-arrangement", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "Put the verb in brackets in the correct form.",
+       "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
+    },
+    "questionText": {
+      "en": "4. At 8:30 this evening I <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder='(meet)'> my friend Tom at Yooooj Café.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb4": { "en": "am meeting", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Continuous is used for future arrangements.",
+      "ar": "صحيح! يُستخدم المضارع المستمر للترتيبات المستقبلية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن ترتيب مستقبلي محدد (مثل موعد للقاء)، نستخدم عادةً المضارع المستمر (am/is/are + V-ing)."
+    }
+  },
+  "review2_w_5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "future-perfect", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "Put the verb in brackets in the correct form.",
+       "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
+    },
+    "questionText": {
+      "en": "5. By the end of this year I <input type='text' class='fill-blank-input' data-blank-id='verb5' placeholder='(drive)'> more than 1000 km. with my car.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb5": { "en": "will have driven", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Future Perfect is used to describe an action that will be completed before a specific time in the future.",
+      "ar": "صحيح! يُستخدم المستقبل التام لوصف فعل سيكتمل قبل وقت محدد في المستقبل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. عبارة 'By the end of this year' تشير إلى وقت محدد في المستقبل. للتعبير عن فعل سيكتمل قبل هذا الوقت، نستخدم المستقبل التام (will have + التصريف الثالث للفعل)."
+    }
+  },
+  "review2_w_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "wish", "present-situation", "review2", "fill-blank"],
+    "supportContent": {
+       "en": "Put the verb in brackets in the correct form.",
+       "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
+    },
+    "questionText": {
+      "en": "6. Our flat is rather small. I wish <input type='text' class='fill-blank-input' data-blank-id='verb6' placeholder='(it / be)'> a bit bigger.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb6": { "en": "it were", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'I wish it were' (or 'it was' informally) expresses a wish about a present situation.",
+      "ar": "صحيح! 'I wish it were' (أو 'it was' بشكل غير رسمي) تعبر عن تمنٍ بشأن موقف حالي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن تمنٍ بشأن موقف حالي غير مرغوب فيه باستخدام 'wish'، نستخدم صيغة الماضي البسيط. تقليدياً، يُستخدم 'were' مع جميع الضمائر في هذه الحالة، ولكن 'was' مقبولة أيضًا بشكل غير رسمي."
+    }
+  },
+  "review2_w_7_combine1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "who", "sentence-combining", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "1. Bob travelled all over the world. He met a lot of famous people.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent_c1' placeholder='Type combined sentence...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent_c1": {  
+        "en": ["Bob, who travelled all over the world, met a lot of famous people.", "Bob who travelled all over the world met a lot of famous people."],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. استخدم ضمير الوصل 'who' للإشارة إلى 'Bob'. احذف الضمير المكرر 'He'. يمكن أن تكون الجملة الوصلية مُعرِّفة أو غير مُعرِّفة (مع فواصل)."
+    }
+  },
+  "review2_w_8_combine2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "where", "sentence-combining", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "2. We will spend our holiday in the same village. We have had a lot of joyful days there.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent_c2' placeholder='Type combined sentence...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent_c2": {  
+        "en": "We will spend our holiday in the same village where we have had a lot of joyful days.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. استخدم ضمير الوصل 'where' للإشارة إلى المكان ('the same village'). احذف كلمة 'there' المكررة التي تشير إلى المكان."
+    }
+  },
+  "review2_w_9_combine3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "whom", "who", "sentence-combining", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "3. I don’t know most of the people. You invited them to the party.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent_c3' placeholder='Type combined sentence...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent_c3": {  
+        "en": ["I don’t know most of the people whom you invited to the party.", "I don’t know most of the people who you invited to the party.", "I don’t know most of the people that you invited to the party.", "I don’t know most of the people you invited to the party."],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. استخدم ضمير الوصل 'whom' (رسمي) أو 'who' (شائع) أو 'that' للإشارة إلى 'the people' (الذين هم مفعول به لفعل 'invited'). احذف الضمير المكرر 'them'. يمكن أيضًا حذف ضمير الوصل في هذه الحالة."
+    }
+  },
+  "review2_w_10_combine4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "which", "that", "sentence-combining", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "4. The subject interested everyone. You wrote about it last week.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent_c4' placeholder='Type combined sentence...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent_c4": {  
+        "en": ["The subject which you wrote about last week interested everyone.", "The subject that you wrote about last week interested everyone.", "The subject you wrote about last week interested everyone."],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. استخدم ضمير الوصل 'which' أو 'that' للإشارة إلى 'The subject'. احذف الضمير المكرر 'it'. يمكن أيضًا حذف ضمير الوصل هنا."
+    }
+  },
+  "review2_w_11_combine5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "whom", "who", "sentence-combining", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.",
+      "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
+    },
+    "questionText": {
+      "en": "5. I apologised to the woman. I spilled her coffee on her new dress.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent_c5' placeholder='Type combined sentence...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "sent_c5": {  
+        "en": "I apologised to the woman whose coffee I spilled on her new dress.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لإظهار ملكية القهوة للمرأة ('her coffee')، استخدم ضمير الوصل 'whose' بعد 'the woman'."
+    }
+  },
+
+  "review2_w_12_cond1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type3", "past-unreal", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Write a conditional sentence about the situation. (Type 3 - unreal past)",
+      "ar": "اكتب جملة شرطية عن الموقف. (النوع الثالث - ماضٍ غير حقيقي)"
+    },
+    "questionText": {
+      "en": "1. The young boy was sad because his mother didn't take him to the fun city.\nConditional: <input type='text' class='fill-blank-input' data-blank-id='cond1' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond1": {
+        "en": "If his mother had taken him to the fun city, the young boy wouldn't have been sad.",  
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بالماضي ونتيجته. استخدم الشرط من النوع الثالث (If + past perfect, would/could/might + have + past participle) للتعبير عن موقف غير حقيقي في الماضي ونتيجته المحتملة."
+    }
+  },
+  "review2_w_13_cond2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type2", "present-unreal", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Write a conditional sentence about the situation. (Type 2 - unreal present/future)",
+      "ar": "اكتب جملة شرطية عن الموقف. (النوع الثاني - حاضر/مستقبل غير حقيقي)"
+    },
+    "questionText": {
+      "en": "2. It’s too warm to snow; therefore, we can’t go skiing.\nConditional: <input type='text' class='fill-blank-input' data-blank-id='cond2' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond2": {
+        "en": "If it weren't too warm to snow, we could go skiing.", 
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بالحاضر ونتيجته. استخدم الشرط من النوع الثاني (If + past simple, would/could/might + base verb) للتعبير عن موقف غير حقيقي في الحاضر ونتيجته المحتملة."
+    }
+  },
+  "review2_w_14_cond3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type3", "past-unreal", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Write a conditional sentence about the situation. (Type 3 - unreal past)",
+      "ar": "اكتب جملة شرطية عن الموقف. (النوع الثالث - ماضٍ غير حقيقي)"
+    },
+    "questionText": {
+      "en": "3. My little brother was unhappy because he lost his money.\nConditional: <input type='text' class='fill-blank-input' data-blank-id='cond3' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond3": {
+        "en": "If my little brother hadn't lost his money, he wouldn't have been unhappy.",  
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بالماضي ونتيجته. استخدم الشرط من النوع الثالث (If + past perfect, would/could/might + have + past participle) للتعبير عن موقف غير حقيقي في الماضي ونتيجته المحتملة."
+    }
+  },
+  "review2_w_15_cond4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type2", "present-unreal", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Write a conditional sentence about the situation. (Type 2 - unreal present/future)",
+      "ar": "اكتب جملة شرطية عن الموقف. (النوع الثاني - حاضر/مستقبل غير حقيقي)"
+    },
+    "questionText": {
+      "en": "4. I don't have a computer, so I can't surf the Net.\nConditional: <input type='text' class='fill-blank-input' data-blank-id='cond4' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond4": {
+        "en": "If I had a computer, I could surf the Net.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بالحاضر ونتيجته. استخدم الشرط من النوع الثاني (If + past simple, would/could/might + base verb) للتعبير عن موقف غير حقيقي في الحاضر ونتيجته المحتملة."
+    }
+  },
+  "review2_w_16_cond5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "conditional", "type2", "present-unreal", "review2", "fill-blank"],
+    "supportContent": {
+      "en": "Write a conditional sentence about the situation. (Type 2 - unreal present/future)",
+      "ar": "اكتب جملة شرطية عن الموقف. (النوع الثاني - حاضر/مستقبل غير حقيقي)"
+    },
+    "questionText": {
+      "en": "5. I'm not rich enough to help the poor.\nConditional: <input type='text' class='fill-blank-input' data-blank-id='cond5' placeholder='If...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "cond5": {
+        "en": "If I were rich enough, I could help the poor.",  
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذا موقف يتعلق بالحاضر ونتيجته. استخدم الشرط من النوع الثاني (If + past simple, would/could/might + base verb) للتعبير عن موقف غير حقيقي في الحاضر ونتيجته المحتملة. بعد 'If I'، يُفضل استخدام 'were' في الجمل الشرطية، ولكن 'was' مقبولة أيضًا."
+    }
+  }
+}

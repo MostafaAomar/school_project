@@ -1,0 +1,335 @@
+{
+  "unit7_s_1_phrasal_verbs": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verb", "reading", "unit7", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the underlined phrasal verbs (in the sentences) with their meanings (a-e).",
+      "ar": ""
+    },
+    "questionText": { 
+      "en": "Match the sentences containing phrasal verbs with their correct meanings:",
+      "ar": ""
+    },
+    "draggableItems": [  
+      { "id": "pv1", "text": { "en": "1 Could you <u>read back</u> my son's letter for me?", "ar": "" } },
+      { "id": "pv2", "text": { "en": "2 Buyers should <u>read over</u> the contract before signing it.", "ar": "" } },
+      { "id": "pv3", "text": { "en": "3 The nurse <u>read off</u> patient’s temperature from the thermometer.", "ar": "" } },
+      { "id": "pv4", "text": { "en": "4 He has been <u>reading up on</u> the World War 2.", "ar": "" } },
+      { "id": "pv5", "text": { "en": "5 The teacher is <u>reading out</u> the names of the students.", "ar": "" } }
+    ],
+    "dropZones": [  
+      { "id": "mean_c", "label": { "en": "a. to read out aloud something that is written down (often to check it)", "ar": "" }, "accepts": "pv1" },  
+      { "id": "mean_d", "label": { "en": "b. read something carefully from the beginning to the end (often to check for errors)", "ar": "" }, "accepts": "pv2" },  
+      { "id": "mean_a", "label": { "en": "c. read information that is printed or displayed on something", "ar": "" }, "accepts": "pv3" },  
+      { "id": "mean_e", "label": { "en": "d. to spend time reading in order to find out information about something", "ar": "" }, "accepts": "pv4" },  
+      { "id": "mean_b", "label": { "en": "e. read aloud from a list or written text for others to hear", "ar": "" }, "accepts": "pv5" }   
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! You've matched all the phrasal verbs with their meanings.",
+      "ar": "صحيح! لقد طابقت جميع الأفعال المركبة بمعانيها."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع معاني الأفعال المركبة: 'read back' تعني القراءة بصوت عالٍ للتحقق، 'read over' تعني القراءة بعناية من البداية إلى النهاية، 'read off' تعني قراءة معلومات من شيء مطبوع، 'reading up on' تعني القراءة لجمع معلومات، و 'reading out' تعني القراءة بصوت عالٍ من قائمة."
+    }
+  }, 
+  "unit7_s_2_collocations": {
+    "type": "drag-drop",  
+    "difficulty": 3,
+    "tags": ["vocabulary", "collocation", "verb-noun", "unit7", "drag-drop", "sentence-completion"],
+    "supportContent": {
+      "en": "Match each verb (make, raise, give, run, meet, lose) with a noun from the box. Then complete the sentences using the correct form of the verb AND drag the correct noun to the blank.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Nouns to drag: [a lift, temper, an effort, a risk, taxes, expectations]\nComplete the sentences by typing the correct verb form and dragging the noun:",
+      "ar": ""
+    },
+    "draggableItems": [  
+      { "id": "noun_lift", "text": { "en": "a lift", "ar": "" } },
+      { "id": "noun_temper", "text": { "en": "temper", "ar": "" } },
+      { "id": "noun_effort", "text": { "en": "an effort", "ar": "" } },
+      { "id": "noun_risk", "text": { "en": "a risk", "ar": "" } },
+      { "id": "noun_taxes", "text": { "en": "taxes", "ar": "" } },
+      { "id": "noun_expect", "text": { "en": "expectations", "ar": "" } }
+    ],
+   
+    "dropZones": [
+      { "id": "sent1", "label": { "en": "1 Our boss often gets angry and <input type='text' class='verb-input' data-verb-correct='loses'> his ______ when things go wrong.", "ar": "" }, "accepts": "noun_temper" },
+      { "id": "sent2", "label": { "en": "2 If she never posts anything on her personal website, she <input type='text' class='verb-input' data-verb-correct='runs'> the ______ of alienating her fans.", "ar": "" }, "accepts": "noun_risk" },
+      { "id": "sent3", "label": { "en": "3 Politicians often think the government should <input type='text' class='verb-input' data-verb-correct='raise'> ______ in order to get more money to spend.", "ar": "" }, "accepts": "noun_taxes" },
+      { "id": "sent4", "label": { "en": "4 The new teacher didn’t <input type='text' class='verb-input' data-verb-correct='meet'> the headmaster’s ______ and was fired after only two months.", "ar": "" }, "accepts": "noun_expect" },
+      { "id": "sent5", "label": { "en": "5 His car broke down, so I <input type='text' class='verb-input' data-verb-correct='gave'> him ______ to the nearest garage.", "ar": "" }, "accepts": "noun_lift" },
+      { "id": "sent6", "label": { "en": "6 Not everything happens on its own sometimes. You have to <input type='text' class='verb-input' data-verb-correct='make'> ______ to get things done.", "ar": "" }, "accepts": "noun_effort" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All collocations used accurately.",
+      "ar": "صحيح! تم استخدام جميع التلازمات اللفظية بدقة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع التلازمات اللفظية الشائعة: 'lose his temper' (يفقد أعصابه)، 'run the risk' (يخاطر)، 'raise taxes' (يرفع الضرائب)، 'meet expectations' (يلبي التوقعات)، 'give someone a lift' (يوصل شخصًا)، 'make an effort' (يبذل جهدًا). تأكد أيضًا من تصريف الفعل بشكل صحيح في الجملة."
+    }
+  }, 
+  "unit7_s_3_conditionals": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "if-clauses", "unit7", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match an item from column (A) (if-clause) with its correspondence in column (B) (main clause).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the if-clauses (A) with the main clauses (B):",
+      "ar": ""
+    },
+    "draggableItems": [  
+      { "id": "if1", "text": { "en": "1 If you practiced more,", "ar": "" } },
+      { "id": "if2", "text": { "en": "2 I would ring the police", "ar": "" } },  
+      { "id": "if3", "text": { "en": "3 If the referee had seen the foul,", "ar": "" } },
+      { "id": "if4", "text": { "en": "4 I would build a huge house", "ar": "" } },  
+      { "id": "if5", "text": { "en": "5 If I had had your address,", "ar": "" } },
+      { "id": "if6", "text": { "en": "6 She wouldnt have arrived on time", "ar": "" } }  
+    ],
+    "dropZones": [ 
+      { "id": "main_d", "label": { "en": "a. your English would improve.", "ar": "" }, "accepts": "if1" },
+      { "id": "main_f", "label": { "en": "b. if I saw a burglar breaking into my house.", "ar": "" }, "accepts": "if2" },
+      { "id": "main_a", "label": { "en": "c. he would have awarded a penalty kick to our team.", "ar": "" }, "accepts": "if3" },
+      { "id": "main_c", "label": { "en": "d. if I won the lottery.", "ar": "" }, "accepts": "if4" },
+      { "id": "main_b", "label": { "en": "e. I would have written you a postcard.", "ar": "" }, "accepts": "if5" },
+      { "id": "main_e", "label": { "en": "f. if she had taken the bus.", "ar": "" }, "accepts": "if6" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All conditional sentence halves are matched correctly.",
+      "ar": "صحيح! تم مطابقة جميع أنصاف الجمل الشرطية بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع أنواع الجمل الشرطية: النوع الثاني (If + ماضي بسيط, would + مصدر) للتعبير عن مواقف غير حقيقية في الحاضر أو المستقبل. النوع الثالث (If + ماضي تام, would have + تصريف ثالث) للتعبير عن مواقف غير حقيقية في الماضي. طابق بداية الجملة (جملة الشرط if) مع نهايتها المناسبة (الجملة الرئيسية)."
+    }
+  }, 
+  "unit7_s_4_bio_vocab": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "biology", "medical", "science", "unit7", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words with their meanings.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the words with their meanings:",
+      "ar": ""
+    },
+    "draggableItems": [
+      { "id": "bio_causative", "text": { "en": "1 causative", "ar": "" } },
+      { "id": "bio_pneumonia", "text": { "en": "2 pneumonia", "ar": "" } },
+      { "id": "bio_symptom", "text": { "en": "3 symptom", "ar": "" } },
+      { "id": "bio_gut", "text": { "en": "4 gut", "ar": "" } },
+      { "id": "bio_decompose", "text": { "en": "5 decompose", "ar": "" } },
+      { "id": "bio_digest", "text": { "en": "6 digest", "ar": "" } },
+      { "id": "bio_hijack", "text": { "en": "7 hijack", "ar": "" } },
+      { "id": "bio_swab", "text": { "en": "8 swab", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "def_c_bio", "label": { "en": "a. acting as the cause of something", "ar": "" }, "accepts": "bio_causative" },
+      { "id": "def_d_bio", "label": { "en": "b. an acute inflammation of the lungs", "ar": "" }, "accepts": "bio_pneumonia" },
+      { "id": "def_g_bio", "label": { "en": "c. a sign that something exists, especially bad", "ar": "" }, "accepts": "bio_symptom" },
+      { "id": "def_h_bio", "label": { "en": "d. a tube in the body though which food passes when it leaves the stomach", "ar": "" }, "accepts": "bio_gut" },
+      { "id": "def_a_bio", "label": { "en": "e. to destroy gradually by natural chemical processes", "ar": "" }, "accepts": "bio_decompose" },
+      { "id": "def_f_bio", "label": { "en": "f. to change food you have just eaten into substances that your body can use", "ar": "" }, "accepts": "bio_digest" },
+      { "id": "def_b_bio", "label": { "en": "g. attack to control something (often metaphorically for viruses)", "ar": "" }, "accepts": "bio_hijack" },
+      { "id": "def_e_bio", "label": { "en": "h. a small amount of a substance that is taken from someone’s body in order to test it", "ar": "" }, "accepts": "bio_swab" }
+    ],
+    "feedbackCorrect": {
+      "en": "Well done! All biological and medical terms are matched correctly.",
+      "ar": "أحسنت! تم مطابقة جميع المصطلحات البيولوجية والطبية بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع معاني المصطلحات: 'causative' (مُسبِّب)، 'pneumonia' (التهاب رئوي)، 'symptom' (عَرَض)، 'gut' (الأمعاء/الجهاز الهضمي)، 'decompose' (يتحلل)، 'digest' (يهضم)، 'hijack' (يختطف/يسيطر على)، 'swab' (مسحة طبية)."
+    }
+  }, 
+  "unit7_s_5_cond1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "conditionals", "type2", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct answer a, b or c.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1 I ……….…. very unhappy if my friends didn’t come to the party.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "would have been", "ar": "" },
+      { "en": "will be", "ar": "" },
+      { "en": "would be", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "would be",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a second conditional sentence (if + Past Simple, would + base verb) for a hypothetical present/future situation.",
+      "ar": "صحيح! هذه جملة شرطية من النوع الثاني (if + ماضي بسيط, would + مصدر الفعل) لموقف افتراضي في الحاضر أو المستقبل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثاني (Second Conditional). جملة الشرط (if clause) تستخدم الماضي البسيط (didn't come)، والجملة الرئيسية (main clause) تستخدم 'would + مصدر الفعل'."
+    }
+  },
+  "unit7_s_6_cond2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type3", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct answer a, b or c.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2 Your brother wouldn’t have found such a nice job if he ……….…. a university diploma.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "hadn’t had", "ar": "" },
+      { "en": "didn’t have", "ar": "" },
+      { "en": "doesn’t have", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "hadn’t had",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a third conditional sentence (if + Past Perfect, would have + past participle) for a hypothetical past situation.",
+      "ar": "صحيح! هذه جملة شرطية من النوع الثالث (if + ماضي تام, would have + تصريف ثالث) لموقف افتراضي في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثالث (Third Conditional). الجملة الرئيسية (main clause) تستخدم 'wouldn't have found'، لذا جملة الشرط (if clause) يجب أن تستخدم الماضي التام (had/hadn't + التصريف الثالث للفعل)."
+    }
+  },
+  "unit7_s_7_cond3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type3", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct answer a, b or c.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3 If you had come in time, you ……….…. the lesson.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "wouldn’t miss", "ar": "" },
+      { "en": "wouldn’t have missed", "ar": "" },
+      { "en": "won’t miss", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "wouldn’t have missed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a third conditional sentence (if + Past Perfect, would have + past participle).",
+      "ar": "صحيح! هذه جملة شرطية من النوع الثالث (if + ماضي تام, would have + تصريف ثالث)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثالث (Third Conditional). جملة الشرط (if clause) تستخدم الماضي التام (had come)، لذا الجملة الرئيسية (main clause) يجب أن تستخدم 'would/wouldn't have + التصريف الثالث للفعل'."
+    }
+  },
+  "unit7_s_8_cond4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type3", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct answer a, b or c.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4 People wouldn’t have crossed the Bosphorus if they ……….…. these bridges.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "haven’t built", "ar": "" },
+      { "en": "didn’t build", "ar": "" },
+      { "en": "hadn’t built", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "hadn’t built",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a third conditional sentence.",
+      "ar": "صحيح! هذه جملة شرطية من النوع الثالث."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثالث (Third Conditional). الجملة الرئيسية (main clause) هي 'wouldn't have crossed'، لذا جملة الشرط (if clause) يجب أن تكون في الماضي التام (hadn't + التصريف الثالث للفعل)."
+    }
+  },
+  "unit7_s_9_cond5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "conditionals", "type2", "mixed-conditional-hint", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct answer a, b or c.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5 You would have some money in your pocket (now) if you ……….…. it so generously (in the past).",  
+      "ar": ""
+    },
+    "options": [
+      { "en": "wouldn’t spend", "ar": "" },
+      { "en": "hadn’t spent", "ar": "" },
+      { "en": "didn’t spend", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "hadn’t spent"  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a mixed conditional: past unreal condition (if you hadn't spent - Past Perfect) leading to a present unreal result (you would have some money - would + base form).",
+      "ar": "صحيح! هذه جملة شرطية مختلطة: شرط ماضٍ غير حقيقي (if you hadn't spent - ماضي تام) يؤدي إلى نتيجة حاضرة غير حقيقية (you would have some money - would + مصدر الفعل)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الجملة الرئيسية (main clause) هي 'You would have some money' (تشير لنتيجة حاضرة افتراضية). سبب هذه النتيجة الحاضرة هو فعل ماضٍ. لذا، جملة الشرط (if clause) يجب أن تكون في الماضي التام لوصف الشرط الماضي غير المتحقق الذي أثر على الحاضر (mixed conditional)."
+    }
+  },
+  "unit7_s_10_cond6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "conditionals", "type2", "subjunctive", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct answer a, b or c.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6 If I ……….…. in debt, I would quit my job.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "am not", "ar": "" },
+      { "en": "weren’t", "ar": "" },
+      { "en": "hadn’t been", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "weren’t",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In second conditional sentences, 'were' (or 'weren't') is often used for all persons with the verb 'to be' in the if-clause to express an unreal situation.",
+      "ar": "صحيح! في الجمل الشرطية من النوع الثاني، غالبًا ما تُستخدم 'were' (أو 'weren't') لجميع الأشخاص مع الفعل 'to be' في جملة الشرط (if clause) للتعبير عن موقف غير حقيقي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. هذه جملة شرطية من النوع الثاني (Second Conditional). في جملة الشرط (if clause) مع الفعل 'to be'، نستخدم عادةً 'were' (أو 'weren't' للنفي) مع جميع الضمائر (I, he, she, it, we, you, they) للتعبير عن موقف افتراضي أو غير حقيقي."
+    }
+  }
+}
+ 
+ 
+

@@ -1,0 +1,156 @@
+{
+  "unit2_scientific_w_1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "completion", "context", "unit2"],
+    "supportContent": {
+      "en": "Now use the words in bold in the text (not provided, guessed below) to complete these sentences.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Their companies went <input type='text' class='fill-blank-input' data-blank-id='w1_1' placeholder='______' style='width: 120px;'> before they reached a great economic recovery.\n\n2. Failures are often considered a <input type='text' class='fill-blank-input' data-blank-id='w1_2' placeholder='______' style='width: 120px;'> of success in all areas of life.\n\n3. He obtained <input type='text' class='fill-blank-input' data-blank-id='w1_3' placeholder='______' style='width: 120px;'> for inventing new things.\n\n4. Throughout his career, he won a <input type='text' class='fill-blank-input' data-blank-id='w1_4' placeholder='______' style='width: 120px;'> fortune of billions of dollars.\n\n5. He retired after failing as a/an <input type='text' class='fill-blank-input' data-blank-id='w1_5' placeholder='______' style='width: 120px;'> employee.\n\n6. He <input type='text' class='fill-bank-input' data-blank-id='w1_6' placeholder='______' style='width: 120px;'> useless methods until he finally succeeded.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "w1_1": { "en": "bankrupt", "ar": "" },    
+      "w1_2": { "en": "pillar", "ar": "" },      
+      "w1_3": { "en": "recognition", "ar": "" },
+      "w1_4": { "en": "colossal", "ar": "" },   
+      "w1_5": { "en": "mediocre", "ar": "" },    
+      "w1_6": { "en": "discarded", "ar": ""}   
+    },
+    "feedbackCorrect": {
+      "en": "Well done! You've correctly used the vocabulary in context.",
+      "ar": "أحسنت! لقد استخدمت المفردات بشكل صحيح في سياقها."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. Remember: Use Past Simple ('did...') for completed actions ('rang', 'drank', 'put on', 'went out') or asking about completed actions ('did you do', 'did you put'). Use Past Continuous ('was/were verb+ing') for actions that were in progress *at a specific time* or *when another action happened* ('were watching' when the phone 'rang'; 'was preparing' when he 'came'; 'was raining' explaining why she 'put on' the coat). Review the context of each blank.",
+      "ar": "ليس صحيحاً تماماً. تذكر: استخدم الماضي البسيط ('فعل...') للأحداث المكتملة ('رنَّ'، 'شربنا'، 'ارتديت'، 'خرجنا') أو للسؤال عن أحداث مكتملة ('ماذا فعلت'، 'لماذا ارتديت'). استخدم الماضي المستمر ('كان/كنت/كانوا يفعلون') للأحداث التي كانت قيد التقدم *في وقت معين* أو *عندما وقع حدث آخر* ('كنت تشاهد' عندما 'رن' الهاتف؛ 'كنت أُحضّر' عندما 'أتى'؛ 'كانت تمطر' تشرح لماذا 'ارتديت' المعطف). راجع سياق كل فراغ."
+    }
+  },
+  "unit2_scientific_w_2": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["vocabulary", "idioms", "completion", "unit2"],
+    "supportContent": {
+      "en": "Complete the following sentences with the correct form of the **idioms** from the box.\nIdiom Box: **back the wrong horse, ace a test, on a roll, join the ranks of, be dead in the water**",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. If you study hard enough, you will be able to <input type='text' class='fill-blank-input' data-blank-id='w2_1' placeholder='idiom...' style='width: 140px;'> with no troubles.\n\n2. You really <input type='text' class='fill-blank-input' data-blank-id='w2_2' placeholder='idiom...' style='width: 180px;'> when you picked that swimmer to win the race.\n\n3. I didn’t get the results I was hoping for in my exams. My dream of going to Cambridge University <input type='text' class='fill-blank-input' data-blank-id='w2_3' placeholder='idiom...' style='width: 180px;'>.\n\n4. In a few years our company should be able to <input type='text' class='fill-blank-input' data-blank-id='w2_4' placeholder='idiom...' style='width: 180px;'> the world’s most developed nations.\n\n5. This is our fifth win in the game! We are <input type='text' class='fill-blank-input' data-blank-id='w2_5' placeholder='idiom...' style='width: 100px;'>. If we keep this up, we are sure to make it to the state championship game!",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "w2_1": {"en": "ace the test", "ar": ""}, 
+      "w2_2": {"en": "backed the wrong horse", "ar": ""}, 
+      "w2_3": {"en": "is dead in the water", "ar": ""}, 
+      "w2_4": {"en": "join the ranks of", "ar": ""}, 
+      "w2_5": {"en": "on a roll", "ar": ""} 
+    },
+    "feedbackCorrect": {
+      "en": "Great job! You understand these idioms and how to use them correctly.",
+      "ar": "عمل رائع! أنت تفهم هذه المصطلحات وكيفية استخدامها بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+       "en": "Check the timing of the actions. Use Past Perfect Simple ('had + past participle' like 'had bought') when one action finished *before* another past action ('went home'). Use Past Perfect Continuous ('had been + verb+ing' like 'had been working') to emphasize the *duration* of an action leading up to another past action ('when he met her'). Use Past Simple ('felt') for actions or states that occurred at a specific past time without reference to an earlier time. The phrase 'By the time...' often signals the need for a Past Perfect tense for the action that happened earlier.",
+       "ar": "تحقق من توقيت الأحداث. استخدم الماضي التام البسيط ('كان قد + التصريف الثالث' مثل 'كان قد اشترى') عندما ينتهي حدث *قبل* حدث آخر في الماضي ('عاد إلى المنزل'). استخدم الماضي التام المستمر ('كان + يفعل' مثل 'كانت تعمل') للتأكيد على *مدة* حدث أدت إلى حدث آخر في الماضي ('عندما قابلها'). استخدم الماضي البسيط ('شعرت') للأحداث أو الحالات التي وقعت في وقت محدد في الماضي دون الإشارة إلى وقت سابق. عبارة 'بحلول الوقت الذي...' غالباً ما تشير إلى الحاجة إلى زمن الماضي التام للحدث الذي وقع في وقت أبكر."
+     }
+  },
+  "unit2_scientific_w_3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "past-simple", "past-continuous", "narrative", "unit2"],
+    "supportContent": {
+      "en": "Fill in the gaps with the **Past Simple or Past Continuous** form of the verbs in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "I 1 <input type='text' class='fill-blank-input' data-blank-id='w3_1' placeholder='verb...' style='width: 70px;'> (have) a wonderful biology teacher, Mrs. Wilson. She 2 <input type='text' class='fill-blank-input' data-blank-id='w3_2' placeholder='verb...' style='width: 70px;'> (make) us excited about the subject because she was so interested herself. I remember one lesson in particular; we 3 <input type='text' class='fill-blank-input' data-blank-id='w3_3' placeholder='verb...' style='width: 140px;'> (study) different types of plants, and Mrs. Wilson 4 <input type='text' class='fill-blank-input' data-blank-id='w3_4' placeholder='verb...' style='width: 140px;'> (describe) the types of the flower. She 5 <input type='text' class='fill-blank-input' data-blank-id='w3_5' placeholder='verb...' style='width: 100px;'> (pick up) a white flower, which was tulip, and then suddenly we 6 <input type='text' class='fill-blank-input' data-blank-id='w3_6' placeholder='verb...' style='width: 90px;'> (notice) that she 7 <input type='text' class='fill-blank-input' data-blank-id='w3_7' placeholder='verb...' style='width: 110px;'> (cry)! She 8 <input type='text' class='fill-blank-input' data-blank-id='w3_8' placeholder='verb...' style='width: 110px;'> (apologise) and 9 <input type='text' class='fill-blank-input' data-blank-id='w3_9' placeholder='verb...' style='width: 70px;'> (say) that sometimes nature was so beautiful that it just made her cry! We 10 <input type='text' class='fill-blank-input' data-blank-id='w3_10' placeholder='verb...' style='width: 110px;'> (not/ know) what to do at first, but it certainly made us think. Somehow her enthusiasm 11 <input type='text' class='fill-blank-input' data-blank-id='w3_11' placeholder='verb...' style='width: 90px;'> (inspire) me, and I 12 <input type='text' class='fill-blank-input' data-blank-id='w3_12' placeholder='verb...' style='width: 80px;'> (start) to like biology.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "w3_1":  { "en": "had", "ar": "" },                
+      "w3_2":  { "en": "made", "ar": "" },               
+      "w3_3":  { "en": "were studying", "ar": "" },     
+      "w3_4":  { "en": "was describing", "ar": "" },    
+      "w3_5":  { "en": "picked up", "ar": "" },         
+      "w3_6":  { "en": "noticed", "ar": "" },           
+      "w3_7":  { "en": "was crying", "ar": "" },        
+      "w3_8":  { "en": "apologised", "ar": "" },       
+      "w3_9":  { "en": "said", "ar": "" },              
+      "w3_10": { "en": "didn't know", "ar": "" },       
+      "w3_11": { "en": "inspired", "ar": "" },       
+      "w3_12": { "en": "started", "ar": "" }           
+    },
+    "feedbackCorrect": {
+      "en": "Excellent narrative! You correctly used Past Simple for completed events in sequence ('had', 'made', 'picked up', 'noticed', 'apologised', 'said', 'inspired', 'started') and Past Continuous for background actions or states ('were studying', 'was describing', 'was crying').",
+      "ar": "سرد ممتاز! لقد استخدمت بشكل صحيح الماضي البسيط للأحداث المكتملة في التسلسل ('كان لدي'، 'جعلت'، 'التقطت'، 'لاحظنا'، 'اعتذرت'، 'قالت'، 'ألهمت'، 'بدأت') والماضي المستمر للأحداث أو الحالات الخلفية أو التي كانت قيد التقدم ('كنا ندرس'، 'كانت تصف'، 'كانت تبكي')."
+    },
+    "feedbackIncorrect": {
+      "en": "Review the timeline. Use Past Simple for completed actions that form the main story sequence. Use Past Continuous ('was/were + verb-ing') for actions that were already happening in the background when another event occurred (e.g., 'were studying' and 'was describing' when she 'picked up' the flower; she 'was crying' when we 'noticed'). 'Had' and 'didn't know' describe past states.",
+      "ar": "راجع التسلسل الزمني. استخدم الماضي البسيط للأحداث المكتملة التي تشكل تسلسل القصة الرئيسي. استخدم الماضي المستمر ('كان/كانت/كنت/كانوا + يفعلون') للأحداث التي كانت قائمة بالفعل في الخلفية عندما وقع حدث آخر (على سبيل المثال، 'كنا ندرس' و 'كانت تصف' عندما 'التقطت' الزهرة؛ 'كانت تبكي' عندما 'لاحظنا'). 'كان لدي' و 'لم نكن نعرف' تصف حالات ماضية."
+    }
+  },
+  
+  "unit2_scientific_w_4": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["grammar", "error-correction", "past-simple", "past-perfect", "past-perfect-continuous", "unit2"],
+    "supportContent": {
+      "en": "Read the sentences below. There are **some mistakes**. Cross out the incorrect forms and write in the **correct form**. Put a tick  if the form of the verb is correct.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. The lecture **started** <input type='text' class='fill-blank-input' data-blank-id='w4_1' placeholder='correct verb...' style='width: 120px;'> by the time they got there.\n\n2. They went on a big tour of Britain. First, they stayed in London for a few days. Then they **were visiting** <input type='text' class='fill-blank-input' data-blank-id='w4_2_1' placeholder='correct verb...' style='width: 120px;'> Cambridge. They **went** <input type='text' class='fill-blank-input' data-blank-id='w4_2_2' placeholder='correct verb...' style='width: 120px;'> to Cambridge before, but they liked it so much that they **had decided** <input type='text' class='fill-blank-input' data-blank-id='w4_2_3' placeholder='correct verb...' style='width: 120px;'> to go back.\n\n3. I looked terrible when I saw Joe last night because I **had been running** <input type='text' class='fill-blank-input' data-blank-id='w4_3' placeholder='correct verb...' style='width: 180px;'> for over an hour and I was exhausted.\n\n4. When I heard the noise at the window, I knew that someone **tried** <input type='text' class='fill-blank-input' data-blank-id='w4_4' placeholder='correct verb...' style='width: 120px;'> to break into the house.\n\n5. I knew her because I **had been visiting** <input type='text' class='fill-blank-input' data-blank-id='w4_5' placeholder='correct verb...' style='width: 120px;'> her several times.\n\n6. The program that was stopped **had been working** <input type='text' class='fill-blank-input' data-blank-id='w4_6' placeholder='correct verb...' style='width: 180px;'> well since 1945.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      
+      "w4_1":   { "en": "had started", "ar": "" },
+      "w4_2_1": { "en": "visited", "ar": "" },
+      "w4_2_2": { "en": "had been", "ar": "" },
+      "w4_2_3": { "en": "decided", "ar": "" },
+      "w4_3":   { "en": "had been running", "ar": "" },  
+      "w4_4":   { "en": "was trying", "ar": "" },       
+      "w4_5":   { "en": "had visited", "ar": "" },      
+      "w4_6":   { "en": "had been working", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You have accurately identified the correct past tense forms based on the sequence and duration of events. Remember, even if the original verb was correct, the task was to write the correct form in the box.",
+      "ar": "صحيح! لقد حددت بدقة صيغ الماضي الصحيحة بناءً على تسلسل ومدة الأحداث. تذكر، حتى لو كان الفعل الأصلي صحيحاً، كانت المهمة هي كتابة الصيغة الصحيحة في مربع الإدخال."
+    },
+    "feedbackIncorrect": {
+      "en": "Check the verb form you entered. Did one action happen *before* another past action? Use Past Perfect ('had started', 'had been', 'had visited'). Was an action happening over a *duration leading up to* a past point? Use Past Perfect Continuous ('had been running', 'had been working'). Was it part of a simple sequence in the past? Use Past Simple ('visited', 'decided'). Was an action *in progress* when another happened? Use Past Continuous ('was trying'). Make sure you typed the expected correct form.",
+      "ar": "تحقق من صيغة الفعل التي أدخلتها. هل وقع حدث *قبل* حدث آخر في الماضي؟ استخدم الماضي التام ('كان قد بدأ'، 'كان قد ذهب'، 'كان قد زار'). هل استمر حدث لفترة *أدت إلى* نقطة في الماضي؟ استخدم الماضي التام المستمر ('كان يركض'، 'كان يعمل'). هل كان جزءاً من تسلسل بسيط في الماضي؟ استخدم الماضي البسيط ('زار'، 'قرر'). هل كان حدث *قيد التقدم* عندما وقع آخر؟ استخدم الماضي المستمر ('كان يحاول'). تأكد من كتابة الصيغة الصحيحة المتوقعة."
+    },
+   "unit2_scientific_w_5": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": ["vocabulary", "phrases", "completion", "conversation", "unit2"],
+    "supportContent": {
+      "en": "Complete the conversation with the suitable phrases from the box.\nPhrase Box: **I’ll never be able to, I’m sorry about, be as bad as it seems, be feeling better soon, it would have been worse, ever be all right**",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Jack: 1 <input type='text' class='fill-blank-input' data-blank-id='w5_1' placeholder='phrase...' style='width: 150px;'> the accident. How are you feeling now?\n\nNoah: Terrible. I’ve broken at least five ribs.\nJack: Oh dear. 2 I suppose <input type='text' class='fill-blank-input' data-blank-id='w5_2' placeholder='phrase...' style='width: 200px;'> if you’d landed on the motorway instead of in the trees?\n\nNoah: It couldn’t be worse. I’m sure 3 <input type='text' class='fill-blank-input' data-blank-id='w5_3' placeholder='phrase...' style='width: 150px;'> walk again.\n\nJack: It is bad luck. But it may not 4 <input type='text' class='fill-blank-input' data-blank-id='w5_4' placeholder='phrase...' style='width: 180px;'>...\n\nNoah: I won’t 5 <input type='text' class='fill-blank-input' data-blank-id='w5_5' placeholder='phrase...' style='width: 150px;'> and –if I am- I certainly won’t ever try hang-gliding again!\n\nJack: You’ll 6 <input type='text' class='fill-blank-input' data-blank-id='w5_6' placeholder='phrase...' style='width: 200px;'>.- and ready for another try.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "w5_1": { "en": "I’m sorry about", "ar": "" },
+      "w5_2": { "en": "it would have been worse", "ar": "" },
+      "w5_3": { "en": "I’ll never be able to", "ar": "" },
+      "w5_4": { "en": "be as bad as it seems", "ar": "" },
+      "w5_5": { "en": "ever be all right", "ar": "" },
+      "w5_6": { "en": "be feeling better soon", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You've used the phrases appropriately to express sympathy ('I'm sorry about'), speculate about hypotheticals ('it would have been worse'), express despair/inability ('I'll never be able to'), offer perspective ('be as bad as it seems'), question recovery ('ever be all right'), and offer encouragement ('be feeling better soon').",
+      "ar": "صحيح! لقد استخدمت العبارات بشكل مناسب للتعبير عن التعاطف ('أنا آسف بشأن')، والتكهن بالافتراضات ('كان الأمر ليكون أسوأ')، والتعبير عن اليأس/عدم القدرة ('لن أتمكن أبداً من')، وتقديم منظور ('أن يكون بالسوء الذي يبدو عليه')، والتساؤل عن الشفاء ('أن أكون بخير أبداً')، وتقديم التشجيع ('ستشعر بتحسن قريباً')."
+    },
+    "feedbackIncorrect": {
+      "en": "Read the conversation context carefully. Match the phrase to the speaker's intention. 'I'm sorry about...' expresses sympathy. 'it would have been worse' compares hypothetical negative outcomes. 'I'll never be able to...' expresses a feeling of permanent inability. 'be as bad as it seems' offers a more optimistic perspective. 'ever be all right' questions the possibility of full recovery. 'be feeling better soon' offers encouragement about recovery.",
+      "ar": "اقرأ سياق المحادثة بعناية. طابق العبارة مع نية المتحدث. 'أنا آسف بشأن...' تعبر عن التعاطف. 'كان الأمر ليكون أسوأ' تقارن النتائج السلبية الافتراضية. 'لن أتمكن أبداً من...' تعبر عن شعور بعدم القدرة الدائمة. 'أن يكون بالسوء الذي يبدو عليه' تقدم منظوراً أكثر تفاؤلاً. 'أن أكون بخير أبداً' تتساءل عن إمكانية الشفاء التام. 'ستشعر بتحسن قريباً' تقدم التشجيع بشأن الشفاء."
+    }
+   }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "unit4_scientific_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gaps with the correct prepositions: to, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1 The monkey escaped from its cage and jumped <input type='text' class='fill-blank-input' data-blank-id='gap1a' placeholder='...'> the lake. It took a long time to get it <input type='text' class='fill-blank-input' data-blank-id='gap1b' placeholder='...'> the lake and back <input type='text' class='fill-blank-input' data-blank-id='gap1c' placeholder='...'> its cage.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap1a": { "en": "into", "ar": "" },
+      "gap1b": { "en": "out of", "ar": "" },
+      "gap1c": { "en": "into", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'into' shows movement entering something, 'out of' shows movement leaving something.",
+      "ar": "صحيح! 'into' تظهر الحركة نحو الداخل، و 'out of' تظهر الحركة نحو الخارج."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'into' for movement entering (jumped into the lake, back into its cage). Use 'out of' for movement leaving (get it out of the lake). Solutions: into, out of, into",
+      "ar": "خطأ. استخدم 'into' للحركة نحو الداخل (قفز في البحيرة، عاد إلى قفصه). استخدم 'out of' للحركة نحو الخارج (أخرجه من البحيرة). الحلول: into, out of, into"
+    }
+  },
+  "unit4_scientific_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gaps with the correct prepositions: to, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2 Henry drove his car <input type='text' class='fill-blank-input' data-blank-id='gap2a' placeholder='...'> the beach and then he couldn’t move it, because the wheels sank <input type='text' class='fill-blank-input' data-blank-id='gap2b' placeholder='...'> the sand. In the end he needed eight people to push it <input type='text' class='fill-blank-input' data-blank-id='gap2c' placeholder='...'> the beach and back <input type='text' class='fill-blank-input' data-blank-id='gap2d' placeholder='...'> the road.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap2a": { "en": "onto", "ar": "" },
+      "gap2b": { "en": "into", "ar": "" },
+      "gap2c": { "en": "off", "ar": "" },
+      "gap2d": { "en": "onto", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'onto' shows movement onto a surface, 'into' shows entering a substance, 'off' shows movement away from a surface.",
+      "ar": "صحيح! 'onto' تظهر الحركة على سطح، 'into' تظهر الدخول في مادة، 'off' تظهر الحركة بعيداً عن سطح."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'onto' for movement onto a surface (onto the beach, onto the road). Use 'into' for going inside something soft (into the sand). Use 'off' for moving away from a surface (off the beach). Solutions: onto, into, off, onto",
+      "ar": "خطأ. استخدم 'onto' للحركة على سطح (على الشاطئ، على الطريق). استخدم 'into' للدخول في شيء ناعم (في الرمل). استخدم 'off' للحركة بعيداً عن سطح (بعيداً عن الشاطئ). الحلول: onto, into, off, onto"
+    }
+  },
+  "unit4_scientific_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "prepositions", "movement", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gap with the correct preposition: to, off, into, onto, out of.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3 We thought we should walk <input type='text' class='fill-blank-input' data-blank-id='gap3a' placeholder='...'> Bakery for breakfast because it is such a beautiful day.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "gap3a": { "en": "to", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'to' indicates the destination or direction of movement.",
+      "ar": "صحيح! 'to' تشير إلى الوجهة أو اتجاه الحركة."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'to' to show the destination (walk to Bakery). Solution: to",
+      "ar": "خطأ. استخدم 'to' لإظهار الوجهة (المشي إلى المخبز). الحل: to"
+    }
+  },
+  "unit4_scientific_4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Make a sentence with 'have something done'. Use the correct tense.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: At the butcher’s Ahmad said, “Please cut the meat into small pieces”.\nSentence: Ahmad <input type='text' class='fill-blank-input' data-blank-id='causative1' placeholder='have + object + past participle'> into pieces.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative1": {
+        "en": "had the meat cut",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The situation happened in the past (said), so we use the past simple causative 'had the meat cut'.",
+      "ar": "صحيح! الموقف حدث في الماضي (said)، لذا نستخدم صيغة السببية في الماضي البسيط 'had the meat cut'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'have + object + past participle'. The original action was in the past ('said'), so use the past simple form of 'have', which is 'had'. The object is 'the meat'. The past participle is 'cut'. Solution: had the meat cut",
+      "ar": "خطأ. البنية هي 'have + object + past participle'. الحدث الأصلي كان في الماضي ('said')، لذا استخدم صيغة الماضي البسيط من 'have' وهي 'had'. المفعول به هو 'the meat'. اسم المفعول هو 'cut'. الحل: had the meat cut"
+    }
+  },
+  "unit4_scientific_5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "present-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Make a sentence with 'have something done'. Use the correct tense.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: The hairdresser cuts Rana’s hair about twice a year.\nSentence: Rana <input type='text' class='fill-blank-input' data-blank-id='causative2' placeholder='have + object + past participle'> about twice a year.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative2": {
+        "en": "has her hair cut",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The situation is a regular habit (cuts), so we use the present simple causative 'has her hair cut'.",
+      "ar": "صحيح! الموقف هو عادة منتظمة (cuts)، لذا نستخدم صيغة السببية في المضارع البسيط 'has her hair cut'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'have + object + past participle'. The original action is habitual (present simple 'cuts'), so use the present simple form of 'have', which is 'has' (for Rana). The object is 'her hair'. The past participle is 'cut'. Solution: has her hair cut",
+      "ar": "خطأ. البنية هي 'have + object + past participle'. الحدث الأصلي هو عادة (مضارع بسيط 'cuts')، لذا استخدم صيغة المضارع البسيط من 'have' وهي 'has' (لأن الفاعل Rana). المفعول به هو 'her hair'. اسم المفعول هو 'cut'. الحل: has her hair cut"
+    }
+  },
+  "unit4_scientific_6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Make a sentence with 'have something done'. Use the correct tense.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: Yesterday, the optician checked my mother’s eyes.\nSentence: Yesterday, my mother <input type='text' class='fill-blank-input' data-blank-id='causative3' placeholder='have + object + past participle'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative3": {
+        "en": "had her eyes checked",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The situation happened yesterday (past simple 'checked'), so we use the past simple causative 'had her eyes checked'.",
+      "ar": "صحيح! الموقف حدث بالأمس (ماضي بسيط 'checked')، لذا نستخدم صيغة السببية في الماضي البسيط 'had her eyes checked'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'have + object + past participle'. The original action was in the past ('checked'), so use 'had'. The object is 'her eyes'. The past participle is 'checked'. Solution: had her eyes checked",
+      "ar": "خطأ. البنية هي 'have + object + past participle'. الحدث الأصلي كان في الماضي ('checked')، لذا استخدم 'had'. المفعول به هو 'her eyes'. اسم المفعول هو 'checked'. الحل: had her eyes checked"
+    }
+  },
+  "unit4_scientific_7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "future-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Make a sentence with 'have something done'. Use the correct tense.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: Mrs. Hakim’s doctor says to her: “When you come to see me next week, I’ll check your heartbeat.”\nSentence: When Mrs. Hakim goes to see the doctor next week, she <input type='text' class='fill-blank-input' data-blank-id='causative4' placeholder='have + object + past participle'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative4": {
+        "en": "will have her heartbeat checked",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The action will happen next week ('ll check), so we use the future simple causative 'will have her heartbeat checked'.",
+      "ar": "صحيح! الحدث سيقع الأسبوع القادم ('ll check)، لذا نستخدم صيغة السببية في المستقبل البسيط 'will have her heartbeat checked'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'have + object + past participle'. The original action is in the future ('will check'), so use the future simple form 'will have'. The object is 'her heartbeat'. The past participle is 'checked'. Solution: will have her heartbeat checked",
+      "ar": "خطأ. البنية هي 'have + object + past participle'. الحدث الأصلي في المستقبل ('will check')، لذا استخدم صيغة المستقبل البسيط 'will have'. المفعول به هو 'her heartbeat'. اسم المفعول هو 'checked'. الحل: will have her heartbeat checked"
+    }
+  },
+  "unit4_scientific_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "future-going-to", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Make a sentence with 'have something done'. Use the correct tense.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: A carpenter is going to mend the front door of our house.\nSentence: We <input type='text' class='fill-blank-input' data-blank-id='causative5' placeholder='have + object + past participle'> of our house.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative5": {
+        "en": "are going to have the front door mended",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The planned future action ('is going to mend') becomes 'are going to have the front door mended' in the causative.",
+      "ar": "صحيح! الحدث المستقبلي المخطط له ('is going to mend') يصبح 'are going to have the front door mended' في صيغة السببية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'have + object + past participle'. The original action uses 'is going to mend', so use the 'going to' future causative 'are going to have'. The object is 'the front door'. The past participle is 'mended'. Solution: are going to have the front door mended",
+      "ar": "خطأ. البنية هي 'have + object + past participle'. الحدث الأصلي يستخدم 'is going to mend'، لذا استخدم صيغة السببية المستقبلية 'going to' وهي 'are going to have'. المفعول به هو 'the front door'. اسم المفعول هو 'mended'. الحل: are going to have the front door mended"
+    }
+  },
+  "unit4_scientific_9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Can this sentence use 'have something done'? If not, why?",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: I repainted the house myself last month.\nCausative?: I <input type='text' class='fill-blank-input' data-blank-id='causative6' placeholder='Write the phrase or write N/A'> last month.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative6": {
+        "en": "N/A",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The causative 'have something done' isn't used because the subject ('I') did the action themselves.",
+      "ar": "صحيح! لا تُستخدم صيغة السببية 'have something done' لأن الفاعل ('I') قام بالفعل بنفسه."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The causative structure 'have something done' implies someone *else* performs the action for the subject. Since 'I' did the repainting 'myself', this structure doesn't apply. Solution: N/A (or explanation)",
+      "ar": "خطأ. بنية السببية 'have something done' تعني أن شخصاً *آخر* قام بالفعل من أجل الفاعل. بما أن 'I' قام بإعادة الطلاء 'myself'، فإن هذه البنية لا تنطبق. الحل: N/A (أو شرح)"
+    }
+  },
+  "unit4_scientific_10": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "causative", "have-something-done", "past-simple", "unit4", "fill-blank"],
+    "supportContent": {
+      "en": "Make a sentence with 'have something done'. Use the correct tense.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Situation: After being late for work every day for two weeks, Tom’s boss reduced his pay.\nSentence: Tom <input type='text' class='fill-blank-input' data-blank-id='causative7' placeholder='have + object + past participle'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "causative7": {
+        "en": "had his pay reduced",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The past simple action 'reduced' becomes 'had his pay reduced'. Tom experienced the action done by his boss.",
+      "ar": "صحيح! الفعل الماضي البسيط 'reduced' يصبح 'had his pay reduced'. توم تعرض للفعل الذي قام به رئيسه."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'have + object + past participle'. The original action was in the past ('reduced'), so use 'had'. The object is 'his pay'. The past participle is 'reduced'. Tom didn't reduce his own pay; his boss did it to him. Solution: had his pay reduced",
+      "ar": "خطأ. البنية هي 'have + object + past participle'. الحدث الأصلي كان في الماضي ('reduced')، لذا استخدم 'had'. المفعول به هو 'his pay'. اسم المفعول هو 'reduced'. توم لم يخفض راتبه بنفسه؛ رئيسه فعل ذلك له. الحل: had his pay reduced"
+    }
+  }
+}

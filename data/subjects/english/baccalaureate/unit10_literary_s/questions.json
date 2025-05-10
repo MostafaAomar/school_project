@@ -1,0 +1,214 @@
+{
+  "unit10_s_1_matching1": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "feelings", "adaptation", "culture", "unit10", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words on the left with their definitions on the right.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the words with their definitions:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "word_frust", "text": { "en": "1 frustration", "ar": "" } },
+      { "id": "word_home", "text": { "en": "2 homesickness", "ar": "" } },
+      { "id": "word_disturb", "text": { "en": "3 disturbance", "ar": "" } },  
+      { "id": "word_inval", "text": { "en": "4 invaluable", "ar": "" } },
+      { "id": "word_adjust", "text": { "en": "5 adjustment", "ar": "" } },
+      { "id": "word_integr", "text": { "en": "6 integration", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "def_b", "label": { "en": "a the feeling of being annoyed because you cannot control a situation", "ar": "" }, "accepts": "word_frust" },
+      { "id": "def_f", "label": { "en": "b a strong, sad feeling of missing one’s home when physically away", "ar": "" }, "accepts": "word_home" },
+      { "id": "def_d", "label": { "en": "c an unhappy and worried mental state", "ar": "" }, "accepts": "word_disturb" },  
+      { "id": "def_c", "label": { "en": "d extremely useful", "ar": "" }, "accepts": "word_inval" },
+      { "id": "def_a", "label": { "en": "e a change in the way that someone behaves or thinks", "ar": "" }, "accepts": "word_adjust" },
+      { "id": "def_e", "label": { "en": "f the process of fitting into a community", "ar": "" }, "accepts": "word_integr" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All words matched correctly.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات: 'frustration' (إحباط) هو الشعور بالانزعاج، 'homesickness' (حنين للوطن) هو الشعور بالحزن لفقدان الوطن، 'disturbance' (اضطراب) قد تشير لحالة عقلية قلقة هنا، 'invaluable' (لا يُقدَّر بثمن) يعني مفيد جدًا، 'adjustment' (تكيف) هو تغيير في السلوك، و 'integration' (اندماج) هو عملية الانخراط في مجتمع."  
+    }
+  },
+  "unit10_s_2_matching2": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "social-interaction", "unit10", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the underlined idioms with their meanings.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the underlined idioms (draggable items) to their meanings (drop zones):",
+      "ar": ""  
+    },
+    "draggableItems": [ 
+      { "id": "idiom_wide", "text": { "en": "have a wide face", "ar": "" } },
+      { "id": "idiom_pump", "text": { "en": "give your parents pumpkins", "ar": "" } },  
+      { "id": "idiom_bread", "text": { "en": "break bread with", "ar": "" } }
+    ],
+    "dropZones": [ 
+      { "id": "mean_c", "label": { "en": "a. be well liked", "ar": "" }, "accepts": "idiom_wide" },
+      { "id": "mean_a", "label": { "en": "b. turn someone down / disappoint", "ar": "" }, "accepts": "idiom_pump" }, 
+      { "id": "mean_b", "label": { "en": "c. be a close friend to / share trust", "ar": "" }, "accepts": "idiom_bread" } 
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! You matched the idioms to their likely meanings in these contexts.",
+      "ar": "صحيح! لقد طابقت المصطلحات بمعانيها المحتملة في هذه السياقات."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'have a wide face' تعني أن تكون محبوبًا، 'give pumpkins' غالبًا ما تعني الرفض أو خيبة الأمل (هنا للوالدين)، و 'break bread with' تعني مشاركة الثقة أو الصداقة الوثيقة."  
+    }
+  },
+  "unit10_s_3_modal1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "obligation", "law", "must", "have-to", "unit10", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with should, shouldn’t, must, mustn’t, have to, don’t/doesn’t have to.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. In Britain, you <input type='text' class='fill-blank-input' data-blank-id='mod1' placeholder='...'> drive on the left.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod1": { "en": "have to", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'have to' expresses external obligation or rules.",
+      "ar": "صحيح! 'have to' تعبر عن التزام خارجي أو قواعد."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن التزام خارجي قوي ناتج عن قانون أو قاعدة، نستخدم عادةً 'have to' أو 'must'."
+    }
+  },
+  "unit10_s_4_modal2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "advice", "prohibition", "should", "must", "unit10", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with should, shouldn’t, must, mustn’t, have to, don’t/doesn’t have to.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. He has a backache. He <input type='text' class='fill-blank-input' data-blank-id='mod2' placeholder='...'> carry heavy things.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod2": { "en": "shouldn't", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'shouldn't' gives strong advice against doing something.",
+      "ar": "صحيح! 'shouldn't' تعطي نصيحة قوية ضد فعل شيء ما."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لتقديم نصيحة قوية بعدم فعل شيء (لأسباب صحية مثلاً)، نستخدم 'shouldn't'. يمكن استخدام 'mustn't' أيضاً لمنع أقوى."
+    }
+  },
+  "unit10_s_5_modal3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "necessity", "must", "have-to", "unit10", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with should, shouldn’t, must, mustn’t, have to, don’t/doesn’t have to.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. I’m very hungry. I <input type='text' class='fill-blank-input' data-blank-id='mod3' placeholder='...'> eat something.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod3": { "en": "must", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'must' (or 'have to') expresses strong necessity.",
+      "ar": "صحيح! 'must' (أو 'have to') تعبر عن ضرورة قوية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن ضرورة قوية نابعة من شعور داخلي (الجوع)، نستخدم عادةً 'must' أو 'have to'."
+    }
+  },
+  "unit10_s_6_modal4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "prohibition", "must", "unit10", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with should, shouldn’t, must, mustn’t, have to, don’t/doesn’t have to.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. You <input type='text' class='fill-blank-input' data-blank-id='mod4' placeholder='...'> use your mobile phone in a gas station.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod4": { "en": "mustn't", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'mustn't' expresses strong prohibition (it's forbidden or dangerous).",
+      "ar": "صحيح! 'mustn't' تعبر عن منع قوي (إنه ممنوع أو خطير)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن منع قوي أو حظر (لأنه غير مسموح أو خطير)، نستخدم 'mustn't'."
+    }
+  },
+  "unit10_s_7_modal5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "advice", "should", "unit10", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with should, shouldn’t, must, mustn’t, have to, don’t/doesn’t have to.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. Tom doesn’t study enough. He <input type='text' class='fill-blank-input' data-blank-id='mod5' placeholder='...'> study harder.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod5": { "en": "should", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'should' gives advice or expresses what is considered the right thing to do.",
+      "ar": "صحيح! 'should' تعطي نصيحة أو تعبر عما يُعتبر الشيء الصحيح لفعله."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لتقديم نصيحة أو اقتراح حول ما هو الأفضل أو الصحيح فعله، نستخدم 'should'."
+    }
+  },
+  "unit10_s_8_modal6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "modal-verb", "lack-of-necessity", "have-to", "unit10", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with should, shouldn’t, must, mustn’t, have to, don’t/doesn’t have to.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "6. If he has a credit card, he <input type='text' class='fill-blank-input' data-blank-id='mod6' placeholder='...'> pay for something in cash. He can use the card.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "mod6": { "en": "doesn't have to", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'doesn't have to' expresses a lack of necessity.",
+      "ar": "صحيح! 'doesn't have to' تعبر عن عدم وجود ضرورة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن عدم وجود ضرورة لفعل شيء ما (لأن هناك بديلاً)، نستخدم 'don't have to' أو 'doesn't have to' (مع الفاعل المفرد الغائب)."
+    }
+  }
+}

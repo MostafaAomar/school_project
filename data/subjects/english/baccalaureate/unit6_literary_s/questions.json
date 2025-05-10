@@ -1,0 +1,193 @@
+{
+  "unit6_s_1_matching": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "organization", "agreement", "unit6", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words on the left with their definitions on the right.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the words to their definitions:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "word_charter", "text": { "en": "1 charter", "ar": "" } },
+      { "id": "word_ratific", "text": { "en": "2 ratification", "ar": "" } },
+      { "id": "word_perman", "text": { "en": "3 permanent", "ar": "" } },
+      { "id": "word_predec", "text": { "en": "4 predecessor", "ar": "" } },
+      { "id": "word_affil", "text": { "en": "5 affiliated", "ar": "" } },
+      { "id": "word_devast", "text": { "en": "6 devastation", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "def_c", "label": { "en": "a statement of the principles and purposes of an organization", "ar": "" }, "accepts": "word_charter" },
+      { "id": "def_d", "label": { "en": "making something valid by confirming it", "ar": "" }, "accepts": "word_ratific" },
+      { "id": "def_a", "label": { "en": "continuing to exist for a long time", "ar": "" }, "accepts": "word_perman" },
+      { "id": "def_b", "label": { "en": "a system that existed before another one", "ar": "" }, "accepts": "word_predec" },
+      { "id": "def_f", "label": { "en": "being joined in close association", "ar": "" }, "accepts": "word_affil" },
+      { "id": "def_e", "label": { "en": "the state of being decayed or destroyed", "ar": "" }, "accepts": "word_devast" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All words matched correctly.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات: 'charter' هو ميثاق المنظمة، 'ratification' هو التصديق أو الإقرار، 'permanent' يعني دائم، 'predecessor' هو السابق، 'affiliated' يعني منتسب أو مرتبط، و 'devastation' هو الدمار."  
+    }
+  },
+  "unit6_s_2_antonyms": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "prefix", "antonym", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "Use the prefixes [de-, dis-, in-, il-, im-, ir-, non-, un-, mis-, anti-] to make antonyms of the following words.",
+      "ar": ""
+    },
+    "questionText": { 
+      "en": "activate <input type='text' class='fill-blank-input' data-blank-id='ant1' placeholder='antonym...'> logical <input type='text' class='fill-blank-input' data-blank-id='ant2' placeholder='antonym...'><br>possible <input type='text' class='fill-blank-input' data-blank-id='ant3' placeholder='antonym...'> regular <input type='text' class='fill-blank-input' data-blank-id='ant4' placeholder='antonym...'><br>understand <input type='text' class='fill-blank-input' data-blank-id='ant5' placeholder='antonym...'> complete <input type='text' class='fill-blank-input' data-blank-id='ant6' placeholder='antonym...'><br>familiar <input type='text' class='fill-blank-input' data-blank-id='ant7' placeholder='antonym...'> refundable <input type='text' class='fill-blank-input' data-blank-id='ant8' placeholder='antonym...'><br>encourage <input type='text' class='fill-blank-input' data-blank-id='ant9' placeholder='antonym...'> virus <input type='text' class='fill-blank-input' data-blank-id='ant10' placeholder='antonym...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ant1":  { "en": "deactivate", "ar": "" },
+      "ant2":  { "en": "illogical", "ar": "" },
+      "ant3":  { "en": "impossible", "ar": "" },
+      "ant4":  { "en": "irregular", "ar": "" },
+      "ant5":  { "en": "misunderstand", "ar": "" },
+      "ant6":  { "en": "incomplete", "ar": "" },
+      "ant7":  { "en": "unfamiliar", "ar": "" },
+      "ant8":  { "en": "non-refundable", "ar": "" },  
+      "ant9":  { "en": "discourage", "ar": "" },
+      "ant10": { "en": "antivirus", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You've applied the negative prefixes correctly.",
+      "ar": "صحيح! لقد طبقت البادئات النافية بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. تحقق من البادئة المناسبة لكل كلمة لإعطاء المعنى المعاكس. تذكر أن بعض البادئات مثل il-, im-, ir- تستخدم قبل حروف معينة (l, m/p, r). 'mis-' غالبًا ما تعني بشكل خاطئ. 'anti-' تعني ضد. 'non-' و 'un-' و 'dis-' و 'de-' تستخدم بشكل شائع للنفي أو العكس." 
+    }
+  },
+  "unit6_s_3_future1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-going-to", "intention", "unit6", "fill-blank"],
+    "supportContent": {
+      "en": "What does this person say? Report their intention/plan/prediction.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. David intends to get up early tomorrow.\nDavid: I <input type='text' class='fill-blank-input' data-blank-id='fut_rep1' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_rep1": { "en": "am going to get up early tomorrow", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'am going to' is commonly used to express intentions.",
+      "ar": "صحيح! تُستخدم 'am going to' عادةً للتعبير عن النوايا."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن نية ('intends to')، نستخدم عادةً صيغة 'be going to + المصدر'." 
+    }
+  },
+  "unit6_s_4_future2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "timetable", "future", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "What does this person say? Report their intention/plan/prediction based on the timetable.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. Emily’s plane timetable says “Arrival 9.30”.\nEmily: The plane <input type='text' class='fill-blank-input' data-blank-id='fut_rep2' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_rep2": { "en": "arrives at 9.30", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Simple is used for scheduled events like timetables.",
+      "ar": "صحيح! يُستخدم المضارع البسيط للأحداث المجدولة مثل الجداول الزمنية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عند الحديث عن جداول زمنية ثابتة (مثل مواعيد الطائرات أو القطارات)، نستخدم صيغة المضارع البسيط حتى لو كان الحدث في المستقبل."  
+    }
+  },
+  "unit6_s_5_future3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "arrangement", "future", "unit6", "fill-blank"],
+    "supportContent": {
+        "en": "What does this person say? Report their intention/plan/prediction based on the arrangement.",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "3. John has arranged to hold a meeting tomorrow.\nJohn: I <input type='text' class='fill-blank-input' data-blank-id='fut_rep3' placeholder='...'>.",  
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_rep3": { "en": "am holding a meeting tomorrow", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Continuous is often used for future arrangements.",
+      "ar": "صحيح! يُستخدم المضارع المستمر غالبًا للترتيبات المستقبلية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن ترتيبات مستقبلية تم الإعداد لها ('has arranged')، نستخدم عادةً صيغة المضارع المستمر (am/is/are + V-ing)."  
+    }
+  },
+  "unit6_s_6_future4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "prediction", "unit6", "fill-blank"],
+     "supportContent": {
+       "en": "What does this person say? Report their intention/plan/prediction.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. Suzan will have a big party in the very near future. (Prediction/Plan)\nSuzan: I <input type='text' class 'fill-blank-input' data-blank-id='fut_rep4' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "fut_rep4": { "en": ["will have a big party", "am going to have a big party"], "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' or 'am going to' can express future plans or predictions.",
+      "ar": "صحيح! يمكن استخدام 'will' أو 'am going to' للتعبير عن خطط أو تنبؤات مستقبلية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الجملة الأصلية تستخدم 'will have'. يمكن التعبير عن هذا كخطة مستقبلية باستخدام 'will + المصدر' أو 'be going to + المصدر'."  
+    }
+  },
+  "unit6_s_7_future5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "future-will", "decision", "unit6", "fill-blank"],
+    "supportContent": {
+       "en": "What does this person say? Report their intention/plan/prediction based on the decision.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. Sami decides to use the new laptop for the next two years. (Decision at time of speaking?)\nSami: I <input type='text' class='fill-blank-input' data-blank-id='fut_rep5' placeholder='...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_rep5": { "en": "will use the new laptop for the next two years", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' is often used to express a decision made at the moment of speaking.",
+      "ar": "صحيح! غالبًا ما تُستخدم 'will' للتعبير عن قرار تم اتخاذه في لحظة التحدث."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. عندما نعبر عن قرار تم اتخاذه للتو بشأن المستقبل ('decides to')، نستخدم عادةً 'will + المصدر'."  
+    }
+  }
+}
+

@@ -1,0 +1,729 @@
+{
+  "review1_1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "present-perfect", "conclusion", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I ………………… to the conclusion that nowadays nobody cares about anything.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "come", "ar": "" },
+      { "en": "have come", "ar": "" },
+      { "en": "will come", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "have come",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect ('have come') is used to express a conclusion reached at the present time based on past experience or observation.",
+      "ar": "صحيح! يتم استخدام المضارع التام ('have come') للتعبير عن استنتاج تم التوصل إليه في الوقت الحاضر بناءً على الخبرة أو الملاحظة السابقة."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. 'come' (Present Simple) describes habits or general truths. 'will come' (Future Simple) refers to the future. The Present Perfect ('have come') fits best for a present conclusion based on experience.",
+      "ar": "ليس تماماً. 'come' (المضارع البسيط) يصف العادات أو الحقائق العامة. 'will come' (المستقبل البسيط) يشير إلى المستقبل. المضارع التام ('have come') هو الأنسب لاستنتاج حالي مبني على الخبرة."
+    }
+  },
+  "review1_2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect-continuous", "past-simple", "interrupted-action", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "They ………………………. for three hours when the storm suddenly broke.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "had been running", "ar": "" },
+      { "en": "have been running", "ar": "" },
+      { "en": "are running", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had been running",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Perfect Continuous ('had been running') describes an action that was in progress for a period ('for three hours') before another action happened in the past ('the storm broke').",
+      "ar": "صحيح! الماضي التام المستمر ('had been running') يصف حدثاً كان مستمراً لفترة ('for three hours') قبل وقوع حدث آخر في الماضي ('the storm broke')."
+    },
+    "feedbackIncorrect": {
+      "en": "'have been running' (Present Perfect Continuous) connects to the present. 'are running' (Present Continuous) is happening now. You need a tense describing an action *before* a past event.",
+      "ar": "'have been running' (المضارع التام المستمر) يرتبط بالحاضر. 'are running' (المضارع المستمر) يحدث الآن. أنت بحاجة إلى زمن يصف حدثاً *قبل* حدث ماضٍ آخر."
+    }
+  },
+  "review1_3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect-continuous", "assumption", "past-time", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I assumed you ………………………. for the repairs until the end of last year.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "will pay", "ar": "" },
+      { "en": "had been paying", "ar": "" },
+      { "en": "have paid", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had been paying",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Perfect Continuous ('had been paying') is used here to describe an action assumed to be in progress up until a specific point in the past ('until the end of last year').",
+      "ar": "صحيح! يُستخدم الماضي التام المستمر ('had been paying') هنا لوصف فعل افتُرض أنه كان مستمرًا حتى نقطة محددة في الماضي ('until the end of last year')."
+    },
+    "feedbackIncorrect": {
+      "en": "'will pay' is future. 'have paid' (Present Perfect) connects to the present. The context ('I assumed', 'until the end of last year') requires a tense describing an ongoing action *before* or *up to* that past point.",
+      "ar": "'will pay' هو للمستقبل. 'have paid' (المضارع التام) يرتبط بالحاضر. السياق ('I assumed', 'until the end of last year') يتطلب زمنًا يصف حدثًا مستمرًا *قبل* أو *حتى* تلك النقطة الماضية."
+    }
+  },
+  "review1_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "present-perfect-continuous", "duration", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "She ………………………. on that manuscript for two years now.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "has been working", "ar": "" },
+      { "en": "had been working", "ar": "" },
+      { "en": "is working", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "has been working",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect Continuous ('has been working') is used with 'for two years now' to describe an action that started in the past and is still continuing in the present, emphasizing the duration.",
+      "ar": "صحيح! يُستخدم المضارع التام المستمر ('has been working') مع 'for two years now' لوصف فعل بدأ في الماضي وما زال مستمرًا في الحاضر، مع التأكيد على المدة."
+    },
+    "feedbackIncorrect": {
+      "en": "'had been working' (Past Perfect Continuous) refers to an action before another past event. 'is working' (Present Continuous) focuses only on the current moment. The phrase 'for two years now' indicates duration up to the present.",
+      "ar": "'had been working' (الماضي التام المستمر) يشير إلى فعل قبل حدث ماضٍ آخر. 'is working' (المضارع المستمر) يركز فقط على اللحظة الحالية. عبارة 'for two years now' تشير إلى مدة حتى الوقت الحاضر."
+    }
+  },
+  "review1_5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "present-simple", "keep-doing", "repeated-action", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Suzan …………………… trying to pass her driving test but fails every time.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "kept", "ar": "" },
+      { "en": "is keeping", "ar": "" },
+      { "en": "keeps", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "keeps",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The structure 'keeps + verb-ing' (using the Present Simple form 'keeps') is used to describe a repeated, habitual action, often one that continues despite difficulty.",
+      "ar": "صحيح! تُستخدم الصيغة 'keeps + فعل-ing' (باستخدام صيغة المضارع البسيط 'keeps') لوصف فعل متكرر وعادي، غالبًا ما يستمر على الرغم من الصعوبة."
+    },
+    "feedbackIncorrect": {
+      "en": "'kept' is Past Simple. 'is keeping' (Present Continuous) implies it's happening right now or around now temporarily. 'keeps' best describes the repeated nature of her attempts.",
+      "ar": "'kept' هو الماضي البسيط. 'is keeping' (المضارع المستمر) يعني أنه يحدث الآن أو مؤقتًا في الوقت الحالي. 'keeps' تصف بشكل أفضل الطبيعة المتكررة لمحاولاتها."
+    }
+  },
+  "review1_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "state-verbs", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I ………………………. complete silence now while I try this experiment.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "am wanting", "ar": "" },
+      { "en": "want", "ar": "" },
+      { "en": "have wanted", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "want",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Want' is a state verb, which describes a state of being or feeling. State verbs are generally not used in continuous tenses, even with 'now'.",
+      "ar": "صحيح! 'Want' هو فعل حالة يصف حالة شعور أو وجود. أفعال الحالة لا تُستخدم عمومًا في الأزمنة المستمرة، حتى مع وجود كلمة 'now'."
+    },
+    "feedbackIncorrect": {
+      "en": "'am wanting' is generally incorrect as 'want' is a state verb. 'have wanted' (Present Perfect) implies a duration or past relevance not strongly indicated here. The simple form 'want' is used for current states/desires.",
+      "ar": "'am wanting' غير صحيحة بشكل عام لأن 'want' هو فعل حالة. 'have wanted' (المضارع التام) يشير إلى مدة أو صلة بالماضي غير موضحة بقوة هنا. الصيغة البسيطة 'want' تُستخدم للحالات أو الرغبات الحالية."
+    }
+  },
+  "review1_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I can't leave now. I ………………………………… for an important client.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "was waiting", "ar": "" },
+      { "en": "am waiting", "ar": "" },
+      { "en": "have waited", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "am waiting",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Continuous ('am waiting') is used to describe an action happening right now or around the present time, which explains the current situation ('I can't leave now').",
+      "ar": "صحيح! يُستخدم المضارع المستمر ('am waiting') لوصف فعل يحدث الآن أو في الوقت الحاضر، مما يفسر الموقف الحالي ('I can't leave now')."
+    },
+    "feedbackIncorrect": {
+      "en": "'was waiting' is Past Continuous. 'have waited' (Present Perfect) suggests a completed waiting period or duration up to now. The emphasis here is on the ongoing action preventing leaving *now*.",
+      "ar": "'was waiting' هو الماضي المستمر. 'have waited' (المضارع التام) يشير إلى فترة انتظار مكتملة أو مدة حتى الآن. التركيز هنا على الفعل المستمر الذي يمنع المغادرة *الآن*."
+    }
+  },
+  "review1_8": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-before-past", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I wonder what ………………………. while I was away.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "has happened", "ar": "" },
+      { "en": "happens", "ar": "" },
+      { "en": "had happened", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had happened",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Past Perfect ('had happened') is used to refer to an event that occurred *before* a specific time in the past (the period 'while I was away').",
+      "ar": "صحيح! يُستخدم الماضي التام ('had happened') للإشارة إلى حدث وقع *قبل* وقت محدد في الماضي (الفترة 'while I was away')."
+    },
+    "feedbackIncorrect": {
+      "en": "'has happened' (Present Perfect) connects the event to the present. 'happens' (Present Simple) is for general truths or habits. You need a tense to talk about something completed *before* or *during* a past period.",
+      "ar": "'has happened' (المضارع التام) يربط الحدث بالحاضر. 'happens' (المضارع البسيط) للحقائق العامة أو العادات. أنت بحاجة إلى زمن للتحدث عن شيء اكتمل *قبل* أو *أثناء* فترة ماضية."
+    }
+  },
+  "review1_9": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "present-perfect", "recent-past", "review", "author"],
+    "supportContent": {
+      "en": "Choose the correct verb form to complete the sentence.",
+      "ar": "اختر صيغة الفعل الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Ahlam Mestaghanmi ………………… some of the best novels in recent years.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "has written", "ar": "" },
+      { "en": "wrote", "ar": "" },
+      { "en": "was writing", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "has written",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect ('has written') is often used with time expressions like 'in recent years' to talk about actions or achievements within a time period that continues up to the present.",
+      "ar": "صحيح! غالبًا ما يُستخدم المضارع التام ('has written') مع تعابير زمنية مثل 'in recent years' للتحدث عن أفعال أو إنجازات خلال فترة زمنية تستمر حتى الوقت الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "'wrote' (Past Simple) would imply the 'recent years' are a finished period or refer to specific past novels. 'was writing' (Past Continuous) describes an action in progress at a specific past moment. 'in recent years' suggests a connection to the present.",
+      "ar": "'wrote' (الماضي البسيط) قد يعني أن 'recent years' هي فترة منتهية أو يشير إلى روايات محددة في الماضي. 'was writing' (الماضي المستمر) يصف فعلاً كان قيد التقدم في لحظة ماضية محددة. 'in recent years' تشير إلى وجود صلة بالحاضر."
+    }
+  },
+  "review1_10": {
+    "type": "mcq",
+    "difficulty": 3,
+    "tags": ["grammar", "tenses", "present-perfect", "causative", "passive", "have-something-done", "review"],
+    "supportContent": {
+      "en": "Choose the correct verb forms to complete the sentence (using the 'have something done' structure).",
+      "ar": "اختر صيغ الأفعال الصحيحة لإكمال الجملة (باستخدام صيغة 'have something done')."
+    },
+    "questionText": {
+      "en": "How many times ______ you ______ your house broken into?",
+      "ar": "كم مرة ______ لك ______ منزلك يتعرض للسطو؟"
+    },
+    "options": [
+      { "en": "do / have", "ar": "" },
+      { "en": "did / have", "ar": "" },
+      { "en": "have / had", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "have / had",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This uses the Present Perfect ('Have you had') combined with the causative passive structure 'have something done' ('have your house broken into') to ask about experiences up to the present.",
+      "ar": "صحيح! هذا يستخدم المضارع التام ('Have you had') مع الصيغة السببية المبنية للمجهول 'have something done' ('have your house broken into') للسؤال عن التجارب حتى الوقت الحاضر."
+    },
+    "feedbackIncorrect": {
+      "en": "This question asks about experiences up to the present ('How many times...') using the causative structure 'have something done'. You need the Present Perfect form of the auxiliary 'have' for the question ('Have you...') and the past participle 'had' as the main verb in the causative structure ('...had your house broken into?').",
+      "ar": "هذا السؤال يسأل عن التجارب حتى الوقت الحاضر ('How many times...') باستخدام الصيغة السببية 'have something done'. أنت بحاجة إلى صيغة المضارع التام للفعل المساعد 'have' للسؤال ('Have you...') والتصريف الثالث 'had' كفعل رئيسي في الصيغة السببية ('...had your house broken into?')."
+    }
+  },
+  
+  "review1_11": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verb", "conformity", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Why should I change my habits to ______ their way of life?",
+      "ar": ""
+    },
+    "options": [
+      { "en": "fit in with", "ar": "" },
+      { "en": "follow through", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "fit in with",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To fit in with' means to conform to a group or situation or be accepted by them.",
+      "ar": "صحيح! 'fit in with' تعني التوافق مع مجموعة أو موقف أو أن تكون مقبولاً لديهم."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. 'Follow through' means to continue an action or process until it is completed. 'Fit in with' means to conform or be accepted.",
+      "ar": "ليس تماماً. 'Follow through' تعني مواصلة فعل أو عملية حتى اكتمالها. 'Fit in with' تعني التوافق أو القبول."
+    }
+  },
+  "review1_12": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verb", "safety", "garden", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "They are ______ the bottom part of the garden because of a deep hole.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "pulling down", "ar": "" },
+      { "en": "fencing off", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "fencing off",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To fence off' means to enclose an area with a fence, often for safety or separation.",
+      "ar": "صحيح! 'fence off' تعني تطويق منطقة بسياج، غالبًا للسلامة أو الفصل."
+    },
+    "feedbackIncorrect": {
+      "en": "Consider the reason: 'because of a deep hole'. 'Pulling down' means demolishing. 'Fencing off' means enclosing with a fence.",
+      "ar": "فكر في السبب: 'because of a deep hole'. 'Pulling down' تعني الهدم. 'Fencing off' تعني التسييج."
+    }
+  },
+  "review1_13": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "surgery", "appearance", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "More and more women are choosing to ______ to improve their appearance.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "back the wrong horse", "ar": "" },
+      { "en": "go under the knife", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "go under the knife",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To go under the knife' is an idiom that means to have a surgical operation.",
+      "ar": "صحيح! 'go under the knife' هو مصطلح يعني الخضوع لعملية جراحية."
+    },
+    "feedbackIncorrect": {
+      "en": "'To back the wrong horse' means to support someone or something that fails. 'To go under the knife' means to have surgery, which fits the context of improving appearance.",
+      "ar": "'back the wrong horse' تعني دعم شخص أو شيء يفشل. 'go under the knife' تعني الخضوع لعملية جراحية، وهو ما يناسب سياق تحسين المظهر."
+    }
+  },
+  "review1_14": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "phrasal-verb", "development", "nations", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "In a few years, our country should be able to ______ the world's most developed nations.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "ace a test", "ar": "" },
+      { "en": "join the ranks of", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "join the ranks of",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To join the ranks of' means to become a member of a particular group or organization.",
+      "ar": "صحيح! 'join the ranks of' تعني أن تصبح عضوًا في مجموعة أو منظمة معينة."
+    },
+    "feedbackIncorrect": {
+      "en": "'Ace a test' means to do very well on a test. 'Join the ranks of' means to become part of a group, which fits the context of becoming like developed nations.",
+      "ar": "'Ace a test' تعني الحصول على درجة عالية جدًا في الاختبار. 'Join the ranks of' تعني أن تصبح جزءًا من مجموعة، وهو ما يناسب سياق الانضمام إلى الدول المتقدمة."
+    }
+  },
+  "review1_15": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "support", "mistake", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "I think you’re supporting the wrong person. You shouldn’t ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "back the wrong horse", "ar": "" },
+      { "en": "be on a roll", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "back the wrong horse",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To back the wrong horse' is an idiom meaning to support someone or something that cannot win or succeed.",
+      "ar": "صحيح! 'back the wrong horse' هو مصطلح يعني دعم شخص أو شيء لا يمكنه الفوز أو النجاح."
+    },
+    "feedbackIncorrect": {
+      "en": "'Be on a roll' means to be experiencing a period of success or good luck. The sentence implies supporting someone who will likely fail, which matches 'back the wrong horse'.",
+      "ar": "'Be on a roll' تعني المرور بفترة من النجاح أو الحظ الجيد. تشير الجملة إلى دعم شخص من المحتمل أن يفشل، وهو ما يتوافق مع 'back the wrong horse'."
+    }
+  },
+  "review1_16": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "illness", "excuse", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "Being late to work, the worker told his boss a story about his mother being ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "at death’s door", "ar": "" },
+      { "en": "on the mend", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "at death’s door",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'At death's door' is an idiom meaning very close to death. This makes for a strong, albeit possibly untrue, excuse for being late.",
+      "ar": "صحيح! 'at death's door' هو مصطلح يعني قريب جدًا من الموت. هذا يشكل عذراً قوياً، وإن كان قد يكون غير صحيح، للتأخر."
+    },
+    "feedbackIncorrect": {
+      "en": "'On the mend' means recovering from an illness or injury. While possible, 'at death's door' is a more dramatic excuse fitting the context of potentially lying about being late.",
+      "ar": "'On the mend' تعني التعافي من مرض أو إصابة. على الرغم من أنه ممكن، فإن 'at death's door' هو عذر أكثر دراماتيكية يتناسب مع سياق الكذب المحتمل بشأن التأخر."
+    }
+  },
+  "review1_17": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "phrasal-verb", "information", "news", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "He has never made an effort to ______ current events.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "reach out to", "ar": "" },
+      { "en": "keep up with", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "keep up with",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To keep up with' something means to stay informed about it.",
+      "ar": "صحيح! 'keep up with' شيء ما تعني البقاء على اطلاع به."
+    },
+    "feedbackIncorrect": {
+      "en": "'Reach out to' means to try to communicate with someone. 'Keep up with' means to stay informed, which is appropriate for 'current events'.",
+      "ar": "'Reach out to' تعني محاولة التواصل مع شخص ما. 'Keep up with' تعني البقاء على اطلاع، وهو ما يناسب 'current events'."
+    }
+  },
+  "review1_18": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["vocabulary", "phrasal-verb", "car", "repair", "review"],
+    "supportContent": {
+      "en": "Choose the correct phrase to complete the sentence.",
+      "ar": "اختر العبارة الصحيحة لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "When we were on our way to Aleppo, our car broke down and we had to ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "jack it up", "ar": "" },
+      { "en": "shore it up", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "jack it up",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To jack up' a car means to lift it off the ground using a jack, usually to change a tire or make repairs.",
+      "ar": "صحيح! 'jack up' السيارة تعني رفعها عن الأرض باستخدام الرافعة (الجك)، عادة لتغيير الإطار أو إجراء إصلاحات."
+    },
+    "feedbackIncorrect": {
+      "en": "'Shore up' means to support something weak or collapsing with props. 'Jack up' is used specifically for lifting vehicles.",
+      "ar": "'Shore up' تعني دعم شيء ضعيف أو منهار باستخدام دعامات. 'Jack up' تُستخدم خصيصًا لرفع المركبات."
+    }
+  },
+  "review1_19": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "preposition", "movement", "surface", "review"],
+    "supportContent": {
+      "en": "Choose the correct preposition to complete the sentence.",
+      "ar": "اختر حرف الجر الصحيح لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "She watched him walk ______ the platform.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "into", "ar": "" },
+      { "en": "onto", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "onto",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Onto' is used to indicate movement to a position *on* a surface, like a platform or stage.",
+      "ar": "صحيح! تُستخدم 'onto' للإشارة إلى الحركة إلى موقع *على* سطح، مثل رصيف أو مسرح."
+    },
+    "feedbackIncorrect": {
+      "en": "'Into' indicates movement *inside* something (like into a room or into water). 'Onto' indicates movement to the *surface* of something.",
+      "ar": "'Into' تشير إلى الحركة *إلى داخل* شيء ما (مثل غرفة أو ماء). 'Onto' تشير إلى الحركة *إلى سطح* شيء ما."
+    }
+  },
+  "review1_20": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "phrasal-verb", "preposition", "movement", "car", "review"],
+    "supportContent": {
+      "en": "Choose the correct word to complete the phrasal verb.",
+      "ar": "اختر الكلمة الصحيحة لإكمال الفعل المركب."
+    },
+    "questionText": {
+      "en": "He got into his car and drove ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "off", "ar": "" },
+      { "en": "from", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "off",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To drive off' means to drive away from a place.",
+      "ar": "صحيح! 'drive off' تعني الانطلاق بالسيارة بعيدًا عن مكان ما."
+    },
+    "feedbackIncorrect": {
+      "en": "'Drove from' requires specifying the place driven from (e.g., 'drove from the house'). 'Drove off' simply means drove away.",
+      "ar": "'Drove from' تتطلب تحديد المكان الذي انطلق منه (مثل 'drove from the house'). 'Drove off' تعني ببساطة انطلق بعيدًا."
+    }
+  },
+  "review1_21": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "noun", "university", "review"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in brackets.",
+      "ar": "أكمل الجملة بالصيغة الصحيحة للكلمة بين القوسين."
+    },
+    "questionText": {
+      "en": "I'm surprised by the ………………………… of university departments that a high rank student can choose. (VARY)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": { 
+        "en": "variety",
+        "ar": "تنوع"
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Variety' is the noun form of 'vary' needed here to describe the range of departments.",
+      "ar": "صحيح! 'variety' هي صيغة الاسم من الفعل 'vary' المطلوبة هنا لوصف نطاق الأقسام."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. You need a noun after 'the...' that means a range or assortment. What is the noun form of the verb 'vary'?",
+      "ar": "ليس تماماً. أنت بحاجة إلى اسم بعد 'the...' يعني نطاقًا أو تشكيلة. ما هي صيغة الاسم من الفعل 'vary'؟"
+    }
+  },
+  "review1_22": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "concept", "review"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in brackets.",
+      "ar": "أكمل الجملة بالصيغة الصحيحة للكلمة بين القوسين."
+    },
+    "questionText": {
+      "en": "A successful person is able to differentiate between fantasy and …………….. (REAL)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "reality",
+        "ar": "الواقع"
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Reality' is the noun form of 'real', contrasting with 'fantasy'.",
+      "ar": "صحيح! 'reality' هي صيغة الاسم من 'real'، وهي تتناقض مع 'fantasy'."
+    },
+    "feedbackIncorrect": {
+      "en": "Think about the concept that is the opposite of 'fantasy'. You need the noun form of the adjective 'real'.",
+      "ar": "فكر في المفهوم الذي هو عكس 'fantasy'. أنت بحاجة إلى صيغة الاسم من الصفة 'real'."
+    }
+  },
+  "review1_23": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "profession", "science", "review"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in brackets.",
+      "ar": "أكمل الجملة بالصيغة الصحيحة للكلمة بين القوسين."
+    },
+    "questionText": {
+      "en": "When I grow up, I want to be a …………………. to study all types of living things. (BIOLOGY)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "biologist",
+        "ar": "عالم أحياء"
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A 'biologist' is a person who studies biology.",
+      "ar": "صحيح! 'biologist' هو الشخص الذي يدرس علم الأحياء."
+    },
+    "feedbackIncorrect": {
+      "en": "You need the word for a person who studies 'biology'. What is the noun for the person?",
+      "ar": "أنت بحاجة إلى كلمة تصف الشخص الذي يدرس 'biology'. ما هو الاسم الذي يطلق على هذا الشخص؟"
+    }
+  },
+  "review1_24": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "noun", "profession", "medicine", "engineering", "review"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in brackets.",
+      "ar": "أكمل الجملة بالصيغة الصحيحة للكلمة بين القوسين."
+    },
+    "questionText": {
+      "en": "My elder brother is a …………………. in designing artificial limbs. (SPECIALISATION)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "specialist",
+        "ar": "متخصص"
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A 'specialist' is a person who concentrates primarily on a particular subject or activity.",
+      "ar": "صحيح! 'specialist' هو الشخص الذي يركز بشكل أساسي على موضوع أو نشاط معين."
+    },
+    "feedbackIncorrect": {
+      "en": "The sentence needs the word for the *person* who has a specialisation. What is the noun for this person?",
+      "ar": "الجملة تحتاج إلى كلمة تصف *الشخص* الذي لديه تخصص ('specialisation'). ما هو الاسم الذي يطلق على هذا الشخص؟"
+    }
+  },
+  "review1_25": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "energy", "review"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the word in brackets.",
+      "ar": "أكمل الجملة بالصيغة الصحيحة للكلمة بين القوسين."
+    },
+    "questionText": {
+      "en": "Very soon, …………………. power will be supplied by underground cables. (ELECTRICITY)",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_1": {
+        "en": "electric", 
+        "ar": "كهربائية"
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Electric' (or 'electrical') is the adjective form needed to describe 'power'. 'Electric power' is a common collocation.",
+      "ar": "صحيح! 'electric' (أو 'electrical') هي صيغة الصفة المطلوبة لوصف 'power'. 'Electric power' هي عبارة شائعة."
+    },
+    "feedbackIncorrect": {
+      "en": "You need an adjective derived from 'electricity' to describe the type of 'power'.",
+      "ar": "أنت بحاجة إلى صفة مشتقة من 'electricity' لوصف نوع 'power'."
+    }
+  }
+}
+

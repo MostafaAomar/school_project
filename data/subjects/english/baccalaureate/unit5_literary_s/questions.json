@@ -1,0 +1,471 @@
+{
+  "unit5_1_matching": { 
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "law", "human-rights", "unit5", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words on the left with their meanings on the right.",
+      "ar": "طابق الكلمات على اليسار بمعانيها على اليمين."
+    },
+    "questionText": { 
+      "en": "Match the words with their meanings:",
+      "ar": "طابق الكلمات بمعانيها:"
+    },
+    "draggableItems": [ 
+      { "id": "word1", "text": { "en": "1 vote", "ar": "" } },
+      { "id": "word2", "text": { "en": "2 guarantee", "ar": "" } },
+      { "id": "word3", "text": { "en": "3 violation", "ar": "" } },
+      { "id": "word4", "text": { "en": "4 discrimination", "ar": "" } },
+      { "id": "word5", "text": { "en": "5 repression", "ar": "" } },
+      { "id": "word6", "text": { "en": "6 restraints", "ar": "" } },
+      { "id": "word7", "text": { "en": "7 trial", "ar": "" } },
+      { "id": "word8", "text": { "en": "8 deny", "ar": "" } },
+      { "id": "word9", "text": { "en": "9 legislation", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "def_f", "label": { "en": "a formal choice you take in an election", "ar": "" }, "accepts": "word1" },
+      { "id": "def_a", "label": { "en": "to give an assurance that something will be done right", "ar": "" }, "accepts": "word2" },
+      { "id": "def_e", "label": { "en": "an action that breaks a law, an agreement or a principle", "ar": "" }, "accepts": "word3" },
+      { "id": "def_h", "label": { "en": "the practice of treating someone less fairly than others", "ar": "" }, "accepts": "word4" },
+      { "id": "def_i", "label": { "en": "using force to control a group of people and restrict their freedom", "ar": "" }, "accepts": "word5" },
+      { "id": "def_g", "label": { "en": "rules which limit what people can do", "ar": "" }, "accepts": "word6" },
+      { "id": "def_d", "label": { "en": "a legal process to decide if somebody is guilty or not", "ar": "" }, "accepts": "word7" },
+      { "id": "def_c", "label": { "en": "to say that something isn't true", "ar": "" }, "accepts": "word8" },
+      { "id": "def_b", "label": { "en": "a law or set of laws", "ar": "" }, "accepts": "word9" }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! You matched all the legal terms correctly.",
+      "ar": "ممتاز! لقد طابقت جميع المصطلحات القانونية بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite right. Review the definitions carefully. For example, 'vote' is related to elections, 'violation' means breaking a rule, and 'trial' is a legal process.",
+      "ar": "ليس صحيحاً تماماً. راجع التعاريف بعناية. على سبيل المثال، 'vote' تتعلق بالانتخابات، 'violation' تعني خرق قاعدة، و 'trial' هي عملية قانونية."
+    }
+  },
+  "unit5_2_paragraph": { 
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "education", "rights", "unit5", "paragraph-completion", "fill-blank"],
+    "supportContent": {
+      "en": "Fill in the gaps with words from the box to complete the following paragraph.\n[completed, obligations, addition, standards, responsibility]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "The right to education includes a 1 <input type='text' class='fill-blank-input' data-blank-id='resp1' placeholder='...'> to provide basic education for individuals who have not 2 <input type='text' class='fill-blank-input' data-blank-id='comp2' placeholder='...'> primary education from the school and college levels. In 3 <input type='text' class='fill-blank-input' data-blank-id='add3' placeholder='...'> to this access to education necessities, the right to education includes the 4 <input type='text' class='fill-blank-input' data-blank-id='obli4' placeholder='...'> of the students to avoid discrimination at all levels of the educational system, to set minimum 5 <input type='text' class='fill-blank-input' data-blank-id='stan5' placeholder='...'> of education and to improve its quality.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "resp1": { "en": "responsibility", "ar": "" },
+      "comp2": { "en": "completed", "ar": "" },
+      "add3": { "en": "addition", "ar": "" },
+      "obli4": { "en": "obligations", "ar": "" },  
+      "stan5": { "en": "standards", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You used the vocabulary appropriately in the context of education rights.",
+      "ar": "صحيح! لقد استخدمت المفردات بشكل مناسب في سياق حقوق التعليم."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. تأكد من معنى كل كلمة في الصندوق واختر الأنسب لكل فراغ. 'responsibility' تعني مسؤولية، 'completed' تعني مكتمل، 'addition' تستخدم في عبارة 'in addition to'، 'obligations' تعني التزامات، و 'standards' تعني معايير."
+    }
+  },
+  "unit5_3_idiom1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "law", "communication", "unit5", "fill-blank"],
+    "supportContent": {
+      "en": "Replace the underlined phrase with the correct form of one of the idioms: [beat around / about the bush, an act of God, break the law, assemble the case, by the book]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "You should speak directly and ask for a raise. Don't <input type='text' class='fill-blank-input' data-blank-id='idiom1' placeholder='replace underlined...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "idiom1": { "en": "beat around the bush", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To beat around the bush' means to avoid talking about what is important.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني 'تجنب الحديث عن الموضوع المهم مباشرة' أو 'اللف والدوران' هو 'beat around the bush'."
+    }
+  },
+  "unit5_4_idiom2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "law", "insurance", "disaster", "unit5", "fill-blank"],
+    "supportContent": {
+       "en": "Replace the underlined phrase with the correct form of one of the idioms: [beat around / about the bush, an act of God, break the law, assemble the case, by the book]",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "The insurance company refused to pay the money because they said that the forest fire was <input type='text' class='fill-blank-input' data-blank-id='idiom2' placeholder='replace underlined...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "idiom2": { "en": "an act of God", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'An act of God' is a legal term for an event caused by natural forces beyond human control.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. المصطلح القانوني الذي يشير إلى حدث سببته قوى طبيعية خارجة عن سيطرة الإنسان (مثل الكوارث الطبيعية) هو 'an act of God'."
+    }
+  },
+  "unit5_5_idiom3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "idiom", "law", "evidence", "unit5", "fill-blank"],
+    "supportContent": {
+        "en": "Replace the underlined phrase with the correct form of one of the idioms: [beat around / about the bush, an act of God, break the law, assemble the case, by the book]",
+        "ar": ""
+    },
+    "questionText": {
+      "en": "The lawyers were unable to <input type='text' class='fill-blank-input' data-blank-id='idiom3' placeholder='replace underlined...'> against the man.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "idiom3": { "en": "assemble the case", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To assemble the case' means to gather the evidence and facts needed for a legal case.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني جمع الأدلة والحقائق اللازمة لقضية قانونية هو 'assemble the case'."
+    }
+  },
+  "unit5_6_idiom4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "law", "crime", "unit5", "fill-blank"],
+    "supportContent": {
+       "en": "Replace the underlined phrase with the correct form of one of the idioms: [beat around / about the bush, an act of God, break the law, assemble the case, by the book]",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "The man was forced to quit his job after it was discovered that he had <input type='text' class='fill-blank-input' data-blank-id='idiom4' placeholder='replace underlined...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "idiom4": { "en": "broken the law", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To break the law' means to do something illegal. The past participle form 'broken' is needed after 'had'.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني القيام بشيء غير قانوني هو 'break the law'. لاحظ أن الجملة تستخدم 'had'، لذا تحتاج إلى التصريف الثالث للفعل 'break' وهو 'broken'."
+    }
+  },
+  "unit5_7_idiom5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "idiom", "law", "rules", "procedure", "unit5", "fill-blank"],
+    "supportContent": {
+       "en": "Replace the underlined phrase with the correct form of one of the idioms: [beat around / about the bush, an act of God, break the law, assemble the case, by the book]",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "Our lawyer is very good and he does everything <input type='text' class='fill-blank-input' data-blank-id='idiom5' placeholder='replace underlined...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "idiom5": { "en": "by the book", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'By the book' means strictly according to the rules.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. المصطلح الذي يعني 'بشكل صارم وفقًا للقواعد' هو 'by the book'."
+    }
+  },
+  "unit5_8_relative1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "grammar", "relative-pronoun", "machines", "definitions", "unit5", "fill-blank"],
+    "supportContent": {
+      "en": "Which word from the box [bodyguard, photocopier, plumber, vacuum cleaner, launderette] does the definition describe? Complete with the correct relative pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "A <input type='text' class='fill-blank-input' data-blank-id='word1' placeholder='word...'> is a machine <input type='text' class='fill-blank-input' data-blank-id='pronoun1' placeholder='pronoun...'> makes copies of documents.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "word1": { "en": "photocopier", "ar": "" },
+      "pronoun1": { "en": "that", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A photocopier is a machine, and 'that' or 'which' is used for things.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف آلة لنسخ المستندات هي 'photocopier'. الضمير الموصول المناسب للآلات (الأشياء) هو 'that' أو 'which'."
+    }
+  },
+  "unit5_9_relative2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "grammar", "relative-pronoun", "people", "professions", "definitions", "unit5", "fill-blank"],
+    "supportContent": {
+       "en": "Which word from the box [bodyguard, photocopier, plumber, vacuum cleaner, launderette] does the definition describe? Complete with the correct relative pronoun.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A <input type='text' class='fill-blank-input' data-blank-id='word2' placeholder='word...'> is a person <input type='text' class='fill-blank-input' data-blank-id='pronoun2' placeholder='pronoun...'> protects important people from being attacked.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "word2": { "en": "bodyguard", "ar": "" },
+      "pronoun2": { "en": "who", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A bodyguard is a person, and 'who' is used for people.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف شخصًا يحمي الآخرين هي 'bodyguard'. الضمير الموصول المناسب للأشخاص هو 'who'."
+    }
+  },
+  "unit5_10_relative3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "grammar", "relative-pronoun", "places", "definitions", "unit5", "fill-blank"],
+    "supportContent": {
+       "en": "Which word from the box [bodyguard, photocopier, plumber, vacuum cleaner, launderette] does the definition describe? Complete with the correct relative pronoun.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A <input type='text' class='fill-blank-input' data-blank-id='word3' placeholder='word...'> is a place with washing machines <input type='text' class='fill-blank-input' data-blank-id='pronoun3' placeholder='pronoun...'> you can wash your clothes.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "word3": { "en": "launderette", "ar": "" },
+      "pronoun3": { "en": "where", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A launderette is a place, and 'where' is used for places.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف مكانًا لغسيل الملابس هي 'launderette'. الضمير الموصول المناسب للأماكن هو 'where'."
+    }
+  },
+  "unit5_11_relative4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "grammar", "relative-pronoun", "people", "professions", "definitions", "unit5", "fill-blank"],
+     "supportContent": {
+       "en": "Which word from the box [bodyguard, photocopier, plumber, vacuum cleaner, launderette] does the definition describe? Complete with the correct relative pronoun.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A <input type='text' class='fill-blank-input' data-blank-id='word4' placeholder='word...'> is a person <input type='text' class='fill-blank-input' data-blank-id='pronoun4' placeholder='pronoun...'> job is to mend central heating, taps, etc.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "word4": { "en": "plumber", "ar": "" },
+      "pronoun4": { "en": "whose", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A plumber is a person, and 'whose' is used to show possession.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف شخصًا يصلح التدفئة والحنفيات هي 'plumber'. الضمير الموصول الذي يدل على الملكية (وظيفته) هو 'whose'."
+    }
+  },
+  "unit5_12_relative5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "grammar", "relative-pronoun", "machines", "definitions", "unit5", "fill-blank"],
+    "supportContent": {
+       "en": "Which word from the box [bodyguard, photocopier, plumber, vacuum cleaner, launderette] does the definition describe? Complete with the correct relative pronoun.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "A <input type='text' class='fill-blank-input' data-blank-id='word5' placeholder='word...'> is a machine <input type='text' class='fill-blank-input' data-blank-id='pronoun5' placeholder='pronoun...'> you use to clean floors and carpets.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "word5": { "en": "vacuum cleaner", "ar": "" },
+      "pronoun5": { "en": "that", "ar": "" } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A vacuum cleaner is a machine, and 'that' or 'which' is used for things.",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف آلة لتنظيف الأرضيات والسجاد هي 'vacuum cleaner'. الضمير الموصول المناسب للآلات (الأشياء) هو 'that' أو 'which'."
+    }
+  },
+  "unit5_13_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "human-rights", "concepts", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the most appropriate completion.",
+      "ar": "اختر التكملة الأنسب."
+    },
+    "questionText": {
+      "en": "Human rights are guaranteed to each individual in society .............",
+      "ar": ""
+    },
+    "options": [
+      { "en": "after death", "ar": "" },
+      { "en": "during lifetime", "ar": "" },
+      { "en": "after the age of 18", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "during lifetime",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Human rights are inherent and apply throughout a person's life.",
+      "ar": "صحيح! حقوق الإنسان متأصلة وتنطبق طوال حياة الشخص."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. حقوق الإنسان أساسية لكل فرد وتكون مضمونة له طوال فترة حياته، وليست مرتبطة بسن معين أو بعد الوفاة."
+    },
+  "unit5_14_mcq2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["reading-comprehension", "human-rights", "civil-rights", "concepts", "comparison", "unit5", "mcq"],
+    "supportContent": {
+      "en": "Choose the most appropriate completion.",
+      "ar": "اختر التكملة الأنسب."
+    },
+    "questionText": {
+      "en": "In comparison with civil rights, human rights ................... .",
+      "ar": ""
+    },
+    "options": [
+      { "en": "are given to individuals by the government", "ar": "" },
+      { "en": "are acquired by nature", "ar": "" },
+      { "en": "are freedoms made by the individuals themselves", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "are acquired by nature",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Human rights are considered inherent and natural, belonging to everyone simply by being human, unlike civil rights which are often granted by governments.",
+      "ar": "صحيح! تُعتبر حقوق الإنسان متأصلة وطبيعية، تخص كل فرد لمجرد كونه إنسانًا، على عكس الحقوق المدنية التي غالبًا ما تمنحها الحكومات."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الفرق الأساسي هو أن الحقوق المدنية تمنحها الحكومة لمواطنيها، بينما حقوق الإنسان تعتبر طبيعية وفطرية يكتسبها الإنسان بمجرد ولادته."
+    }
+  },
+  "unit5_15_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "civil-rights", "examples", "concepts", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the most appropriate completion.",
+       "ar": "اختر التكملة الأنسب."
+    },
+    "questionText": {
+      "en": "The right to use public facilities is an example of a ………",
+      "ar": ""
+    },
+    "options": [
+      { "en": "human right", "ar": "" },
+      { "en": "natural right", "ar": "" },
+      { "en": "civil right", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "civil right",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The right to use public facilities (like parks, libraries) is typically considered a civil right granted by a state to its citizens.",
+      "ar": "صحيح! الحق في استخدام المرافق العامة (مثل الحدائق والمكتبات) يُعتبر عادةً حقًا مدنيًا تمنحه الدولة لمواطنيها."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. بينما ترتبط حقوق الإنسان بالوجود الإنساني نفسه، فإن الحقوق المدنية هي تلك التي تضمنها الدولة لمواطنيها، مثل استخدام المرافق العامة، والحق في التصويت، وما إلى ذلك."
+    }
+  },
+  "unit5_16_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "human-rights", "politics", "legality", "concepts", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the most appropriate completion.",
+       "ar": "اختر التكملة الأنسب."
+    },
+    "questionText": {
+      "en": "It is ...................... to prevent people from participating in political life.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "urgent", "ar": "" },
+      { "en": "legal", "ar": "" },
+      { "en": "illegal", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "illegal",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Preventing participation in political life generally violates fundamental human and civil rights and is therefore considered illegal in most democratic societies.",
+      "ar": "صحيح! منع المشاركة في الحياة السياسية ينتهك بشكل عام حقوق الإنسان والحقوق المدنية الأساسية، وبالتالي يعتبر غير قانوني في معظم المجتمعات الديمقراطية."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الحق في المشاركة السياسية هو حق أساسي. منع الناس من هذا الحق يعتبر فعلاً غير قانوني وينتهك حقوقهم."
+    }
+  },
+  "unit5_17_mcq5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "civil-rights", "government", "legislation", "concepts", "unit5", "mcq"],
+    "supportContent": {
+       "en": "Choose the most appropriate completion.",
+       "ar": "اختر التكملة الأنسب."
+    },
+    "questionText": {
+      "en": "Legislations are formed by the government to ……… that people enjoy their civil rights.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "assure", "ar": "" }, 
+      { "en": "ignore", "ar": "" },
+      { "en": "protect", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "protect", 
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Governments form legislation primarily to protect the civil rights of their citizens and ensure they can be enjoyed.",
+      "ar": "صحيح! تشكل الحكومات التشريعات في المقام الأول لحماية الحقوق المدنية لمواطنيها وضمان تمتعهم بها."
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الغرض الرئيسي من التشريعات المتعلقة بالحقوق هو حمايتها ('protect') وضمانها ('assure'/'ensure') للمواطنين. 'ignore' تعني التجاهل وهو عكس الهدف."
+    }
+  }
+}
+}
+
+
+

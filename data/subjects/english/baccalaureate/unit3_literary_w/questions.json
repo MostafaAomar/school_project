@@ -1,0 +1,443 @@
+{
+  "unit3_scientific_1": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["vocabulary", "matching", "medical", "unit3", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words to their correct meanings by dragging the word (left) and dropping it onto its meaning (right).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Before you read the text, match the words to their meanings.",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "word_breakthrough",
+        "text": { "en": "1. breakthrough", "ar": "" }
+      },
+      {
+        "id": "word_transplant",
+        "text": { "en": "2. transplant", "ar": "" }
+      },
+      {
+        "id": "word_incision",
+        "text": { "en": "3. incision", "ar": "" }
+      },
+      {
+        "id": "word_resonance",
+        "text": { "en": "4. resonance", "ar": "" }
+      },
+      {
+        "id": "word_invasive",
+        "text": { "en": "5. invasive", "ar": "" }
+      },
+      {
+        "id": "word_precision",
+        "text": { "en": "6. precision", "ar": "" }
+      },
+      {
+        "id": "word_embedded",
+        "text": { "en": "7. embedded", "ar": "" }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "meaning_f",
+        "label": { "en": "an important development that may lead to an achievement", "ar": "" },
+        "accepts": "word_breakthrough"
+      },
+      {
+        "id": "meaning_g",
+        "label": { "en": "a medical operation to replace a damaged organ with another one", "ar": "" },
+        "accepts": "word_transplant"
+      },
+      {
+        "id": "meaning_b",
+        "label": { "en": "a neat cut made into the skin", "ar": "" },
+        "accepts": "word_incision"
+      },
+      {
+        "id": "meaning_a",
+        "label": { "en": "a sound that is produced or increased in one object by sound waves from another sound", "ar": "" },
+        "accepts": "word_resonance"
+      },
+      {
+        "id": "meaning_c",
+        "label": { "en": "related to medical treatments involving cutting into someone’s body", "ar": "" },
+        "accepts": "word_invasive"
+      },
+      {
+        "id": "meaning_d",
+        "label": { "en": "the state of being accurate and careful", "ar": "" },
+        "accepts": "word_precision"
+      },
+      {
+        "id": "meaning_e",
+        "label": { "en": "being fixed or inserted firmly into something else", "ar": "" },
+        "accepts": "word_embedded"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Excellent! All words are matched correctly with their definitions.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات مع تعريفاتها بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+  "en": "1. breakthrough 2. transplant 3. incision 4. resonance 5. invasive 6. precision 7. embedded a. a sound that is produced or increased in one object by sound waves from another sound b. a neat cut made into the skin c. related to medical treatments involving cutting into someone’s body d. the state of being accurate and careful e. being fixed or inserted firmly into something else f. an important development that may lead to an achievement g. a medical operation to replace a damaged organ with another one",
+  "ar": "1. اختراق طبي 2. زرع الأعضاء 3. شق جراحي 4. رنين 5. تدخلي 6. دقة 7. مدمج a. صوت يتم إنتاجه أو تضخيمه في جسم بواسطة موجات صوتية من جسم آخر b. قطع دقيق يتم إجراؤه في الجلد c. مرتبط بالعلاجات الطبية التي تتضمن تدخلًا جراحيًا في الجسم d. حالة الدقة والحرص e. أن يكون مثبتًا أو مدمجًا بإحكام داخل شيء آخر f. تطور هام قد يؤدي إلى إنجاز g. عملية جراحية لاستبدال عضو تالف بعضو آخر"
+}
+
+  },
+  "unit3_scientific_2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "reporting-verbs", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive using the 'It is...' structure.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: They reported that the railway line was buried under tons of rocks and earth.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='passive1' placeholder='Start with It...'> that the railway line was buried under tons of rocks and earth.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive1": {
+        "en": "It was reported",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The reporting verb 'reported' (past simple) becomes 'It was reported' in the passive.",
+      "ar": "صحيح! فعل النقل 'reported' (ماضي بسيط) يصبح 'It was reported' في المبني للمجهول."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'It + passive form of reporting verb + that clause'. The reporting verb is 'reported' (past simple), so the passive is 'It was reported'. Solution: It was reported",
+      "ar": "خطأ. البنية هي 'It + صيغة المبني للمجهول لفعل النقل + that clause'. فعل النقل هو 'reported' (ماضي بسيط)، لذا فإن المبني للمجهول هو 'It was reported'. الحل: It was reported"
+    }
+  },
+  "unit3_scientific_3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "reporting-verbs", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive using the 'It is...' structure.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: Environmentalists estimate that 1500 square kilometeres of rainforests is cut every year.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='passive2' placeholder='Start with It...'> that 1500 square kilometeres of rainforests is cut every year.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive2": {
+        "en": "It is estimated",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The reporting verb 'estimate' (present simple) becomes 'It is estimated' in the passive.",
+      "ar": "صحيح! فعل النقل 'estimate' (مضارع بسيط) يصبح 'It is estimated' في المبني للمجهول."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The structure is 'It + passive form of reporting verb + that clause'. The reporting verb is 'estimate' (present simple), so the passive is 'It is estimated'. Solution: It is estimated",
+      "ar": "خطأ. البنية هي 'It + صيغة المبني للمجهول لفعل النقل + that clause'. فعل النقل هو 'estimate' (مضارع بسيط)، لذا فإن المبني للمجهول هو 'It is estimated'. الحل: It is estimated"
+    }
+  },
+  "unit3_scientific_4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "reporting-verbs", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive using the 'Subject + passive reporting verb + to infinitive' structure.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: Jane's friends have thought that she is furious at losing her job.\nPassive: Jane <input type='text' class='fill-blank-input' data-blank-id='passive3' placeholder='Passive reporting verb + to be...'> furious at losing her job.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive3": {
+        "en": "has been thought to be",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The subject of the 'that' clause ('she' -> Jane) becomes the main subject. The reporting verb 'have thought' (present perfect) becomes passive 'has been thought'. The verb in the 'that' clause ('is') becomes 'to be'.",
+      "ar": "صحيح! فاعل جملة 'that' ('she' -> Jane) يصبح الفاعل الرئيسي. فعل النقل 'have thought' (مضارع تام) يصبح مبني للمجهول 'has been thought'. الفعل في جملة 'that' ('is') يصبح 'to be'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use the structure 'Subject + passive form of reporting verb + to infinitive'. The reporting verb is 'have thought' (present perfect passive -> has been thought). The verb in the that-clause is 'is' (simple infinitive -> to be). Solution: has been thought to be",
+      "ar": "خطأ. استخدم البنية 'Subject + صيغة المبني للمجهول لفعل النقل + to infinitive'. فعل النقل هو 'have thought' (مضارع تام مبني للمجهول -> has been thought). الفعل في جملة that هو 'is' (مصدر بسيط -> to be). الحل: has been thought to be"
+    }
+  },
+  "unit3_scientific_5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "reporting-verbs", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive using the 'Subject + passive reporting verb + to infinitive' structure.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: Students claim that this examination will be the most difficult one.\nPassive: This examination <input type='text' class='fill-blank-input' data-blank-id='passive4' placeholder='Passive reporting verb + to be...'> the most difficult one.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive4": {
+        "en": "is claimed to be",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The subject 'this examination' becomes the main subject. 'claim' (present simple) becomes 'is claimed'. 'will be' becomes 'to be'.",
+      "ar": "صحيح! الفاعل 'this examination' يصبح الفاعل الرئيسي. 'claim' (مضارع بسيط) يصبح 'is claimed'. 'will be' يصبح 'to be'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use the structure 'Subject + passive form of reporting verb + to infinitive'. The reporting verb is 'claim' (present simple passive -> is claimed). The verb in the that-clause is 'will be' (simple infinitive -> to be). Solution: is claimed to be",
+      "ar": "خطأ. استخدم البنية 'Subject + صيغة المبني للمجهول لفعل النقل + to infinitive'. فعل النقل هو 'claim' (مضارع بسيط مبني للمجهول -> is claimed). الفعل في جملة that هو 'will be' (مصدر بسيط -> to be). الحل: is claimed to be"
+    }
+  },
+  "unit3_scientific_6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "present-continuous", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive, starting with the direct object.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: The professor is showing his students the results of his research in the laboratory now.\nPassive: The results of his research <input type='text' class='fill-blank-input' data-blank-id='passive5' placeholder='Present continuous passive...'> to his students in the laboratory now.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive5": {
+        "en": "are being shown",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The direct object 'the results' (plural) becomes the subject. The present continuous 'is showing' becomes passive 'are being shown'.",
+      "ar": "صحيح! المفعول به المباشر 'the results' (جمع) يصبح الفاعل. المضارع المستمر 'is showing' يصبح مبني للمجهول 'are being shown'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The direct object is 'the results of his research' (plural). The verb is 'is showing' (present continuous). The passive form is 'are being shown'. Solution: are being shown",
+      "ar": "خطأ. المفعول به المباشر هو 'the results of his research' (جمع). الفعل هو 'is showing' (مضارع مستمر). صيغة المبني للمجهول هي 'are being shown'. الحل: are being shown"
+    }
+  },
+  "unit3_scientific_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "future-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive, starting with the indirect object.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: The government will pay Dr. Mahmoud 20 million Syrian pounds for his great invention.\nPassive: Dr. Mahmoud <input type='text' class='fill-blank-input' data-blank-id='passive6' placeholder='Future simple passive...'> 20 million Syrian pounds for his great invention.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive6": {
+        "en": "will be paid",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The indirect object 'Dr. Mahmoud' becomes the subject. The future simple 'will pay' becomes passive 'will be paid'.",
+      "ar": "صحيح! المفعول به غير المباشر 'Dr. Mahmoud' يصبح الفاعل. المستقبل البسيط 'will pay' يصبح مبني للمجهول 'will be paid'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Make the indirect object 'Dr. Mahmoud' the subject. The verb is 'will pay' (future simple). The passive form is 'will be paid'. Solution: will be paid",
+      "ar": "خطأ. اجعل المفعول به غير المباشر 'Dr. Mahmoud' الفاعل. الفعل هو 'will pay' (مستقبل بسيط). صيغة المبني للمجهول هي 'will be paid'. الحل: will be paid"
+    }
+  },
+  "unit3_scientific_8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "present-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive, starting with the direct object.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: The secretary has told the manager some bad news about the new project.\nPassive: Some bad news about the new project <input type='text' class='fill-blank-input' data-blank-id='passive7' placeholder='Present perfect passive...'> to the manager.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive7": {
+        "en": "has been told",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The direct object 'some bad news' (treated as singular) becomes the subject. The present perfect 'has told' becomes passive 'has been told'.",
+      "ar": "صحيح! المفعول به المباشر 'some bad news' (يعامل كمفرد) يصبح الفاعل. المضارع التام 'has told' يصبح مبني للمجهول 'has been told'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The direct object is 'some bad news about the new project' (singular). The verb is 'has told' (present perfect). The passive form is 'has been told'. Solution: has been told",
+      "ar": "خطأ. المفعول به المباشر هو 'some bad news about the new project' (مفرد). الفعل هو 'has told' (مضارع تام). صيغة المبني للمجهول هي 'has been told'. الحل: has been told"
+    }
+  },
+  "unit3_scientific_9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "past-continuous", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the sentence into passive, starting with the indirect object.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: The teacher was asking us a very difficult question when the schoolbell rang.\nPassive: We <input type='text' class='fill-blank-input' data-blank-id='passive8' placeholder='Past continuous passive...'> a very difficult question when the schoolbell rang.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "passive8": {
+        "en": "were being asked",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The indirect object 'us' becomes the subject 'We'. The past continuous 'was asking' becomes passive 'were being asked'.",
+      "ar": "صحيح! المفعول به غير المباشر 'us' يصبح الفاعل 'We'. الماضي المستمر 'was asking' يصبح مبني للمجهول 'were being asked'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Make the indirect object 'us' the subject 'We'. The verb is 'was asking' (past continuous). The passive form is 'were being asked'. Solution: were being asked",
+      "ar": "خطأ. اجعل المفعول به غير المباشر 'us' الفاعل 'We'. الفعل هو 'was asking' (ماضي مستمر). صيغة المبني للمجهول هي 'were being asked'. الحل: were being asked"
+    }
+  },
+  "unit3_scientific_10": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "questions", "future-continuous", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the question using the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: When is he going to pay the taxes?\nPassive: When <input type='text' class='fill-blank-input' data-blank-id='qpassive1' placeholder='Passive form...'> ?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qpassive1": {
+        "en": "are the taxes going to be paid",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The object 'the taxes' (plural) becomes the subject. 'is going to pay' becomes 'are going to be paid'. The question word 'When' stays at the start.",
+      "ar": "صحيح! المفعول به 'the taxes' (جمع) يصبح الفاعل. 'is going to pay' يصبح 'are going to be paid'. كلمة الاستفهام 'When' تبقى في البداية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Keep the question word 'When'. The object 'the taxes' (plural) follows the auxiliary 'are'. The passive verb form is 'going to be paid'. Solution: are the taxes going to be paid",
+      "ar": "خطأ. احتفظ بكلمة الاستفهام 'When'. المفعول به 'the taxes' (جمع) يتبع الفعل المساعد 'are'. صيغة الفعل المبني للمجهول هي 'going to be paid'. الحل: are the taxes going to be paid"
+    }
+  },
+  "unit3_scientific_11": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "questions", "present-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the question using the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: How much do they spend on these activities?\nPassive: How much <input type='text' class='fill-blank-input' data-blank-id='qpassive2' placeholder='Passive form...'> on these activities?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qpassive2": {
+        "en": "is spent",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'How much' often refers to money (singular). The present simple 'do spend' becomes passive 'is spent'.",
+      "ar": "صحيح! 'How much' تشير غالباً إلى المال (مفرد). المضارع البسيط 'do spend' يصبح مبني للمجهول 'is spent'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Keep 'How much'. The implied object is money (singular). The passive verb is present simple passive 'is spent'. Solution: is spent",
+      "ar": "خطأ. احتفظ بـ 'How much'. المفعول به الضمني هو المال (مفرد). الفعل المبني للمجهول هو مضارع بسيط مبني للمجهول 'is spent'. الحل: is spent"
+    }
+  },
+  "unit3_scientific_12": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "passive", "questions", "future-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the question using the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: Will you pay the fine tomorrow?\nPassive: Will <input type='text' class='fill-blank-input' data-blank-id='qpassive3' placeholder='Passive form...'> tomorrow?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qpassive3": {
+        "en": "the fine be paid",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Keep the modal 'Will'. The object 'the fine' becomes the subject. The passive verb is 'be paid'.",
+      "ar": "صحيح! احتفظ بالفعل المساعد 'Will'. المفعول به 'the fine' يصبح الفاعل. الفعل المبني للمجهول هو 'be paid'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Keep 'Will'. The object 'the fine' follows. The passive verb form is 'be paid'. Solution: the fine be paid",
+      "ar": "خطأ. احتفظ بـ 'Will'. المفعول به 'the fine' يتبع. صيغة الفعل المبني للمجهول هي 'be paid'. الحل: the fine be paid"
+    }
+  },
+  "unit3_scientific_13": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "questions", "present-perfect", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the question using the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: Has anybody shown you what to do?\nPassive: Have <input type='text' class='fill-blank-input' data-blank-id='qpassive4' placeholder='Passive form...'> what to do?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qpassive4": {
+        "en": "you been shown",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The indirect object 'you' becomes the subject. 'Has shown' becomes 'Have been shown' (using 'Have' for 'you').",
+      "ar": "صحيح! المفعول به غير المباشر 'you' يصبح الفاعل. 'Has shown' يصبح 'Have been shown' (باستخدام 'Have' مع 'you')."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Make the indirect object 'you' the subject. The auxiliary verb changes from 'Has' to 'Have' to agree with 'you'. The passive verb is 'been shown'. Solution: you been shown",
+      "ar": "خطأ. اجعل المفعول به غير المباشر 'you' الفاعل. الفعل المساعد يتغير من 'Has' إلى 'Have' ليتوافق مع 'you'. الفعل المبني للمجهول هو 'been shown'. الحل: you been shown"
+    }
+  },
+  "unit3_scientific_14": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "passive", "questions", "past-simple", "unit3", "fill-blank"],
+    "supportContent": {
+      "en": "Change the question using the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Active: Why didn't they mend the roof before it fell down?\nPassive: Why <input type='text' class='fill-blank-input' data-blank-id='qpassive5' placeholder='Passive form...'> before it fell down?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qpassive5": {
+        "en": "wasn't the roof mended",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Keep 'Why'. The object 'the roof' becomes the subject. 'didn't mend' becomes 'wasn't mended'.",
+      "ar": "صحيح! احتفظ بـ 'Why'. المفعول به 'the roof' يصبح الفاعل. 'didn't mend' يصبح 'wasn't mended'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Keep 'Why'. The negative auxiliary is 'wasn't' (for singular 'roof'). The subject 'the roof' comes next, followed by the past participle 'mended'. Solution: wasn't the roof mended",
+      "ar": "خطأ. احتفظ بـ 'Why'. الفعل المساعد المنفي هو 'wasn't' (للمفرد 'roof'). الفاعل 'the roof' يأتي بعده، متبوعاً باسم المفعول 'mended'. الحل: wasn't the roof mended"
+    }
+  }
+}
+

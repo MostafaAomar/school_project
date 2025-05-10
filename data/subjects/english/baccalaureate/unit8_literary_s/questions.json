@@ -1,0 +1,716 @@
+{
+  
+
+  "unit8_s_2_idiom1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "idiom",
+      "annoyance",
+      "unit8",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Guess the meaning of the idiom in italics.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Writing long essays on uninteresting topics is *a pain in the neck*.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "a boring",
+        "ar": ""
+      },
+      {
+        "en": "b easy",
+        "ar": ""
+      },
+      {
+        "en": "c annoying",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "c annoying",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'A pain in the neck' means something or someone that is very annoying.",
+      "ar": "صحيح! 'A pain in the neck' تعني شيئًا أو شخصًا مزعجًا جدًا."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح 'a pain in the neck' يعني شيئًا مزعجًا أو مضايقًا للغاية."
+    }
+  },
+  "unit8_s_3_idiom2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "idiom",
+      "honesty",
+      "opinion",
+      "unit8",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Guess the meaning of the idiom in italics.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. She has very strong opinions and she’s not afraid to *speak her mind*.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "a to say exactly what she thinks",
+        "ar": ""
+      },
+      {
+        "en": "b to say what she feels",
+        "ar": ""
+      },
+      {
+        "en": "c to say what she doubts",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "a to say exactly what she thinks",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To speak her mind' means to say frankly what one thinks.",
+      "ar": "صحيح! 'To speak her mind' تعني أن تقول بصراحة ما تعتقده."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح 'speak her mind' يعني أن تعبر عن آرائها أو أفكارها بصراحة وبدون تردد."
+    }
+  },
+  "unit8_s_4_idiom3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "idiom",
+      "cost",
+      "expense",
+      "unit8",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Guess the meaning of the idiom in italics.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. You must visit that restaurant; the food is really good but it *costs you an arm and a leg*.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "a it is free",
+        "ar": ""
+      },
+      {
+        "en": "b it is inexpensive",
+        "ar": ""
+      },
+      {
+        "en": "c it is very costly",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "c it is very costly",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To cost an arm and a leg' means to be extremely expensive.",
+      "ar": "صحيح! 'To cost an arm and a leg' تعني أن الشيء باهظ الثمن للغاية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح 'costs you an arm and a leg' يعني أن الشيء مكلف جداً."
+    }
+  },
+  "unit8_s_5_idiom4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "idiom",
+      "surprise",
+      "fear",
+      "unit8",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Guess the meaning of the idiom in italics.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The doorbell made him *jump out of his skin*.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "a excited",
+        "ar": ""
+      },
+      {
+        "en": "b shocked",
+        "ar": ""
+      },
+      {
+        "en": "c relaxed",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "b shocked",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To jump out of one's skin' means to be extremely surprised or startled.",
+      "ar": "صحيح! 'To jump out of one's skin' تعني أن يُفاجأ أو يُفزع الشخص بشدة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح 'jump out of his skin' يعني أن يشعر بصدمة كبيرة أو يفزع بشدة بسبب مفاجأة."
+    }
+  },
+  "unit8_s_6_idiom5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "idiom",
+      "instinct",
+      "feeling",
+      "choice",
+      "unit8",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Guess the meaning of the idiom in italics.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. You might make less money from that job, but if it really attracts you, you should *follow your heart*.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "a to go after your deeper feeling and instinct",
+        "ar": ""
+      },
+      {
+        "en": "b to go after your inner mind",
+        "ar": ""
+      },
+      {
+        "en": "c to go after your experience",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "a to go after your deeper feeling and instinct",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'To follow your heart' means to act according to your deepest feelings or desires.",
+      "ar": "صحيح! 'To follow your heart' تعني أن تتصرف وفقًا لأعمق مشاعرك أو رغباتك."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. المصطلح 'follow your heart' يعني أن تتبع مشاعرك العميقة وحدسك، بدلاً من الاعتماد على المنطق أو التجربة فقط."
+    }
+  },
+  "unit8_s_7_wish1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "wish",
+      "regret",
+      "past-perfect",
+      "comprehension",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Read the sentence and answer the questions.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sentence 1: I regret that I started smoking. I wish I hadn't started smoking.\na. Did he start smoking? <input type='text' class='fill-blank-input' data-blank-id='q1a' placeholder='Answer...'>\nb. Is he happy that he is a smoker? <input type='text' class='fill-blank-input' data-blank-id='q1b' placeholder='Answer...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q1a": {
+        "en": "Yes, he did.",
+        "ar": ""
+      },
+      "q1b": {
+        "en": "No, he isn’t. He wishes he hadn't started smoking.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct answers based on the provided information!",
+      "ar": "إجابات صحيحة بناءً على المعلومات المقدمة!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. بالنسبة للسؤال (أ)، الجملة 'I regret that I started smoking' تعني أنه بدأ التدخين. بالنسبة للسؤال (ب)، عبارة 'I wish I hadn't started smoking' تدل على ندمه وأنه ليس سعيدًا بكونه مدخنًا."
+    }
+  },
+  "unit8_s_8_wish2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "wish",
+      "desire-for-change",
+      "would",
+      "comprehension",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Read the sentence and answer the questions.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sentence 2: I have a strong desire that our head teacher limit absence in our school. I wish our head teacher would limit absence in our school.\na. Does the head teacher fight absence at school? <input type='text' class='fill-blank-input' data-blank-id='q2a' placeholder='Answer...'>\nb. Is the speaker in favour of or against absence? <input type='text' class='fill-blank-input' data-blank-id='q2b' placeholder='Answer...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q2a": {
+        "en": [
+          "No, (apparently not enough)",
+          "It's not explicitly stated, but the wish implies dissatisfaction.",
+          "The wish suggests he doesn't (or not effectively)."
+        ],
+        "ar": ""
+      },
+      "q2b": {
+        "en": "Against absence.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct interpretation!",
+      "ar": "تفسير صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. بالنسبة للسؤال (أ)، عبارة 'I wish our head teacher would limit absence' تشير إلى أن المدير لا يقوم بذلك حاليًا أو لا يقوم به بشكل كافٍ. بالنسبة للسؤال (ب)، رغبة المتحدث في الحد من الغياب تعني أنه ضد الغياب."
+    }
+  },
+  "unit8_s_9_wish3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "wish",
+      "present-ability",
+      "could",
+      "comprehension",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Read the sentence and answer the questions.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sentence 3: I can't watch the match tonight. I wish I could watch the match.\na. Does the speaker feel regret that he played football? <input type='text' class='fill-blank-input' data-blank-id='q3a' placeholder='Answer...'>\nb. What does he wish? <input type='text' class='fill-blank-input' data-blank-id='q3b' placeholder='Answer...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q3a": {
+        "en": "No, (the sentence doesn't mention playing football).",
+        "ar": ""
+      },
+      "q3b": {
+        "en": "He wishes he could watch the match.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct understanding of the wishes!",
+      "ar": "فهم صحيح للتمنيات!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. بالنسبة للسؤال (أ)، الجملة لا تذكر شيئًا عن لعب كرة القدم، بل عن مشاهدة مباراة. بالنسبة للسؤال (ب)، هو يتمنى أن يتمكن من مشاهدة المباراة ('I wish I could watch the match')."
+    }
+  },
+  "unit8_s_10_wish4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "wish",
+      "present-state",
+      "past-simple-wish",
+      "comprehension",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Read the sentence and answer the questions.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Sentence 4: I am very tired today. I wish I weren't so tired.\na. Is the speaker tired? <input type='text' class='fill-blank-input' data-blank-id='q4a' placeholder='Answer...'>\nb. What does he wish? <input type='text' class='fill-blank-input' data-blank-id='q4b' placeholder='Answer...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q4a": {
+        "en": "Yes, he is.",
+        "ar": ""
+      },
+      "q4b": {
+        "en": "He wishes he weren't so tired.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct interpretation!",
+      "ar": "تفسير صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. بالنسبة للسؤال (أ)، الجملة 'I am very tired today' تؤكد أنه متعب. بالنسبة للسؤال (ب)، هو يتمنى ألا يكون متعبًا ('I wish I weren't so tired')."
+    }
+  },
+  "unit8_s_11_wish_verb1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "wish",
+      "present-situation",
+      "past-simple-wish",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Our classroom doesn't have coloured walls. I wish our classroom <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder='(have)'> coloured walls.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb1": {
+        "en": "had",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use Past Simple after 'wish' for present situations.",
+      "ar": "صحيح! يُستخدم الماضي البسيط بعد 'wish' للتعبير عن التمني في مواقف حالية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن التمني بخصوص موقف حالي (الفصل لا يحتوي على جدران ملونة)، نستخدم صيغة الماضي البسيط للفعل بعد 'wish'."
+    }
+  },
+  "unit8_s_12_wish_verb2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "wish",
+      "present-situation",
+      "past-continuous-wish",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. The sun isn't shining right now. I wish the sun <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder='(be) shining'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb2": {
+        "en": "were shining",
+        "ar": ""
+      } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'were shining' (Past Continuous subjunctive) is used after 'wish' for an ongoing present action we want to be different. 'was shining' is also acceptable informally.",
+      "ar": "صحيح! تُستخدم 'were shining' (الماضي المستمر في صيغة التمني) بعد 'wish' لوصف فعل مستمر في الحاضر نتمنى أن يكون مختلفًا. 'was shining' مقبولة أيضًا في الاستخدام غير الرسمي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن التمني بخصوص فعل مستمر في الحاضر (الشمس لا تسطع الآن)، نستخدم صيغة الماضي المستمر (subjunctive 'were' + V-ing) بعد 'wish'. (ملاحظة: 'was shining' تستخدم أحياناً)."
+    }
+  },
+  "unit8_s_13_wish_verb3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "wish",
+      "past-regret",
+      "past-perfect-wish",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. I didn't go shopping last week. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder='(go) shopping'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb3": {
+        "en": "had gone",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use Past Perfect after 'wish' for past regrets.",
+      "ar": "صحيح! يُستخدم الماضي التام بعد 'wish' للتعبير عن الندم على أحداث ماضية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء لم يحدث في الماضي ('I didn't go shopping')، نستخدم صيغة الماضي التام (had + P.P.) بعد 'wish'."
+    }
+  },
+  "unit8_s_14_wish_verb4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "wish",
+      "present-ability",
+      "past-simple-wish",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. I don't know how to dance. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder='(know) how to dance'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb4": {
+        "en": "knew",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use Past Simple after 'wish' for present abilities/knowledge.",
+      "ar": "صحيح! يُستخدم الماضي البسيط بعد 'wish' للتعبير عن التمني بخصوص القدرات أو المعرفة الحالية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن التمني بخصوص معرفة أو قدرة حالية ('I don't know')، نستخدم صيغة الماضي البسيط للفعل بعد 'wish'."
+    }
+  },
+  "unit8_s_15_wish_verb5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "wish",
+      "future-possibility",
+      "could-wish",
+      "unit8",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct form of the verb in brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. I can't go with you tomorrow but I wish I <input type='text' class='fill-blank-input' data-blank-id='verb5' placeholder='(go) with you'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb5": {
+        "en": "could go",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use 'could + base verb' after 'wish' for future possibilities we desire.",
+      "ar": "صحيح! تُستخدم 'could + المصدر' بعد 'wish' للتعبير عن التمني بخصوص إمكانيات مستقبلية نرغب بها."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. للتعبير عن التمني بخصوص عدم القدرة على فعل شيء في المستقبل ('I can't go... tomorrow')، نستخدم 'could + المصدر' بعد 'wish'."
+    }
+  },
+  "unit8_s_16_matching_research": { 
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "research",
+      "methodology",
+      "unit8",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the words from 1-8 to their definitions a-h. Use your dictionary to help you.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the words to their definitions:",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "word_systematic",
+        "text": {
+          "en": "1 systematic",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_methodology",
+        "text": {
+          "en": "2 methodology",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_compile",
+        "text": {
+          "en": "3 compile",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_auditing",
+        "text": {
+          "en": "4 auditing",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_ambiguous",
+        "text": {
+          "en": "5 ambiguous",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_target",
+        "text": {
+          "en": "6 target",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_brainstorm",
+        "text": {
+          "en": "7 brainstorming",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_assignment",
+        "text": {
+          "en": "8 assignment",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "def_f",
+        "label": {
+          "en": "f carefully planned methods or principles",
+          "ar": ""
+        },
+        "accepts": "word_systematic"
+      },
+      {
+        "id": "def_h",
+        "label": {
+          "en": "h principles and methods of a particular branch of knowledge.",
+          "ar": ""
+        },
+        "accepts": "word_methodology"
+      },
+      {
+        "id": "def_g",
+        "label": {
+          "en": "g collect",
+          "ar": ""
+        },
+        "accepts": "word_compile"
+      },
+      {
+        "id": "def_a",
+        "label": {
+          "en": "a examining something",
+          "ar": ""
+        },
+        "accepts": "word_auditing"
+      },
+      {
+        "id": "def_d",
+        "label": {
+          "en": "d having many possible interpretations",
+          "ar": ""
+        },
+        "accepts": "word_ambiguous"
+      },
+      {
+        "id": "def_c",
+        "label": {
+          "en": "c a person or a particular group of people that something is directed to",
+          "ar": ""
+        },
+        "accepts": "word_target"
+      },
+      {
+        "id": "def_b",
+        "label": {
+          "en": "b creative thinking and problem-solving method",
+          "ar": ""
+        },
+        "accepts": "word_brainstorm"
+      },
+      {
+        "id": "def_e",
+        "label": {
+          "en": "e mission / homework",
+          "ar": ""
+        },
+        "accepts": "word_assignment"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Great job! You've matched all the research-related terms correctly.",
+      "ar": "عمل رائع! لقد طابقت جميع المصطلحات المتعلقة بالبحث بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات جيداً: 'systematic' يعني منهجي أو منظم، 'methodology' هي منهجية البحث، 'compile' يعني يجمع، 'auditing' هو التدقيق أو الفحص، 'ambiguous' يعني غامض أو له عدة تفسيرات، 'target' هو الهدف أو الجمهور المستهدف، 'brainstorming' هو العصف الذهني، و 'assignment' هي مهمة أو واجب."
+    }
+  }
+}
