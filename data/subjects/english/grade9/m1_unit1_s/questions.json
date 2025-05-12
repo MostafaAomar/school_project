@@ -1,0 +1,238 @@
+{
+  "module1_s_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+      "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "1. Mrs. Al-Hroub <input type='text' class='fill-blank-input' data-blank-id='ps1' placeholder='(verb)...'> balloons, hula-hoops, toy cars and puppets.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps1": { "en": "uses", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('Mrs. Al-Hroub') مفرد غائب، لذا يجب إضافة '-s' إلى الفعل في صيغة المضارع البسيط."
+    }
+  },
+  "module1_s_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "2. Parents often <input type='text' class='fill-blank-input' data-blank-id='ps2' placeholder='(verb)...'> the focus on play.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps2": { "en": "support", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('Parents') جمع، لذا نستخدم صيغة المصدر للفعل في المضارع البسيط."
+    }
+  },
+  "module1_s_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "3. Her methods <input type='text' class='fill-blank-input' data-blank-id='ps3' placeholder='(verb)...'> behaviour.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps3": { "en": "improve", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('Her methods') جمع، لذا نستخدم صيغة المصدر للفعل في المضارع البسيط."
+    }
+  },
+  "module1_s_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "4. We <input type='text' class='fill-blank-input' data-blank-id='ps4' placeholder='(verb)...'> first and when we play we learn.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps4": { "en": "play", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('We') متكلم جمع، لذا نستخدم صيغة المصدر للفعل في المضارع البسيط."
+    }
+  },
+  "module1_s_5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      
+      "en": "5. The kids <input type='text' class='fill-blank-input' data-blank-id='ps5a' placeholder='(verb)...'> even <input type='text' class='fill-blank-input' data-blank-id='ps5b' placeholder='(verb)...'> they are learning.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps5a": { "en": "don't", "ar": "" },  
+      "ps5b": { "en": "realise", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('The kids') جمع. الفعل الثاني ('realise' أو 'know') يأتي بصيغة المصدر. الفعل الأول هو فعل مساعد للنفي في المضارع البسيط للفاعل الجمع ('don't')."
+    }
+  },
+
+  "module1_s_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "1. She <input type='text' class='fill-blank-input' data-blank-id='pc1' placeholder='(talk)'> on the phone right now.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc1": { "en": "is talking", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('She') مفرد غائب، لذا نستخدم 'is talking'."
+    }
+  },
+  "module1_s_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "2. I <input type='text' class='fill-blank-input' data-blank-id='pc2' placeholder='(study)'> in the library at the moment.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc2": { "en": "am studying", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('I') متكلم مفرد، لذا نستخدم 'am studying'."
+    }
+  },
+  "module1_s_8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "changing-situation", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "3. It’s good news to hear that John’s health <input type='text' class='fill-blank-input' data-blank-id='pc3' placeholder='(improve)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc3": { "en": "is improving", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('John’s health') مفرد غائب، لذا نستخدم 'is improving'."
+    }
+  },
+  "module1_s_9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "4. Where are the children? There they are. They <input type='text' class='fill-blank-input' data-blank-id='pc4' placeholder='(play)'> tennis.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc4": { "en": "are playing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('They') جمع غائب، لذا نستخدم 'are playing'."
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

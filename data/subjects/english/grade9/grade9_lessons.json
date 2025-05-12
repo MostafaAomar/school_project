@@ -1,0 +1,15 @@
+[
+  {
+    "lessonId": "m1_unit1_s",
+    "title": { "ar": "Unit 1\nالطالب  ", "en": "" },
+    "icon": "../../images/grade9_s.png"
+
+  },
+  {
+    "lessonId": "m1_unit1_w",
+    "title": { "ar": "Unit 1\nالعمل", "en": "" },
+    "icon": "../../images/grade9_w.png"
+
+  }
+]
+

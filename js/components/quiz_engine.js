@@ -297,6 +297,38 @@ function loadQuestionUI(index) {
     renderBilingualText(questionTextWrapper, question.questionText, 'question-text');
     questionDisplayArea.appendChild(questionTextWrapper);
 
+    // Add debugging for media elements
+    console.log(`[Quiz Engine] Question media: Image=${question.imageUrl || 'none'}, Audio=${question.audioUrl || 'none'}`);
+    
+    // Add image if available
+    if (question.imageUrl) {
+        const imageContainer = document.createElement('div');
+        imageContainer.className = 'question-image-container';
+        const image = document.createElement('img');
+        image.src = question.imageUrl;
+        image.alt = "Question image";
+        image.className = 'question-image';
+        image.onerror = () => console.error(`[Quiz Engine] Failed to load image: ${question.imageUrl}`);
+        imageContainer.appendChild(image);
+        questionDisplayArea.appendChild(imageContainer);
+        console.log(`[Quiz Engine] Added image element with src: ${question.imageUrl}`);
+    }
+    
+    // Add audio if available
+    if (question.audioUrl) {
+        const audioContainer = document.createElement('div');
+        audioContainer.className = 'question-audio-container';
+        const audio = document.createElement('audio');
+        audio.controls = true;
+        const source = document.createElement('source');
+        source.src = question.audioUrl;
+        source.type = 'audio/mpeg'; // Adjust based on your file type
+        audio.appendChild(source);
+        audioContainer.appendChild(audio);
+        questionDisplayArea.appendChild(audioContainer);
+        console.log(`[Quiz Engine] Added audio element with src: ${question.audioUrl}`);
+    }
+    
     // --- Render Question Type Specific UI ---
     const optionsContainer = document.createElement('div');
     // Add class based on type? e.g., options-container, fill-blank-container
@@ -1073,11 +1105,11 @@ function showQuizResults() {
       let message = '';
       let earnedBadges = []; // Array for potential badge objects
       if (percentage >= 90) {
-           message = 'ممتاز! أداء رائع حقاً!';
+           message = 'ممتاز! أداء رائع حق <!';
            earnedBadges.push({ text: '🌟', class: 'badge-excellence', title: 'امتياز' });
       } else if (percentage >= 75) {
-           message = 'جيد جداً! لقد أبليت بلاءً حسناً!';
-           earnedBadges.push({ text: '👍', class: 'badge-great', title: 'جيد جداً' });
+           message = 'جيد <! لقد أبليت بلاءً حسناً!';
+           earnedBadges.push({ text: '👍', class: 'badge-great', title: 'جيد <' });
       } else if (percentage >= 50) {
            message = 'جيد. هناك دائماً مجال للتحسين.';
            earnedBadges.push({ text: '🚀', class: 'badge-good', title: 'محاولة جيدة' });

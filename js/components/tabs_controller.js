@@ -361,7 +361,7 @@ function populateLessonContentPanel(lessonContent, lessonBasicInfo) {
     // Check if detailed content actually loaded
     if (!lessonContent) {
          console.warn(`[Tabs Controller] Detailed content for lesson ${lessonBasicInfo.lessonId} failed to load or is null.`);
-         lessonTextContentArea.innerHTML = '<p class="info-message">محتوى الدرس غير متوفر حالياً.</p>';
+         lessonTextContentArea.innerHTML = '<p class="info-message">محتوى الدرس غير متوفر حال <.</p>';
          lessonVideoContentArea.classList.add('lesson-section-content'); // Show :empty style
          lessonAudioContentArea.classList.add('lesson-section-content');
          lessonExternalLinksArea.classList.add('lesson-section-content');
@@ -435,8 +435,12 @@ function populateLessonContentPanel(lessonContent, lessonBasicInfo) {
     }
     // External Links (use links from DETAILED content)
     const linksToRender = lessonContent.externalLinks || [];
-    if (linksToRender.length > 0) { /* ... render external links ... */ }
-    else { lessonExternalLinksArea.classList.add('lesson-section-content'); }
+    if (linksToRender.length > 0) {
+        renderExternalLinks(linksToRender, lessonExternalLinksArea);
+        lessonExternalLinksArea.classList.remove('lesson-section-content');
+    } else {
+        lessonExternalLinksArea.classList.add('lesson-section-content');
+    }
 
     // --- Configure Start Quiz Button (RELY ON QUIZ ENGINE TO CHECK FOR questions.json) ---
     const newStartButton = startQuizButton.cloneNode(true);
@@ -485,7 +489,7 @@ function populateLessonContentPanel(lessonContent, lessonBasicInfo) {
                   }
                   updateState({ isQuizActive: false });
                   // Show user message that quiz isn't available
-                  alert("لا يتوفر اختبار لهذا الدرس حالياً.");
+                  alert("لا يتوفر اختبار لهذا الدرس حال <.");
              }
 
         } catch (error) {

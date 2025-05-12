@@ -1,0 +1,419 @@
+{
+  "unit1_w_1_matching": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": ["grammar", "sentence-structure", "unit1", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the first part of the sentence (A) with the correct ending (B).",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match (A) with (B) to make full sentences:",
+      "ar": ""
+    },
+    "draggableItems": [  
+      { "id": "end_a", "text": { "en": "a. he decided to buy life insurance.", "ar": "" } },
+      { "id": "end_b", "text": { "en": "b. virtually you don’t exist.", "ar": "" } },
+      { "id": "end_c", "text": { "en": "c. he ended up with almost £100.", "ar": "" } },
+      { "id": "end_d", "text": { "en": "d. a hundred former unemployed people, all selling tomatoes.", "ar": "" } }
+    ],
+    "dropZones": [  
+      { "id": "start_1", "label": { "en": "1. He managed a staff of", "ar": "" }, "accepts": "end_d" },
+      { "id": "start_2", "label": { "en": "2. Repeating the process several times that day,", "ar": "" }, "accepts": "end_c" },
+      { "id": "start_3", "label": { "en": "3. Not having an email means that", "ar": "" }, "accepts": "end_b" },
+      { "id": "start_4", "label": { "en": "4. Planning for the future of his family", "ar": "" }, "accepts": "end_a" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentences matched correctly.",
+      "ar": "صحيح! تم مطابقة جميع الجمل بشكل صحيح."   
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. حاول قراءة بداية كل جملة (A) ونهايتها (B) معًا لترى أيها تشكل جملة منطقية وكاملة."   
+    }
+  },
+  "unit1_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "verb", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct word between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. She had a problem in the bank, so she asked to meet the ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "manager", "ar": "" },
+      { "en": "manage", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "manager",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Manager' is the noun for the person.",
+      "ar": "صحيح! 'Manager' هو اسم الشخص."   
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. 'manage' هو الفعل (يدير). أنت بحاجة إلى الاسم الذي يصف الشخص المسؤول وهو 'manager'."   
+    }
+  },
+  "unit1_w_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "noun", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct word between brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. He has no money; he has been ______ for months.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "unemployed", "ar": "" },
+      { "en": "unemployment", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "unemployed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Unemployed' is the adjective describing his state.",
+      "ar": "صحيح! 'Unemployed' هي الصفة التي تصف حالته."   
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. 'unemployment' هو الاسم (البطالة). أنت بحاجة إلى الصفة التي تصف حالة الشخص بعد الفعل 'been' وهي 'unemployed'."   
+    }
+  },
+  "unit1_w_4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "verb", "unit1", "mcq"],
+    "supportContent": {
+       "en": "Choose the correct word between brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. Life doesn’t ______ on Mars.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "existence", "ar": "" },
+      { "en": "exist", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "exist",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Exist' is the verb needed after 'doesn't'.",
+      "ar": "صحيح! 'Exist' هو الفعل المطلوب بعد 'doesn’t'."   
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. 'existence' هو الاسم (الوجود). أنت بحاجة إلى الفعل بصيغة المصدر بعد الفعل المساعد 'doesn't' وهو 'exist'."   
+    }
+  },
+  "unit1_w_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "noun", "unit1", "mcq"],
+     "supportContent": {
+       "en": "Choose the correct word between brackets.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. I was ______ when my nine-months brother could walk.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "astonished", "ar": "" },
+      { "en": "astonishment", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "astonished",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Astonished' is the adjective describing how you felt.",
+      "ar": "صحيح! 'Astonished' هي الصفة التي تصف شعورك."   
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. 'astonishment' هو الاسم (الدهشة). أنت بحاجة إلى الصفة التي تصف شعورك بعد الفعل 'was' وهي 'astonished'."   
+    }
+  },
+  "unit1_w_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "habit", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Select the correct form of the verb between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Every Monday, Sally ______ her kids to football practice.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "drives", "ar": "" },
+      { "en": "is driving", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "drives",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Simple ('drives') is used for regular habits ('Every Monday').",
+      "ar": "صحيح! يُستخدم المضارع البسيط ('drives') للعادات المنتظمة ('Every Monday')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. عبارة 'Every Monday' تدل على عادة متكررة. نستخدم المضارع البسيط لوصف العادات. الفاعل 'Sally' مفرد غائب، لذا نضيف '-s' للفعل."  
+    }
+  },
+  "unit1_w_7": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "present-simple", "present-continuous", "contrast", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Select the correct form of the verbs between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Usually, I ______ as a secretary, but this summer, I ______ French at a language school.",
+      "ar": ""
+    },
+    "options": [
+        
+      { "en": "am working / study", "ar": "" },
+      { "en": "work / am studying", "ar": "" },
+      { "en": "am working / am studying", "ar": "" },
+      { "en": "work / study", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "work / am studying",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'work' (Present Simple) for the usual job, and 'am studying' (Present Continuous) for the temporary action this summer.",
+      "ar": "صحيح! 'work' (مضارع بسيط) للوظيفة المعتادة، و 'am studying' (مضارع مستمر) للفعل المؤقت هذا الصيف."  
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. كلمة 'Usually' تدل على عادة (مضارع بسيط). عبارة 'this summer' تدل على فعل مؤقت يحدث الآن أو حول الآن (مضارع مستمر)."  
+    }
+  },
+  "unit1_w_8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "unit1", "mcq"],
+     "supportContent": {
+      "en": "Select the correct form of the verb between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Be quiet! John ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "sleeps", "ar": "" },
+      { "en": "is sleeping", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "is sleeping",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Continuous ('is sleeping') is used for an action happening right now ('Be quiet!').",
+      "ar": "صحيح! يُستخدم المضارع المستمر ('is sleeping') لوصف فعل يحدث الآن ('Be quiet!')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. عبارة 'Be quiet!' تشير إلى أن الفعل يحدث في هذه اللحظة. نستخدم المضارع المستمر للأفعال التي تحدث الآن."  
+    }
+  },
+  "unit1_w_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "weather", "unit1", "mcq"],
+     "supportContent": {
+      "en": "Select the correct form of the verb between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Don’t forget to take your umbrella. It ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "rains", "ar": "" },
+      { "en": "is raining", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "is raining",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Continuous ('is raining') is used for an action happening now (the reason to take an umbrella).",
+      "ar": "صحيح! يُستخدم المضارع المستمر ('is raining') لوصف فعل يحدث الآن (سبب أخذ المظلة)."  
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. النصيحة بأخذ المظلة تشير إلى أن المطر يهطل الآن. نستخدم المضارع المستمر لوصف الأفعال التي تحدث الآن."  
+    }
+  },
+  "unit1_w_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "habit", "exercise", "unit1", "mcq"],
+    "supportContent": {
+      "en": "Select the correct form of the verb between brackets.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. She is fit because she always ______ as an exercise.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "is running", "ar": "" },
+      { "en": "runs", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "runs",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Simple ('runs') is used for regular habits ('always').",
+      "ar": "صحيح! يُستخدم المضارع البسيط ('runs') للعادات المنتظمة ('always')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",   
+      "ar": "الإجابة غير صحيحة. كلمة 'always' تدل على عادة منتظمة. نستخدم المضارع البسيط للعادات. الفاعل 'she' مفرد غائب، لذا نضيف '-s' للفعل."  
+    }
+  },
+  "unit1_w_11": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "question-form", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Put the verb between brackets in the correct question form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "1. What <input type='text' class='fill-blank-input' data-blank-id='qf1' placeholder='(you do)'> under the table? – Is there anything wrong?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qf1": { "en": "are you doing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Continuous question form.",
+      "ar": "صحيح! صيغة سؤال المضارع المستمر."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال يسأل عما يحدث الآن (لأن المتحدث يرى شيئًا غريبًا). نستخدم صيغة السؤال للمضارع المستمر: (Wh- + am/is/are + subject + V-ing?)."  
+    }
+  },
+  "unit1_w_12": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "question-form", "habit", "unit1", "fill-blank"],
+    "supportContent": {
+       "en": "Put the verb between brackets in the correct question form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "2. Where <input type='text' class='fill-blank-input' data-blank-id='qf2' placeholder='(she/usually/ stay)'> when she goes to Homs?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qf2": { "en": "does she usually stay", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Simple question form with an adverb of frequency.",
+      "ar": "صحيح! صيغة سؤال المضارع البسيط مع ظرف تكرار."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'usually' تدل على عادة. نستخدم صيغة السؤال للمضارع البسيط: (Wh- + do/does + subject + adverb + base verb?). الفاعل 'she' يتطلب 'does'. يوضع ظرف التكرار عادة قبل الفعل الرئيسي."  
+    }
+  },
+  "unit1_w_13": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "question-form", "current-action", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Put the verb between brackets in the correct question form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "3. What a delicious smell! What <input type='text' class='fill-blank-input' data-blank-id='qf3' placeholder='(your mother/ prepare)'> for dinner?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qf3": { "en": "is your mother preparing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Continuous question form for an action happening now.",
+      "ar": "صحيح! صيغة سؤال المضارع المستمر لفعل يحدث الآن."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الرائحة اللذيذة تشير إلى أن الطهي يحدث الآن. نستخدم صيغة السؤال للمضارع المستمر: (Wh- + am/is/are + subject + V-ing?). الفاعل 'your mother' يتطلب 'is'."  
+    }
+  },
+  "unit1_w_14": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "question-form", "habit", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Put the verb between brackets in the correct question form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "4. What time <input type='text' class='fill-blank-input' data-blank-id='qf4' placeholder='(he/ wake up)'> on weekdays?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qf4": { "en": "does he wake up", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Simple question form for a habitual action.",
+      "ar": "صحيح! صيغة سؤال المضارع البسيط لفعل معتاد."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال عن وقت الاستيقاظ في أيام الأسبوع ('on weekdays') يسأل عن عادة. نستخدم صيغة السؤال للمضارع البسيط: (Wh- + do/does + subject + base verb?). الفاعل 'he' يتطلب 'does'."  
+    }
+  },
+  "unit1_w_15": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "question-form", "state", "unit1", "fill-blank"],
+     "supportContent": {
+       "en": "Put the verb between brackets in the correct question form.",
+       "ar": ""
+    },
+    "questionText": {
+      "en": "5. Where <input type='text' class='fill-blank-input' data-blank-id='qf5' placeholder='(you / live)'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qf5": { "en": "do you live", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Simple question form to ask about a permanent state.",
+      "ar": "صحيح! صيغة سؤال المضارع البسيط للسؤال عن حالة دائمة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال عن مكان الإقامة ('live') يسأل عادةً عن حالة شبه دائمة. نستخدم صيغة السؤال للمضارع البسيط: (Wh- + do/does + subject + base verb?). الفاعل 'you' يتطلب 'do'."  
+    }
+  }
+}
