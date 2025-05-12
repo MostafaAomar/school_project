@@ -1,0 +1,496 @@
+{
+  "unit2_w_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "reading-comprehension",
+      "initiatives",
+      "social",
+      "unit2",
+      "true-false",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Based on the likely context of a text about 'Suspended Coffee', decide if the sentence is True (T) or False (F).",
+      "ar": "بناءً على السياق المحتمل لنص حول 'القهوة المعلقة'، حدد ما إذا كانت الجملة صحيحة (T) أم خاطئة (F)."
+    },
+    "questionText": {
+      "en": "1. Many people liked John’s initiative.",
+      "ar": "1. أعجب العديد من الناس بمبادرة جون."  
+    },
+    "options": [
+      {
+        "en": "True",
+        "ar": "صحيحة"
+      },
+      {
+        "en": "False",
+        "ar": "خاطئة"
+      }
+    ],
+    "correctAnswer": { 
+      "en": "True",
+      "ar": "صحيحة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Initiatives like 'Suspended Coffee' are generally well-received.",  
+      "ar": "صحيح! عادةً ما تلقى المبادرات مثل 'القهوة المعلقة' استحسانًا."  
+    },
+    "feedbackIncorrect": {
+      "en": "This might be false depending on the specific text, but typically such initiatives gain popularity.", 
+      "ar": "يذكر النص أنه في غضون ثماني ساعات، حصدت صفحة فيسبوك أكثر من 20,000 إعجاب، مما يدل على تقدير الكثيرين للمبادرة، لذا فإن العبارة  صحيحة."  
+    }
+  },
+  "unit2_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "reading-comprehension",
+      "initiatives",
+      "details",
+      "unit2",
+      "true-false",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Based on the likely context of a text about 'Suspended Coffee', decide if the sentence is True (T) or False (F).",
+      "ar": "بناءً على السياق المحتمل لنص حول 'القهوة المعلقة'، حدد ما إذا كانت الجملة صحيحة (T) أم خاطئة (F)."
+    },
+    "questionText": {
+      "en": "2. Suspended Coffee Day is celebrated in January.",
+      "ar": "2. يتم الاحتفال بيوم القهوة المعلقة في يناير."
+    },
+    "options": [
+      {
+        "en": "True",
+        "ar": "صحيحة"
+      },
+      {
+        "en": "False",
+        "ar": "خاطئة"
+      }
+    ],
+    "correctAnswer": { 
+      "en": "False",
+      "ar": "خاطئة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! There isn't a universally recognized 'Suspended Coffee Day' typically celebrated on a specific date like in January.",  
+      "ar": "صحيح! لا يوجد عادةً 'يوم عالمي للقهوة المعلقة' يتم الاحتفال به في تاريخ محدد مثل يناير." 
+    },
+    "feedbackIncorrect": {
+      "en": "While some local events might exist, there's no standard global 'Suspended Coffee Day' in January.",  
+      "ar": "يذكر النص أن 'يوم القهوة المُعلّق' يُحتفل به في ديسمبر، وليس يناير، مما يجعل العبارة   خاطئة."  
+    }
+  },
+  "unit2_w_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "reading-comprehension",
+      "initiatives",
+      "social-principles",
+      "unit2",
+      "true-false",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Based on the likely context of a text about 'Suspended Coffee', decide if the sentence is True (T) or False (F).",
+      "ar": "بناءً على السياق المحتمل لنص حول 'القهوة المعلقة'، حدد ما إذا كانت الجملة صحيحة (T) أم خاطئة (F)."
+    },
+    "questionText": {
+      "en": "3. The person who needs suspended coffee must prove that he is poor.",
+      "ar": "3. يجب على الشخص الذي يحتاج إلى القهوة المعلقة أن يثبت أنه فقير."
+    },
+    "options": [
+      {
+        "en": "True",
+        "ar": "صحيحة"
+      },
+      {
+        "en": "False",
+        "ar": "خاطئة"
+      }
+    ],
+    "correctAnswer": { 
+      "en": "False",
+      "ar": "خاطئة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The principle of 'Suspended Coffee' usually relies on trust and dignity, not requiring proof of poverty.", 
+      "ar": "صحيح! مبدأ 'القهوة المعلقة' يعتمد عادةً على الثقة والكرامة، ولا يتطلب إثبات الفقر."  
+    },
+    "feedbackIncorrect": {
+      "en": "The core idea of initiatives like this is often based on trust and avoiding humiliation, so requiring proof would contradict the principle.",  
+      "ar": "  يُشدد النص على عدم الحاجة إلى أي دليل (أي لا حاجة لسيرة ذاتية)، وليس من حق أي شخص تقييم الحاجة، لذا فإن العبارة   خاطئة."  
+    }
+  },
+  "unit2_w_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "already",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form using the present perfect tense.",
+      "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
+    },
+    "questionText": { 
+      "en": "1. I am not hungry. I <input type='text' class='fill-blank-input' data-blank-id='pp1a' placeholder='فعل مساعد'> already <input type='text' class='fill-blank-input' data-blank-id='pp1b' placeholder='فعل اساسي'> (eat).",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pp1a": {
+        "en": "have",
+        "ar": ""
+      },
+      "pp1b": {
+        "en": "eaten",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. زمن المضارع التام يتكون من الفعل المساعد 'have' (للفاعل I) + التصريف الثالث للفعل الرئيسي. التصريف الثالث لـ 'eat' هو 'eaten'. الظرف 'already' يأتي عادة بين الفعل المساعد والفعل الرئيسي."  
+    }
+  },
+  "unit2_w_5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "negation",
+      "yet",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form using the present perfect tense.",
+      "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "2. We <input type='text' class='fill-blank-input' data-blank-id='pp2' placeholder='verb phrase...'> (not/plan) for our holiday yet.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pp2": {
+        "en": "haven't planned",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. صيغة النفي للمضارع التام هي 'have/has + not + past participle'. مع الفاعل 'We' نستخدم 'haven't'. التصريف الثالث لـ 'plan' هو 'planned'."  
+    }
+  },
+  "unit2_w_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "question",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form using the present perfect tense.",
+      "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='pp3a' placeholder='فعل مساعد'> you <input type='text' class='fill-blank-input' data-blank-id='pp3b' placeholder='فعل اساسي'> (read) any interesting books?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pp3a": {
+        "en": "Have",
+        "ar": ""
+      },
+      "pp3b": {
+        "en": "read",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتكوين سؤال في المضارع التام، نبدأ بالفعل المساعد 'Have' (للفاعل you) ثم الفاعل ثم التصريف الثالث للفعل الرئيسي. التصريف الثالث لـ 'read' هو 'read' (لكن يلفظ /red/). "  
+    }
+  },
+  "unit2_w_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "question",
+      "yet",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form using the present perfect tense.",
+      "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
+    },
+    "questionText": { 
+      "en": "4. <input type='text' class='fill-blank-input' data-blank-id='pp4a' placeholder='فعل مساعد'> she <input type='text' class='fill-blank-input' data-blank-id='pp4b' placeholder='فعل اساسي'> (feed the cat yet)?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pp4a": {
+        "en": "Has",
+        "ar": ""
+      },
+      "pp4b": {
+        "en": "fed the cat yet",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'yet' تستخدم عادةً في الأسئلة والنفي في المضارع التام. لتكوين سؤال مع الفاعل 'she'، نبدأ بـ 'Has' ثم الفاعل ثم التصريف الثالث للفعل الرئيسي ('feed' -> 'fed')."  
+    }
+  },
+  "unit2_w_8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "question",
+      "yet",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Put the verb in brackets in the correct form using the present perfect tense.",
+      "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "5. <input type='text' class='fill-blank-input' data-blank-id='pp5a' placeholder='فعل مساعد'> Amer <input type='text' class='fill-blank-input' data-blank-id='pp5b' placeholder='فعل اساسي'> (buy) a car yet?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pp5a": {
+        "en": "Has",
+        "ar": ""
+      },
+      "pp5b": {
+        "en": "bought",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتكوين سؤال في المضارع التام مع الفاعل 'Amer' (he)، نبدأ بـ 'Has' ثم الفاعل ثم التصريف الثالث للفعل الرئيسي ('buy' -> 'bought')."  
+    }
+  },
+  "unit2_w_9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "questions",
+      "present-continuous",
+      "sentence-transformation",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the statement into a question.",
+      "ar": "حول الجملة الخبرية إلى سؤال."
+    },
+    "questionText": {
+      "en": "1. Statement: She is working on a new project.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q1' placeholder=' حول الجمله الى سؤال'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q1": {
+        "en": "Is she working on a new project",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتحويل جملة المضارع المستمر (Subject + is/are + V-ing) إلى سؤال، نضع الفعل المساعد (is/are) في بداية الجملة قبل الفاعل."  
+    }
+  },
+  "unit2_w_10": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "questions",
+      "present-perfect",
+      "sentence-transformation",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the statement into a question.",
+      "ar": "حول الجملة الخبرية إلى سؤال."
+    },
+    "questionText": {
+      "en": "2. Statement: He has returned from Europe.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q2' placeholder=' حول الجمله الى سؤال'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q2": {
+        "en": "Has he returned from Europe",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتحويل جملة المضارع التام (Subject + has/have + P.P.) إلى سؤال، نضع الفعل المساعد (has/have) في بداية الجملة قبل الفاعل."  
+    }
+  },
+  "unit2_w_11": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "questions",
+      "present-perfect",
+      "how-long",
+      "sentence-transformation",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the statement into a question (likely asking 'How long...?').",
+      "ar": "حول الجملة الخبرية إلى سؤال (غالباً للسؤال عن المدة 'How long...?')."
+    },
+    "questionText": {
+      "en": "3. Statement: Maya has taught English since 2019.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q3' placeholder=' حول الجمله الى سؤال'>?",
+      "ar": ""
+    },
+    "correctAnswers": { 
+      "q3": {
+        "en": [
+          "How long has Maya taught English",
+          "Has Maya taught English since 2019"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. يمكن تحويلها لسؤال بسيط بتقديم الفعل المساعد 'Has' على الفاعل 'Maya'. للسؤال عن المدة التي بدأت بـ 'since 2019'، نستخدم 'How long' في بداية السؤال مع صيغة سؤال المضارع التام (How long + has/have + subject + P.P.)."  
+    }
+  },
+  "unit2_w_12": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "questions",
+      "present-simple",
+      "sentence-transformation",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the statement into a question.",
+      "ar": "حول الجملة الخبرية إلى سؤال."
+    },
+    "questionText": {
+      "en": "4. Statement: Susan enjoys reading.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q4' placeholder=' حول الجمله الى سؤال'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "q4": {
+        "en": "Does Susan enjoy reading",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!" 
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتحويل جملة المضارع البسيط (مع فعل غير 'be') إلى سؤال، نستخدم الفعل المساعد 'Do' أو 'Does' في البداية. بما أن الفاعل 'Susan' مفرد غائب، نستخدم 'Does' ثم الفاعل ثم مصدر الفعل (بدون s)."  
+    }
+  },
+  "unit2_w_13": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "questions",
+      "present-simple",
+      "possession",
+      "sentence-transformation",
+      "unit2",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the statement into a question.",
+      "ar": "حول الجملة الخبرية إلى سؤال."
+    },
+    "questionText": {
+      "en": "5. Statement: This car belongs to Martin.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q5' placeholder=' حول الجمله الى سؤال'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+       
+      "q5": {
+        "en": [
+          "Does this car belong to Martin",
+          "Who does this car belong to"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتحويل جملة المضارع البسيط (الفاعل 'This car' مفرد غائب) إلى سؤال نعم/لا، نستخدم 'Does' في البداية ثم الفاعل ثم مصدر الفعل ('belong'). للسؤال عن المالك، نستخدم 'Who' مع 'does' والفعل في المصدر."  
+    }
+  }
+}

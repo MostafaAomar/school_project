@@ -1,0 +1,303 @@
+{
+  "unit3_s_1_match1": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "adjectives",
+      "concepts",
+      "unit3",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the words with their meanings.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the words with their meanings:",
+      "ar": ""  
+    },
+    "draggableItems": [  
+      {
+        "id": "drag_meaning_a",
+        "text": {
+          "en": "a. the opposite of war.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_meaning_b",
+        "text": {
+          "en": "b. clear.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_meaning_c",
+        "text": {
+          "en": "c. old.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_meaning_d",
+        "text": {
+          "en": "d. not present.",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [  
+      {
+        "id": "zone_word_1",
+        "label": {
+          "en": "1. obvious ",
+          "ar": ""
+        },
+        "accepts": "drag_meaning_b"
+      },
+      {
+        "id": "zone_word_2",
+        "label": {
+          "en": "2. absent ",
+          "ar": ""
+        },
+        "accepts": "drag_meaning_d"
+      },
+      {
+        "id": "zone_word_3",
+        "label": {
+          "en": "3. peace ",
+          "ar": ""
+        },
+        "accepts": "drag_meaning_a"
+      },
+      {
+        "id": "zone_word_4",
+        "label": {
+          "en": "4. traditional ",
+          "ar": ""
+        },
+        "accepts": "drag_meaning_c"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All words matched to their definitions.",
+      "ar": "صحيح! تم مطابقة جميع الكلمات بتعاريفها."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع المعاني: 'obvious' تعني واضح، 'absent' تعني غائب، 'peace' هو عكس الحرب، و 'traditional' تعني قديم أو تقليدي."  
+    }
+  },
+  "unit3_s_2_match2": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "future",
+      "predictions",
+      "intentions",
+      "offers",
+      "sentence-structure",
+      "unit3",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the beginnings in column A with the ends in column B.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the beginnings with the ends:",
+      "ar": ""  
+    },
+    "draggableItems": [ 
+      {
+        "id": "drag_end_a",
+        "text": {
+          "en": "a. will win the match.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_end_b",
+        "text": {
+          "en": "b. a birthday party for my mother.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_end_c",
+        "text": {
+          "en": "c. I will lift it for you.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_end_d",
+        "text": {
+          "en": "d. but I think it will continue raining.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_end_e",
+        "text": {
+          "en": "e. It is going to snow soon.",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [  
+      {
+        "id": "zone_begin_1",
+        "label": {
+          "en": "1. I'd love to go out, ",
+          "ar": ""
+        },
+        "accepts": "drag_end_d"
+      },
+      {
+        "id": "zone_begin_2",
+        "label": {
+          "en": "2. It is freezing today. ",
+          "ar": ""
+        },
+        "accepts": "drag_end_e"
+      },
+      {
+        "id": "zone_begin_3",
+        "label": {
+          "en": "3. I think our team ",
+          "ar": ""
+        },
+        "accepts": "drag_end_a"
+      },
+      {
+        "id": "zone_begin_4",
+        "label": {
+          "en": "4. Tonight we are going to have ",
+          "ar": ""
+        },
+        "accepts": "drag_end_b"
+      },
+      {
+        "id": "zone_begin_5",
+        "label": {
+          "en": "5. It is a heavy box. ",
+          "ar": ""
+        },
+        "accepts": "drag_end_c"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentence parts matched logically.",
+      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل بشكل منطقي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. فكر في التكملة المنطقية لكل بداية جملة. الرغبة في الخروج تُقابلها عائق (المطر المستمر 1-d). التجمد يوحي بالثلج (2-e). التفكير في الفريق يقود لتوقع الفوز (3-a). الليلة والنية تدل على حفلة (4-b). الصندوق الثقيل يستدعي عرض مساعدة (5-c)."  
+    }
+  },
+  "unit3_s_3_vocab": {  
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "context",
+      "unit3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the following statements with words from the box: [disease, peace, improved, predict, replaces, obvious]",
+      "ar": ""  
+    },
+    "questionText": { 
+      "en": "1. It is difficult to <input type='text' class='fill-blank-input' data-blank-id='vocab1' placeholder='...'> what the long-term effects of the accident will be.<br>2. The weather <input type='text' class='fill-blank-input' data-blank-id='vocab2' placeholder='...'> towards the evening.<br>3. His father suffers from a heart <input type='text' class='fill-blank-input' data-blank-id='vocab3' placeholder='...'>.<br>4. The <input type='text' class='fill-blank-input' data-blank-id='vocab4' placeholder='...'> way of reducing pollution is to use cars less.<br>5. She felt at <input type='text' class='fill-blank-input' data-blank-id='vocab5' placeholder='...'> when she arrived.<br>6. The new software package <input type='text' class='fill-blank-input' data-blank-id='vocab6' placeholder='...'> the old one.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab1": {
+        "en": "predict",
+        "ar": ""
+      },
+      "vocab2": {
+        "en": "improved",
+        "ar": ""
+      },
+      "vocab3": {
+        "en": "disease",
+        "ar": ""
+      },
+      "vocab4": {
+        "en": "obvious",
+        "ar": ""
+      },
+      "vocab5": {
+        "en": "peace",
+        "ar": ""
+      },
+      "vocab6": {
+        "en": "replaces",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You've used the vocabulary words appropriately.",
+      "ar": "صحيح! لقد استخدمت كلمات المفردات بشكل مناسب."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. تأكد من معنى كل كلمة في الصندوق والسياق في كل جملة. 'predict' (يتنبأ)، 'improved' (تحسن)، 'disease' (مرض)، 'obvious' (واضح)، 'peace' (سلام/راحة)، 'replaces' (يحل محل)."  
+    }
+  },
+  "unit3_s_4_future": {  
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "tenses",
+      "future-will",
+      "future-going-to",
+      "predictions",
+      "unit3",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the following sentences with the correct form of '(be) going to' or 'will'.",
+      "ar": ""  
+    },
+    "questionText": { 
+      "en": "1. Futurologists predict that life <input type='text' class='fill-blank-input' data-blank-id='fut1' placeholder='...'> probably be very different in all the fields of life.<br>2. Scientists and researchers <input type='text' class='fill-blank-input' data-blank-id='fut2' placeholder='...'> find cure for many diseases like Aids and cancer.<br>3. I think that life in the future <input type='text' class='fill-blank-input' data-blank-id='fut3' placeholder='...'> be easy and comfortable.<br>4. World peace <input type='text' class='fill-blank-input' data-blank-id='fut4' placeholder='...'> spread everywhere.",
+      "ar": ""  
+    },
+    "correctAnswers": { 
+      "fut1": {
+        "en": "will",
+        "ar": ""
+      },
+      "fut2": {
+        "en": "will",
+        "ar": ""
+      },  
+      "fut3": {
+        "en": "will",
+        "ar": ""
+      },  
+      "fut4": {
+        "en": "will",
+        "ar": ""
+      } 
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' is typically used for predictions, especially with verbs like 'predict' or 'think'.",
+      "ar": "صحيح! تُستخدم 'will' عادةً للتنبؤات، خاصة مع أفعال مثل 'predict' أو 'think'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عند التعبير عن تنبؤات عامة حول المستقبل، خاصة تلك التي تبدأ بعبارات مثل 'predict' أو 'I think'، فإننا نستخدم عادةً 'will + المصدر'. بينما تُستخدم '(be) going to' غالبًا للتنبؤات المبنية على دليل حالي أو للخطط والنوايا."  
+    }
+  }
+}

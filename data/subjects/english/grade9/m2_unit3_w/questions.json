@@ -1,0 +1,558 @@
+{
+  "unit3_w_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["science", "space", "future", "reality-check", "unit3", "true-false", "mcq"],
+    "supportContent": {
+      "en": "Decide if the following statement is True (T) or False (F) based on current reality.",
+      "ar": "حدد ما إذا كانت العبارة التالية صحيحة (T) أم خاطئة (F) بناءً على الواقع الحالي."
+    },
+    "questionText": {
+      "en": "1. Nowadays, it is possible for people to live on the moon.",
+      "ar": "1. في أيامنا هذه، من الممكن للناس أن يعيشوا على القمر."
+    },
+    "options": [
+      { "en": "True", "ar": "صحيحة" },
+      { "en": "False", "ar": "خاطئة" }
+    ],
+    "correctAnswer": {
+      "en": "False",
+      "ar": "خاطئة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Currently, sustained human habitation on the Moon is not possible without extensive external support and infrastructure not yet in place.",
+      "ar": "صحيح! حاليًا، العيش البشري المستدام على سطح القمر غير ممكن بدون دعم خارجي وبنية تحتية واسعة النطاق لم يتم إنشاؤها بعد."
+    },
+    "feedbackIncorrect": {
+      "en": "While humans have visited the Moon, establishing a place to live there long-term is not currently feasible.",
+      "ar": "الإجابة خاطئة. على الرغم من زيارة البشر للقمر، فإن إنشاء مكان للعيش هناك لفترة طويلة غير ممكن حاليًا."
+    }
+  },
+  "unit3_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["science", "space", "future", "reality-check", "unit3", "true-false", "mcq"],
+    "supportContent": {
+       "en": "Decide if the following statement is True (T) or False (F) based on the conditions on the Moon.",
+       "ar": "حدد ما إذا كانت العبارة التالية صحيحة (T) أم خاطئة (F) بناءً على الظروف على سطح القمر."
+    },
+    "questionText": {
+      "en": "2. On the moon, people will have to wear special clothes.",
+      "ar": "2. على سطح القمر، سيتعين على الناس ارتداء ملابس خاصة."
+    },
+    "options": [
+      { "en": "True", "ar": "صحيحة" },
+      { "en": "False", "ar": "خاطئة" }
+    ],
+    "correctAnswer": {
+    
+      "en": "True",
+      "ar": "صحيحة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Moon has no breathable atmosphere and extreme temperatures, requiring specialized spacesuits (special clothes).",
+      "ar": "صحيح! لا يوجد غلاف جوي قابل للتنفس على القمر ودرجات حرارة قصوى، مما يتطلب بدلات فضاء متخصصة (ملابس خاصة)."
+    },
+    "feedbackIncorrect": {
+      "en": "This statement is actually true. Humans cannot survive on the Moon's surface without protective spacesuits.",
+      "ar": "هذه العبارة صحيحة في الواقع. لا يمكن للبشر البقاء على قيد الحياة على سطح القمر بدون بدلات فضاء واقية (ملابس خاصة)."
+    }
+  },
+  "unit3_w_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["science", "space", "future", "reality-check", "unit3", "true-false", "mcq"],
+     "supportContent": {
+      "en": "Decide if the following statement is True (T) or False (F) based on current space travel realities.",
+      "ar": "حدد ما إذا كانت العبارة التالية صحيحة (T) أم خاطئة (F) بناءً على حقائق السفر إلى الفضاء الحالية."
+    },
+    "questionText": {
+      "en": "3. Astronauts will cook on the moon.",
+      "ar": "3. سيقوم رواد الفضاء بالطهي على سطح القمر."
+    },
+    "options": [
+      { "en": "True", "ar": "صحيحة" },
+      { "en": "False", "ar": "خاطئة" }
+    ],
+    "correctAnswer": {
+      "en": "False",
+      "ar": "خاطئة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Astronauts typically eat pre-prepared or specially packaged food that requires minimal preparation (like adding water), not traditional cooking, due to the conditions and equipment limitations in space/on the Moon.",
+      "ar": "صحيح! عادةً ما يأكل رواد الفضاء طعامًا مُجهزًا مسبقًا أو مُعبأ بشكل خاص يتطلب الحد الأدنى من التحضير (مثل إضافة الماء)، وليس الطهي التقليدي، بسبب الظروف وقيود المعدات في الفضاء / على القمر."
+    },
+    "feedbackIncorrect": {
+      "en": "While future missions might involve more complex food preparation, current and past missions rely on specially prepared space food, not cooking in the conventional sense.",
+      "ar": "الإجابة خاطئة. بينما قد تتضمن البعثات المستقبلية تحضير طعام أكثر تعقيدًا، تعتمد البعثات الحالية والسابقة على أغذية فضائية مُجهزة خصيصًا، وليس الطهي بالمعنى التقليدي."
+    }
+  },
+  "unit3_w_4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["science", "technology", "future", "automation", "unit3", "true-false", "mcq"],
+    "supportContent": {
+      "en": "Decide if the following statement is True (T) or False (F) based on technological trends.",
+      "ar": "حدد ما إذا كانت العبارة التالية صحيحة (T) أم خاطئة (F) بناءً على الاتجاهات التكنولوجية."
+    },
+    "questionText": {
+      "en": "4. Robots will do the work of humans.",
+      "ar": "4. ستقوم الروبوتات بعمل البشر."
+    },
+    "options": [
+      { "en": "True", "ar": "صحيحة" },
+      { "en": "False", "ar": "خاطئة" }
+    ],
+    "correctAnswer": {
+      "en": "True",
+      "ar": "صحيحة"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a widely discussed trend and reality in many industries, where automation and robotics are increasingly taking over tasks previously done by humans.",
+      "ar": "صحيح! هذا اتجاه وواقع نوقش على نطاق واسع في العديد من الصناعات، حيث تتولى الأتمتة والروبوتات بشكل متزايد المهام التي كان يقوم بها البشر سابقًا."
+    },
+    "feedbackIncorrect": {
+      "en": "While not *all* human work will be done by robots, the trend of automation replacing human labor in various sectors is undeniable and ongoing.",
+      "ar": "الإجابة صحيحة. على الرغم من أنه لن يتم إنجاز *كل* الأعمال البشرية بواسطة الروبوتات، إلا أن اتجاه الأتمتة الذي يحل محل العمالة البشرية في مختلف القطاعات لا يمكن إنكاره ومستمر."
+    }
+  },
+  "unit3_w_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "word-formation", "adjective", "adverb", "unit3", "mcq"],
+    "supportContent": {
+      "en": "Circle the correct word in brackets.",
+      "ar": "ضع دائرة حول الكلمة الصحيحة بين القوسين."
+    },
+    "questionText": {
+      "en": "1. It is ______ to feel nervous before an exam.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "normally", "ar": "" },
+      { "en": "normal", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "normal",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The adjective 'normal' is needed after 'It is...' to describe the state of feeling nervous.",
+      "ar": "صحيح! الصفة 'normal' مطلوبة بعد 'It is...' لوصف حالة الشعور بالتوتر."
+    },
+    "feedbackIncorrect": {
+      "en": "'Normally' is an adverb, which modifies verbs or adjectives. Here, you need an adjective to complete the phrase 'It is...'.",
+      "ar": "الإجابة خاطئة. 'normally' هو ظرف، ويقوم بتعديل الأفعال أو الصفات. هنا، أنت بحاجة إلى صفة لإكمال العبارة 'It is...'."
+    }
+  },
+  "unit3_w_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "comparison", "adjective", "unit3", "mcq"],
+    "supportContent": {
+        "en": "Circle the correct word in brackets.",
+        "ar": "ضع دائرة حول الكلمة الصحيحة بين القوسين."
+    },
+    "questionText": {
+      "en": "2. Property in Homs is ______ than property in Damascus.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "cheaper", "ar": "" },
+      { "en": "cheap", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "cheaper",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The comparative form 'cheaper' is needed because of the comparison introduced by 'than'.",
+      "ar": "صحيح! صيغة المقارنة 'cheaper' مطلوبة بسبب المقارنة التي تقدمها كلمة 'than'."
+    },
+    "feedbackIncorrect": {
+      "en": "The word 'than' indicates a comparison between two things. You need the comparative form of the adjective ('cheap' -> 'cheaper').",
+      "ar": "الإجابة خاطئة. كلمة 'than' تشير إلى مقارنة بين شيئين. أنت بحاجة إلى صيغة المقارنة للصفة ('cheap' -> 'cheaper')."
+    }
+  },
+  "unit3_w_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "confused-words", "verb", "noun", "unit3", "mcq"],
+    "supportContent": {
+       "en": "Circle the correct word in brackets.",
+       "ar": "ضع دائرة حول الكلمة الصحيحة بين القوسين."
+    },
+    "questionText": {
+      "en": "3. Doctors gave Hani oxygen to help him ______.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "breathe", "ar": "" },  
+      { "en": "breath", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "breathe",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Breathe' is the verb meaning to inhale and exhale air.",
+      "ar": "صحيح! 'Breathe' هو الفعل الذي يعني استنشاق وزفير الهواء."
+    },
+    "feedbackIncorrect": {
+      "en": "'Breath' is the noun (the air itself). The sentence needs the verb form after 'help him...'.",
+      "ar": "الإجابة خاطئة. 'Breath' هو الاسم (الهواء نفسه). الجملة تحتاج إلى صيغة الفعل بعد 'help him...'."
+    }
+  },
+  "unit3_w_8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "verb-form", "infinitive", "unit3", "mcq"],
+    "supportContent": {
+        "en": "Circle the correct word in brackets.",
+        "ar": "ضع دائرة حول الكلمة الصحيحة بين القوسين."
+    },
+    "questionText": {
+      "en": "4. You will need to ______ permission from the teacher if you want to leave the class.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "obtained", "ar": "" },
+      { "en": "obtain", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "obtain",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The base form (infinitive without 'to') 'obtain' is needed after 'need to...'.",
+      "ar": "صحيح! صيغة المصدر الأساسية 'obtain' مطلوبة بعد 'need to...'."
+    },
+    "feedbackIncorrect": {
+      "en": "After the modal structure 'need to', the base form of the verb (infinitive without 'to') is required.",
+      "ar": "الإجابة خاطئة. بعد التركيب الفعلي 'need to'، يتطلب الأمر صيغة المصدر الأساسية للفعل."
+    }
+  },
+  "unit3_w_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["vocabulary", "confused-words", "noun", "medicine", "unit3", "mcq"],
+    "supportContent": {
+       "en": "Circle the correct word in brackets.",
+       "ar": "ضع دائرة حول الكلمة الصحيحة بين القوسين."
+    },
+    "questionText": {
+      "en": "5. He has to take ______ to control his blood pressure.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "bills", "ar": "" },  
+      { "en": "pills", "ar": "" }   
+    ],
+    "correctAnswer": {
+      "en": "pills",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Pills' are small, solid pieces of medicine.",
+      "ar": "صحيح! 'Pills' هي قطع صغيرة صلبة من الدواء."
+    },
+    "feedbackIncorrect": {
+      "en": "'Bills' are invoices for payment or paper money. For medicine taken orally, 'pills' is the correct word.",
+      "ar": "الإجابة خاطئة. 'Bills' هي فواتير للدفع أو نقود ورقية. بالنسبة للدواء الذي يؤخذ عن طريق الفم، فإن 'pills' هي الكلمة الصحيحة."
+    }
+  },
+  "unit3_w_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "word-formation", "verb", "noun", "unit3", "mcq"],
+     "supportContent": {
+        "en": "Circle the correct word in brackets.",
+        "ar": "ضع دائرة حول الكلمة الصحيحة بين القوسين."
+    },
+    "questionText": {
+      "en": "6. Our goal is to ______ a new research centre in our city.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "establishment", "ar": "" }, 
+      { "en": "establish", "ar": "" }       
+    ],
+    "correctAnswer": {
+      "en": "establish",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The infinitive verb form 'establish' is needed after 'to' when expressing a goal.",
+      "ar": "صحيح! صيغة المصدر للفعل 'establish' مطلوبة بعد 'to' عند التعبير عن هدف."
+    },
+    "feedbackIncorrect": {
+      "en": "'Establishment' is the noun. After 'to' expressing purpose or goal, the base form of the verb is required.",
+      "ar": "الإجابة خاطئة. 'Establishment' هو الاسم. بعد 'to' التي تعبر عن الغرض أو الهدف، يتطلب الأمر صيغة المصدر الأساسية للفعل."
+    }
+  },
+  "unit3_w_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-going-to", "intention", "plan", "unit3", "mcq"],
+    "supportContent": {
+       "en": "Select the correct future form.",
+       "ar": "اختر صيغة المستقبل الصحيحة."
+    },
+    "questionText": {
+      "en": "1. Amal has bought a new book. Tonight she ______ stay at home and start reading it.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "will", "ar": "" },
+      { "en": "is going to", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "is going to",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'is going to' is often used for plans or intentions made before the moment of speaking.",
+      "ar": "صحيح! تُستخدم 'is going to' غالبًا للخطط أو النوايا التي تم اتخاذها قبل لحظة التحدث (شراء الكتاب يشير لخطة مسبقة)."
+    },
+    "feedbackIncorrect": {
+      "en": "While 'will' can sometimes express intention, 'is going to' better reflects a plan made based on a prior action (buying the book).",
+      "ar": "الإجابة خاطئة. بينما يمكن لـ 'will' أحيانًا التعبير عن النية، فإن 'is going to' تعكس بشكل أفضل خطة تم وضعها بناءً على إجراء سابق (شراء الكتاب)."
+    }
+  },
+  "unit3_w_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "spontaneous-decision", "offer", "unit3", "mcq"],
+     "supportContent": {
+       "en": "Select the correct future form.",
+       "ar": "اختر صيغة المستقبل الصحيحة."
+    },
+    "questionText": {
+      "en": "2. The phone is ringing. I ______ answer it.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "am going to", "ar": "" },
+      { "en": "will", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "will",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' is used for spontaneous decisions or offers made at the moment of speaking.",
+      "ar": "صحيح! تُستخدم 'will' للقرارات العفوية أو العروض التي تتم في لحظة التحدث (ردًا على رنين الهاتف)."
+    },
+    "feedbackIncorrect": {
+      "en": "'am going to' usually implies a prior plan. Responding to the phone ringing is a decision made now, so 'will' is used.",
+      "ar": "الإجابة خاطئة. 'am going to' تشير عادةً إلى خطة مسبقة. الرد على رنين الهاتف هو قرار يتم اتخاذه الآن، لذا تُستخدم 'will'."
+    }
+  },
+  "unit3_w_13": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-going-to", "arrangement", "plan", "unit3", "mcq"],
+     "supportContent": {
+       "en": "Select the correct future form.",
+       "ar": "اختر صيغة المستقبل الصحيحة."
+    },
+    "questionText": {
+      "en": "3. I am not free tomorrow. I ______ see the doctor.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "will", "ar": "" },
+      { "en": "am going to", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "am going to",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'am going to' is used for future plans or arrangements, especially when the reason ('not free') implies a pre-existing appointment.",
+      "ar": "صحيح! تُستخدم 'am going to' للخطط أو الترتيبات المستقبلية، خاصة عندما يشير السبب ('not free') إلى موعد محدد مسبقًا."
+    },
+    "feedbackIncorrect": {
+      "en": "Saying 'I am not free' strongly suggests a prior arrangement (like a doctor's appointment), which is best expressed using 'am going to'.",
+      "ar": "الإجابة خاطئة. القول 'I am not free' يشير بقوة إلى وجود ترتيب مسبق (مثل موعد مع الطبيب)، والذي يتم التعبير عنه بشكل أفضل باستخدام 'am going to'."
+    }
+  },
+  "unit3_w_14": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "spontaneous-decision", "unit3", "mcq"],
+    "supportContent": {
+       "en": "Select the correct future form.",
+       "ar": "اختر صيغة المستقبل الصحيحة."
+    },
+    "questionText": {
+      "en": "4. We forgot to buy bread. We ______ go back to buy some.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "are going to", "ar": "" },
+      { "en": "will", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "will",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' is often used for decisions made spontaneously at the moment of speaking, triggered by a situation like forgetting something.",
+      "ar": "صحيح! غالبًا ما تُستخدم 'will' للقرارات التي يتم اتخاذها بشكل عفوي في لحظة التحدث، والتي تسببها حالة مثل نسيان شيء ما."
+    },
+    "feedbackIncorrect": {
+      "en": "'are going to' implies a prior plan. The decision to go back is made *now* because you just realized you forgot, so 'will' is more appropriate.",
+      "ar": "الإجابة خاطئة. 'are going to' تشير إلى خطة مسبقة. قرار العودة يتم اتخاذه *الآن* لأنك أدركت للتو أنك نسيت، لذا فإن 'will' هي الأنسب."
+    }
+  },
+  "unit3_w_15": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "prediction", "opinion", "unit3", "mcq"],
+    "supportContent": {
+       "en": "Select the correct future form.",
+       "ar": "اختر صيغة المستقبل الصحيحة."
+    },
+    "questionText": {
+      "en": "5. She is so tired. She needs some rest. I think she ______ take a week off.",
+      "ar": ""
+    },
+    "options": [
+      { "en": "is going to", "ar": "" },
+      { "en": "will", "ar": "" }  
+    ],
+    "correctAnswer": {
+      "en": "will",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' is commonly used after 'I think' to express an opinion or prediction about the future.",
+      "ar": "صحيح! تُستخدم 'will' بشكل شائع بعد 'I think' للتعبير عن رأي أو تنبؤ بشأن المستقبل."
+    },
+    "feedbackIncorrect": {
+      "en": "'is going to' can be used for predictions based on strong present evidence, but with 'I think', 'will' is more typical for expressing a personal prediction or opinion.",
+      "ar": "الإجابة خاطئة. يمكن استخدام 'is going to' للتنبؤات المبنية على دليل حالي قوي، ولكن مع 'I think'، تكون 'will' أكثر شيوعًا للتعبير عن تنبؤ شخصي أو رأي."
+    }
+  },
+  "unit3_w_16": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-going-to", "arrangement", "plan", "unit3", "fill-blank"],
+    "supportContent": {
+        "en": "Complete the sentences with (will) or with the correct form of (be going to).",
+        "ar": "أكمل الجمل بـ (will) أو بالصيغة الصحيحة لـ (be going to)."
+    },
+    "questionText": {
+      "en": "1. Do you want to go with us next Saturday? We <input type='text' class='fill-blank-input' data-blank-id='fut_comp1' placeholder='...'> (attend) a football match.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_comp1": { "en": "are going to attend", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة خاطئة. الدعوة ('Do you want to go with us') تشير إلى وجود خطة أو ترتيب مسبق لمشاهدة المباراة، لذا نستخدم 'are going to attend'."  
+    }
+  },
+  "unit3_w_17": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "prediction", "unit3", "fill-blank"],
+     "supportContent": {
+        "en": "Complete the sentences with (will) or with the correct form of (be going to).",
+        "ar": "أكمل الجمل بـ (will) أو بالصيغة الصحيحة لـ (be going to)."
+    },
+    "questionText": {
+      "en": "2. The weather <input type='text' class='fill-blank-input' data-blank-id='fut_comp2' placeholder='...'> (be) dreadful tomorrow.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_comp2": { "en": "will be", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة خاطئة. للتنبؤات العامة حول الطقس، نستخدم عادةً 'will be'. (يمكن استخدام 'is going to be' إذا كان التنبؤ مبنيًا على دليل واضح مثل نشرة جوية)."  
+    }
+  },
+  "unit3_w_18": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "offer", "spontaneous-decision", "unit3", "fill-blank"],
+     "supportContent": {
+        "en": "Complete the sentences with (will) or with the correct form of (be going to).",
+        "ar": "أكمل الجمل بـ (will) أو بالصيغة الصحيحة لـ (be going to)."
+    },
+    "questionText": {
+      "en": "3. I <input type='text' class='fill-blank-input' data-blank-id='fut_comp3' placeholder='...'> (lift) that heavy box for you.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_comp3": { "en": "will lift", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة خاطئة. لتقديم عرض للمساعدة يتم اتخاذه في لحظة التحدث، نستخدم 'will + المصدر'."  
+    }
+  },
+  "unit3_w_19": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-going-to", "plan", "arrangement", "unit3", "fill-blank"],
+     "supportContent": {
+        "en": "Complete the sentences with (will) or with the correct form of (be going to).",
+        "ar": "أكمل الجمل بـ (will) أو بالصيغة الصحيحة لـ (be going to)."
+    },
+    "questionText": {
+      "en": "4. Tonight we <input type='text' class='fill-blank-input' data-blank-id='fut_comp4' placeholder='...'> (have) a birthday party for our mother.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_comp4": { "en": "are going to have", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة خاطئة. عند الحديث عن خطة أو ترتيب تم وضعه مسبقًا لوقت محدد في المستقبل القريب (مثل 'Tonight')، نستخدم 'be going to + المصدر'."  
+    }
+  },
+  "unit3_w_20": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "future-will", "prediction", "opinion", "unit3", "fill-blank"],
+    "supportContent": {
+        "en": "Complete the sentences with (will) or with the correct form of (be going to).",
+        "ar": "أكمل الجمل بـ (will) أو بالصيغة الصحيحة لـ (be going to)."
+    },
+    "questionText": {
+      "en": "5. I think our team <input type='text' class='fill-blank-input' data-blank-id='fut_comp5' placeholder='...'> (win) the match.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "fut_comp5": { "en": "will win", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة خاطئة. عند التعبير عن رأي أو تنبؤ شخصي، خاصة بعد 'I think'، نستخدم عادةً 'will + المصدر'."  
+    }
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "unit2_s_1_match1": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "sentence-structure",
+      "reading-comprehension",
+      "volunteering",
+      "technology",
+      "unit2",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the beginning of the sentence (numbered) with its correct ending (lettered).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match (A) with (B) to make full sentences:",
+      "ar": ""  
+    },
+    "draggableItems": [  
+      {
+        "id": "drag_a",
+        "text": {
+          "en": "a. if you have a network.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_b",
+        "text": {
+          "en": "b. the syllabus into Braille.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_c",
+        "text": {
+          "en": "c. after it is divided into several tasks.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag_d",
+        "text": {
+          "en": "d. of the recordings.",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [  
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "1. Volunteers record the book ",
+          "ar": ""
+        },
+        "accepts": "drag_c"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "2. Mp3 is the form ",
+          "ar": ""
+        },
+        "accepts": "drag_d"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "3. You can listen to the recordings ",
+          "ar": ""
+        },
+        "accepts": "drag_a"
+      },
+      {
+        "id": "zone_4",
+        "label": {
+          "en": "4. Nowadays, volunteers are turning ",
+          "ar": ""
+        },
+        "accepts": "drag_b"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentence parts matched.",
+      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. حاول قراءة بداية كل جملة وتوصيلها بالنهاية التي تكمل المعنى بشكل منطقي. مثلاً، المتطوعون يسجلون الكتاب بعد تقسيمه (1 مع c)، و MP3 هو صيغة التسجيلات (2 مع d)."  
+    }
+  },
+  "unit2_s_2_match2": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "sentence-structure",
+      "unit2",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match column (A) with (B) to make full sentences in the present perfect tense.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match column (A) with (B) to make full sentences in the present perfect tense:",
+      "ar": ""  
+    },
+    "draggableItems": [  
+      {
+        "id": "drag2_a",
+        "text": {
+          "en": "a. She will speak to you in a minute.",
+          "ar": ""
+        }
+      },  
+      {
+        "id": "drag2_b",
+        "text": {
+          "en": "b. for two months.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag2_c",
+        "text": {
+          "en": "c. to Paris before.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag2_d",
+        "text": {
+          "en": "d. Yes, I have.",
+          "ar": ""
+        }
+      },
+      {
+        "id": "drag2_e",
+        "text": {
+          "en": "e. since she arrived to our city.",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [  
+      {
+        "id": "zone2_1",
+        "label": {
+          "en": "1. Have you done your homework? ",
+          "ar": ""
+        },
+        "accepts": "drag2_d"
+      },
+      {
+        "id": "zone2_2",
+        "label": {
+          "en": "2. She has just arrived. ",
+          "ar": ""
+        },
+        "accepts": "drag2_a"
+      },  
+      {
+        "id": "zone2_3",
+        "label": {
+          "en": "3. We have known her ",
+          "ar": ""
+        },
+        "accepts": "drag2_e"
+      },
+      {
+        "id": "zone2_4",
+        "label": {
+          "en": "4. He has worked here ",
+          "ar": ""
+        },
+        "accepts": "drag2_b"
+      },
+      {
+        "id": "zone2_5",
+        "label": {
+          "en": "5. I haven’t been ",
+          "ar": ""
+        },
+        "accepts": "drag2_c"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentences matched appropriately.",
+      "ar": "صحيح! تم مطابقة جميع الجمل بشكل مناسب."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. فكر في التكملة المنطقية لكل جملة. السؤال 'Have you...?' يُجاب عليه بـ 'Yes, I have.' (1 مع d). 'She has just arrived' تعني أنها وصلت للتو وبالتالي ستتحدث بعد قليل (2 مع a). نستخدم 'since' مع بداية فترة زمنية ('have known her since...') (3 مع e) و 'for' مع مدة زمنية ('has worked here for...') (4 مع b). النفي 'haven't been' يناسب التجربة السابقة '...to Paris before' (5 مع c)."  
+    }
+  },
+  "unit2_s_3_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "experience",
+      "unit2",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer to complete the sentence using the present perfect tense.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "She’s very experienced now. She ______ been a volunteer for two years.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "has",
+        "ar": ""
+      },
+      {
+        "en": "hasn’t",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "has",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The positive form 'has been' fits the context of being experienced due to the duration.",
+      "ar": "صحيح! صيغة الإثبات 'has been' تناسب سياق كونها ذات خبرة بسبب المدة."
+    },
+    "feedbackIncorrect": {
+      "en": "The sentence states she is experienced 'now' because of the time ('for two years'). This implies the volunteering happened, so the positive form 'has' is needed.",
+      "ar": "تذكر الجملة أنها ذات خبرة 'الآن' بسبب المدة ('for two years'). هذا يعني أن التطوع قد حدث، لذا فإن صيغة الإثبات 'has' مطلوبة."
+    }
+  },
+  "unit2_s_4_mcq2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "result",
+      "charity",
+      "unit2",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer to complete the sentence using the present perfect tense.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "Good news! They ______ enough money for the charity this year.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "have raised",
+        "ar": ""
+      },
+      {
+        "en": "haven’t raised",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "have raised",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Good news!' indicates a positive outcome, so they 'have raised' the money.",
+      "ar": "صحيح! عبارة 'Good news!' تشير إلى نتيجة إيجابية، لذا فهم 'have raised' المال."
+    },
+    "feedbackIncorrect": {
+      "en": "The phrase 'Good news!' suggests a successful outcome. Therefore, the positive form 'have raised' is appropriate.",
+      "ar": "عبارة 'Good news!' تشير إلى نتيجة ناجحة. لذلك، فإن صيغة الإثبات 'have raised' هي المناسبة."
+    }
+  },
+  "unit2_s_5_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "experience",
+      "duration",
+      "unit2",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer to complete the sentence using the present perfect tense.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "While I’ve been a volunteer, we ______ helped a lot of young people to graduate from high school.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "haven’t",
+        "ar": ""
+      },
+      {
+        "en": "have",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "have",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The context implies a positive achievement during the volunteering period.",
+      "ar": "صحيح! السياق يشير إلى إنجاز إيجابي خلال فترة التطوع."
+    },
+    "feedbackIncorrect": {
+      "en": "The sentence describes helping people during the time as a volunteer, implying a positive accomplishment. The positive form 'have' is needed.",
+      "ar": "تصف الجملة مساعدة الناس خلال فترة التطوع، مما يعني إنجازًا إيجابيًا. صيغة الإثبات 'have' مطلوبة."
+    }
+  },
+  "unit2_s_6_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "negation",
+      "past-participle",
+      "unit2",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer to complete the sentence using the present perfect tense.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "He’s hungry. He hasn’t ______ for four days.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "eaten",
+        "ar": ""
+      },
+      {
+        "en": "eat",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "eaten",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The Present Perfect tense requires the auxiliary 'has/have' + the past participle of the verb.",
+      "ar": "صحيح! زمن المضارع التام يتطلب الفعل المساعد 'has/have' + التصريف الثالث للفعل."
+    },
+    "feedbackIncorrect": {
+      "en": "After 'hasn't' (or 'has'/'have'), the Present Perfect requires the past participle form of the main verb ('eat' -> 'eaten').",
+      "ar": "بعد 'hasn't' (أو 'has'/'have')، يتطلب المضارع التام صيغة التصريف الثالث للفعل الرئيسي ('eat' -> 'eaten')."
+    }
+  },
+  "unit2_s_7_mcq5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "negation",
+      "subject-verb-agreement",
+      "unit2",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer to complete the sentence using the present perfect tense.",
+      "ar": "اختر الإجابة الصحيحة لإكمال الجملة باستخدام زمن المضارع التام."
+    },
+    "questionText": {
+      "en": "She misses him! She ______ seen him for a long time.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "haven’t",
+        "ar": ""
+      },
+      {
+        "en": "hasn’t",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "hasn’t",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The subject 'She' (third person singular) requires 'hasn't'.",
+      "ar": "صحيح! الفاعل 'She' (الغائب المفرد) يتطلب 'hasn't'."
+    },
+    "feedbackIncorrect": {
+      "en": "The subject is 'She'. For third person singular subjects (he, she, it), the correct auxiliary verb form in the Present Perfect negative is 'hasn't'.",
+      "ar": "الفاعل هو 'She'. بالنسبة لفاعل الغائب المفرد (he, she, it)، فإن صيغة الفعل المساعد الصحيحة في المضارع التام المنفي هي 'hasn't'."
+    }
+  }
+}
