@@ -29,6 +29,51 @@
 
   gtag('config', 'G-B09T42D3M0');
 </script>
+
+<script>
+
+// Define dataLayer and the gtag function.
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+ 
+// IMPORTANT - DO NOT COPY/PASTE WITHOUT MODIFYING REGION LIST
+
+// Set default consent for specific regions according to your requirements
+
+gtag('consent', 'default', {
+
+  'ad_storage': 'denied',
+
+  'ad_user_data': 'denied',
+
+  'ad_personalization': 'denied',
+
+  'analytics_storage': 'denied',
+
+  'regions':['US', 'CA', 'GB', 'EU']
+
+});
+
+// Set default consent for all other regions according to your requirements
+
+gtag('consent', 'default', {
+
+  'ad_storage': 'denied',
+
+  'ad_user_data': 'denied',
+
+  'ad_personalization': 'denied',
+
+  'analytics_storage': 'denied'
+
+});
+
+</script>
+
+<!--Banner script here!-->
     <!-- Note: Any styles specific ONLY to iframe content should be linked within those iframe HTML files -->
 
 </head>
@@ -38,7 +83,7 @@
         <h1>
             <span class="rainbow-text">منصة التعليم السورية</span>
             <!-- Use a class for easier selection/styling if needed, keep title -->
-            <a href="#" class="home-button-link" title="الصفحة الرئيسية"><img src="./images/pagelogo.png" alt="Logo" class="mascot"></a>
+            <a href="https://mostafaaomar.github.io/school_project/" class="home-button-link" title="الصفحة الرئيسية"><img src="./images/pagelogo.png" alt="Logo" class="mascot"></a>
         </h1>
     </header>
 
