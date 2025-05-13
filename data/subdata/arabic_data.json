@@ -5,25 +5,68 @@
     { "arabic": "ت", "english": "Taa", "pronunciation": "tah" },
     { "arabic": "ث", "english": "Thaa", "pronunciation": "thah" },
     { "arabic": "ج", "english": "Jeem", "pronunciation": "jeem" },
-    { "arabic": "ح", "english": "Haa", "pronunciation": "hah" }
+    { "arabic": "ح", "english": "Haa (guttural)", "pronunciation": "hah" },
+    { "arabic": "خ", "english": "Khaa", "pronunciation": "khah" },
+    { "arabic": "د", "english": "Daal", "pronunciation": "dal" },
+    { "arabic": "ذ", "english": "Dhaal", "pronunciation": "dhal" },
+    { "arabic": "ر", "english": "Raa", "pronunciation": "rah" },
+    { "arabic": "ز", "english": "Zaay", "pronunciation": "zay" },
+    { "arabic": "س", "english": "Seen", "pronunciation": "seen" },
+    { "arabic": "ش", "english": "Sheen", "pronunciation": "sheen" },
+    { "arabic": "ص", "english": "Saad", "pronunciation": "sawd" },
+    { "arabic": "ض", "english": "Daad", "pronunciation": "dawd" },
+    { "arabic": "ط", "english": "Taa' (emphatic)", "pronunciation": "taw" },
+    { "arabic": "ظ", "english": "Dhaa' (emphatic)", "pronunciation": "dhaw" },
+    { "arabic": "ع", "english": "Ain", "pronunciation": "'ain" },
+    { "arabic": "غ", "english": "Ghain", "pronunciation": "ghain" },
+    { "arabic": "ف", "english": "Faa", "pronunciation": "fah" },
+    { "arabic": "ق", "english": "Qaaf", "pronunciation": "qawf" },
+    { "arabic": "ك", "english": "Kaaf", "pronunciation": "kaf" },
+    { "arabic": "ل", "english": "Laam", "pronunciation": "lam" },
+    { "arabic": "م", "english": "Meem", "pronunciation": "meem" },
+    { "arabic": "ن", "english": "Noon", "pronunciation": "noon" },
+    { "arabic": "ه", "english": "Haa (soft)", "pronunciation": "ha" },
+    { "arabic": "و", "english": "Waaw", "pronunciation": "waw" },
+    { "arabic": "ي", "english": "Yaa", "pronunciation": "yaa" }
   ],
   "numbers": [
     { "arabic": "١", "english": "One", "pronunciation": "waahid" },
     { "arabic": "٢", "english": "Two", "pronunciation": "ithnayn" },
     { "arabic": "٣", "english": "Three", "pronunciation": "thalaatha" },
     { "arabic": "٤", "english": "Four", "pronunciation": "arba'a" },
-    { "arabic": "٥", "english": "Five", "pronunciation": "khamsa" }
+    { "arabic": "٥", "english": "Five", "pronunciation": "khamsa" },
+    { "arabic": "٦", "english": "Six", "pronunciation": "sitta" },
+    { "arabic": "٧", "english": "Seven", "pronunciation": "sab'a" },
+    { "arabic": "٨", "english": "Eight", "pronunciation": "thamaaniya" },
+    { "arabic": "٩", "english": "Nine", "pronunciation": "tis'a" },
+    { "arabic": "١٠", "english": "Ten", "pronunciation": "'ashara" }
   ],
   "words": [
     { "arabic": "مرحبا", "english": "Hello", "pronunciation": "marhaba" },
     { "arabic": "شكرا", "english": "Thank you", "pronunciation": "shukran" },
     { "arabic": "نعم", "english": "Yes", "pronunciation": "na'am" },
     { "arabic": "لا", "english": "No", "pronunciation": "laa" },
-    { "arabic": "سلام", "english": "Peace", "pronunciation": "salaam" }
+    { "arabic": "سلام", "english": "Peace", "pronunciation": "salaam" },
+    { "arabic": "كتاب", "english": "Book", "pronunciation": "kitaab" },
+    { "arabic": "بيت", "english": "House", "pronunciation": "bayt" },
+    { "arabic": "ماء", "english": "Water", "pronunciation": "maa'" },
+    { "arabic": "اسم", "english": "Name", "pronunciation": "ism" },
+    { "arabic": "من فضلك", "english": "Please", "pronunciation": "min fadlik" },
+    { "arabic": "مع السلامة", "english": "Goodbye", "pronunciation": "ma'a as-salama" },
+    { "arabic": "صباح الخير", "english": "Good morning", "pronunciation": "sabaah al-khayr" },
+    { "arabic": "مساء الخير", "english": "Good evening", "pronunciation": "masaa' al-khayr" },
+    { "arabic": "كيف حالك؟", "english": "How are you?", "pronunciation": "kayfa haaluka?" }
   ],
   "exercises": [
     { "question": "مرح__", "answer": "با", "hint": "Complete: Hello (marhaba)" },
     { "question": "__كرا", "answer": "ش", "hint": "Complete: Thank you (shukran)" },
-    { "question": "س__م", "answer": "لا", "hint": "Complete: Peace (salaam)" }
+    { "question": "س__م", "answer": "لا", "hint": "Complete: Peace (salaam)" },
+    { "question": "كتا__", "answer": "ب", "hint": "Complete: Book (kitaab)" },
+    { "question": "بَيـ__", "answer": "ت", "hint": "Complete: House (bayt)" },
+    { "question": "ما__", "answer": "ء", "hint": "Complete: Water (maa')" },
+    { "question": "واح__", "answer": "د", "hint": "Complete: One (waahid)" },
+    { "question": "اِسـ__", "answer": "م", "hint": "Complete: Name (ism)" },
+    { "question": "أر__عة", "answer": "ب", "hint": "Complete: Four (arba'a)" },
+    { "question": "خَمـ__ة", "answer": "س", "hint": "Complete: Five (khamsa)" }
   ]
 }
