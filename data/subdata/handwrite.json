@@ -4,8 +4,215 @@
     "correctAnswer": "سلام"
   },
   {
-    "question": "hello",
+    "question": "اكتب كلمة 'hello' هنا:",
     "correctAnswer": "hello"
+  },
+  {
+    "question": "اكتب كلمة 'أ' هنا:",
+    "correctAnswer": "أ"
+  },
+  {
+    "question": "اكتب كلمة 'ب' هنا:",
+    "correctAnswer": "ب"
+  },
+  {
+    "question": "اكتب كلمة 'ت' هنا:",
+    "correctAnswer": "ت"
+  },
+  {
+    "question": "اكتب كلمة 'ث' هنا:",
+    "correctAnswer": "ث"
+  },
+  {
+    "question": "اكتب كلمة 'ج' هنا:",
+    "correctAnswer": "ج"
+  },
+  {
+    "question": "اكتب كلمة 'ح' هنا:",
+    "correctAnswer": "ح"
+  },
+  {
+    "question": "اكتب كلمة 'خ' هنا:",
+    "correctAnswer": "خ"
+  },
+  {
+    "question": "اكتب كلمة 'د' هنا:",
+    "correctAnswer": "د"
+  },
+  {
+    "question": "اكتب كلمة 'ذ' هنا:",
+    "correctAnswer": "ذ"
+  },
+  {
+    "question": "اكتب كلمة 'ر' هنا:",
+    "correctAnswer": "ر"
+  },
+  {
+    "question": "اكتب كلمة 'ز' هنا:",
+    "correctAnswer": "ز"
+  },
+  {
+    "question": "اكتب كلمة 'س' هنا:",
+    "correctAnswer": "س"
+  },
+  {
+    "question": "اكتب كلمة 'ش' هنا:",
+    "correctAnswer": "ش"
+  },
+  {
+    "question": "اكتب كلمة 'ص' هنا:",
+    "correctAnswer": "ص"
+  },
+  {
+    "question": "اكتب كلمة 'ض' هنا:",
+    "correctAnswer": "ض"
+  },
+  {
+    "question": "اكتب كلمة 'ط' هنا:",
+    "correctAnswer": "ط"
+  },
+  {
+    "question": "اكتب كلمة 'ظ' هنا:",
+    "correctAnswer": "ظ"
+  },
+  {
+    "question": "اكتب كلمة 'ع' هنا:",
+    "correctAnswer": "ع"
+  },
+  {
+    "question": "اكتب كلمة 'غ' هنا:",
+    "correctAnswer": "غ"
+  },
+  {
+    "question": "اكتب كلمة 'ف' هنا:",
+    "correctAnswer": "ف"
+  },
+  {
+    "question": "اكتب كلمة 'ق' هنا:",
+    "correctAnswer": "ق"
+  },
+  {
+    "question": "اكتب كلمة 'ك' هنا:",
+    "correctAnswer": "ك"
+  },
+  {
+    "question": "اكتب كلمة 'ل' هنا:",
+    "correctAnswer": "ل"
+  },
+  {
+    "question": "اكتب كلمة 'م' هنا:",
+    "correctAnswer": "م"
+  },
+  {
+    "question": "اكتب كلمة 'ن' هنا:",
+    "correctAnswer": "ن"
+  },
+  {
+    "question": "اكتب كلمة 'ه' هنا:",
+    "correctAnswer": "ه"
+  },
+  {
+    "question": "اكتب كلمة 'و' هنا:",
+    "correctAnswer": "و"
+  },
+  {
+    "question": "اكتب كلمة 'ي' هنا:",
+    "correctAnswer": "ي"
+  },
+  {
+    "question": "اكتب كلمة '١' هنا:",
+    "correctAnswer": "١"
+  },
+  {
+    "question": "اكتب كلمة '٢' هنا:",
+    "correctAnswer": "٢"
+  },
+  {
+    "question": "اكتب كلمة '٣' هنا:",
+    "correctAnswer": "٣"
+  },
+  {
+    "question": "اكتب كلمة '٤' هنا:",
+    "correctAnswer": "٤"
+  },
+  {
+    "question": "اكتب كلمة '٥' هنا:",
+    "correctAnswer": "٥"
+  },
+  {
+    "question": "اكتب كلمة '٦' هنا:",
+    "correctAnswer": "٦"
+  },
+  {
+    "question": "اكتب كلمة '٧' هنا:",
+    "correctAnswer": "٧"
+  },
+  {
+    "question": "اكتب كلمة '٨' هنا:",
+    "correctAnswer": "٨"
+  },
+  {
+    "question": "اكتب كلمة '٩' هنا:",
+    "correctAnswer": "٩"
+  },
+  {
+    "question": "اكتب كلمة '١٠' هنا:",
+    "correctAnswer": "١٠"
+  },
+  {
+    "question": "اكتب كلمة 'مرحبا' هنا:",
+    "correctAnswer": "مرحبا"
+  },
+  {
+    "question": "اكتب كلمة 'شكرا' هنا:",
+    "correctAnswer": "شكرا"
+  },
+  {
+    "question": "اكتب كلمة 'نعم' هنا:",
+    "correctAnswer": "نعم"
+  },
+  {
+    "question": "اكتب كلمة 'لا' هنا:",
+    "correctAnswer": "لا"
+  },
+  {
+    "question": "اكتب كلمة 'سلام' هنا:",
+    "correctAnswer": "سلام"
+  },
+  {
+    "question": "اكتب كلمة 'كتاب' هنا:",
+    "correctAnswer": "كتاب"
+  },
+  {
+    "question": "اكتب كلمة 'بيت' هنا:",
+    "correctAnswer": "بيت"
+  },
+  {
+    "question": "اكتب كلمة 'ماء' هنا:",
+    "correctAnswer": "ماء"
+  },
+  {
+    "question": "اكتب كلمة 'اسم' هنا:",
+    "correctAnswer": "اسم"
+  },
+  {
+    "question": "اكتب كلمة 'من فضلك' هنا:",
+    "correctAnswer": "من فضلك"
+  },
+  {
+    "question": "اكتب كلمة 'مع السلامة' هنا:",
+    "correctAnswer": "مع السلامة"
+  },
+  {
+    "question": "اكتب كلمة 'صباح الخير' هنا:",
+    "correctAnswer": "صباح الخير"
+  },
+  {
+    "question": "اكتب كلمة 'مساء الخير' هنا:",
+    "correctAnswer": "مساء الخير"
+  },
+  {
+    "question": "اكتب كلمة 'كيف حالك؟' هنا:",
+    "correctAnswer": "كيف حالك؟"
   }
 ]
-
