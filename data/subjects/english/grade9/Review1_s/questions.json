@@ -1,0 +1,1147 @@
+{
+  "review1_s_1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "reading-comprehension",
+      "well-being",
+      "social-responsibility",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. What would be a way of caring for the well-being of others?",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "volunteering at a home for old people.",
+        "ar": ""
+      },
+      {
+        "en": "practicing yoga or meditation.",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "volunteering at a home for old people.",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Volunteering directly helps others.",
+      "ar": "صحيح! العمل التطوعي يساعد الآخرين بشكل مباشر."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. بينما اليوجا والتأمل مفيدان للرفاهية الشخصية، فإن العمل التطوعي في دار للمسنين هو طريقة مباشرة للاهتمام برفاهية الآخرين."  
+    }
+  },
+  "review1_s_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "reading-comprehension",
+      "awareness",
+      "mindfulness",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. What is not part of being aware?",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "taking pleasure in what you are doing at this time.",
+        "ar": ""
+      },
+      {
+        "en": "enjoying the memory of a past experience.",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "enjoying the memory of a past experience.",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Being aware often focuses on the present moment, not dwelling on past memories.",
+      "ar": "صحيح! الوعي غالبًا ما يركز على اللحظة الحالية، وليس الاستغراق في ذكريات الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الوعي أو اليقظة الذهنية تركز على اللحظة الحالية. الاستمتاع بذكرى تجربة ماضية هو تذكر للماضي وليس جزءًا مباشرًا من الوعي باللحظة الحالية."  
+    }
+  },
+  "review1_s_3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "happiness",
+      "factors",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. Things we cannot control that affect our level of happiness are ___________ .",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "our genes and our life circumstances.",
+        "ar": ""
+      },
+      {
+        "en": "the number of volunteer positions we have.",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "our genes and our life circumstances.",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Genes and certain life circumstances are often considered factors largely outside our direct control that influence happiness.",
+      "ar": "صحيح! غالبًا ما تُعتبر الجينات وبعض ظروف الحياة عوامل خارجة إلى حد كبير عن سيطرتنا المباشرة وتؤثر على السعادة."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الجينات وظروف الحياة هي أشياء غالبًا لا يمكننا التحكم فيها بشكل كامل. عدد المناصب التطوعية هو شيء يمكننا التحكم فيه."  
+    }
+  },
+  "review1_s_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "psychology",
+      "memory",
+      "negativity-bias",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. Why doesn't the brain remember positive experiences as much as negative ones?",
+      "ar": ""  
+    },
+    "options": [
+     
+      {
+        "en": "Positive experiences don't have any important effect on our memories.",
+        "ar": ""
+      },
+      {
+        "en": "negative experiences don't have any important effect on our memories.",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+ 
+      "en": "Positive experiences don't have any important effect on our memories.",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct (within the given options). The brain has a 'negativity bias', meaning it tends to give more weight to negative experiences, partly for survival reasons, making them more memorable.",
+      "ar": "صحيح (ضمن الخيارات المتاحة). يميل الدماغ إلى ما يسمى 'الانحياز السلبي'، مما يعني أنه يعطي وزنًا أكبر للتجارب السلبية، جزئيًا لأسباب تتعلق بالبقاء، مما يجعلها أكثر قابلية للتذكر."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الدماغ البشري لديه ما يسمى بـ 'الانحياز السلبي'، حيث تميل التجارب السلبية إلى أن يكون لها تأثير أقوى وتُذكر بشكل أفضل، ربما لأنها كانت مهمة للبقاء على قيد الحياة في الماضي. الخيار (أ) هو الأقرب لهذا المفهوم، على الرغم من أن التجارب الإيجابية لها تأثير أيضًا."  
+    }
+  },
+  "review1_s_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "demonstrative-pronoun",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. ____________ was such an interesting experience.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "that",
+        "ar": ""
+      },
+      {
+        "en": "these",
+        "ar": ""
+      },
+      {
+        "en": "those",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "that",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'That' refers to a singular experience.",
+      "ar": "صحيح! 'that' تشير إلى تجربة مفردة."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'experience' (تجربة) هنا مفردة. 'these' و 'those' تُستخدمان للجمع. 'that' تُستخدم للإشارة إلى مفرد بعيد أو تجربة عامة."  
+    }
+  },
+  "review1_s_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "demonstrative-pronoun",
+      "plural",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. Are ___________ your shoes?",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "that",
+        "ar": ""
+      },
+      {
+        "en": "those",
+        "ar": ""
+      },
+      {
+        "en": "this",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "those",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Those' is used for plural items at a distance ('your shoes').",
+      "ar": "صحيح! 'Those' تُستخدم للأشياء الجمع البعيدة ('your shoes')."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'shoes' (أحذية) جمع. 'that' و 'this' للمفرد. 'those' تُستخدم للإشارة إلى الجمع البعيد."  
+    }
+  },
+  "review1_s_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. When I opened my eyes, I ………………. a strange sight.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "saw",
+        "ar": ""
+      },
+      {
+        "en": "was seeing",
+        "ar": ""
+      },
+      {
+        "en": "have seen",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "saw",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'saw' (Past Simple) describes a completed action in the past.",
+      "ar": "صحيح! 'saw' (الماضي البسيط) تصف فعلاً مكتملًا في الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الجملة تصف حدثًا وقع وانتهى في الماضي (عندما فتحت عيني). نستخدم الماضي البسيط 'saw'. 'was seeing' (الماضي المستمر) يستخدم لوصف فعل كان مستمرًا، و 'have seen' (المضارع التام) يربط الماضي بالحاضر."  
+    }
+  },
+  "review1_s_8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-simple",
+      "habit",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. Every morning she …………….. up early and gets ready for work.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "is waking",
+        "ar": ""
+      },
+      {
+        "en": "wakes",
+        "ar": ""
+      },
+      {
+        "en": "has woken",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "wakes",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'wakes' (Present Simple) is used for habitual actions ('Every morning').",
+      "ar": "صحيح! 'wakes' (المضارع البسيط) يُستخدم للأفعال الاعتيادية ('Every morning')."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. عبارة 'Every morning' تدل على عادة أو فعل متكرر. نستخدم المضارع البسيط 'wakes' (لأن الفاعل 'she' مفرد غائب)."  
+    }
+  },
+  "review1_s_9": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "conditional",
+      "type2",
+      "hypothetical",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. If I knew what he wanted, I ………………. this.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "will not permit",
+        "ar": ""
+      },
+      {
+        "en": "would not permit",
+        "ar": ""
+      },
+      {
+        "en": "would not have permitted",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "would not permit",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a second conditional sentence (If + Past Simple, ... would + base verb).",
+      "ar": "صحيح! هذه جملة شرطية من النوع الثاني (If + الماضي البسيط, ... would + المصدر)."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. جملة الشرط هنا ('If I knew...') تستخدم الماضي البسيط، مما يدل على أنها جملة شرطية من النوع الثاني (للتعبير عن موقف افتراضي في الحاضر أو المستقبل). جواب الشرط في النوع الثاني يكون 'would + المصدر'."  
+    }
+  },
+  "review1_s_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "duration",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. I ………………….. anything from her for a long time.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "didn't hear",
+        "ar": ""
+      },
+      {
+        "en": "haven't heard",
+        "ar": ""
+      },
+      {
+        "en": "don't hear",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "haven't heard",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'haven't heard' (Present Perfect) is used with 'for a long time' to indicate a period continuing up to the present.",
+      "ar": "صحيح! 'haven't heard' (المضارع التام) يُستخدم مع 'for a long time' للإشارة إلى فترة تستمر حتى الوقت الحاضر."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. عبارة 'for a long time' تشير إلى فترة زمنية بدأت في الماضي وما زالت مستمرة أو لها صلة بالحاضر. نستخدم المضارع التام (haven't heard) في هذه الحالة."  
+    }
+  },
+  "review1_s_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "7. The headmaster ……………… to you yesterday.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "talks",
+        "ar": ""
+      },
+      {
+        "en": "talked",
+        "ar": ""
+      },
+      {
+        "en": "has talked",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "talked",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'talked' (Past Simple) is used with the specific past time indicator 'yesterday'.",
+      "ar": "صحيح! 'talked' (الماضي البسيط) يُستخدم مع محدد الزمن الماضي 'yesterday'."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'yesterday' (أمس) تدل على أن الفعل حدث في الماضي وانتهى. نستخدم صيغة الماضي البسيط 'talked'."  
+    }
+  },
+  "review1_s_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "duration",
+      "since",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "8. Jane ………………. in Cairo since 2003.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "is living",
+        "ar": ""
+      },
+      {
+        "en": "lives",
+        "ar": ""
+      },
+      {
+        "en": "has lived",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "has lived",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'has lived' (Present Perfect) is used with 'since 2003' to indicate an action that started in the past and continues to the present.",
+      "ar": "صحيح! 'has lived' (المضارع التام) يُستخدم مع 'since 2003' للإشارة إلى فعل بدأ في الماضي وما زال مستمراً حتى الحاضر."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'since 2003' تشير إلى نقطة بداية في الماضي لفعل ما زال مستمراً أو له تأثير حتى الآن. نستخدم المضارع التام 'has lived' (أو المضارع التام المستمر 'has been living')."  
+    }
+  },
+  "review1_s_13": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-simple",
+      "fact",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "9. The moon …………….. around the earth.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "is revolving",
+        "ar": ""
+      },
+      {
+        "en": "has revolved",
+        "ar": ""
+      },
+      {
+        "en": "revolves",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "revolves",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'revolves' (Present Simple) is used for general truths or facts.",
+      "ar": "صحيح! 'revolves' (المضارع البسيط) يُستخدم للحقائق العامة."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. دوران القمر حول الأرض هو حقيقة علمية عامة. نستخدم المضارع البسيط 'revolves' للتعبير عن الحقائق العامة."  
+    }
+  },
+  "review1_s_14": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "negative-imperative",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the best answer to complete the sentence.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "10. ………………. in the corridors.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "Don’t run",
+        "ar": ""
+      },
+      {
+        "en": "Run",
+        "ar": ""
+      },
+      {
+        "en": "Run not",
+        "ar": ""
+      }  
+    ],
+    "correctAnswer": {
+      "en": "Don’t run",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Don’t run' is the standard negative imperative.",
+      "ar": "صحيح! 'Don’t run' هي صيغة الأمر المنفية القياسية."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. لإعطاء أمر بعدم فعل شيء (النهي)، نستخدم 'Don’t + المصدر'. 'Run not' هي صيغة قديمة وغير مستخدمة."  
+    }
+  },
+  "review1_s_match1": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "psychology",
+      "well-being",
+      "review1",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the words (draggable) with their definitions (drop zones).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the words with their definitions:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      {
+        "id": "word_factors",
+        "text": {
+          "en": "factors",
+          "ar": ""
+        }
+      },  
+      {
+        "id": "word_mutual",
+        "text": {
+          "en": "mutual",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_empathy",
+        "text": {
+          "en": "empathy",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_flow",
+        "text": {
+          "en": "state of flow",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_optimistic",
+        "text": {
+          "en": "optimistic",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+       
+      {
+        "id": "def_dropzone_1",
+        "label": {
+          "en": "1. shared in common",
+          "ar": ""
+        },
+        "accepts": "word_mutual"
+      },
+      {
+        "id": "def_dropzone_2",
+        "label": {
+          "en": "2. hoping for the good",
+          "ar": ""
+        },
+        "accepts": "word_optimistic"
+      },
+      {
+        "id": "def_dropzone_3",
+        "label": {
+          "en": "3. understanding (another's feelings)",
+          "ar": ""
+        },
+        "accepts": "word_empathy"
+      },  
+      {
+        "id": "def_dropzone_4",
+        "label": {
+          "en": "4. one of several things that influence something",
+          "ar": ""
+        },
+        "accepts": "word_factors"
+      },
+      {
+        "id": "def_dropzone_5",
+        "label": {
+          "en": "5. smooth movement or progress (mental state)",
+          "ar": ""
+        },
+        "accepts": "word_flow"
+      }  
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All words are matched with their definitions.",
+      "ar": "صحيح! تم مطابقة جميع الكلمات بتعاريفها."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. راجع المعاني: 'factors' (عوامل) هي أشياء تؤثر على شيء ما، 'mutual' (متبادل) يعني مشترك، 'empathy' (تعاطف) هو فهم مشاعر الآخرين، 'state of flow' (حالة التدفق) هي حالة تركيز وتقدم سلس، و 'optimistic' (متفائل) يعني الأمل في الخير."  
+    }
+  }
+,
+  "review1_s_verb_fill1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Joe (live) <input type='text' class='fill-blank-input' data-blank-id='verb_f1' placeholder='...'> in London in 2000.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f1": {
+        "en": "lived",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الظرف الزمني 'in 2000' يشير إلى الماضي البسيط. التصريف الماضي للفعل 'live' هو 'lived'."  
+    }
+  },
+  "review1_s_verb_fill2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. Tala didn't miss the way. She (know) <input type='text' class='fill-blank-input' data-blank-id='verb_f2' placeholder='...'> the way to the doctor's.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f2": {
+        "en": "knew",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الجملة الأولى 'didn't miss' في الماضي البسيط. الفعل الثاني يصف معرفتها في ذلك الوقت الماضي. التصريف الماضي للفعل 'know' هو 'knew'."  
+    }
+  },
+  "review1_s_verb_fill3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. They (buy) <input type='text' class='fill-blank-input' data-blank-id='verb_f3' placeholder='...'> a big house last year.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f3": {
+        "en": "bought",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الظرف الزمني 'last year' يشير إلى الماضي البسيط. التصريف الماضي للفعل 'buy' هو 'bought'."  
+    }
+  },
+  "review1_s_verb_fill4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "past-simple",
+      "interrupted-action",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verbs in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. While we (watch) <input type='text' class='fill-blank-input' data-blank-id='verb_f4a' placeholder='...'> TV, the lights <input type='text' class='fill-blank-input' data-blank-id='verb_f4b' placeholder='...'> (go out).",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f4a": {
+        "en": "were watching",
+        "ar": ""
+      },
+      "verb_f4b": {
+        "en": "went out",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الفعل الأول ('watch') كان مستمراً عندما وقع الفعل الثاني ('go out'). استخدم الماضي المستمر للفعل المستمر (were watching) والماضي البسيط للفعل القاطع (went out)."  
+    }
+  },
+  "review1_s_verb_fill5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "already",
+      "review1",
+      "fill-blank"
+    ],  
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. He (travel) <input type='text' class='fill-blank-input' data-blank-id='verb_f5' placeholder='...'> already to France.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f5": {
+        "en": "has already travelled",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'already' often signals the Present Perfect.",
+      "ar": "صحيح! كلمة 'already' غالبًا ما تشير إلى المضارع التام."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'already' (بالفعل) تُستخدم غالبًا مع المضارع التام للدلالة على أن الفعل قد تم. الصيغة هي 'has already travelled'."  
+    }
+  },
+  "review1_s_verb_fill6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "simultaneous-actions",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verbs in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. Jane (sit) <input type='text' class='fill-blank-input' data-blank-id='verb_f6a' placeholder='...'> in a chair while her mother (cook) <input type='text' class='fill-blank-input' data-blank-id='verb_f6b' placeholder='...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f6a": {
+        "en": "was sitting",
+        "ar": ""
+      },
+      "verb_f6b": {
+        "en": "was cooking",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Both actions were happening simultaneously.",
+      "ar": "صحيح! كلا الفعلين كانا يحدثان في نفس الوقت."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'while' تشير إلى أن الفعلين كانا مستمرين في نفس الوقت في الماضي. استخدم الماضي المستمر لكلا الفعلين (was sitting, was cooking)."  
+    }
+  },
+  "review1_s_verb_fill7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-simple",
+      "habit",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "7. I (drive) <input type='text' class='fill-blank-input' data-blank-id='verb_f7' placeholder='...'> my car every day.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f7": {
+        "en": "drive",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. عبارة 'every day' تدل على عادة أو فعل متكرر. نستخدم المضارع البسيط 'drive'."  
+    }
+  },
+  "review1_s_verb_fill8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-simple",
+      "opinion",
+      "state-verb",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "8. I (like) <input type='text' class='fill-blank-input' data-blank-id='verb_f8' placeholder='...'> your new dress. It looks very nice.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f8": {
+        "en": "like",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الفعل 'like' هو فعل حالة يعبر عن شعور أو رأي حالي. نستخدم المضارع البسيط 'like'."  
+    }
+  },
+  "review1_s_verb_fill9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "9. They (come) <input type='text' class='fill-blank-input' data-blank-id='verb_f9' placeholder='...'> back yesterday at 12 o'clock mid night.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f9": {
+        "en": "came",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الظرف الزمني 'yesterday at 12 o'clock mid night' يشير إلى الماضي البسيط. التصريف الماضي للفعل 'come' هو 'came'."  
+    }
+  },
+  "review1_s_verb_fill10": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "interrupted-action",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "10. The phone (ring) <input type='text' class='fill-blank-input' data-blank-id='verb_f10' placeholder='...'> when they were having lunch.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f10": {
+        "en": "rang",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. الفعل 'were having lunch' كان مستمراً عندما وقع فعل الرنين. نستخدم الماضي البسيط للفعل القاطع 'rang'."  
+    }
+  },
+  "review1_s_verb_fill11": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-continuous",
+      "current-action",
+      "review1",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "11. Nowadays Jane and John (study) <input type='text' class='fill-blank-input' data-blank-id='verb_f11' placeholder='...'> in China.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f11": {
+        "en": "are studying",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'are studying' indicates an ongoing action around the present.",
+      "ar": "صحيح! 'are studying' تشير إلى فعل مستمر في الوقت الحاضر."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'Nowadays' (في هذه الأيام) تشير إلى فعل يحدث في الفترة الحالية. نستخدم المضارع المستمر (are studying) للدلالة على هذا الاستمرار."  
+    }
+  },
+  "review1_s_verb_fill12": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "past-habit",
+      "review1",
+      "fill-blank"
+    ],  
+    "supportContent": {
+      "en": "Write the verb in brackets in the correct form.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "12. He (work) <input type='text' class='fill-blank-input' data-blank-id='verb_f12' placeholder='...'> in a small office when he lived in Aleppo.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb_f12": {
+        "en": "worked",
+        "ar": ""
+      }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'worked' describes a past state or completed action during that period.",
+      "ar": "صحيح! 'worked' تصف حالة ماضية أو فعلاً مكتملًا خلال تلك الفترة."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. عبارة 'when he lived in Aleppo' تحدد فترة في الماضي. لوصف فعل كان يحدث كحالة أو عادة خلال تلك الفترة، نستخدم الماضي البسيط 'worked'. يمكن أيضاً استخدام 'was working' للتأكيد على الاستمرارية خلال تلك الفترة."  
+    }
+  }
+}

@@ -1,0 +1,1041 @@
+{
+  "review1_w_1_vocab_match": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "travel",
+      "adjectives",
+      "review1",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the words in column (A) (draggable) with their meanings in column (B) (drop zones).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the words with their meanings:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      {
+        "id": "word_bleed",
+        "text": {
+          "en": "bleeding",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_inn",
+        "text": {
+          "en": "inn",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_adapt",
+        "text": {
+          "en": "adapt",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_impatient",
+        "text": {
+          "en": "impatient",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_exhaust",
+        "text": {
+          "en": "exhausted",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_ahead",
+        "text": {
+          "en": "ahead",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_trek",
+        "text": {
+          "en": "trek",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_fascin",
+        "text": {
+          "en": "fascinating",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+    
+      {
+        "id": "def_dropzone_1",
+        "label": {
+          "en": "1. restless - intolerant",
+          "ar": ""
+        },
+        "accepts": "word_impatient"
+      },
+      {
+        "id": "def_dropzone_2",
+        "label": {
+          "en": "2. very tired",
+          "ar": ""
+        },
+        "accepts": "word_exhaust"
+      },
+      {
+        "id": "def_dropzone_3",
+        "label": {
+          "en": "3. a long hard walk lasting several days, especially in the mountains",
+          "ar": ""
+        },
+        "accepts": "word_trek"
+      },
+      {
+        "id": "def_dropzone_4",
+        "label": {
+          "en": "4. the process of losing blood from the body",
+          "ar": ""
+        },
+        "accepts": "word_bleed"
+      },
+      {
+        "id": "def_dropzone_5",
+        "label": {
+          "en": "5. extremely interesting and attractive",
+          "ar": ""
+        },
+        "accepts": "word_fascin"
+      },
+      {
+        "id": "def_dropzone_6",
+        "label": {
+          "en": "6. to change your behaviour in order to deal more successfully with a new situation",
+          "ar": ""
+        },
+        "accepts": "word_adapt"
+      },
+      {
+        "id": "def_dropzone_7",
+        "label": {
+          "en": "7. an old-fashioned hotel, usually in the country where people can stay the night",
+          "ar": ""
+        },
+        "accepts": "word_inn"
+      },
+      {
+        "id": "def_dropzone_8",
+        "label": {
+          "en": "8. further forward in space or time",
+          "ar": ""
+        },
+        "accepts": "word_ahead"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All words are matched with their definitions.",
+      "ar": "صحيح! تم مطابقة جميع الكلمات بتعاريفها."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع المعاني بعناية. على سبيل المثال، 'bleeding' هو فقدان الدم، 'inn' هو فندق قديم، و 'adapt' يعني التكيف مع وضع جديد."  
+    }
+  },
+  "review1_w_2_mcq_vocab1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "damage",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. The accident has not caused any ………… damage.",
+      "ar": ""  
+    },
+    "options": [  
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "permanent",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني ضررًا دائمًا أو غير قابل للإصلاح هي 'permanent'."  
+    }
+  },
+  "review1_w_3_mcq_vocab2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "information",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. All the information that we ………… has been kept in a file.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "gathered",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني جمع المعلومات هي 'gathered'."  
+    }
+  },
+  "review1_w_4_mcq_vocab3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "investigation",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. The police are working hard to …………… the cause of the fire.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "discover",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن الشرطة تعمل جاهدة لمعرفة أو اكتشاف سبب الحريق هي 'discover'."  
+    }
+  },
+  "review1_w_5_mcq_vocab4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "health",
+      "diet",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. A good diet is ……….. for your health.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "beneficial",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن النظام الغذائي الجيد مفيد لصحتك هي 'beneficial'."  
+    }
+  },
+  "review1_w_6_mcq_vocab5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "program",
+      "youth",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. A new work programme for young people will be ………… soon.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "implemented",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن برنامج العمل الجديد سيتم تنفيذه أو تطبيقه قريبًا هي 'implemented'."  
+    }
+  },
+  "review1_w_7_mcq_vocab6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "decision",
+      "study",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. We have no ………….. but to study hard.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "choice",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنه ليس لدينا خيار آخر سوى الدراسة بجد هي 'choice'."  
+    }
+  },
+  "review1_w_8_mcq_vocab7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "law",
+      "punishment",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the list: [beneficial, choice, gathered, implemented, permanent, fine, discover]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "7. She has to pay a ………….. for speeding.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "beneficial",
+        "ar": ""
+      },
+      {
+        "en": "choice",
+        "ar": ""
+      },
+      {
+        "en": "gathered",
+        "ar": ""
+      },
+      {
+        "en": "implemented",
+        "ar": ""
+      },
+      {
+        "en": "permanent",
+        "ar": ""
+      },
+      {
+        "en": "fine",
+        "ar": ""
+      },
+      {
+        "en": "discover",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "fine",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني مبلغًا من المال يجب دفعه كعقوبة هي 'fine' (غرامة)."  
+    }
+  },
+  "review1_w_9_verb_form1_part1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-continuous",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form for the first blank: We (build – are building) a garage...",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. We ______ a garage next to our house.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "build",
+        "ar": ""
+      },
+      {
+        "en": "are building",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "are building",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'are building' (Present Continuous) indicates an ongoing project.",
+      "ar": "صحيح! 'are building' (المضارع المستمر) تشير إلى مشروع قائم حاليًا."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. بناء المرآب هو عمل قيد التنفيذ في الوقت الحالي أو حوله. نستخدم المضارع المستمر (are building)."  
+    }
+  },
+  "review1_w_10_verb_form1_part2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-simple",
+      "state-verb",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form for the second blank: ...We (need – have needed) somewhere...",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. ... We ______ somewhere to put the car.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "need",
+        "ar": ""
+      },
+      {
+        "en": "have needed",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "need",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'need' (Present Simple) expresses a current state or requirement.",
+      "ar": "صحيح! 'need' (المضارع البسيط) تعبر عن حالة أو متطلب حالي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الفعل 'need' (يحتاج) هو فعل حالة يعبر عن حاجة حالية. نستخدم المضارع البسيط (need)."  
+    }
+  },
+  "review1_w_11_verb_form2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-simple",
+      "habit",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. Mrs. James ______ early every day.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "leaves",
+        "ar": ""
+      },
+      {
+        "en": "has left",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "leaves",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'leaves' (Present Simple) for a habitual action ('every day').",
+      "ar": "صحيح! 'leaves' (المضارع البسيط) لفعل اعتيادي ('every day')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عبارة 'every day' تدل على عادة. نستخدم المضارع البسيط (leaves) مع الفاعل المفرد الغائب."  
+    }
+  },
+  "review1_w_12_verb_form3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "present-perfect",
+      "duration",
+      "since",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. They ______ the museum since 2014.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "didn’t visit",
+        "ar": ""
+      },
+      {
+        "en": "haven’t visited",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "haven’t visited",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'haven’t visited' (Present Perfect) with 'since' for a period up to now.",
+      "ar": "صحيح! 'haven’t visited' (المضارع التام) مع 'since' لفترة حتى الآن."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'since 2014' تشير إلى فترة زمنية بدأت في الماضي وما زالت مستمرة أو لها صلة بالحاضر. نستخدم المضارع التام المنفي (haven’t visited)."  
+    }
+  },
+  "review1_w_13_verb_form4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "interrupted-action",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. Sarah hurt her ankle while she ______.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "run",
+        "ar": ""
+      },
+      {
+        "en": "was running",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was running",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was running' for the ongoing action when she hurt her ankle.",
+      "ar": "صحيح! 'was running' للفعل المستمر عندما أصيب كاحلها."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'while' تشير إلى أن فعل الإصابة حدث أثناء استمرار فعل الركض. نستخدم الماضي المستمر (was running) للفعل الأطول."  
+    }
+  },
+  "review1_w_14_verb_form5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "past-simple",
+      "interrupted-action",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. Leila ______ lunch when her friends came.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "was having",
+        "ar": ""
+      },
+      {
+        "en": "had",
+        "ar": ""
+      }  
+    ],
+    "correctAnswer": {
+      "en": "was having",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was having' for the ongoing action interrupted by 'came'.",
+      "ar": "صحيح! 'was having' للفعل المستمر الذي قاطعه فعل 'came'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. تناول ليلى للغداء كان مستمراً ('was having') عندما وصل أصدقاؤها. نستخدم الماضي المستمر للحدث الأطول."  
+    }
+  },
+  "review1_w_15_verb_form6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "future-will",
+      "sequence",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. As soon as I graduate, I ______ for a job.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "will look",
+        "ar": ""
+      },
+      {
+        "en": "have looked",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "will look",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will look' for a future action following graduation.",
+      "ar": "صحيح! 'will look' لفعل مستقبلي يتبع التخرج."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عبارة 'As soon as I graduate' تشير إلى نقطة في المستقبل. الفعل الذي سيحدث بعد ذلك يكون عادةً في صيغة المستقبل البسيط (will look)."  
+    }
+  },
+  "review1_w_16_verb_form7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "specific-time-past",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "7. This time last year, she ______ at university.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "studied",
+        "ar": ""
+      },
+      {
+        "en": "was studying",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was studying",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was studying' for an action in progress at a specific past time.",
+      "ar": "صحيح! 'was studying' لفعل كان قيد التقدم في وقت محدد في الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عبارة 'This time last year' تشير إلى وقت محدد في الماضي كان فيه فعل الدراسة مستمراً. نستخدم الماضي المستمر (was studying)."  
+    }
+  },
+  "review1_w_17_verb_form8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "reason",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "8. I ______ your call because I was working.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "missed",
+        "ar": ""
+      },
+      {
+        "en": "will miss",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "missed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'missed' (Past Simple) for a completed past action.",
+      "ar": "صحيح! 'missed' (الماضي البسيط) لفعل ماضٍ مكتمل."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. سبب عدم الرد على المكالمة هو أنه كان يعمل (فعل ماضٍ مستمر). الفعل 'miss' (يفوت) حدث وانتهى في الماضي، لذا نستخدم الماضي البسيط (missed)."  
+    }
+  },
+  "review1_w_18_verb_form9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "sequence",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "9. When we saw the accident, we ______ the police.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "called",
+        "ar": ""
+      },
+      {
+        "en": "are calling",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "called",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'called' (Past Simple) for a sequential past action.",
+      "ar": "صحيح! 'called' (الماضي البسيط) لفعل ماضٍ متسلسل."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. رؤية الحادث والاتصال بالشرطة هما فعلان متتاليان حدثا في الماضي. نستخدم الماضي البسيط لكلا الفعلين (saw, called)."  
+    }
+  },
+  "review1_w_19_verb_form10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "warning",
+      "review1",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "10. ( ______ ) out! You are driving very fast.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "Watch",
+        "ar": ""
+      },
+      {
+        "en": "Watching",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Watch",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Watch out!' is an imperative warning.",
+      "ar": "صحيح! 'Watch out!' هي صيغة أمر للتحذير."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لإعطاء تحذير أو أمر مباشر، نستخدم صيغة الأمر (المصدر بدون 'to'). 'Watch out!' تعني 'انتبه!'."  
+    }
+  }
+}

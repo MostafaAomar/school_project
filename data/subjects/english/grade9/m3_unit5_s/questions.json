@@ -1,0 +1,543 @@
+{
+  "unit5_s_1_decision_matching": {  
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "decision-making",
+      "unit5",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the beginnings of the statements in column A with their endings in column B.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the statement beginnings (draggable) to their endings (drop zones):",
+      "ar": ""  
+    },
+    "draggableItems": [
+      {
+        "id": "begin1",
+        "text": {
+          "en": "1. According to David Star Jordan, making good decisions",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin2",
+        "text": {
+          "en": "2. What prevents decision making is",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin3",
+        "text": {
+          "en": "3. After taking a step,",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin4",
+        "text": {
+          "en": "4. Organization is vital",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+    
+      {
+        "id": "end_d",
+        "label": {
+          "en": "d. needs knowledge and skills.",
+          "ar": ""
+        },
+        "accepts": "begin1"
+      },
+      {
+        "id": "end_a",
+        "label": {
+          "en": "a. when you don’t have enough information about your decision.",
+          "ar": ""
+        },
+        "accepts": "begin2"
+      },
+      {
+        "id": "end_b",
+        "label": {
+          "en": "b. we must try to see where potholes are.",
+          "ar": ""
+        },
+        "accepts": "begin3"
+      },
+      {
+        "id": "end_c",
+        "label": {
+          "en": "c. in your making a final decision.",
+          "ar": ""
+        },
+        "accepts": "begin4"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All parts are matched to form logical statements about decision making.",
+      "ar": "صحيح! تم مطابقة جميع الأجزاء لتكوين عبارات منطقية حول اتخاذ القرار."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. فكر في المعنى المنطقي لكل عبارة. على سبيل المثال، اتخاذ القرارات الجيدة يتطلب معرفة ومهارات. عدم وجود معلومات كافية يمكن أن يمنع اتخاذ القرار."  
+    }
+  },
+  "unit5_s_2_vocab1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "health",
+      "awareness",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, awareness, collaborate, outline, priority]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Health officials have tried to raise <input type='text' class='fill-blank-input' data-blank-id='vocab_fill1' placeholder='word...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill1": {
+        "en": "awareness",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني زيادة المعرفة أو الفهم بشيء ما، والتي يحاول مسؤولو الصحة رفع مستواها، هي 'awareness' (الوعي)."  
+    }
+  },
+  "unit5_s_3_vocab2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "permission",
+      "social",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, awareness, collaborate, outline, priority]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. My parents wouldn`t <input type='text' class='fill-blank-input' data-blank-id='vocab_fill2' placeholder='word...'> me to go to the party.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill2": {
+        "en": "allow",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنهم لن يسمحوا لي بالذهاب هي 'allow' (يسمح)."  
+    }
+  },
+  "unit5_s_4_vocab3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "goals",
+      "sports",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, awareness, collaborate, outline, priority]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. The club's <input type='text' class='fill-blank-input' data-blank-id='vocab_fill3' placeholder='word...'> is to win the League.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill3": {
+        "en": "priority",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني الشيء الأهم أو الهدف الرئيسي للنادي هي 'priority' (الأولوية)."  
+    }
+  },
+  "unit5_s_5_vocab4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "writing",
+      "planning",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, awareness, collaborate, outline, priority]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. Always write an <input type='text' class='fill-blank-input' data-blank-id='vocab_fill4' placeholder='word...'> for your essays.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill4": {
+        "en": "outline",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني خطة أو هيكل موجز للمقالات قبل كتابتها هي 'outline' (مخطط تفصيلي)."  
+    }
+  },
+  "unit5_s_6_vocab5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "animals",
+      "cooperation",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, awareness, collaborate, outline, priority]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. Elephants <input type='text' class='fill-blank-input' data-blank-id='vocab_fill5' placeholder='word...'> to look after their young.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill5": {
+        "en": "collaborate",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن الأفيال تعمل معًا أو تتعاون لرعاية صغارها هي 'collaborate' (يتعاون)."  
+    }
+  },
+  "unit5_s_7_past_tense1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "narrative",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the gap with a word from the box: [cycling, were, rang, waiting, was, visited]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. I decided to spend my holidays in Wales last year. I travelled around by bike. I <input type='text' class='fill-blank-input' data-blank-id='past_fill1' placeholder='word...'> the villages on the way and talked to people.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "past_fill1": {
+        "en": "visited",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الفعل الذي يصف ما فعله في القرى أثناء رحلته بالدراجة (وهو فعل مكتمل في الماضي) هو 'visited' (زار)."  
+    }
+  },
+  "unit5_s_8_past_tense2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "past-simple",
+      "simultaneous-actions",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the gaps with words from the box: [cycling, were, rang, waiting, was, visited]",
+      "ar": ""  
+    },
+    "questionText": {
+      
+      "en": "2. My friends decided to spend their holidays by the sea. So, while I was <input type='text' class='fill-blank-input' data-blank-id='past_fill2a' placeholder='word...'>, my friends <input type='text' class='fill-blank-input' data-blank-id='past_fill2b' placeholder='word...'> sitting on the beach.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "past_fill2a": {
+        "en": "cycling",
+        "ar": ""
+      },
+      "past_fill2b": {
+        "en": "were",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الفراغ الأول يصف ما كان يفعله ('cycling' - ركوب الدراجة) بينما كان أصدقاؤه يفعلون شيئًا آخر. الفراغ الثاني يحتاج إلى فعل الكينونة في الماضي للجمع 'were' ليُكوّن الماضي المستمر مع 'sitting'."  
+    }
+  },
+  "unit5_s_9_past_tense3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "past-simple",
+      "interrupted-action",
+      "unit5",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the gaps with words from the box: [cycling, were, rang, waiting, was, visited]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. But during my holiday, when I <input type='text' class='fill-blank-input' data-blank-id='past_fill3a' placeholder='word...'> talking to someone in the street, my mobile <input type='text' class='fill-blank-input' data-blank-id='past_fill3b' placeholder='word...'>. My friends were calling to tell me that they were <input type='text' class='fill-blank-input' data-blank-id='past_fill3c' placeholder='word...'> at a bus stop because it was raining so heavily at the seaside.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "past_fill3a": {
+        "en": "was",
+        "ar": ""
+      },
+      "past_fill3b": {
+        "en": "rang",
+        "ar": ""
+      },
+      "past_fill3c": {
+        "en": "waiting",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الفراغ الأول يحتاج إلى 'was' لتكوين الماضي المستمر ('was talking'). الفراغ الثاني يصف حدثًا قصيرًا قاطع الحدث الأول ('rang' - رنّ). الفراغ الثالث يصف ما كان الأصدقاء يفعلونه ('waiting' - ينتظرون)."  
+    }
+  },
+  "unit5_s_10_verb_form1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "unit5",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with the correct form of the verb in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "I ______ football last Monday.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "play",
+        "ar": ""
+      },
+      {
+        "en": "played",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "played",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'last Monday' indicates Past Simple.",
+      "ar": "صحيح! 'last Monday' تشير إلى الماضي البسيط."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. وجود 'last Monday' يدل على أن الفعل حدث في الماضي وانتهى، لذا نستخدم صيغة الماضي البسيط للفعل 'play' وهي 'played'."  
+    }
+  },
+  "unit5_s_11_verb_form2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "interrupted-action",
+      "unit5",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with the correct form of the verb in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Omar ______ TV when his mother entered the room.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "was watching",
+        "ar": ""
+      },
+      {
+        "en": "watched",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was watching",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was watching' describes the ongoing action interrupted by 'entered'.",
+      "ar": "صحيح! 'was watching' تصف الفعل المستمر الذي قاطعه فعل 'entered'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لدينا حدثان في الماضي. مشاهدة التلفاز كانت مستمرة ('was watching') عندما وقع الحدث الأقصر وهو دخول الأم. نستخدم الماضي المستمر للحدث الأطول الذي كان في الخلفية."  
+    }
+  },
+  "unit5_s_12_verb_form3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-simple",
+      "interrupted-action",
+      "unit5",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with the correct form of the verb in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "While she was reading a book, the phone ______.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "rang",
+        "ar": ""
+      },
+      {
+        "en": "will ring",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "rang",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'rang' is the Past Simple for the short action that interrupted 'was reading'.",
+      "ar": "صحيح! 'rang' هي صيغة الماضي البسيط للفعل القصير الذي قاطع 'was reading'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الفعل 'was reading' (كانت تقرأ) هو فعل مستمر في الماضي. الفعل الذي قاطعه (رنين الهاتف) يجب أن يكون في الماضي البسيط 'rang'. 'will ring' تشير إلى المستقبل."  
+    }
+  },
+  "unit5_s_13_verb_form4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "tenses",
+      "past-continuous",
+      "specific-time-past",
+      "unit5",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with the correct form of the verb in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Yesterday at seven o'clock we ______ dinner at the restaurant.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "have",
+        "ar": ""
+      },
+      {
+        "en": "were having",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "were having",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'were having' describes an action in progress at a specific time in the past.",
+      "ar": "صحيح! 'were having' تصف فعلاً كان قيد التقدم في وقت محدد في الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. تحديد وقت معين في الماضي ('Yesterday at seven o'clock') مع فعل كان مستمراً في ذلك الوقت يتطلب استخدام صيغة الماضي المستمر 'were having'."  
+    }
+  }
+}

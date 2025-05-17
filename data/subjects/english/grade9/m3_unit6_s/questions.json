@@ -1,0 +1,305 @@
+{
+  "unit6_s_vocab1_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "talent",
+      "storytelling",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [genius, frustrates, experiments, persisted]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. My father was a <input type='text' class='fill-blank-input' data-blank-id='vocab_s1' placeholder='word...'> at storytelling.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s1": {
+        "en": "genius",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف شخصًا لديه موهبة استثنائية أو عبقرية في شيء ما هي 'genius'."  
+    }
+  },
+  "unit6_s_vocab1_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "science",
+      "discovery",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [genius, frustrates, experiments, persisted]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. His <input type='text' class='fill-blank-input' data-blank-id='vocab_s2' placeholder='word...'> showed that lightning was a kind of electricity.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s2": {
+        "en": "experiments",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني الاختبارات أو الأبحاث التي أجراها وأظهرت النتيجة هي 'experiments'."  
+    }
+  },
+  "unit6_s_vocab1_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "perseverance",
+      "studies",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [genius, frustrates, experiments, persisted]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. She <input type='text' class='fill-blank-input' data-blank-id='vocab_s3' placeholder='word...'> with her studies in spite of financial problems.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s3": {
+        "en": "persisted",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنها استمرت وثابرت في دراستها رغم الصعوبات هي 'persisted'."  
+    }
+  },
+  "unit6_s_vocab1_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "emotion",
+      "failure",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [genius, frustrates, experiments, persisted]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. Failing more than once <input type='text' class='fill-blank-input' data-blank-id='vocab_s4' placeholder='word...'> students.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s4": {
+        "en": "frustrates",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن الفشل يسبب شعورًا بالإحباط أو الاستياء للطلاب هي 'frustrates'."  
+    }
+  },
+  "unit6_s_imp_fill1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "imperative",
+      "behavior",
+      "library",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [turn, Please, Don't, quiet, wake, smoke]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Be <input type='text' class='fill-blank-input' data-blank-id='imp_fill1' placeholder='word...'>! This is a library. People are studying.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "imp_fill1": {
+        "en": "quiet",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تطلب من شخص أن يكون هادئًا هي 'quiet'."  
+    }
+  },
+  "unit6_s_imp_fill2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "imperative",
+      "directions",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [turn, Please, Don't, quiet, wake, smoke]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. When you get to the corner, <input type='text' class='fill-blank-input' data-blank-id='imp_fill2' placeholder='word...'> right.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "imp_fill2": {
+        "en": "turn",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن تنعطف أو تغير اتجاهك هي 'turn'."  
+    }
+  },
+  "unit6_s_imp_fill3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "imperative",
+      "advice",
+      "safety",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [turn, Please, Don't, quiet, wake, smoke]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='imp_fill3' placeholder='word...'> wear a helmet when you ride your bike.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+       
+      "imp_fill3": {
+        "en": "Please",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Please' makes it a polite instruction.",
+      "ar": "صحيح! 'Please' تجعلها تعليمة مهذبة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتقديم نصيحة أو أمر مهذب بارتداء الخوذة، الكلمة المناسبة لبدء الجملة هي 'Please' (من فضلك)."  
+    }
+  },
+  "unit6_s_imp_fill4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "imperative",
+      "negative-imperative",
+      "advice",
+      "punctuality",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [turn, Please, Don't, quiet, wake, smoke]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. The bus leaves on time every day. <input type='text' class='fill-blank-input' data-blank-id='imp_fill4' placeholder='word...'> be late.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "imp_fill4": {
+        "en": "Don't",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Don't' forms a negative imperative.",
+      "ar": "صحيح! 'Don't' تشكل صيغة الأمر المنفية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لتقديم نصيحة أو أمر بعدم التأخر، نستخدم صيغة الأمر المنفية 'Don't'."  
+    }
+  },
+  "unit6_s_imp_fill5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "imperative",
+      "request",
+      "consideration",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a word from the box: [turn, Please, Don't, quiet, wake, smoke]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. Where’s mum? She’s taking a nap. Please don`t <input type='text' class='fill-blank-input' data-blank-id='imp_fill5' placeholder='word...'> her up.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "imp_fill5": {
+        "en": "wake",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني ألا توقظها هي 'wake'."  
+    }
+  }
+}

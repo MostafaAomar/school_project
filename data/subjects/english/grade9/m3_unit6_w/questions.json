@@ -1,0 +1,611 @@
+{
+  "unit6_vocab_fill1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "senses",
+      "sound",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill the gap with a word from the box: [prove, footsteps, specifically, graduated, instrument, performance]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "1. He heard someone's <input type='text' class='fill-blank-input' data-blank-id='vocab1' placeholder='word...'> in the hall.",
+      "ar": "" 
+    },
+    "correctAnswers": {
+      "vocab1": {
+        "en": "footsteps",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني صوت خطوات شخص يمشي هي 'footsteps'."  
+    }
+  },
+  "unit6_vocab_fill2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "logic",
+      "argument",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill the gap with a word from the box: [prove, footsteps, specifically, graduated, instrument, performance]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "2. You are wrong, and I can <input type='text' class='fill-blank-input' data-blank-id='vocab2' placeholder='word...'> it.",
+      "ar": "" 
+    },
+    "correctAnswers": {
+      "vocab2": {
+        "en": "prove",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني إثبات صحة شيء ما هي 'prove'."  
+    }
+  },
+  "unit6_vocab_fill3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "education",
+      "achievement",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill the gap with a word from the box: [prove, footsteps, specifically, graduated, instrument, performance]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "3. She <input type='text' class='fill-blank-input' data-blank-id='vocab3' placeholder='word...'> from university this year.",
+      "ar": "" 
+    },
+    "correctAnswers": {
+      "vocab3": {
+        "en": "graduated",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنها أنهت دراستها الجامعية وحصلت على شهادة هي 'graduated'."  
+    }
+  },
+  "unit6_vocab_fill4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "communication",
+      "emphasis",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill the gap with a word from the box: [prove, footsteps, specifically, graduated, instrument, performance]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "4. I <input type='text' class='fill-blank-input' data-blank-id='vocab4' placeholder='word...'> told you not to go near the water.",
+      "ar": "" 
+    },
+    "correctAnswers": {
+      "vocab4": {
+        "en": "specifically",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنني أخبرتك بشكل محدد أو خاص هي 'specifically'."  
+    }
+  },
+  "unit6_vocab_fill5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "arts",
+      "achievement",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill the gap with a word from the box: [prove, footsteps, specifically, graduated, instrument, performance]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "5. She gave the greatest <input type='text' class='fill-blank-input' data-blank-id='vocab5' placeholder='word...'> of her career.",
+      "ar": "" 
+    },
+    "correctAnswers": {
+      "vocab5": {
+        "en": "performance",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني العرض أو الأداء الذي قدمته، والذي كان الأعظم في مسيرتها، هي 'performance'."  
+    }
+  },
+  "unit6_vocab_fill6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "music",
+      "hobbies",
+      "unit6",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill the gap with a word from the box: [prove, footsteps, specifically, graduated, instrument, performance]",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "6. Is he learning to play an <input type='text' class='fill-blank-input' data-blank-id='vocab6' placeholder='word...'>?",
+      "ar": "" 
+    },
+    "correctAnswers": {
+      "vocab6": {
+        "en": "instrument",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تشير إلى آلة موسيقية هي 'instrument'."  
+    }
+  },
+  "unit6_imp_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "advice",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the best imperative for the sentence.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "…………… warmly so you don't get cold outside. It's snowing!",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "Dress",
+        "ar": ""
+      },
+      {
+        "en": "Dressing",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Dress",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Dress' is the base form of the verb used for affirmative imperatives.",
+      "ar": "صحيح! 'Dress' هي صيغة المصدر للفعل المستخدمة في صيغة الأمر المثبتة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لإعطاء أمر أو نصيحة مباشرة، نستخدم صيغة المصدر للفعل (imperative). 'Dressing' هي صيغة الـ gerund أو present participle."  
+    }
+  },
+  "unit6_imp_mcq2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "negative-imperative",
+      "advice",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the best imperative for the sentence.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "…………. after you eat a big meal. It's not a good idea.",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "Don't exercise",
+        "ar": ""
+      },
+      {
+        "en": "Exercise",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Don't exercise",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Don't exercise' is the negative imperative form.",
+      "ar": "صحيح! 'Don't exercise' هي صيغة الأمر المنفية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الجملة 'It's not a good idea' تشير إلى أن الفعل يجب ألا يتم. للنصح بعدم فعل شيء، نستخدم صيغة الأمر المنفية (Don't + المصدر)."  
+    }
+  },
+  "unit6_imp_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "instruction",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the best imperative for the sentence.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "Boss: Always …………. your documents as soon as you finish writing them.\nEmployee: OK, I will.",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "don't save",
+        "ar": ""
+      },
+      {
+        "en": "save",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "save",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'save' is the affirmative imperative.",
+      "ar": "صحيح! 'save' هي صيغة الأمر المثبتة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. المدير يعطي تعليمات إيجابية. كلمة 'Always' تؤكد الأمر. استخدم صيغة الأمر المثبتة (المصدر)."  
+    }
+  },
+  "unit6_imp_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "negative-imperative",
+      "request",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the best imperative for the sentence.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "Wife: …………. me when I am speaking.\nHusband: Sorry.",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "Interrupt",
+        "ar": ""
+      },
+      {
+        "en": "Please, don't interrupt",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Please, don't interrupt",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This is a polite negative imperative request.",
+      "ar": "صحيح! هذا طلب مهذب بصيغة الأمر المنفية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. اعتذار الزوج ('Sorry') يشير إلى أنه فعل شيئًا خاطئًا. الطلب المناسب هو عدم المقاطعة، وبشكل مهذب ('Please, don't interrupt')."  
+    }
+  },
+  "unit6_verb_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "A: ( ______ ) careful!\nB: Why? What's wrong?\nA: You're standing on my foot.\nB: Oh, sorry.",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "Be",
+        "ar": ""
+      },
+      {
+        "en": "To be",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Be",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Be' is the imperative form.",
+      "ar": "صحيح! 'Be' هي صيغة الأمر."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لإعطاء أمر مباشر أو تحذير، نستخدم صيغة الأمر، وهي المصدر بدون 'to'. لذا 'Be careful!' هي الصحيحة."  
+    }
+  },
+  "unit6_verb_mcq2": {
+    "type": "mcq",
+    "difficulty": 2,  
+    "tags": [
+      "grammar",
+      "imperative",
+      "let's",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb forms between brackets.",
+      "ar": "" 
+    },
+    "questionText": {
+       
+      "en": "A: Hello everybody. Please (sit – sits) down and open your books.\nB: Teacher, let's play a game!\nA: No, today we're going to study. (Open – Opening) your books, and (let's – let) start!",
+      "ar": ""  
+       
+    },
+    "options": [  
+      {
+        "en": "sit",
+        "ar": ""
+      },
+      {
+        "en": "sits",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {  
+      "en": "sit",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'sit' is the imperative form used with 'please'.",
+      "ar": "صحيح! 'sit' هي صيغة الأمر المستخدمة مع 'please'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عند استخدام 'Please' لإعطاء طلب أو أمر، نستخدم صيغة المصدر للفعل (sit). 'sits' هي للمفرد الغائب في المضارع البسيط."  
+    }
+  },
+  "unit6_verb_mcq2_part2": {  
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form for the teacher's instruction: (Open – Opening) your books...",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Teacher: No, today we're going to study. ______ your books, and let's start!",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Open",
+        "ar": ""
+      },
+      {
+        "en": "Opening",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Open",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Open' is the imperative.",
+      "ar": "صحيح! 'Open' هي صيغة الأمر."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لإعطاء أمر مباشر، نستخدم صيغة المصدر للفعل (Open)."
+    }
+  },
+  "unit6_verb_mcq2_part3": {  
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "let's",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct form for the teacher's suggestion: ...and (let's – let) start!",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Teacher: ...Open your books, and ______ start!",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "let's",
+        "ar": ""
+      },
+      {
+        "en": "let",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "let's",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Let's' (Let us) is used for suggestions.",
+      "ar": "صحيح! 'Let's' (دعنا) تُستخدم للاقتراحات."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. لتقديم اقتراح يشمل المتحدث والمستمع، نستخدم 'Let's' (وهي اختصار لـ Let us)."
+    }
+  },
+  "unit6_verb_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "The kitchen is really dirty! So ( ______ ) the dishes now! And vacuum the floor!",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "do",
+        "ar": ""
+      },
+      {
+        "en": "does",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "do",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'do' is the imperative form.",
+      "ar": "صحيح! 'do' هي صيغة الأمر."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لإعطاء أمر مباشر، نستخدم صيغة المصدر للفعل (do). 'does' هي للمفرد الغائب في المضارع البسيط."  
+    }
+  },
+  "unit6_verb_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "imperative",
+      "negative-imperative",
+      "unit6",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct verb form between brackets.",
+      "ar": "" 
+    },
+    "questionText": {
+      "en": "( ______ ) make the same mistake twice.",
+      "ar": "" 
+    },
+    "options": [
+      {
+        "en": "Don't",
+        "ar": ""
+      },
+      {
+        "en": "Do",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Don't",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Don't' is used for negative imperatives.",
+      "ar": "صحيح! 'Don't' تُستخدم لصيغة الأمر المنفية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. لنهي شخص عن فعل شيء، نستخدم صيغة الأمر المنفية (Don't + المصدر)."  
+    }
+  }
+}

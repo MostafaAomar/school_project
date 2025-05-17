@@ -42,6 +42,70 @@
       "en": ""
     },
     "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m2_unit4_w",
+    "title": {
+      "ar": "Unit 4\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m2_unit4_s",
+    "title": {
+      "ar": "Unit 4\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m3_unit5_s",
+    "title": {
+      "ar": "Unit 5\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m3_unit5_w",
+    "title": {
+      "ar": "Unit 5\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m3_unit6_w",
+    "title": {
+      "ar": "Unit 6\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m3_unit6_s",
+    "title": {
+      "ar": "Unit 6\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "Review1_s",
+    "title": {
+      "ar": "Review 1\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "review1_w",
+    "title": {
+      "ar": "Review 1\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
   }
 ]
 

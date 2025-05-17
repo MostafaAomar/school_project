@@ -159,12 +159,13 @@ export async function startQuizForLesson(subjectId, gradeId, lessonId) {
         }
 
          // Process the loaded questions (assuming keys are question IDs)
-         currentQuestions = shuffleArray(Object.values(questionsData).map((qData, index) => {
+       //  currentQuestions = shuffleArray(Object.values(questionsData).map((qData, index) => { // to make random questions 
+          currentQuestions = Object.values(questionsData).map((qData, index) => {
               // Try to find an 'id' field, otherwise use the key? Or ensure IDs are in the object.
               // For now, let's try finding an ID field or generate one. It's better if IDs are IN the data.
               const id = qData.id || `q_${index}_${lessonId}`; // Fallback ID generation
                return { ...qData, id: id };
-         }));
+         });
 
 
         if (currentQuestions.length === 0) {

@@ -1,0 +1,771 @@
+{
+  "unit4_w_1_matching": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "sentence-structure",
+      "future",
+      "technology",
+      "unit4",
+      "matching",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the beginnings of the sentences in column A with their correct endings in column B.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the sentence beginnings (draggable) to their endings (drop zones):",
+      "ar": ""  
+    },
+    "draggableItems": [
+      {
+        "id": "begin1",
+        "text": {
+          "en": "1. We tend to assume that",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin2",
+        "text": {
+          "en": "2. The world is changing and the changes",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin3",
+        "text": {
+          "en": "3. Modern technology appears as",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin4",
+        "text": {
+          "en": "4. We may want our future cities",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin5",
+        "text": {
+          "en": "5. Future cities should be",
+          "ar": ""
+        }
+      },
+      {
+        "id": "begin6",
+        "text": {
+          "en": "6. It will be better",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      
+      {
+        "id": "end_c",
+        "label": {
+          "en": "c. most things will stay the same in the future.",
+          "ar": ""
+        },
+        "accepts": "begin1"
+      },
+      {
+        "id": "end_f",
+        "label": {
+          "en": "f. are very dramatic.",
+          "ar": ""
+        },
+        "accepts": "begin2"
+      },
+      {
+        "id": "end_a",
+        "label": {
+          "en": "a. a dynamic solution to society's recent problems.",
+          "ar": ""
+        },
+        "accepts": "begin3"
+      },
+      {
+        "id": "end_e",
+        "label": {
+          "en": "e. to prioritize environmental renewal.",
+          "ar": ""
+        },
+        "accepts": "begin4"
+      },
+      {
+        "id": "end_b",
+        "label": {
+          "en": "b. surrounded by rivers.",
+          "ar": ""
+        },
+        "accepts": "begin5"
+      },
+      {
+        "id": "end_d",
+        "label": {
+          "en": "d. to rethink of our health.",
+          "ar": ""
+        },
+        "accepts": "begin6"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentence parts are matched correctly.",
+      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل بشكل صحيح."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. حاول ربط بداية كل جملة بالنهاية التي تكمل معناها بشكل منطقي. على سبيل المثال، 'We tend to assume that' غالبًا ما يتبعها اعتقاد أو افتراض عام، و 'Modern technology appears as' يتبعها وصف لكيفية ظهور التكنولوجيا."  
+    }
+  },
+  "unit4_w_2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb",
+      "noun",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct word in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "I didn’t see your bike, so I ______ you had gone out.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "assumption",
+        "ar": ""
+      },
+      {
+        "en": "assumed",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "assumed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Assumed' is the past tense verb needed here.",
+      "ar": "صحيح! 'Assumed' هو الفعل في صيغة الماضي المطلوب هنا."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الجملة تحتاج إلى فعل في صيغة الماضي. 'Assumption' هو اسم ويعني افتراض، بينما 'assumed' هو الفعل الماضي من 'assume' ويعني افترض."  
+    }
+  },
+  "unit4_w_3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "adjective",
+      "adverb",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct word in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "The two cars are very ______ in size and design.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "similar",
+        "ar": ""
+      },
+      {
+        "en": "similarly",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "similar",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The adjective 'similar' is needed to describe the cars.",
+      "ar": "صحيح! الصفة 'similar' مطلوبة لوصف السيارات."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الجملة تصف السيارات، لذا تحتاج إلى صفة. 'Similar' هي صفة وتعني متشابه، بينما 'similarly' هو ظرف ويعني بشكل مشابه."  
+    }
+  },
+  "unit4_w_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb",
+      "noun",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct word in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "John lived a life of ______ after he lost his fortune.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "degrade",
+        "ar": ""
+      },
+      {
+        "en": "degradation",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "degradation",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The noun 'degradation' is needed after 'a life of...'.",
+      "ar": "صحيح! الاسم 'degradation' مطلوب بعد 'a life of...'."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. بعد عبارة 'a life of...' نحتاج إلى اسم. 'Degradation' هو اسم ويعني انحطاط أو تدهور، بينما 'degrade' هو فعل ويعني يحط من قدر أو يدهور."  
+    }
+  },
+  "unit4_w_5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "adjective",
+      "verb",
+      "energy",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct word in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "The solar power is a ______ energy.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "renewable",
+        "ar": ""
+      },
+      {
+        "en": "renew",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "renewable",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The adjective 'renewable' describes the type of energy.",
+      "ar": "صحيح! الصفة 'renewable' تصف نوع الطاقة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الجملة تحتاج إلى صفة لوصف كلمة 'energy'. 'Renewable' هي صفة وتعني متجدد، بينما 'renew' هو فعل ويعني يجدد."  
+    }
+  },
+  "unit4_w_6": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "adjective",
+      "verb",
+      "transport",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct word in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Cycling is a totally ______ form of transport.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "sustainable",
+        "ar": ""
+      },
+      {
+        "en": "sustain",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "sustainable",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The adjective 'sustainable' describes the 'form of transport'.",
+      "ar": "صحيح! الصفة 'sustainable' تصف 'form of transport'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الجملة تحتاج إلى صفة لوصف 'form of transport'. 'Sustainable' هي صفة وتعني مستدام، بينما 'sustain' هو فعل ويعني يدعم أو يحافظ على."  
+    }
+  },
+  "unit4_w_7": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "articles",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Does anyone know ______ answer?",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "the",
+        "ar": ""
+      },
+      {
+        "en": "an",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "the",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'The' is used because it refers to a specific answer that is expected or known in context.",
+      "ar": "صحيح! تُستخدم 'the' لأنها تشير إلى إجابة محددة متوقعة أو معروفة في السياق."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'an' تُستخدم قبل الأسماء المفردة النكرة التي تبدأ بصوت علة. هنا، السؤال يفترض وجود إجابة محددة يتم البحث عنها، لذا 'the' (أداة التعريف) هي الأنسب."  
+    }
+  },
+  "unit4_w_8": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "possessive-adjective",
+      "article",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "I haven’t got pictures in ______ bedroom.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "a",
+        "ar": ""
+      },
+      {
+        "en": "my",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "my",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'My' indicates possession (the speaker's bedroom).",
+      "ar": "صحيح! 'My' تشير إلى الملكية (غرفة نوم المتحدث)."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'a bedroom' تعني أي غرفة نوم. السياق يشير إلى غرفة نوم المتحدث، لذا نستخدم صفة الملكية 'my'." 
+    }
+  },
+  "unit4_w_9": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "I have told you to pay attention ______ times before.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "many",
+        "ar": ""
+      },
+      {
+        "en": "any",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "many",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Many' is used with countable nouns ('times') in affirmative sentences to indicate a large number.",
+      "ar": "صحيح! تُستخدم 'Many' مع الأسماء المعدودة ('times') في الجمل المثبتة للإشارة إلى عدد كبير."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'any' تُستخدم عادةً في الجمل المنفية والاستفهامية. 'many' تُستخدم مع الأسماء المعدودة في الجمل المثبتة لتعني 'الكثير من'."  
+    }
+  },
+  "unit4_w_10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "countable",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "I have only ______ coins in my wallet.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "a little",
+        "ar": ""
+      },
+      {
+        "en": "a few",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "a few",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'A few' is used with countable nouns ('coins') to mean a small number.",
+      "ar": "صحيح! تُستخدم 'A few' مع الأسماء المعدودة ('coins') لتعني عددًا قليلاً."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'coins' هو اسم معدود. 'a little' تُستخدم مع الأسماء غير المعدودة. 'a few' تُستخدم مع الأسماء المعدودة لتعني 'عدد قليل'."  
+    }
+  },
+  "unit4_w_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "negative",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "There aren’t ______ students in the library.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "any",
+        "ar": ""
+      },
+      {
+        "en": "some",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "any",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Any' is typically used in negative sentences and questions.",
+      "ar": "صحيح! تُستخدم 'Any' عادةً في الجمل المنفية والاستفهامية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'some' تُستخدم عادةً في الجمل المثبتة. في الجمل المنفية مثل هذه ('aren’t')، نستخدم 'any'."  
+    }
+  },
+  "unit4_w_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "uncountable",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "There is ______ milk left in the fridge.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "a little",
+        "ar": ""
+      },
+      {
+        "en": "a few",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "a little",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'A little' is used with uncountable nouns ('milk') to mean a small amount.",
+      "ar": "صحيح! تُستخدم 'A little' مع الأسماء غير المعدودة ('milk') لتعني كمية قليلة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'milk' هو اسم غير معدود. 'a few' تُستخدم مع الأسماء المعدودة. 'a little' تُستخدم مع الأسماء غير المعدودة لتعني 'كمية قليلة'." 
+    }
+  },
+  "unit4_w_13": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete with an appropriate determiner. (More than one answer can be correct)",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. <input type='text' class='fill-blank-input' data-blank-id='det1' placeholder='determiner...'> people drive cars nowadays.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+  
+      "det1": {
+        "en": [
+          "Many",
+          "Most",
+          "Some",
+          "A lot of",
+          "Lots of"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This determiner fits well.",
+      "ar": "صحيح! هذا المحدد مناسب."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة ليست الأنسب. فكر في محددات الكمية التي تناسب كلمة 'people' (ناس) وتشير إلى عدد كبير أو بعض العدد. أمثلة: 'Many' (الكثير من)، 'Most' (معظم)، 'Some' (بعض)، 'A lot of' (الكثير من)."  
+    }
+  },
+  "unit4_w_14": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "uncountable",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete with an appropriate determiner. (More than one answer can be correct)",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. Sami likes to eat <input type='text' class='fill-blank-input' data-blank-id='det2' placeholder='determiner...'> food before he sits down to study.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det2": {
+        "en": [
+          "some",
+          "a little",
+          "enough"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This determiner fits well with 'food'.",
+      "ar": "صحيح! هذا المحدد مناسب مع 'food'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة ليست الأنسب. 'food' (طعام) اسم غير معدود. فكر في محددات الكمية التي تستخدم مع الأسماء غير المعدودة للإشارة إلى كمية معينة أو قليلة. أمثلة: 'some' (بعض)، 'a little' (القليل من)، 'enough' (ما يكفي من)."  
+    }
+  },
+  "unit4_w_15": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "demonstrative",
+      "quantifier",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete with an appropriate determiner. (More than one answer can be correct)",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='det3' placeholder='determiner...'> children will hurt themselves if they don’t get off that tree!",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det3": {
+        "en": [
+          "Those",
+          "The",
+          "Some"
+        ],
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This determiner points to the children effectively.",
+      "ar": "صحيح! هذا المحدد يشير إلى الأطفال بفعالية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة ليست الأنسب. الجملة تشير إلى أطفال محددين (الذين على الشجرة). يمكنك استخدام ضمير إشارة للجمع البعيد مثل 'Those' (أولئك)، أو أداة التعريف 'The' (الـ)، أو 'Some' (بعض) إذا كان السياق يسمح."  
+    }
+  },
+  "unit4_w_16": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "articles",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete with an appropriate determiner. (More than one answer can be correct)",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. The doctor advised me to eat <input type='text' class='fill-blank-input' data-blank-id='det4' placeholder='determiner...'> apple every morning.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det4": {
+        "en": "an",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'An' is used before a singular countable noun starting with a vowel sound.",
+      "ar": "صحيح! تُستخدم 'an' قبل اسم مفرد معدود يبدأ بصوت علة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'apple' اسم مفرد معدود يبدأ بصوت علة. أداة التنكير المناسبة هي 'an'."  
+    }
+  },
+  "unit4_w_17": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "negative-context",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete with an appropriate determiner. (More than one answer can be correct)",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. She got her license without <input type='text' class='fill-blank-input' data-blank-id='det5' placeholder='determiner...'> problems.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det5": {
+        "en": "any",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Any' is used in negative contexts or with 'without'.",
+      "ar": "صحيح! تُستخدم 'any' في السياقات المنفية أو مع كلمة 'without'."  
+    },
+    "feedbackIncorrect": {
+      "en": "", 
+      "ar": "الإجابة غير صحيحة. كلمة 'without' (بدون) تخلق سياقًا شبيهًا بالنفي. المحدد المناسب للاستخدام في مثل هذه السياقات مع الأسماء المعدودة الجمع هو 'any'." 
+    }
+  }
+}
