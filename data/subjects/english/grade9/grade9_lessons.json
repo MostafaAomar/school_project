@@ -106,6 +106,102 @@
       "en": ""
     },
     "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m4_unit7_w",
+    "title": {
+      "ar": "Unit 7\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m4_unit7_s",
+    "title": {
+      "ar": "Unit 7\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m4_unit8_s",
+    "title": {
+      "ar": "Unit 8\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m4_unit8_w",
+    "title": {
+      "ar": "Unit 8\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m5_unit9_w",
+    "title": {
+      "ar": "Unit 9\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m5_unit9_s",
+    "title": {
+      "ar": "Unit 9\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m5_unit10_w",
+    "title": {
+      "ar": "Unit 10\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m5_unit10_s",
+    "title": {
+      "ar": "Unit 10\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m6_unit11_w",
+    "title": {
+      "ar": "Unit 11\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m6_unit11_s",
+    "title": {
+      "ar": "Unit 11\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "m6_unit12_w",
+    "title": {
+      "ar": "Unit 12\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "m6_unit12_s",
+    "title": {
+      "ar": "Unit 12\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
   }
 ]
 

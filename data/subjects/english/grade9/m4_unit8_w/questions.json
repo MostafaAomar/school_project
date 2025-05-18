@@ -1,0 +1,388 @@
+{
+  "unit8_w_1_vocab1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "hope", "sports", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [despair, operation, miracle, pharmacist]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. This team needs a <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s1' placeholder='word...'> to win the match.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill_s1": { "en": "miracle", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن الفريق يحتاج إلى شيء خارق أو غير متوقع للفوز هي 'miracle' (معجزة)."  
+    }
+  },
+  "unit8_w_2_vocab2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "health", "professions", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [despair, operation, miracle, pharmacist]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. She asked the <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s2' placeholder='word...'> to prepare the medicine.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill_s2": { "en": "pharmacist", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الشخص الذي يقوم بتحضير وصرف الأدوية هو 'pharmacist' (صيدلي)."  
+    }
+  },
+  "unit8_w_3_vocab3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "emotion", "loss", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [despair, operation, miracle, pharmacist]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. My friend was filled with <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s3' placeholder='word...'> when he lost his job.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill_s3": { "en": "despair", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الشعور باليأس الشديد أو فقدان الأمل هو 'despair'."  
+    }
+  },
+  "unit8_w_4_vocab4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "health", "medical", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [despair, operation, miracle, pharmacist]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. The patient felt better after the <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s4' placeholder='word...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_fill_s4": { "en": "operation", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الإجراء الطبي الجراحي الذي قد يشعر بعده المريض بتحسن هو 'operation' (عملية جراحية)."  
+    }
+  }
+,
+  "unit8_w_5_wish1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using 'I wish' or 'She/He/They wish' to express regret.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. She did not study hard at school.\nShe wishes <input type='text' class='fill-blank-input' data-blank-id='wish1' placeholder='...'>",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "wish1": { "en": "she had studied hard at school", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Past Perfect is used after 'wish' for past regrets.",
+      "ar": "صحيح! يُستخدم الماضي التام بعد 'wish' للتعبير عن ندم على شيء في الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء لم يحدث في الماضي (عدم الدراسة بجد)، نستخدم 'wish + فاعل + had + التصريف الثالث للفعل'. الفعل المنفي في الجملة الأصلية يصبح مثبتًا في جملة التمني والعكس صحيح غالبًا."  
+    }
+  },
+  "unit8_w_6_wish2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using 'I wish' or 'She/He/They wish' to express regret.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. Noel didn’t visit the Sorbonne when he was in Paris.\nHe wishes <input type='text' class='fill-blank-input' data-blank-id='wish2' placeholder='...'>",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "wish2": { "en": "he had visited the Sorbonne when he was in Paris", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على عدم زيارة السوربون في الماضي، نستخدم 'wish + فاعل + had + التصريف الثالث للفعل (visited)'."  
+    }
+  },
+  "unit8_w_7_wish3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-simple", "present-situation", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using 'I wish' or 'She/He/They wish' to express a wish about a present situation.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. I am not tall enough to reach the books on the top shelf.\nI wish <input type='text' class='fill-blank-input' data-blank-id='wish3' placeholder='...'>",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "wish3": { "en": "I were taller", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Past Simple (subjunctive 'were') is used after 'wish' for present unreal situations.",
+      "ar": "صحيح! يُستخدم الماضي البسيط (صيغة 'were' الشرطية) بعد 'wish' للتعبير عن مواقف حالية غير واقعية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي غير مرغوب فيه (عدم كوني طويلاً كفاية)، نستخدم 'wish + فاعل + صيغة الماضي البسيط للفعل'. مع فعل الكينونة 'be'، نستخدم 'were' لجميع الضمائر في هذه الصيغة."  
+    }
+  },
+  "unit8_w_8_wish4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using 'I wish' or 'She/He/They wish' to express regret.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. They spent so much money on their shopping trip.\nThey wish <input type='text' class='fill-blank-input' data-blank-id='wish4' placeholder='...'>",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "wish4": { "en": "they hadn't spent so much money on their shopping trip", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على إنفاق الكثير من المال في الماضي، نستخدم 'wish + فاعل + hadn't + التصريف الثالث للفعل (spent)'."  
+    }
+  },
+  "unit8_w_9_wish5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-simple", "present-situation", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using 'I wish' or 'She/He/They wish' to express a wish about a present situation (assuming the wish is from 'I').",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. They are too old to play football.\nI wish <input type='text' class='fill-blank-input' data-blank-id='wish5' placeholder='...'>",  
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "wish5": { "en": "they weren't too old to play football", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct! This expresses a wish about their current age.",
+      "ar": "صحيح! هذا يعبر عن أمنية بخصوص عمرهم الحالي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضعهم الحالي (كونهم كبارًا جدًا في السن للعب)، نستخدم 'wish + فاعل + صيغة الماضي البسيط للفعل (were not / weren't)'."  
+    }
+  },
+  "unit8_w_10_wish6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "fill-blank"],
+    "supportContent": {
+      "en": "Rewrite the sentence using 'I wish' or 'She/He/They wish' to express regret.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. We weren’t kind to her before she got sick.\nWe wish <input type='text' class='fill-blank-input' data-blank-id='wish6' placeholder='...'>",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "wish6": { "en": "we had been kind to her before she got sick", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على عدم كونهم لطفاء في الماضي، نستخدم 'wish + فاعل + had been'."  
+    }
+  },
+  "unit8_w_11_mcq_wish1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "mcq"],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. I wish I ............... to my father.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "had listened", "ar": "" },
+      { "en": "have listened", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had listened",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use Past Perfect after 'wish' for past regrets.",
+      "ar": "صحيح! استخدم الماضي التام بعد 'wish' للتعبير عن ندم على الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء في الماضي (عدم الاستماع إلى الأب)، نستخدم 'I wish + Past Perfect (had listened)'."  
+    }
+  },
+  "unit8_w_12_mcq_wish2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-would", "future-change", "unit8", "mcq"],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. I wish it ............... snowing.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "will stop", "ar": "" },
+      { "en": "would stop", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "would stop",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use 'wish + would + base verb' for things we want to change but can't, or about other people's annoying habits.",
+      "ar": "صحيح! استخدم 'wish + would + المصدر' للأشياء التي نريد تغييرها ولا نستطيع، أو عن عادات الآخرين المزعجة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بتغيير وضع حالي أو مستقبلي خارج عن سيطرتنا (مثل توقف الثلج)، نستخدم 'I wish + subject + would + المصدر'."  
+    }
+  },
+  "unit8_w_13_mcq_wish3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-simple", "present-situation", "subjunctive", "unit8", "mcq"],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. He wishes he ............... so old.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "isn't", "ar": "" },
+      { "en": "weren't", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "weren't",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Use Past Simple subjunctive 'weren't' after 'wish' for present unreal situations.",
+      "ar": "صحيح! استخدم الماضي البسيط الشرطي 'weren't' بعد 'wish' للمواقف الحالية غير الواقعية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي غير مرغوب فيه، نستخدم 'wish + Past Simple'. مع فعل الكينونة 'be'، نستخدم 'were' (أو 'weren't' للنفي) لجميع الضمائر."  
+    }
+  },
+  "unit8_w_14_mcq_wish4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "mcq"],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. She wishes she ................. the train.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "had taken", "ar": "" },
+      { "en": "has taken", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had taken",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Past Perfect for past regrets.",
+      "ar": "صحيح! الماضي التام للندم على الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن الندم على شيء في الماضي (عدم ركوب القطار أو ركوبه وندمت على ذلك)، نستخدم 'wish + Past Perfect (had taken)'."  
+    }
+  },
+  "unit8_w_15_mcq_wish5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "wish-past-simple", "present-situation", "subjunctive", "unit8", "mcq"],
+    "supportContent": {
+      "en": "Select the correct answer.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. I wish the prices ................ so high.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "aren't", "ar": "" },
+      { "en": "weren't", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "weren't",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Past Simple subjunctive 'weren't' for present unreal situations.",
+      "ar": "صحيح! الماضي البسيط الشرطي 'weren't' للمواقف الحالية غير الواقعية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي غير مرغوب فيه (الأسعار مرتفعة)، نستخدم 'wish + Past Simple'. مع فعل الكينونة 'be'، نستخدم 'were' (أو 'weren't' للنفي) لجميع الضمائر."  
+    }
+  }
+}

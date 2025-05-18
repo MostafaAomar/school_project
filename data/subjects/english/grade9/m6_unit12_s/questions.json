@@ -1,0 +1,406 @@
+{
+  "unit12_s_1_table_verb1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb-noun",
+      "reading-comprehension",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the correct verb or noun from the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder='verb...'> | Noun: communication",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb1": {
+        "en": "communicate",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'communicate'. الفعل المشتق من الاسم 'communication' هو 'communicate'."
+    }
+  },
+  "unit12_s_2_table_noun1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb-noun",
+      "reading-comprehension",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the correct verb or noun from the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Verb: express | Noun: <input type='text' class='fill-blank-input' data-blank-id='noun1' placeholder='noun...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "noun1": {
+        "en": "expression",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'expression'. الاسم المشتق من الفعل 'express' هو 'expression'."
+    }
+  },
+  "unit12_s_3_table_verb2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb-noun",
+      "reading-comprehension",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the correct verb or noun from the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder='verb...'> | Noun: movement",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "verb2": {
+        "en": "move",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'move'. الفعل المشتق من الاسم 'movement' هو 'move'."
+    }
+  },
+  "unit12_s_4_table_noun2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb-noun",
+      "reading-comprehension",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the correct verb or noun from the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Verb: suggest | Noun: <input type='text' class='fill-blank-input' data-blank-id='noun2' placeholder='noun...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "noun2": {
+        "en": "suggestion",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'suggestion'. الاسم المشتق من الفعل 'suggest' هو 'suggestion'."
+    }
+  },
+  "unit12_s_5_table_noun3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb-noun",
+      "reading-comprehension",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the correct verb or noun from the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Verb: determine | Noun: <input type='text' class='fill-blank-input' data-blank-id='noun3' placeholder='noun...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "noun3": {
+        "en": "determination",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'determination'. الاسم المشتق من الفعل 'determine' هو 'determination'."
+    }
+  },
+  "unit12_s_6_table_noun4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "verb-noun",
+      "reading-comprehension",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the correct verb or noun from the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Verb: defend | Noun: <input type='text' class='fill-blank-input' data-blank-id='noun4' placeholder='noun...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "noun4": {
+        "en": "defence",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'defence'. الاسم المشتق من الفعل 'defend' هو 'defence' (أو 'defense' في الإنجليزية الأمريكية)."
+    }
+  },
+  "unit12_s_7_text_comp1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "vocabulary",
+      "communication",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable word or phrase from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Signals make up a huge part of <input type='text' class='fill-blank-input' data-blank-id='comp1' placeholder='from text...'> daily communication.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comp1": {
+        "en": "our",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'our'. ابحث في النص عن العبارة التي تصف دور الإشارات في التواصل اليومي."
+    }
+  },
+  "unit12_s_8_text_comp2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "vocabulary",
+      "body-language",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable word or phrase from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. It was suggested that body language <input type='text' class='fill-blank-input' data-blank-id='comp2' placeholder='from text...'> may account for between 60 to 65% of all communication.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comp2": {
+        "en": "signals",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'signals'. ارجع إلى النص لمعرفة الكلمة أو العبارة التي تصف لغة الجسد وتشكل نسبة كبيرة من التواصل."
+    }
+  },
+  "unit12_s_9_text_comp3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "vocabulary",
+      "facial-expressions",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable word or phrase from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Expressions may reveal <input type='text' class='fill-blank-input' data-blank-id='comp3' placeholder='from text...'> true feelings about a particular situation.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comp3": {
+        "en": "your",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'your'. النص يتحدث عن كيف يمكن للتعابير أن تكشف المشاعر الحقيقية. ابحث عن الكلمة الناقصة في هذا السياق."
+    }
+  },
+  "unit12_s_10_text_comp4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "vocabulary",
+      "nonverbal-communication",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable word or phrase from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. While you say that, you are <input type='text' class='fill-blank-input' data-blank-id='comp4' placeholder='from text...'> feeling fine, the look on your face may tell people otherwise.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comp4": {
+        "en": "verbally",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'verbally'. ابحث في النص عن الكلمة التي تصف طريقة قولك أنك بخير، والتي قد تتعارض مع تعابير وجهك."
+    }
+  },
+  "unit12_s_11_text_comp5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "vocabulary",
+      "body-language",
+      "posture",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable word or phrase from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Arms and legs <input type='text' class='fill-blank-input' data-blank-id='comp5' placeholder='from text...'> can also be useful in conveying nonverbal information.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comp5": {
+        "en": "postures",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'postures'. النص يذكر كيف يمكن لحركات أو أوضاع الذراعين والساقين أن تنقل معلومات غير لفظية."
+    }
+  },
+  "unit12_s_12_text_comp6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "vocabulary",
+      "body-language",
+      "gestures",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable word or phrase from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Rapidly tapping <input type='text' class='fill-blank-input' data-blank-id='comp6' placeholder='from text...'> fingers, can be a sign that a person is bored.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "comp6": {
+        "en": "your",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'your'. ابحث في النص عن العبارة التي تصف النقر السريع بالأصابع كعلامة على الملل."
+    }
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "unit11_s_1_prep1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "preposition",
+      "phrasal-verb",
+      "adjective-preposition",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable preposition from the box: [to, of, about, in]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. You should be positive and capable <input type='text' class='fill-blank-input' data-blank-id='prep1' placeholder='preposition...'> inspiring others.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep1": {
+        "en": "of",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The preposition 'of' follows 'capable'.",
+      "ar": "صحيح! حرف الجر 'of' يأتي بعد كلمة 'capable'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'of'. الصفة 'capable' يتبعها عادةً حرف الجر 'of' للتعبير عن القدرة على فعل شيء ما."
+    }
+  },
+  "unit11_s_2_prep2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "preposition",
+      "idiom",
+      "time-expression",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable preposition from the box: [to, of, about, in]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Trust can be destroyed <input type='text' class='fill-blank-input' data-blank-id='prep2' placeholder='preposition...'> no time.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep2": {
+        "en": "in",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The idiom is 'in no time'.",
+      "ar": "صحيح! المصطلح هو 'in no time'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'in'. للتعبير عن حدوث شيء بسرعة كبيرة أو بشكل فوري، نستخدم المصطلح 'in no time'."
+    }
+  },
+  "unit11_s_3_prep3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "preposition",
+      "purpose",
+      "infinitive-of-purpose",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable preposition from the box: [to, of, about, in]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. You should be honest <input type='text' class='fill-blank-input' data-blank-id='prep3' placeholder='preposition...'> earn people’s trust.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep3": {
+        "en": "to",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'to' is used here to express purpose (in order to earn).",
+      "ar": "صحيح! تُستخدم 'to' هنا للتعبير عن الغرض (لكي تكسب)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'to'. للتعبير عن الغرض أو الهدف من فعل شيء ما (مثل 'لكي تكسب ثقة الناس')، نستخدم المصدر مسبوقًا بـ 'to'."
+    }
+  },
+  "unit11_s_4_prep4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "preposition",
+      "phrasal-verb",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable preposition from the box: [to, of, about, in]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Don’t make fun <input type='text' class='fill-blank-input' data-blank-id='prep4' placeholder='preposition...'> people.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep4": {
+        "en": "of",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The phrasal verb is 'make fun of'.",
+      "ar": "صحيح! الفعل المركب هو 'make fun of'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'of'. للتعبير عن السخرية من شخص ما، نستخدم الفعل المركب 'make fun of'."
+    }
+  },
+  "unit11_s_5_prep5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "preposition",
+      "phrasal-verb",
+      "verb-preposition",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the statement with a suitable preposition from the box: [to, of, about, in]",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Show your family that you care <input type='text' class='fill-blank-input' data-blank-id='prep5' placeholder='preposition...'> them.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "prep5": {
+        "en": "about",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The common expression is 'care about'.",
+      "ar": "صحيح! التعبير الشائع هو 'care about'."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'about'. للتعبير عن الاهتمام بشخص ما أو شيء ما، نستخدم عادةً الفعل 'care' متبوعًا بحرف الجر 'about'."
+    }
+  },
+  "unit11_s_6_text1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. <input type='text' class='fill-blank-input' data-blank-id='text_info1' placeholder='Information from text...'> by someone to change your life in a significant way that made you healthier, happier, or more fulfilled?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info1": {
+        "en": "Have you ever been inspired",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'Have you ever been inspired'. ارجع إلى النص القرائي وابحث عن العبارة أو الفكرة التي تكمل هذا السؤال حول التأثر بشخص ما لتغيير حياتك."
+    }
+  },
+  "unit11_s_7_text2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Remember how many times your day <input type='text' class='fill-blank-input' data-blank-id='text_info2' placeholder='Information from text...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info2": {
+        "en": "has been brightened",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'has been brightened'. ابحث في النص عن ما يذكره الكاتب بخصوص يومك وكيف يتأثر."
+    }
+  },
+  "unit11_s_8_text3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='text_info3' placeholder='Information from text...'> by small acts of kindness.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info3": {
+        "en": "Your mood can be lifted",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'Your mood can be lifted'. ارجع إلى النص لترى كيف يمكن للأفعال الصغيرة من اللطف أن تؤثر عليك أو على الآخرين."
+    }
+  },
+  "unit11_s_9_text4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. If <input type='text' class='fill-blank-input' data-blank-id='text_info4' placeholder='Information from text...'> a secret by a friend, it stays between you and him/her.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info4": {
+        "en": "you are told",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'you are told'. النص يتحدث عن الثقة وحفظ الأسرار. ابحث عن العبارة التي تناسب هذا السياق."
+    }
+  },
+  "unit11_s_10_text5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. If <input type='text' class='fill-blank-input' data-blank-id='text_info5' placeholder='Information from text...'>, he/she needs to do it with a smile.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info5": {
+        "en": "someone helps another person",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'someone helps another person'. ابحث في النص عن الموقف الذي يتطلب ابتسامة عند القيام به."
+    }
+  },
+  "unit11_s_11_text6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Life has many examples of promises <input type='text' class='fill-blank-input' data-blank-id='text_info6' placeholder='Information from text...'> to save many people’s lives.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info6": {
+        "en": "that were kept",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'that were kept'. النص قد يذكر أمثلة عن الوعود وأهميتها. ابحث عن العبارة التي تصف الوعود التي أنقذت حياة الناس."
+    }
+  },
+  "unit11_s_12_text7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "information-retrieval",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct information from the text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. How did you react when <input type='text' class='fill-blank-input' data-blank-id='text_info7' placeholder='Information from text...'> by someone?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "text_info7": {
+        "en": "you were let down",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct, based on the likely text content.",
+      "ar": "صحيح، بناءً على المحتوى المحتمل للنص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'you were let down'. ابحث في النص عن ردود الفعل عند التعرض لموقف معين من قبل شخص آخر (مثل الخذلان أو الإساءة)."
+    }
+  },
+  "unit11_s_13_pass_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-perfect",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct form to make a passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Have you ever ______ by someone?",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "been inspired",
+        "ar": ""
+      },
+      {
+        "en": "inspired",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "been inspired",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'been inspired' is the Present Perfect passive.",
+      "ar": "صحيح! 'been inspired' هي صيغة المضارع التام للمبني للمجهول."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'been inspired'. للسؤال في صيغة المبني للمجهول مع المضارع التام (Have you ever...?)، نستخدم 'been + التصريف الثالث للفعل'."
+    }
+  },
+  "unit11_s_14_pass_mcq2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct form to make a passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. This poem ______ by Nizar Qabani.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "wrote",
+        "ar": ""
+      },
+      {
+        "en": "was written",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was written",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was written' is the Past Simple passive.",
+      "ar": "صحيح! 'was written' هي صيغة الماضي البسيط للمبني للمجهول."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'was written'. القصيدة (مفرد) كُتبت في الماضي. نستخدم الماضي البسيط للمبني للمجهول (was/were + التصريف الثالث للفعل)."
+    }
+  },
+  "unit11_s_15_pass_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-continuous",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct form to make a passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Our house ______ now.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "is decorating",
+        "ar": ""
+      },
+      {
+        "en": "is being decorated",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "is being decorated",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'is being decorated' is the Present Continuous passive, indicating an action happening now.",
+      "ar": "صحيح! 'is being decorated' هي صيغة المضارع المستمر للمبني للمجهول، وتشير إلى فعل يحدث الآن."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'is being decorated'. المنزل (مفرد) يتم تزيينه *الآن*. نستخدم المضارع المستمر للمبني للمجهول (is/are + being + التصريف الثالث للفعل)."
+    }
+  },
+  "unit11_s_16_pass_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct form to make a passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. I ______ by the manager not to receive guests.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "was warned",
+        "ar": ""
+      },
+      {
+        "en": "was warning",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was warned",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was warned' is the Past Simple passive.",
+      "ar": "صحيح! 'was warned' هي صيغة الماضي البسيط للمبني للمجهول."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'was warned'. المتحدث (أنا) هو من تم تحذيره (وقع عليه فعل التحذير) في الماضي. نستخدم الماضي البسيط للمبني للمجهول (was/were + التصريف الثالث للفعل)."
+    }
+  },
+  "unit11_s_17_pass_mcq5": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-perfect",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Choose the correct form to make a passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. The dam ______ before 1963.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "hadn’t built",
+        "ar": ""
+      },
+      {
+        "en": "hadn’t been built",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "hadn’t been built",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'hadn’t been built' is the Past Perfect passive (negative).",
+      "ar": "صحيح! 'hadn’t been built' هي صيغة الماضي التام للمبني للمجهول (منفية)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'hadn’t been built'. السد (مفرد) لم يتم بناؤه *قبل* عام 1963. لوصف فعل لم يكتمل قبل نقطة معينة في الماضي، نستخدم الماضي التام للمبني للمجهول (had + not + been + التصريف الثالث للفعل)."
+    }
+  }
+}

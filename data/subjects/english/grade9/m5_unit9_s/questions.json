@@ -1,0 +1,181 @@
+{
+  "unit9_s_1_reading1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "relative-pronoun", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the reading text.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Mary was a teacher <input type='text' class='fill-blank-input' data-blank-id='read1' placeholder='word...'> wanted to motivate her students.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "read1": { "en": "who", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة هنا هي ضمير وصل يشير إلى 'a teacher' (شخص). الكلمة الأكثر احتمالاً من النص هي 'who' أو 'that'."  
+    }
+  },
+  "unit9_s_2_reading2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "relative-pronoun", "appositive", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the reading text.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. She thought of a simple and symbolic gift, <input type='text' class='fill-blank-input' data-blank-id='read2' placeholder='word...'> is a new pair of shoes.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "read2": { "en": "which", "ar": "" }   
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة هنا هي ضمير وصل يشير إلى 'a simple and symbolic gift' (شيء). الكلمة الأكثر احتمالاً هي 'which'."  
+    }
+  },
+  "unit9_s_3_reading3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "relative-pronoun", "possession", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the reading text.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. The gift was for the student <input type='text' class='fill-blank-input' data-blank-id='read3' placeholder='word...'> marks are excellent.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "read3": { "en": "whose", "ar": "" }    
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة هنا هي ضمير وصل يدل على الملكية (علامات الطالب). الكلمة هي 'whose'."  
+    }
+  },
+  "unit9_s_4_reading4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "pronoun", "question", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the reading text.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. The teacher thought <input type='text' class='fill-blank-input' data-blank-id='read4' placeholder='word...'> would get the gift?",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "read4": { "en": "who", "ar": "" }    
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال هنا عن الشخص الذي سيحصل على الهدية. كلمة الاستفهام المناسبة هي 'who'."  
+    }
+  },
+  "unit9_s_5_reading5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["reading-comprehension", "preposition", "location", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the reading text.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. Nada came forward <input type='text' class='fill-blank-input' data-blank-id='read5' placeholder='word...'> the shoes were.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "read5": { "en": "where", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة هنا تشير إلى المكان الذي كانت فيه الأحذية. الكلمة الأكثر احتمالاً هي 'where'. قد تكون هناك كلمات أخرى مناسبة حسب سياق النص الأصلي مثل 'to where'."  
+    }
+  },
+  "unit9_s_6_reading6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["reading-comprehension", "relative-pronoun", "unit9", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the reading text.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. She thanked everyone for this wonderful gift <input type='text' class='fill-blank-input' data-blank-id='read6' placeholder='word...'> came on time.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "read6": { "en": "which", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة المناسبة هنا هي ضمير وصل يشير إلى 'this wonderful gift' (شيء). الكلمة الأكثر احتمالاً هي 'which' أو 'that'."  
+    }
+  },
+  "unit9_s_7_relative_match": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "sentence-structure", "unit9", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Complete the sentences in (A) (draggable) with the suitable relative clause in (B) (drop zones).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the sentence beginnings with their suitable relative clauses:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "begin_bank", "text": { "en": "1. This is the bank", "ar": "" } },
+      { "id": "begin_house", "text": { "en": "2. My parents bought a new house", "ar": "" } },
+      { "id": "begin_woman", "text": { "en": "3. The woman whose car was broken", "ar": "" } },
+      { "id": "begin_school", "text": { "en": "4. My sister teaches in a school", "ar": "" } },
+      { "id": "begin_arrived", "text": { "en": "5. He arrived at seven", "ar": "" } }
+    ],
+    "dropZones": [ 
+      { "id": "clause_dropzone_1", "label": { "en": "1. is my neighbour.", "ar": "" }, "accepts": "begin_woman" },  
+      { "id": "clause_dropzone_2", "label": { "en": "2. where we all studied.", "ar": "" }, "accepts": "begin_school" },  
+      { "id": "clause_dropzone_3", "label": { "en": "3. when it was nearly dark.", "ar": "" }, "accepts": "begin_arrived" },  
+      { "id": "clause_dropzone_4", "label": { "en": "4. which was robbed yesterday.", "ar": "" }, "accepts": "begin_bank" },  
+      { "id": "clause_dropzone_5", "label": { "en": "5. that was very expensive.", "ar": "" }, "accepts": "begin_house" }  
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentences are completed correctly with their relative clauses.",
+      "ar": "صحيح! تم إكمال جميع الجمل بشكل صحيح بعبارات الوصل المناسبة لها."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. تأكد من أن عبارة الوصل التي تختارها تناسب الاسم الذي تشير إليه في بداية الجملة. على سبيل المثال، 'which' أو 'that' للأشياء، 'where' للمكان، 'when' للزمان، و 'whose' للملكية."  
+    }
+  }
+}

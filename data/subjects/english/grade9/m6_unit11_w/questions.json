@@ -1,0 +1,937 @@
+{
+  "unit11_w_1_matching": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": [
+      "reading-comprehension",
+      "sentence-matching",
+      "space",
+      "communication",
+      "unit11",
+      "drag-drop"
+    ],
+    "supportContent": {
+      "en": "Match the sentence beginnings (numbered) with their correct endings (lettered) to form meaningful sentences.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match A (numbered items) and B (lettered items) to form meaningful sentences:",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "sentA1",
+        "text": {
+          "en": "1. If you look up at the stars,",
+          "ar": ""
+        }
+      },
+      {
+        "id": "sentA2",
+        "text": {
+          "en": "2. The desire to communicate with the outer space",
+          "ar": ""
+        }
+      },
+      {
+        "id": "sentA3",
+        "text": {
+          "en": "3. A newspaper article entitled \"A Signal from Mars\"",
+          "ar": ""
+        }
+      },
+      {
+        "id": "sentA4",
+        "text": {
+          "en": "4. Scientists began searching for signals",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "sentB_c",
+        "label": {
+          "en": "c. you might wonder if anyone is really out there.",
+          "ar": ""
+        },
+        "accepts": "sentA1"
+      },
+      {
+        "id": "sentB_a",
+        "label": {
+          "en": "a. has always been there in our minds.",
+          "ar": ""
+        },
+        "accepts": "sentA2"
+      },
+      {
+        "id": "sentB_d",
+        "label": {
+          "en": "d. shows the existence of intelligent life in the universe.",
+          "ar": ""
+        },
+        "accepts": "sentA3"
+      },
+      {
+        "id": "sentB_b",
+        "label": {
+          "en": "b. they might receive from another planet.",
+          "ar": ""
+        },
+        "accepts": "sentA4"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentences are matched perfectly.",
+      "ar": "ممتاز! تم مطابقة جميع الجمل بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابات الصحيحة هي: 1-c (If you look up at the stars, you might wonder if anyone is really out there.), 2-a (The desire to communicate with the outer space has always been there in our minds.), 3-d (A newspaper article entitled \"A Signal from Mars\" shows the existence of intelligent life in the universe.), 4-b (Scientists began searching for signals they might receive from another planet.). حاول قراءة بداية كل جملة وتوصيلها بالنهاية التي تكمل المعنى بشكل منطقي."
+    }
+  },
+  "unit11_w_2_opposites": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "antonym",
+      "reading-comprehension",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the table with the opposites of the following words, found in the reading text.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "familiar <input type='text' class='fill-blank-input' data-blank-id='opp1' placeholder='opposite...'><br>impossible <input type='text' class='fill-blank-input' data-blank-id='opp2' placeholder='opposite...'><br>late <input type='text' class='fill-blank-input' data-blank-id='opp3' placeholder='opposite...'><br>silly <input type='text' class='fill-blank-input' data-blank-id='opp4' placeholder='opposite...'><br>ambiguous <input type='text' class='fill-blank-input' data-blank-id='opp5' placeholder='opposite...'><br>nearer <input type='text' class='fill-blank-input' data-blank-id='opp6' placeholder='opposite...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "opp1": {
+        "en": "unfamiliar",
+        "ar": ""
+      },
+      "opp2": {
+        "en": "possible",
+        "ar": ""
+      },
+      "opp3": {
+        "en": "early",
+        "ar": ""
+      },
+      "opp4": {
+        "en": "serious",
+        "ar": ""
+      },
+      "opp5": {
+        "en": "clear",
+        "ar": ""
+      },
+      "opp6": {
+        "en": "further",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! These are the opposites as likely found in the text.",
+      "ar": "صحيح! هذه هي الأضداد كما يُحتمل وجودها في النص."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الأجوبة الصحيحة هي: familiar - unfamiliar, impossible - possible, late - early, silly - serious, ambiguous - clear, nearer - further. ابحث في النص القرائي عن الكلمات التي تعطي المعنى المعاكس للكلمات المعطاة."
+    }
+  },
+  "unit11_w_3_passive1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. The Factory bought new machinery.\n<input type='text' class='fill-blank-input' data-blank-id='pass1' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass1": {
+        "en": "New machinery was bought by the factory.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'New machinery was bought by the factory.'. لتحويل الجملة للمبني للمجهول، اجعل المفعول به ('new machinery') هو الفاعل الجديد. استخدم صيغة الماضي البسيط للمبني للمجهول (was/were + التصريف الثالث للفعل 'buy')."
+    }
+  },
+  "unit11_w_4_passive2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-continuous",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. The workers are building a new school in this area.\n<input type='text' class='fill-blank-input' data-blank-id='pass2' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass2": {
+        "en": "A new school is being built in this area by the workers.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'A new school is being built in this area by the workers.'. الجملة الأصلية في المضارع المستمر. اجعل المفعول به ('a new school') هو الفاعل الجديد. استخدم صيغة المضارع المستمر للمبني للمجهول (is/are + being + التصريف الثالث للفعل 'build')."
+    }
+  },
+  "unit11_w_5_passive3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-continuous",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Two horses were pulling the farmer's wagon.\n<input type='text' class='fill-blank-input' data-blank-id='pass3' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass3": {
+        "en": "The farmer's wagon was being pulled by two horses.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'The farmer's wagon was being pulled by two horses.'. الجملة الأصلية في الماضي المستمر. اجعل المفعول به ('the farmer's wagon') هو الفاعل الجديد. استخدم صيغة الماضي المستمر للمبني للمجهول (was/were + being + التصريف الثالث للفعل 'pull')."
+    }
+  },
+  "unit11_w_6_passive4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-continuous",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The teacher is explaining the passive voice rule.\n<input type='text' class='fill-blank-input' data-blank-id='pass4' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass4": {
+        "en": "The passive voice rule is being explained by the teacher.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'The passive voice rule is being explained by the teacher.'. الجملة الأصلية في المضارع المستمر. اجعل المفعول به ('the passive voice rule') هو الفاعل الجديد. استخدم صيغة المضارع المستمر للمبني للمجهول (is/are + being + التصريف الثالث للفعل 'explain')."
+    }
+  },
+  "unit11_w_7_passive5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-perfect",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Mark had returned the book to the library.\n<input type='text' class='fill-blank-input' data-blank-id='pass5' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass5": {
+        "en": "The book had been returned to the library by Mark.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'The book had been returned to the library by Mark.'. الجملة الأصلية في الماضي التام. اجعل المفعول به ('the book') هو الفاعل الجديد. استخدم صيغة الماضي التام للمبني للمجهول (had + been + التصريف الثالث للفعل 'return')."
+    }
+  },
+  "unit11_w_8_passive6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-perfect",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Someone has made a mistake.\n<input type='text' class='fill-blank-input' data-blank-id='pass6' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass6": {
+        "en": "A mistake has been made.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'A mistake has been made.'. الجملة الأصلية في المضارع التام. اجعل المفعول به ('a mistake') هو الفاعل الجديد. استخدم صيغة المضارع التام للمبني للمجهول (has/have + been + التصريف الثالث للفعل 'make'). عادةً ما يتم حذف 'by someone'."
+    }
+  },
+  "unit11_w_9_passive7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-simple",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. Italy produces a lot of olive oil.\n<input type='text' class='fill-blank-input' data-blank-id='pass7' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass7": {
+        "en": "A lot of olive oil is produced in Italy.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'A lot of olive oil is produced in Italy.'. الجملة الأصلية في المضارع البسيط. اجعل المفعول به ('a lot of olive oil') هو الفاعل الجديد. استخدم صيغة المضارع البسيط للمبني للمجهول (is/are + التصريف الثالث للفعل 'produce')."
+    }
+  },
+  "unit11_w_10_passive8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. A storm destroyed many places in the city.\n<input type='text' class='fill-blank-input' data-blank-id='pass8' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass8": {
+        "en": "Many places in the city were destroyed by a storm.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'Many places in the city were destroyed by a storm.'. الجملة الأصلية في الماضي البسيط. اجعل المفعول به ('many places in the city') هو الفاعل الجديد. استخدم صيغة الماضي البسيط للمبني للمجهول (was/were + التصريف الثالث للفعل 'destroy')."
+    }
+  },
+  "unit11_w_11_passive9": {
+    "type": "fill-blank",
+    "difficulty": 3,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-perfect",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "9. He had already delivered the mail by the time I left school.\n<input type='text' class='fill-blank-input' data-blank-id='pass9' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass9": {
+        "en": "The mail had already been delivered by the time I left school.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'The mail had already been delivered by the time I left school.'. الجملة الأصلية في الماضي التام. اجعل المفعول به ('the mail') هو الفاعل الجديد. استخدم صيغة الماضي التام للمبني للمجهول (had + been + التصريف الثالث للفعل 'deliver'). حافظ على الظرف 'already' والجملة الزمنية."
+    }
+  },
+  "unit11_w_12_passive10": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-perfect",
+      "sentence-transformation",
+      "unit11",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Change the following sentence into the passive voice.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "10. Teachers have rewarded the hard-working students.\n<input type='text' class='fill-blank-input' data-blank-id='pass10' placeholder='Passive voice...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pass10": {
+        "en": "The hard-working students have been rewarded by teachers.",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'The hard-working students have been rewarded by teachers.'. الجملة الأصلية في المضارع التام. اجعل المفعول به ('the hard-working students') هو الفاعل الجديد. استخدم صيغة المضارع التام للمبني للمجهول (has/have + been + التصريف الثالث للفعل 'reward')."
+    }
+  },
+  "unit11_w_13_pass_mcq1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. A lot of coffee …………… .",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "are being taken",
+        "ar": ""
+      },
+      {
+        "en": "is grown in Brazil",
+        "ar": ""
+      },
+      {
+        "en": "was painted by Leonardo da Vinci",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "is grown in Brazil",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'is grown' is Present Simple passive, fitting the general fact about coffee.",
+      "ar": "صحيح! 'is grown' هي صيغة المضارع البسيط للمبني للمجهول، وتناسب الحقيقة العامة عن القهوة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'is grown in Brazil'. 'coffee' اسم غير معدود ويعامل كمفرد. للتعبير عن حقيقة عامة (زراعة القهوة)، نستخدم المضارع البسيط للمبني للمجهول."
+    }
+  },
+  "unit11_w_14_pass_mcq2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. The world's highest mountains……….. .",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "are found in the Himalayas",
+        "ar": ""
+      },
+      {
+        "en": "were held in 1896",
+        "ar": ""
+      },
+      {
+        "en": "has been furnished",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "are found in the Himalayas",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'are found' is Present Simple passive, stating a geographical fact.",
+      "ar": "صحيح! 'are found' هي صيغة المضارع البسيط للمبني للمجهول، وتذكر حقيقة جغرافية."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'are found in the Himalayas'. 'mountains' اسم جمع. للتعبير عن حقيقة ثابتة (مكان وجود الجبال)، نستخدم المضارع البسيط للمبني للمجهول."
+    }
+  },
+  "unit11_w_15_pass_mcq3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The Mona Lisa ……………. .",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "are made in Japan",
+        "ar": ""
+      },
+      {
+        "en": "was painted by Leonardo da Vinci",
+        "ar": ""
+      },
+      {
+        "en": "had been cancelled",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was painted by Leonardo da Vinci",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was painted' is Past Simple passive, referring to a completed past action.",
+      "ar": "صحيح! 'was painted' هي صيغة الماضي البسيط للمبني للمجهول، وتشير إلى فعل اكتمل في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'was painted by Leonardo da Vinci'. 'The Mona Lisa' عمل فني واحد (مفرد). رسمها حدث في الماضي وانتهى، لذا نستخدم الماضي البسيط للمبني للمجهول."
+    }
+  },
+  "unit11_w_16_pass_mcq4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. Many electronic goods …………… .",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "is grown in Brazil",
+        "ar": ""
+      },
+      {
+        "en": "was being fixed",
+        "ar": ""
+      },
+      {
+        "en": "are made in Japan",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "are made in Japan",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'are made' is Present Simple passive, referring to a general fact about production.",
+      "ar": "صحيح! 'are made' هي صيغة المضارع البسيط للمبني للمجهول، وتشير إلى حقيقة عامة عن الإنتاج."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'are made in Japan'. 'electronic goods' اسم جمع. للتعبير عن حقيقة عامة (مكان صنع البضائع)، نستخدم المضارع البسيط للمبني للمجهول."
+    }
+  },
+  "unit11_w_17_pass_mcq5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. The first modern Olympic Games………… .",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "are found in the Himalayas",
+        "ar": ""
+      },
+      {
+        "en": "were held in 1896",
+        "ar": ""
+      },
+      {
+        "en": "was given",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "were held in 1896",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'were held' is Past Simple passive, referring to a specific past event.",
+      "ar": "صحيح! 'were held' هي صيغة الماضي البسيط للمبني للمجهول، وتشير إلى حدث ماضٍ محدد."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'were held in 1896'. 'Olympic Games' اسم جمع. إقامتها حدثت في الماضي (1896) وانتهت، لذا نستخدم الماضي البسيط للمبني للمجهول."
+    }
+  },
+  "unit11_w_18_pass_mcq6": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-continuous",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Papers………….. from all the students at this moment.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "are being taken",
+        "ar": ""
+      },
+      {
+        "en": "has been furnished",
+        "ar": ""
+      },
+      {
+        "en": "was painted by Leonardo da Vinci",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "are being taken",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'are being taken' is Present Continuous passive, indicating an action in progress now ('at this moment').",
+      "ar": "صحيح! 'are being taken' هي صيغة المضارع المستمر للمبني للمجهول، وتشير إلى فعل قيد التقدم الآن ('at this moment')."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'are being taken'. 'Papers' اسم جمع. عبارة 'at this moment' تدل على أن الفعل يحدث الآن، لذا نستخدم المضارع المستمر للمبني للمجهول."
+    }
+  },
+  "unit11_w_19_pass_mcq7": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-perfect",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. When we reached the airport, we found that all the flights ………. due to the storm.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "is grown in Brazil",
+        "ar": ""
+      },
+      {
+        "en": "had been cancelled",
+        "ar": ""
+      },
+      {
+        "en": "are made in Japan",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "had been cancelled",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'had been cancelled' is Past Perfect passive, indicating an action completed before another past action (reaching the airport).",
+      "ar": "صحيح! 'had been cancelled' هي صيغة الماضي التام للمبني للمجهول، وتشير إلى فعل اكتمل قبل فعل ماضٍ آخر (الوصول إلى المطار)."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'had been cancelled'. 'flights' اسم جمع. إلغاء الرحلات حدث *قبل* وصولهم إلى المطار (فعل ماضٍ آخر). لوصف فعل اكتمل قبل فعل آخر في الماضي، نستخدم الماضي التام للمبني للمجهول."
+    }
+  },
+  "unit11_w_20_pass_mcq8": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-continuous",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "8. My laptop …………. when the teacher asked about the project.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "was being fixed",
+        "ar": ""
+      },
+      {
+        "en": "was given",
+        "ar": ""
+      },
+      {
+        "en": "were held in 1896",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was being fixed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was being fixed' is Past Continuous passive, indicating an ongoing action at the time of another past action.",
+      "ar": "صحيح! 'was being fixed' هي صيغة الماضي المستمر للمبني للمجهول، وتشير إلى فعل كان مستمرًا وقت حدوث فعل ماضٍ آخر."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'was being fixed'. 'laptop' اسم مفرد. إصلاح اللابتوب كان فعلاً مستمرًا ('being fixed') عندما سأل المعلم (فعل ماضٍ آخر قاطعه أو حدث خلاله). نستخدم الماضي المستمر للمبني للمجهول."
+    }
+  },
+  "unit11_w_21_pass_mcq9": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "present-perfect",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "9. Our house …………. with antiques.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "are found in the Himalayas",
+        "ar": ""
+      },
+      {
+        "en": "had been cancelled",
+        "ar": ""
+      },
+      {
+        "en": "has been furnished",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "has been furnished",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'has been furnished' is Present Perfect passive, indicating a completed action with relevance to the present state of the house.",
+      "ar": "صحيح! 'has been furnished' هي صيغة المضارع التام للمبني للمجهول، وتشير إلى فعل اكتمل وله صلة بالحالة الحالية للمنزل."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'has been furnished'. 'house' اسم مفرد. تأثيث المنزل فعل اكتمل في الماضي ولكن له نتيجة واضحة في الحاضر (المنزل مؤثث الآن). نستخدم المضارع التام للمبني للمجهول."
+    }
+  },
+  "unit11_w_22_pass_mcq10": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "passive-voice",
+      "past-simple",
+      "unit11",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Use the correct expression to complete the passive sentence.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "10. He …………. a book for his birthday.",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "was given",
+        "ar": ""
+      },
+      {
+        "en": "are being taken",
+        "ar": ""
+      },
+      {
+        "en": "is grown in Brazil",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "was given",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was given' is Past Simple passive, referring to a completed past event.",
+      "ar": "صحيح! 'was given' هي صيغة الماضي البسيط للمبني للمجهول، وتشير إلى حدث اكتمل في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'was given'. 'He' ضمير مفرد. إعطاؤه الكتاب حدث في الماضي وانتهى (عيد ميلاده). نستخدم الماضي البسيط للمبني للمجهول."
+    }
+  }
+}

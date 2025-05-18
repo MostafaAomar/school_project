@@ -1,0 +1,268 @@
+{
+  "unit10_s_1_vocab1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "rules", "application", "unit10", "fill-blank"],
+    "supportContent": {
+      "en": "Fill the space with a word from the box: [efficiently, productive, attain, principle, applicable]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Is that rule <input type='text' class='fill-blank-input' data-blank-id='vocab_s1_1' placeholder='word...'> in this case?",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s1_1": { "en": "applicable", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن القاعدة يمكن تطبيقها أو أنها ذات صلة بهذه الحالة هي 'applicable'."  
+    }
+  },
+  "unit10_s_2_vocab2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "ethics", "morals", "unit10", "fill-blank"],
+    "supportContent": {
+      "en": "Fill the space with a word from the box: [efficiently, productive, attain, principle, applicable]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. It's against my <input type='text' class='fill-blank-input' data-blank-id='vocab_s1_2' placeholder='word...'> to lie.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s1_2": { "en": "principle", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني قاعدة أساسية أو معتقد يوجه سلوكك هي 'principle' (مبدأ)."  
+    }
+  },
+  "unit10_s_3_vocab3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "work-ethic", "time-management", "unit10", "fill-blank"],
+    "supportContent": {
+      "en": "Fill the space with a word from the box: [efficiently, productive, attain, principle, applicable]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. She is a successful person. She knows how to use her time <input type='text' class='fill-blank-input' data-blank-id='vocab_s1_3' placeholder='word...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s1_3": { "en": "efficiently", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف كيفية استخدام الوقت بطريقة جيدة ومنظمة دون إضاعة هي 'efficiently' (بكفاءة)."  
+    }
+  },
+  "unit10_s_4_vocab4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "achievement", "education", "unit10", "fill-blank"],
+    "supportContent": {
+      "en": "Fill the space with a word from the box: [efficiently, productive, attain, principle, applicable]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. Most of our students <input type='text' class='fill-blank-input' data-blank-id='vocab_s1_4' placeholder='word...'> high grades in the final exam.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s1_4": { "en": "attain", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن الطلاب يحصلون على أو يحققون درجات عالية هي 'attain'."  
+    }
+  },
+  "unit10_s_5_vocab5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "work", "achievement", "unit10", "fill-blank"],
+    "supportContent": {
+      "en": "Fill the space with a word from the box: [efficiently, productive, attain, principle, applicable]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. I had a very <input type='text' class='fill-blank-input' data-blank-id='vocab_s1_5' placeholder='word...'> day; I finished the whole work.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab_s1_5": { "en": "productive", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف يومًا تم فيه إنجاز الكثير من العمل هي 'productive' (مُنتِج)."  
+    }
+  }
+,
+  "unit10_s_6_reported1": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "reported-speech", "indirect-question", "backshift", "unit10", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb between brackets for the reported question.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. He asked her if she ______ English.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "spoke", "ar": "" },
+      { "en": "speak", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "spoke",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! In reported questions, the verb often shifts back in tense (Present Simple 'Do you speak?' becomes Past Simple 'if she spoke').",
+      "ar": "صحيح! في الأسئلة المنقولة، غالبًا ما يتغير زمن الفعل إلى الأقدم (المضارع البسيط 'Do you speak?' يصبح ماضي بسيط 'if she spoke')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عند تحويل سؤال مباشر إلى سؤال منقول (غير مباشر)، إذا كان فعل القول في الماضي (asked)، فإن زمن الفعل في الجملة المنقولة يتغير إلى الزمن الأقدم. السؤال المباشر كان غالبًا 'Do you speak English?' (مضارع بسيط)، فيصبح في الكلام المنقول ماضي بسيط (spoke)."  
+    }
+  },
+  "unit10_s_7_reported2": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "reported-speech", "indirect-question", "backshift", "unit10", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb between brackets for the reported question.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. He asked me if I ______ British or American.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "was", "ar": "" },
+      { "en": "am", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "was",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'am' (Present Simple) in the direct question 'Are you...?' shifts to 'was' (Past Simple) in the reported question.",
+      "ar": "صحيح! 'am' (المضارع البسيط) في السؤال المباشر 'Are you...?' تتغير إلى 'was' (الماضي البسيط) في السؤال المنقول."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال المباشر كان غالبًا 'Are you British or American?' (مضارع بسيط مع فعل الكينونة 'be'). في الكلام المنقول، يتغير فعل الكينونة إلى الماضي البسيط (was)."  
+    }
+  },
+  "unit10_s_8_reported3": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "reported-speech", "indirect-question", "backshift", "unit10", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb between brackets for the reported question.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. They wanted to know whether we ______ a computer.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "have", "ar": "" },
+      { "en": "had", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Do you have...?' (Present Simple) shifts to 'if/whether we had...' (Past Simple) in reported speech.",
+      "ar": "صحيح! 'Do you have...?' (المضارع البسيط) تتغير إلى 'if/whether we had...' (الماضي البسيط) في الكلام المنقول."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال المباشر كان غالبًا 'Do you have a computer?' (مضارع بسيط). في الكلام المنقول، يتحول الفعل إلى الماضي البسيط (had)."  
+    }
+  },
+  "unit10_s_9_reported4": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "reported-speech", "indirect-question", "modal-verb", "backshift", "unit10", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb between brackets for the reported question.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. She asked if he ______ type.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "can", "ar": "" },
+      { "en": "could", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "could",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The modal 'can' in a direct question usually shifts to 'could' in reported speech.",
+      "ar": "صحيح! الفعل المساعد 'can' في السؤال المباشر يتغير عادةً إلى 'could' في الكلام المنقول."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال المباشر كان غالبًا 'Can he type?'. عند نقل هذا السؤال، يتغير الفعل المساعد 'can' إلى 'could'."  
+    }
+  },
+  "unit10_s_10_reported5": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["grammar", "reported-speech", "indirect-question", "wh-question", "backshift", "unit10", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb between brackets for the reported question.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. He asked how old her mother ______.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "is", "ar": "" },
+      { "en": "was", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "was",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'is' (Present Simple) in the direct question 'How old is her mother?' shifts to 'was' (Past Simple) in reported speech.",
+      "ar": "صحيح! 'is' (المضارع البسيط) في السؤال المباشر 'How old is her mother?' تتغير إلى 'was' (الماضي البسيط) في الكلام المنقول."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. السؤال المباشر كان 'How old is her mother?'. في الكلام المنقول، يظل ترتيب السؤال كما هو (كلمة الاستفهام ثم الفاعل ثم الفعل)، ولكن زمن الفعل يتغير إلى الماضي (was)."  
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "unit8_s_1_sentence_match": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["reading-comprehension", "risk-taking", "skywalking", "unit8", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Complete the sentences in A (draggable) with their suitable endings in B (drop zones).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the sentence beginnings with their endings:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "begin_skywalker", "text": { "en": "1. ''The sky walker'' is a name that was given", "ar": "" } },
+      { "id": "begin_tianjin", "text": { "en": "2. \"How did Angela Nikolau get to Tianjin, China?\" is a question that occurred", "ar": "" } },
+      { "id": "begin_daniel_lau", "text": { "en": "3. Daniel Lau scaled the skyscrapers of Hong Kong", "ar": "" } },
+      { "id": "begin_irresponsible", "text": { "en": "4. Irresponsible behaviour may cause people", "ar": "" } }
+    ],
+    "dropZones": [ 
+      { "id": "end_dropzone_1", "label": { "en": "1. to shoot a selfie.", "ar": "" }, "accepts": "begin_daniel_lau" },
+      { "id": "end_dropzone_2", "label": { "en": "2. to lose their lives.", "ar": "" }, "accepts": "begin_irresponsible" },
+      { "id": "end_dropzone_3", "label": { "en": "3. to Marat because he climbed up very high places.", "ar": "" }, "accepts": "begin_skywalker" },
+      { "id": "end_dropzone_4", "label": { "en": "4. to be a crazy idea.", "ar": "" }, "accepts": null },  
+      { "id": "end_dropzone_5", "label": { "en": "5. to people who saw the shocking scene.", "ar": "" }, "accepts": "begin_tianjin" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentence parts are matched logically.",
+      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل بشكل منطقي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. حاول ربط بداية كل جملة بالنهاية التي تكمل معناها بشكل منطقي بناءً على سياق تسلق الأماكن المرتفعة والمخاطر المحتملة. على سبيل المثال، لقب 'The sky walker' يُعطى لشخص يتسلق أماكن عالية."  
+    }
+  },
+    "unit8_s_2_regret_wish_match": {
+      "type": "drag-drop",
+      "difficulty": 2,
+      "tags": ["grammar", "wish-past-perfect", "regret", "unit8", "matching", "drag-drop"],
+      "supportContent": {
+        "en": "Match regrets in A (draggable) with wishes in B (drop zones).",
+        "ar": ""  
+      },
+      "questionText": {
+        "en": "Match the regrets with their corresponding wishes:",
+        "ar": ""  
+      },
+      "draggableItems": [
+        { "id": "regret1", "text": { "en": "1. I didn’t graduate from university.", "ar": "" } },
+        { "id": "regret2", "text": { "en": "2. I wasted too much time watching TV.", "ar": "" } },
+        { "id": "regret3", "text": { "en": "3. I didn't visit Australia when I was younger.", "ar": "" } },
+        { "id": "regret4", "text": { "en": "4. I didn't learn languages.", "ar": "" } },
+        { "id": "regret5", "text": { "en": "5. I had a boring desk job.", "ar": "" } },
+        { "id": "regret6", "text": { "en": "6. I didn't have enough time for sport.", "ar": "" } }
+      ],
+      "dropZones": [ 
+        { "id": "wish_dropzone_1", "label": { "en": "1. I wish I had learnt languages.", "ar": "" }, "accepts": "regret4" },
+        { "id": "wish_dropzone_2", "label": { "en": "2. I wish I hadn't wasted too much time watching TV.", "ar": "" }, "accepts": "regret2" },
+        { "id": "wish_dropzone_3", "label": { "en": "3. I wish I had had enough time for sport.", "ar": "" }, "accepts": "regret6" },
+        { "id": "wish_dropzone_4", "label": { "en": "4. I wish I had visited Australia when I was younger.", "ar": "" }, "accepts": "regret3" },
+        { "id": "wish_dropzone_5", "label": { "en": "5. I wish I had graduated from university.", "ar": "" }, "accepts": "regret1" },
+        { "id": "wish_dropzone_6", "label": { "en": "6. I wish I hadn't had a boring desk job.", "ar": "" }, "accepts": "regret5" }
+      ],
+      "feedbackCorrect": {
+        "en": "Correct! All regrets are correctly matched with their corresponding wishes.",
+        "ar": "صحيح! تم مطابقة جميع عبارات الندم بأمنياتها المقابلة بشكل صحيح."  
+      },
+      "feedbackIncorrect": {
+        "en": "",  
+        "ar": "الإجابة غير صحيحة. تذكر أن 'I wish + Past Perfect' تُستخدم للتعبير عن الندم على شيء حدث أو لم يحدث في الماضي. الأمنية تعكس عكس ما حدث أو الحالة التي تشعر بالندم عليها. على سبيل المثال، إذا كنت تندم على عدم التخرج، فإنك تتمنى لو أنك تخرجت."  
+      }
+    }
+  }

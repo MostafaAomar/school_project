@@ -1,0 +1,268 @@
+{
+  "unit7_w_1": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. I ______ the matter with my teacher before I told my father.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "discuss", "ar": "" },
+      { "en": "had discussed", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had discussed",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'had discussed' (Past Perfect) indicates an action completed before another past action ('told my father').",
+      "ar": "صحيح! 'had discussed' (الماضي التام) يشير إلى فعل اكتمل قبل فعل آخر في الماضي ('told my father')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. مناقشة الأمر مع المعلم حدثت قبل إخبار الأب (كلاهما في الماضي). نستخدم الماضي التام للفعل الذي حدث أولاً ('had discussed')."  
+    }
+  },
+  "unit7_w_2": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. The lesson ______ when we arrived.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "had already begun", "ar": "" },
+      { "en": "has already begun", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had already begun",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'had already begun' (Past Perfect) because the lesson started before another past action ('we arrived').",
+      "ar": "صحيح! 'had already begun' (الماضي التام) لأن الدرس بدأ قبل فعل آخر في الماضي ('we arrived')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. وصولنا ('arrived') حدث في الماضي. الدرس بدأ قبل وصولنا. نستخدم الماضي التام ('had already begun') للفعل الذي حدث أولاً."  
+    }
+  },
+  "unit7_w_3": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "experience", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. I ______ snow until I went to Canada.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "had never seen", "ar": "" },
+      { "en": "have never seen", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "had never seen",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'had never seen' (Past Perfect) refers to a state before a specific past event ('went to Canada').",
+      "ar": "صحيح! 'had never seen' (الماضي التام) يشير إلى حالة قبل حدث ماضٍ محدد ('went to Canada')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الذهاب إلى كندا ('went to Canada') حدث في الماضي. عدم رؤية الثلج كان قبل ذلك. نستخدم الماضي التام ('had never seen') لوصف عدم وجود خبرة سابقة قبل نقطة معينة في الماضي."  
+    }
+  },
+  "unit7_w_4": {
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "by-the-time", "unit7", "mcq"],
+    "supportContent": {
+      "en": "Choose the correct verb form between brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. By the time mom ______, I had prepared dinner.",
+      "ar": ""  
+    },
+    "options": [
+      { "en": "came", "ar": "" },
+      { "en": "comes", "ar": "" }
+    ],
+    "correctAnswer": {
+      "en": "came",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'came' (Past Simple) is needed because 'had prepared' is Past Perfect, indicating the preparation was finished before mom arrived in the past.",
+      "ar": "صحيح! 'came' (الماضي البسيط) مطلوبة لأن 'had prepared' هي ماضي تام، مما يشير إلى أن التحضير انتهى قبل وصول الأم في الماضي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الفعل 'had prepared' (الماضي التام) يدل على أن إعداد العشاء اكتمل قبل حدث آخر في الماضي. هذا الحدث الآخر (وصول الأم) يجب أن يكون في الماضي البسيط ('came'). 'comes' هي للمضارع."  
+    }
+  },
+  "unit7_w_5_verb_form1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-simple", "past-perfect", "sequence-of-events", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Write the correct form of the verbs in brackets (Past Simple or Past Perfect).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. I (feel) <input type='text' class='fill-blank-input' data-blank-id='verb1a' placeholder='...'> a little better after I (take) <input type='text' class='fill-blank-input' data-blank-id='verb1b' placeholder='...'> the medicine.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb1a": { "en": "felt", "ar": "" },
+      "verb1b": { "en": "had taken", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. تناول الدواء ('take') حدث قبل الشعور بالتحسن ('feel'). نستخدم الماضي التام للفعل الأول (had taken) والماضي البسيط للفعل الثاني (felt)."  
+    }
+  },
+  "unit7_w_6_verb_form2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Write the correct form of the verbs in brackets (Past Simple or Past Perfect).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. She was late. The teacher (give already) <input type='text' class='fill-blank-input' data-blank-id='verb2a' placeholder='...'> a test when she (get) <input type='text' class='fill-blank-input' data-blank-id='verb2b' placeholder='...'> to class last Monday.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb2a": { "en": "had already given", "ar": "" },
+      "verb2b": { "en": "got", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. إعطاء المعلم للاختبار ('give already') حدث قبل وصولها ('get') إلى الفصل. نستخدم الماضي التام للفعل الأول (had already given) والماضي البسيط للفعل الثاني (got)."  
+    }
+  },
+  "unit7_w_7_verb_form3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "career", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Write the correct form of the verbs in brackets (Past Simple or Past Perfect).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. Maram (be) <input type='text' class='fill-blank-input' data-blank-id='verb3a' placeholder='...'> a newspaper reporter before she (become) <input type='text' class='fill-blank-input' data-blank-id='verb3b' placeholder='...'> an ambassador.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb3a": { "en": "had been", "ar": "" },
+      "verb3b": { "en": "became", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كونها مراسلة صحفية ('be') كان قبل أن تصبح سفيرة ('become'). نستخدم الماضي التام للفعل الأول (had been) والماضي البسيط للفعل الثاني (became)."  
+    }
+  },
+  "unit7_w_8_verb_form4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-simple", "past-perfect", "sequence-of-events", "weather", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Write the correct form of the verbs in brackets (Past Simple or Past Perfect).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. It was raining heavily, but by the time class (be) <input type='text' class='fill-blank-input' data-blank-id='verb4a' placeholder='...'> over, the rain (stop) <input type='text' class='fill-blank-input' data-blank-id='verb4b' placeholder='...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb4a": { "en": "was", "ar": "" },
+      "verb4b": { "en": "had stopped", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. توقف المطر ('stop') حدث قبل انتهاء الحصة ('be over'). نستخدم الماضي التام للفعل الأول (had stopped) والماضي البسيط للفعل الثاني (was)."  
+    }
+  },
+  "unit7_w_9_verb_form5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "history", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Write the correct form of the verbs in brackets (Past Simple or Past Perfect).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. Dinosaurs (become) <input type='text' class='fill-blank-input' data-blank-id='verb5a' placeholder='...'> extinct by the time humankind first (appear) <input type='text' class='fill-blank-input' data-blank-id='verb5b' placeholder='...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb5a": { "en": "had become", "ar": "" },
+      "verb5b": { "en": "appeared", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. انقراض الديناصورات ('become extinct') حدث قبل ظهور البشرية ('appear'). نستخدم الماضي التام للفعل الأول (had become) والماضي البسيط للفعل الثاني (appeared)."  
+    }
+  },
+  "unit7_w_10_verb_form6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "tenses", "past-perfect", "past-simple", "sequence-of-events", "art", "unit7", "fill-blank"],
+    "supportContent": {
+      "en": "Write the correct form of the verbs in brackets (Past Simple or Past Perfect).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. They (never see) <input type='text' class='fill-blank-input' data-blank-id='verb6a' placeholder='...'> any of his paintings before they (visit) <input type='text' class='fill-blank-input' data-blank-id='verb6b' placeholder='...'> the Art Museum yesterday.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "verb6a": { "en": "had never seen", "ar": "" },
+      "verb6b": { "en": "visited", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. عدم رؤيتهم للوحات ('never see') كان قبل زيارتهم للمتحف ('visit'). نستخدم الماضي التام للفعل الأول (had never seen) والماضي البسيط للفعل الثاني (visited)."  
+    }
+  }
+}

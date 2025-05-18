@@ -1,0 +1,794 @@
+{
+  "unit12_w_1_keyword1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "key-words",
+      "adjective",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the space with a suitable word from the key words [a sign, wag, gesture, command, a response, motivations, to engage, intellectual]. Make changes if necessary.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. The student was very <input type='text' class='fill-blank-input' data-blank-id='key1' placeholder='key word...'>; he gave a smart answer to a very difficult quiz.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "key1": {
+        "en": "intellectual",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'intellectual'. الكلمة التي تصف شخصًا لديه قدرة على الفهم بذكاء هي 'intellectual'."
+    }
+  },
+  "unit12_w_2_keyword2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "key-words",
+      "verb",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the space with a suitable word from the key words [a sign, wag, gesture, command, a response, motivations, to engage, intellectual]. Make changes if necessary.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. The police are always ready to <input type='text' class='fill-blank-input' data-blank-id='key2' placeholder='key word...'> to people’s calls for help.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "key2": {
+        "en": "respond",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The verb form 'respond' is needed.",
+      "ar": "صحيح! صيغة الفعل 'respond' هي المطلوبة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'respond'. الكلمة التي تعني رد فعل أو استجابة لشيء ما هي 'a response'. لكن الجملة تحتاج إلى فعل، لذا نستخدم صيغة الفعل 'respond'."
+    }
+  },
+  "unit12_w_3_keyword3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "key-words",
+      "noun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the space with a suitable word from the key words [a sign, wag, gesture, command, a response, motivations, to engage, intellectual]. Make changes if necessary.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The dog was wagging its tail as a <input type='text' class='fill-blank-input' data-blank-id='key3' placeholder='key word...'> of happiness.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "key3": {
+        "en": "sign",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'sign'. الكلمة التي تعني حركة أو صوتًا تقوم به لإخبار شخص ما بشيء هي 'a sign'. في هذا السياق، نستخدم 'sign' كاسم."
+    }
+  },
+  "unit12_w_4_keyword4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "key-words",
+      "noun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Fill in the space with a suitable word from the key words [a sign, wag, gesture, command, a response, motivations, to engage, intellectual]. Make changes if necessary.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The animals at the circus do the movements following their trainers' <input type='text' class='fill-blank-input' data-blank-id='key4' placeholder='key word...'>",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "key4": {
+        "en": "commands",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The plural 'commands' is needed.",
+      "ar": "صحيح! صيغة الجمع 'commands' هي المطلوبة."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'commands'. الكلمة التي تعني أمرًا هي 'command'. بما أن المدربين يصدرون أوامر متعددة، نستخدم صيغة الجمع 'commands'."
+    }
+  },
+  "unit12_w_5_possessive1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. This book is <input type='text' class='fill-blank-input' data-blank-id='poss1' placeholder='(you)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss1": {
+        "en": "yours",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'yours'. ضمير الملكية المقابل لـ 'you' (عندما لا يتبعه اسم) هو 'yours'."
+    }
+  },
+  "unit12_w_6_possessive2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. The ball is <input type='text' class='fill-blank-input' data-blank-id='poss2' placeholder='(I)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss2": {
+        "en": "mine",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'mine'. ضمير الملكية المقابل لـ 'I' (عندما لا يتبعه اسم) هو 'mine'."
+    }
+  },
+  "unit12_w_7_possessive3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. The blue car is <input type='text' class='fill-blank-input' data-blank-id='poss3' placeholder='(we)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss3": {
+        "en": "ours",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'ours'. ضمير الملكية المقابل لـ 'we' (عندما لا يتبعه اسم) هو 'ours'."
+    }
+  },
+  "unit12_w_8_possessive4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The ring is <input type='text' class='fill-blank-input' data-blank-id='poss4' placeholder='(she)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss4": {
+        "en": "hers",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'hers'. ضمير الملكية المقابل لـ 'she' (عندما لا يتبعه اسم) هو 'hers'."
+    }
+  },
+  "unit12_w_9_possessive5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. We met Paul and Jane last night. This house is <input type='text' class='fill-blank-input' data-blank-id='poss5' placeholder='(they)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss5": {
+        "en": "theirs",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'theirs'. ضمير الملكية المقابل لـ 'they' (عندما لا يتبعه اسم) هو 'theirs'."
+    }
+  },
+  "unit12_w_10_possessive6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. The luggage is <input type='text' class='fill-blank-input' data-blank-id='poss6' placeholder='(he)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss6": {
+        "en": "his",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'his'. ضمير الملكية المقابل لـ 'he' (عندما لا يتبعه اسم) هو 'his'."
+    }
+  },
+  "unit12_w_11_possessive7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "possessive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Replace the personal pronoun in brackets with the correct possessive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. There is a bird In our garden. The nest is <input type='text' class='fill-blank-input' data-blank-id='poss7' placeholder='(it)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "poss7": {
+        "en": "its",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'its'. ضمير الملكية المقابل لـ 'it' هو 'its' (بدون فاصلة علوية)."
+    }
+  },
+  "unit12_w_12_reflexive1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. Robert made this T-shirt <input type='text' class='fill-blank-input' data-blank-id='refl1' placeholder='reflexive...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl1": {
+        "en": "himself",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'himself'. الضمير الانعكاسي الذي يعود على 'Robert' (مفرد مذكر) هو 'himself'."
+    }
+  },
+  "unit12_w_13_reflexive2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. Tim and Gerry, if you want more milk, help <input type='text' class='fill-blank-input' data-blank-id='refl2' placeholder='reflexive...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl2": {
+        "en": "yourselves",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'yourselves'. عند مخاطبة شخصين أو أكثر ('Tim and Gerry' أو 'you' بصيغة الجمع)، يكون الضمير الانعكاسي هو 'yourselves'."
+    }
+  },
+  "unit12_w_14_reflexive3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Alice and Doris collected the stickers <input type='text' class='fill-blank-input' data-blank-id='refl3' placeholder='reflexive...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl3": {
+        "en": "themselves",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'themselves'. الضمير الانعكاسي الذي يعود على 'Alice and Doris' (جمع) هو 'themselves'."
+    }
+  },
+  "unit12_w_15_reflexive4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. The girl looked at <input type='text' class='fill-blank-input' data-blank-id='refl4' placeholder='reflexive...'> in the mirror.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl4": {
+        "en": "herself",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'herself'. الضمير الانعكاسي الذي يعود على 'The girl' (مفرد مؤنث) هو 'herself'."
+    }
+  },
+  "unit12_w_16_reflexive5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Freddy, you'll have to do your homework <input type='text' class='fill-blank-input' data-blank-id='refl5' placeholder='reflexive...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl5": {
+        "en": "yourself",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'yourself'. عند مخاطبة شخص واحد ('Freddy' أو 'you' بصيغة المفرد)، يكون الضمير الانعكاسي هو 'yourself'."
+    }
+  },
+  "unit12_w_17_reflexive6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. I introduced <input type='text' class='fill-blank-input' data-blank-id='refl6' placeholder='reflexive...'> to my new neighbour.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl6": {
+        "en": "myself",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'myself'. الضمير الانعكاسي الذي يعود على 'I' هو 'myself'."
+    }
+  },
+  "unit12_w_18_reflexive7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "pronoun",
+      "reflexive-pronoun",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with the correct reflexive pronoun.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "7. We can move the table <input type='text' class='fill-blank-input' data-blank-id='refl7' placeholder='reflexive...'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "refl7": {
+        "en": "ourselves",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'ourselves'. الضمير الانعكاسي الذي يعود على 'We' هو 'ourselves'."
+    }
+  },
+  "unit12_w_19_qtag1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "question-tag",
+      "present-simple",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence using a question tag.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "1. You like fish, <input type='text' class='fill-blank-input' data-blank-id='qtag1' placeholder='tag...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qtag1": {
+        "en": "don't you",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'don't you'. الجملة الرئيسية مثبتة وفي المضارع البسيط (like). السؤال المذيل يكون منفيًا (don't) ويستخدم نفس الفاعل (you)."
+    }
+  },
+  "unit12_w_20_qtag2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "question-tag",
+      "present-simple-be",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence using a question tag.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "2. John isn't very happy, <input type='text' class='fill-blank-input' data-blank-id='qtag2' placeholder='tag...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qtag2": {
+        "en": "is he",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'is he'. الجملة الرئيسية منفية وفي المضارع البسيط مع فعل الكينونة (isn't). السؤال المذيل يكون مثبتًا (is) ويستخدم نفس الفاعل (he)."
+    }
+  },
+  "unit12_w_21_qtag3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "question-tag",
+      "present-simple-be",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence using a question tag.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "3. Your parents aren't at home, <input type='text' class='fill-blank-input' data-blank-id='qtag3' placeholder='tag...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qtag3": {
+        "en": "are they",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'are they'. الجملة الرئيسية منفية وفي المضارع البسيط مع فعل الكينونة (aren't). السؤال المذيل يكون مثبتًا (are) والفاعل 'Your parents' يعوض عنه بـ 'they'."
+    }
+  },
+  "unit12_w_22_qtag4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "question-tag",
+      "past-simple",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence using a question tag.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "4. He didn't eat much lunch, <input type='text' class='fill-blank-input' data-blank-id='qtag4' placeholder='tag...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qtag4": {
+        "en": "did he",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'did he'. الجملة الرئيسية منفية وفي الماضي البسيط (didn't eat). السؤال المذيل يكون مثبتًا (did) ويستخدم نفس الفاعل (he)."
+    }
+  },
+  "unit12_w_23_qtag5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "question-tag",
+      "present-perfect",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence using a question tag.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "5. Your friends haven't left yet, <input type='text' class='fill-blank-input' data-blank-id='qtag5' placeholder='tag...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qtag5": {
+        "en": "have they",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'have they'. الجملة الرئيسية منفية وفي المضارع التام (haven't left). السؤال المذيل يكون مثبتًا (have) والفاعل 'Your friends' يعوض عنه بـ 'they'."
+    }
+  },
+  "unit12_w_24_qtag6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "question-tag",
+      "imperative-let's",
+      "unit12",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence using a question tag.",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "6. Let’s go to the party, <input type='text' class='fill-blank-input' data-blank-id='qtag6' placeholder='tag...'>?",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "qtag6": {
+        "en": "shall we",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة الصحيحة هي 'shall we'. عندما تبدأ الجملة بـ 'Let's' (دعنا)، يكون السؤال المذيل المناسب هو 'shall we?'."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "unit7_s_1_vocab_match": {
+    "type": "drag-drop",
+    "difficulty": 1,
+    "tags": ["vocabulary", "sea", "disaster", "titanic", "unit7", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the words in column A (draggable) with their definitions in column B (drop zones).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the words with their definitions:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "word_iceberg", "text": { "en": "iceberg", "ar": "" } },  
+      { "id": "word_lifeboat", "text": { "en": "lifeboat", "ar": "" } },
+      { "id": "word_sink", "text": { "en": "to sink", "ar": "" } },
+      { "id": "word_survivor", "text": { "en": "survivor", "ar": "" } },
+      { "id": "word_supply", "text": { "en": "to supply", "ar": "" } }
+    ],
+    "dropZones": [
+      
+      { "id": "def_dropzone_1", "label": { "en": "1. a small boat to save people on board if the ship sinks", "ar": "" }, "accepts": "word_lifeboat" },
+      { "id": "def_dropzone_2", "label": { "en": "2. a person who continues to live after danger", "ar": "" }, "accepts": "word_survivor" },
+      { "id": "def_dropzone_3", "label": { "en": "3. to provide", "ar": "" }, "accepts": "word_supply" },
+      { "id": "def_dropzone_4", "label": { "en": "4. to go down below the surface or towards the bottom of a liquid or soft substance.", "ar": "" }, "accepts": "word_sink" },
+      { "id": "def_dropzone_5", "label": { "en": "5. a large mass of ice floating in the sea", "ar": "" }, "accepts": "word_iceberg" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All words are matched with their definitions.",
+      "ar": "صحيح! تم مطابقة جميع الكلمات بتعاريفها."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. راجع المعاني: 'iceberg' هو جبل جليدي، 'lifeboat' هو قارب نجاة، 'to sink' يعني يغرق، 'survivor' هو الناجي، و 'to supply' يعني يزود أو يوفر."  
+    }
+  }
+,
+  "unit7_s_2_sentence_match": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["reading-comprehension", "titanic", "history", "sequence-of-events", "unit7", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match the beginnings of the sentences in column A (draggable) with their correct endings in column B (drop zones).",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the sentence beginnings with their endings:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "begin_titanic", "text": { "en": "1. The Titanic was carrying 2207 people, but", "ar": "" } },
+      { "id": "begin_passengers", "text": { "en": "2. Many passengers had not dressed warmly,", "ar": "" } },
+      { "id": "begin_warnings", "text": { "en": "3. The ship had received 6 warnings when", "ar": "" } },
+      { "id": "begin_direction", "text": { "en": "4. It had not changed its direction or", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "end_dropzone_1", "label": { "en": "1. because they didn't believe that they were in danger.", "ar": "" }, "accepts": "begin_passengers" },
+      { "id": "end_dropzone_2", "label": { "en": "2. it had taken lifeboats enough for only 1178 people.", "ar": "" }, "accepts": "begin_titanic" },
+      { "id": "end_dropzone_3", "label": { "en": "3. its speed after 6 warnings.", "ar": "" }, "accepts": "begin_direction" },
+      { "id": "end_dropzone_4", "label": { "en": "4. it struck the iceberg.", "ar": "" }, "accepts": "begin_warnings" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentence parts are matched to form historically accurate statements about the Titanic.",
+      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل لتكوين عبارات دقيقة تاريخيًا حول تيتانيك."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. حاول ربط بداية كل جملة بالنهاية التي تكمل معناها بشكل منطقي بناءً على أحداث تيتانيك. على سبيل المثال، قلة قوارب النجاة تتعلق بعدد الركاب، وعدم ارتداء ملابس دافئة كان بسبب عدم تصديق الخطر."  
+    }
+  }
+}

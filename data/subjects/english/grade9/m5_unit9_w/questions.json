@@ -1,0 +1,423 @@
+{
+  "unit9_w_1_r1_noun": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "verb-die", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Noun form. Given Verb: die", "ar": "" },
+    "questionText": {
+      "en": "Verb: die | Noun: <input type='text' class='fill-blank-input' data-blank-id='r1n' placeholder='Enter Noun...'> | Adjective: ...",
+      "ar": ""
+    },
+    "correctAnswers": { "r1n": { "en": "death", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الاسم من الفعل 'die' هو 'death'." }
+  },
+  "unit9_w_1_r1_adj": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "verb-die", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Adjective form. Given Verb: die", "ar": "" },
+    "questionText": {
+      "en": "Verb: die | Noun: ... | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r1a' placeholder='Enter Adjective...'>",
+      "ar": ""
+    },
+    "correctAnswers": { "r1a": { "en": "dead", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الصفة من الفعل 'die' هي 'dead'. (كلمة 'dying' هي اسم الفاعل/صفة أيضاً)." }
+  },
+  "unit9_w_1_r2_verb": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "verb", "noun-encouragement", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Verb form. Given Noun: encouragement", "ar": "" },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='r2v' placeholder='Enter Verb...'> | Noun: encouragement | Adjective: ...",
+      "ar": ""
+    },
+    "correctAnswers": { "r2v": { "en": "encourage", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الفعل من الاسم 'encouragement' هو 'encourage'." }
+  },
+  "unit9_w_1_r2_adj": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "noun-encouragement", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Adjective form. Given Noun: encouragement", "ar": "" },
+    "questionText": {
+      "en": "Verb: ... | Noun: encouragement | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r2a' placeholder='Enter Adjective...'>",
+      "ar": ""
+    },
+    "correctAnswers": { "r2a": { "en": "encouraging", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الصفة من الاسم 'encouragement' هي 'encouraging'." }
+  },
+  "unit9_w_1_r3_verb": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "verb", "noun-production", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Verb form. Given Noun: production", "ar": "" },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='r3v' placeholder='Enter Verb...'> | Noun: production | Adjective: ...",
+      "ar": ""
+    },
+    "correctAnswers": { "r3v": { "en": "produce", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الفعل من الاسم 'production' هو 'produce'." }
+  },
+  "unit9_w_1_r3_adj": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "noun-production", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Adjective form. Given Noun: production", "ar": "" },
+    "questionText": {
+      "en": "Verb: ... | Noun: production | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r3a' placeholder='Enter Adjective...'>",
+      "ar": ""
+    },
+    "correctAnswers": { "r3a": { "en": "productive", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الصفة من الاسم 'production' هي 'productive'." }
+  },
+  "unit9_w_1_r4_noun": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "verb-comfort", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Noun form. Given Verb: comfort", "ar": "" },
+    "questionText": {
+      "en": "Verb: comfort | Noun: <input type='text' class='fill-blank-input' data-blank-id='r4n' placeholder='Enter Noun...'> | Adjective: ...",
+      "ar": ""
+    },
+    "correctAnswers": { "r4n": { "en": "comfort", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct! 'Comfort' can be both a verb and a noun.", "ar": "صحيح! كلمة 'comfort' يمكن أن تكون فعلاً واسماً." },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الاسم من الفعل 'comfort' هو 'comfort' أيضاً." }
+  },
+  "unit9_w_1_r4_adj": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "verb-comfort", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Adjective form. Given Verb: comfort", "ar": "" },
+    "questionText": {
+      "en": "Verb: comfort | Noun: ... | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r4a' placeholder='Enter Adjective...'>",
+      "ar": ""
+    },
+    "correctAnswers": { "r4a": { "en": "comfortable", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الصفة من الفعل 'comfort' هي 'comfortable'." }
+  },
+  "unit9_w_1_r5_verb": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "verb", "noun-responsibility", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Verb form. Given Noun: responsibility", "ar": "" },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='r5v' placeholder='Enter Verb...'> | Noun: responsibility | Adjective: ...",
+      "ar": ""
+    },
+    "correctAnswers": { "r5v": { "en": "respond", "ar": "" } },  
+    "feedbackCorrect": { "en": "Correct! 'Respond' is a related verb.", "ar": "صحيح! 'Respond' هو فعل مرتبط." },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. فعل وثيق الصلة بالاسم 'responsibility' هو 'respond'. يمكن أيضاً التفكير في 'to be responsible'." }
+  },
+  "unit9_w_1_r5_adj": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "adjective", "noun-responsibility", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Adjective form. Given Noun: responsibility", "ar": "" },
+    "questionText": {
+      "en": "Verb: ... | Noun: responsibility | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r5a' placeholder='Enter Adjective...'>",
+      "ar": ""
+    },
+    "correctAnswers": { "r5a": { "en": "responsible", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الصفة من الاسم 'responsibility' هي 'responsible'." }
+  },
+  "unit9_w_1_r6_verb": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "verb", "adj-respectable", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Verb form. Given Adjective: respectable", "ar": "" },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='r6v' placeholder='Enter Verb...'> | Noun: ... | Adjective: respectable",
+      "ar": ""
+    },
+    "correctAnswers": { "r6v": { "en": "respect", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الفعل من الصفة 'respectable' هو 'respect'." }
+  },
+  "unit9_w_1_r6_noun": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "adj-respectable", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Noun form. Given Adjective: respectable", "ar": "" },
+    "questionText": {
+      "en": "Verb: ... | Noun: <input type='text' class='fill-blank-input' data-blank-id='r6n' placeholder='Enter Noun...'> | Adjective: respectable",
+      "ar": ""
+    },
+    "correctAnswers": { "r6n": { "en": "respect", "ar": "" } },  
+    "feedbackCorrect": { "en": "Correct! 'Respect' is a noun form.", "ar": "صحيح! 'Respect' هي صيغة اسم." },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الاسم من الصفة 'respectable' يمكن أن يكون 'respect' أو 'respectability'." }
+  },
+  "unit9_w_1_r7_noun": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "verb-contribute", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Noun form. Given Verb: contribute", "ar": "" },
+    "questionText": {
+      "en": "Verb: contribute | Noun: <input type='text' class='fill-blank-input' data-blank-id='r7n' placeholder='Enter Noun...'> | Adjective: ...",
+      "ar": ""
+    },
+    "correctAnswers": { "r7n": { "en": "contribution", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الاسم من الفعل 'contribute' هو 'contribution'." }
+  },
+  "unit9_w_1_r7_adj": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "adjective", "verb-contribute", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Adjective form. Given Verb: contribute", "ar": "" },
+    "questionText": {
+      "en": "Verb: contribute | Noun: ... | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r7a' placeholder='Enter Adjective...'>",
+      "ar": ""
+    },
+    "correctAnswers": { "r7a": { "en": "contributory", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الصفة من الفعل 'contribute' هي 'contributory'." }
+  },
+  "unit9_w_1_r8_verb": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["vocabulary", "word-formation", "verb", "adj-talented", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Verb form. Given Adjective: talented", "ar": "" },
+    "questionText": {
+      "en": "Verb: <input type='text' class='fill-blank-input' data-blank-id='r8v' placeholder='Enter Verb...'> | Noun: ... | Adjective: talented",
+      "ar": ""
+    },
+    "correctAnswers": { "r8v": { "en": "", "ar": "" } },  
+    "feedbackCorrect": { "en": "This is tricky! There isn't a direct single verb for 'talented'. One might say 'to develop talent' or 'to showcase talent'.", "ar": "هذا سؤال صعب! لا يوجد فعل مفرد مباشر لكلمة 'talented'. يمكن القول 'ينمي الموهبة' أو 'يستعرض الموهبة'." },
+    "feedbackIncorrect": { "en": "", "ar": "عادةً لا يوجد فعل مفرد مباشر مشتق من الصفة 'talented'. يمكن التعبير عن الفكرة باستخدام عبارات مثل 'to possess talent' (يمتلك موهبة) أو 'to develop talent' (ينمي الموهبة)." }
+  },
+  "unit9_w_1_r8_noun": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["vocabulary", "word-formation", "noun", "adj-talented", "unit9", "fill-blank"],
+    "supportContent": { "en": "Find the Noun form. Given Adjective: talented", "ar": "" },
+    "questionText": {
+      "en": "Verb: ... | Noun: <input type='text' class='fill-blank-input' data-blank-id='r8n' placeholder='Enter Noun...'> | Adjective: talented",
+      "ar": ""
+    },
+    "correctAnswers": { "r8n": { "en": "talent", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الاسم من الصفة 'talented' هو 'talent'." }
+  },
+  "unit9_w_2_sentence_match": {
+    "type": "drag-drop",
+    "difficulty": 2,
+    "tags": ["reading-comprehension", "motivation", "society", "unit9", "matching", "drag-drop"],
+    "supportContent": {
+      "en": "Match column A (draggable) with column B (drop zones) to form complete sentences.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "Match the sentence beginnings with their endings:",
+      "ar": ""  
+    },
+    "draggableItems": [
+      { "id": "begin_susan_studies", "text": { "en": "1. Encouraging Susan to finish her studies was", "ar": "" } },
+      { "id": "begin_susan_mother", "text": { "en": "2. To make her daughter feel comfortable,", "ar": "" } },
+      { "id": "begin_susan_believes", "text": { "en": "3. Susan believes that", "ar": "" } },
+      { "id": "begin_welfare_society", "text": { "en": "4. Working for the welfare of society is", "ar": "" } }
+    ],
+    "dropZones": [
+      { "id": "end_dropzone_1", "label": { "en": "1. an important skill of good citizens.", "ar": "" }, "accepts": "begin_welfare_society" },
+      { "id": "end_dropzone_2", "label": { "en": "2. what is black tonight turns white in the morning.", "ar": "" }, "accepts": "begin_susan_believes" },
+      { "id": "end_dropzone_3", "label": { "en": "3. the advice of her father.", "ar": "" }, "accepts": "begin_susan_studies" },
+      { "id": "end_dropzone_4", "label": { "en": "4. Susan’s mother works hard.", "ar": "" }, "accepts": "begin_susan_mother" }
+    ],
+    "feedbackCorrect": {
+      "en": "Correct! All sentence parts are matched logically.",
+      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل بشكل منطقي."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. حاول ربط بداية كل جملة بالنهاية التي تكمل معناها. على سبيل المثال، تشجيع سوزان على الدراسة كان نصيحة والدها. العمل من أجل رفاهية المجتمع هو مهارة مهمة."  
+    }
+  },
+  "unit9_w_3_relative1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "which", "that", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun (who, which, whose, where, when, whom).", "ar": "" },
+    "questionText": { "en": "1. My sister wore a mask <input type='text' class='fill-blank-input' data-blank-id='rel1' placeholder='...'> made her look like Mickey Mouse.", "ar": "" },
+    "correctAnswers": { "rel1": { "en": ["which", "that"], "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول المناسب للإشارة إلى 'mask' (شيء) هو 'which' أو 'that'." }
+  },
+  "unit9_w_3_relative2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "who", "that", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "2. He came with a friend <input type='text' class='fill-blank-input' data-blank-id='rel2' placeholder='...'> waited outside in the car.", "ar": "" },
+    "correctAnswers": { "rel2": { "en": ["who", "that"], "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول المناسب للإشارة إلى 'a friend' (شخص) هو 'who' أو 'that'." }
+  },
+  "unit9_w_3_relative3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "whose", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "3. The man <input type='text' class='fill-blank-input' data-blank-id='rel3' placeholder='...'> mobile was ringing did not know what to do.", "ar": "" },
+    "correctAnswers": { "rel3": { "en": "whose", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول الذي يدل على الملكية (هاتف الرجل) هو 'whose'." }
+  },
+  "unit9_w_3_relative4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "when", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "4. I still remember the days <input type='text' class='fill-blank-input' data-blank-id='rel4' placeholder='...'> grandmother told us interesting stories.", "ar": "" },
+    "correctAnswers": { "rel4": { "en": "when", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول الذي يشير إلى الزمن ('the days') هو 'when'." }
+  },
+  "unit9_w_3_relative5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "which", "that", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "5. He didn't wait at the traffic light <input type='text' class='fill-blank-input' data-blank-id='rel5' placeholder='...'> was red.", "ar": "" },
+    "correctAnswers": { "rel5": { "en": ["which", "that"], "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول المناسب للإشارة إلى 'the traffic light' (شيء) هو 'which' أو 'that'." }
+  },
+  "unit9_w_3_relative6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "where", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "6. Is that the hospital <input type='text' class='fill-blank-input' data-blank-id='rel6' placeholder='...'> your brother works?", "ar": "" },
+    "correctAnswers": { "rel6": { "en": "where", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول الذي يشير إلى المكان ('the hospital') حيث يعمل أخوه هو 'where'." }
+  },
+  "unit9_w_3_relative7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "whom", "who", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "7. Who was that lady <input type='text' class='fill-blank-input' data-blank-id='rel7' placeholder='...'> you were talking to?", "ar": "" },
+    "correctAnswers": { "rel7": { "en": ["whom", "who", "that"], "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول المناسب للإشارة إلى 'that lady' (شخص) كمفعول به للفعل 'talking to' هو 'whom' (رسمي) أو 'who' (أقل رسمية) أو 'that'. ويمكن حذف الضمير أيضاً في هذه الحالة." }
+  },
+  "unit9_w_3_relative8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "where", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "8. I live in the city <input type='text' class='fill-blank-input' data-blank-id='rel8' placeholder='...'> my friend studies.", "ar": "" },
+    "correctAnswers": { "rel8": { "en": "where", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول الذي يشير إلى المكان ('the city') حيث يدرس صديقي هو 'where'." }
+  },
+  "unit9_w_3_relative9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "relative-pronoun", "where", "unit9", "fill-blank"],
+    "supportContent": { "en": "Complete with a correct relative pronoun.", "ar": "" },
+    "questionText": { "en": "9. Do you know a good store <input type='text' class='fill-blank-input' data-blank-id='rel9' placeholder='...'> I can buy a new shirt?", "ar": "" },
+    "correctAnswers": { "rel9": { "en": "where", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. الضمير الموصول الذي يشير إلى المكان ('a good store') حيث يمكن شراء قميص هو 'where'." }
+  },
+  "unit9_w_4_combine1": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun, eliminating repeated words. Write the full combined sentence.", "ar": "" },
+    "questionText": { "en": "1. A person is lucky. That person has a lot of friends.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb1' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb1": { "en": "A person who has a lot of friends is lucky.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'who' أو 'that' للإشارة إلى 'A person'. احذف 'That person' المكررة." }
+  },
+  "unit9_w_4_combine2": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "whose", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "2. Martha has a brother. Her brother’s name is Manuel.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb2' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb2": { "en": "Martha has a brother whose name is Manuel.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'whose' للإشارة إلى ملكية الاسم للأخ ('Her brother’s name')." }
+  },
+  "unit9_w_4_combine3": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "where", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "3. That is the house. I grew up with my sister Emilia there.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb3' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb3": { "en": "That is the house where I grew up with my sister Emilia.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'where' (أو 'in which') للإشارة إلى المكان ('the house'). احذف 'there' المكررة." }
+  },
+  "unit9_w_4_combine4": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "when", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "4. I remember that wonderful summer. The whole family gathered again then.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb4' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb4": { "en": "I remember that wonderful summer when the whole family gathered again.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'when' للإشارة إلى الزمن ('that wonderful summer'). احذف 'then' المكررة." }
+  },
+  "unit9_w_4_combine5": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "which", "that", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "5. Leila gave me a beautiful souvenir. Leila bought the souvenir from Al-Hamideya souk.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb5' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb5": { "en": "Leila gave me a beautiful souvenir which she bought from Al-Hamideya souk.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'which' أو 'that' للإشارة إلى 'a beautiful souvenir'. احذف 'Leila bought the souvenir' المكررة، واستبدل 'the souvenir' بالضمير الموصول." }
+  },
+  "unit9_w_4_combine6": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "who", "that", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "6. The teacher smiled at Sami. Sami was working very hard.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb6' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb6": { "en": "The teacher smiled at Sami, who was working very hard.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct! The comma indicates a non-defining clause.", "ar": "صحيح! الفاصلة تشير إلى جملة وصلية غير مُعرِّفة." },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'who' للإشارة إلى 'Sami'. بما أن الجملة الثانية تضيف معلومة إضافية، يمكن استخدام فاصلة قبل 'who' لتكوين جملة وصلية غير مُعرِّفة." }
+  },
+  "unit9_w_4_combine7": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "which", "that", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "7. I couldn’t write with that pen. Dana gave me a pen.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb7' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb7": { "en": "I couldn’t write with the pen which Dana gave me.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'which' أو 'that' (أو يمكن حذفها) للإشارة إلى 'a pen' الذي أعطته دانة. يمكنك القول 'the pen which/that Dana gave me'." }
+  },
+  "unit9_w_4_combine8": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "where", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "8. I like to eat at that restaurant. The food is healthy and the price is reasonable there.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb8' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb8": { "en": "I like to eat at that restaurant where the food is healthy and the price is reasonable.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'where' للإشارة إلى المكان ('that restaurant'). احذف 'there' المكررة." }
+  },
+  "unit9_w_4_combine9": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["grammar", "relative-clause", "who", "sentence-combining", "unit9", "fill-blank"],
+    "supportContent": { "en": "Combine the sentences using a relative pronoun.", "ar": "" },
+    "questionText": { "en": "9. Last week I met Mrs. Smith. She lives next door.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb9' placeholder='Type combined sentence...'>", "ar": "" },
+    "correctAnswers": { "comb9": { "en": "Last week I met Mrs. Smith, who lives next door.", "ar": "" } },
+    "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
+    "feedbackIncorrect": { "en": "", "ar": "الإجابة غير صحيحة. استخدم 'who' للإشارة إلى 'Mrs. Smith'. بما أن الجملة الثانية تضيف معلومة إضافية عن شخص معروف (Mrs. Smith)، يمكن استخدام فاصلة قبل 'who'." }
+  }
+}
