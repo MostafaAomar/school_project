@@ -202,6 +202,22 @@
       "en": ""
     },
     "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
+  },
+  {
+    "lessonId": "review2_w",
+    "title": {
+      "ar": "Review 2\nالعمل",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/images/grade9_w.png"
+  },
+  {
+    "lessonId": "Review2_s",
+    "title": {
+      "ar": "Review 2\nالطالب  ",
+      "en": ""
+    },
+    "icon": "https://raw.githubusercontent.com/MostafaAomar/school_project/f12c00d8f90d7f721baa8156b5564f7140a0a995/images/grade9_s.png"
   }
 ]
 
