@@ -802,13 +802,13 @@
 
 
     {
-      "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/grade9/review1_s/lesson_content.json",
-      "subject": "review1_s",
+      "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/grade9/Review1_s/lesson_content.json",
+      "subject": "Review1_s",
       "grade": "grade9"
     },
     {
-      "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/grade9/review1_s/questions.json",
-      "subject": "review1_s",
+      "url": "https://mostafaaomar.github.io/school_project/data/subjects/english/grade9/Review1_s/questions.json",
+      "subject": "Review1_s",
       "grade": "grade9"
     },
     {
