@@ -55,22 +55,34 @@ export function displaySubjectCards(subjectsList) {
             console.warn("[Content Navigator] Skipping invalid subject item:", subject);
             return;
         }
-
+    
         const card = createCardElement(
             subject.title[currentLang],
             subject.icon || DEFAULT_ICON_PATH,
             'data-subject-id',
             subject.subjectId
         );
-
-        // Pass subject *ID* and Title to handler
-        card.addEventListener('click', () => handleSubjectSelection(subject.subjectId, subject.title));
-        card.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                handleSubjectSelection(subject.subjectId, subject.title);
-            }
-        });
+    
+        if (subject.externalLink) {
+            // Handle external link directly
+            card.addEventListener('click', () => handleExternalLink(subject.externalLink));
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleExternalLink(subject.externalLink);
+                }
+            });
+        } else {
+            // Normal subject selection
+            card.addEventListener('click', () => handleSubjectSelection(subject.subjectId, subject.title));
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleSubjectSelection(subject.subjectId, subject.title);
+                }
+            });
+        }
+    
         subjectsGrid.appendChild(card);
     });
     console.log("[Content Navigator] Subject cards rendered.");

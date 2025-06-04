@@ -2,6 +2,13 @@
   {
     "subjectId": "english",
     "title": { "ar": "اللغة الإنجليزية", "en": "English Language" },
-    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop"
-  }
+    "icon": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=100&h=100&fit=crop",
+    "externalLink":null
+  },
+  {
+    "subjectId": "video_explanation",
+    "title": { "ar": "   فيديو شرح كيفيه العمل على المنصه", "en": "Explanation Video" },
+    "icon": "https://img.icons8.com/color/48/000000/video.png",
+    "externalLink": "https://www.youtube.com/watch?v=t-fsAJ8plnA&ab_channel=Mostafa"
+  }   
 ]

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // - If HTML is root, json is root: './dictionary.json'
     // - If HTML is /high_school/, json is root: '../dictionary.json'
     // - If HTML is /high_school/quizes/, json is root: '../../dictionary.json'
-    const localDictionaryPath = '../../data/subdata/myOwnDic.json'; // ADJUST AS NEEDED
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/data/subdata/myOwnDic.json'; // ADJUST AS NEEDED
 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 

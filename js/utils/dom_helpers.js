@@ -158,32 +158,25 @@ export function renderExternalLinks(linksArray, containerElement) {
 }
 
 
-/**
- * Converts common video URLs (YouTube watch/short links) to embeddable URLs.
- * Returns the original URL if conversion is not applicable or fails.
- * @param {string} url - The video URL to convert.
- * @returns {string} The embeddable URL or the original URL.
- */
 export function convertToEmbedUrl(url) {
-    // ... (Implementation of convertToEmbedUrl remains unchanged) ...
-     if (!url || typeof url !== 'string') return '';
-     try {
-         const urlObj = new URL(url);
-         if (urlObj.hostname.includes('youtube.com') && urlObj.pathname === '/watch') {
-             const videoId = urlObj.searchParams.get('v');
-             if (videoId) return `https://www.youtube.com/embed/${videoId}`;
-         }
-         if (urlObj.hostname.includes('youtu.be')) {
-             const videoId = urlObj.pathname.substring(1);
-             if (videoId) return `https://www.youtube.com/embed/${videoId}`;
-         }
-         if (urlObj.pathname.includes('/embed/')) return url;
-         console.warn("[DOM Helpers] convertToEmbedUrl: Could not extract standard video ID. Returning original URL:", url);
-         return url;
-     } catch (e) {
-         console.error("[DOM Helpers] convertToEmbedUrl: Error parsing URL:", url, e);
-         return url;
-     }
+    if (!url || typeof url !== 'string') return '';
+    try {
+        const urlObj = new URL(url);
+        if (urlObj.hostname.includes('youtube.com') && urlObj.pathname === '/watch') {
+            const videoId = urlObj.searchParams.get('v');
+            if (videoId) return `https://www.youtube.com/embed/${videoId}`;
+        }
+        if (urlObj.hostname.includes('youtu.be')) {
+            const videoId = urlObj.pathname.substring(1);
+            if (videoId) return `https://www.youtube.com/embed/${videoId}`;
+        }
+        if (urlObj.pathname.includes('/embed/')) return url;
+        console.warn("[DOM Helpers] Unsupported YouTube URL format:", url);
+        return '';
+    } catch (e) {
+        console.error("[DOM Helpers] Error parsing URL:", url, e);
+        return '';
+    }
 }
 
 
