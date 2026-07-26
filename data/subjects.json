@@ -10,5 +10,11 @@
     "title": { "ar": "   فيديو شرح كيفيه العمل على المنصه", "en": "Explanation Video" },
     "icon": "https://img.icons8.com/color/48/000000/video.png",
     "externalLink": "https://www.youtube.com/watch?v=t-fsAJ8plnA&ab_channel=Mostafa"
-  }   
+  }   ,
+  {
+    "subjectId": "Allepo_university",
+    "title": { "ar": "  اسئله دورات سابقه ادب الانجليزي بجامعة حلب", "en": "Past exam questions for English Literature at the University of Aleppo" },
+    "icon": "https://img.icons8.com/color/48/000000/university.png",
+    "externalLink": "https://mostafaaomar.github.io/uni/"
+  }  
 ]
