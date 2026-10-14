@@ -17,13 +17,13 @@
     "icon": "https://img.icons8.com/color/48/000000/university.png",
     "externalLink": "https://mostafaaomar.github.io/uni/"
   }  ,
- {
+{
   "subjectId": "cv_builder",
-  "title": { 
-    "ar": "صانع السيرة الذاتية الاحترافية", 
-    "en": "Professional CV Builder" 
+  "title": {
+    "ar": "صانع السيرة الذاتية الاحترافية",
+    "en": "Professional CV Builder"
   },
-  "icon": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 48 48' width='48px' height='48px'><path fill='%23616161' d='M38,42H10c-2.2,0-4-1.8-4-4V10c0-2.2,1.8-4,4-4h28c2.2,0,4,1.8,4,4v28C42,40.2,40.2,42,38,42z'/><path fill='%23e0e0e0' d='M34,12H14c-1.1,0-2,0-2,1v22c0,1,0.9,1,2,1h20c1.1,0,2,0,2-1V13C36,12,35.1,12,34,12z'/><path fill='%232196f3' d='M16,16h16v4H16V16z'/><path fill='%2378909c' d='M16,24h16v2H16V24z M16,28h16v2H16V28z M16,32h10v2H16V32z'/></svg>",
+  "icon": "https://img.icons8.com/color/48/resume.png",
   "externalLink": "https://mostafaaomar.github.io/cv/"
 }
 
