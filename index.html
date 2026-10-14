@@ -79,13 +79,20 @@ gtag('consent', 'default', {
 </head>
 <body>
 
-    <header>
-        <h1>
-            <span class="rainbow-text">منصة التعليم السورية</span>
-            <!-- Use a class for easier selection/styling if needed, keep title -->
-            <a href="https://mostafaaomar.github.io/school_project/" class="home-button-link" title="الصفحة الرئيسية"><img src="./images/pagelogo.png" alt="Logo" class="mascot"></a>
-        </h1>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <h1><a href="./index.html" class="site-brand" title="الصفحة الرئيسية">
+                <img src="./images/pagelogo.png" alt="" class="mascot">
+                <span class="rainbow-text">منصة التعليم السورية</span>
+            </a></h1>
+        </div>
     </header>
+
+    <nav class="project-nav" aria-label="المشاريع">
+        <a href="./index.html" aria-current="page">المواد الدراسية</a>
+        <a href="../uni/index.html">أسئلة الجامعة</a>
+        <a href="../New%20folder/index.html">إنشاء السيرة الذاتية</a>
+    </nav>
 
     <!-- Main Navigation Tabs Container -->
     <nav class="main-nav-container">
