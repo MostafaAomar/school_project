@@ -16,5 +16,15 @@
     "title": { "ar": "  اسئله دورات سابقه ادب الانجليزي بجامعة حلب", "en": "Past exam questions for English Literature at the University of Aleppo" },
     "icon": "https://img.icons8.com/color/48/000000/university.png",
     "externalLink": "https://mostafaaomar.github.io/uni/"
-  }  
+  }  ,
+  {
+  "subjectId": "cv_builder",
+  "title": { 
+    "ar": "صانع السيرة الذاتية الاحترافية", 
+    "en": "Professional CV Builder" 
+  },
+  "icon": "https://icons8.com",
+  "externalLink": "https://mostafaaomar.github.io/cv/"
+}
+
 ]
