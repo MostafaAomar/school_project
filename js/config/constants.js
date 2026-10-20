@@ -1,12 +1,20 @@
 // /js/config/constants.js
 
-// --- CHANGE THESE PATHS --- VVV
-// Relative to the ROOT index.html
-export const DATA_PATH = './data/';               // Start from current directory (root) -> data/
+// Determine base path depending on whether the running page is at root or in school_project/
+let detectedBase = './school_project/';
+if (typeof document !== 'undefined') {
+    const scripts = [...document.querySelectorAll('script[src]')];
+    const hasLocalJs = scripts.some(s => s.getAttribute('src')?.startsWith('./js/'));
+    if (hasLocalJs || location.pathname.includes('/school_project/')) {
+        detectedBase = './';
+    }
+}
+
+export const DATA_PATH = `${detectedBase}data/`;               // Dynamically resolves to ./school_project/data/ or ./data/
 export const SUBJECTS_LIST_FILE = `${DATA_PATH}subjects.json`;
 export const ADVICE_CONTENT_FILE = `${DATA_PATH}advice_content.json`;
 export const SUBJECTS_DATA_ROOT = `${DATA_PATH}subjects/`; // Root for subject-specific data
-export const DEFAULT_ICON_PATH = './images/default-icon.png'; // Path relative to ROOT index.html
+export const DEFAULT_ICON_PATH = `${detectedBase}images/default-icon.png`;
 
 // Suffixes for dynamically loaded files (these are fine)
 export const GRADES_LIST_SUFFIX = '_grades.json';

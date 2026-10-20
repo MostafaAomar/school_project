@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- State and Configuration ---
     let mergedData = {};
     // *** Path to the file containing the list of JSON sources ***
-    const dataSourceIndexFile = 'https://mostafaaomar.github.io/school_project/data/subdata/chatbot.json';
+    const dataSourceIndexFile = './data/subdata/chatbot.json';
     let currentLanguage = 'ar'; // Default to Arabic based on HTML
 
     // ========================================================================
@@ -28,11 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
         disableInput(true);
         try {
             // Step 1 & 2: Fetch index and get URLs (Keep your existing code for this)
-            const indexResponse = await fetch(dataSourceIndexFile); // Assuming dataSourceIndexFile is defined
-            if (!indexResponse.ok) throw new Error(`Failed to load source list (${dataSourceIndexFile}): ${indexResponse.status}`);
+            let indexResponse = await fetch('../data/subdata/chatbot.json');
+            if (!indexResponse.ok) indexResponse = await fetch('./school_project/data/subdata/chatbot.json');
+            if (!indexResponse.ok) indexResponse = await fetch('./data/subdata/chatbot.json');
+            if (!indexResponse.ok) indexResponse = await fetch(dataSourceIndexFile);
+            if (!indexResponse.ok) throw new Error(`Failed to load source list: ${indexResponse.status}`);
             const sourcesList = await indexResponse.json();
             if (!Array.isArray(sourcesList)) throw new Error(`Source list file (${dataSourceIndexFile}) is not a valid JSON array.`);
-            const dataFileUrls = sourcesList.map(s => s.url).filter(url => typeof url === 'string' && url.trim() !== '');
+            const dataFileUrls = sourcesList
+                .map(s => s.url)
+                .filter(url => typeof url === 'string' && url.trim() !== '')
+                .map(url => url.replace(/^https:\/\/mostafaaomar\.github\.io\/school_project\//, './'));
             if (dataFileUrls.length === 0) { /* ... handle no URLs ... */ return; }
 
             console.log(`Found ${dataFileUrls.length} data sources in ${dataSourceIndexFile}:`, dataFileUrls);
@@ -573,4 +579,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Call initial load
      loadAndMergeData();});
-

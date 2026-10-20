@@ -1,0 +1,1075 @@
+
+   <!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#4356d6" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="منصتي" />
+    <meta
+      name="description"
+      content="صمّم سيرتك الذاتية الاحترافية بسهولة — يعمل بدون إنترنت."
+    />
+    <script>
+      document.documentElement.dataset.theme =
+        localStorage.getItem("theme") === "dark" ? "dark" : "light";
+    </script>
+    <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="../logo.png" />
+    <link rel="manifest" href="../manifest.webmanifest" />
+    <title>سيرة | صمّم سيرتك الذاتية — منصة التعليم السورية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../shared-theme.css?v=19" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+
+  <style>
+    :root {
+      color-scheme: light;
+      --accent: #a97957;
+      --accent-deep: #694732;
+      --accent-pale: #f0e8e3;
+      --accent-fill: #d7c4b5;
+      --accent-line: #c9aa94;
+      --accent-glow: rgba(169, 121, 87, .16);
+      --sidebar: #24354f;
+      --sidebar-muted: #c9d0da;
+      --ink: #382f2a;
+      --muted: #766c66;
+      --line: #eadfd6;
+      --page: #f5f1ed;
+      --panel: #fff;
+      --danger: #a83e3e;
+      font-family: Tahoma, "Noto Sans Arabic", "Cairo", sans-serif;
+      font-synthesis: none;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--page); direction: rtl; text-align: right; }
+    body.cv-page > .topbar { position: relative; top: auto; }
+    button, input, textarea, select { font: inherit; }
+    button { cursor: pointer; }
+  
+    .site-brand { grid-column: 2; grid-row: 1; justify-self: center; display: inline-flex; align-items: center; gap: 11px; color: #fff; direction: ltr; font-size: 20px; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    .site-brand img { width: 50px; height: 50px; flex: 0 0 auto; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(255, 255, 255, .4); }
+    .site-brand span { background: linear-gradient(45deg, #8bd5ff, #d7b7ff, #f4c95d); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .project-nav {
+      display: flex; justify-content: center; gap: 5px; padding: 8px 12px; overflow-x: auto;
+      background: #0069d9; box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    }
+    .project-nav a {
+      min-height: 48px; display: inline-flex; align-items: center; justify-content: center;
+      padding: 10px 19px; border-bottom: 4px solid transparent; color: rgba(255, 255, 255, .9);
+      font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap;
+    }
+    .project-nav a:hover, .project-nav a[aria-current="page"] { color: #fff; background: rgba(0, 0, 0, .1); }
+    .project-nav a[aria-current="page"] { border-bottom-color: #fff; }
+    .top-actions { grid-column: 3; grid-row: 1; justify-self: end; display: flex; align-items: center; gap: 9px; direction: rtl; }
+    .button {
+      min-height: 42px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 8px 15px; color: var(--ink); background: rgba(255, 255, 255, .96); border: 1px solid rgba(255, 255, 255, .65);
+      border-radius: 12px; font-size: 13px; font-weight: 700; transition: .16s ease; box-shadow: 0 3px 10px rgba(19, 44, 67, .12);
+    }
+    .button:hover { border-color: #fff; transform: translateY(-1px); box-shadow: 0 6px 14px rgba(19, 44, 67, .2); }
+    .button-primary { color: #fff; background: #075fb2; border-color: rgba(255, 255, 255, .45); }
+    .button-primary:hover { color: #fff; background: #064f94; }
+    .button-small { min-height: 33px; padding: 5px 10px; font-size: 12px; }
+    .button-danger { color: var(--danger); }
+    html[data-theme="dark"] body.cv-page .button { color: #f1f5fb; background: #26344b; border-color: #43526a; }
+    html[data-theme="dark"] body.cv-page .button-primary { color: #fff; background: #075fb2; border-color: #568bc2; }
+    html[data-theme="dark"] body.cv-page .section-toggle { color: #f1f5fb; background: #26344b; border-color: #43526a; }
+    html[data-theme="dark"] body.cv-page .section-toggle-indicator { color: #f1f5fb; background: #35445e; }
+    html[data-theme="dark"] body.cv-page .icon-button { color: #f1f5fb; background: #202d43; border-color: #43526a; }
+    html[data-theme="dark"] body.cv-page .chip { color: #f1f5fb; background: #293354; border-color: #5e6ba6; }
+    html[data-theme="dark"] body.cv-page .color-box { color: #f1f5fb; background: #202d43; border-color: #43526a; }
+    html[data-theme="dark"] body.cv-page .recommendation { color: #f1f5fb; background: #293354; }
+    .intro { width: min(1440px, 100%); margin: auto; padding: 31px clamp(16px, 5vw, 72px) 22px; }
+    .eyebrow { margin: 0 0 5px; color: var(--accent-deep); font-size: 12px; font-weight: 800; }
+    h1 { margin: 0; font-size: clamp(25px, 3.5vw, 35px); line-height: 1.35; font-weight: 800; }
+    .intro p:last-child { max-width: 760px; margin: 7px 0 0; color: var(--muted); font-size: 14px; line-height: 1.9; }
+    .workspace { width: min(1440px, 100%); margin: auto; padding: 0 clamp(16px, 5vw, 72px) 48px; display: grid; grid-template-columns: minmax(345px, .9fr) minmax(460px, 1.1fr); gap: 23px; align-items: start; }
+    .editor-panel, .preview-panel { min-width: 0; }
+    .panel-heading, .preview-toolbar { min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 11px; }
+    .panel-heading h2, .preview-toolbar h2 { margin: 0; font-size: 17px; font-weight: 800; }
+    .saved { color: var(--muted); font-size: 11px; white-space: nowrap; }
+    .saved::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-inline-end: 6px; vertical-align: 1px; background: #4e9a72; border-radius: 50%; }
+    .card { margin-bottom: 12px; padding: 16px; background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 3px 13px #49372808; }
+    .section-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .section-heading-copy { min-width: 0; flex: 1; }
+    .section-heading h3, .add-heading { margin: 0; font-size: 15px; font-weight: 800; }
+    .section-toggle { width: 100%; min-height: 42px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 7px 10px; color: var(--ink); background: #f7f8ff; border: 1px solid var(--line); border-radius: 10px; text-align: right; cursor: pointer; font-size: inherit; font-weight: inherit; }
+    .section-toggle-indicator { width: 27px; height: 27px; flex: 0 0 auto; display: grid; place-items: center; color: var(--accent-deep); background: var(--accent-pale); border-radius: 50%; font-size: 16px; transition: transform .18s ease; }
+    .section-toggle[aria-expanded="true"] .section-toggle-indicator { transform: rotate(180deg); }
+    .section-toggle:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+    .description { margin: 4px 0 0; color: var(--muted); font-size: 11.5px; line-height: 1.7; }
+    .section-actions { display: flex; flex-shrink: 0; gap: 4px; }
+    .icon-button { width: 31px; height: 31px; display: grid; place-items: center; padding: 0; color: var(--muted); background: white; border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
+    .icon-button:hover { color: var(--accent-deep); border-color: var(--accent); }
+    .icon-button:disabled { opacity: .35; cursor: not-allowed; }
+    .entry { position: relative; margin-top: 12px; padding: 14px; background: #fdfbf9; border: 1px solid #eee6df; border-radius: 10px; }
+    .entry-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+    .entry-number { color: var(--muted); font-size: 11px; font-weight: 700; }
+    .entry-actions { display: flex; gap: 4px; }
+    .field-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .field { min-width: 0; }
+    .field-full { grid-column: 1 / -1; }
+    .field label { display: block; margin-bottom: 4px; color: #514740; font-size: 11px; font-weight: 700; }
+    .field input, .field textarea {
+      display: block; width: 100%; min-height: 39px; padding: 8px 10px; color: var(--ink);
+      background: #fff; border: 1px solid #e3d9d1; border-radius: 8px; outline: none; font-size: 12px;
+      text-align: right;
+    }
+    .field textarea { min-height: 77px; resize: vertical; line-height: 1.8; }
+    .field input:focus, .field textarea:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+    .field input::placeholder, .field textarea::placeholder { color: #a79c93; }
+    .add-row { margin-top: 10px; }
+    .add-section-card { padding: 15px 16px; }
+    .section-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+    .chip { min-height: 33px; padding: 5px 10px; color: var(--accent-deep); background: var(--accent-pale); border: 1px solid var(--accent-line); border-radius: 9px; font-size: 11px; font-weight: 700; }
+    .chip:hover { filter: brightness(.96); }
+    .tip { margin: 11px 0 0; padding: 11px 12px; color: #5f554e; background: #f8f3ee; border-inline-start: 3px solid var(--accent); border-radius: 7px; font-size: 11px; line-height: 1.8; }
+    .preview-panel { position: sticky; top: 14px; }
+    .preview-toolbar { flex-wrap: wrap; }
+    .preview-controls { display: flex; align-items: center; gap: 8px; }
+    .preview-controls > label:not(.sr-only) { color: var(--muted); font-size: 11px; font-weight: 700; white-space: nowrap; }
+    .layout-select { min-height: 38px; max-width: 140px; padding: 5px 8px; color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 9px; outline: none; font-size: 11px; }
+    .color-box { display: flex; align-items: center; gap: 9px; margin: 0 0 10px; padding: 9px 12px; background: #fff; border: 1px solid var(--line); border-radius: 11px; }
+    .color-box > strong { font-size: 11px; }
+    .palette { display: flex; align-items: center; gap: 7px; }
+    .swatch { width: 23px; height: 23px; padding: 0; border: 2px solid white; border-radius: 50%; box-shadow: 0 0 0 1px #d9d0c9; }
+    .swatch[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--ink); }
+    .color-box + .color-box { margin-top: -4px; }
+    .sidebar-swatch { width: 22px; height: 22px; padding: 0; border: 2px solid white; border-radius: 6px; box-shadow: 0 0 0 1px #d9d0c9; }
+    .sidebar-swatch[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--ink); }
+    .custom-color { width: 28px; height: 28px; padding: 2px; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
+    .recommendation { margin: 0 0 10px; padding: 9px 12px; color: #62574f; background: var(--accent-pale); border-radius: 9px; font-size: 11px; line-height: 1.8; }
+    .paper-stage { padding: 17px; background: #e8e2dc; border: 1px solid #ded4cb; border-radius: 14px; }
+    .cv-paper {
+      width: 100%; min-height: 650px; padding: 9px; overflow-wrap: normal; word-break: normal;
+      color: #202936; background: #fff; border: 1px solid #ddd1c7; border-radius: 5px;
+      box-shadow: 0 5px 20px #34231514; font-family: Tahoma, "Noto Sans Arabic", "Cairo", sans-serif;
+      direction: rtl; text-align: right;
+    }
+    .cv-inner {
+      min-height: 630px; display: grid; grid-template-columns: 36% 1fr; overflow: hidden;
+      direction: rtl; border: 1px solid #d8d7d3; border-radius: 2px; background: #fff;
+    }
+    .cv-sidebar {
+      min-width: 0; padding: 15px 14px; color: #fff; background: var(--sidebar);
+      display: flex; flex-direction: column; gap: 12px; direction: rtl;
+    }
+    .cv-sidebar .cv-section-title {
+      margin: 0 0 8px; padding: 0 0 5px; color: var(--accent-fill); background: transparent;
+      border: 0; border-bottom: 1px solid var(--accent); border-radius: 0;
+      text-align: right; font-size: 12px; letter-spacing: .2px;
+    }
+    .cv-sidebar .cv-item-title, .cv-sidebar .cv-skill-name { color: #fff; }
+    .cv-sidebar .cv-item-meta, .cv-sidebar .cv-item-description, .cv-sidebar .cv-skill-level { color: var(--sidebar-muted); }
+    .cv-sidebar .cv-entry { padding-inline-start: 0; margin-bottom: 9px; }
+    .cv-sidebar .cv-list.timeline .cv-entry::before { display: none; }
+    .cv-sidebar .cv-list.timeline .cv-entry::after { display: none; }
+    .cv-sidebar .cv-bar { background: #506078; }
+    .cv-sidebar .cv-bar span { background: var(--accent-fill); }
+    .cv-sidebar .cv-language { display: grid; grid-template-columns: 1fr auto; }
+    .cv-sidebar .cv-language .cv-bar { grid-column: 1 / -1; width: 100%; }
+    .cv-sidebar .cv-interest { color: #fff; background: #354863; }
+    .light-sidebar .cv-sidebar { color: #283345; }
+    .light-sidebar .cv-sidebar .cv-section-title { color: var(--accent-deep); }
+    .light-sidebar .cv-sidebar .cv-item-title, .light-sidebar .cv-sidebar .cv-skill-name, .light-sidebar .cv-sidebar .cv-sidebar-contact li { color: #283345; }
+    .light-sidebar .cv-sidebar .cv-item-meta, .light-sidebar .cv-sidebar .cv-item-description, .light-sidebar .cv-sidebar .cv-skill-level { color: #5d6672; }
+    .light-sidebar .cv-sidebar .cv-bar { background: #d8d4d0; }
+    .light-sidebar .cv-sidebar .cv-bar span { background: var(--accent); }
+    .light-sidebar .cv-sidebar .cv-interest { color: #283345; background: #ddd8d3; }
+    .light-sidebar .cv-sidebar .cv-photo-placeholder { color: var(--accent-deep); background: var(--accent-pale); }
+    .cv-photo-wrap { display: flex; justify-content: center; align-items: center; padding: 0 0 1px; }
+    .cv-photo { width: 124px; height: 124px; object-fit: cover; border: 4px solid #d9d8d4; border-radius: 50%; box-shadow: 0 2px 11px #1118; }
+    .cv-photo-placeholder { width: 124px; height: 124px; display: grid; place-items: center; color: #fff; background: #354863; border: 4px solid #d9d8d4; border-radius: 50%; font-size: 32px; font-weight: 800; }
+    .cv-sidebar-contact { margin: 0; padding: 0; list-style: none; }
+    .cv-sidebar-contact li { display: flex; align-items: flex-start; gap: 6px; margin: 0 0 7px; color: #f2f3f5; font-size: 11px; line-height: 1.65; overflow-wrap: anywhere; }
+    .cv-contact-icon { flex: 0 0 15px; color: var(--accent-fill); font-weight: 800; text-align: center; }
+    .cv-main { min-width: 0; padding: 21px 22px 18px; background: #fff; direction: rtl; }
+    .cv-paper[dir="ltr"],
+    .cv-paper[dir="ltr"] .cv-inner,
+    .cv-paper[dir="ltr"] .cv-sidebar,
+    .cv-paper[dir="ltr"] .cv-main { direction: ltr; text-align: left; }
+    .cv-paper[dir="ltr"] .cv-section-title { text-align: left; }
+    .cv-paper[dir="ltr"] .cv-sidebar-contact li { flex-direction: row; }
+    .cv-paper[dir="ltr"] .field input,
+    .cv-paper[dir="ltr"] .field textarea { text-align: left; }
+    @media print {
+      #cv-paper[dir="ltr"] .cv-inner { direction: ltr !important; }
+    }
+    .cv-header { display: block; padding: 6px; margin: 0 0 13px; border-bottom: 1px solid var(--accent-line); background: transparent; }
+    .cv-name { margin: 0; color: var(--accent); font-size: clamp(25px, 3.2vw, 36px); font-weight: 700; line-height: 1.4; }
+    .cv-headline { margin: 2px 0 0; color: #28364b; font-size: 13px; font-weight: 700;     text-align: center;}
+    .cv-summary { margin: 9px 0 0; color: #3f4855; font-size: 12px; line-height: 1.85; white-space: pre-line; }
+    .cv-main-sections { display: flex; flex-direction: column; gap: 17px; }
+    .cv-column { min-width: 0; display: flex; flex-direction: column; gap: 13px; }
+    .cv-section { min-width: 0; break-inside: avoid; page-break-inside: avoid; }
+    .cv-section-title { margin: 0 0 9px; padding: 0 0 5px; color: var(--accent); background: transparent; border: 0; border-bottom: 1px solid var(--accent-line); border-radius: 0; text-align: right; font-size: 14px; font-weight: 800; }
+    .cv-list { margin: 0; padding: 0; list-style: none; }
+    .cv-entry { position: relative; margin: 0 0 11px; padding-inline-start: 10px; break-inside: avoid; page-break-inside: avoid; }
+    .cv-entry:last-child { margin-bottom: 0; }
+    .cv-list.timeline .cv-entry::before { content: ""; position: absolute; inset-inline-start: 0; top: 6px; bottom: -12px; width: 2px; background: var(--accent-line); }
+    .cv-list.timeline .cv-entry:last-child::before { bottom: 5px; }
+    .cv-list.timeline .cv-entry::after { content: ""; position: absolute; inset-inline-start: -3px; top: 4px; width: 8px; height: 8px; background: var(--accent); border: 1px solid white; border-radius: 50%; }
+    .cv-item-title { margin: 0; color: #293345; font-size: 12px; font-weight: 800; line-height: 1.75; }
+    .cv-item-meta { margin: 2px 0 0; color: #545e6c; font-size: 10px; line-height: 1.75; }
+    .cv-item-description { margin: 4px 0 0; color: #3f4855; font-size: 10px; line-height: 1.8; white-space: pre-line; }
+    .cv-skill { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 3px 7px; margin: 0 0 8px; font-size: 11px; }
+    .cv-skill-name { min-width: 0; overflow-wrap: normal; }
+    .cv-skill-level { color: #81766e; font-size: 10px; white-space: nowrap; }
+    .percentage-field { position: relative; }
+    .percentage-field input { padding-inline-end: 34px; }
+    .percentage-field::after { content: "%"; position: absolute; top: 50%; inset-inline-end: 11px; transform: translateY(-50%); color: var(--muted); font-size: 12px; font-weight: 700; pointer-events: none; }
+    .cv-bar { grid-column: 1 / -1; width: 100%; height: 5px; overflow: hidden; background: #eee8e2; border-radius: 5px; }
+    .cv-bar span { display: block; height: 100%; background: var(--accent); border-radius: inherit; }
+    .cv-language { display: flex; justify-content: space-between; gap: 6px; margin: 0 0 7px; font-size: 11px; }
+    .cv-interest-list { display: flex; flex-wrap: wrap; gap: 5px; }
+    .cv-interest { padding: 3px 7px; color: var(--accent-deep); background: var(--accent-pale); border-radius: 10px; font-size: 10px; }
+    .empty-preview { min-height: 500px; display: grid; place-content: center; padding: 30px; color: var(--muted); text-align: center; font-size: 15px; line-height: 2; }
+    .layout-minimal .cv-inner { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+    .layout-minimal .cv-sidebar {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-content: start;
+      align-items: start; gap: 13px 18px; padding: 16px 20px;
+    }
+    .layout-minimal .cv-photo-wrap { grid-column: 1 / -1; }
+    .layout-minimal .cv-main { padding: 21px 26px; }
+    .layout-minimal .cv-main-sections { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 18px 25px; }
+    .layout-minimal .cv-main .cv-header, .layout-minimal .cv-main [data-cv-section="profile"] { grid-column: 1 / -1; }
+    .layout-minimal .cv-sidebar .cv-section-title { margin-bottom: 7px; }
+    .status { min-height: 21px; margin: 7px 2px 0; color: var(--danger); font-size: 11px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    @media (max-width: 1040px) {
+      .workspace { grid-template-columns: minmax(300px, .9fr) minmax(390px, 1.1fr); gap: 15px; }
+      .paper-stage { padding: 10px; }
+      .cv-paper { padding: 9px; }
+      .cv-inner { grid-template-columns: 37% 1fr; }
+      .cv-sidebar { padding: 17px 11px; }
+      .cv-main { padding: 19px 16px; }
+    }
+    @media (max-width: 780px) {
+      .workspace { grid-template-columns: 1fr; }
+      .preview-panel { position: static; grid-row: 1; }
+      .cv-paper { max-width: 600px; margin: auto; }
+      .editor-panel { grid-row: 2; margin-top: 23px; }
+    }
+    @media (max-width: 640px) {
+
+      .site-brand { grid-column: 1; grid-row: 1; gap: 8px; font-size: 16px; }
+      .site-brand img { width: 42px; height: 42px; }
+      .top-actions { grid-column: 1; grid-row: 2; justify-self: center; gap: 7px; }
+      .top-actions .button { min-height: 36px; padding-inline: 10px; }
+      .project-nav { justify-content: flex-start; }
+      .project-nav a { padding-inline: 13px; font-size: 12px; }
+      main { display: flex; flex-direction: column; }
+      .workspace { display: contents; }
+      .preview-panel { order: 1; width: calc(100% - 24px); margin-inline: auto; }
+      .intro { display: block; }
+      .editor-panel { order: 3; width: calc(100% - 24px); margin-inline: auto; }
+      .intro { padding-top: 23px;     box-shadow: 0 0 0 0; background: linear-gradient(178deg, #ffffff00 0%, #f5f7ff00 100%);
+    border: 0px #eadfd600; }
+      .workspace { padding-inline: 12px; }
+      .preview-toolbar { align-items: flex-start; }
+      .preview-controls { flex-wrap: wrap; justify-content: flex-end; }
+      .section-heading { flex-wrap: wrap; }
+      .section-heading-copy { flex: 1 1 100%; }
+      .section-actions { align-self: flex-start; }
+      .recommendation { display: none; }
+      .download-text { display: none; }
+      .paper-stage { padding: 7px; }
+      .cv-paper { padding: 6px; min-height: 520px; }
+      .cv-inner { min-height: 500px; }
+      .cv-inner { grid-template-columns: 37% 1fr; min-height: 500px; }
+      .cv-sidebar { gap: 10px; padding: 12px 8px; }
+      .cv-main { padding: 14px 10px; }
+      .layout-minimal .cv-sidebar { gap: 9px; padding: 11px 9px; }
+      .layout-minimal .cv-sidebar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .layout-minimal .cv-main { padding: 14px 10px; }
+      .layout-minimal .cv-main-sections { gap: 11px; }
+      .cv-photo, .cv-photo-placeholder { width: 73px; height: 73px; }
+      .cv-photo { border-width: 3px; }
+      .cv-name { font-size: 20px; }
+      .cv-main-sections, .cv-column { gap: 9px; }
+      .cv-section-title { font-size: 11px; }
+      .cv-item-title { font-size: 10px; }
+      .cv-item-meta, .cv-item-description, .cv-sidebar-contact li { font-size: 9px; }
+      .cv-skill, .cv-language { font-size: 9px; }
+    }
+  </style>
+</head>
+<body class="cv-page">
+
+
+    <header class="topbar">
+      <a class="site-brand" href="../index.html" title="الصفحة الرئيسية للمنصة">
+        <img src="../images/pagelogo.png" alt="" />
+        <span>منصة التعليم السورية</span>
+      </a>
+      <button
+        type="button"
+        class="theme-toggle"
+        id="theme-toggle-btn"
+        aria-pressed="false"
+      >
+        ☾
+      </button>
+    </header>
+    <nav class="project-nav" aria-label="المشاريع">
+      <a href="../index.html">المواد الدراسية</a>
+      <a href="../uni/index.html">أسئلة الجامعة</a>
+      <a href="./index.html" aria-current="page">إنشاء السيرة الذاتية</a>
+    </nav>
+
+    <!-- Main Navigation Tabs Container -->
+    <nav class="main-nav-container">
+      <button
+        class="main-nav-toggle"
+        aria-label="فتح قائمة التنقل"
+        aria-expanded="false"
+        aria-controls="main-nav-links-list"
+      >
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="main-nav-links" id="main-nav-links-list">
+        <!-- Buttons now use data-main-target matching IDs of main content sections -->
+        <button
+          class="main-nav-button"
+          data-main-target="#subject-grade-lesson-flow"
+          id="main-nav-subjects-btn"
+        >
+          <i class="fas fa-shapes"></i> المواد الدراسية
+        </button>
+        <button
+          class="main-nav-button"
+          data-main-target="#advice-section"
+          id="main-nav-advice-btn"
+        >
+          <i class="fas fa-book-open"></i> خطة الدراسة
+        </button>
+        <button
+          class="main-nav-button"
+          data-main-target="#handwriting-section"
+          id="main-nav-handwrite-btn"
+        >
+          <i class="fa-solid fa-pen-to-square"></i> كتابة
+        </button>
+        
+        <button
+          class="main-nav-button"
+          data-main-target="#nonspeaker-arabic-section"
+          id="main-nav-nonspeaker-btn"
+        >
+          <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
+        </button>
+        <button
+          class="main-nav-button"
+          data-main-target="#external-sources-section"
+          id="main-nav-sources-btn"
+        >
+          <i class="fa-solid fa-paperclip"></i> بعض المصادر
+        </button>
+        <button
+          class="main-nav-button"
+          data-main-target="#contact-section"
+          id="main-nav-contact-btn"
+        >
+          <i class="fa-solid fa-address-book"></i> اتصال
+        </button>
+      </div>
+    </nav>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">خطوتك القادمة تبدأ هنا</p>
+        <h1>صمّم سيرة ذاتية تعبّر عنك</h1>
+        <p>
+          أضف المعلومات التي لديك فقط، وغيّر ترتيب الأقسام والألوان حتى تحصل على
+          سيرة شخصية ومرتبة.
+        </p>
+        <div class="top-actions">
+          <button type="button" class="button" id="new-cv">
+            ＋ سيرة جديدة
+          </button>
+          <button
+            type="button"
+            class="button button-primary"
+            id="download-pdf"
+            aria-label="تنزيل السيرة الذاتية بصيغة PDF"
+            title="في نافذة الطباعة، اختر حفظ بصيغة PDF"
+          >
+            تنزيل السيرة ↓<span class="download-text"></span>
+          </button>
+        </div>
+      </section>
+
+      <div class="workspace">
+      <section class="editor-panel" aria-labelledby="editor-title">
+        <div class="panel-heading"><h2 id="editor-title">معلوماتك</h2><span class="saved">يُحفظ تلقائياً</span></div>
+        <div id="editor-sections"></div>
+        <section class="card add-section-card">
+          <h3 class="add-heading">أضف قسماً إلى سيرتك</h3>
+          <div class="section-chips" id="available-sections"></div>
+        </section>
+      </section>
+      <section class="preview-panel" aria-labelledby="preview-title">
+        <div class="preview-toolbar">
+          <h2 id="preview-title">معاينة سيرتك</h2>
+          <div class="preview-controls">
+            <label for="cv-language-select">لغة السيرة</label>
+            <select class="layout-select" id="cv-language-select" aria-label="لغة السيرة">
+              <option value="ar">العربية</option>
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+            </select>
+            <label class="sr-only" for="layout-select">تصميم السيرة</label>
+            <select class="layout-select" id="layout-select">
+              <option value="auto">التصميم المقترح</option>
+              <option value="classic">كلاسيكي — شريط جانبي</option>
+              <option value="minimal">بسيط — شريط علوي</option>
+            </select>
+          </div>
+        </div>
+        <div class="color-box">
+          <strong>لون القالب</strong>
+          <div class="palette" role="group" aria-label="ألوان القالب">
+            <button class="swatch" type="button" data-color="#a97957" style="background:#a97957" aria-label="بني دافئ" aria-pressed="true"></button>
+            <button class="swatch" type="button" data-color="#315f70" style="background:#315f70" aria-label="أزرق هادئ" aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#55745c" style="background:#55745c" aria-label="أخضر زيتوني" aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#795b82" style="background:#795b82" aria-label="بنفسجي" aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#a24f55" style="background:#a24f55" aria-label="أحمر هادئ" aria-pressed="false"></button>
+          </div>
+          <label class="sr-only" for="custom-color">اختر لوناً مخصصاً</label>
+          <input class="custom-color" id="custom-color" type="color" value="#a97957" title="اختر لوناً مخصصاً">
+        </div>
+        <div class="color-box">
+          <strong>لون الشريط الجانبي</strong>
+          <div class="palette" id="sidebar-palette" role="group" aria-label="ألوان الشريط الجانبي">
+            <button class="sidebar-swatch" type="button" data-sidebar="#24354f" style="background:#24354f" aria-label="كحلي" aria-pressed="true"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#34383d" style="background:#34383d" aria-label="فحمي" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#28534c" style="background:#28534c" aria-label="أخضر داكن" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#593b46" style="background:#593b46" aria-label="عنابي" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#606a79" style="background:#606a79" aria-label="رمادي مزرق" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#e9e5e1" style="background:#e9e5e1" aria-label="رمادي فاتح" aria-pressed="false"></button>
+          </div> 
+        </div>
+        <p class="recommendation" id="recommendation" aria-live="polite"></p>
+        <div class="paper-stage"><article id="cv-paper" class="cv-paper" dir="rtl" lang="ar" aria-label="معاينة السيرة الذاتية"></article></div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </section>
+    </div>
+  </main>
+  <input class="sr-only" type="file" id="photo-file" accept="image/jpeg,image/png,image/webp" aria-label="اختر صورة شخصية">
+  <script>
+    (() => {
+      "use strict";
+      const STORAGE_KEY = "sira-cv-ar-v2";
+      const order = ["contact", "profile", "education", "experience", "skills", "languages", "projects", "certificates", "volunteering", "interests", "references"];
+      const sidebarThemes = ["#24354f", "#34383d", "#28534c", "#593b46", "#606a79", "#e9e5e1"];
+      const openSections = new Set(["contact"]);
+      const sections = {
+        contact: { title: "معلومات التواصل", description: "أضف اسمك ووسائل التواصل التي تفضّلها.", single: true, fields: ["name", "headline", "email", "phone", "city", "website"] },
+        profile: { title: "نبذة عني", description: "جمل قصيرة توضّح ما تجيده وما تبحث عنه.", single: true, fields: ["summary"] },
+        education: { title: "التعليم", description: "أضف المدرسة أو الدراسة أو التدريب.", fields: ["degree", "school", "start", "end", "description"] },
+        experience: { title: "الخبرة العملية", description: "الوظائف والتدريب والعمل الجزئي كلها خبرات مفيدة.", fields: ["title", "organization", "location", "start", "end", "description"] },
+        skills: { title: "المهارات", description: "اذكر مهارات عملية أو تقنية تستطيع إثباتها.", fields: ["skill", "level"] },
+        languages: { title: "اللغات", description: "أضف اللغات التي تتحدثها ومستواك فيها.", fields: ["language", "level"] },
+        projects: { title: "المشاريع", description: "مشاريع الدراسة والأعمال الشخصية مهمة أيضاً.", fields: ["project", "start", "description"] },
+        certificates: { title: "الدورات والشهادات", description: "أضف الدورات وورش العمل والتدريبات.", fields: ["course", "issuer", "start", "description"] },
+        volunteering: { title: "العمل التطوعي", description: "أضف المساعدة المجتمعية والعمل دون أجر.", fields: ["activity", "organization", "location", "start", "end", "description"] },
+        interests: { title: "الاهتمامات", description: "هوايات وأنشطة تودّ مشاركتها مع صاحب العمل.", fields: ["interest"] },
+        references: { title: "المعرّفون", description: "اختياري؛ يمكنك ترك القسم فارغاً.", fields: ["person", "relationship", "contact"] }
+      };
+      const labels = {
+        name: "الاسم الكامل", headline: "المسمى المهني", email: "البريد الإلكتروني", phone: "رقم الهاتف",
+        city: "المدينة أو العنوان", website: "الموقع أو لينكدإن", summary: "نبذة قصيرة",
+        degree: "المؤهل أو التخصص", school: "المدرسة أو المؤسسة", start: "من", end: "إلى",
+        title: "المسمى الوظيفي", organization: "الشركة أو المؤسسة", location: "الموقع",
+        description: "التفاصيل أو ما تعلمته", skill: "المهارة", level: "المستوى (%)",
+        language: "اللغة", project: "اسم المشروع", course: "الدورة أو الشهادة", issuer: "الجهة المانحة",
+        activity: "الدور أو النشاط", interest: "الاهتمام أو الهواية", person: "الاسم",
+        relationship: "الصفة أو المسمى الوظيفي", contact: "معلومات التواصل"
+      };
+       const placeholders = {
+        name: "مثال: مصطفى العمر", headline: "مثال: مدرس لغة إنجليزية", email: "name@example.com",
+        phone: "مثال: +963944123456", city: "مثال: منبج، سوريا", website: "https://mostafaaomar.github.io/cv/",
+        summary: "...... أنا متحمس جداً للعمل كمعلم في مدرستكم، ولدي خبرة في مجال التدريس.",
+        degree: "مثال: الثانوية العامة، ادبي او علمي", school: "مثال: ثانوية في منبج",
+        title: "مثال: مساعد مبيعات",
+        organization: "مثال: مكتبة في منبج", location: "مثال: منبج، سوريا",
+        description: "اكتب عن مسؤولياتك أو إنجازاتك أو ما تعلمته.",
+        skill: "مثال: تدريس اللغة الإنجليزية", level: "مثال: ٧٥", language: "مثال: العربية",
+        project: "مثال: حديقة المدرسة", course: "مثال: دورة الإسعافات الأولية",
+        issuer: "مثال: الهلال الأحمر العربي السوري", activity: "مثال: تنظيم فعالية في منبج",
+        interest: "مثال: القراءة", person: "مثال: أحمد العلي",
+        relationship: "مثال: معلم سابق", contact: "بريد إلكتروني أو هاتف"
+      };
+      const translations = {
+        ar: {
+          available: "أظهرت كل الأقسام.",
+          experienceTip: "أضف مسؤولياتك وإنجازاتك؛ والتعليم والمشاريع يكملان سيرتك.",
+          noExperienceTip: "ليس لديك خبرة عمل بعد؟ لا بأس. قدّم التعليم والمهارات والمشاريع أو التطوع؛ فهي خبرات مهمة.",
+          photo: "الصورة الشخصية",
+          photoHelp: "اختيارية · JPG أو PNG أو WebP · حتى ٥ ميغابايت",
+          choosePhoto: "اختر صورة",
+          removePhoto: "حذف",
+          add: "أضف",
+          referenceFallback: "متاح عند الطلب",
+          empty: "ستظهر سيرتك هنا فور إدخال المعلومات.<br>لا تحتاج إلى تعبئة كل الأقسام.",
+          recommendationExperience: "يبرز التصميم المقترح خبرتك العملية. غيّر القالب أو اللون متى شئت.",
+          recommendationStarter: "التصميم المقترح يقدّم التعليم والمهارات والمشاريع؛ سيرة قوية لا تحتاج إلى خبرة عمل."
+        },
+        en: {
+          sections: {
+            contact: "Contact information", profile: "About me", education: "Education",
+            experience: "Work experience", skills: "Skills", languages: "Languages",
+            projects: "Projects", certificates: "Courses and certificates",
+            volunteering: "Volunteer work", interests: "Interests", references: "References"
+          },
+          descriptions: {
+            contact: "Add your name and preferred contact details.",
+            profile: "Briefly describe your strengths and what you are looking for.",
+            education: "Add your school, studies, or training.",
+            experience: "Jobs, internships, and part-time work all count as experience.",
+            skills: "List practical or technical skills you can demonstrate.",
+            languages: "Add the languages you speak and your proficiency.",
+            projects: "School and personal projects are valuable experience too.",
+            certificates: "Add courses, workshops, and training.",
+            volunteering: "Include community service and unpaid work.",
+            interests: "Share hobbies and activities relevant to an employer.",
+            references: "Optional; you can leave this section empty."
+          },
+          labels: {
+            name: "Full name", headline: "Professional title", email: "Email",
+            phone: "Phone number", city: "City or address", website: "Website or LinkedIn",
+            summary: "Short profile", degree: "Degree or subject", school: "School or institution",
+            start: "From", end: "To", title: "Job title", organization: "Company or organization",
+            location: "Location", description: "Details or what you learned", skill: "Skill",
+            level: "Proficiency (%)", language: "Language", project: "Project name",
+            course: "Course or certificate", issuer: "Issuing organization", activity: "Role or activity",
+            interest: "Interest or hobby", person: "Name", relationship: "Relationship or title",
+            contact: "Contact details"
+          },
+          placeholders: {
+            name: "e.g. Mostafa Alomar", headline: "e.g. English teacher", email: "name@example.com",
+            phone: "e.g. +96394412345", city: "e.g. Menbij , Syria", website: "https://example.com",
+            summary: "A short summary of your experience and goals.",
+            degree: "e.g. High school diploma", school: "e.g. Central High School",
+            title: "e.g. Sales assistant", organization: "e.g. City Bookshop",
+            location: "e.g. Menbij , Syria", description: "Describe your responsibilities, achievements, or what you learned.",
+            skill: "e.g. English teaching", level: "e.g. 75", language: "e.g. English",
+            project: "e.g. School garden", course: "e.g. First aid course",
+            issuer: "e.g. Red Cross", activity: "e.g. Community event volunteer",
+            interest: "e.g. Reading", person: "e.g. Mostafa Alomar",
+            relationship: "e.g. Former teacher", contact: "Email or phone"
+          },
+          profileTitle: "Professional summary",
+          available: "All sections are shown.",
+          experienceTip: "Highlight your responsibilities and achievements; education and projects strengthen your CV.",
+          noExperienceTip: "No work experience yet? That is fine. Include education, skills, projects, or volunteering.",
+          photo: "Profile photo",
+          photoHelp: "Optional · JPG, PNG, or WebP · up to 5 MB",
+          choosePhoto: "Choose photo",
+          removePhoto: "Remove",
+          add: "Add",
+          referenceFallback: "Available on request",
+          empty: "Your CV will appear here as you add information.<br>You do not need to complete every section.",
+          recommendationExperience: "This layout highlights your work experience. You can change the layout or colors at any time.",
+          recommendationStarter: "This layout highlights education, skills, and projects. A strong CV does not require work experience."
+        },
+        de: {
+          sections: {
+            contact: "Kontaktdaten", profile: "Über mich", education: "Ausbildung",
+            experience: "Berufserfahrung", skills: "Fähigkeiten", languages: "Sprachen",
+            projects: "Projekte", certificates: "Kurse und Zertifikate",
+            volunteering: "Ehrenamt", interests: "Interessen", references: "Referenzen"
+          },
+          descriptions: {
+            contact: "Fügen Sie Ihren Namen und Ihre bevorzugten Kontaktdaten hinzu.",
+            profile: "Beschreiben Sie kurz Ihre Stärken und Ihre beruflichen Ziele.",
+            education: "Fügen Sie Schule, Studium oder Ausbildung hinzu.",
+            experience: "Auch Praktika und Teilzeitjobs sind Berufserfahrung.",
+            skills: "Nennen Sie praktische oder fachliche Fähigkeiten, die Sie belegen können.",
+            languages: "Fügen Sie Ihre Sprachen und Sprachkenntnisse hinzu.",
+            projects: "Schulische und persönliche Projekte sind ebenfalls wertvolle Erfahrungen.",
+            certificates: "Fügen Sie Kurse, Workshops und Weiterbildungen hinzu.",
+            volunteering: "Nennen Sie ehrenamtliche Tätigkeiten und unbezahlte Arbeit.",
+            interests: "Teilen Sie Hobbys und Aktivitäten mit, die für Arbeitgeber relevant sind.",
+            references: "Optional; dieser Abschnitt kann leer bleiben."
+          },
+          labels: {
+            name: "Vollständiger Name", headline: "Berufsbezeichnung", email: "E-Mail",
+            phone: "Telefonnummer", city: "Wohnort oder Adresse", website: "Webseite oder LinkedIn",
+            summary: "Kurzprofil", degree: "Abschluss oder Fachrichtung", school: "Schule oder Institution",
+            start: "Von", end: "Bis", title: "Berufsbezeichnung", organization: "Unternehmen oder Organisation",
+            location: "Ort", description: "Details oder Lernerfahrungen", skill: "Fähigkeit",
+            level: "Kenntnisstand (%)", language: "Sprache", project: "Projektname",
+            course: "Kurs oder Zertifikat", issuer: "Ausstellende Organisation", activity: "Rolle oder Tätigkeit",
+            interest: "Interesse oder Hobby", person: "Name", relationship: "Beziehung oder Position",
+            contact: "Kontaktdaten"
+          },
+          placeholders: {
+            name: "z. B. Mostafa Alomar", headline: "z. B. Englischlehrkraft", email: "name@example.com",
+            phone: "z. B. +963944123456", city: "Menbij , Syria", website: "https://example.com",
+            summary: "Kurze Zusammenfassung Ihrer Erfahrung und beruflichen Ziele.",
+            degree: "z. B. Abitur", school: "z. B. Friedrich-Schiller-Schule",
+            title: "z. B. Verkaufsassistenz", organization: "z. B. Buchhandlung am Markt",
+            location: "Menbij , Syria", description: "Beschreiben Sie Aufgaben, Erfolge oder Lernerfahrungen.",
+            skill: "z. B. Englischunterricht", level: "z. B. 75", language: "z. B. Deutsch",
+            project: "z. B. Schulgarten", course: "z. B. Erste-Hilfe-Kurs",
+            issuer: "z. B. Rotes Kreuz", activity: "z. B. Unterstützung bei einer Veranstaltung",
+            interest: "z. B. Lesen", person: "z. B. Mostafa Alomar",
+            relationship: "z. B. ehemalige Lehrkraft", contact: "E-Mail oder Telefon"
+          },
+          profileTitle: "Berufliches Profil",
+          available: "Alle Abschnitte werden angezeigt.",
+          experienceTip: "Beschreiben Sie Aufgaben und Erfolge; Ausbildung und Projekte ergänzen Ihren Lebenslauf.",
+          noExperienceTip: "Noch keine Berufserfahrung? Kein Problem. Nennen Sie Ausbildung, Fähigkeiten, Projekte oder Ehrenamt.",
+          photo: "Bewerbungsfoto",
+          photoHelp: "Optional · JPG, PNG oder WebP · bis zu 5 MB",
+          choosePhoto: "Foto auswählen",
+          removePhoto: "Entfernen",
+          add: "Hinzufügen",
+          referenceFallback: "Auf Anfrage verfügbar",
+          empty: "Ihr Lebenslauf erscheint hier, sobald Sie Informationen eingeben.<br>Sie müssen nicht alle Abschnitte ausfüllen.",
+          recommendationExperience: "Dieses Layout hebt Ihre Berufserfahrung hervor. Layout und Farben können Sie jederzeit ändern.",
+          recommendationStarter: "Dieses Layout hebt Ausbildung, Fähigkeiten und Projekte hervor. Ein guter Lebenslauf braucht keine Berufserfahrung."
+        }
+      };
+      const makeEntry = () => ({ id: globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(36).slice(2)}` });
+      function blankData() {
+        return { color: "#a97957", sidebar: "#24354f", layout: "auto", language: "ar", photo: "", sections: [...order.slice(0, 6)], entries: Object.fromEntries(order.map(id => [id, [makeEntry()]])) };
+      }
+      function loadData() {
+        try {
+          const saved = localStorage.getItem(STORAGE_KEY) || localStorage.getItem("cv-studio-data-v1");
+          if (!saved) return blankData();
+          const raw = JSON.parse(saved);
+          const result = blankData();
+          if (!raw || typeof raw !== "object") return result;
+          if (typeof raw.color === "string" && /^#[0-9a-f]{6}$/i.test(raw.color)) result.color = raw.color;
+          if (sidebarThemes.includes(raw.sidebar)) result.sidebar = raw.sidebar;
+          if (["auto", "classic", "minimal"].includes(raw.layout)) result.layout = raw.layout;
+          else if (raw.layout === "modern") result.layout = "classic";
+          if (["ar", "en", "de"].includes(raw.language)) result.language = raw.language;
+          if (typeof raw.photo === "string") result.photo = raw.photo;
+          if (Array.isArray(raw.sections)) result.sections = raw.sections.filter((id, i, all) => sections[id] && all.indexOf(id) === i);
+          if (raw.entries && typeof raw.entries === "object") for (const id of order) {
+            if (!Array.isArray(raw.entries[id])) continue;
+            result.entries[id] = raw.entries[id].filter(item => item && typeof item === "object").map(item => {
+              const entry = makeEntry();
+              for (const field of sections[id].fields) if (typeof item[field] === "string") {
+                entry[field] = field === "level" ? migratePercent(item[field]) : item[field].slice(0, field === "description" || field === "summary" ? 4000 : 250);
+              }
+              return entry;
+            });
+          }
+          return result;
+        } catch (error) {
+          console.error("تعذر استعادة السيرة المحفوظة.", error);
+          return blankData();
+        }
+      }
+      let data = loadData();
+      const editor = document.getElementById("editor-sections");
+      const paper = document.getElementById("cv-paper");
+      const status = document.getElementById("status");
+      const layoutSelect = document.getElementById("layout-select");
+      const languageSelect = document.getElementById("cv-language-select");
+      const colorInput = document.getElementById("custom-color");
+      const photoInput = document.getElementById("photo-file");
+      let statusTimer;
+      const localized = key => translations[data.language]?.[key] ?? translations.ar[key];
+      const sectionTitle = id => translations[data.language]?.sections?.[id] || sections[id].title;
+      const sectionDescription = id => translations[data.language]?.descriptions?.[id] || sections[id].description;
+      const fieldLabel = field => translations[data.language]?.labels?.[field] || labels[field];
+      const fieldPlaceholder = field => translations[data.language]?.placeholders?.[field] || placeholders[field];
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
+      }
+      function message(text, isError = true) {
+        status.textContent = text;
+        status.style.color = isError ? "var(--danger)" : "var(--accent-deep)";
+        clearTimeout(statusTimer);
+        if (text) statusTimer = setTimeout(() => { status.textContent = ""; }, 6000);
+      }
+      function save() {
+        data.layout = layoutSelect.value;
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        } catch (error) {
+          console.error("تعذر حفظ السيرة في المتصفح.", error);
+          message("تعذر حفظ التغييرات. قد تكون مساحة التخزين ممتلئة.");
+        }
+      }
+      function isFilled(entry, id) {
+        return sections[id].fields.some(field => String(entry[field] || "").trim());
+      }
+      function hasExperience() {
+        return (data.entries.experience || []).some(entry => isFilled(entry, "experience"));
+      }
+      function fieldControl(id, entry, field) {
+        const long = field === "description" || field === "summary";
+        const percentage = field === "level";
+        const type = field === "email" ? "email" : field === "website" ? "url" : percentage ? "text" : "text";
+        const dir = percentage || field === "email" || field === "website" || data.language !== "ar" ? "ltr" : "rtl";
+        const value = escapeHtml(entry[field] || "");
+        const control = long
+          ? `<textarea data-section="${id}" data-entry="${entry.id}" data-field="${field}" maxlength="4000" dir="${dir}" placeholder="${escapeHtml(fieldPlaceholder(field))}">${value}</textarea>`
+          : percentage
+            ? `<div class="percentage-field"><input type="text" inputmode="decimal" data-section="${id}" data-entry="${entry.id}" data-field="${field}" maxlength="5" dir="ltr" aria-label="${escapeHtml(fieldLabel(field))}" placeholder="${escapeHtml(fieldPlaceholder(field))}" value="${value}"></div>`
+            : `<input type="${type}" data-section="${id}" data-entry="${entry.id}" data-field="${field}" maxlength="250" dir="${dir}" placeholder="${escapeHtml(fieldPlaceholder(field))}" value="${value}">`;
+        return `<div class="field${long ? " field-full" : ""}"><label>${escapeHtml(fieldLabel(field))}${control}</label></div>`;
+      }
+      function renderEditor() {
+        languageSelect.value = data.language;
+        const visibleSections = data.sections.filter(id => id === "contact" || openSections.has(id));
+        editor.innerHTML = visibleSections.map(id => {
+          const definition = sections[id];
+          const sectionIndex = data.sections.indexOf(id);
+          const entries = data.entries[id] || [];
+          const entryMarkup = entries.map((entry, entryIndex) => `
+            <div class="entry" data-entry-card="${entry.id}">
+              ${definition.single ? "" : `<div class="entry-top"><span class="entry-number">${sectionTitle(id)} · ${entryIndex + 1}</span><span class="entry-actions">
+                <button type="button" class="icon-button" data-action="entry-up" data-section="${id}" data-entry="${entry.id}" aria-label="تحريك للأعلى" title="تحريك للأعلى" ${entryIndex === 0 ? "disabled" : ""}>↑</button>
+                <button type="button" class="icon-button" data-action="entry-down" data-section="${id}" data-entry="${entry.id}" aria-label="تحريك للأسفل" title="تحريك للأسفل" ${entryIndex === entries.length - 1 ? "disabled" : ""}>↓</button>
+                <button type="button" class="icon-button button-danger" data-action="remove-entry" data-section="${id}" data-entry="${entry.id}" aria-label="حذف العنصر" title="حذف العنصر">×</button>
+              </span></div>`}
+              <div class="field-grid">${definition.fields.map(field => fieldControl(id, entry, field)).join("")}</div>
+            </div>`).join("");
+          return `<section class="card" data-section-card="${id}">
+            <div class="section-heading">
+              <div class="section-heading-copy">
+                <h3><button type="button" class="section-toggle" data-section-toggle="${id}" aria-expanded="${openSections.has(id)}" aria-controls="section-content-${id}">
+                  <span>${sectionTitle(id)}</span><span class="section-toggle-indicator" aria-hidden="true">⌄</span>
+                </button></h3>
+                <p class="description">${sectionDescription(id)}</p>
+              </div>
+              <span class="section-actions">
+                <button type="button" class="icon-button" data-action="section-up" data-section="${id}" aria-label="تحريك القسم للأعلى" title="تحريك للأعلى" ${sectionIndex === 0 ? "disabled" : ""}>↑</button>
+                <button type="button" class="icon-button" data-action="section-down" data-section="${id}" aria-label="تحريك القسم للأسفل" title="تحريك للأسفل" ${sectionIndex === data.sections.length - 1 ? "disabled" : ""}>↓</button>
+                <button type="button" class="icon-button button-danger" data-action="remove-section" data-section="${id}" aria-label="حذف القسم" title="حذف القسم">×</button>
+              </span>
+            </div>
+            <div id="section-content-${id}"${openSections.has(id) ? "" : " hidden"}>
+              ${id === "contact" ? photoControls() : ""}
+              ${entryMarkup}
+              ${definition.single ? "" : `<div class="add-row"><button type="button" class="button button-small" data-action="add-entry" data-section="${id}">＋ ${localized("add")} ${sectionTitle(id)}</button></div>`}
+              ${id === "experience" ? `<p class="tip">${hasExperience() ? localized("experienceTip") : localized("noExperienceTip")}</p>` : ""}
+            </div>
+          </section>`;
+        }).join("");
+        document.getElementById("available-sections").innerHTML = order.filter(id => !openSections.has(id))
+          .map(id => `<button type="button" class="chip" data-action="add-section" data-section="${id}">＋ ${sectionTitle(id)}</button>`).join("")
+          || `<span class="description">${localized("available") || "أظهرت كل الأقسام."}</span>`;
+      }
+      function photoControls() {
+        const photo = data.photo
+          ? `<img class="photo-thumb" src="${escapeHtml(data.photo)}" alt="معاينة الصورة الشخصية">`
+          : `<span class="photo-thumb photo-placeholder" aria-hidden="true">＋</span>`;
+        return `<div class="entry" style="display:block;align-items:center;gap:10px">
+          ${photo}<div style="flex:1"><strong style="font-size:11px">${localized("photo") || "الصورة الشخصية"}</strong><p class="description">${localized("photoHelp") || "اختيارية · JPG أو PNG أو WebP · حتى ٥ ميغابايت"}</p></div>
+          <button type="button" class="button button-small" data-action="choose-photo">${localized("choosePhoto") || "اختر صورة"}</button>
+          ${data.photo ? `<button type="button" class="button button-small button-danger" data-action="remove-photo">${localized("removePhoto") || "حذف"}</button>` : ""}
+        </div>`;
+      }
+      function groupFor(id) {
+        return ["contact", "education", "skills", "languages", "interests"].includes(id) ? "side" : "main";
+      }
+      function applyColor(color) {
+        const channels = color.slice(1).match(/.{2}/g).map(part => parseInt(part, 16));
+        const mix = (other, amount) => channels.map((channel, index) => Math.round(channel * (1 - amount) + other[index] * amount));
+        const hex = values => `#${values.map(value => value.toString(16).padStart(2, "0")).join("")}`;
+        const root = document.documentElement.style;
+        root.setProperty("--accent", color);
+        root.setProperty("--accent-deep", hex(mix([32, 24, 20], .45)));
+        root.setProperty("--accent-pale", hex(mix([255, 255, 255], .86)));
+        root.setProperty("--accent-fill", hex(mix([255, 255, 255], .72)));
+        root.setProperty("--accent-line", hex(mix([255, 255, 255], .53)));
+        root.setProperty("--accent-glow", `rgba(${channels.join(",")}, .16)`);
+      }
+      function dates(entry) {
+        return [entry.start, entry.end].filter(Boolean).map(escapeHtml).join(" — ");
+      }
+      function cvEntry(id, entry) {
+        if (id === "skills") {
+          const percent = skillPercent(entry.level);
+          return `<li class="cv-skill"><span class="cv-skill-name">${escapeHtml(entry.skill)}</span>${percent === null ? "" : `<span class="cv-skill-level">${percent}%</span><span class="cv-bar"><span style="width:${percent}%"></span></span>`}</li>`;
+        }
+        if (id === "languages") {
+          const percent = skillPercent(entry.level);
+          return `<li class="cv-language"><span>${escapeHtml(entry.language)}</span>${percent === null ? "" : `<span class="cv-skill-level">${percent}%</span><span class="cv-bar"><span style="width:${percent}%"></span></span>`}</li>`;
+        }
+        if (id === "interests") return `<span class="cv-interest">${escapeHtml(entry.interest)}</span>`;
+        if (id === "references") {
+          const name = (entry.person || "").trim() || localized("referenceFallback");
+          const meta = [entry.relationship, entry.contact].filter(Boolean).map(escapeHtml).join(" · ");
+          return `<li class="cv-entry"><p class="cv-item-title">${escapeHtml(name)}</p>${meta ? `<p class="cv-item-meta">${meta}</p>` : ""}</li>`;
+        }
+        const titleField = { education: "degree", experience: "title", projects: "project", certificates: "course", volunteering: "activity" }[id];
+        const organizationField = { education: "school", experience: "organization", certificates: "issuer", volunteering: "organization" }[id];
+        const title = (entry[titleField] || "").trim();
+        const organization = (entry[organizationField] || "").trim();
+        const meta = [organization && organization !== title ? organization : "", entry.location, dates(entry)].filter(Boolean).map(escapeHtml).join(" · ");
+        return `<li class="cv-entry">${title ? `<p class="cv-item-title">${escapeHtml(title)}</p>` : ""}${meta ? `<p class="cv-item-meta">${meta}</p>` : ""}${entry.description?.trim() ? `<p class="cv-item-description">${escapeHtml(entry.description.trim())}</p>` : ""}</li>`;
+      }
+      function normalizePercent(value) {
+        const text = String(value || "").trim();
+        if (!text) return "";
+        const westernDigits = text
+          .replace(/[٠-٩]/g, digit => String("٠١٢٣٤٥٦٧٨٩".indexOf(digit)))
+          .replace(/[۰-۹]/g, digit => String("۰۱۲۳۴۵۶۷۸۹".indexOf(digit)))
+          .replace(/[٪]/g, "%");
+        const match = westernDigits.match(/^(\d{1,3})\s*%?$/);
+        if (!match || Number(match[1]) > 100) return null;
+        return String(Number(match[1]));
+      }
+      function migratePercent(value) {
+        const text = String(value || "").trim().toLowerCase();
+        if (/ممتاز|خبير|متقن|perfect|excellent|expert/.test(text)) return "100";
+        if (/متقدم|advanced/.test(text)) return "90";
+        if (/متوسط|جيد|intermediate|good/.test(text)) return "75";
+        if (/مبتدئ|أساسي|beginner|basic/.test(text)) return "40";
+        const normalized = normalizePercent(value);
+        return normalized === null ? "" : normalized;
+      }
+      function skillPercent(value) {
+        const normalized = normalizePercent(value);
+        return normalized === "" || normalized === null ? null : Number(normalized);
+      }
+      function cvSection(id) {
+        const filled = (data.entries[id] || []).filter(entry => isFilled(entry, id));
+        if (!filled.length) return "";
+        let content;
+        if (id === "profile") content = `<p class="cv-item-description">${escapeHtml(filled[0].summary.trim())}</p>`;
+        else if (id === "interests") content = `<div class="cv-interest-list">${filled.map(entry => cvEntry(id, entry)).join("")}</div>`;
+        else content = `<ul class="cv-list${["education", "experience", "projects", "certificates", "volunteering"].includes(id) ? " timeline" : ""}">${filled.map(entry => cvEntry(id, entry)).join("")}</ul>`;
+        return `<section class="cv-section" data-cv-section="${id}"><h2 class="cv-section-title">${sectionTitle(id)}</h2>${content}</section>`;
+      }
+      function contactSection(contact) {
+        if (!data.sections.includes("contact")) return "";
+        const symbols = { email: "✉", phone: "☎", city: "⌖", website: "in" };
+        const fields = ["email", "phone", "city", "website"].filter(field => (contact[field] || "").trim());
+        if (!fields.length) return "";
+        return `<section class="cv-section" data-cv-section="contact"><h2 class="cv-section-title">${sectionTitle("contact")}</h2><ul class="cv-sidebar-contact">${fields.map(field => `<li><span class="cv-contact-icon">${symbols[field]}</span><span><strong>${escapeHtml(fieldLabel(field))}:</strong> ${escapeHtml(contact[field].trim())}</span></li>`).join("")}</ul></section>`;
+      }
+      function renderPreview() {
+        const contact = data.entries.contact[0] || {};
+        const contactVisible = data.sections.includes("contact");
+        const name = contactVisible ? (contact.name || "").trim() : "";
+        const headline = contactVisible ? (contact.headline || "").trim() : "";
+        const profileVisible = data.sections.includes("profile");
+        const profile = profileVisible ? (data.entries.profile || []).find(entry => isFilled(entry, "profile"))?.summary?.trim() || "" : "";
+        const sideIds = data.sections.filter(id => id !== "contact" && id !== "profile" && groupFor(id) === "side");
+        const mainIds = data.sections.filter(id => !["contact", "profile"].includes(id) && groupFor(id) === "main");
+        const activeIds = data.sections.filter(id => id !== "contact");
+        const contentExists = name || headline || profile || data.photo || activeIds.some(id => (data.entries[id] || []).some(entry => isFilled(entry, id))) || (contactVisible && ["phone", "email", "city", "website"].some(field => (contact[field] || "").trim()));
+        const chosenLayout = data.layout === "auto" ? "classic" : data.layout;
+        const lightSidebar = data.sidebar.toLowerCase() === "#e9e5e1";
+        paper.className = `cv-paper layout-${chosenLayout}${lightSidebar ? " light-sidebar" : ""}`;
+        paper.dir = data.language === "ar" ? "rtl" : "ltr";
+        paper.lang = data.language;
+        paper.setAttribute("aria-label", {
+          ar: "معاينة السيرة الذاتية",
+          en: "CV preview",
+          de: "Lebenslauf-Vorschau"
+        }[data.language]);
+        applyColor(data.color);
+        document.documentElement.style.setProperty("--sidebar", data.sidebar);
+        colorInput.value = data.color;
+        document.querySelectorAll(".swatch").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.color.toLowerCase() === data.color.toLowerCase())));
+        document.querySelectorAll(".sidebar-swatch").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.sidebar.toLowerCase() === data.sidebar.toLowerCase())));
+        layoutSelect.value = data.layout;
+        document.getElementById("recommendation").textContent = hasExperience()
+          ? localized("recommendationExperience")
+          : localized("recommendationStarter");
+        if (!contentExists) {
+          paper.innerHTML = `<div class="empty-preview">${localized("empty")}</div>`;
+          return;
+        }
+        const initials = (name || "س").trim().slice(0, 1);
+        const image = data.photo
+          ? `<img class="cv-photo" src="${escapeHtml(data.photo)}" alt="">`
+          : `<span class="cv-photo-placeholder" aria-hidden="true">${escapeHtml(initials)}</span>`;
+        const photo = contactVisible ? `<div class="cv-photo-wrap">${image}</div>` : "";
+        const sidebar = `<aside class="cv-sidebar">${photo}${contactSection(contact)}${sideIds.map(id => cvSection(id)).join("")}</aside>`;
+        const profileTitles = { ar: "نبذة مهنية", en: translations.en.profileTitle, de: translations.de.profileTitle };
+        const profileSection = profile ? `<section class="cv-section" data-cv-section="profile"><h2 class="cv-section-title">${profileTitles[data.language]}</h2><p class="cv-summary">${escapeHtml(profile)}</p></section>` : "";
+        const header = name || headline
+          ? `<header class="cv-header">${name ? `<h1 class="cv-name">${escapeHtml(name)}</h1>` : ""}${headline ? `<p class="cv-headline">${escapeHtml(headline)}</p>` : ""}</header>`
+          : "";
+        const main = `<div class="cv-main">${header}<div class="cv-main-sections">${profileSection}${mainIds.map(id => cvSection(id)).join("")}</div></div>`;
+        paper.innerHTML = `<div class="cv-inner">${sidebar}${main}</div>`;
+      }
+      function refresh() { renderEditor(); renderPreview(); save(); }
+      document.querySelector(".editor-panel").addEventListener("input", event => {
+        const field = event.target;
+        if (!(field instanceof HTMLInputElement || field instanceof HTMLTextAreaElement)) return;
+        const entry = (data.entries[field.dataset.section] || []).find(item => item.id === field.dataset.entry);
+        if (!entry) return;
+        field.setCustomValidity("");
+        if (field.dataset.field === "level") {
+          const normalized = normalizePercent(field.value);
+          if (normalized === null) {
+            entry.level = field.value;
+            field.setCustomValidity("أدخل نسبة مئوية من ٠ إلى ١٠٠، مثل ٧٥٪.");
+          } else {
+            entry.level = normalized;
+            field.value = normalized;
+          }
+        } else {
+          entry[field.dataset.field] = field.value;
+          if (field.dataset.field === "email" && field.value && field.validity.typeMismatch) {
+            field.setCustomValidity("أدخل بريداً إلكترونياً صحيحاً.");
+          }
+        }
+        renderPreview();
+        const tip = editor.querySelector('[data-section-card="experience"] .tip');
+        if (tip) tip.textContent = hasExperience()
+          ? "أضف مسؤولياتك وإنجازاتك؛ والتعليم والمشاريع يكملان سيرتك."
+          : "ليس لديك خبرة عمل بعد؟ لا بأس. قدّم التعليم والمهارات والمشاريع أو التطوع؛ فهي خبرات مهمة.";
+        save();
+      });
+      document.querySelector(".editor-panel").addEventListener("click", event => {
+        const toggle = event.target.closest("button[data-section-toggle]");
+        if (toggle) {
+          const id = toggle.dataset.sectionToggle;
+          if (openSections.has(id)) openSections.delete(id);
+          else openSections.add(id);
+          renderEditor();
+          editor.querySelector(`[data-section-toggle="${id}"]`).focus();
+          return;
+        }
+        const button = event.target.closest("button[data-action]");
+        if (!button) return;
+        const { action, section: id, entry: entryId } = button.dataset;
+        if (action === "choose-photo") { photoInput.click(); return; }
+        if (action === "remove-photo") { data.photo = ""; refresh(); return; }
+        if (action === "add-section") {
+          if (!data.sections.includes(id)) data.sections.push(id);
+          if (!data.entries[id]?.length) data.entries[id] = [makeEntry()];
+          openSections.add(id);
+          refresh();
+          editor.querySelector(`[data-section-toggle="${id}"]`).focus();
+          return;
+        } else if (action === "remove-section") {
+          data.sections = data.sections.filter(section => section !== id);
+          openSections.delete(id);
+        } else if (action === "add-entry") {
+          data.entries[id].push(makeEntry());
+        } else if (action === "remove-entry") {
+          data.entries[id] = data.entries[id].filter(item => item.id !== entryId);
+        } else if (action === "section-up" || action === "section-down") {
+          const index = data.sections.indexOf(id);
+          const next = index + (action === "section-up" ? -1 : 1);
+          if (next >= 0 && next < data.sections.length) [data.sections[index], data.sections[next]] = [data.sections[next], data.sections[index]];
+        } else if (action === "entry-up" || action === "entry-down") {
+          const entries = data.entries[id];
+          const index = entries.findIndex(item => item.id === entryId);
+          const next = index + (action === "entry-up" ? -1 : 1);
+          if (next >= 0 && next < entries.length) [entries[index], entries[next]] = [entries[next], entries[index]];
+        }
+        refresh();
+      });
+      document.querySelector(".palette").addEventListener("click", event => {
+        const swatch = event.target.closest("[data-color]");
+        if (!swatch) return;
+        data.color = swatch.dataset.color;
+        renderPreview();
+        save();
+      });
+      colorInput.addEventListener("input", () => { data.color = colorInput.value; renderPreview(); save(); });
+      document.getElementById("sidebar-palette").addEventListener("click", event => {
+        const swatch = event.target.closest("[data-sidebar]");
+        if (!swatch) return;
+        data.sidebar = swatch.dataset.sidebar;
+        renderPreview();
+        save();
+      });
+      layoutSelect.addEventListener("change", () => { data.layout = layoutSelect.value; renderPreview(); save(); });
+      languageSelect.addEventListener("change", () => {
+        data.language = languageSelect.value;
+        renderEditor();
+        renderPreview();
+        save();
+      });
+      photoInput.addEventListener("change", () => {
+        const file = photoInput.files?.[0];
+        if (!file) return;
+        if (!["image/jpeg", "image/png", "image/webp"].includes(file.type) || file.size > 5 * 1024 * 1024) {
+          message("اختر صورة بصيغة JPG أو PNG أو WebP وحجم أقل من ٥ ميغابايت.");
+          photoInput.value = "";
+          return;
+        }
+        const reader = new FileReader();
+        reader.addEventListener("error", () => message("تعذرت قراءة الصورة. جرّب صورة أخرى."));
+        reader.addEventListener("load", () => {
+          if (typeof reader.result !== "string") { message("تعذرت قراءة الصورة. جرّب صورة أخرى."); return; }
+          const image = new Image();
+          image.addEventListener("error", () => message("تعذر فتح الصورة. جرّب صورة أخرى."));
+          image.addEventListener("load", () => {
+            const scale = Math.min(1, 560 / Math.max(image.naturalWidth, image.naturalHeight));
+            const canvas = document.createElement("canvas");
+            canvas.width = Math.max(1, Math.round(image.naturalWidth * scale));
+            canvas.height = Math.max(1, Math.round(image.naturalHeight * scale));
+            const context = canvas.getContext("2d");
+            if (!context) { message("تعذر تجهيز الصورة. جرّب صورة أخرى."); return; }
+            context.fillStyle = "#fff";
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            data.photo = canvas.toDataURL("image/jpeg", .84);
+            photoInput.value = "";
+            refresh();
+          });
+          image.src = reader.result;
+        });
+        reader.readAsDataURL(file);
+      });
+      document.getElementById("new-cv").addEventListener("click", () => {
+        if (!confirm("هل تريد بدء سيرة جديدة؟ سيُحذف الملف المحفوظ في هذا المتصفح.")) return;
+        data = blankData();
+        openSections.clear();
+        openSections.add("contact");
+        refresh();
+        message("بدأت سيرة جديدة.", false);
+      });
+      document.getElementById("download-pdf").addEventListener("click", async () => {
+        const invalidField = editor.querySelector("input:invalid, textarea:invalid");
+        if (invalidField) {
+          invalidField.reportValidity();
+          message(invalidField.dataset.field === "email"
+            ? "تحقق من صحة البريد الإلكتروني قبل التنزيل."
+            : "تحقق من القيم المدخلة قبل التنزيل.");
+          invalidField.focus();
+          return;
+        }
+        message("", false);
+        try {
+          await document.fonts.ready;
+          if (typeof window.print !== "function") throw new Error("ميزة الطباعة غير متاحة في هذا المتصفح.");
+          window.print();
+        } catch (error) {
+          console.error("تعذرت طباعة السيرة بصيغة PDF.", error);
+          message("تعذرت طباعة السيرة. جرّب فتحها في متصفح حديث ثم أعد المحاولة.");
+        }
+      });
+      renderEditor();
+      renderPreview();
+      save();
+    })();
+  </script>
+  <script src="../shared-theme.js?v=13"></script>
+</body>
+</html>

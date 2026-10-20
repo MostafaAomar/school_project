@@ -57,6 +57,10 @@ async function initializeApplication() {
     // --- 1. Attempt to Restore State ---
     const stateRestored = restoreStateFromSession();
     const initialState = getCurrentState(); // Get state *after* potential restore
+    const requestedSectionId = Object.values(MAIN_SECTION_IDS).includes(location.hash)
+        && location.hash !== MAIN_SECTION_IDS.TABS
+        ? location.hash
+        : null;
 
     try {
         // --- 2. Load Essential Data Concurrently ---
@@ -104,7 +108,18 @@ async function initializeApplication() {
         // --- 5. Determine and Render Initial View ---
         console.log('[App Initializer] Determining initial view...');
 
-        if (stateRestored && initialState.activeMainSectionId) {
+        if (requestedSectionId) {
+            console.log(`[App Initializer] Opening linked section: ${requestedSectionId}`);
+            if (requestedSectionId === MAIN_SECTION_IDS.FLOW) {
+                displaySubjectCards(subjectsList);
+                showMainContentSection(MAIN_SECTION_IDS.FLOW);
+                updateCardFlowView('subjects');
+                activateMainNavButton(MAIN_SECTION_IDS.FLOW);
+            } else {
+                showMainContentSection(requestedSectionId);
+                activateMainNavButton(requestedSectionId);
+            }
+        } else if (stateRestored && initialState.activeMainSectionId) {
             console.log(`[App Initializer] Restoring view based on sessionStorage: Section=${initialState.activeMainSectionId}, CardView=${initialState.currentCardView}`);
 
             // Ensure correct main section is visible

@@ -108,16 +108,19 @@ document.addEventListener('DOMContentLoaded', () => {
         // *** IMPORTANT: Verify this path is correct relative to the HTML file linking this script ***
         // If handwrite.html is in the root, use './data/...'
         // If handwrite.html is in /html/, use '../data/...'
-        const jsonPath = '../data/subdata/handwrite.json'; // Using your original path assumption
-        console.log(`Handwriting: Attempting to fetch questions from: ${jsonPath}`);
+        const paths = ['../data/subdata/handwrite.json', './school_project/data/subdata/handwrite.json', './data/subdata/handwrite.json'];
+        
+        async function fetchWithFallback() {
+            for (const p of paths) {
+                try {
+                    const res = await fetch(p);
+                    if (res.ok) return await res.json();
+                } catch (e) {}
+            }
+            throw new Error('تعذر تحميل بيانات أسئلة الكتابة اليدوية.');
+        }
 
-        fetch(jsonPath)
-            .then(res => {
-                if (!res.ok) {
-                    throw new Error(`HTTP error! status: ${res.status} fetching ${jsonPath}`);
-                }
-                return res.json();
-            })
+        fetchWithFallback()
             .then(data => {
                 if (!Array.isArray(data) || data.length === 0) {
                     console.warn("Handwriting Warning: Loaded data is not a valid non-empty array.", data);

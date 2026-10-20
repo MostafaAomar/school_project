@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mostafaaomar.github.io/school_project/

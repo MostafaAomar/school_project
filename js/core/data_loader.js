@@ -21,7 +21,24 @@ import { getCachedData, cacheData } from './state_manager.js';
 async function fetchData(url, isOptional = false) {
     console.log(`[Data Loader] Fetching: ${url}${isOptional ? ' (Optional)' : ''}`);
     try {
-        const response = await fetch(url, { cache: 'no-cache' }); // Prevent aggressive browser caching during dev
+        let response = await fetch(url, { cache: 'no-cache' }); // Prevent aggressive browser caching during dev
+        if (!response.ok && response.status === 404) {
+            let altUrl = null;
+            if (url.startsWith('./data/')) {
+                altUrl = url.replace('./data/', './school_project/data/');
+            } else if (url.startsWith('./school_project/data/')) {
+                altUrl = url.replace('./school_project/data/', './data/');
+            } else if (url.startsWith('data/')) {
+                altUrl = 'school_project/' + url;
+            }
+            if (altUrl) {
+                console.log(`[Data Loader] 404 on ${url}, attempting fallback: ${altUrl}`);
+                const altResp = await fetch(altUrl, { cache: 'no-cache' });
+                if (altResp.ok) {
+                    response = altResp;
+                }
+            }
+        }
         if (!response.ok) {
             if (isOptional && response.status === 404) {
                 console.log(`[Data Loader] Optional resource not found (404): ${url}. Returning null.`);

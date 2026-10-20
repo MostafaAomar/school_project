@@ -1,0 +1,55 @@
+{
+  "name": "منصة التعليم السورية",
+  "short_name": "منصتي",
+  "description": "منصة تعليمية موحّدة للدروس وأسئلة الجامعة وإنشاء السيرة الذاتية — تعمل بدون إنترنت.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#101827",
+  "theme_color": "#4356d6",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المواد الدراسية",
+      "short_name": "الدراسة",
+      "description": "تصفّح المواد والدروس والتمارين",
+      "url": "./index.html",
+      "icons": [{ "src": "./icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "أسئلة الجامعة",
+      "short_name": "الجامعة",
+      "description": "أسئلة الدورات الجامعية السابقة",
+      "url": "./uni/index.html",
+      "icons": [{ "src": "./icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "السيرة الذاتية",
+      "short_name": "السيرة",
+      "description": "صمّم سيرتك الذاتية الاحترافية",
+      "url": "./cv/index.html",
+      "icons": [{ "src": "./icon.svg", "sizes": "any" }]
+    }
+  ]
+}
+

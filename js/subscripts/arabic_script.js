@@ -2,7 +2,13 @@
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const response = await fetch('https://mostafaaomar.github.io/school_project/data/subdata/arabic_data.json');
+    let response = await fetch('../data/subdata/arabic_data.json');
+    if (!response.ok) {
+      response = await fetch('./school_project/data/subdata/arabic_data.json');
+    }
+    if (!response.ok) {
+      response = await fetch('./data/subdata/arabic_data.json');
+    }
     if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     const data = await response.json();
     new ArabicLearningApp(data);
@@ -80,7 +86,7 @@ class ArabicLearningApp {
     document.getElementById('next-btn')?.addEventListener('click', () => this._navigate(1));
     document.getElementById('flip-btn')?.addEventListener('click', () => this._flipCard());
    // this.soundBtn.addEventListener('click', () => this._playSound());
-    this.homeBtn?.addEventListener('click', () => window.location.href = '/index.html');
+    this.homeBtn?.addEventListener('click', () => window.location.href = '../index.html');
   }
 
   switchMode(mode) {
@@ -301,5 +307,3 @@ class ArabicLearningApp {
     setTimeout(() => this.starBtn.classList.remove('celebrating'), 500);
   }
 }
-
-

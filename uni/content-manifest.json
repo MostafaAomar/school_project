@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "revision": "6cb9c73c6118a5c6e68ef7a9",
+  "years": {
+    "First Year": [
+      {
+        "path": "First Year/Comprehension_1.json",
+        "subject": "القراءة والاستيعاب 1",
+        "description": "حل أسئلة الدورات",
+        "lang": "en",
+        "questionCount": 94,
+        "sha256": "50308e41183ed47b047804e37dc50aa691dac79bdeb9bcdd90b8224f92a84790",
+        "size": 53931
+      },
+      {
+        "path": "First Year/Introduction_to_Drama.json",
+        "subject": "مدخل الى المسرح",
+        "description": "حل اسئله دورات سابقه",
+        "lang": "en",
+        "questionCount": 122,
+        "sha256": "74b96cbe30f6a30f8761c1eafb81de923ccf8674bfc26251b23e671d8cea93f2",
+        "size": 75329
+      }
+    ],
+    "Second Year": [
+      {
+        "path": "Second Year/history.json",
+        "subject": "تاريخ الادب",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 104,
+        "sha256": "ffa614e0ef942247d4266d4467bbf5a4bfeb43fc3b7ff5a4804effbad5f33d82",
+        "size": 59628
+      },
+      {
+        "path": "Second Year/poetry_2.json",
+        "subject": "شعر عصر النهضة",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 75,
+        "sha256": "7e54dd76c703df8578697712bdcd26b213d2867a2b32656d0eb97bf90333097f",
+        "size": 46856
+      }
+    ],
+    "Third Year": [
+      {
+        "path": "Third Year/criticism_1.json",
+        "subject": "نقد 1",
+        "description": "الفصل 2 السنه الثالثه",
+        "lang": "en",
+        "questionCount": 176,
+        "sha256": "a981186ba96e12639189bfaf93e59edfce7843f812c538a91474c5b94d29c509",
+        "size": 116651
+      },
+      {
+        "path": "Third Year/french.json",
+        "subject": "3 اللغة الفرنسية",
+        "description": "الفصل 1",
+        "lang": "fr",
+        "questionCount": 85,
+        "sha256": "e4e13d64433601950236bde4e5d6079fa358061352fd2e48fcb154471b5bfd93",
+        "size": 41901
+      },
+      {
+        "path": "Third Year/linguistic_2.json",
+        "subject": "علم اللغه 2",
+        "description": "الفصل 2",
+        "lang": "en",
+        "questionCount": 72,
+        "sha256": "cb70bb743ecf91d0a50007244407b362baa8ebbc8c964d03a1a2ceaf3030980b",
+        "size": 42330
+      },
+      {
+        "path": "Third Year/linguistics_1.json",
+        "subject": "علم اللغه  1",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 170,
+        "sha256": "af2742ec0617fbb6d792b2b3f4d09ed22cd78a02a5d54381316172a7e8e270d8",
+        "size": 110346
+      },
+      {
+        "path": "Third Year/play_third_year.json",
+        "subject": "مسرح عودة الملكية",
+        "description": "الفصل 2",
+        "lang": "en",
+        "questionCount": 193,
+        "sha256": "248932733596ae371634f1508d7e34333dc6f264facc7c585179514d4558a1cb",
+        "size": 115896
+      },
+      {
+        "path": "Third Year/romantic_poetry_3.json",
+        "subject": "الشعر الرومانتيكي",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 103,
+        "sha256": "25257165f739cd4371f0a17c30ebf1e43850176f70d28a44d84746c10d2d1f45",
+        "size": 72034
+      }
+    ],
+    "Fourth Year": [
+      {
+        "path": "Fourth Year/america_2.json",
+        "subject": "ادب امريكي 2",
+        "description": "هذه الاسئله مخصصه فقط لروايه لمن تقرع الاجراس الفصل 2",
+        "lang": "en",
+        "questionCount": 105,
+        "sha256": "395fa467e2e47d0b9a68455073aac23e8800fa0a00b67d9cfa2acbaf7fcf7a2b",
+        "size": 59394
+      },
+      {
+        "path": "Fourth Year/american_1.json",
+        "subject": "ادب امريكي 1",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 299,
+        "sha256": "f1e8e59ab5a2a3c7ddf066328f316d3d7258cc031c32fc993472e77030d42334",
+        "size": 180969
+      },
+      {
+        "path": "Fourth Year/Comparative_1.json",
+        "subject": "1 ادب مقارن",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 228,
+        "sha256": "6471b073c2d963a8ba103ca4bc535b7fcfa74591bca7f58a7fac3cf5b02eaad1",
+        "size": 161787
+      },
+      {
+        "path": "Fourth Year/comparative_2.json",
+        "subject": "ادب مقارن 2",
+        "description": "الفصل 2",
+        "lang": "en",
+        "questionCount": 391,
+        "sha256": "f0db27dba5d19420e576c7fc59794b466b680c105a3c2bb4b387ab25d6012469",
+        "size": 263617
+      },
+      {
+        "path": "Fourth Year/criticism_2.json",
+        "subject": "نقد 2",
+        "description": "الفصل 1",
+        "lang": "en",
+        "questionCount": 163,
+        "sha256": "50b98c434b55ec8088543eeac4021bd6bbb928added3b29665131ce09a114004",
+        "size": 113093
+      },
+      {
+        "path": "Fourth Year/Modern_Drama.json",
+        "subject": "المسرح في العصر الحديث",
+        "description": "الفصل 2 د. واحة Waiting for Godot , Major Barbara،",
+        "lang": "en",
+        "questionCount": 249,
+        "sha256": "7f5cf70509ca45614f62a023179a231407742ee18322a8833b9297be8b1a17f9",
+        "size": 142796
+      },
+      {
+        "path": "Fourth Year/modern_prose.json",
+        "subject": "النثر الحديث",
+        "description": "الفصل 1 د. واحة إلى المنارة",
+        "lang": "en",
+        "questionCount": 138,
+        "sha256": "c93eb8412ca9c6d0f4e1fc08b63ce39de864cf8622e55e459c857273693f2085",
+        "size": 87177
+      },
+      {
+        "path": "Fourth Year/poetry4.json",
+        "subject": "شعر حديث",
+        "description": "للبروفيسور منذر فصل 2",
+        "lang": "en",
+        "questionCount": 198,
+        "sha256": "7ffa57a5e3efcd52a63ab669d09fd09470dd6af16c1849ed4b218fae57742fb8",
+        "size": 126691
+      },
+      {
+        "path": "Fourth Year/Teaching_Methodologies.json",
+        "subject": "طرائق التدريس",
+        "description": "الفصل 1 د. شحود",
+        "lang": "en",
+        "questionCount": 198,
+        "sha256": "eb3c9a8b5ba346761c57f5e84cba0bead0db884e27478e513cee4d70994134de",
+        "size": 143738
+      },
+      {
+        "path": "Fourth Year/world_lit.json",
+        "subject": "ادب عالمي",
+        "description": "فصل 2 الدكتور مهند",
+        "lang": "en",
+        "questionCount": 130,
+        "sha256": "50f2c1fc9d8283fbe1d4eb5231a0be0d0bfc256e8e4ccfd5a9e1a5af4fb21f5c",
+        "size": 72810
+      }
+    ]
+  }
+}

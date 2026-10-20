@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // - If HTML is root, json is root: './dictionary.json'
     // - If HTML is /high_school/, json is root: '../dictionary.json'
     // - If HTML is /high_school/quizes/, json is root: '../../dictionary.json'
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/myOwnDic.json'; // ADJUST AS NEEDED
+    const localDictionaryPath = '../uni/myOwnDic.json';
               
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
@@ -25,9 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Attempting to load local dictionary from: ${localDictionaryPath}`); // Debugging
 
         try {
-            const response = await fetch(localDictionaryPath);
+            let response = await fetch(localDictionaryPath);
             if (!response.ok) {
-                console.error(`HTTP error loading local dictionary! Status: ${response.status}, URL: ${response.url}`);
+                response = await fetch('./uni/myOwnDic.json');
+            }
+            if (!response.ok) {
+                response = await fetch('../uni/myOwnDic.json');
+            }
+            if (!response.ok) {
+                console.error(`HTTP error loading local dictionary! Status: ${response.status}`);
                 throw new Error(`Failed to load local dictionary.json (status: ${response.status})`);
             }
             dictionaryData = await response.json();
