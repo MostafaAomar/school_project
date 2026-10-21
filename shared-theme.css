@@ -3344,7 +3344,8 @@ textarea:focus-visible {
   display: grid;
   grid-template-columns: minmax(44px, 1fr) auto minmax(44px, 1fr);
   align-items: center;
-  padding: 8px 24px;
+  padding: 8px 24px;  
+  min-width: 100%;
 }
 
 .topbar > .site-brand {
