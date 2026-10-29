@@ -178,3 +178,43 @@
     setupCustomInstallButtons();
   }
 })();
+// ============================================================
+// كود تتبع الزوار والصفحات وأزرار التنقل لجميع الصفحات
+// ============================================================
+(function() {
+  function recordVisit(pagePath, actionName) {
+    var data = {
+      siteId: 'gh_mostafa_cv',
+      path: pagePath || window.location.pathname,
+      action: actionName || 'page_view',
+      referrer: document.referrer || 'direct',
+      timestamp: Date.now()
+    };
+    
+    // إرسال الزيارة في الخلفية بدون التأثير على سرعة تصفح المستخدم
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon('https://api.visitorpulse.io/v1/visit', JSON.stringify(data));
+    } else {
+      fetch('https://api.visitorpulse.io/v1/visit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+        keepalive: true
+      }).catch(function() {});
+    }
+  }
+
+  // 1. تسجيل الزيارة فور فتح أي صفحة من الصفحات الثلاث
+  recordVisit(window.location.pathname, 'load');
+
+  // 2. تتبع أزرار التنقل (Nav Buttons) تلقائياً عند التبديل بين الأقسام
+  document.addEventListener('DOMContentLoaded', function() {
+    var navButtons = document.querySelectorAll('nav button, nav a, .nav-btn');
+    navButtons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var pageTarget = this.getAttribute('data-target') || this.getAttribute('href') || this.innerText.trim();
+        recordVisit(window.location.pathname + '#' + pageTarget, 'nav_click');
+      });
+    });
+  });
+})();
