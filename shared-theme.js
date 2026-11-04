@@ -204,3 +204,55 @@
     setupCustomInstallButtons();
   }
 })();
+// ============================================================
+// كود تتبع الزوار الحقيقي والمباشر لمنصة التعليم السورية
+// يعمل 100% على GitHub Pages بدون أي سيرفر خارجي
+// ============================================================
+(function() {
+  function detectRealVisitor() {
+    // الاتصال بمزود الموقع الجغرافي الحقيقي
+    fetch('https://ipwho.is/')
+      .then(function(res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function(data) {
+        if (!data || data.success === false) return;
+
+        var country = data.country || 'Unknown';
+        var countryCode = data.country_code || 'SY';
+        var city = data.city || '';
+        var flag = (data.flag && data.flag.emoji) ? data.flag.emoji : '🇸🇾';
+        var ip = data.ip || '';
+        var page = window.location.pathname;
+
+        // طباعة موقعك الحقيقي في الكونسول (F12) فوراً!
+        console.log('%c📍 [VisitorPulse] تم رصد وتحديد موقعك الحقيقي بنجاح:', 'color:#00d1b2; font-weight:bold; font-size:14px;');
+        console.log('   🇸🇾 الدولة:', country, flag);
+        console.log('   🏙 المدينة:', city);
+        console.log('   🌐 الآي بي (IP):', ip);
+        console.log('   📄 الصفحة الحالية:', page);
+
+        // حفظ الموقع محلياً في المتصفح
+        try {
+          localStorage.setItem('visitorpulse_geo', JSON.stringify({
+            ip: ip, country: country, city: city, flag: flag, page: page, time: new Date().toLocaleTimeString('ar-SA')
+          }));
+        } catch(e) {}
+
+        // إذا تم تصفح الموقع من داخل تطبيق الأندرويد، يُرسل الزائر مباشرة للتطبيق:
+        if (window.VisitorPulseBridge && window.VisitorPulseBridge.logVisit) {
+          window.VisitorPulseBridge.logVisit(page, country, countryCode, city, flag, ip);
+        }
+      })
+      .catch(function(err) {
+        console.warn('[VisitorPulse] تعذر الاتصال بمزود الموقع:', err);
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', detectRealVisitor);
+  } else {
+    detectRealVisitor();
+  }
+})();
