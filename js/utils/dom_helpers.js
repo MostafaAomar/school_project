@@ -66,7 +66,7 @@ export function renderBilingualText(container, textObject, baseClass) {
         elSecondary.style.textAlign = (secondaryLang === 'ar') ? 'right' : 'left';
         // Add visual distinction for the secondary language
         elSecondary.style.fontSize = '0.95em';
-        elSecondary.style.color = '#666';
+        elSecondary.style.color = 'var(--text-muted)';
         elSecondary.style.marginTop = '3px';
          // ** Use innerHTML to render the processed HTML **
         elSecondary.innerHTML = processedSecondary;

@@ -1,11 +1,12 @@
-const CACHE_NAME = "learning-platform-shell-v22";
+const CACHE_NAME = "learning-platform-shell-v24";
 const RUNTIME_CACHE = "learning-platform-runtime-v4";
 const APP_SHELL = [
   "./index.html",
   "./uni/index.html",
   "./cv/index.html",
-  "./shared-theme.css?v=19",
-  "./shared-theme.js?v=13",
+  "./transfer/index.html",
+  "./theme.css?v=2",
+  "./shared-theme.js?v=14",
   "./manifest.webmanifest",
   "./icon.svg",
   "./logo.png",

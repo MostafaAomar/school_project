@@ -862,14 +862,14 @@ function checkCurrentAnswer() {
                                       if (zoneElement) {
                                            zoneElement.style.borderColor = 'var(--incorrect-color)';
                                            zoneElement.style.borderWidth = '3px';
-                                           zoneElement.style.backgroundColor = '#f8d7da';
+                                           zoneElement.style.backgroundColor = 'var(--error-surface)';
                                       }
                                  } else {
                                       // Correct placement
                                       if (zoneElement) {
                                            zoneElement.style.borderColor = 'var(--correct-color)';
                                             zoneElement.style.borderWidth = '3px';
-                                           zoneElement.style.backgroundColor = '#d1e7dd';
+                                           zoneElement.style.backgroundColor = 'var(--success-surface)';
                                       }
                                  }
                            });
@@ -1005,13 +1005,13 @@ function disableQuestionInteraction(question) {
                           opt.style.borderWidth = '3px'; // Make it prominent
                            // Optional: Add background if it wasn't the selected one
                            if (!opt.classList.contains('selected')) {
-                               opt.style.backgroundColor = '#d1e7dd'; // Light green background
+                               opt.style.backgroundColor = 'var(--success-surface)';
                            }
                      } else if (opt.classList.contains('selected')) {
                            // Style the incorrectly selected answer
                            opt.style.borderColor = 'var(--incorrect-color)';
                            opt.style.borderWidth = '3px';
-                           opt.style.backgroundColor = '#f8d7da'; // Light red background
+                           opt.style.backgroundColor = 'var(--error-surface)';
                            opt.style.opacity = '0.8';
                      } else {
                           // Dim unselected, incorrect options

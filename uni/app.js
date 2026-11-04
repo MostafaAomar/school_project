@@ -589,15 +589,15 @@ function showWelcomeMessage() {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: #4e4e4e;
-            color: #fff;
+            background-color: var(--surface);
+            color: var(--text-main);
             padding: 15px 25px;
             border-radius: 12px;
             z-index: 9999;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
             cursor: pointer;
-            border: 1px solid #3f3f46;
+            border: 1px solid var(--border-color);
         }
         #welcome-message p { margin: 0 0 10px 0; font-weight: bold; line-height: 1.6; font-size: 1.25rem; }
     `;
@@ -886,7 +886,7 @@ function performSearch(
 
   if (results.length === 0) {
     container.innerHTML =
-      "<p style='text-align:center; color:#94a3b8;'>لا توجد نتائج مطابقة.</p>";
+      "<p style='text-align:center; color:var(--text-muted);'>لا توجد نتائج مطابقة.</p>";
     return;
   }
 
@@ -900,7 +900,7 @@ function performSearch(
       : "";
     btn.innerHTML = `
             <span style="z-index:2; position:relative; display:block;">${escapeCardHTML(result.question.q)}</span>
-            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${escapeCardHTML(result.subject.subject)}${yearLabel}</small>
+            <small style="z-index:2; position:relative; color: var(--text-muted); display:block; margin-top: 5px;">المادة: ${escapeCardHTML(result.subject.subject)}${yearLabel}</small>
         `;
     const openResult = () => {
       quizData = result.yearSubjects;
@@ -944,14 +944,13 @@ function renderAllSubjects(container) {
   container.innerHTML = "";
   if (quizData.length === 0) {
     container.innerHTML =
-      "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
+      "<p style='text-align:center; color:var(--text-muted);'>لا توجد مواد متاحة حالياً.</p>";
     return;
   }
 
   quizData.forEach((data, index) => {
     const btn = document.createElement("div");
     btn.className = "subject-btn";
-    btn.dir = data.lang === "ar" ? "rtl" : "ltr";
     const progressPercent = getSubjectProgress(data.id, data.questions.length);
     const description =
       data.description ||
@@ -1172,7 +1171,7 @@ function showInterimResult() {
       ? `يمكنك المتابعة للسؤال ${currentIndex + 2}.`
       : "لقد وصلت إلى نهاية الأسئلة.";
   statsBox.innerHTML = `
-        <div style="font-size:3rem; font-weight:800; color:${stats.percentage >= 50 ? "#10b981" : "#ef4444"}">${stats.percentage}%</div>
+        <div style="font-size:3rem; font-weight:800; color:var(--theme-accent)">${stats.percentage}%</div>
         <p>أجبت على ${stats.correct} بشكل صحيح من أصل ${stats.answered} سؤال قمت بحله حتى الآن.</p>
         <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">تم حفظ تقدمك تلقائياً. ${nextMessage}</p>
     `;
@@ -1196,13 +1195,13 @@ function handleAnswer(selectedIndex, clickedBtn, qData) {
 function applyFeedbackStyles(btn, index, correctIndex) {
   const selectedIndex = userAnswers[currentIndex];
   if (index === correctIndex) {
-    btn.style.backgroundColor = "rgba(16, 185, 129, 0.2)";
-    btn.style.borderColor = "#10b981";
-    btn.style.color = "#058754";
+    btn.style.backgroundColor = "var(--theme-accent-pale)";
+    btn.style.borderColor = "var(--theme-accent)";
+    btn.style.color = "var(--theme-accent-deep)";
   } else if (index === selectedIndex && selectedIndex !== correctIndex) {
-    btn.style.backgroundColor = "rgba(239, 68, 68, 0.2)";
-    btn.style.borderColor = "#ef4444";
-    btn.style.color = "#d37676";
+    btn.style.backgroundColor = "var(--theme-accent-pale)";
+    btn.style.borderColor = "var(--theme-accent)";
+    btn.style.color = "var(--theme-accent-deep)";
   }
 }
 
@@ -1376,8 +1375,8 @@ async function analyzeCurrentQuestion(currentMode) {
         <div class="word-pill" style="display: block; text-align: left; direction: ltr;">
             <div style="margin-bottom: 15px;">
                 <span style="font-size: 0.7rem; color: var(--accent); font-weight: 800; text-transform: uppercase;">Full Sentence Flow</span>
-                <h3 style="margin: 5px 0; line-height: 1.4; color: #bf8686;">${escapeCardHTML(text)}</h3>
-                <div class="ipa" style="color: #6366f1; font-size: 1.1rem; margin-top: 10px; background: rgba(99,102,241,0.1); padding: 8px; border-radius: 8px; border-left: 3px solid var(--primary);">
+                <h3 style="margin: 5px 0; line-height: 1.4; color: var(--text-main);">${escapeCardHTML(text)}</h3>
+                <div class="ipa" style="color: var(--theme-accent); font-size: 1.1rem; margin-top: 10px; background: var(--theme-accent-pale); padding: 8px; border-radius: 8px; border-left: 3px solid var(--primary);">
                     ${escapeCardHTML(fullIpa)}
                 </div>
             </div>
@@ -1416,8 +1415,8 @@ function nextQuestion() {
 
 function prevQuestion() {
   if (currentIndex > 0) {
-    currentIndex--;
-    saveDetailedProgress();
+    container.innerHTML =
+      "<p style='text-align:center; color:var(--text-muted);'>لا توجد مواد متاحة حالياً.</p>";
     renderStep();
   }
 }
@@ -1430,7 +1429,7 @@ function showResults() {
   if (mode === "quiz") {
     const stats = calculateQuizStats();
     statsBox.innerHTML = `
-            <div style="font-size:3rem; font-weight:800; color:${stats.percentage >= 50 ? "#10b981" : "#ef4444"}">${stats.percentage}%</div>
+            <div style="font-size:3rem; font-weight:800; color:var(--theme-accent)">${stats.percentage}%</div>
             <p>أجبت على ${stats.correct} من أصل ${stats.answered} سؤال تم حله بشكل صحيح</p>
         `;
   } else {

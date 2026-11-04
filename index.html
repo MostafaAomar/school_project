@@ -16,11 +16,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
+    <link rel="stylesheet" href="./styles.css">
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="منصتي" />
-    <meta name="theme-color" content="#4356d6" />
+    <meta name="theme-color" content="#2563eb" />
     <script>
       document.documentElement.dataset.theme =
         localStorage.getItem("theme") === "dark" ? "dark" : "light";
@@ -51,7 +52,7 @@
     />
     <!-- Main Stylesheet -->
     <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="stylesheet" href="./shared-theme.css?v=19" />
+    <link rel="stylesheet" href="./theme.css?v=2" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -128,6 +129,7 @@
       <a href="./index.html" aria-current="page">المواد الدراسية</a>
       <a href="./uni/index.html">أسئلة الجامعة</a>
       <a href="./cv/index.html">إنشاء السيرة الذاتية</a>
+      <a href="./transfer/index.html">نقل الملفات بين الأجهزة  </a>
     </nav>
 
     <!-- Main Navigation Tabs Container -->
@@ -333,7 +335,6 @@
             <button
               id="start-quiz-button"
               class="action-button"
-              style="background-color: #28a745"
             >
               <i class="fas fa-play"></i> ابدأ الاختبار
             </button>
@@ -359,9 +360,9 @@
                   text-align: center;
                   padding: 30px 15px;
                   margin: 20px 0;
-                  border: 1px dashed #adb5bd;
+                  border: 1px dashed var(--border-color);
                   border-radius: 5px;
-                  background-color: #f8f9fa;
+                  background-color: var(--surface-raised);
                 "
               >
                 <p style="font-weight: bold; font-size: 1.1em">
@@ -582,6 +583,6 @@
       src="./js/utils/markdown_processor.js"
       type="module"
     ></script>
-    <script src="./shared-theme.js?v=13"></script>
+    <script src="./shared-theme.js?v=14"></script>
   </body>
 </html>

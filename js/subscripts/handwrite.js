@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         lineWidth: 3,
         lineCap: 'round',
         lineJoin: 'round',
-        strokeStyle: '#333'
+        strokeStyle: getComputedStyle(document.documentElement).getPropertyValue('--ink').trim()
     };
 
     // --- Apply Drawing Styles ---

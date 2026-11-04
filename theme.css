@@ -1,0 +1,572 @@
+:root,
+html[data-theme="light"] body,
+html[data-theme="light"] body.light-theme {
+  color-scheme: light;
+  --page: #ffffff;
+  --light-bg: var(--page);
+  --bg-dark: var(--page);
+  --color-page: var(--page);
+  --panel: #ffffff;
+  --container-bg: var(--panel);
+  --surface: #ffffff;
+  --surface-raised: #f5f8fc;
+  --muted-bg: var(--surface-raised);
+  --card-bg: var(--surface);
+  --glass-bg: var(--surface);
+  --ink: #111827;
+  --text-main: var(--ink);
+  --text-color: var(--ink);
+  --muted: #475569;
+  --text-muted: var(--muted);
+  --line: #e2e8f0;
+  --border-color: var(--line);
+  --glass-border: var(--line);
+  --theme-accent: #2563eb;
+  --theme-accent-deep: #1d4ed8;
+  --theme-accent-pale: #eff6ff;
+  --theme-accent-fill: #bfdbfe;
+  --theme-accent-line: #93c5fd;
+  --theme-accent-glow: rgba(37, 99, 235, 0.18);
+  --theme-focus: #2563eb;
+  --accent-color: var(--theme-accent);
+  --correct-color: var(--success);
+  --incorrect-color: var(--error);
+  --accent: var(--theme-accent);
+  --accent-deep: var(--theme-accent-deep);
+  --accent-pale: var(--theme-accent-pale);
+  --accent-fill: var(--theme-accent-fill);
+  --accent-line: var(--theme-accent-line);
+  --accent-glow: var(--theme-accent-glow);
+  --action-bg: #2563eb;
+  --action-hover: #1d4ed8;
+  --on-action: #fff;
+  --primary: var(--theme-accent);
+  --primary-color: var(--theme-accent);
+  --brand-primary: var(--theme-accent);
+  --brand-primary-deep: var(--theme-accent-deep);
+  --secondary: var(--theme-accent);
+  --secondary-color: var(--theme-accent);
+  --success: #1d4ed8;
+  --success-surface: #eff6ff;
+  --success-action-bg: var(--success);
+  --on-success-action: #fff;
+  --correct-color: var(--success);
+  --warning: #1d4ed8;
+  --warning-surface: #eff6ff;
+  --error: #1d4ed8;
+  --error-surface: #eff6ff;
+  --danger: var(--error);
+  --incorrect-color: var(--error);
+  --sidebar: #1e293b;
+  --sidebar-muted: #cbd5e1;
+  --primary-glow: rgba(15, 23, 42, 0.12);
+  --bs-body-bg: var(--page);
+  --bs-body-color: var(--ink);
+  --bs-primary: var(--theme-accent);
+  --bs-primary-rgb: 37, 99, 235;
+  --bs-secondary-color: var(--muted);
+  --bs-border-color: var(--line);
+  --bs-link-color: var(--theme-accent-deep);
+  --bs-link-hover-color: var(--theme-accent);
+  --bs-tertiary-bg: var(--surface-raised);
+  font-synthesis: none;
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  color-scheme: dark;
+  --page: #0b1220;
+  --light-bg: var(--page);
+  --bg-dark: var(--page);
+  --color-page: var(--page);
+  --panel: #111b2e;
+  --container-bg: var(--panel);
+  --surface: #111b2e;
+  --surface-raised: #17243b;
+  --muted-bg: var(--surface-raised);
+  --card-bg: var(--surface);
+  --glass-bg: var(--surface);
+  --ink: #f8fafc;
+  --text-main: var(--ink);
+  --text-color: var(--ink);
+  --muted: #cbd5e1;
+  --text-muted: var(--muted);
+  --line: #263449;
+  --border-color: var(--line);
+  --glass-border: var(--line);
+  --theme-accent: #60a5fa;
+  --theme-accent-deep: #93c5fd;
+  --theme-accent-pale: #17243b;
+  --theme-accent-fill: #1e3a5f;
+  --theme-accent-line: #2d4b73;
+  --theme-accent-glow: rgba(96, 165, 250, 0.24);
+  --theme-focus: #60a5fa;
+  --accent-color: var(--theme-accent);
+  --correct-color: var(--success);
+  --incorrect-color: var(--error);
+  --accent: var(--theme-accent);
+  --accent-deep: var(--theme-accent-deep);
+  --accent-pale: var(--theme-accent-pale);
+  --accent-fill: var(--theme-accent-fill);
+  --accent-line: var(--theme-accent-line);
+  --accent-glow: var(--theme-accent-glow);
+  --action-bg: #60a5fa;
+  --action-hover: #93c5fd;
+  --on-action: #0b1220;
+  --primary: var(--theme-accent);
+  --primary-color: var(--theme-accent);
+  --brand-primary: var(--theme-accent);
+  --brand-primary-deep: #93c5fd;
+  --secondary: var(--theme-accent);
+  --secondary-color: var(--theme-accent);
+  --success: #60a5fa;
+  --success-surface: #17243b;
+  --success-action-bg: var(--success);
+  --on-success-action: #0b1220;
+  --correct-color: var(--success);
+  --warning: #60a5fa;
+  --warning-surface: #17243b;
+  --error: #60a5fa;
+  --error-surface: #17243b;
+  --danger: var(--error);
+  --incorrect-color: var(--error);
+  --sidebar: #0b1220;
+  --sidebar-muted: #cbd5e1;
+  --primary-glow: rgba(0, 0, 0, 0.32);
+  --bs-body-bg: var(--page);
+  --bs-body-color: var(--ink);
+  --bs-primary: var(--theme-accent);
+  --bs-primary-rgb: 96, 165, 250;
+  --bs-secondary-color: var(--muted);
+  --bs-border-color: var(--line);
+  --bs-link-color: var(--theme-accent);
+  --bs-link-hover-color: var(--theme-accent-deep);
+  --bs-tertiary-bg: var(--surface-raised);
+}
+
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition: none !important;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Cairo", "Noto Sans Arabic", Tahoma, sans-serif;
+}
+
+html[data-theme] body {
+  color: var(--ink) !important;
+  background-color: var(--page) !important;
+  background-image: none !important;
+}
+
+html[data-theme] body * {
+  background-image: none !important;
+}
+
+html[data-theme] body :is(.gradient-text, .gradient-title) {
+  color: var(--theme-accent) !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+html[data-theme] body :is(.site-header, .topbar, .app-header) {
+  color: var(--ink) !important;
+  background: var(--surface) !important;
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 2px 12px rgba(27, 38, 38, 0.08);
+}
+
+html[data-theme] body :is(.site-header, .topbar, .app-header) .site-brand,
+html[data-theme] body .site-brand span {
+  color: var(--ink) !important;
+  background: none !important;
+  -webkit-text-fill-color: currentColor;
+}
+
+html[data-theme] body :is(.site-header, .topbar, .app-header) .site-brand img {
+  border-color: var(--line) !important;
+  box-shadow: none;
+}
+
+.project-nav,
+.main-nav-container,
+.main-nav-links {
+  color: var(--ink);
+  background: var(--surface-raised) !important;
+  border-color: var(--line) !important;
+}
+
+.main-nav-toggle {
+  color: var(--ink) !important;
+  background: var(--surface-raised) !important;
+  border: 1px solid var(--line) !important;
+}
+
+.material-symbols-outlined {
+  color: var(--muted) !important;
+}
+
+.project-nav a,
+.main-nav-button {
+  color: var(--muted) !important;
+}
+
+.project-nav a:hover,
+.project-nav a[aria-current="page"],
+.main-nav-button:hover,
+.main-nav-button.active {
+  color: var(--theme-accent-deep) !important;
+  background: var(--theme-accent-pale) !important;
+  border-color: var(--theme-accent) !important;
+}
+
+html[data-theme] body :is(.container, .view-container, .card, .lesson-card, .question-card, .quiz-question, .advice-tip, .editor-panel, .preview-panel, .entry, .color-box, .subject-library-card, .subject-btn, .year-header, .chat-container, .modern-contact-section, .privacy-policy-content, .modal-content, dialog, [role="dialog"]) {
+  color: var(--ink);
+  background-color: var(--surface);
+  border-color: var(--line);
+}
+
+html[data-theme] body.transfer-page :is(.sidebar, .panel, .privacy-card, .connect-card, .dropzone, .chat-compose, .chat-empty, .empty-state, .session-pill, .language-switch, .help-warning, .message) {
+  color: var(--ink);
+  background: var(--surface);
+  border-color: var(--line);
+  background-image: none;
+}
+
+html[data-theme] body.transfer-page .sidebar {
+  background: var(--surface) !important;
+}
+
+html[data-theme] body.transfer-page :is(.connect-card, .dropzone, .help-warning, .chat-compose, .message) {
+  background-color: var(--surface-raised);
+}
+
+html[data-theme] body.transfer-page :is(.pair-tabs, .qr-frame, .close-button) {
+  color: var(--ink) !important;
+  background-color: var(--surface-raised) !important;
+  border-color: var(--line) !important;
+}
+
+html[data-theme] body.transfer-page .pair-tabs button {
+  color: var(--muted) !important;
+  background: transparent !important;
+}
+
+html[data-theme] body.transfer-page .pair-tabs button.selected {
+  color: var(--theme-accent) !important;
+  background: var(--theme-accent-pale) !important;
+  border-color: var(--theme-accent-line) !important;
+}
+
+html[data-theme] body.transfer-page .dropzone.dragover {
+  background: var(--theme-accent-pale);
+  border-color: var(--theme-accent);
+}
+
+html[data-theme] body.transfer-page :is(.brand-symbol, .primary-button, .chat-compose button, #send-message, .toast) {
+  color: var(--on-action) !important;
+  background: var(--action-bg) !important;
+  border-color: var(--action-bg) !important;
+}
+
+html[data-theme] body.transfer-page :is(.primary-button, .chat-compose button, #send-message):hover {
+  background: var(--action-hover) !important;
+  border-color: var(--action-hover) !important;
+}
+
+html[data-theme] body.transfer-page :is(.brand-dot, .eyebrow, .eyebrow > span, .nav-item.active, .nav-dot, .privacy-icon, .device-outline, .art-link, .section-icon, .step-label span, .copy-button, .pair-feedback, .help-steps li::marker, .main-footer button, .footer-dot, .text-button, .system-message) {
+  color: var(--theme-accent) !important;
+}
+
+html[data-theme] body.transfer-page :is(.nav-item.active, .art-link, .benefit-icon, .pair-tabs button.selected, .copy-button, .message.sent, .chat-illustration, .empty-icon, .small-badge, .help-warning) {
+  background-color: var(--theme-accent-pale) !important;
+  border-color: var(--theme-accent-line) !important;
+}
+
+html[data-theme] body.transfer-page :is(.mint, .lavender, .peach, .privacy-icon, .upload-tile, .file-ghost, .upload-plus, .connection-dots, .session-pill.connected i, .chat-status.connected i, .chat-bottom span, .chat-illustration > span, .tiny-label span) {
+  color: var(--theme-accent) !important;
+  background-color: var(--surface-raised);
+  border-color: var(--line);
+}
+
+html[data-theme] body.transfer-page :is(.muted-tag, .small-badge, .dialog-note, .join-note, .session-hint, .privacy-card p, .heading-row p, .connect-copy p, .dropzone p, .drop-hint, .file-meta, .chat-status, .chat-empty p, .chat-bottom, .benefits p, .main-footer, .transfer-detail, .transfer-name, .breadcrumb, .secure-label, .sidebar-label, .sidebar-footer, .tiny-label) {
+  color: var(--muted) !important;
+}
+
+html[data-theme] body.transfer-page :is(.pair-feedback.error, .error-message, .status-error) {
+  color: var(--error) !important;
+  background-color: var(--error-surface) !important;
+  border-color: var(--line) !important;
+}
+
+html[data-theme] body :is(input, textarea, select, .field input, .field textarea, .layout-select) {
+  color: var(--ink);
+  background-color: var(--surface);
+  border-color: var(--line);
+}
+
+:where(input, textarea, select)::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+html[data-theme] body :is(button, input, textarea, select, a, [tabindex]):focus-visible {
+  outline: 3px solid var(--theme-focus) !important;
+  outline-offset: 3px !important;
+}
+
+a {
+  color: var(--theme-accent-deep);
+}
+
+a:hover {
+  color: var(--theme-accent);
+}
+
+html[data-theme] .text-dark {
+  color: var(--ink) !important;
+}
+
+html[data-theme] :is(.btn-light, .bg-white, .bg-light, .bg-body-tertiary) {
+  color: var(--ink) !important;
+  background-color: var(--surface-raised) !important;
+  border-color: var(--line) !important;
+}
+
+html[data-theme] body .section-resources {
+  color: var(--ink) !important;
+  background-color: var(--surface-raised) !important;
+}
+
+html[data-theme] body .section-resources .text-white {
+  color: var(--ink) !important;
+}
+
+html[data-theme] body .privacy-policy-section h2 {
+  border-color: var(--line) !important;
+}
+
+html[data-theme] body .last-updated {
+  color: var(--muted) !important;
+}
+
+:where(.button, .icon-button, .section-toggle, .back-button, .glass-btn, .subject-library-actions button) {
+  color: var(--ink);
+  background-color: var(--surface-raised);
+  border-color: var(--line);
+}
+
+:where(.button-primary, .subject-open-btn, .subject-transfer-btn.download, #pwa-install-btn, #send-button, .btn-primary, .bg-primary) {
+  color: var(--on-action) !important;
+  background-color: var(--action-bg) !important;
+  border-color: var(--action-bg) !important;
+}
+
+:where(.button-primary, .subject-open-btn, .subject-transfer-btn.download, #pwa-install-btn, #send-button, .btn-primary):hover {
+  background-color: var(--action-hover) !important;
+  border-color: var(--action-hover) !important;
+}
+
+#start-quiz-button {
+  color: var(--on-success-action) !important;
+  background-color: var(--success-action-bg) !important;
+}
+
+#send-button svg :is(path, line) {
+  stroke: var(--on-action) !important;
+}
+
+:where(.btn-warning, .subject-transfer-btn.update) {
+  color: var(--ink) !important;
+  background-color: var(--surface-raised) !important;
+  border-color: var(--line) !important;
+}
+
+:where(.success, .success-message, .alert-success, .status-success, .correct) {
+  color: var(--success);
+  background-color: var(--success-surface);
+  border-color: color-mix(in srgb, var(--success) 42%, var(--line));
+}
+
+:where(.warning, .warning-message, .alert-warning, .status-warning) {
+  color: var(--warning);
+  background-color: var(--warning-surface);
+  border-color: color-mix(in srgb, var(--warning) 42%, var(--line));
+}
+
+:where(.error, .error-message, .alert-danger, .status-error, .incorrect) {
+  color: var(--error);
+  background-color: var(--error-surface);
+  border-color: color-mix(in srgb, var(--error) 42%, var(--line));
+}
+
+html[data-theme] body :is(.success, .success-message, .alert-success, .status-success, .correct) {
+  color: var(--success) !important;
+  background-color: var(--success-surface) !important;
+  border-color: color-mix(in srgb, var(--success) 42%, var(--line)) !important;
+}
+
+html[data-theme] body :is(.warning, .warning-message, .alert-warning, .status-warning) {
+  color: var(--warning) !important;
+  background-color: var(--warning-surface) !important;
+  border-color: color-mix(in srgb, var(--warning) 42%, var(--line)) !important;
+}
+
+html[data-theme] body :is(.error, .error-message, .alert-danger, .status-error, .incorrect) {
+  color: var(--error) !important;
+  background-color: var(--error-surface) !important;
+  border-color: color-mix(in srgb, var(--error) 42%, var(--line)) !important;
+}
+
+html[data-theme] body .subject-library-card.status-update {
+  border-color: color-mix(in srgb, var(--warning) 58%, var(--line));
+}
+
+html[data-theme] body .subject-state-badge.state-current {
+  color: var(--success) !important;
+  background-color: color-mix(in srgb, var(--success) 14%, var(--surface)) !important;
+  border: 1px solid color-mix(in srgb, var(--success) 42%, var(--line));
+}
+
+html[data-theme] body .subject-state-badge.state-update {
+  color: var(--warning) !important;
+  background-color: color-mix(in srgb, var(--warning) 16%, var(--surface)) !important;
+  border: 1px solid color-mix(in srgb, var(--warning) 46%, var(--line));
+}
+
+html[data-theme] body .subject-remove-btn {
+  color: var(--error) !important;
+  background-color: var(--error-surface) !important;
+  border-color: color-mix(in srgb, var(--error) 42%, var(--line)) !important;
+}
+
+html[data-theme] body #account-sync-btn.sync-active {
+  color: var(--success) !important;
+}
+
+html[data-theme] body :is(.sync-btn, .connection-status, .connection-status.is-offline, .download-status, .download-status.download-error, .automatic-update-notice, .automatic-update-notice.error, .vocabulary-cloud-panel, .vocabulary-sync-open) {
+  color: var(--theme-accent-deep);
+  background-color: var(--theme-accent-pale);
+  border-color: var(--theme-accent-line);
+}
+
+html[data-theme] body :is(.sync-btn:hover, .connection-status, .connection-status.is-offline, .download-status, .download-status.download-error, .automatic-update-notice, .automatic-update-notice.error, .vocabulary-cloud-panel, .vocabulary-sync-open:hover) {
+  background-image: none !important;
+}
+
+html[data-theme] body :is(.fill, .subject-progress-line, .progress-track .fill) {
+  background-color: var(--action-bg) !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+html[data-theme] body :is(.mini-bar, .progress-track) {
+  background-color: var(--surface-raised) !important;
+  background-image: none !important;
+}
+
+html[data-theme] body #years-container .downloaded-year {
+  background-color: var(--theme-accent-pale) !important;
+  border-color: var(--theme-accent-line) !important;
+}
+
+html[data-theme] body #years-container .offline-year-card.has-new-subjects,
+html[data-theme] body #years-container .year-card-actions .year-update-alert {
+  color: var(--theme-accent-deep) !important;
+  background: var(--theme-accent-pale) !important;
+  border-color: var(--theme-accent-line) !important;
+  box-shadow: none !important;
+  animation: none !important;
+}
+
+html[data-theme] body .year-update-summary {
+  color: var(--theme-accent-deep) !important;
+}
+
+@keyframes year-update-pulse {
+  0%, 100% { box-shadow: none; }
+  50% { box-shadow: none; }
+}
+
+#pwa-install-banner {
+  color: var(--ink);
+  background-color: var(--surface);
+  border-color: var(--line);
+}
+
+dialog::backdrop {
+  background: rgba(11, 18, 32, 0.62);
+}
+
+:where(.badge, .chip, .subject-state-badge, .recommendation) {
+  border-color: var(--line);
+}
+
+table {
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+th,
+td {
+  color: inherit;
+  border-color: var(--line);
+}
+
+thead th {
+  background-color: var(--surface-raised);
+}
+
+pre,
+code,
+kbd,
+samp {
+  color: var(--ink);
+  background-color: var(--surface-raised);
+  border-color: var(--line);
+}
+
+:where(.text-muted, .description, .saved, .last-updated, small) {
+  color: var(--muted);
+}
+
+:where(.theme-toggle--floating) {
+  position: fixed;
+  z-index: 1100;
+  inset-inline-end: 1rem;
+  inset-block-end: 1rem;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.14);
+  font: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.theme-toggle--floating:hover {
+  color: var(--theme-accent-deep);
+  border-color: var(--theme-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

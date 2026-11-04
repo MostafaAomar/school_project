@@ -10,6 +10,7 @@
       content="تعليم, كتابة يدوية, لوحة تفاعليّة,منصة التعليم السورية, نماذج امتحانات , بكالوريا, ملخصات امتحان , تاسع, مديريه التربيه سوريا , وزارة التربيه سوريا ,الأطفال, لغة عربية, لغة إنجليزية" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>document.documentElement.dataset.theme = localStorage.getItem("theme") === "dark" ? "dark" : "light";</script>
 
       <script type="application/ld+json">
   {
@@ -25,9 +26,10 @@
   }
   </script>
     <title>Learn Arabic - Fun for Kids!</title>
-    <link rel="stylesheet" href="../css/arabic_style.css">
+    <link rel="stylesheet" href="../theme.css?v=2">
+    <link rel="stylesheet" href="./page-design.css">
 </head>
-<body>
+<body class="arabic-page">
     <div class="container">
         <!-- Inside the header section -->
 <header>
@@ -79,5 +81,6 @@
         
     </div>
     <script src="../js/subscripts/arabic_script.js"></script>
+    <script src="../shared-theme.js?v=14"></script>
 </body>
 </html>

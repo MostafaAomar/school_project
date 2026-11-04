@@ -296,9 +296,9 @@ function startQuizTimer(durationSeconds) {
                    alert("انتهى وقت الاختبار!"); // Simple fallback
              }
         } else if (remainingTime <= 10) {
-            quizTimerDisplay.style.color = 'var(--incorrect-color)'; // Red
+            quizTimerDisplay.style.color = 'var(--incorrect-color)';
         } else if (remainingTime <= 60) {
-            quizTimerDisplay.style.color = 'var(--accent-color)'; // Orange
+            quizTimerDisplay.style.color = 'var(--accent-color)';
         }
 
     }, 1000);

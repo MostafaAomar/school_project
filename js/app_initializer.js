@@ -27,10 +27,10 @@ import { MAIN_SECTION_IDS } from './config/constants.js';
 function showFatalError(message, details) {
     // ... (showFatalError function remains the same) ...
      const errorHtml = `
-          <div style="color: red; text-align: center; padding: 50px; border: 1px solid red; margin: 20px auto; border-radius: 5px; max-width: 800px; background-color: #fff0f0;">
+          <div style="color: var(--error); text-align: center; padding: 50px; border: 1px solid var(--error); margin: 20px auto; border-radius: 5px; max-width: 800px; background-color: var(--error-surface);">
                <h2><i class="fas fa-exclamation-triangle"></i> خطأ فادح في التطبيق</h2>
                <p>${message}</p>
-               <p style="font-family: monospace; background-color: #f8d7da; color: #721c24; padding: 5px; border-radius: 3px; font-size: 0.9em; word-wrap: break-word;">
+               <p style="font-family: monospace; background-color: var(--error-surface); color: var(--error); padding: 5px; border-radius: 3px; font-size: 0.9em; word-wrap: break-word;">
                     <i>${details}</i>
                </p>
                <p>يرجى تحديث الصفحة أو المحاولة مرة أخرى لاحقاً.</p>

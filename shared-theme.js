@@ -1,12 +1,29 @@
 (() => {
   const root = document.documentElement;
+  if (!document.querySelector("#theme-toggle-btn") && document.body) {
+    const button = document.createElement("button");
+    button.id = "theme-toggle-btn";
+    button.className = "theme-toggle theme-toggle--floating";
+    button.type = "button";
+    button.setAttribute("aria-pressed", "false");
+    button.setAttribute("aria-label", "التبديل إلى الوضع الداكن");
+    button.textContent = "☾";
+    document.body.appendChild(button);
+  }
+
   const themeButtons = [...document.querySelectorAll("#theme-toggle-btn")];
+  let themeTransitionTimer;
 
   function applyTheme(theme) {
     const isDark = theme === "dark";
+    root.classList.add("theme-switching");
+    window.clearTimeout(themeTransitionTimer);
     root.dataset.theme = isDark ? "dark" : "light";
     document.body.classList.toggle("dark-theme", isDark);
     document.body.classList.toggle("light-theme", !isDark);
+    document.querySelectorAll('meta[name="theme-color"]').forEach((meta) => {
+      meta.setAttribute("content", isDark ? "#0b1220" : "#ffffff");
+    });
     themeButtons.forEach((button) => {
       button.setAttribute("aria-pressed", String(isDark));
       button.setAttribute(
@@ -21,6 +38,9 @@
         button.textContent = isDark ? "☀" : "☾";
       }
     });
+    themeTransitionTimer = window.setTimeout(() => {
+      root.classList.remove("theme-switching");
+    }, 200);
   }
 
   applyTheme(localStorage.getItem("theme") === "dark" ? "dark" : "light");
@@ -41,10 +61,14 @@
 
   const isSubdir =
     location.pathname.includes("/uni/") ||
-    location.pathname.includes("/cv/");
+    location.pathname.includes("/cv/") ||
+    location.pathname.includes("/html/") ||
+    location.pathname.includes("/transfer/");
+  const isStandaloneContentPage = location.pathname.includes("/html/");
   const isSharedMenuPage =
     location.pathname.includes("/uni/") ||
-    location.pathname.includes("/cv/");
+    location.pathname.includes("/cv/") ||
+    location.pathname.includes("/transfer/");
 
   if (isSharedMenuPage) {
     const menu = document.querySelector(".main-nav-container");
@@ -76,7 +100,7 @@
     }
   }
 
-  const swUrl = isSubdir ? "../service-worker.js?v=19" : "./service-worker.js?v=19";
+  const swUrl = isSubdir ? "../service-worker.js?v=20" : "./service-worker.js?v=20";
   const swScope = isSubdir ? "../" : "./";
 
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
@@ -154,6 +178,7 @@
   }
 
   window.addEventListener("beforeinstallprompt", (e) => {
+    if (isStandaloneContentPage) return;
     e.preventDefault();
     deferredPrompt = e;
     document.documentElement.classList.add("can-install-pwa");
@@ -166,6 +191,7 @@
   });
 
   window.addEventListener("appinstalled", () => {
+    if (isStandaloneContentPage) return;
     localStorage.setItem("pwa-installed", "1");
     document.documentElement.classList.remove("can-install-pwa");
     const banner = document.getElementById("pwa-install-banner");
