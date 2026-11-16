@@ -63,44 +63,70 @@
     location.pathname.includes("/uni/") ||
     location.pathname.includes("/cv/") ||
     location.pathname.includes("/html/") ||
+    location.pathname.includes("/pages/") ||
     location.pathname.includes("/transfer/");
   const isStandaloneContentPage = location.pathname.includes("/html/");
-  const isSharedMenuPage =
-    location.pathname.includes("/uni/") ||
-    location.pathname.includes("/cv/") ||
-    location.pathname.includes("/transfer/");
 
-  if (isSharedMenuPage) {
-    const menu = document.querySelector(".main-nav-container");
-    const toggle = menu?.querySelector(".main-nav-toggle");
-    const links = menu?.querySelector(".main-nav-links");
+  // One shared responsive menu: desktop links remain visible; mobile uses a dropdown.
+  function setupMobileProjectMenu() {
+    const topbar = document.querySelector(".topbar");
+    const nav = document.querySelector(".project-nav");
+    if (!topbar || !nav) return;
 
-    if (toggle && links) {
-      toggle.addEventListener("click", () => {
-        const isOpen = links.classList.toggle("main-nav-links--active");
-        toggle.setAttribute("aria-expanded", String(isOpen));
-        toggle.setAttribute(
-          "aria-label",
-          isOpen ? "إغلاق قائمة التنقل" : "فتح قائمة التنقل",
-        );
-      });
-
-      links.addEventListener("click", (event) => {
-        const button = event.target.closest(".main-nav-button");
-        if (!button) return;
-        const target = button.dataset.mainTarget;
-        if (!target) return;
-
-        links.classList.remove("main-nav-links--active");
-        toggle.setAttribute("aria-expanded", "false");
-        if (!document.querySelector(target)) {
-          location.href = `../index.html${target}`;
-        }
-      });
+    if (!nav.id) nav.id = "project-navigation-menu";
+    let menuButton = topbar.querySelector(".mobile-menu-toggle");
+    if (!menuButton) {
+      // Fallback for pages that do not yet contain the shared button markup.
+      menuButton = document.createElement("button");
+      menuButton.type = "button";
+      menuButton.className = "mobile-menu-toggle";
+      menuButton.innerHTML =
+        '<span class="mobile-menu-toggle__bars" aria-hidden="true">' +
+        '<span class="mobile-menu-toggle__line"></span>' +
+        '<span class="mobile-menu-toggle__line"></span>' +
+        '<span class="mobile-menu-toggle__line"></span>' +
+        '</span>';
+      menuButton.setAttribute("aria-controls", nav.id);
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "فتح القائمة");
+      topbar.appendChild(menuButton);
     }
+    menuButton.setAttribute("aria-controls", nav.id);
+
+    const closeMenu = () => {
+      nav.classList.remove("is-open");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "فتح القائمة");
+      menuButton.classList.remove("is-open");
+    };
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("is-open");
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.setAttribute("aria-label", isOpen ? "إغلاق القائمة" : "فتح القائمة");
+      menuButton.classList.toggle("is-open", isOpen);
+    });
+
+    nav.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeMenu();
+    });
+    document.addEventListener("click", (event) => {
+      if (!nav.classList.contains("is-open")) return;
+      if (!topbar.contains(event.target) && !nav.contains(event.target)) closeMenu();
+    });
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 768) closeMenu();
+    });
+
+    // The stylesheet only collapses navigation after the control is wired.
+    // If JavaScript fails, mobile users still see every navigation link.
+    root.classList.add("mobile-menu-ready");
   }
 
-  const swUrl = isSubdir ? "../service-worker.js?v=20" : "./service-worker.js?v=20";
+  setupMobileProjectMenu();
+
+  const swUrl = isSubdir ? "../service-worker.js?v=24" : "./service-worker.js?v=24";
   const swScope = isSubdir ? "../" : "./";
 
   if ("serviceWorker" in navigator && location.protocol !== "file:") {

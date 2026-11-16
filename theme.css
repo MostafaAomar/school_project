@@ -570,3 +570,202 @@ samp {
     animation-iteration-count: 1 !important;
   }
 }
+/* ------------------------------------------------------------------
+   Shared responsive project navigation.
+
+   Easy color customization:
+   - hamburger lines: --project-menu-icon-color
+   - hamburger button: --project-menu-button-bg / --project-menu-button-border
+   - dropdown: --project-navigation-menu-bg / --project-navigation-menu-text
+   - menu links: --project-navigation-menu-link / --project-navigation-menu-active
+   These variables can be changed in this :root block or overridden on a page.
+   ------------------------------------------------------------------ */
+:root {
+  --project-menu-icon-color: var(--theme-accent-deep);
+  --project-menu-button-bg: var(--surface-raised);
+  --project-menu-button-border: var(--line);
+  --project-menu-button-hover-bg: var(--theme-accent-pale);
+  --project-navigation-menu-bg: var(--surface-raised);
+  --project-navigation-menu-text: var(--ink);
+  --project-navigation-menu-link: var(--muted);
+  --project-navigation-menu-active: var(--theme-accent-deep);
+  --project-navigation-menu-active-bg: var(--theme-accent-pale);
+}
+
+html body #project-navigation-menu {
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 2px;
+  overflow-x: visible;
+  color: var(--project-navigation-menu-text) !important;
+  background: var(--project-navigation-menu-bg) !important;
+  border-color: var(--line) !important;
+}
+
+#project-navigation-menu a {
+  color: var(--project-navigation-menu-link) !important;
+}
+
+#project-navigation-menu a:hover,
+#project-navigation-menu a[aria-current="page"] {
+  color: var(--project-navigation-menu-active) !important;
+  background: var(--project-navigation-menu-active-bg) !important;
+}
+
+.mobile-menu-toggle {
+  display: none !important;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 1px solid var(--project-menu-button-border) !important;
+  border-radius: 12px;
+  color: var(--project-menu-icon-color) !important;
+  background: var(--project-menu-button-bg) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-menu-toggle__bars {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 18px;
+}
+
+.mobile-menu-toggle__line {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 22px;
+  height: 2.5px;
+  border-radius: 999px;
+  background-color: var(--project-menu-icon-color) !important;
+  opacity: 1;
+  transform: rotate(0);
+  transition: top 180ms ease, transform 180ms ease, opacity 140ms ease;
+}
+
+.mobile-menu-toggle__line:nth-child(1) { top: 1px; }
+.mobile-menu-toggle__line:nth-child(2) { top: 8px; }
+.mobile-menu-toggle__line:nth-child(3) { top: 15px; }
+
+.mobile-menu-toggle.is-open .mobile-menu-toggle__line:nth-child(1) {
+  top: 8px;
+  transform: rotate(45deg);
+}
+.mobile-menu-toggle.is-open .mobile-menu-toggle__line:nth-child(2) {
+  opacity: 0;
+}
+.mobile-menu-toggle.is-open .mobile-menu-toggle__line:nth-child(3) {
+  top: 8px;
+  transform: rotate(-45deg);
+}
+
+.mobile-menu-toggle:hover {
+  background: var(--project-menu-button-hover-bg) !important;
+}
+
+.mobile-menu-toggle:focus-visible {
+  outline: 3px solid var(--theme-focus);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-menu-toggle__line {
+    transition: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html body header.topbar {
+    position: relative;
+    min-height: 64px;
+    padding-inline: 64px;
+    overflow: visible;
+  }
+
+  html body header.topbar > .mobile-menu-toggle {
+    display: inline-flex !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 12px !important;
+    right: auto !important;
+    z-index: 20 !important;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
+    flex: 0 0 44px;
+  }
+
+  html body #project-navigation-menu {
+    display: flex !important;
+    width: calc(100% - 24px);
+    max-width: none;
+    min-height: 0;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 4px;
+    margin: 0 auto 14px;
+    padding: 8px 10px;
+    overflow: visible;
+    border-radius: 0 0 16px 16px;
+  }
+
+  html body #project-navigation-menu a {
+    display: flex;
+    width: 100%;
+    min-height: 44px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 10px;
+    white-space: normal;
+    text-align: start;
+  }
+
+  /* Only collapse the dropdown after its JavaScript control is wired. */
+  html.mobile-menu-ready body #project-navigation-menu {
+    max-height: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: max-height 220ms ease, opacity 180ms ease, transform 180ms ease,
+      padding 180ms ease, margin 180ms ease;
+  }
+
+  html.mobile-menu-ready body #project-navigation-menu.is-open {
+    max-height: min(78vh, 560px);
+    margin-bottom: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow-y: auto;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 769px) {
+  html body header.topbar > .mobile-menu-toggle {
+    display: none !important;
+  }
+  html body #project-navigation-menu {
+    max-height: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: none !important;
+  }
+}

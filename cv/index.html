@@ -1,205 +1,244 @@
-
-   <!doctype html>
+<!doctype html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <meta name="theme-color" content="#2563eb" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="منصتي" />
-    <meta
-      name="description"
-      content="صمّم سيرتك الذاتية الاحترافية بسهولة — يعمل بدون إنترنت."
-    />
-    <link rel="stylesheet" href="../styles.css">
-    <script>
-      document.documentElement.dataset.theme =
-        localStorage.getItem("theme") === "dark" ? "dark" : "light";
-    </script>
-    <link rel="icon" href="../icon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="../logo.png" />
-    <link rel="manifest" href="../manifest.webmanifest" />
-    <title>سيرة | صمّم سيرتك الذاتية — منصة التعليم السورية</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../theme.css?v=2" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="منصتي" />
+  <meta name="description" content="صمّم سيرتك الذاتية الاحترافية بسهولة — يعمل بدون إنترنت." />
+  <link rel="stylesheet" href="../styles.css?v=31">
+  <script>
+    document.documentElement.dataset.theme =
+      localStorage.getItem("theme") === "dark" ? "dark" : "light";
+  </script>
+  <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="../logo.png" />
+  <link rel="manifest" href="../manifest.webmanifest" />
+  <title>سيرة | صمّم سيرتك الذاتية — منصة التعليم السورية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../theme.css?v=7" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
+  <style>
+    .app-language-toggle-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0 0 14px
+    }
+
+    #app-language-toggle {
+      min-width: 112px
+    }
+
+    #app-language-toggle:focus-visible {
+      outline: 3px solid var(--primary, #2563eb);
+      outline-offset: 3px
+    }
+
+    /* ===== CV fixes: sidebar design + larger preview (scoped to this page only) ===== */
+
+    /* 1) Never clip the CV: the A4 ratio is a minimum; content may make the page taller */
+    @media screen {
+      .cv-page #cv-paper {
+        aspect-ratio: auto;
+        min-height: 0;
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .cv-page #cv-paper>.cv-inner {
+        aspect-ratio: 210 / 297;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        overflow: visible
+      }
+    }
+
+    /* 2) Desktop: give the preview more room */
+    @media (min-width: 781px) {
+      .cv-page .workspace {
+        grid-template-columns: minmax(300px, .8fr) minmax(430px, 1.2fr)
+      }
+    }
+
+    /* 3) Phones / small tablets: keep the real sidebar design (side by side) and a bigger preview */
+    @media screen and (max-width: 780px) {
+      .cv-page .preview-panel {
+        height: min(70vh, 640px);
+        max-height: min(70vh, 640px);
+        min-height: 380px
+      }
+
+      .cv-page .paper-stage {
+        padding: 4px
+      }
+
+      .cv-page #cv-paper {
+        padding: 4px
+      }
+
+      .cv-page #cv-paper.layout-classic>.cv-inner {
+        grid-template-columns: 36% minmax(0, 1fr) !important
+      }
+
+      .cv-page #cv-paper.layout-classic .cv-sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px 8px
+      }
+
+      .cv-page #cv-paper.layout-classic .cv-main {
+        padding: 14px 10px
+      }
+    }
+  </style>
 </head>
+
 <body class="cv-page">
 
 
-    <header class="topbar">
-      <a class="site-brand" href="../index.html" title="الصفحة الرئيسية للمنصة">
-        <img src="../images/pagelogo.png" alt="" />
-        <span>منصة التعليم السورية</span>
-      </a>
-      <button
-        type="button"
-        class="theme-toggle"
-        id="theme-toggle-btn"
-        aria-pressed="false"
-      >
-        ☾
-      </button>
-    </header>
-    <nav class="project-nav" aria-label="المشاريع">
-      <a href="../index.html">المواد الدراسية</a>
-      <a href="../uni/index.html">أسئلة الجامعة</a>
-      <a href="./index.html" aria-current="page">إنشاء السيرة الذاتية</a>
-      <a href="../transfer/index.html">نقل الملفات بين الأجهزة  </a>
-    </nav>
+  <header class="topbar">
+    <a class="site-brand" href="../index.html" title="الصفحة الرئيسية للمنصة">
+      <img src="../images/pagelogo.png" alt="" />
+      <span data-i18n="siteBrand">منصة التعليم السورية</span>
+    </a>
+    <button type="button" class="mobile-menu-toggle" aria-controls="project-navigation-menu" aria-expanded="false"
+      aria-label="فتح القائمة">
+      <span class="mobile-menu-toggle__bars" aria-hidden="true">
+        <span class="mobile-menu-toggle__line"></span>
+        <span class="mobile-menu-toggle__line"></span>
+        <span class="mobile-menu-toggle__line"></span>
+      </span>
+    </button>
+    <button type="button" class="theme-toggle" id="theme-toggle-btn" aria-pressed="false">
+      ☾
+    </button>
+  </header>
+  <nav id="project-navigation-menu" class="project-nav" aria-label="أقسام المنصة">
+    <a href="../index.html" data-i18n="navSubjects">المواد الدراسية</a>
+    <a href="../uni/index.html" data-i18n="navUniversity">أسئلة الجامعة</a>
+    <a href="../pages/plan.html" data-i18n="navPlan">خطة الدراسة</a>
+    <a href="../pages/writing.html" data-i18n="navWriting">كتابة</a>
+    <a href="../pages/arabic.html" data-i18n="navArabic">العربية لغير المتحدثين</a>
+    <a href="../cv/index.html" aria-current="page" data-i18n="navCv">إنشاء السيرة الذاتية</a>
+    <a href="../transfer/index.html" data-i18n="navTransfer">نقل الملفات بين الأجهزة</a>
+    <a href="../pages/sources.html" data-i18n="navSources">بعض المصادر</a>
+    <a href="../pages/contact.html" data-i18n="navContact">اتصال</a>
+  </nav>
 
-    <!-- Main Navigation Tabs Container -->
-    <nav class="main-nav-container">
-      <button
-        class="main-nav-toggle"
-        aria-label="فتح قائمة التنقل"
-        aria-expanded="false"
-        aria-controls="main-nav-links-list"
-      >
-        <i class="fas fa-bars" aria-hidden="true"></i>
-      </button>
-      <div class="main-nav-links" id="main-nav-links-list">
-        <!-- Buttons now use data-main-target matching IDs of main content sections -->
-        <button
-          class="main-nav-button"
-          data-main-target="#subject-grade-lesson-flow"
-          id="main-nav-subjects-btn"
-        >
-          <i class="fas fa-shapes"></i> المواد الدراسية
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#advice-section"
-          id="main-nav-advice-btn"
-        >
-          <i class="fas fa-book-open"></i> خطة الدراسة
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#handwriting-section"
-          id="main-nav-handwrite-btn"
-        >
-          <i class="fa-solid fa-pen-to-square"></i> كتابة
-        </button>
-        
-        <button
-          class="main-nav-button"
-          data-main-target="#nonspeaker-arabic-section"
-          id="main-nav-nonspeaker-btn"
-        >
-          <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#external-sources-section"
-          id="main-nav-sources-btn"
-        >
-          <i class="fa-solid fa-paperclip"></i> بعض المصادر
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#contact-section"
-          id="main-nav-contact-btn"
-        >
-          <i class="fa-solid fa-address-book"></i> اتصال
+  <main id="cv-app" lang="ar" dir="rtl">
+    <section class="intro">
+      <p class="eyebrow" data-i18n="tagline">خطوتك القادمة تبدأ هنا</p>
+      <h1 data-i18n="pageTitle">صمّم سيرة ذاتية تعبّر عنك</h1>
+      <p data-i18n="pageDescription">
+        أضف المعلومات التي لديك فقط، وغيّر ترتيب الأقسام والألوان حتى تحصل على
+        سيرة شخصية ومرتبة.
+      </p>
+      <div class="app-language-toggle-wrap">
+        <button type="button" class="button" id="app-language-toggle" aria-label="تغيير لغة الواجهة إلى الإنجليزية">
+          <span data-i18n="switchLanguage">English</span>
         </button>
       </div>
-    </nav>
-    <main>
-      <section class="intro">
-        <p class="eyebrow">خطوتك القادمة تبدأ هنا</p>
-        <h1>صمّم سيرة ذاتية تعبّر عنك</h1>
-        <p>
-          أضف المعلومات التي لديك فقط، وغيّر ترتيب الأقسام والألوان حتى تحصل على
-          سيرة شخصية ومرتبة.
-        </p>
-        <div class="top-actions">
-          <button type="button" class="button" id="new-cv">
-            ＋ سيرة جديدة
-          </button>
-          <button
-            type="button"
-            class="button button-primary"
-            id="download-pdf"
-            aria-label="تنزيل السيرة الذاتية بصيغة PDF"
-            title="في نافذة الطباعة، اختر حفظ بصيغة PDF"
-          >
-            تنزيل السيرة ↓<span class="download-text"></span>
-          </button>
-        </div>
-      </section>
+      <div class="top-actions">
+        <button type="button" class="button" id="new-cv">
+          ＋ <span data-i18n="newCv">سيرة جديدة</span>
+        </button>
+        <button type="button" class="button button-primary" id="download-pdf"
+          aria-label="تنزيل السيرة الذاتية بصيغة PDF" title="في نافذة الطباعة، اختر حفظ بصيغة PDF">
+          <span data-i18n="downloadPdf">تنزيل السيرة ↓</span><span class="download-text"></span>
+        </button>
+      </div>
+    </section>
 
-      <div class="workspace">
+    <div class="workspace">
       <section class="editor-panel" aria-labelledby="editor-title">
-        <div class="panel-heading"><h2 id="editor-title">معلوماتك</h2><span class="saved">يُحفظ تلقائياً</span></div>
+        <div class="panel-heading">
+          <h2 id="editor-title" data-i18n="editorTitle">معلوماتك</h2><span class="saved" data-i18n="saved">يُحفظ
+            تلقائياً</span>
+        </div>
         <div id="editor-sections"></div>
         <section class="card add-section-card">
-          <h3 class="add-heading">أضف قسماً إلى سيرتك</h3>
+          <h3 class="add-heading" data-i18n="addSectionTitle">أضف قسماً إلى سيرتك</h3>
           <div class="section-chips" id="available-sections"></div>
         </section>
       </section>
       <section class="preview-panel" aria-labelledby="preview-title">
         <div class="preview-toolbar">
-          <h2 id="preview-title">معاينة سيرتك</h2>
+          <h2 id="preview-title" data-i18n="previewTitle">معاينة سيرتك</h2>
           <div class="preview-controls">
-            <label for="cv-language-select">لغة السيرة</label>
-            <select class="layout-select" id="cv-language-select" aria-label="لغة السيرة">
-              <option value="ar">العربية</option>
-              <option value="en">English</option>
-              <option value="de">Deutsch</option>
-            </select>
-            <label class="sr-only" for="layout-select">تصميم السيرة</label>
+            <span class="cv-language-label" data-i18n="cvLanguageLabel">لغة السيرة</span>
+            <div class="cv-language-control" id="cv-language-control" role="group" aria-label="لغة السيرة">
+              <button class="cv-language-btn" type="button" data-cv-language="ar" aria-pressed="true">العربية</button>
+              <button class="cv-language-btn" type="button" data-cv-language="en" aria-pressed="false">English</button>
+              <button class="cv-language-btn" type="button" data-cv-language="de" aria-pressed="false">Deutsch</button>
+            </div>
+            <label class="sr-only" for="layout-select" data-i18n="layoutLabel">تصميم السيرة</label>
             <select class="layout-select" id="layout-select">
-              <option value="auto">التصميم المقترح</option>
-              <option value="classic">كلاسيكي — شريط جانبي</option>
-              <option value="minimal">بسيط — شريط علوي</option>
+              <option value="auto" data-i18n="layoutAuto">التصميم المقترح</option>
+              <option value="classic" data-i18n="layoutClassic">كلاسيكي — شريط جانبي</option>
+              <option value="minimal" data-i18n="layoutMinimal">بسيط — شريط علوي</option>
             </select>
           </div>
         </div>
         <div class="color-box">
-          <strong>لون القالب</strong>
+          <strong data-i18n="templateColor">لون القالب</strong>
           <div class="palette" role="group" aria-label="ألوان القالب">
-            <button class="swatch" type="button" data-color="#2563eb" style="background:#2563eb" aria-label="أزرق أساسي" aria-pressed="true"></button>
-            <button class="swatch" type="button" data-color="#1d4ed8" style="background:#1d4ed8" aria-label="أزرق داكن" aria-pressed="false"></button>
-            <button class="swatch" type="button" data-color="#3b82f6" style="background:#3b82f6" aria-label="أزرق متوسط" aria-pressed="false"></button>
-            <button class="swatch" type="button" data-color="#60a5fa" style="background:#60a5fa" aria-label="أزرق فاتح" aria-pressed="false"></button>
-            <button class="swatch" type="button" data-color="#1e40af" style="background:#1e40af" aria-label="كحلي" aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#2563eb" style="background:#2563eb" aria-label="أزرق أساسي"
+              aria-pressed="true"></button>
+            <button class="swatch" type="button" data-color="#1d4ed8" style="background:#1d4ed8" aria-label="أزرق داكن"
+              aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#3b82f6" style="background:#3b82f6" aria-label="أزرق متوسط"
+              aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#60a5fa" style="background:#60a5fa" aria-label="أزرق فاتح"
+              aria-pressed="false"></button>
+            <button class="swatch" type="button" data-color="#1e40af" style="background:#1e40af" aria-label="كحلي"
+              aria-pressed="false"></button>
           </div>
           <label class="sr-only" for="custom-color">اختر لوناً مخصصاً</label>
           <input class="custom-color" id="custom-color" type="color" value="#2563eb" title="اختر لوناً مخصصاً">
         </div>
         <div class="color-box">
-          <strong>لون الشريط الجانبي</strong>
+          <strong data-i18n="sidebarColor">لون الشريط الجانبي</strong>
           <div class="palette" id="sidebar-palette" role="group" aria-label="ألوان الشريط الجانبي">
-            <button class="sidebar-swatch" type="button" data-sidebar="#0b1220" style="background:#0b1220" aria-label="كحلي" aria-pressed="true"></button>
-            <button class="sidebar-swatch" type="button" data-sidebar="#111b2e" style="background:#111b2e" aria-label="كحلي داكن" aria-pressed="false"></button>
-            <button class="sidebar-swatch" type="button" data-sidebar="#1e3a5f" style="background:#1e3a5f" aria-label="أزرق ليلي" aria-pressed="false"></button>
-            <button class="sidebar-swatch" type="button" data-sidebar="#1d4ed8" style="background:#1d4ed8" aria-label="أزرق داكن" aria-pressed="false"></button>
-            <button class="sidebar-swatch" type="button" data-sidebar="#2563eb" style="background:#2563eb" aria-label="أزرق" aria-pressed="false"></button>
-            <button class="sidebar-swatch" type="button" data-sidebar="#f5f8fc" style="background:#f5f8fc" aria-label="رمادي بارد فاتح" aria-pressed="false"></button>
-          </div> 
+            <button class="sidebar-swatch" type="button" data-sidebar="#0b1220" style="background:#0b1220"
+              aria-label="كحلي" aria-pressed="true"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#111b2e" style="background:#111b2e"
+              aria-label="كحلي داكن" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#1e3a5f" style="background:#1e3a5f"
+              aria-label="أزرق ليلي" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#1d4ed8" style="background:#1d4ed8"
+              aria-label="أزرق داكن" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#2563eb" style="background:#2563eb"
+              aria-label="أزرق" aria-pressed="false"></button>
+            <button class="sidebar-swatch" type="button" data-sidebar="#f5f8fc" style="background:#f5f8fc"
+              aria-label="رمادي بارد فاتح" aria-pressed="false"></button>
+          </div>
         </div>
         <p class="recommendation" id="recommendation" aria-live="polite"></p>
-        <div class="paper-stage"><article id="cv-paper" class="cv-paper" dir="rtl" lang="ar" aria-label="معاينة السيرة الذاتية"></article></div>
+        <div class="paper-stage">
+          <article id="cv-paper" class="cv-paper" dir="rtl" lang="ar" aria-label="معاينة السيرة الذاتية"></article>
+        </div>
         <p class="status" id="status" role="status" aria-live="polite"></p>
       </section>
     </div>
   </main>
-  <input class="sr-only" type="file" id="photo-file" accept="image/jpeg,image/png,image/webp" aria-label="اختر صورة شخصية">
+  <input class="sr-only" type="file" id="photo-file" accept="image/jpeg,image/png,image/webp"
+    aria-label="اختر صورة شخصية">
   <script>
     (() => {
       "use strict";
@@ -230,7 +269,7 @@
         activity: "الدور أو النشاط", interest: "الاهتمام أو الهواية", person: "الاسم",
         relationship: "الصفة أو المسمى الوظيفي", contact: "معلومات التواصل"
       };
-       const placeholders = {
+      const placeholders = {
         name: "مثال: مصطفى العمر", headline: "مثال: مدرس لغة إنجليزية", email: "name@example.com",
         phone: "مثال: +963944123456", city: "مثال: منبج، سوريا", website: "https://mostafaaomar.github.io/cv/",
         summary: "...... أنا متحمس جداً للعمل كمعلم في مدرستكم، ولدي خبرة في مجال التدريس.",
@@ -246,6 +285,61 @@
       };
       const translations = {
         ar: {
+          tagline: "خطوتك القادمة تبدأ هنا",
+          pageTitle: "صمّم سيرة ذاتية تعبّر عنك",
+          pageDescription: "أضف المعلومات التي لديك فقط، وغيّر ترتيب الأقسام والألوان حتى تحصل على سيرة شخصية ومرتبة.",
+          newCv: "سيرة جديدة",
+          downloadPdf: "تنزيل السيرة ↓",
+          editorTitle: "معلوماتك",
+          saved: "يُحفظ تلقائياً",
+          addSectionTitle: "أضف قسماً إلى سيرتك",
+          previewTitle: "معاينة سيرتك",
+          languageLabel: "لغة السيرة",
+          cvLanguageLabel: "لغة السيرة",
+          appLanguageLabel: "لغة واجهة التطبيق",
+          switchLanguage: "English",
+          switchLanguageAria: "تغيير لغة الواجهة إلى الإنجليزية",
+          navigationLabel: "أقسام المنصة",
+          siteBrand: "منصة التعليم السورية",
+          navSubjects: "المواد الدراسية",
+          navUniversity: "أسئلة الجامعة",
+          navPlan: "خطة الدراسة",
+          navWriting: "كتابة",
+          navArabic: "العربية لغير المتحدثين",
+          navCv: "إنشاء السيرة الذاتية",
+          navTransfer: "نقل الملفات بين الأجهزة",
+          navSources: "بعض المصادر",
+          navContact: "اتصال",
+          menuToggleLabel: "فتح القائمة",
+          layoutLabel: "تصميم السيرة",
+          downloadPdfAria: "تنزيل السيرة الذاتية بصيغة PDF",
+          downloadPdfTitle: "في نافذة الطباعة، اختر حفظ بصيغة PDF",
+          customColorTitle: "اختر لوناً مخصصاً",
+          previewHintTitle: "معاينة القالب",
+          layoutAuto: "التصميم المقترح",
+          layoutClassic: "كلاسيكي — شريط جانبي",
+          layoutMinimal: "بسيط — شريط علوي",
+          templateColor: "لون القالب",
+          sidebarColor: "لون الشريط الجانبي",
+          photoPreviewAlt: "معاينة الصورة الشخصية",
+          moveUp: "تحريك للأعلى",
+          moveDown: "تحريك للأسفل",
+          removeEntry: "حذف العنصر",
+          moveSectionUp: "تحريك القسم للأعلى",
+          moveSectionDown: "تحريك القسم للأسفل",
+          removeSection: "حذف القسم",
+          confirmNewCv: "هل تريد بدء سيرة جديدة؟ سيُحذف الملف المحفوظ في هذا المتصفح.",
+          newCvStarted: "بدأت سيرة جديدة.",
+          choosePhotoError: "اختر صورة بصيغة JPG أو PNG أو WebP وحجم أقل من ٥ ميغابايت.",
+          photoReadError: "تعذرت قراءة الصورة. جرّب صورة أخرى.",
+          photoOpenError: "تعذر فتح الصورة. جرّب صورة أخرى.",
+          photoPrepareError: "تعذر تجهيز الصورة. جرّب صورة أخرى.",
+          levelError: "أدخل نسبة مئوية من ٠ إلى ١٠٠، مثل ٧٥٪.",
+          emailError: "أدخل بريداً إلكترونياً صحيحاً.",
+          invalidEmailBeforeDownload: "تحقق من صحة البريد الإلكتروني قبل التنزيل.",
+          invalidValuesBeforeDownload: "تحقق من القيم المدخلة قبل التنزيل.",
+          printError: "تعذرت طباعة السيرة. جرّب فتحها في متصفح حديث ثم أعد المحاولة.",
+          storageError: "تعذر حفظ التغييرات. قد تكون مساحة التخزين ممتلئة.",
           available: "أظهرت كل الأقسام.",
           experienceTip: "أضف مسؤولياتك وإنجازاتك؛ والتعليم والمشاريع يكملان سيرتك.",
           noExperienceTip: "ليس لديك خبرة عمل بعد؟ لا بأس. قدّم التعليم والمهارات والمشاريع أو التطوع؛ فهي خبرات مهمة.",
@@ -260,6 +354,61 @@
           recommendationStarter: "التصميم المقترح يقدّم التعليم والمهارات والمشاريع؛ سيرة قوية لا تحتاج إلى خبرة عمل."
         },
         en: {
+          tagline: "Your next step starts here",
+          pageTitle: "Create a CV that represents you",
+          pageDescription: "Add the information you have, then adjust the sections and colors to create a clear, personal CV.",
+          newCv: "New CV",
+          downloadPdf: "Download CV ↓",
+          editorTitle: "Your information",
+          saved: "Saved automatically",
+          addSectionTitle: "Add a section to your CV",
+          previewTitle: "Live CV preview",
+          languageLabel: "CV language",
+          cvLanguageLabel: "CV language",
+          appLanguageLabel: "App interface language",
+          switchLanguage: "العربية",
+          switchLanguageAria: "Switch interface language to Arabic",
+          navigationLabel: "Main navigation",
+          siteBrand: "Syrian Learning Platform",
+          navSubjects: "Study subjects",
+          navUniversity: "University questions",
+          navPlan: "Study plan",
+          navWriting: "Writing",
+          navArabic: "Arabic for non-speakers",
+          navCv: "CV builder",
+          navTransfer: "Transfer files between devices",
+          navSources: "Sources",
+          navContact: "Contact",
+          menuToggleLabel: "Open menu",
+          layoutLabel: "CV layout",
+          downloadPdfAria: "Download the CV as a PDF",
+          downloadPdfTitle: "Choose Save as PDF in the print dialog",
+          customColorTitle: "Choose a custom color",
+          previewHintTitle: "Your CV layout",
+          layoutAuto: "Suggested layout",
+          layoutClassic: "Classic — sidebar",
+          layoutMinimal: "Minimal — top bar",
+          templateColor: "Template color",
+          sidebarColor: "Sidebar color",
+          photoPreviewAlt: "Profile photo preview",
+          moveUp: "Move up",
+          moveDown: "Move down",
+          removeEntry: "Remove entry",
+          moveSectionUp: "Move section up",
+          moveSectionDown: "Move section down",
+          removeSection: "Remove section",
+          confirmNewCv: "Start a new CV? The saved CV in this browser will be deleted.",
+          newCvStarted: "A new CV has been started.",
+          choosePhotoError: "Choose a JPG, PNG, or WebP image smaller than 5 MB.",
+          photoReadError: "The image could not be read. Try another image.",
+          photoOpenError: "The image could not be opened. Try another image.",
+          photoPrepareError: "The image could not be prepared. Try another image.",
+          levelError: "Enter a percentage from 0 to 100, such as 75%.",
+          emailError: "Enter a valid email address.",
+          invalidEmailBeforeDownload: "Check the email address before downloading.",
+          invalidValuesBeforeDownload: "Check the entered values before downloading.",
+          printError: "The CV could not be printed. Open it in a modern browser and try again.",
+          storageError: "Changes could not be saved. Browser storage may be full.",
           sections: {
             contact: "Contact information", profile: "About me", education: "Education",
             experience: "Work experience", skills: "Skills", languages: "Languages",
@@ -318,6 +467,22 @@
           recommendationStarter: "This layout highlights education, skills, and projects. A strong CV does not require work experience."
         },
         de: {
+          cvLanguageLabel: "Sprache des Lebenslaufs", appLanguageLabel: "Sprache der App", profileTitle: "Berufliches Profil",
+          tagline: "Ihr nächster Schritt beginnt hier", pageTitle: "Erstellen Sie Ihren Lebenslauf",
+          pageDescription: "Fügen Sie Ihre Angaben hinzu und passen Sie Abschnitte und Farben an.",
+          newCv: "Neuer Lebenslauf", downloadPdf: "Lebenslauf herunterladen ↓", editorTitle: "Ihre Angaben",
+          saved: "Automatisch gespeichert", addSectionTitle: "Abschnitt hinzufügen", previewTitle: "Lebenslauf-Vorschau",
+          languageLabel: "Sprache des Lebenslaufs", layoutLabel: "Lebenslauf-Layout", downloadPdfAria: "Lebenslauf als PDF herunterladen",
+          downloadPdfTitle: "Im Druckdialog Als PDF speichern wählen", customColorTitle: "Eigene Farbe auswählen",
+          previewHintTitle: "Vorschau", layoutAuto: "Empfohlenes Layout", layoutClassic: "Klassisch — Seitenleiste",
+          layoutMinimal: "Minimal — Kopfzeile", templateColor: "Vorlagenfarbe", sidebarColor: "Farbe der Seitenleiste",
+          photoPreviewAlt: "Profilbild-Vorschau", moveUp: "Nach oben", moveDown: "Nach unten", removeEntry: "Eintrag löschen",
+          moveSectionUp: "Abschnitt nach oben", moveSectionDown: "Abschnitt nach unten", removeSection: "Abschnitt löschen",
+          available: "Alle Abschnitte werden angezeigt.", photo: "Profilfoto", photoHelp: "Optional · JPG, PNG oder WebP · bis 5 MB",
+          choosePhoto: "Foto auswählen", removePhoto: "Entfernen", add: "Hinzufügen", referenceFallback: "Auf Anfrage verfügbar",
+          empty: "Ihr Lebenslauf erscheint hier, sobald Sie Angaben machen.<br>Sie müssen nicht alle Abschnitte ausfüllen.",
+          recommendationExperience: "Dieses Layout hebt Ihre Berufserfahrung hervor.",
+          recommendationStarter: "Dieses Layout hebt Ausbildung, Fähigkeiten und Projekte hervor.",
           sections: {
             contact: "Kontaktdaten", profile: "Über mich", education: "Ausbildung",
             experience: "Berufserfahrung", skills: "Fähigkeiten", languages: "Sprachen",
@@ -394,7 +559,7 @@
           if (sidebarThemes.includes(raw.sidebar)) result.sidebar = raw.sidebar;
           if (["auto", "classic", "minimal"].includes(raw.layout)) result.layout = raw.layout;
           else if (raw.layout === "modern") result.layout = "classic";
-          if (["ar", "en", "de"].includes(raw.language)) result.language = raw.language;
+          result.language = ["ar", "en", "de"].includes(raw.language) ? raw.language : "ar";
           if (typeof raw.photo === "string") result.photo = raw.photo;
           if (Array.isArray(raw.sections)) result.sections = raw.sections.filter((id, i, all) => sections[id] && all.indexOf(id) === i);
           if (raw.entries && typeof raw.entries === "object") for (const id of order) {
@@ -414,19 +579,49 @@
         }
       }
       let data = loadData();
+      let interfaceLanguage = ["ar", "en"].includes(localStorage.getItem("sira-cv-interface-language")) ? localStorage.getItem("sira-cv-interface-language") : "ar";
       const editor = document.getElementById("editor-sections");
       const paper = document.getElementById("cv-paper");
       const status = document.getElementById("status");
       const layoutSelect = document.getElementById("layout-select");
-      const languageSelect = document.getElementById("cv-language-select");
+      const languageControl = document.getElementById("cv-language-control");
+      const cvApp = document.getElementById("cv-app");
       const colorInput = document.getElementById("custom-color");
       const photoInput = document.getElementById("photo-file");
       let statusTimer;
-      const localized = key => translations[data.language]?.[key] ?? translations.ar[key];
-      const sectionTitle = id => translations[data.language]?.sections?.[id] || sections[id].title;
-      const sectionDescription = id => translations[data.language]?.descriptions?.[id] || sections[id].description;
-      const fieldLabel = field => translations[data.language]?.labels?.[field] || labels[field];
-      const fieldPlaceholder = field => translations[data.language]?.placeholders?.[field] || placeholders[field];
+      const localized = key => translations[interfaceLanguage]?.[key] ?? translations.en?.[key] ?? translations.ar[key];
+      const sectionTitle = id => translations[interfaceLanguage]?.sections?.[id] || (interfaceLanguage === "ar" ? sections[id].title : translations.en.sections[id]);
+      const sectionDescription = id => translations[interfaceLanguage]?.descriptions?.[id] || (interfaceLanguage === "ar" ? sections[id].description : translations.en.descriptions[id]);
+      const fieldLabel = field => translations[interfaceLanguage]?.labels?.[field] || (interfaceLanguage === "ar" ? labels[field] : translations.en.labels[field]);
+      const fieldPlaceholder = field => translations[interfaceLanguage]?.placeholders?.[field] || (interfaceLanguage === "ar" ? placeholders[field] : translations.en.placeholders[field]);
+      const cvSectionTitle = id => translations[data.language]?.sections?.[id] || (data.language === "ar" ? sections[id].title : translations[data.language].sections[id]);
+      const cvFieldLabel = field => translations[data.language]?.labels?.[field] || (data.language === "ar" ? labels[field] : translations[data.language].labels[field]);
+      const cvLocalized = key => translations[data.language]?.[key] ?? (data.language === "ar" ? translations.ar[key] : translations.en[key]);
+      function applyInterfaceLanguage() {
+        const isArabic = interfaceLanguage === "ar";
+        document.documentElement.lang = interfaceLanguage;
+        document.documentElement.dir = isArabic ? "rtl" : "ltr";
+        cvApp.lang = interfaceLanguage;
+        cvApp.dir = isArabic ? "rtl" : "ltr";
+        document.querySelectorAll("[data-i18n]").forEach(element => {
+          const value = localized(element.dataset.i18n);
+          if (typeof value === "string") element.textContent = value;
+        });
+        languageControl.querySelectorAll("[data-cv-language]").forEach(button => {
+          button.setAttribute("aria-pressed", String(button.dataset.cvLanguage === data.language));
+        });
+        const interfaceToggle = document.getElementById("app-language-toggle");
+        interfaceToggle.textContent = localized("switchLanguage");
+        interfaceToggle.setAttribute("aria-label", localized("switchLanguageAria"));
+        document.querySelector(".project-nav").setAttribute("aria-label", localized("navigationLabel"));
+        document.querySelector(".mobile-menu-toggle").setAttribute("aria-label", localized("menuToggleLabel"));
+        languageControl.setAttribute("aria-label", localized("cvLanguageLabel"));
+        document.getElementById("download-pdf").setAttribute("aria-label", localized("downloadPdfAria"));
+        document.getElementById("download-pdf").setAttribute("title", localized("downloadPdfTitle"));
+        layoutSelect.setAttribute("aria-label", localized("layoutLabel"));
+        colorInput.setAttribute("title", localized("customColorTitle"));
+        document.title = isArabic ? "سيرة | صمّم سيرتك الذاتية" : "CV Studio | Create your CV";
+      }
       function escapeHtml(value) {
         return String(value ?? "").replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
       }
@@ -442,7 +637,7 @@
           localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
         } catch (error) {
           console.error("تعذر حفظ السيرة في المتصفح.", error);
-          message("تعذر حفظ التغييرات. قد تكون مساحة التخزين ممتلئة.");
+          message(localized("storageError"));
         }
       }
       function isFilled(entry, id) {
@@ -455,7 +650,7 @@
         const long = field === "description" || field === "summary";
         const percentage = field === "level";
         const type = field === "email" ? "email" : field === "website" ? "url" : percentage ? "text" : "text";
-        const dir = percentage || field === "email" || field === "website" || data.language !== "ar" ? "ltr" : "rtl";
+        const dir = percentage || field === "email" || field === "website" || interfaceLanguage !== "ar" ? "ltr" : "rtl";
         const value = escapeHtml(entry[field] || "");
         const control = long
           ? `<textarea data-section="${id}" data-entry="${entry.id}" data-field="${field}" maxlength="4000" dir="${dir}" placeholder="${escapeHtml(fieldPlaceholder(field))}">${value}</textarea>`
@@ -465,7 +660,7 @@
         return `<div class="field${long ? " field-full" : ""}"><label>${escapeHtml(fieldLabel(field))}${control}</label></div>`;
       }
       function renderEditor() {
-        languageSelect.value = data.language;
+        applyInterfaceLanguage();
         const visibleSections = data.sections.filter(id => id === "contact" || openSections.has(id));
         editor.innerHTML = visibleSections.map(id => {
           const definition = sections[id];
@@ -474,9 +669,9 @@
           const entryMarkup = entries.map((entry, entryIndex) => `
             <div class="entry" data-entry-card="${entry.id}">
               ${definition.single ? "" : `<div class="entry-top"><span class="entry-number">${sectionTitle(id)} · ${entryIndex + 1}</span><span class="entry-actions">
-                <button type="button" class="icon-button" data-action="entry-up" data-section="${id}" data-entry="${entry.id}" aria-label="تحريك للأعلى" title="تحريك للأعلى" ${entryIndex === 0 ? "disabled" : ""}>↑</button>
-                <button type="button" class="icon-button" data-action="entry-down" data-section="${id}" data-entry="${entry.id}" aria-label="تحريك للأسفل" title="تحريك للأسفل" ${entryIndex === entries.length - 1 ? "disabled" : ""}>↓</button>
-                <button type="button" class="icon-button button-danger" data-action="remove-entry" data-section="${id}" data-entry="${entry.id}" aria-label="حذف العنصر" title="حذف العنصر">×</button>
+                <button type="button" class="icon-button" data-action="entry-up" data-section="${id}" data-entry="${entry.id}" aria-label="${escapeHtml(localized("moveUp"))}" title="${escapeHtml(localized("moveUp"))}" ${entryIndex === 0 ? "disabled" : ""}>↑</button>
+                <button type="button" class="icon-button" data-action="entry-down" data-section="${id}" data-entry="${entry.id}" aria-label="${escapeHtml(localized("moveDown"))}" title="${escapeHtml(localized("moveDown"))}" ${entryIndex === entries.length - 1 ? "disabled" : ""}>↓</button>
+                <button type="button" class="icon-button button-danger" data-action="remove-entry" data-section="${id}" data-entry="${entry.id}" aria-label="${escapeHtml(localized("removeEntry"))}" title="${escapeHtml(localized("removeEntry"))}">×</button>
               </span></div>`}
               <div class="field-grid">${definition.fields.map(field => fieldControl(id, entry, field)).join("")}</div>
             </div>`).join("");
@@ -489,9 +684,9 @@
                 <p class="description">${sectionDescription(id)}</p>
               </div>
               <span class="section-actions">
-                <button type="button" class="icon-button" data-action="section-up" data-section="${id}" aria-label="تحريك القسم للأعلى" title="تحريك للأعلى" ${sectionIndex === 0 ? "disabled" : ""}>↑</button>
-                <button type="button" class="icon-button" data-action="section-down" data-section="${id}" aria-label="تحريك القسم للأسفل" title="تحريك للأسفل" ${sectionIndex === data.sections.length - 1 ? "disabled" : ""}>↓</button>
-                <button type="button" class="icon-button button-danger" data-action="remove-section" data-section="${id}" aria-label="حذف القسم" title="حذف القسم">×</button>
+                <button type="button" class="icon-button" data-action="section-up" data-section="${id}" aria-label="${escapeHtml(localized("moveSectionUp"))}" title="${escapeHtml(localized("moveUp"))}" ${sectionIndex === 0 ? "disabled" : ""}>↑</button>
+                <button type="button" class="icon-button" data-action="section-down" data-section="${id}" aria-label="${escapeHtml(localized("moveSectionDown"))}" title="${escapeHtml(localized("moveDown"))}" ${sectionIndex === data.sections.length - 1 ? "disabled" : ""}>↓</button>
+                <button type="button" class="icon-button button-danger" data-action="remove-section" data-section="${id}" aria-label="${escapeHtml(localized("removeSection"))}" title="${escapeHtml(localized("removeSection"))}">×</button>
               </span>
             </div>
             <div id="section-content-${id}"${openSections.has(id) ? "" : " hidden"}>
@@ -508,7 +703,7 @@
       }
       function photoControls() {
         const photo = data.photo
-          ? `<img class="photo-thumb" src="${escapeHtml(data.photo)}" alt="معاينة الصورة الشخصية">`
+          ? `<img class="photo-thumb" src="${escapeHtml(data.photo)}" alt="${escapeHtml(localized("photoPreviewAlt"))}">`
           : `<span class="photo-thumb photo-placeholder" aria-hidden="true">＋</span>`;
         return `<div class="entry" style="display:block;align-items:center;gap:10px">
           ${photo}<div style="flex:1"><strong style="font-size:11px">${localized("photo") || "الصورة الشخصية"}</strong><p class="description">${localized("photoHelp") || "اختيارية · JPG أو PNG أو WebP · حتى ٥ ميغابايت"}</p></div>
@@ -523,13 +718,16 @@
         const channels = color.slice(1).match(/.{2}/g).map(part => parseInt(part, 16));
         const mix = (other, amount) => channels.map((channel, index) => Math.round(channel * (1 - amount) + other[index] * amount));
         const hex = values => `#${values.map(value => value.toString(16).padStart(2, "0")).join("")}`;
-        const root = document.documentElement.style;
-        root.setProperty("--accent", color);
-        root.setProperty("--accent-deep", hex(mix([32, 24, 20], .45)));
-        root.setProperty("--accent-pale", hex(mix([255, 255, 255], .86)));
-        root.setProperty("--accent-fill", hex(mix([255, 255, 255], .72)));
-        root.setProperty("--accent-line", hex(mix([255, 255, 255], .53)));
-        root.setProperty("--accent-glow", `rgba(${channels.join(",")}, .16)`);
+        // theme.css defines accent variables directly on <body>, so set the
+        // custom CV color there (not only on <html>) to override theme defaults.
+        // Scope the selected template accent to the CV paper only.
+        const cvStyles = paper.style;
+        cvStyles.setProperty("--accent", color);
+        cvStyles.setProperty("--accent-deep", hex(mix([32, 24, 20], .45)));
+        cvStyles.setProperty("--accent-pale", hex(mix([255, 255, 255], .86)));
+        cvStyles.setProperty("--accent-fill", hex(mix([255, 255, 255], .72)));
+        cvStyles.setProperty("--accent-line", hex(mix([255, 255, 255], .53)));
+        cvStyles.setProperty("--accent-glow", `rgba(${channels.join(",")}, .16)`);
       }
       function dates(entry) {
         return [entry.start, entry.end].filter(Boolean).map(escapeHtml).join(" — ");
@@ -545,7 +743,7 @@
         }
         if (id === "interests") return `<span class="cv-interest">${escapeHtml(entry.interest)}</span>`;
         if (id === "references") {
-          const name = (entry.person || "").trim() || localized("referenceFallback");
+          const name = (entry.person || "").trim() || cvLocalized("referenceFallback");
           const meta = [entry.relationship, entry.contact].filter(Boolean).map(escapeHtml).join(" · ");
           return `<li class="cv-entry"><p class="cv-item-title">${escapeHtml(name)}</p>${meta ? `<p class="cv-item-meta">${meta}</p>` : ""}</li>`;
         }
@@ -587,14 +785,14 @@
         if (id === "profile") content = `<p class="cv-item-description">${escapeHtml(filled[0].summary.trim())}</p>`;
         else if (id === "interests") content = `<div class="cv-interest-list">${filled.map(entry => cvEntry(id, entry)).join("")}</div>`;
         else content = `<ul class="cv-list${["education", "experience", "projects", "certificates", "volunteering"].includes(id) ? " timeline" : ""}">${filled.map(entry => cvEntry(id, entry)).join("")}</ul>`;
-        return `<section class="cv-section" data-cv-section="${id}"><h2 class="cv-section-title">${sectionTitle(id)}</h2>${content}</section>`;
+        return `<section class="cv-section" data-cv-section="${id}"><h2 class="cv-section-title">${cvSectionTitle(id)}</h2>${content}</section>`;
       }
       function contactSection(contact) {
         if (!data.sections.includes("contact")) return "";
         const symbols = { email: "✉", phone: "☎", city: "⌖", website: "in" };
         const fields = ["email", "phone", "city", "website"].filter(field => (contact[field] || "").trim());
         if (!fields.length) return "";
-        return `<section class="cv-section" data-cv-section="contact"><h2 class="cv-section-title">${sectionTitle("contact")}</h2><ul class="cv-sidebar-contact">${fields.map(field => `<li><span class="cv-contact-icon">${symbols[field]}</span><span><strong>${escapeHtml(fieldLabel(field))}:</strong> ${escapeHtml(contact[field].trim())}</span></li>`).join("")}</ul></section>`;
+        return `<section class="cv-section" data-cv-section="contact"><h2 class="cv-section-title">${cvSectionTitle("contact")}</h2><ul class="cv-sidebar-contact">${fields.map(field => `<li><span class="cv-contact-icon">${symbols[field]}</span><span><strong>${escapeHtml(cvFieldLabel(field))}:</strong> ${escapeHtml(contact[field].trim())}</span></li>`).join("")}</ul></section>`;
       }
       function renderPreview() {
         const contact = data.entries.contact[0] || {};
@@ -618,7 +816,8 @@
           de: "Lebenslauf-Vorschau"
         }[data.language]);
         applyColor(data.color);
-        document.documentElement.style.setProperty("--sidebar", data.sidebar);
+        // Match the body-level theme variables so the selected sidebar color wins.
+        paper.style.setProperty("--sidebar", data.sidebar);
         colorInput.value = data.color;
         document.querySelectorAll(".swatch").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.color.toLowerCase() === data.color.toLowerCase())));
         document.querySelectorAll(".sidebar-swatch").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.sidebar.toLowerCase() === data.sidebar.toLowerCase())));
@@ -626,22 +825,21 @@
         document.getElementById("recommendation").textContent = hasExperience()
           ? localized("recommendationExperience")
           : localized("recommendationStarter");
-        if (!contentExists) {
-          paper.innerHTML = `<div class="empty-preview">${localized("empty")}</div>`;
-          return;
-        }
-        const initials = (name || "س").trim().slice(0, 1);
+        const previewPlaceholder = !contentExists
+          ? `<section class="cv-section cv-preview-empty"><h2 class="cv-section-title">${escapeHtml(cvLocalized("previewHintTitle"))}</h2><p class="cv-summary">${cvLocalized("empty")}</p></section>`
+          : "";
+        const initials = (name || (data.language === "ar" ? "س" : "A")).trim().slice(0, 1);
         const image = data.photo
           ? `<img class="cv-photo" src="${escapeHtml(data.photo)}" alt="">`
           : `<span class="cv-photo-placeholder" aria-hidden="true">${escapeHtml(initials)}</span>`;
         const photo = contactVisible ? `<div class="cv-photo-wrap">${image}</div>` : "";
         const sidebar = `<aside class="cv-sidebar">${photo}${contactSection(contact)}${sideIds.map(id => cvSection(id)).join("")}</aside>`;
-        const profileTitles = { ar: "نبذة مهنية", en: translations.en.profileTitle, de: translations.de.profileTitle };
+        const profileTitles = { ar: "نبذة مهنية", en: translations.en.profileTitle, de: translations.de.profileTitle || "Berufliches Profil" };
         const profileSection = profile ? `<section class="cv-section" data-cv-section="profile"><h2 class="cv-section-title">${profileTitles[data.language]}</h2><p class="cv-summary">${escapeHtml(profile)}</p></section>` : "";
         const header = name || headline
           ? `<header class="cv-header">${name ? `<h1 class="cv-name">${escapeHtml(name)}</h1>` : ""}${headline ? `<p class="cv-headline">${escapeHtml(headline)}</p>` : ""}</header>`
           : "";
-        const main = `<div class="cv-main">${header}<div class="cv-main-sections">${profileSection}${mainIds.map(id => cvSection(id)).join("")}</div></div>`;
+        const main = `<div class="cv-main">${header}<div class="cv-main-sections">${previewPlaceholder}${profileSection}${mainIds.map(id => cvSection(id)).join("")}</div></div>`;
         paper.innerHTML = `<div class="cv-inner">${sidebar}${main}</div>`;
       }
       function refresh() { renderEditor(); renderPreview(); save(); }
@@ -655,7 +853,7 @@
           const normalized = normalizePercent(field.value);
           if (normalized === null) {
             entry.level = field.value;
-            field.setCustomValidity("أدخل نسبة مئوية من ٠ إلى ١٠٠، مثل ٧٥٪.");
+            field.setCustomValidity(localized("levelError"));
           } else {
             entry.level = normalized;
             field.value = normalized;
@@ -663,14 +861,14 @@
         } else {
           entry[field.dataset.field] = field.value;
           if (field.dataset.field === "email" && field.value && field.validity.typeMismatch) {
-            field.setCustomValidity("أدخل بريداً إلكترونياً صحيحاً.");
+            field.setCustomValidity(localized("emailError"));
           }
         }
         renderPreview();
         const tip = editor.querySelector('[data-section-card="experience"] .tip');
         if (tip) tip.textContent = hasExperience()
-          ? "أضف مسؤولياتك وإنجازاتك؛ والتعليم والمشاريع يكملان سيرتك."
-          : "ليس لديك خبرة عمل بعد؟ لا بأس. قدّم التعليم والمهارات والمشاريع أو التطوع؛ فهي خبرات مهمة.";
+          ? localized("experienceTip")
+          : localized("noExperienceTip");
         save();
       });
       document.querySelector(".editor-panel").addEventListener("click", event => {
@@ -730,33 +928,41 @@
         save();
       });
       layoutSelect.addEventListener("change", () => { data.layout = layoutSelect.value; renderPreview(); save(); });
-      languageSelect.addEventListener("change", () => {
-        data.language = languageSelect.value;
+      languageControl.addEventListener("click", event => {
+        const button = event.target.closest("[data-cv-language]");
+        if (!button || !["ar", "en", "de"].includes(button.dataset.cvLanguage)) return;
+        if (data.language === button.dataset.cvLanguage) return;
+        data.language = button.dataset.cvLanguage;
+        renderPreview(); save(); applyInterfaceLanguage();
+      });
+      document.getElementById("app-language-toggle").addEventListener("click", () => {
+        interfaceLanguage = interfaceLanguage === "ar" ? "en" : "ar";
+        try { localStorage.setItem("sira-cv-interface-language", interfaceLanguage); } catch (_) { }
+        applyInterfaceLanguage();
         renderEditor();
         renderPreview();
-        save();
       });
       photoInput.addEventListener("change", () => {
         const file = photoInput.files?.[0];
         if (!file) return;
         if (!["image/jpeg", "image/png", "image/webp"].includes(file.type) || file.size > 5 * 1024 * 1024) {
-          message("اختر صورة بصيغة JPG أو PNG أو WebP وحجم أقل من ٥ ميغابايت.");
+          message(localized("choosePhotoError"));
           photoInput.value = "";
           return;
         }
         const reader = new FileReader();
-        reader.addEventListener("error", () => message("تعذرت قراءة الصورة. جرّب صورة أخرى."));
+        reader.addEventListener("error", () => message(localized("photoReadError")));
         reader.addEventListener("load", () => {
-          if (typeof reader.result !== "string") { message("تعذرت قراءة الصورة. جرّب صورة أخرى."); return; }
+          if (typeof reader.result !== "string") { message(localized("photoReadError")); return; }
           const image = new Image();
-          image.addEventListener("error", () => message("تعذر فتح الصورة. جرّب صورة أخرى."));
+          image.addEventListener("error", () => message(localized("photoOpenError")));
           image.addEventListener("load", () => {
             const scale = Math.min(1, 560 / Math.max(image.naturalWidth, image.naturalHeight));
             const canvas = document.createElement("canvas");
             canvas.width = Math.max(1, Math.round(image.naturalWidth * scale));
             canvas.height = Math.max(1, Math.round(image.naturalHeight * scale));
             const context = canvas.getContext("2d");
-            if (!context) { message("تعذر تجهيز الصورة. جرّب صورة أخرى."); return; }
+            if (!context) { message(localized("photoPrepareError")); return; }
             context.fillStyle = "#fff";
             context.fillRect(0, 0, canvas.width, canvas.height);
             context.drawImage(image, 0, 0, canvas.width, canvas.height);
@@ -769,20 +975,20 @@
         reader.readAsDataURL(file);
       });
       document.getElementById("new-cv").addEventListener("click", () => {
-        if (!confirm("هل تريد بدء سيرة جديدة؟ سيُحذف الملف المحفوظ في هذا المتصفح.")) return;
+        if (!confirm(localized("confirmNewCv"))) return;
         data = blankData();
         openSections.clear();
         openSections.add("contact");
         refresh();
-        message("بدأت سيرة جديدة.", false);
+        message(localized("newCvStarted"), false);
       });
       document.getElementById("download-pdf").addEventListener("click", async () => {
         const invalidField = editor.querySelector("input:invalid, textarea:invalid");
         if (invalidField) {
           invalidField.reportValidity();
           message(invalidField.dataset.field === "email"
-            ? "تحقق من صحة البريد الإلكتروني قبل التنزيل."
-            : "تحقق من القيم المدخلة قبل التنزيل.");
+            ? localized("invalidEmailBeforeDownload")
+            : localized("invalidValuesBeforeDownload"));
           invalidField.focus();
           return;
         }
@@ -793,21 +999,19 @@
           window.print();
         } catch (error) {
           console.error("تعذرت طباعة السيرة بصيغة PDF.", error);
-          message("تعذرت طباعة السيرة. جرّب فتحها في متصفح حديث ثم أعد المحاولة.");
+          message(localized("printError"));
         }
       });
+      applyInterfaceLanguage();
       renderEditor();
       renderPreview();
       save();
     })();
   </script>
-  <script src="../shared-theme.js?v=13"></script>
-   <!-- كود تتبع زوار الصفحة -->
-<script async src="https://analytics.visitorpulse.io/tracker.js" 
-        data-site-id="gh_mostafa_cv" 
-        data-auto-track="true">
-</script>
+  <script src="../shared-theme.js?v=18"></script>
+  <!-- كود تتبع زوار الصفحة -->
+  <script async src="https://analytics.visitorpulse.io/tracker.js" data-site-id="gh_mostafa_cv" data-auto-track="true">
+  </script>
 </body>
-</html>
-</body>
+
 </html>

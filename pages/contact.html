@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="منصتي" />
+    <meta name="description" content="اتصال — منصة التعليم السورية" />
+    <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="../logo.png" />
+    <link rel="manifest" href="../manifest.webmanifest" />
+    <script>document.documentElement.dataset.theme = localStorage.getItem("theme") === "dark" ? "dark" : "light";</script>
+    <title>اتصال — منصة التعليم السورية</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../html/page-design.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../theme.css?v=6" />
+  </head>
+  <body class="platform-page platform-page--contact">
+    <header class="topbar">
+      <a class="site-brand" href="../index.html" title="الصفحة الرئيسية للمنصة">
+        <img src="../images/pagelogo.png" alt="" />
+        <span>منصة التعليم السورية</span>
+      </a>
+      <button
+        type="button"
+        class="mobile-menu-toggle"
+        aria-controls="project-navigation-menu"
+        aria-expanded="false"
+        aria-label="فتح القائمة"
+      >
+        <span class="mobile-menu-toggle__bars" aria-hidden="true">
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+        </span>
+      </button>
+      <button type="button" class="theme-toggle" id="theme-toggle-btn" aria-pressed="false" aria-label="التبديل إلى الوضع الداكن">☾</button>
+    </header>
+
+    <nav id="project-navigation-menu" class="project-nav" aria-label="أقسام المنصة">
+      <a href="../index.html">المواد الدراسية</a>
+      <a href="../uni/index.html">أسئلة الجامعة</a>
+      <a href="./plan.html">خطة الدراسة</a>
+      <a href="./writing.html">كتابة</a>
+      <a href="./arabic.html">العربية لغير المتحدثين</a>
+      <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
+      <a href="../transfer/index.html">نقل الملفات بين الأجهزة</a>
+      <a href="./sources.html">بعض المصادر</a>
+      <a href="./contact.html" aria-current="page">اتصال</a>
+    </nav>
+
+    <div class="contact-page page-direct-content">
+  <section class="modern-contact-section">
+    <div class="contact-content-wrapper">
+      <h3 class="contact-heading">للتواصل معي</h3>
+      <p class="contact-subheading">أنا هنا للمساعدة والإجابة عن استفساراتكم. إذا كانت هناك أخطاء في التطبيق، يمكنكم التواصل معي.</p>
+      <ul class="contact-links-list">
+        <li><a href="https://www.facebook.com/profile.php?id=100063642091578" target="_blank" rel="noopener noreferrer" aria-label="صفحتنا على فيسبوك" class="contact-link facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://web.telegram.org/#/im?p=@MostafaAlomar" target="_blank" rel="noopener noreferrer" aria-label="تواصل معنا عبر تلغرام" class="contact-link telegram"><i class="fa-brands fa-telegram"></i></a></li>
+        <li><a href="https://chat.whatsapp.com/K1rG3xwihbv0hFgwpPj3zz?s=cl&amp;p=a&amp;ilr=1" target="_blank" rel="noopener noreferrer" aria-label="انضم إلى مجموعة واتساب" class="contact-link whatsapp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="contact-subheading">
+      <p><a href="https://www.youtube.com/channel/UCBwzMOainhcuV99LfYKS2Og" target="_blank" rel="noopener noreferrer" class="contact-footer-link">Mostafa Alomar</a> : تم إنشاء هذه الصفحة من قبل</p>
+      <p class="mb-0"><a href="../html/privacy.html" class="contact-footer-link">سياسة الخصوصية</a></p>
+    </div>
+  </section>
+</div>
+
+    
+    <script src="../shared-theme.js?v=18"></script>
+  </body>
+</html>

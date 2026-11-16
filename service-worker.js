@@ -1,12 +1,25 @@
-const CACHE_NAME = "learning-platform-shell-v24";
-const RUNTIME_CACHE = "learning-platform-runtime-v4";
+const CACHE_NAME = "learning-platform-shell-v32";
+const RUNTIME_CACHE = "learning-platform-runtime-v7";
 const APP_SHELL = [
   "./index.html",
   "./uni/index.html",
   "./cv/index.html",
+  "./styles.css?v=31",
+  "./styles.css",
   "./transfer/index.html",
-  "./theme.css?v=2",
-  "./shared-theme.js?v=14",
+  "./pages/plan.html",
+  "./pages/writing.html",
+  "./html/handwrite.html",
+  "./pages/arabic.html",
+  "./pages/sources.html",
+  "./pages/contact.html",
+  "./html/page-design.css",
+  "./js/subscripts/translator.js",
+  "./js/subscripts/handwrite.js",
+  "./js/subscripts/arabic_script.js",
+  "./uni/myOwnDic.json",
+  "./theme.css?v=7",
+  "./shared-theme.js?v=18",
   "./manifest.webmanifest",
   "./icon.svg",
   "./logo.png",
@@ -28,7 +41,7 @@ self.addEventListener("activate", (event) => {
             .filter(
               (key) =>
                 (key.startsWith("learning-platform-shell-") ||
-                 key.startsWith("learning-platform-runtime-")) &&
+                  key.startsWith("learning-platform-runtime-")) &&
                 key !== CACHE_NAME &&
                 key !== RUNTIME_CACHE,
             )

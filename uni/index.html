@@ -24,7 +24,7 @@
       name="description"
       content="أسئلة الدورات الجامعية السابقة — تدرّب ومراجعة تفاعلية."
     />
-    <link rel="stylesheet" href="../theme.css?v=2" />
+    <link rel="stylesheet" href="../theme.css?v=6" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -49,6 +49,19 @@
       </a>
       <button
         type="button"
+        class="mobile-menu-toggle"
+        aria-controls="project-navigation-menu"
+        aria-expanded="false"
+        aria-label="فتح القائمة"
+      >
+        <span class="mobile-menu-toggle__bars" aria-hidden="true">
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+        </span>
+      </button>
+      <button
+        type="button"
         class="theme-toggle"
         id="theme-toggle-btn"
         aria-pressed="false"
@@ -56,71 +69,32 @@
         ☾
       </button>
     </header>
-      <nav class="project-nav" aria-label="المشاريع">
-        <a href="../index.html">المواد الدراسية</a>
-        <a href="./index.html" aria-current="page">أسئلة الجامعة</a>
-        <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
-      <a href="../transfer/index.html">نقل الملفات بين الأجهزة  </a>
-      </nav>
-      <nav class="main-nav-container">
-        <button
-          class="main-nav-toggle"
-          aria-label="فتح قائمة التنقل"
-          aria-expanded="false"
-          aria-controls="main-nav-links-list"
-        >
-          <i class="fas fa-bars" aria-hidden="true"></i>
-        </button>
-        <div class="main-nav-links" id="main-nav-links-list">
-          <!-- Buttons now use data-main-target matching IDs of main content sections -->
-          <button
-            class="main-nav-button"
-            data-main-target="#subject-grade-lesson-flow"
-            id="main-nav-subjects-btn"
-          >
-            <i class="fas fa-shapes"></i> المواد الدراسية
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#advice-section"
-            id="main-nav-advice-btn"
-          >
-            <i class="fas fa-book-open"></i> خطة الدراسة
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#handwriting-section"
-            id="main-nav-handwrite-btn"
-          >
-            <i class="fa-solid fa-pen-to-square"></i> كتابة
-          </button>
-          
-          <button
-            class="main-nav-button"
-            data-main-target="#nonspeaker-arabic-section"
-            id="main-nav-nonspeaker-btn"
-          >
-            <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#external-sources-section"
-            id="main-nav-sources-btn"
-          >
-            <i class="fa-solid fa-paperclip"></i> بعض المصادر
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#contact-section"
-            id="main-nav-contact-btn"
-          >
-            <i class="fa-solid fa-address-book"></i> اتصال
-          </button>
-        </div>
-      </nav>
-      <main id="main-content" class="flex flex-1 flex-col">
+    <nav id="project-navigation-menu" class="project-nav" aria-label="أقسام المنصة">
+      <a href="../index.html">المواد الدراسية</a>
+      <a href="../uni/index.html" aria-current="page">أسئلة الجامعة</a>
+      <a href="../pages/plan.html">خطة الدراسة</a>
+      <a href="../pages/writing.html">كتابة</a>
+      <a href="../pages/arabic.html">العربية لغير المتحدثين</a>
+      <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
+      <a href="../transfer/index.html">نقل الملفات بين الأجهزة</a>
+      <a href="../pages/sources.html">بعض المصادر</a>
+      <a href="../pages/contact.html">اتصال</a>
+    </nav>
+<main id="main-content" class="flex flex-1 flex-col">
         <!-- Main setup screen: IDs are preserved for app.js -->
         <div class="header-tools">
+          <button
+            type="button"
+            id="app-back-btn"
+            class="dictionary-action-btn"
+            onclick="goBackOneStep()"
+            aria-label="رجوع"
+            title="رجوع"
+            style="display: none"
+          >
+            <span>رجوع</span>
+            <span aria-hidden="true">→</span>
+          </button>
           <button
             type="button"
             id="dictionary-toggle-btn"
@@ -1052,6 +1026,49 @@
         if (button) button.setAttribute("aria-expanded", String(shouldOpen));
       }
 
+      // Close the dictionary when clicking outside it, or pressing Escape.
+      document.addEventListener("click", (event) => {
+        const sheet = document.getElementById("dictionary");
+        if (!sheet || !sheet.classList.contains("dictionary-open")) return;
+        const path = event.composedPath();
+        if (
+          path.includes(sheet) ||
+          path.includes(document.getElementById("dictionary-toggle-btn"))
+        )
+          return;
+        toggleDictionary(false);
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") toggleDictionary(false);
+      });
+
+      // Show the back button everywhere except on the home screen (years list).
+      function updateBackButton() {
+        const button = document.getElementById("app-back-btn");
+        if (!button || typeof screens === "undefined") return;
+        const setupVisible =
+          screens.setup && !screens.setup.classList.contains("hidden");
+        const onHome = setupVisible && !activeYear;
+        button.style.display = onHome ? "none" : "";
+      }
+      {
+        let backButtonFrame = 0;
+        const scheduleBackButtonUpdate = () => {
+          cancelAnimationFrame(backButtonFrame);
+          backButtonFrame = requestAnimationFrame(updateBackButton);
+        };
+        new MutationObserver(scheduleBackButtonUpdate).observe(
+          document.getElementById("main-content"),
+          {
+            subtree: true,
+            childList: true,
+            attributes: true,
+            attributeFilter: ["class", "hidden"],
+          },
+        );
+        scheduleBackButtonUpdate();
+      }
+
       // app.js renders a decorative switchView call inside generated subject cards.
       // The parent card keeps the real subject-selection logic.
       function switchView(viewId) {
@@ -1137,7 +1154,7 @@
         dictionaryInput.addEventListener("input", () => toggleDictionary(true));
       }
     </script>
-    <script src="../shared-theme.js?v=13"></script>
+    <script src="../shared-theme.js?v=18"></script>
     <!-- كود تتبع زوار الصفحة -->
 <script async src="https://analytics.visitorpulse.io/tracker.js" 
         data-site-id="gh_mostafa_cv" 

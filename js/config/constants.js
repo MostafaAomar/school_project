@@ -41,12 +41,7 @@ export const GRID_IDS = {
 export const MAIN_SECTION_IDS = {
     FLOW: '#subject-grade-lesson-flow',
     TABS: '#lesson-quiz-tabs-section',
-    ADVICE: '#advice-section',
-    HANDWRITING: '#handwriting-section',
     CHATBOT: '#chatbot-section',
-    ARABIC: '#nonspeaker-arabic-section',
-    SOURCES: '#external-sources-section',
-    CONTACT: '#contact-section',
 };
 
 

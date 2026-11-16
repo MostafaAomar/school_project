@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="منصتي" />
+    <meta name="description" content="بعض المصادر — منصة التعليم السورية" />
+    <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="../logo.png" />
+    <link rel="manifest" href="../manifest.webmanifest" />
+    <script>document.documentElement.dataset.theme = localStorage.getItem("theme") === "dark" ? "dark" : "light";</script>
+    <title>بعض المصادر — منصة التعليم السورية</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../html/page-design.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../theme.css?v=6" />
+  </head>
+  <body class="platform-page platform-page--sources">
+    <header class="topbar">
+      <a class="site-brand" href="../index.html" title="الصفحة الرئيسية للمنصة">
+        <img src="../images/pagelogo.png" alt="" />
+        <span>منصة التعليم السورية</span>
+      </a>
+      <button
+        type="button"
+        class="mobile-menu-toggle"
+        aria-controls="project-navigation-menu"
+        aria-expanded="false"
+        aria-label="فتح القائمة"
+      >
+        <span class="mobile-menu-toggle__bars" aria-hidden="true">
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+        </span>
+      </button>
+      <button type="button" class="theme-toggle" id="theme-toggle-btn" aria-pressed="false" aria-label="التبديل إلى الوضع الداكن">☾</button>
+    </header>
+
+    <nav id="project-navigation-menu" class="project-nav" aria-label="أقسام المنصة">
+      <a href="../index.html">المواد الدراسية</a>
+      <a href="../uni/index.html">أسئلة الجامعة</a>
+      <a href="./plan.html">خطة الدراسة</a>
+      <a href="./writing.html">كتابة</a>
+      <a href="./arabic.html">العربية لغير المتحدثين</a>
+      <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
+      <a href="../transfer/index.html">نقل الملفات بين الأجهزة</a>
+      <a href="./sources.html" aria-current="page">بعض المصادر</a>
+      <a href="./contact.html">اتصال</a>
+    </nav>
+
+    <div class="links-page page-direct-content">
+<!-- Section 1: Links & Resources -->
+    <section class="section-resources py-5 text-white" id="resources">
+      <div class="container">
+        <h2 class="text-center mb-4">مصادر وروابط مفيدة</h2>
+        <div class="row g-4">
+          <!-- Use Bootstrap grid more effectively -->
+          <div class="col-md-6">
+            <ul class="list-unstyled resource-list">
+              <li><a href="https://drive.google.com/file/d/1xdA2fNbJb7kqC0Svo97b0CyjzWzeT6ii/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i
+                    class="bi bi-file-earmark-text me-2"></i>ملخص القواعد</a></li>
+              <li><a href="https://drive.google.com/file/d/1VtRofDQeK8u-5Et80VaOxPYm6GPxkFwb/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i
+                    class="bi bi-link-45deg me-2"></i>روابط فيديوهات القناة</a></li>
+                    <li><a href="https://curricula.moed.gov.sy/general" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-link-45deg me-2"></i>كتب المنهاج السوري
+                         </a>
+                      </li>
+              <li><a href="https://drive.google.com/file/d/1sIFjyjKd4xewMzTyhPgyk0qR9RCQ1jYT/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i
+                    class="bi bi-card-list me-2"></i>الأفعال الشاذة</a></li>
+              <li><a href="https://drive.google.com/file/d/1wDmHgW5b5Zk2iXOhYiMhJHuA5mRHKTcX/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i
+                    class="bi bi-journal-text me-2"></i>أشباه الجمل الفعلية</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=fNbBkVe5eNY&list=PLOojC9cDjLdXvXDHHpl6QxCS-0Ql1bX0Q"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-youtube"></i>  تاسع  </a></li>
+                    <li><a href="https://www.youtube.com/watch?v=J4_qBP-yP5o&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&ab_channel=Mostafa"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-youtube"></i> قواعد انكليزي </a></li>
+              <li><a href="https://www.youtube.com/watch?v=Zr8KZj3o09I&list=PLOojC9cDjLdWxIJKLBwd2hYk12EdmVLg2"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-youtube"></i> تعلم المحادثة</a></li>          
+              <li><a href="https://www.youtube.com/watch?v=VNZiEqb6wDA&list=PLOojC9cDjLdVnlt-NBQbZokaxwb5TGD_Q"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-youtube"></i>  فيديوهات مفيدة</a></li>   
+                  <li>
+                    <a href="https://youglish.com/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-light w-100 mb-2 text-dark">
+                      <i class="bi bi-globe2" aria-hidden="true"></i>
+                      YouGlish — البحث عن نطق الكلمات
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://shadowingenglish.com/practice/nature-is-speaking-shailene-woodley-is-forest-LyzOq40rpwQ"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-light w-100 mb-2 text-dark">
+                      <i class="bi bi-mic" aria-hidden="true"></i>
+                      Shadowing — الاستماع والترديد
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://tryshadowing.com/en"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-light w-100 mb-2 text-dark">
+                      <i class="bi bi-chat-dots" aria-hidden="true"></i>
+                      Try Shadowing — تدرّب على الاستماع والترديد
+                    </a>
+                  </li>
+                                    
+                  
+                  
+          </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-unstyled resource-list">
+              <li><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfUE4x4RgFN14MAZ9HhRoeZMELG_2tkIKR0KkIOOtU4rcpiNg/viewform"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-warning w-100 mb-2 text-dark"><i
+                    class="bi bi-pencil-square me-2"></i>اختبر معلوماتك</a></li>
+              <li><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScucONHjtB4c7tpAYrxtVKDE_DVOEnp0dCpJkkpkwvNcwkvxw/viewform"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-warning w-100 mb-2 text-dark"><i
+                    class="bi bi-pencil-square me-2"></i>فحص ماضي بسيط</a></li>
+              <li><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfxW6bJACkvDkEIEBgt4eLZmitjjawZOhJpCDX3OE33hn8jMw/viewform"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-warning w-100 mb-2 text-dark"><i
+                    class="bi bi-pencil-square me-2"></i>فحص حاضر بسيط ومستمر</a></li>
+              <li><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSewoGTfAXM_hfml7LMvATHdfbV6ldd1u5pDgh4KU5_dfTyu8w/viewform"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-warning w-100 mb-2 text-dark"><i
+                    class="bi bi-pencil-square me-2"></i>فحص حاضر مستمر</a></li>
+              <!-- English Resources Links Added Below -->
+              <li><a href="https://drive.google.com/file/d/1OYwhktsif8Xbd-n4E-0Mq_acplLK0gUi/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Advanced Grammar in Use</a></li>
+              <li><a href="https://drive.google.com/file/d/1Ba5XU3BVso96lSIUgLXK8_HT8McIy_7Z/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>English Grammar in Use</a></li>
+              <li><a href="https://drive.google.com/file/d/1OYwhktsif8Xbd-n4E-0Mq_acplLK0gUi/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Essential Grammar in Use Supplementary Exercises</a></li>
+              <li><a href="https://drive.google.com/file/d/1XvmhV0pu3bckBBqFhTkLWZr_F5VJnurz/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Essential Grammar in Use</a></li>
+              <li><a href="https://drive.google.com/file/d/1uqZp_hL2gd9ZivMXL6ygqQT20dCn5MOX/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Phrases for Everyday Speaking</a></li>
+              <li><a href="https://drive.google.com/file/d/12rzCcN1Nd4G6hOEuO_-OAZ8qf6RvYiTF/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>English Vocabulary in Use Advanced</a></li>
+              <li><a href="https://drive.google.com/file/d/1pEkckkcNLolhC16VcJPM2GJ6s2alA4De/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Business Vocabulary</a></li>
+              <li><a href="https://drive.google.com/file/d/15k2Ev0MqsuIUEuL_c7Q63DQKyM06pfil/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>English Vocabulary in Use</a></li>
+              <li><a href="https://drive.google.com/file/d/17fs0Wo-RbBndiOFcNN3nQ-4go0qvhwHi/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Practical English Grammar 2</a></li>
+              <li><a href="https://drive.google.com/file/d/1ygBbIVSSca8iE-zeGdWdawDfwIfC5KiT/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>Practical English Grammar 1</a></li>
+              <li><a href="https://drive.google.com/file/d/1kAQ6ZbwWXAaiey8fPy5u2UiUMm32wmNS/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-light w-100 mb-2 text-dark"><i class="bi bi-file-earmark-text me-2"></i>A Practical English Grammar 4th Edition</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Dictionary -->
+    <section class="section-dictionary py-5 bg-light" id="dictionary">
+      <div class="container">
+        <h3 class="text-center mb-4">قاموس انكليزي - انكليزي</h3>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="dictionary-widget">
+              <input type="text" id="wordInput" class="form-control mb-3" placeholder="Enter a word..."
+                autocomplete="off" aria-label="Enter word for definition">
+              <div id="dictionaryOutput" class="dictionary-output border p-3 rounded bg-white min-height-100">
+                <!-- Definition results will appear here -->
+                <p class="text-muted">Enter a word above to see its definition.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add other sections as needed -->
+</div>
+
+    <script src="../js/subscripts/translator.js"></script>
+    <script src="../shared-theme.js?v=18"></script>
+  </body>
+</html>

@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
       content="برنامج تعليمي يعرض المنهاج السوري بشكل مبسط ومنظم، مع دروس، ملخصات، تمارين، وحلول لدعم الطلاب والمعلمين"
@@ -22,6 +23,19 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="منصتي" />
     <meta name="theme-color" content="#2563eb" />
+    <script>
+      // Old links such as index.html#advice-section now point to their own pages.
+      (function () {
+        var moved = {
+          "#advice-section": "pages/plan.html",
+          "#handwriting-section": "pages/writing.html",
+          "#nonspeaker-arabic-section": "pages/arabic.html",
+          "#external-sources-section": "pages/sources.html",
+          "#contact-section": "pages/contact.html",
+        };
+        if (moved[location.hash]) location.replace(moved[location.hash]);
+      })();
+    </script>
     <script>
       document.documentElement.dataset.theme =
         localStorage.getItem("theme") === "dark" ? "dark" : "light";
@@ -52,7 +66,7 @@
     />
     <!-- Main Stylesheet -->
     <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="stylesheet" href="./theme.css?v=2" />
+    <link rel="stylesheet" href="./theme.css?v=6" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -117,6 +131,19 @@
       </a>
       <button
         type="button"
+        class="mobile-menu-toggle"
+        aria-controls="project-navigation-menu"
+        aria-expanded="false"
+        aria-label="فتح القائمة"
+      >
+        <span class="mobile-menu-toggle__bars" aria-hidden="true">
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+        </span>
+      </button>
+      <button
+        type="button"
         class="theme-toggle"
         id="theme-toggle-btn"
         aria-pressed="false"
@@ -125,72 +152,19 @@
       </button>
     </header>
 
-    <nav class="project-nav" aria-label="المشاريع">
+    <nav id="project-navigation-menu" class="project-nav" aria-label="أقسام المنصة">
       <a href="./index.html" aria-current="page">المواد الدراسية</a>
       <a href="./uni/index.html">أسئلة الجامعة</a>
+      <a href="./pages/plan.html">خطة الدراسة</a>
+      <a href="./pages/writing.html">كتابة</a>
+      <a href="./pages/arabic.html">العربية لغير المتحدثين</a>
       <a href="./cv/index.html">إنشاء السيرة الذاتية</a>
-      <a href="./transfer/index.html">نقل الملفات بين الأجهزة  </a>
+      <a href="./transfer/index.html">نقل الملفات بين الأجهزة</a>
+      <a href="./pages/sources.html">بعض المصادر</a>
+      <a href="./pages/contact.html">اتصال</a>
     </nav>
 
-    <!-- Main Navigation Tabs Container -->
-    <nav class="main-nav-container">
-      <button
-        class="main-nav-toggle"
-        aria-label="فتح قائمة التنقل"
-        aria-expanded="false"
-        aria-controls="main-nav-links-list"
-      >
-        <i class="fas fa-bars" aria-hidden="true"></i>
-      </button>
-      <div class="main-nav-links" id="main-nav-links-list">
-        <!-- Buttons now use data-main-target matching IDs of main content sections -->
-        <button
-          class="main-nav-button active"
-          data-main-target="#subject-grade-lesson-flow"
-          id="main-nav-subjects-btn"
-        >
-          <i class="fas fa-shapes"></i> المواد الدراسية
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#advice-section"
-          id="main-nav-advice-btn"
-        >
-          <i class="fas fa-book-open"></i> خطة الدراسة
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#handwriting-section"
-          id="main-nav-handwrite-btn"
-        >
-          <i class="fa-solid fa-pen-to-square"></i> كتابة
-        </button>
-        
-        <button
-          class="main-nav-button"
-          data-main-target="#nonspeaker-arabic-section"
-          id="main-nav-nonspeaker-btn"
-        >
-          <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#external-sources-section"
-          id="main-nav-sources-btn"
-        >
-          <i class="fa-solid fa-paperclip"></i> بعض المصادر
-        </button>
-        <button
-          class="main-nav-button"
-          data-main-target="#contact-section"
-          id="main-nav-contact-btn"
-        >
-          <i class="fa-solid fa-address-book"></i> اتصال
-        </button>
-      </div>
-    </nav>
-
-    <!-- Wrapper for ALL main content sections -->
+<!-- Wrapper for ALL main content sections -->
     <div id="page-content-wrapper">
       <!-- 1. Subject/Grade/Lesson Card Flow Section -->
       <main id="subject-grade-lesson-flow" class="main-content-section">
@@ -441,59 +415,9 @@
       </div>
       <!-- End Lesson/Quiz Tabs Section -->
 
-      <!-- 3. Study Advice Section (Initially Hidden) -->
-      <div id="advice-section" class="main-content-section hidden">
-        <div class="container">
-          <h2 class="section-title">
-            <i class="fas fa-lightbulb"></i> نصائح الدراسة
-          </h2>
-          <div id="advice-content-display-area">
-            <p class="info-message">جاري تحميل النصائح...</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- 4. Handwriting Section (Initially Hidden) -->
-      <section id="handwriting-section" class="main-content-section hidden">
-        <iframe
-          src="./html/handwrite.html"
-          title="كتابة"
-          loading="lazy"
-        ></iframe>
-      </section>
-
       <!-- 5. Chatbot Section (Initially Hidden) -->
       <section id="chatbot-section" class="main-content-section hidden">
         <iframe src="./html/chatbot.html" title="دردشة" loading="lazy"></iframe>
-      </section>
-
-      <!-- 6. Arabic for Non-speakers Section (Initially Hidden) -->
-      <section
-        id="nonspeaker-arabic-section"
-        class="main-content-section hidden"
-      >
-        <iframe
-          src="./html/arabic.html"
-          title="العربية لغير المتحدثين"
-          loading="lazy"
-        ></iframe>
-      </section>
-
-      <!-- 7. External Sources Section (Initially Hidden) -->
-      <section
-        id="external-sources-section"
-        class="main-content-section hidden"
-      >
-        <iframe
-          src="./html/links.html"
-          title="بعض المصادر"
-          loading="lazy"
-        ></iframe>
-      </section>
-
-      <!-- 8. Contact Section (Initially Hidden) -->
-      <section id="contact-section" class="main-content-section hidden">
-        <iframe src="./html/contact.html" title="اتصال" loading="lazy"></iframe>
       </section>
     </div>
     <!-- End page-content-wrapper -->
@@ -547,10 +471,6 @@
       type="module"
     ></script>
     <script
-      src="./js/components/advice_display.js"
-      type="module"
-    ></script>
-    <script
       src="./js/components/tabs_controller.js"
       type="module"
     ></script>
@@ -560,14 +480,6 @@
     ></script>
 
     <!-- Navigation Handlers -->
-    <script
-      src="./js/navigation/main_nav_handler.js"
-      type="module"
-    ></script>
-    <script
-      src="./js/navigation/responsive_nav_handler.js"
-      type="module"
-    ></script>
     <script
       src="./js/navigation/home_handler.js"
       type="module"
@@ -583,13 +495,11 @@
       src="./js/utils/markdown_processor.js"
       type="module"
     ></script>
-    <script src="./shared-theme.js?v=13"></script>
+    <script src="./shared-theme.js?v=18"></script>
     <!-- كود تتبع زوار الصفحة -->
 <script async src="https://analytics.visitorpulse.io/tracker.js" 
         data-site-id="gh_mostafa_cv" 
         data-auto-track="true">
 </script>
 </body>
-</html>
-  </body>
 </html>

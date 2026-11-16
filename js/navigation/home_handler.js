@@ -29,22 +29,6 @@ export function navigateHome() {
     // 3. Ensure the view *within* the card flow section is set to subjects
     updateCardFlowView('subjects'); // Updates sub-view and makes #subjects-view-container visible
 
-    // 4. Reset the visual state of the main navigation tabs (highlight "Subjects")
-    const mainNavContainer = document.querySelector('.main-nav-container .main-nav-links');
-    if (mainNavContainer) {
-         mainNavContainer.querySelectorAll('.main-nav-button').forEach(btn => {
-              // Check if the button targets the main flow section
-              if (btn.getAttribute('data-main-target') === MAIN_SECTION_IDS.FLOW) {
-                   btn.classList.add('active');
-              } else {
-                   btn.classList.remove('active');
-              }
-         });
-    } else {
-         console.warn("[Home Handler] Could not find main nav container to update active state.");
-    }
-
-
     // 5. Reset the Lesson/Quiz Tabs Component
      resetTabsComponent();
 

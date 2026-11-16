@@ -1415,10 +1415,36 @@ function nextQuestion() {
 
 function prevQuestion() {
   if (currentIndex > 0) {
-    container.innerHTML =
-      "<p style='text-align:center; color:var(--text-muted);'>لا توجد مواد متاحة حالياً.</p>";
+    currentIndex--;
+    saveDetailedProgress();
     renderStep();
   }
+}
+
+// One-step "back": results -> last question/card -> mode choice -> subject list -> years.
+function goBackOneStep() {
+  const isVisible = (name) =>
+    screens[name] && !screens[name].classList.contains("hidden");
+
+  if (isVisible("result")) {
+    if (currentSubject) renderStep();
+    return;
+  }
+  if (isVisible("quiz") || isVisible("study")) {
+    if (currentSubject) saveDetailedProgress();
+    showScreen("mode");
+    return;
+  }
+  if (isVisible("mode")) {
+    if (activeYear) showScreen("setup");
+    else goBackToSubjects();
+    return;
+  }
+  if (isVisible("vocabulary")) {
+    goBackToSubjects();
+    return;
+  }
+  if (activeYear) backToYears();
 }
 
 function showResults() {

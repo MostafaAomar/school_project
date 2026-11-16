@@ -29,14 +29,14 @@
       name="description"
       content="أسئلة الدورات الجامعية السابقة — تدرّب ومراجعة تفاعلية."
     />
-    <link rel="stylesheet" href="../theme.css?v=2" />
+    <link rel="stylesheet" href="../theme.css?v=6" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     
-    <script src="../shared-theme.js?v=14" defer></script>
+    <script src="../shared-theme.js?v=18" defer></script>
   </head>
 
   <body class="transfer-page bg-background text-on-background">
@@ -57,6 +57,19 @@
       </a>
       <button
         type="button"
+        class="mobile-menu-toggle"
+        aria-controls="project-navigation-menu"
+        aria-expanded="false"
+        aria-label="فتح القائمة"
+      >
+        <span class="mobile-menu-toggle__bars" aria-hidden="true">
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+          <span class="mobile-menu-toggle__line"></span>
+        </span>
+      </button>
+      <button
+        type="button"
         class="theme-toggle"
         id="theme-toggle-btn"
         aria-pressed="false"
@@ -64,68 +77,17 @@
         ☾
       </button>
     </header>
-      <nav class="project-nav" aria-label="المشاريع">
-        <a href="../index.html">المواد الدراسية</a>
-        <a href="../index.html">أسئلة الجامعة</a>
-        <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
-      <a href="./transfer/index.html" aria-current="page">نقل الملفات بين الأجهزة  </a>
-      </nav>
-      <nav class="main-nav-container">
-        <button
-          class="main-nav-toggle"
-          aria-label="فتح قائمة التنقل"
-          aria-expanded="false"
-          aria-controls="main-nav-links-list"
-        >
-          <i class="fas fa-bars" aria-hidden="true"></i>
-        </button>
-        <div class="main-nav-links" id="main-nav-links-list">
-          <!-- Buttons now use data-main-target matching IDs of main content sections -->
-          <button
-            class="main-nav-button"
-            data-main-target="#subject-grade-lesson-flow"
-            id="main-nav-subjects-btn"
-          >
-            <i class="fas fa-shapes"></i> المواد الدراسية
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#advice-section"
-            id="main-nav-advice-btn"
-          >
-            <i class="fas fa-book-open"></i> خطة الدراسة
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#handwriting-section"
-            id="main-nav-handwrite-btn"
-          >
-            <i class="fa-solid fa-pen-to-square"></i> كتابة
-          </button>
-          
-          <button
-            class="main-nav-button"
-            data-main-target="#nonspeaker-arabic-section"
-            id="main-nav-nonspeaker-btn"
-          >
-            <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#external-sources-section"
-            id="main-nav-sources-btn"
-          >
-            <i class="fa-solid fa-paperclip"></i> بعض المصادر
-          </button>
-          <button
-            class="main-nav-button"
-            data-main-target="#contact-section"
-            id="main-nav-contact-btn"
-          >
-            <i class="fa-solid fa-address-book"></i> اتصال
-          </button>
-        </div>
-      </nav>
+    <nav id="project-navigation-menu" class="project-nav" aria-label="أقسام المنصة">
+      <a href="../index.html">المواد الدراسية</a>
+      <a href="../uni/index.html">أسئلة الجامعة</a>
+      <a href="../pages/plan.html">خطة الدراسة</a>
+      <a href="../pages/writing.html">كتابة</a>
+      <a href="../pages/arabic.html">العربية لغير المتحدثين</a>
+      <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
+      <a href="../transfer/index.html" aria-current="page">نقل الملفات بين الأجهزة</a>
+      <a href="../pages/sources.html">بعض المصادر</a>
+      <a href="../pages/contact.html">اتصال</a>
+    </nav>
 <section class="transfer-section">      
 <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg"><defs>
 <symbol id="i-link" viewBox="0 0 24 24"><path d="m10 13 4-4m-6 6-1 1a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m2 3 1-1a4 4 0 0 1 6 6l-4 4a4 4 0 0 1-6 0"/></symbol>

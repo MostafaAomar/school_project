@@ -5,14 +5,11 @@
  * Loads necessary data and initializes all UI components and handlers.
  * Includes state persistence across session refreshes.
  */
-import { loadSubjectsList, loadAdviceContent, loadGradesList, loadLessonsList, loadLessonDetails } from './core/data_loader.js';
+import { loadSubjectsList, loadGradesList, loadLessonsList, loadLessonDetails } from './core/data_loader.js';
 // --- Import the new restore function and getCurrentState ---
 import { cacheData, updateState, restoreStateFromSession, getCurrentState } from './core/state_manager.js';
 import { showMainContentSection, updateCardFlowView, hideAllSectionsExcept } from './core/view_manager.js';
 import { initializeTabsController, loadAndDisplayLesson as loadAndDisplayLessonInTabs, resetTabsComponent } from './components/tabs_controller.js'; // Renamed import
-import { displayAdviceContent } from './components/advice_display.js';
-import { initializeMainNavHandler } from './navigation/main_nav_handler.js';
-import { initializeResponsiveNavHandler } from './navigation/responsive_nav_handler.js';
 import { initializeHomeButtonHandler } from './navigation/home_handler.js';
 import { initializeContentNavigator, displaySubjectCards, displayGradeCards, displayLessonCards } from './navigation/content_navigator.js'; // Import display functions
 import { initializeAutoDirection } from './utils/language_direction.js';
@@ -57,8 +54,10 @@ async function initializeApplication() {
     // --- 1. Attempt to Restore State ---
     const stateRestored = restoreStateFromSession();
     const initialState = getCurrentState(); // Get state *after* potential restore
+    const sectionExists = (id) => !!id && !!document.querySelector(id);
     const requestedSectionId = Object.values(MAIN_SECTION_IDS).includes(location.hash)
         && location.hash !== MAIN_SECTION_IDS.TABS
+        && sectionExists(location.hash)
         ? location.hash
         : null;
 
@@ -66,25 +65,17 @@ async function initializeApplication() {
         // --- 2. Load Essential Data Concurrently ---
         // These are usually needed regardless of restored state (e.g., for Home button)
         console.log('[App Initializer] Fetching essential data...');
-        const [subjectsList, adviceContent] = await Promise.all([
-            loadSubjectsList(),
-            loadAdviceContent()
-        ]);
+        const subjectsList = await loadSubjectsList();
         console.log('[App Initializer] Essential data fetched.');
 
         // Check subjects list - still critical for basic function
         if (!subjectsList) {
              throw new Error("CRITICAL: Failed to load the main subjects list (subjects.json). Cannot proceed.");
         }
-        if (!adviceContent) {
-             console.warn("[App Initializer] Failed to load advice content. Proceeding without it.");
-        }
 
         // --- 3. Initialize UI Handlers & Utilities ---
         // These should generally be initialized regardless of state
         console.log('[App Initializer] Initializing UI components & handlers...');
-        initializeMainNavHandler();
-        initializeResponsiveNavHandler();
         initializeHomeButtonHandler();
         initializeContentNavigator(); // Navigator listeners needed
         initializeTabsController();   // Tabs component needs init for structure/listeners
@@ -92,20 +83,7 @@ async function initializeApplication() {
         preloadSounds();
         console.log('[App Initializer] UI components & handlers initialized.');
 
-        // --- 4. Populate Common/Static Content ---
-        // Display Advice (always shown in its own section)
-        const adviceContainer = document.getElementById('advice-content-display-area');
-        if (adviceContainer) {
-             if (adviceContent) {
-                  displayAdviceContent(adviceContent, adviceContainer);
-             } else {
-                  adviceContainer.innerHTML = '<p class="info-message">لم يتم تحميل نصائح الدراسة.</p>';
-             }
-        } else {
-            console.warn('[App Initializer] Advice container not found.');
-        }
-
-        // --- 5. Determine and Render Initial View ---
+        // --- 4. Determine and Render Initial View ---
         console.log('[App Initializer] Determining initial view...');
 
         if (requestedSectionId) {
@@ -114,19 +92,16 @@ async function initializeApplication() {
                 displaySubjectCards(subjectsList);
                 showMainContentSection(MAIN_SECTION_IDS.FLOW);
                 updateCardFlowView('subjects');
-                activateMainNavButton(MAIN_SECTION_IDS.FLOW);
             } else {
                 showMainContentSection(requestedSectionId);
-                activateMainNavButton(requestedSectionId);
             }
-        } else if (stateRestored && initialState.activeMainSectionId) {
+        } else if (stateRestored && sectionExists(initialState.activeMainSectionId)) {
             console.log(`[App Initializer] Restoring view based on sessionStorage: Section=${initialState.activeMainSectionId}, CardView=${initialState.currentCardView}`);
 
             // Ensure correct main section is visible
             showMainContentSection(initialState.activeMainSectionId);
 
             // Update main nav button active state
-            activateMainNavButton(initialState.activeMainSectionId);
 
             // Handle specific restored view
             switch (initialState.activeMainSectionId) {
@@ -154,7 +129,6 @@ async function initializeApplication() {
                                displaySubjectCards(subjectsList);
                                showMainContentSection(MAIN_SECTION_IDS.FLOW);
                                updateCardFlowView('subjects');
-                               activateMainNavButton(MAIN_SECTION_IDS.FLOW);
                           }
                      } else {
                           console.warn("[App Initializer] Cannot restore TABS view: Missing required IDs/Title in restored state. Falling back to default.");
@@ -162,19 +136,12 @@ async function initializeApplication() {
                           displaySubjectCards(subjectsList);
                           showMainContentSection(MAIN_SECTION_IDS.FLOW);
                           updateCardFlowView('subjects');
-                          activateMainNavButton(MAIN_SECTION_IDS.FLOW);
                      }
                     break;
 
-                // For other sections like Advice, Handwriting etc., just showing the section is enough.
-                case MAIN_SECTION_IDS.ADVICE:
-                case MAIN_SECTION_IDS.HANDWRITING:
+                // The chatbot section only needs to be shown.
                 case MAIN_SECTION_IDS.CHATBOT:
-                case MAIN_SECTION_IDS.ARABIC:
-                case MAIN_SECTION_IDS.SOURCES:
-                case MAIN_SECTION_IDS.CONTACT:
                     // showMainContentSection was already called.
-                    // activateMainNavButton was already called.
                     console.log(`[App Initializer] Restored to simple section: ${initialState.activeMainSectionId}`);
                     break;
 
@@ -184,7 +151,6 @@ async function initializeApplication() {
                      displaySubjectCards(subjectsList);
                      showMainContentSection(MAIN_SECTION_IDS.FLOW);
                      updateCardFlowView('subjects');
-                     activateMainNavButton(MAIN_SECTION_IDS.FLOW);
             }
 
         } else {
@@ -193,7 +159,6 @@ async function initializeApplication() {
             displaySubjectCards(subjectsList); // Display Subjects using the loaded list
             showMainContentSection(MAIN_SECTION_IDS.FLOW); // Show the card flow section
             updateCardFlowView('subjects'); // Show the 'subjects' view within the flow
-            activateMainNavButton(MAIN_SECTION_IDS.FLOW); // Highlight 'Subjects' nav button
             resetTabsComponent(); // Ensure tabs are in default state
         }
 
@@ -289,26 +254,6 @@ async function restoreCardFlowView(restoredState, subjectsList) {
              updateCardFlowView('subjects');
     }
 }
-
-/**
- * Updates the visual state of the main navigation buttons.
- * @param {string} activeSectionId - The ID (including '#') of the section whose button should be active.
- */
-function activateMainNavButton(activeSectionId) {
-     const mainNavContainer = document.querySelector('.main-nav-container .main-nav-links');
-     if (mainNavContainer) {
-          mainNavContainer.querySelectorAll('.main-nav-button').forEach(btn => {
-               if (btn.getAttribute('data-main-target') === activeSectionId) {
-                    btn.classList.add('active');
-               } else {
-                    btn.classList.remove('active');
-               }
-          });
-     } else {
-          console.warn("[App Initializer] Could not find main nav container to update active button state.");
-     }
-}
-
 
 // --- Start Initialization ---
 // Use DOMContentLoaded to ensure HTML is ready before manipulating it

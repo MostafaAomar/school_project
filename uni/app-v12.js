@@ -399,6 +399,25 @@
     showScreen("mode");
   }
 
+  // Download / update straight from the subject card (no confirmation popup).
+  async function v12DownloadFromCard(button, subjectId) {
+    const entry = v12FindCatalogEntry(subjectId);
+    if (!entry || entry.unavailable || downloadInProgress) return;
+    const installed = v12InstalledSubjects.get(subjectId);
+    if (installed && v12SubjectStatus(entry) !== "update") return;
+    const originalLabel = button.textContent;
+    button.disabled = true;
+    button.textContent = "جاري التنزيل…";
+    const ok = await downloadSubjectData(subjectId);
+    if (!ok) {
+      // The card list is only re-rendered on success, so restore this button.
+      button.disabled = false;
+      button.textContent = originalLabel;
+      const message = document.getElementById("download-status")?.textContent;
+      alert(message || "تعذر تنزيل المادة.");
+    }
+  }
+
   function v12CreateSubjectCard(entry) {
     const installed = v12InstalledSubjects.get(entry.id);
     const status = v12SubjectStatus(entry);
@@ -466,8 +485,8 @@
 
     const open = () => v12OpenInstalledSubject(entry.id);
     card.querySelector(".subject-open-btn")?.addEventListener("click", open);
-    card.querySelector(".subject-transfer-btn")?.addEventListener("click", () =>
-      openDownloadModal(entry.id),
+    card.querySelector(".subject-transfer-btn")?.addEventListener("click", (event) =>
+      v12DownloadFromCard(event.currentTarget, entry.id),
     );
     card.querySelector(".subject-remove-btn")?.addEventListener("click", () =>
       removeDownloadedSubject(entry.id),

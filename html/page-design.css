@@ -15,6 +15,8 @@ body.privacy-page {
 }
 
 body.handwrite-page button,
+.handwrite-page button,
+.arabic-page button,
 body.arabic-page button,
 body.chatbot-page button {
   min-height: 44px;
@@ -30,6 +32,8 @@ body.chatbot-page button {
 }
 
 body.handwrite-page button:hover,
+.handwrite-page button:hover,
+.arabic-page button:hover,
 body.arabic-page button:hover,
 body.chatbot-page button:hover {
   border-color: var(--theme-accent);
@@ -37,6 +41,8 @@ body.chatbot-page button:hover {
 }
 
 body.handwrite-page button:disabled,
+.handwrite-page button:disabled,
+.arabic-page button:disabled,
 body.arabic-page button:disabled,
 body.chatbot-page button:disabled {
   cursor: not-allowed;
@@ -462,7 +468,7 @@ body.chatbot-page button:disabled {
   border-color: var(--theme-accent);
 }
 
-.contact-page .modern-contact-section > .contact-subheading {
+.contact-page .modern-contact-section>.contact-subheading {
   margin: 0;
 }
 
@@ -476,7 +482,7 @@ body.chatbot-page button:disabled {
   box-shadow: 0 18px 48px var(--primary-glow);
 }
 
-.links-page .section-resources > .container {
+.links-page .section-resources>.container {
   max-width: none;
 }
 
@@ -493,7 +499,7 @@ body.chatbot-page button:disabled {
   min-height: 48px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 10px;
   border-radius: 14px;
   padding: 12px 16px;
@@ -542,11 +548,267 @@ body.chatbot-page button:disabled {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   body.handwrite-page *,
   body.arabic-page *,
   body.chatbot-page *,
   body.contact-page * {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* Direct-rendered platform pages (no nested iframe viewport). */
+.page-direct-content {
+  width: min(1120px, calc(100% - 32px));
+  margin: clamp(20px, 4vh, 48px) auto;
+}
+
+.links-page .section-dictionary {
+  width: min(1080px, 100%);
+  margin: 24px auto 0;
+  padding: clamp(20px, 4vw, 40px) !important;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface-raised) !important;
+  color: var(--ink);
+  box-shadow: 0 18px 48px var(--primary-glow);
+}
+
+.links-page .section-dictionary .container {
+  max-width: none;
+}
+
+.links-page .section-dictionary h3 {
+  color: var(--ink);
+}
+
+.links-page .dictionary-output {
+  min-height: 100px;
+  border-color: var(--line) !important;
+  background: var(--surface) !important;
+  color: var(--ink);
+}
+
+.handwrite-page .handwriting-container {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .page-direct-content {
+    width: calc(100% - 24px);
+    margin: 18px auto 28px;
+  }
+}
+
+@media (min-width: 601px) {
+  .contact-page .modern-contact-section {
+    min-height: calc(100vh - 190px);
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-page .modern-contact-section {
+    min-height: calc(100vh - 120px);
+  }
+}
+
+.contact-page .contact-footer-link {
+  color: var(--theme-accent-deep);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-page .contact-footer-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Writing page: user-selectable pen color and responsive canvas focus mode. */
+.handwrite-page .handwriting-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+
+.handwrite-page .pen-color-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--ink);
+  background: var(--surface-raised);
+  font-weight: 700;
+}
+
+.handwrite-page .pen-color-control input[type="color"] {
+  width: 36px;
+  height: 32px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.handwrite-page .pen-color-presets {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+}
+
+.handwrite-page .pen-color-swatch {
+  flex: 0 0 30px !important;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px !important;
+  padding: 0 !important;
+  border: 2px solid var(--line) !important;
+  border-radius: 50% !important;
+  background: var(--swatch-color) !important;
+  box-shadow: inset 0 0 0 2px var(--surface);
+}
+
+.handwrite-page .pen-color-swatch.is-selected {
+  outline: 2px solid var(--theme-accent);
+  outline-offset: 2px;
+}
+
+.handwrite-page .canvas-size-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-inline-start: auto;
+  color: var(--on-action) !important;
+  border-color: var(--action-bg) !important;
+  background: var(--action-bg) !important;
+  white-space: nowrap;
+}
+
+.handwrite-page .canvas-size-button:hover {
+  border-color: var(--action-hover) !important;
+  background: var(--action-hover) !important;
+}
+
+.handwrite-page .canvas-exit-button {
+  margin-inline-start: 0;
+}
+
+.handwrite-page [hidden] {
+  display: none !important;
+}
+
+.handwrite-page #handwriting-canvas {
+  min-height: 240px;
+}
+
+body.handwriting-focus-mode {
+  overflow: hidden !important;
+  overscroll-behavior: none;
+}
+
+.handwrite-page .handwriting-container.is-fullscreen {
+  position: fixed;
+  z-index: 10050;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  margin: 0;
+  padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: var(--surface);
+  box-shadow: none;
+}
+
+.handwrite-page .handwriting-container.is-fullscreen .handwriting-eyebrow {
+  display: none;
+}
+
+.handwrite-page .handwriting-container.is-fullscreen h3 {
+  flex: 0 0 auto;
+  margin: 0;
+  font-size: clamp(1.05rem, 2.5vh, 1.5rem);
+  line-height: 1.45;
+}
+
+.handwrite-page .handwriting-container.is-fullscreen .handwriting-toolbar {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.handwrite-page .handwriting-container.is-fullscreen #handwriting-canvas {
+  flex: 1 1 auto;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  max-height: none;
+}
+
+.handwrite-page .handwriting-container.is-fullscreen .controls {
+  flex: 0 0 auto;
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .handwrite-page .handwriting-toolbar {
+    gap: 8px;
+  }
+
+  .handwrite-page .canvas-size-button {
+    margin-inline-start: 0;
+    flex: 1 1 140px;
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen {
+    gap: 9px;
+    padding: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen .handwriting-toolbar {
+    gap: 7px;
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen .pen-color-control {
+    min-height: 40px;
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen .pen-color-presets {
+    gap: 6px;
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen .pen-color-swatch {
+    flex-basis: 26px !important;
+    width: 26px;
+    min-width: 26px;
+    height: 26px;
+    min-height: 26px !important;
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen #handwriting-canvas {
+    min-height: 80px;
+  }
+
+  .handwrite-page .handwriting-container.is-fullscreen .controls button {
+    flex-basis: 120px;
+    min-height: 42px;
+    padding: 8px 11px;
   }
 }
